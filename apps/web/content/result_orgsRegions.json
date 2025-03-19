@@ -1,157 +1,157 @@
 {
-  "Selva": {
+  "selva": {
     "cats": 6,
     "dogs": 3
   },
-  "Baix Empordà": {
+  "baix-emporda": {
     "cats": 8,
     "dogs": 5
   },
-  "Gironès": {
+  "girones": {
     "cats": 8,
     "dogs": 3
   },
-  "Garrotxa": {
+  "garrotxa": {
     "cats": 5,
     "dogs": 4
   },
-  "Ripollès": {
+  "ripolles": {
     "cats": 3,
     "dogs": 2
   },
-  "Pla de l'Estany": {
+  "pla-de-lestany": {
     "cats": 1,
     "dogs": 1
   },
-  "Alt Empordà": {
+  "alt-emporda": {
     "cats": 13,
     "dogs": 6
   },
-  "Alt Urgell": {
+  "alt-urgell": {
     "cats": 4,
     "dogs": 4
   },
-  "Cerdanya": {
+  "cerdanya": {
     "cats": 2,
     "dogs": 1
   },
-  "Baix Llobregat": {
+  "baix-llobregat": {
     "cats": 19,
     "dogs": 12
   },
-  "Maresme": {
+  "maresme": {
     "cats": 17,
     "dogs": 13
   },
-  "Vallès Occidental": {
+  "valles-occidental": {
     "cats": 16,
     "dogs": 10
   },
-  "Bages": {
+  "bages": {
     "cats": 6,
     "dogs": 3
   },
-  "Berguedà": {
+  "bergueda": {
     "cats": 3,
     "dogs": 2
   },
-  "Solsonès": {
+  "solsones": {
     "cats": 1,
     "dogs": 1
   },
-  "Segrià": {
+  "segria": {
     "cats": 4,
     "dogs": 4
   },
-  "Vallès Oriental": {
+  "valles-oriental": {
     "cats": 14,
     "dogs": 10
   },
-  "Alt Penedès": {
+  "alt-penedes": {
     "cats": 6,
     "dogs": 5
   },
-  "Anoia": {
+  "anoia": {
     "cats": 5,
     "dogs": 1
   },
-  "Moianès": {
+  "moianes": {
     "cats": 2,
     "dogs": 2
   },
-  "Osona": {
+  "osona": {
     "cats": 4,
     "dogs": 4
   },
-  "Tarragonès": {
+  "tarragones": {
     "cats": 8,
     "dogs": 2
   },
-  "Baix Penedès": {
+  "baix-penedes": {
     "cats": 7,
     "dogs": 7
   },
-  "Baix Camp": {
+  "baix-camp": {
     "cats": 4,
     "dogs": 3
   },
-  "Alt Camp": {
+  "alt-camp": {
     "cats": 6,
     "dogs": 1
   },
-  "Baix Ebre": {
+  "baix-ebre": {
     "cats": 4,
     "dogs": 2
   },
-  "Conca de Barberà": {
+  "conca-de-barbera": {
     "cats": 4,
     "dogs": 4
   },
-  "Garrigues": {
+  "garrigues": {
     "cats": 3,
     "dogs": 2
   },
-  "Noguera": {
+  "noguera": {
     "cats": 3,
     "dogs": 2
   },
-  "Montsià": {
+  "montsia": {
     "cats": 2,
     "dogs": 2
   },
-  "Ribera d'Ebre": {
+  "ribera-debre": {
     "cats": 4,
     "dogs": 2
   },
-  "Pallars Jussà": {
+  "pallars-jussa": {
     "cats": 2,
     "dogs": 0
   },
-  "Pallars Sobirà": {
+  "pallars-sobira": {
     "cats": 1,
     "dogs": 0
   },
-  "Pla d'Urgell": {
+  "pla-durgell": {
     "cats": 4,
     "dogs": 4
   },
-  "Segarra": {
+  "segarra": {
     "cats": 3,
     "dogs": 1
   },
-  "Urgell": {
+  "urgell": {
     "cats": 5,
     "dogs": 1
   },
-  "Barcelonès": {
+  "barcelones": {
     "cats": 17,
     "dogs": 9
   },
-  "Garraf": {
+  "garraf": {
     "cats": 8,
     "dogs": 3
   },
-  "Lluçanès": {
+  "llucanes": {
     "cats": 1,
     "dogs": 1
   }
