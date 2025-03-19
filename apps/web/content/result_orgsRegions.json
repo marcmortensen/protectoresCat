@@ -1,0 +1,158 @@
+{
+  "Selva": {
+    "cats": 6,
+    "dogs": 3
+  },
+  "Baix Empordà": {
+    "cats": 8,
+    "dogs": 5
+  },
+  "Gironès": {
+    "cats": 8,
+    "dogs": 3
+  },
+  "Garrotxa": {
+    "cats": 5,
+    "dogs": 4
+  },
+  "Ripollès": {
+    "cats": 3,
+    "dogs": 2
+  },
+  "Pla de l'Estany": {
+    "cats": 1,
+    "dogs": 1
+  },
+  "Alt Empordà": {
+    "cats": 13,
+    "dogs": 6
+  },
+  "Alt Urgell": {
+    "cats": 4,
+    "dogs": 4
+  },
+  "Cerdanya": {
+    "cats": 2,
+    "dogs": 1
+  },
+  "Baix Llobregat": {
+    "cats": 19,
+    "dogs": 12
+  },
+  "Maresme": {
+    "cats": 17,
+    "dogs": 13
+  },
+  "Vallès Occidental": {
+    "cats": 16,
+    "dogs": 10
+  },
+  "Bages": {
+    "cats": 6,
+    "dogs": 3
+  },
+  "Berguedà": {
+    "cats": 3,
+    "dogs": 2
+  },
+  "Solsonès": {
+    "cats": 1,
+    "dogs": 1
+  },
+  "Segrià": {
+    "cats": 4,
+    "dogs": 4
+  },
+  "Vallès Oriental": {
+    "cats": 14,
+    "dogs": 10
+  },
+  "Alt Penedès": {
+    "cats": 6,
+    "dogs": 5
+  },
+  "Anoia": {
+    "cats": 5,
+    "dogs": 1
+  },
+  "Moianès": {
+    "cats": 2,
+    "dogs": 2
+  },
+  "Osona": {
+    "cats": 4,
+    "dogs": 4
+  },
+  "Tarragonès": {
+    "cats": 8,
+    "dogs": 2
+  },
+  "Baix Penedès": {
+    "cats": 7,
+    "dogs": 7
+  },
+  "Baix Camp": {
+    "cats": 4,
+    "dogs": 3
+  },
+  "Alt Camp": {
+    "cats": 6,
+    "dogs": 1
+  },
+  "Baix Ebre": {
+    "cats": 4,
+    "dogs": 2
+  },
+  "Conca de Barberà": {
+    "cats": 4,
+    "dogs": 4
+  },
+  "Garrigues": {
+    "cats": 3,
+    "dogs": 2
+  },
+  "Noguera": {
+    "cats": 3,
+    "dogs": 2
+  },
+  "Montsià": {
+    "cats": 2,
+    "dogs": 2
+  },
+  "Ribera d'Ebre": {
+    "cats": 4,
+    "dogs": 2
+  },
+  "Pallars Jussà": {
+    "cats": 2,
+    "dogs": 0
+  },
+  "Pallars Sobirà": {
+    "cats": 1,
+    "dogs": 0
+  },
+  "Pla d'Urgell": {
+    "cats": 4,
+    "dogs": 4
+  },
+  "Segarra": {
+    "cats": 3,
+    "dogs": 1
+  },
+  "Urgell": {
+    "cats": 5,
+    "dogs": 1
+  },
+  "Barcelonès": {
+    "cats": 17,
+    "dogs": 9
+  },
+  "Garraf": {
+    "cats": 8,
+    "dogs": 3
+  },
+  "Lluçanès": {
+    "cats": 1,
+    "dogs": 1
+  }
+}

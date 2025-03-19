@@ -1,0 +1,128 @@
+import { describe, expect, it } from 'vitest';
+import { organizations } from '../../src/organization.js';
+import {
+  municipalityToRegion,
+  regionToProvince,
+} from '../../src/utils/locations.js';
+
+describe('organizations', () => {
+  it('checks duplicates', async () => {
+    for (const org of organizations) {
+      expect(organizations.filter((o) => o.id === org.id)).toHaveLength(1);
+      if (org.associativeInscriptionNumber) {
+        expect(
+          organizations.filter(
+            (o) =>
+              o.associativeInscriptionNumber &&
+              o.associativeInscriptionNumber ===
+                org.associativeInscriptionNumber,
+          ),
+        ).toHaveLength(1);
+      }
+      if (org.contactEmail) {
+        expect(
+          organizations.filter(
+            (o) => o.contactEmail && o.contactEmail === org.contactEmail,
+          ),
+        ).toHaveLength(1);
+      }
+      if (org.website) {
+        expect(
+          organizations.filter((o) => o.website && o.website === org.website),
+        ).toHaveLength(1);
+      }
+      if (org.name) {
+        expect(organizations.filter((o) => o.name === org.name)).toHaveLength(
+          1,
+        );
+      }
+      if (org.description) {
+        expect(
+          organizations.filter((o) => o.description === org.description),
+        ).toHaveLength(1);
+      }
+      if (org.contactPhone) {
+        expect(
+          organizations.filter((o) => o.contactPhone === org.contactPhone),
+        ).toHaveLength(1);
+      }
+      if (org.contactPhone2) {
+        expect(
+          organizations.filter((o) => o.contactPhone2 === org.contactPhone2),
+        ).toHaveLength(1);
+      }
+      if (org.shelter && org.shelter.length > 0) {
+        for (const shelter of org.shelter) {
+          if (shelter.phone) {
+            expect(
+              organizations.filter(
+                (o) =>
+                  o.shelter &&
+                  o.shelter.some((s) => s.phone && s.phone === shelter.phone),
+              ),
+            ).toHaveLength(1);
+          }
+        }
+      }
+      if (org.idZoologicalNucleus) {
+        expect(
+          organizations.filter(
+            (o) => o.idZoologicalNucleus === org.idZoologicalNucleus,
+          ),
+        ).toHaveLength(1);
+      }
+    }
+  });
+  it('checks data', async () => {
+    const phoneRegex = /^\d{9}$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const urlRegex = /^(http|https):\/\/[^ "]+$/;
+    for (const org of organizations) {
+      if (org.contactPhone) {
+        expect(org.contactPhone).toMatch(phoneRegex);
+      }
+      if (org.contactPhone2) {
+        expect(org.contactPhone2).toMatch(phoneRegex);
+      }
+      if (org.whatsAppPhone) {
+        expect(org.whatsAppPhone).toMatch(phoneRegex);
+      }
+      if (org.shelter) {
+        for (const shelter of org.shelter) {
+          if (shelter.phone) expect(shelter.phone).toMatch(phoneRegex);
+        }
+      }
+      if (org.contactEmail !== undefined) {
+        expect(org.contactEmail).toMatch(emailRegex);
+      }
+      if (org.website !== undefined) {
+        expect(org.website).toMatch(urlRegex);
+      }
+      if (org.socials?.facebook) {
+        expect(org.socials.facebook).toContain('https://www.facebook.com/');
+      }
+      if (org.socials?.instagram) {
+        expect(org.socials.instagram).toContain('https://www.instagram.com/');
+      }
+      if (org.socials?.tikTok) {
+        expect(org.socials.tikTok).toContain('https://www.tiktok.com/');
+      }
+      expect(org.province).toBe(regionToProvince[org.region]);
+      expect(org.region).toBe(municipalityToRegion[org.municipality]);
+    }
+  });
+  it.skip('checks logos', { timeout: 80000 }, async () => {
+    for (const org of organizations) {
+      if (org.logo !== undefined) {
+        try {
+          const response = await fetch(org.logo, { method: 'HEAD' });
+          if (!response.ok) console.log('Error Fetching: ' + org.logo);
+          expect(response.ok).toBe(true);
+          expect(response.headers.get('content-type')).toContain('image');
+        } catch (e) {
+          console.error(`Error fetching logo for ${org.name}:`, e);
+        }
+      }
+    }
+  });
+});

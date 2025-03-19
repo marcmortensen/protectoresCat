@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"name": "Monorepo root",
+			"path": "./"
+		},
+		{
+			"name": "[package] Shelters",
+			"path": "./packages/shelters"
+		},
+		{
+			"name": "[app] web",
+			"path": "./apps/web"
+		},
+	],
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		},
+		"editor.tabSize": 2,
+		"files.eol": "\n",
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"vitest.debugExclude": [
+			"<node_internals>/**",
+			"**/node_modules/**",
+			"**/*.ct.spec.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
+		],
+		"files.associations": {
+			"*.css": "tailwindcss"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"vue.volar",
+			"bradlc.vscode-tailwindcss",
+			"esbenp.prettier-vscode",
+			"dbaeumer.vscode-eslint",
+			"vitest.explorer",
+			"antfu.goto-alias",
+		]
+	}
+}
