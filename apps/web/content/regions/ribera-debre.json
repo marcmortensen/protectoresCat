@@ -1,0 +1,13 @@
+{
+  "name": "Ribera d'Ebre",
+  "slug": "ribera-debre",
+  "connectedTo": [
+    "segrià",
+    "baix-ebre",
+    "terra-alta",
+    "baix-camp",
+    "garrigues",
+    "priorat"
+  ],
+  "province": "tarragona"
+}

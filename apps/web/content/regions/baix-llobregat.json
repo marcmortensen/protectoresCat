@@ -1,0 +1,13 @@
+{
+  "name": "Baix Llobregat",
+  "slug": "baix-llobregat",
+  "connectedTo": [
+    "anoia",
+    "barcelones",
+    "valles-occidental",
+    "garraf",
+    "alt-penedes",
+    "bages"
+  ],
+  "province": "barcelona"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pallars Sobirà",
+  "slug": "pallars-sobira",
+  "connectedTo": [
+    "alt-urgell",
+    "pallars-jussa",
+    "alta-ribagorca",
+    "aran"
+  ],
+  "province": "lleida"
+}

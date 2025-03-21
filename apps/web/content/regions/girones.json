@@ -1,0 +1,12 @@
+{
+  "name": "Gironès",
+  "slug": "girones",
+  "connectedTo": [
+    "alt-emporda",
+    "baix-emporda",
+    "pla-de-lestany",
+    "selva",
+    "garrotxa"
+  ],
+  "province": "girona"
+}

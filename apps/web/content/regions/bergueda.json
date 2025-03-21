@@ -1,0 +1,14 @@
+{
+  "name": "Berguedà",
+  "slug": "bergueda",
+  "connectedTo": [
+    "cerdanya",
+    "solsones",
+    "alt-urgell",
+    "bages",
+    "ripolles",
+    "osona",
+    "llucanes"
+  ],
+  "province": "barcelona"
+}

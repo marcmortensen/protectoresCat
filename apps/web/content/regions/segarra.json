@@ -1,0 +1,12 @@
+{
+  "name": "Segarra",
+  "slug": "segarra",
+  "connectedTo": [
+    "anoia",
+    "noguera",
+    "urgell",
+    "conca-de-barbera",
+    "solsones"
+  ],
+  "province": "lleida"
+}

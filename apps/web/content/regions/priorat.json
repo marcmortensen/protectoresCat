@@ -1,0 +1,11 @@
+{
+  "name": "Priorat",
+  "slug": "priorat",
+  "connectedTo": [
+    "conca-de-barbera",
+    "ribera-debre",
+    "baix-camp",
+    "garrigues"
+  ],
+  "province": "tarragona"
+}

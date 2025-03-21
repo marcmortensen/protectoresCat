@@ -1,0 +1,14 @@
+{
+  "name": "Noguera",
+  "slug": "noguera",
+  "connectedTo": [
+    "segrià",
+    "pla-durgell",
+    "urgell",
+    "segarra",
+    "solsones",
+    "alt-urgell",
+    "pallars-jussa"
+  ],
+  "province": "lleida"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Pla de l'Estany",
+  "slug": "pla-de-lestany",
+  "connectedTo": [
+    "alt-emporda",
+    "garrotxa",
+    "girones"
+  ],
+  "province": "girona"
+}

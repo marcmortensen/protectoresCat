@@ -1,0 +1,15 @@
+{
+  "name": "Osona",
+  "slug": "osona",
+  "connectedTo": [
+    "ripolles",
+    "bages",
+    "bergueda",
+    "moianes",
+    "valles-oriental",
+    "garrotxa",
+    "selva",
+    "llucanes"
+  ],
+  "province": "barcelona"
+}

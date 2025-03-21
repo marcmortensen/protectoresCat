@@ -1,0 +1,22 @@
+{
+  "id": "afae631c",
+  "name": "Associació en Defensa Animals Canyelles",
+  "shortName": "ADAC",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "animalscanyelles@gmail.com",
+  "region": "garraf",
+  "province": "barcelona",
+  "municipality": "Canyelles",
+  "description": "Associació sense ànim de lucre, dedicada a tots els animals abandonats. Castracions de les colònies de gats a Canyelles, col·laborem amb diverses protectores d'animals portant-hi pinso, tenim animals en acollida de biberó, amb problemes de salut, pendents de tenir una casa d'adopció.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/3/3/1/3/0/w3ygrfortw.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/adac_canyelles/",
+  "associativeInscriptionNumber": "47238",
+  "dateOfInscription": "2012-03-02:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/adac_canyelles/",
+    "facebook": "https://www.facebook.com/profile.php?id=100004349085094"
+  }
+}

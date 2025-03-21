@@ -1,0 +1,23 @@
+{
+  "id": "51bee492",
+  "name": "Associació Protectora d'Animals El Cau Amic",
+  "shortName": "El Cau Amic",
+  "contactEmail": "info@cauamic.cat",
+  "logo": "https://www.cauamic.cat/wp-content/uploads/2024/01/Logo-Cau-Prote-Quadrat.png",
+  "website": "https://www.cauamic.cat/",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "description": "El CAU AMIC és una associació, grup d’amics dels animals, que voluntàriament i de forma altruista dóna auxili i acollida temporal a animals que ho necessiten. Som l’Associació Protectora, que rescatem i cuidem gats, gossos i altres animals abandonats a Sant Cugat del Vallès, Mira-sol, La Floresta, Valldoreix i Les Planes. El Cau Amic és el seu refugi. Els estimem, els passegem, els cuidem i els reeduquem per a que puguin tenir una segona oportunitat en una bona família",
+  "adoptAnimalsURL": "https://www.cauamic.cat/adopcions/gossos/",
+  "associativeInscriptionNumber": "18367",
+  "animalFocus": "cats&dogs",
+  "municipality": "Sant Cugat del Vallès",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "1996-07-16T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/el_cau_amic_oficial/",
+    "facebook": "https://www.facebook.com/cauamicsantcugat/"
+  }
+}

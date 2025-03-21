@@ -1,0 +1,21 @@
+{
+  "id": "b675d16a",
+  "name": "Nueva Asociación Protectora de Animales",
+  "shortName": "NAPA",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "napaanimales@gmail.com",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "municipality": "Cunit",
+  "description": "NAPA és una entitat sense ànim de lucre, de Tarragona, la missió de la qual és aconseguir una família als animals abandonats i maltractats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://cdn.sukycms.com/shelters/59/images/spnYbXFEs0Lt7kg9BAi4wurfk1NrybnHvQe82Gcx.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/NAPAnimales/",
+  "associativeInscriptionNumber": "50526",
+  "dateOfInscription": "2013-06-11T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/NAPAnimales/"
+  }
+}

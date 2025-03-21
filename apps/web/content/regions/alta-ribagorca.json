@@ -1,0 +1,10 @@
+{
+  "name": "Alta Ribagorça",
+  "slug": "alta-ribagorca",
+  "connectedTo": [
+    "pallars-sobira",
+    "aran",
+    "pallars-jussa"
+  ],
+  "province": "lleida"
+}

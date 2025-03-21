@@ -1,0 +1,25 @@
+{
+  "id": "cf0acb8d",
+  "name": "Associació El Jardinet del Gats",
+  "shortName": "El Jardinet del Gats",
+  "animalFocus": "cats",
+  "contactEmail": "eljardinetdelsgatsadopcions@gmail.com",
+  "region": "barcelones",
+  "contactPhone": "636382194",
+  "whatsAppPhone": "636382194",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "socials": {
+    "instagram": "https://www.instagram.com/eljardinetdelsgats",
+    "facebook": "https://www.facebook.com/ElJardinetdelsGats"
+  },
+  "description": "Som una entitat sense ànim de lucre fundada el 2008, nascuda d'un projecte iniciat el 2004, amb l'objectiu de cuidar i protegir els gats de carrer i abandonats de Ciutat Vella. Un equip de voluntaris treballa de manera desinteressada per millorar la seva qualitat de vida i benestar.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-11T00:00:00.000Z",
+  "logo": "https://www.eljardinetdelsgats.org/wp-content/themes/generatepress/img/logo.png",
+  "website": "https://www.eljardinetdelsgats.org/ca/",
+  "adoptAnimalsURL": "https://www.eljardinetdelsgats.org/ca/category/per-adoptar/",
+  "associativeInscriptionNumber": "36082",
+  "dateOfInscription": "2008-02-01T00:00:00.000Z"
+}

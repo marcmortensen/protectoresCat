@@ -1,0 +1,15 @@
+{
+  "name": "Bages",
+  "slug": "bages",
+  "connectedTo": [
+    "anoia",
+    "valles-occidental",
+    "moianes",
+    "baix-llobregat",
+    "osona",
+    "solsones",
+    "bergueda",
+    "llucanes"
+  ],
+  "province": "barcelona"
+}

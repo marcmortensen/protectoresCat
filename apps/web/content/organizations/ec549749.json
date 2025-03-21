@@ -1,0 +1,24 @@
+{
+  "id": "ec549749",
+  "name": "Associació de Rescat i Defensa Animal ARDA",
+  "shortName": "ARDA",
+  "logo": "https://arda.es/_mibambu/_arda/imas/logo.jpg",
+  "contactEmail": "arda.associacio@gmail.com",
+  "contactPhone": "675652289",
+  "whatsAppPhone": "661663083",
+  "website": "https://arda.es/",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "description": "ARDA va ser fundada per rescatar gossos abandonats. Al principi només treballava amb cases d'acollida i amb algun voluntari, però quan va començar a veure que els gossos grans, més vells i adults o malalts no tenien gairebé oportunitats, crec el projecte de LA CASITA D'ARDA. Aquest projecte va ser difícil començar-lo, però amb uns anys treballant dur, es va crear LA CASETA D'ARDA, un espai per a ells, destinat a donar-los una llar temporal, lliure de gàbies, on viure tranquils, vivint en rajada amb totes les comoditats possibles i cures necessaris, i vivint en un entorn amb prou espai on poder jugar, córrer i viure en llibertat, envoltats d'afecte, on visquessin els nostres rescatats de la manera més còmoda i la més semblant a una llar, amb lajuda de voluntaris. Amb el temps, aquesta gran família ha crescut molt i actualment LA CASETA D'ARDA cuida i protegeix 59 gossos de diferents edats i mides, els quals en aquest ambient viuen feliços, mentre esperen la seva oportunitat de trobar una família.",
+  "animalFocus": "dogs",
+  "adoptAnimalsURL": "https://arda.es/listado",
+  "municipality": "el Vendrell",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "53866",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2014-08-14T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/arda.associacio"
+  }
+}

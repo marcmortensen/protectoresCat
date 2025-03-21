@@ -1,0 +1,23 @@
+{
+  "id": "006df9d2",
+  "name": "Associació Sakura Paradise Sanctuary",
+  "shortName": "Sakura Paradise",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "sakuradelparaiso@gmail.com",
+  "whatsAppPhone": "674493311",
+  "region": "garrigues",
+  "province": "lleida",
+  "municipality": "Cervià de les Garrigues",
+  "description": "Després de més de 25 anys ajudant animals en dificultats vaig decidir crear el nostre santuari per així poder ajudar molts més éssers necessitats. Per a nosaltres ja s'ha convertit en una missió salvar tots els angelets que puguem i donar-los la millor vida possible. Som un santuari petit però amb moltes ganes i grans objectius per ajudar els animals, per la qual cosa ens aniria molt bé la vostra ajuda.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/8/9/6/9/1/toqqboens2.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/sakuraparadisesanctuary/",
+  "associativeInscriptionNumber": "71723",
+  "dateOfInscription": "2022-09-26T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/sakuraparadisesanctuary/",
+    "facebook": "https://www.facebook.com/profile.php?id=100078265972964"
+  }
+}

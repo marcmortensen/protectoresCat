@@ -1,0 +1,13 @@
+{
+  "name": "Alt Urgell",
+  "slug": "alt-urgell",
+  "connectedTo": [
+    "cerdanya",
+    "bergueda",
+    "solsones",
+    "noguera",
+    "pallars-jussa",
+    "pallars-sobira"
+  ],
+  "province": "lleida"
+}

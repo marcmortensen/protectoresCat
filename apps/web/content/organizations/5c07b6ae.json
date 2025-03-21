@@ -1,0 +1,23 @@
+{
+  "id": "5c07b6ae",
+  "name": "Fundació Privada Fauna",
+  "shortName": "Fundació Fauna",
+  "contactEmail": "info@fundaciofauna.org",
+  "animalFocus": "cats",
+  "region": "garrotxa",
+  "province": "girona",
+  "municipality": "la Vall d'en Bas",
+  "description": "Fundació Fauna és una entitat sense ànim de lucre, i col·laboradora del Departament de Medi Natural, centrada en el foment per a la protecció i benestar dels animals. La fundació està dirigida per un patronat que coordina totes les activitats i projectes. Fundació Fauna treballa per fomentar el respecte als animals i al medi ambient i per aconseguir generar una actitud d’estima vers la natura en el seu conjunt, és a dir, la fauna i la flora, i el paisatge que configuren en cada fragment del territori.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://static.wixstatic.com/media/f5cc73_4ab09f3436464eab948a55fa814eb47f~mv2.png",
+  "website": "https://fundaciofauna.wixsite.com/fundaciofauna",
+  "adoptAnimalsURL": "https://www.instagram.com/fundaciofauna/",
+  "associativeInscriptionNumber": "2199",
+  "dateOfInscription": "2006-05-11:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/fundaciofauna/",
+    "facebook": "https://www.facebook.com/fundaciofauna"
+  }
+}

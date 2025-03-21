@@ -1,0 +1,12 @@
+{
+  "name": "Lluçanès",
+  "slug": "llucanes",
+  "connectedTo": [
+    "osona",
+    "bages",
+    "bergueda",
+    "ripolles",
+    "moianes"
+  ],
+  "province": "barcelona"
+}

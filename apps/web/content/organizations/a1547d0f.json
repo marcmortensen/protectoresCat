@@ -1,0 +1,20 @@
+{
+  "id": "a1547d0f",
+  "name": "Associació Amics dels Animals de Canyelles Huellas Felices",
+  "shortName": "Huellas Felices",
+  "animalFocus": "cats",
+  "region": "garraf",
+  "province": "barcelona",
+  "municipality": "Canyelles",
+  "description": "Huellas Felices de Canyelles (Garraf). Cuidem, alimentem, esterilitzem, i ens encarreguem de les cures veterinàries, i que tinguin la millor vida possible els gats. Actualment tenim 300 gats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices",
+  "associativeInscriptionNumber": "57985",
+  "dateOfInscription": "2016-02-17:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices",
+    "instagram": "https://www.instagram.com/huellasfelicescanyelles/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "3ea7fdd9",
+  "name": "Associació Malugats",
+  "shortName": "Malugats",
+  "animalFocus": "cats",
+  "contactEmail": "colonia.malugats@gmail.com",
+  "contactPhone": "641175396",
+  "whatsAppPhone": "641175396",
+  "region": "garraf",
+  "province": "barcelona",
+  "municipality": "Vilanova i la Geltrú",
+  "description": "Malugats és una colònia de gatets que neix de la necessitat d'alimentar els nostres “veïns no humans” que viuen en situacions deplorables al carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/9/4/5/2/aobtouzc77.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/colonia.malugats/",
+  "associativeInscriptionNumber": "68588",
+  "dateOfInscription": "2020-12-23:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/colonia.malugats/",
+    "facebook": "https://www.facebook.com/profile.php?id=100078863536614"
+  }
+}

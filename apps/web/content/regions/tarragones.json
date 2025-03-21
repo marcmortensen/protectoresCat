@@ -1,0 +1,10 @@
+{
+  "name": "Tarragonès",
+  "slug": "tarragones",
+  "connectedTo": [
+    "baix-camp",
+    "alt-camp",
+    "baix-penedes"
+  ],
+  "province": "tarragona"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Alt Empordà",
+  "slug": "alt-emporda",
+  "connectedTo": [
+    "baix-emporda",
+    "garrotxa",
+    "girones",
+    "pla-de-lestany"
+  ],
+  "province": "girona"
+}

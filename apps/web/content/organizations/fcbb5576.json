@@ -1,0 +1,24 @@
+{
+  "id": "fcbb5576",
+  "name": "Associació Espargats",
+  "shortName": "Espargats",
+  "contactEmail": "espargats@gmail.com",
+  "contactPhone": "625017077",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/6/8/4/9/6/large_hbty1yulbj.jpg",
+  "website": "https://www.espargats.com/",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "description": "Som una associació sense ànim de lucre, formada per voluntaris i voluntàries, creada per gestionar i controlar les colònies de gats d'Esparreguera (Barcelona). També rescatem gats que han estat abandonats o que viuen al carrer i els busquem una llar mitjançant adopcions responsables.",
+  "adoptAnimalsURL": "https://www.espargats.com/adopta/nuestros-gatos/",
+  "associativeInscriptionNumber": "65367",
+  "dateOfInscription": "2019-03-26T00:00:00.000Z",
+  "animalFocus": "cats",
+  "municipality": "Esparreguera",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/espargats/",
+    "facebook": "https://www.facebook.com/espargats"
+  }
+}

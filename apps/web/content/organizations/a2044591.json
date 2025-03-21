@@ -1,0 +1,22 @@
+{
+  "id": "a2044591",
+  "name": "Associació SOS Bigotis",
+  "shortName": "SOS Bigotis",
+  "animalFocus": "cats",
+  "whatsAppPhone": "611262013",
+  "contactEmail": "sosbigotisbalaguer@gmail.com",
+  "region": "noguera",
+  "province": "lleida",
+  "municipality": "Balaguer",
+  "socials": {
+    "instagram": "https://www.instagram.com/sosbigotis/"
+  },
+  "description": "Som un grup de voluntaris que ens hem unit per a vetllar pel benestar dels gats de carrer del nostre municipi. Ens hem constituït com associació sense ànim de lucre per a la realització del mètode C.E.R. (Captura, Esterilització i Retorn) i per a garantir la gestió ètica de les colònies felines. No disposem de refugi. Els diners recaptats es destinen a alimentació i despeses veterinàries.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-12T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/5/9/2/3/09suofomcf.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/sosbigotis/",
+  "associativeInscriptionNumber": "71828",
+  "dateOfInscription": "2022-10-11T00:00:00.000Z"
+}

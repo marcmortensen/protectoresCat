@@ -1,0 +1,13 @@
+{
+  "name": "Garrotxa",
+  "slug": "garrotxa",
+  "connectedTo": [
+    "alt-emporda",
+    "girones",
+    "selva",
+    "osona",
+    "pla-de-lestany",
+    "ripolles"
+  ],
+  "province": "girona"
+}

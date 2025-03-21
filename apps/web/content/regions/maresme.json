@@ -1,0 +1,10 @@
+{
+  "name": "Maresme",
+  "slug": "maresme",
+  "connectedTo": [
+    "selva",
+    "valles-oriental",
+    "barcelones"
+  ],
+  "province": "barcelona"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "7f6c978d",
+  "name": "Associació Daya Cervelló",
+  "shortName": "Daya Cervelló",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "info@dayacervello.org",
+  "contactPhone": "608522724",
+  "contactPhone2": "636794013",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "Bigues i Riells del Fai",
+  "description": "DAYA CERVELLÓ és una entitat legalment constituïda, integrada pels voluntaris i cuidadors del refugi SANTUARI DE CERVELLÓ. El nostre objectiu és oferir la millor qualitat de vida possible als gossos i gats que tenim acollits, als que trobaran aviat una família d'adopció, i als que mai no tindran una llar perquè són grans o estan malalts.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "http://www.dayacervello.org/wp-content/uploads/2017/12/logo_vectorized.png",
+  "website": "http://www.dayacervello.org/santuario/",
+  "adoptAnimalsURL": "https://www.instagram.com/santuaridaya",
+  "associativeInscriptionNumber": "52123",
+  "dateOfInscription": "2014-01-28T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100070040460948#",
+    "instagram": "https://www.instagram.com/santuaridaya"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "43e48913",
+  "name": "Asociación Protectora de Animales y Plantas Baix Llobregat",
+  "shortName": "Proaniplan",
+  "contactEmail": "proaniplanprotectora@gmail.com",
+  "animalFocus": "cats",
+  "whatsAppPhone": "615837950",
+  "contactPhone": "615837950",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Castelldefels",
+  "description": "Som la primera associació protectora d´animals a Castelldefels. Aquesta associació sense ànim de lucre va néixer fa 16 anys per ajudar i protegir els gats de carrer. Esterilitzem, alimentem, controlem colònies, assistim a atropellats i malalts en tot el necessari i en cuidem fins a trobar-los una llar. Tota ajuda rebuda és necessària.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/3/0/6/7/0/a737fsmaep.jpg",
+  "website": "https://sites.google.com/view/proaniplan",
+  "adoptAnimalsURL": "https://www.instagram.com/proaniplanprotectora/",
+  "associativeInscriptionNumber": "43808",
+  "dateOfInscription": "2010-12-14:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/proaniplanprotectora/",
+    "facebook": "https://www.facebook.com/ProtectoraDeAnimalesYPlantas/"
+  }
+}

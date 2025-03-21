@@ -1,0 +1,23 @@
+{
+  "id": "2c708722",
+  "name": "Rodagat Protegim el Gat de Carrer",
+  "shortName": "Rodagat",
+  "contactEmail": "infogat@rodagat.org",
+  "animalFocus": "cats",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipality": "Roda de Berà",
+  "description": "Som una associació de persones sense ànim de lucre, que dedica els seus esforços i bona voluntat a millorar la qualitat de vida dels gats de carrer a través d'una correcte gestió de les colònies, l'esterilització i el control d'aquests animals, evitant així el seu sacrifici.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrriz-Gg12Vzdj57LC3ce8UzTo4HUMvrTPo6oVi6h6KwJR1mwwZUSzrNPtxoVY6QTr0rGst-QeIgduCEVPfUlnx0Gprvwk5ziA-QHMSONJmr0XQ2dpnoZyHMPcYuPveRY64dHc-eKbkufR/s400/logotip_01.jpg",
+  "website": "https://www.rodagat.org/",
+  "adoptAnimalsURL": "https://www.facebook.com/rodagat",
+  "associativeInscriptionNumber": "31797",
+  "dateOfInscription": "2006-02-28:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/rodagat",
+    "instagram": "https://www.instagram.com/associaciorodagat/"
+  }
+}

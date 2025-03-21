@@ -1,0 +1,10 @@
+{
+  "name": "Cerdanya",
+  "slug": "cerdanya",
+  "connectedTo": [
+    "ripolles",
+    "bergueda",
+    "alt-urgell"
+  ],
+  "province": "girona"
+}

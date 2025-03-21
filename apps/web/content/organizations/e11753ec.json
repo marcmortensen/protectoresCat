@@ -1,0 +1,22 @@
+{
+  "id": "e11753ec",
+  "name": "Associació Protectora d'Animals Peluts Lliçà",
+  "shortName": "Peluts Lliçà",
+  "animalFocus": "cats",
+  "contactEmail": "adopciones@peluts.cat",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "Lliçà d'Amunt",
+  "socials": {
+    "instagram": "https://www.instagram.com/pelutsllica/"
+  },
+  "description": "Som una associació de voluntaris de Lliçà d’Amunt que protegeix els animals. Ens dediquem al control de colònies de gats mitjançant el mètode CER (Captura, Esterilitza i Retorna). Quan trobem cadells, els recollim i els busquem cases d’acollida. També oferim assistència veterinària a gats ferits al carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-11T00:00:00.000Z",
+  "logo": "https://peluts.cat/wp-content/uploads/2020/07/cropped-logo-peluts-rodo-e1595254190726-1.png",
+  "website": "https://peluts.cat/",
+  "adoptAnimalsURL": "https://www.instagram.com/pelutsllica/",
+  "associativeInscriptionNumber": "64051",
+  "dateOfInscription": "2018-09-17T00:00:00.000Z"
+}

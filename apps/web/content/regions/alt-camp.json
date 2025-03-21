@@ -1,0 +1,13 @@
+{
+  "name": "Alt Camp",
+  "slug": "alt-camp",
+  "connectedTo": [
+    "conca-de-barbera",
+    "baix-penedes",
+    "tarragones",
+    "alt-penedes",
+    "anoia",
+    "baix-camp"
+  ],
+  "province": "tarragona"
+}

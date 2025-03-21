@@ -1,0 +1,31 @@
+{
+  "id": "42beb6c3",
+  "name": "Defensa dels animals i la naturalesa (DANA)",
+  "shortName": "DANA",
+  "contactPhone": "657566530",
+  "contactEmail": "dana.teia@yahoo.es",
+  "logo": "https://www.protectoradana.org/wp-content/uploads/2019/04/logo_transp.png",
+  "website": "https://www.protectoradana.org/",
+  "region": "maresme",
+  "province": "barcelona",
+  "description": "DANA és una associació sense ànim de lucre, fundada fa més de 17anys, que té com a objectiu per donar una llar als animals que tenim en el refugi. Tenim acollits gossos i gats als quals els voluntaris i voluntàries de Dana cuidem els 365 dies de l’any. Els nostres animals surten del refugi amb xip, vacunats, desparasitats i esterilitzats.",
+  "adoptAnimalsURL": "https://www.protectoradana.org/gossos/",
+  "shelter": [
+    {
+      "adress": "Torrent Dr. Barrera 125, disseminat, 20, 08329 Teià, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/ipbuZvySfgTQfBc87",
+      "phone": "657566530",
+      "openingHoursURL": "https://maps.app.goo.gl/ipbuZvySfgTQfBc87"
+    }
+  ],
+  "animalFocus": "cats&dogs",
+  "idZoologicalNucleus": "B25/00667",
+  "municipality": "Teià",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/protectoradanateia",
+    "instagram": "https://www.instagram.com/protectoradanaorg"
+  }
+}

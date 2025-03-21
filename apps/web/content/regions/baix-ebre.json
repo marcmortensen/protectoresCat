@@ -1,0 +1,11 @@
+{
+  "name": "Baix Ebre",
+  "slug": "baix-ebre",
+  "connectedTo": [
+    "montsia",
+    "baix-camp",
+    "ribera-debre",
+    "terra-alta"
+  ],
+  "province": "tarragona"
+}

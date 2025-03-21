@@ -1,0 +1,21 @@
+{
+  "id": "35c0ec05",
+  "name": "Associació Progat la Garriga",
+  "shortName": "Progat la Garriga",
+  "contactEmail": "progat.la.garriga@gmail.com",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "la Garriga",
+  "description": "Associació en defensa del gat de carrer. Tenim cura de les colònies de gats de La Garriga, fem esterilitzacions, guarim els gats malalts i busquem cases d'acollida i famílies als gats abandonats i als cadells. Ajuda'ns a ajudar-los!",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/ProgatLaGarrigaAssoc",
+  "associativeInscriptionNumber": "31445",
+  "dateOfInscription": "2006-01-09:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/progat.la.garriga/",
+    "facebook": "https://www.facebook.com/ProgatLaGarrigaAssoc"
+  }
+}

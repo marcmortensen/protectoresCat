@@ -1,0 +1,11 @@
+{
+  "name": "Segrià",
+  "slug": "segria",
+  "connectedTo": [
+    "noguera",
+    "ribera-debre",
+    "pla-durgell",
+    "garrigues"
+  ],
+  "province": "lleida"
+}

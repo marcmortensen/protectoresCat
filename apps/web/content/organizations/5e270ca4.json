@@ -1,0 +1,23 @@
+{
+  "id": "5e270ca4",
+  "name": "Associació Amics dels Gats i Animals de Balenyà",
+  "shortName": "AGAB",
+  "contactEmail": "pitucuca@gmail.com",
+  "whatsAppPhone": "634480448",
+  "contactPhone": "634480448",
+  "animalFocus": "cats&dogs",
+  "region": "osona",
+  "province": "barcelona",
+  "municipality": "Balenyà",
+  "description": "Som una associació sense ànim de lucre, sense refugi i amb pocs recursos que necessita la voluntat dels particulars per poder seguir endavant.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/3/2/8/0/0/g14rvaykrx.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/amicsanimalsbalenyaseva",
+  "associativeInscriptionNumber": "57309",
+  "dateOfInscription": "2015-10-30:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/amicsanimalsbalenyaseva"
+  }
+}

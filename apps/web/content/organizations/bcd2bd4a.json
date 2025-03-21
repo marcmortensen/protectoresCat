@@ -1,0 +1,20 @@
+{
+  "id": "bcd2bd4a",
+  "name": "Associació Protectora Animals de Bellvís Els Arcs",
+  "shortName": "Els Arcs",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/1/3/3/3/720_7o0hvbhvqn.jpg",
+  "region": "pla-durgell",
+  "province": "lleida",
+  "description": "L'Associació Protectora dels Animals de Bellvís i Els Arcs és una entitat sense ànim de lucre, que té per objectiu vetllar pel benestar de tots aquells animals abandonats o perduts dels nostres pobles. De recent creació, i actualment sense recursos i escassos voluntaris per tirar endavant amb el nostre projecte, agrairíem infinitament la vostra col.laboració.",
+  "adoptAnimalsURL": "https://www.instagram.com/associacioanimalsbellvis/",
+  "animalFocus": "cats&dogs",
+  "municipality": "Bellvís",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "69038",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2021-03-17T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/associacioanimalsbellvis/"
+  }
+}

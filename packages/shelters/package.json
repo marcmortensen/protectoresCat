@@ -19,7 +19,16 @@
   },
   "scripts": {
     "start": "node build/src/main.js",
-    "move": "mv result_*.json ../../apps/web/content/",
+    "prestart": "npm run remove:organizations && npm run remove:organizationsByRegion",
+    "poststart": "npm run move:web",
+    "remove:web-organizations": "rm -rf ../../apps/web/content/organizations/*",
+    "move:web-organizations": "find ./organizations -type f -name '*.json' -exec mv {} ../../apps/web/content/organizations/ \\;",
+    "remove:web-organizationsByRegion": "rm -rf ../../apps/web/content/organizationsByRegion/*",
+    "move:web-organizationsByRegion": "find ./organizationsByRegion -type f -name '*.json' -exec mv {} ../../apps/web/content/organizationsByRegion/ \\;",
+    "move:web": "npm run remove:web-organizations && npm run move:web-organizations && npm run remove:web-organizationsByRegion && npm run move:web-organizationsByRegion",
+    "remove:organizations": "rm -rf ./organizations/*.json",
+    "remove:organizationsByRegion": "rm -rf ./organizationsByRegion/*.json",
+    
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.json",

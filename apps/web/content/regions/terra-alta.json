@@ -1,0 +1,9 @@
+{
+  "name": "Terra Alta",
+  "slug": "terra-alta",
+  "connectedTo": [
+    "ribera-debre",
+    "baix-ebre"
+  ],
+  "province": "tarragona"
+}

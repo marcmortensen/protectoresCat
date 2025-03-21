@@ -1,0 +1,24 @@
+{
+  "id": "b3f7d4ae",
+  "name": "Associació Progat Catalunya",
+  "shortName": "Progat Catalunya",
+  "animalFocus": "cats",
+  "contactPhone": "934461092",
+  "contactEmail": "progat@progat.cat",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "socials": {
+    "instagram": "https://www.instagram.com/progatcatalunya/",
+    "facebook": "https://www.facebook.com/ProgatCatalunya"
+  },
+  "description": "Progat Catalunya és una associació fundada el 1998 que treballa per a la defensa dels gats lliures, promovent la seva integració en els hàbitats que compartim. La seva missió se centra en implementar programes de control ètic de colònies de gats mitjançant el mètode de Captura, Esterilització i Retorn (CER), amb l'objectiu d'evitar la superpoblació i afavorir una convivència harmoniosa amb els veïns.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "logo": "https://progat.cat/wp-content/uploads/2023/03/nou-logo-1-150x150.png",
+  "website": "https://progat.cat/",
+  "adoptAnimalsURL": "https://www.instagram.com/progatcatalunya/",
+  "associativeInscriptionNumber": "20860",
+  "dateOfInscription": "1998-06-18T00:00:00.000Z"
+}

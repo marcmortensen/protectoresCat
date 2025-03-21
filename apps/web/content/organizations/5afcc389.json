@@ -1,0 +1,24 @@
+{
+  "id": "5afcc389",
+  "name": "Associació Defensa Animal de Vacarisses",
+  "shortName": "DAVA",
+  "whatsAppPhone": "638850685",
+  "contactEmail": "defensaanimaldevacarisses@gmail.com",
+  "animalFocus": "cats&dogs",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipality": "Vacarisses",
+  "description": "DAVA es dedica a la protecció i defensa animal tant de fauna domèstica com de fauna exòtica. Rescat d'animals que pateixen maltractament, oferint-los assistència veterinària i refugi. Socialitzar els animals rescatats i trobar-los una família d'adopció. Desenvolupar el coneixement i la sensibilitat envers els animals a través de cursos, conferències i altres a les escoles i universitats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/3/8/4/2/me0q1wb3am.jpeg",
+  "website": "https://davaassociacio.wordpress.com/",
+  "adoptAnimalsURL": "https://www.instagram.com/d._a._v._a/",
+  "associativeInscriptionNumber": "69303",
+  "dateOfInscription": "2021-04-28:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/d._a._v._a/",
+    "facebook": "https://www.facebook.com/rescatanimal/"
+  }
+}

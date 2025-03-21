@@ -1,0 +1,23 @@
+{
+  "id": "2a3192fb",
+  "name": "Associació Protectora de Gats Abandonats (APRODEGA)",
+  "shortName": "Aprodega",
+  "contactEmail": "aprodega.vilassardedalt@gmail.com",
+  "contactPhone": "657536330",
+  "logo": "https://aprodega.wordpress.com/wp-content/uploads/2016/06/cropped-11146198_852822184753413_416402243729127025_n2.png",
+  "region": "maresme",
+  "province": "barcelona",
+  "description": "Associació protectora, necessitem cases d'acollida temporal, adopcions, socis i donatius per a poder seguir esterilitzant i cuidant els nostres gats del poble.",
+  "adoptAnimalsURL": "https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/",
+  "associativeInscriptionNumber": "40156",
+  "animalFocus": "cats",
+  "municipality": "Vilassar de Dalt",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2009-09-01T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/aprodega/",
+    "facebook": "https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/"
+  }
+}

@@ -8,7 +8,13 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
 
-  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/icon", "@nuxt/image"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/fonts",
+    "@nuxt/icon",
+    "@nuxt/image",
+    "@nuxt/content",
+  ],
   vite: {
     plugins: [tailwindcss()],
   },

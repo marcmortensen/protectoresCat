@@ -1,0 +1,23 @@
+{
+  "id": "2892ae51",
+  "name": "Associació S.O.S Gats",
+  "shortName": "S.O.S Gats",
+  "contactEmail": "associaciososgats@gmail.com",
+  "animalFocus": "cats",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "description": "Una organització de naturalesa associativa i sense ànim de lucre. Actualment no disposem de subvencions. Fa uns quants anys ens van tancar el refugi a Barcelona. Després de moltes llàgrimes i lluitant, vam poder traslladar-nos amb els que vam poder rescatar un terreny en plena muntanya i ara tenim a les nostres humils però confortables instal·lacions.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://www.sosgats.cat/wp-content/uploads/2017/02/logo-sosgats-blanco-1.png",
+  "website": "https://www.sosgats.cat/",
+  "adoptAnimalsURL": "https://www.facebook.com/gatosdelave/",
+  "associativeInscriptionNumber": "34484",
+  "dateOfInscription": "2007-05-12:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/gatosdelave/",
+    "instagram": "https://www.instagram.com/sosgatsbcn/"
+  }
+}

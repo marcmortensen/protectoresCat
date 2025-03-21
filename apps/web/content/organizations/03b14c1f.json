@@ -1,0 +1,20 @@
+{
+  "id": "03b14c1f",
+  "name": "Associació ProDefensa Vimbodí Pets",
+  "shortName": "Vimbodí Pets",
+  "animalFocus": "cats&dogs",
+  "region": "conca-de-barbera",
+  "province": "tarragona",
+  "municipality": "Vimbodí i Poblet",
+  "description": "Som una associació local sense ànim de lucre, la nostra fi és tenir cura dels animals abandonats i dels que viuen al carrer al nostre municipi. Alimentem i cuidem vàries colònies de gats ferals i estem aplicant el mètode CER ( Captura, Esterilització i Retorn )",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associacio_vimbodipets/",
+  "associativeInscriptionNumber": "64949",
+  "dateOfInscription": "2019-02-08:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/associacio_vimbodipets/",
+    "facebook": "https://www.facebook.com/people/Vimbod%C3%AD-Pets/100064553445351/"
+  }
+}

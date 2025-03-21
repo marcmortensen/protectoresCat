@@ -1,0 +1,22 @@
+{
+  "id": "d6a61990",
+  "name": "Asociación Puigmascot",
+  "shortName": "Puigmascot",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "puigmascot@gmail.com",
+  "region": "alt-camp",
+  "province": "tarragona",
+  "municipality": "Puigpelat",
+  "description": "Associació Puigmascot és una entitat dedicada a les colònies felines de carrer, amb el mètode CER (captura, esterilització i retorn), així com buscant el seu benestar i donant-los cada dia una alimentació diària.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/0/7/6/3/veotn4gbk2.png",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=61562512900572",
+  "associativeInscriptionNumber": "75486",
+  "dateOfInscription": "2024-06-06:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/asociacionpuigmascot/",
+    "facebook": "https://www.facebook.com/profile.php?id=61562512900572"
+  }
+}

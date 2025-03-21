@@ -1,0 +1,22 @@
+{
+  "id": "ccd944e2",
+  "name": "GiroGats",
+  "shortName": "GiroGats",
+  "logo": "http://girogats.org/wp-content/uploads/2015/03/LogoGiroGats.png",
+  "contactEmail": "girogats@gmail.com",
+  "website": "https://girogats.org/",
+  "region": "girones",
+  "province": "girona",
+  "description": "GiroGats neix a l’Octubre 2011 amb la intenció de millorar les condicions dels gats a Girona ciutat principalment, i també a tota la província, dignificant la seva qualitat d’animal domèstic.",
+  "adoptAnimalsURL": "https://girogats.org/pet-category/en-adopcio/",
+  "animalFocus": "cats",
+  "associativeInscriptionNumber": "46410",
+  "municipality": "Girona",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/girogats/"
+  },
+  "dateOfInscription": "2011-11-28T00:00:00.000Z"
+}

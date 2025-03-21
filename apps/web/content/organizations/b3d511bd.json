@@ -1,0 +1,30 @@
+{
+  "id": "b3d511bd",
+  "name": "Associacó amics dels animals de Flix",
+  "shortName": "Can Flix & Ampare ",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/6/3/5/0/gbsgsosocq.png",
+  "contactEmail": "associacioanimalsflix@hotmail.com",
+  "contactPhone": "634495086",
+  "region": "ribera-debre",
+  "province": "tarragona",
+  "description": "A.M.P.A.R.E. és una entitat sense ànim de lucre que neix de l'amor pels animals. El nostre principal objectiu és donar-li veu i vot a aquests éssers vius, que també mereixen el nostre respecte. També volem ajudar a que els animals abandonats al nostre poble aconsegueixin la llar que es mereixen i una adopció responsable.",
+  "adoptAnimalsURL": "https://www.instagram.com/canflixanimals/",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "N-420, Km. 6, 43770 Móra la Nova, Tarragona",
+      "googleMapsLink": "https://maps.app.goo.gl/x6uAcXoyJAvvJnTL7",
+      "phone": "634495086"
+    }
+  ],
+  "municipality": "Flix",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "48292",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2012-07-23T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/canflixanimals/",
+    "instagram": "https://www.instagram.com/canflixanimals/"
+  }
+}

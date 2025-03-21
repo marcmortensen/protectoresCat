@@ -1,0 +1,14 @@
+{
+  "name": "Anoia",
+  "slug": "anoia",
+  "connectedTo": [
+    "solsones",
+    "alt-camp",
+    "conca-de-barbera",
+    "alt-penedes",
+    "bages",
+    "baix-llobregat",
+    "segarra"
+  ],
+  "province": "barcelona"
+}

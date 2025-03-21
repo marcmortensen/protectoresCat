@@ -1,0 +1,33 @@
+{
+  "id": "69cd1f16",
+  "name": "Associació d'Engrescats de les Terres de l'Ebre",
+  "shortName": "Engrescats",
+  "logo": "https://cdn.sukycms.com/shelters/175/images/logo.png",
+  "contactEmail": "info@engrescats.cat",
+  "contactPhone": "620847048",
+  "whatsAppPhone": "620847048",
+  "website": "https://engrescades.protecms.com/",
+  "region": "montsia",
+  "province": "tarragona",
+  "description": "L'Associació Engrescats de les Terres de l'Ebre és una entitat sense ànim de lucre que treballa per al rescat i la protecció d'animals abandonats o maltractats, principalment gossos i gats. Es dediquen a buscar-los llars definitives mitjançant processos d'adopció responsables, a més d'oferir-los atenció veterinària, alimentació i cura mentre esperen ser adoptats. L'associació promou el respecte cap als animals, fomenta la sensibilització ciutadana contra l'abandonament i defensa una tinença responsable. Tot el seu treball es basa en l'ajuda de voluntaris i donacions.",
+  "adoptAnimalsURL": "https://engrescades.protecms.com/animales?estado=en-adopcion",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Polígon tosses 29, parcel·la 108 – 43870 Amposta (Tarragona)",
+      "googleMapsLink": "https://maps.app.goo.gl/6KM5mtdefRrPz8BV7",
+      "phone": "620847048",
+      "openingHoursURL": "https://engrescades.protecms.com/pagina/1553-on-som-i-quan-venir"
+    }
+  ],
+  "municipality": "Amposta",
+  "isMunicipal": true,
+  "associativeInscriptionNumber": "50771",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2013-07-19T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/engrescatsdelesterresdelebre",
+    "instagram": "https://www.instagram.com/proteengrescats/"
+  }
+}

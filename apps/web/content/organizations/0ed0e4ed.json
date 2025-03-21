@@ -1,0 +1,23 @@
+{
+  "id": "0ed0e4ed",
+  "name": "Associació Defensa dels Animals i el Medi Ambient",
+  "shortName": "DAIMA",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "associaciodaima@gmail.com",
+  "whatsAppPhone": "619752210",
+  "region": "noguera",
+  "province": "lleida",
+  "municipality": "Àger",
+  "description": "DAIMA és una associació de la Vall d'Àger dedicada a la defensa dels animals i el medi ambient. Els seus objectius principals són la protecció dels animals domèstics i salvatges, la conservació del patrimoni natural i la promoció de la justícia mediambiental. Per aconseguir-ho, l’associació acull i assisteix animals abandonats o maltractats, fomenta l’adopció, col·labora amb l’administració en la recollida d’animals, canalitza denúncies de maltractament, i promou la sensibilització ciutadana.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-21T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/1/8/3/1/s597hkxyus.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/AssociacioDAIMA",
+  "associativeInscriptionNumber": "59257",
+  "dateOfInscription": "2016-09-16:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/AssociacioDAIMA",
+    "instagram": "https://www.instagram.com/daimasoc/"
+  }
+}

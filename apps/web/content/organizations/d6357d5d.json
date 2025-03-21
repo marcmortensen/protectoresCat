@@ -1,0 +1,22 @@
+{
+  "id": "d6357d5d",
+  "name": "Associació Gats la Roca",
+  "shortName": "Gats la Roca",
+  "contactEmail": "gatslaroca@gmail.com",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "la Roca del Vallès",
+  "description": "Gats la Roca és una associació sense ànim de lucre, formada per voluntàries, que s'encarreguen de la gestió i el control de colònies de gats del municipi de la Roca del Vallès. No tenim refugi físic i treballem amb cases d'acollida. Aquesta col·laboració ens permet treure cadells i gats dòcils del carrer i buscar-los una adopció responsable.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/0/9/3/0/dgtsqkoybt.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/gatslaroca/",
+  "associativeInscriptionNumber": "54714",
+  "dateOfInscription": "2014-10-29:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gatslaroca/",
+    "facebook": "https://www.facebook.com/GatslaRoca/"
+  }
+}

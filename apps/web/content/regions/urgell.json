@@ -1,0 +1,12 @@
+{
+  "name": "Urgell",
+  "slug": "urgell",
+  "connectedTo": [
+    "conca-de-barbera",
+    "noguera",
+    "pla-durgell",
+    "garrigues",
+    "segarra"
+  ],
+  "province": "lleida"
+}

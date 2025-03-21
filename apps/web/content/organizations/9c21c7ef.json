@@ -1,0 +1,20 @@
+{
+  "id": "9c21c7ef",
+  "name": "Associació Nova Petjada",
+  "shortName": "Nova Petjada",
+  "animalFocus": "cats&dogs",
+  "region": "garrigues",
+  "province": "lleida",
+  "municipality": "la Granadella",
+  "description": "Som l’Associació Nova Petjada, una entitat sense ànim de lucre de Lleida, Catalunya dedicada al rescat, cura i adopció d’animals en situació de risc.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/nova_petjada/",
+  "associativeInscriptionNumber": "77054",
+  "dateOfInscription": "2025-02-25:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/nova_petjada/",
+    "facebook": "https://www.facebook.com/profile.php?id=61572294824539"
+  }
+}

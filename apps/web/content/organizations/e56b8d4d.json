@@ -1,0 +1,22 @@
+{
+  "id": "e56b8d4d",
+  "name": "APDA Amics Protectors dels Animals",
+  "shortName": "APDA Torroella Estartit",
+  "contactEmail": "apdatorroellaestartit@gmail.com",
+  "contactPhone": "638847492",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/5/4/8/0/vugxzhste3.jpg",
+  "region": "baix-emporda",
+  "province": "girona",
+  "description": "Sóm una associació sense ànim de lucre, creada per ajudar els animals que han estat abandonats del municipi de Torroella de Montgrí i l'Estartit.",
+  "animalFocus": "cats&dogs",
+  "associativeInscriptionNumber": "3340",
+  "municipality": "Torroella de Montgrí",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "1998-07-31T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/apda.estartit",
+    "instagram": "https://www.instagram.com/apdatorroellaestartit/"
+  }
+}

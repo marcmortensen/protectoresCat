@@ -1,0 +1,13 @@
+{
+  "name": "Garrigues",
+  "slug": "garrigues",
+  "connectedTo": [
+    "conca-de-barbera",
+    "segrià",
+    "pla-durgell",
+    "ribera-debre",
+    "priorat",
+    "urgell"
+  ],
+  "province": "lleida"
+}

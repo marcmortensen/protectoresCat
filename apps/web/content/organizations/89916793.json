@@ -1,0 +1,30 @@
+{
+  "id": "89916793",
+  "name": "Associació Amics dels Animals de la Noguera",
+  "shortName": "ADA Noguera",
+  "logo": "https://amicsdelsanimalsdelanoguera.org/_mibambu/_aanoguera/imas/logo-aanoguera.jpg",
+  "contactEmail": "protectoranoguera@gmail.com",
+  "website": "https://amicsdelsanimalsdelanoguera.org/",
+  "region": "noguera",
+  "province": "lleida",
+  "description": "Som un grup de voluntaris de la comarca de La Noguera (Lleida) que, després de comprovar amb impotència com els nostres pobles i carreteres s'omplen de gossos i gats abandonats, vem decidir formar una associació per donar-los acollida i buscar una segona família que els estimi. \n    La nostra és una associació sense ànim de lucre formada per un grup de voluntaris que ens estimem els animals. Els voluntaris ens esforcem per donar als gossos i gats unes condicions de vida dignes al seu pas per la protectora, mentre esperen ser adoptats.",
+  "adoptAnimalsURL": "https://amicsdelsanimalsdelanoguera.org/cat/la-31-perros-en-adopcion",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Afores, 25737 Foradada, Lleida, Espanya",
+      "googleMapsLink": "https://maps.app.goo.gl/KiQwT1EL8bhA3CyQ8"
+    }
+  ],
+  "municipality": "Foradada",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "26649",
+  "idZoologicalNucleus": "L25/00089",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2002-10-31T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/amicsdelsanimalsdelanoguera",
+    "instagram": "https://www.instagram.com/amicsdelsanimalsdelanoguera/"
+  }
+}

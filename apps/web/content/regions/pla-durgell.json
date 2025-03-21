@@ -1,0 +1,11 @@
+{
+  "name": "Pla d'Urgell",
+  "slug": "pla-durgell",
+  "connectedTo": [
+    "noguera",
+    "garrigues",
+    "urgell",
+    "segrià"
+  ],
+  "province": "lleida"
+}

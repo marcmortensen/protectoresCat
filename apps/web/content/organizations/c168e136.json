@@ -1,0 +1,22 @@
+{
+  "id": "c168e136",
+  "name": "Asociación para la Defensa de Animales de Castellar del Vallès",
+  "shortName": "ADA-CV",
+  "contactEmail": "adacastellardelvalles@gmail.com",
+  "animalFocus": "cats",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipality": "Castellar del Vallès",
+  "description": "Associació per a la defensa animal a l'àmbit de Castellar del Vallès i rodalies. Vetllem activament pels drets dels animals desprotegits o en situació més vulnerable (rescats, acolliments, veterinari, adopcions, esterilització, etc). Intervenim i denunciem qualsevol tipus de maltractament ja sigui d'animals amb propietari o de carrer. Col·laborem amb protectores i associacions amigues.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/5/2/5/0/yx5h63ctlq.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/adacastellarvalles/",
+  "associativeInscriptionNumber": "57686",
+  "dateOfInscription": "2015-12-23:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/adacastellarvalles/",
+    "facebook": "https://www.facebook.com/ada.castellardelvalles2015/"
+  }
+}

@@ -7,7 +7,7 @@ import { Region } from './utils/locations.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectRoot = path.resolve(__dirname, '../../');
+const organizationsPath = path.resolve(__dirname, '../../organizations');
 /*
 const animals = (await getAllAnimalsFromOrgs()).sort((a, b) =>
   a.id.localeCompare(b.id),
@@ -26,11 +26,12 @@ try {
 */
 const activeOrganizations = organizations.filter((a) => a.isActive);
 try {
-  const filePath = path.join(projectRoot, 'result_organizations.json');
-  await fs.writeFile(filePath, JSON.stringify(activeOrganizations, null, 2));
-  console.log(`Organization data has been written to ${filePath}`);
+  for (const org of activeOrganizations) {
+    const filePath = path.join(organizationsPath, `${org.id}.json`);
+    await fs.writeFile(filePath, JSON.stringify(org, null, 2));
+  }
 } catch (error) {
-  console.error('Error writing animals data:', error);
+  console.error('Error writing organization data:', error);
 }
 
 const currentOrgs = activeOrganizations.map((org) => ({
@@ -87,32 +88,39 @@ const regions: Region[] = [
 const missingRegions = regions.filter(
   (region) => !currentOrgs.some((org) => org.region === region),
 );
+
+const organizationsByRegionPath = path.resolve(
+  __dirname,
+  '../../organizationsByRegion',
+);
+
 try {
-  const filePath = path.join(projectRoot, 'result_orgsRegions.json');
-  await fs.writeFile(
-    filePath,
-    JSON.stringify(
-      currentOrgs.reduce((acc, org) => {
-        if (!acc[org.region]) {
-          acc[org.region] = { cats: 0, dogs: 0 };
-        }
-        if (org.animalFocus === 'cats&dogs') {
-          acc[org.region].cats++;
-          acc[org.region].dogs++;
-        } else {
-          acc[org.region][org.animalFocus]++;
-        }
-        return acc;
-      }, {}),
-      null,
-      2,
-    ),
-  );
-  console.log(`Organization data has been written to ${filePath}`);
+  const orgsByRegion = currentOrgs.reduce((acc, org) => {
+    if (!acc[org.region]) {
+      acc[org.region] = { region: org.region, cats: 0, dogs: 0 };
+    }
+    if (org.animalFocus === 'cats&dogs') {
+      acc[org.region].cats++;
+      acc[org.region].dogs++;
+    } else {
+      acc[org.region][org.animalFocus]++;
+    }
+    return acc;
+  }, {});
+
+  const orgsByRegionArray = Object.values(orgsByRegion);
+  for (const region of orgsByRegionArray) {
+    const filePath = path.join(
+      organizationsByRegionPath,
+      `${region['region']}.json`,
+    );
+    await fs.writeFile(filePath, JSON.stringify(region, null, 2));
+  }
+
   console.log(`Organizations length: ${currentOrgs.length}`);
   console.log(
     `missingRegions ${((missingRegions.length / regions.length) * 100).toFixed(0)}% , ${missingRegions.length} -  ${missingRegions.join(', ')}`,
   );
 } catch (error) {
-  console.error('Error writing animals data:', error);
+  console.error('Error writing organizationRegions data:', error);
 }

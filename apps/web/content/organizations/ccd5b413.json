@@ -1,0 +1,21 @@
+{
+  "id": "ccd5b413",
+  "name": "Associació de Gats Gatsort",
+  "shortName": "Gatsort",
+  "contactEmail": "asociacioncatsort@gmail.com",
+  "region": "pallars-sobira",
+  "province": "lleida",
+  "description": "Associació sense ànim de lucre dedicada al benestar dels gats/es urbans de la vila de Sort. Promoure campanyes d'esterilització per reduir la natalitat i així evitar la proliferació de gats de carrer, en col·laboració amb l’ajuntament de Sort. Protegir tots els animals i en especial els gats. Fomentar l’educació i sensibilització dels ciutadans envers l’abandonament dels animals en general i en concret dels gats.",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100083091382963",
+  "animalFocus": "cats",
+  "municipality": "Sort",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "70121",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2021-10-20T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100083091382963",
+    "instagram": "https://www.instagram.com/associaciogatsort/"
+  }
+}

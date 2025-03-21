@@ -1,0 +1,25 @@
+{
+  "id": "7bcec051",
+  "name": "Associació Gats del Carrer del Baix Llobregat",
+  "shortName": "Gats del Carrer",
+  "contactPhone": "651626346",
+  "whatsAppPhone": "651626346",
+  "contactEmail": "gatsdelcarrer@yahoo.es",
+  "animalFocus": "cats&dogs",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Sant Vicenç dels Horts",
+  "description": "L'Associació Gats del Carrer som un grup de persones compromeses amb els animals que, en col·laboració amb diferents veterinaris, treballem per aconseguir una millor qualitat de vida dels animals que viuen al carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/1/5/1/0/kpjqxgpqha.jpg",
+  "website": "https://gatsdelcarrer.org/",
+  "adoptAnimalsURL": "https://www.instagram.com/gatsdelcarrer/",
+  "associativeInscriptionNumber": "49119",
+  "dateOfInscription": "2012-11-19:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gatsdelcarrer/",
+    "facebook": "https://www.facebook.com/Gatsdelcarrer"
+  }
+}

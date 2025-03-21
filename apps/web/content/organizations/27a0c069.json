@@ -1,0 +1,19 @@
+{
+  "id": "27a0c069",
+  "name": "Associació Gats de Vilabella Boig per Tu",
+  "shortName": "Gats de Vilabella",
+  "animalFocus": "cats",
+  "region": "alt-camp",
+  "province": "tarragona",
+  "municipality": "Vilabella",
+  "description": "Associació de gats de Vilabella sense ànim de lucre que ajuda a les colònies✨AJUDA'NS fent difusió, voluntariat, adoptant, acollint, alimentant",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/boigpertu_vilabella/",
+  "associativeInscriptionNumber": "66356",
+  "dateOfInscription": "2019-10-08:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/boigpertu_vilabella/"
+  }
+}

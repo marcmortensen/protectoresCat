@@ -1,0 +1,11 @@
+{
+  "name": "Barcelonès",
+  "slug": "barcelones",
+  "connectedTo": [
+    "baix-llobregat",
+    "valles-oriental",
+    "valles-occidental",
+    "maresme"
+  ],
+  "province": "barcelona"
+}

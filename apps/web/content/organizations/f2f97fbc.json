@@ -1,0 +1,22 @@
+{
+  "id": "f2f97fbc",
+  "name": "Associació Som Amics dels Animals.cat",
+  "shortName": "Som Amics dels Animals",
+  "whatsAppPhone": "689363648",
+  "animalFocus": "cats&dogs",
+  "region": "girones",
+  "province": "girona",
+  "municipality": "Salt",
+  "description": "Associació creada el 2012, amb la finalitat d'ajudar a protectores de gossos i colonies de gats amb alimentació, medicaments i material necessari. Fem difusió de gats i gossos i els hi busquem acollida o adopció.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/3/9/9/7/0/rsc7uzbmos.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/somamicsdelsanimalscat/",
+  "associativeInscriptionNumber": "52510",
+  "dateOfInscription": "2014-03-24:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100083232851721#",
+    "instagram": "https://www.instagram.com/somamicsdelsanimalscat/"
+  }
+}

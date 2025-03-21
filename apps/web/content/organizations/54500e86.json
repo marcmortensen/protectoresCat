@@ -1,0 +1,31 @@
+{
+  "id": "54500e86",
+  "name": "Refugi d'Animals del Ripollés",
+  "shortName": "Refugi Ripollés",
+  "contactEmail": "refugiripolles@gmail.com",
+  "contactPhone": "609529788",
+  "contactPhone2": "692405320",
+  "website": "https://ripolles.cat/refugi/",
+  "region": "ripolles",
+  "logo": "https://ripolles.cat/wp-content/uploads/2019/06/logo-esquerra.png",
+  "province": "girona",
+  "description": "El Refugi d’Animals del Ripollès acull els gossos abandonats del Ripollès per encàrrec dels dinou municipis de la comarca. Els animals viuen en un recinte de 1.900 metres quadrats en un indret assolellat i envoltat de natura. Les instal·lacions es reparteixen en tres feixes d’un turó i inclouen una sala de cures, una zona de quarantena, una zona d’esbarjo i una zona de boxs. També disposem d’un espai d’atenció al públic, un magatzem i una depuradora.",
+  "adoptAnimalsURL": "https://www.instagram.com/refugiripolles/",
+  "shelter": [
+    {
+      "adress": "Camí de Casadessús, finca de Baups -Sant Roc, 109 - 17500 Ripoll (Girona)",
+      "googleMapsLink": "https://maps.app.goo.gl/2bwQMHzjbjktg22Y9",
+      "phone": "609529788",
+      "openingHoursURL": "https://ripolles.cat/refugi/"
+    }
+  ],
+  "animalFocus": "cats&dogs",
+  "idZoologicalNucleus": "G25/00254",
+  "municipality": "Ripoll",
+  "isMunicipal": true,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/refugiripolles/"
+  }
+}

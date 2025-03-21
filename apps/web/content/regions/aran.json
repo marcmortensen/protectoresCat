@@ -1,0 +1,9 @@
+{
+  "name": "Aran",
+  "slug": "aran",
+  "connectedTo": [
+    "pallars-sobira",
+    "alta-ribagorca"
+  ],
+  "province": "lleida"
+}

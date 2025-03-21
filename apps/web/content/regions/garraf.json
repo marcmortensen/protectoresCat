@@ -1,0 +1,10 @@
+{
+  "name": "Garraf",
+  "slug": "garraf",
+  "connectedTo": [
+    "baix-penedes",
+    "alt-penedes",
+    "baix-llobregat"
+  ],
+  "province": "barcelona"
+}

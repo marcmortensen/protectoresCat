@@ -1,0 +1,22 @@
+{
+  "id": "db1dc289",
+  "name": "Associació Gats de Carrer Cubelles",
+  "shortName": "Gats de Carrer Cubelles",
+  "animalFocus": "cats",
+  "contactEmail": "gatscarrercubelles@gmail.com",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "municipality": "Calafell",
+  "description": "Som un grup de persones amants del gats, que ens hem unit perque tenim un objectiu comú: treballar per la salut i el benestar dels gats del carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/4/0/1/1/4a54usfboo.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/gats.cubelles",
+  "associativeInscriptionNumber": "61893",
+  "dateOfInscription": "2017-07-26T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/gatscarrercubelles",
+    "instagram": "https://www.instagram.com/gatsdecarrercubelles"
+  }
+}

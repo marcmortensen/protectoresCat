@@ -1,0 +1,13 @@
+{
+  "name": "Solsonès",
+  "slug": "solsones",
+  "connectedTo": [
+    "anoia",
+    "alt-urgell",
+    "bergueda",
+    "noguera",
+    "segarra",
+    "bages"
+  ],
+  "province": "lleida"
+}

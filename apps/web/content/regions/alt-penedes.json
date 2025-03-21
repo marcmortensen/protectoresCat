@@ -1,0 +1,12 @@
+{
+  "name": "Alt Penedès",
+  "slug": "alt-penedes",
+  "connectedTo": [
+    "anoia",
+    "baix-penedes",
+    "garraf",
+    "baix-llobregat",
+    "alt-camp"
+  ],
+  "province": "barcelona"
+}

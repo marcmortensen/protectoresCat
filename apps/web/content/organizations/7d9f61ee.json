@@ -1,0 +1,22 @@
+{
+  "id": "7d9f61ee",
+  "name": "Associació Gats de Segarra",
+  "shortName": "Gats de Segarra",
+  "animalFocus": "cats",
+  "contactEmail": "gatsdelasegarra@gmail.com",
+  "region": "segarra",
+  "province": "lleida",
+  "municipality": "Cervera",
+  "description": "Associació Gats de la Segarra sorgeix el 2017 per iniciativa d'una sèrie de persones residents a la comarca i amants dels gats. Cap a ells hi ha un gran desconeixement i normalment són focus de problemes. El nostre principal objectiu és la gestió de colònies felines per garantir la convivència entre ells i els habitants de la zona, així com les seves condicions higienicosanitàries; a més de promoure les adopcions responsables.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://gatssegarra.org/wp-content/uploads/2025/03/cropped-cropped-cropped-LOGO-1-300x253.png",
+  "adoptAnimalsURL": "https://www.facebook.com/GatsdelaSegarra/",
+  "associativeInscriptionNumber": "61409",
+  "dateOfInscription": "2017-06-26:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gats_de_la_segarra/",
+    "facebook": "https://www.facebook.com/GatsdelaSegarra/"
+  }
+}

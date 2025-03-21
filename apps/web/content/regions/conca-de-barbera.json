@@ -1,0 +1,14 @@
+{
+  "name": "Conca de Barberà",
+  "slug": "conca-de-barbera",
+  "connectedTo": [
+    "urgell",
+    "baix-camp",
+    "priorat",
+    "alt-camp",
+    "segarra",
+    "anoia",
+    "garrigues"
+  ],
+  "province": "tarragona"
+}

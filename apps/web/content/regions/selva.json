@@ -1,0 +1,13 @@
+{
+  "name": "Selva",
+  "slug": "selva",
+  "connectedTo": [
+    "baix-emporda",
+    "girones",
+    "garrotxa",
+    "osona",
+    "valles-oriental",
+    "maresme"
+  ],
+  "province": "girona"
+}

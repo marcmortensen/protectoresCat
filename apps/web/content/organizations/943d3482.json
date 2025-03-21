@@ -1,0 +1,24 @@
+{
+  "id": "943d3482",
+  "name": "Associació Animalista Sitges Àngels Protectors de la Natura",
+  "shortName": "Àngels Sitges",
+  "animalFocus": "cats&dogs",
+  "contactPhone": "605874355",
+  "contactEmail": "sitgesangels@gmail.com",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Badalona",
+  "socials": {
+    "instagram": "https://www.instagram.com/sitgesangels/",
+    "facebook": "https://www.facebook.com/sitges.angels"
+  },
+  "description": "Som una ONG que dóna protecció, menjar i atenció veterinària a animals abandonats. Estem 100% anti sacrifici. Durant 20 anys de feina hem rescatat més que 6000 gossos, gats i altres animals de la fam, la malaltia, l'abandó i la mort imminent, i els hem trobat cases a tot Europa. En aquest moment donem aixopluc a uns 40 gossos, gats i altres animals que necessiten la teva ajuda.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "logo": "https://cdn.sukycms.com/shelters/72/images/UKbfYsrDHpigRIJHbOzAyOziiIOUaVNiiWT2vk6X.png",
+  "website": "https://sitgesangels.protecms.com/",
+  "adoptAnimalsURL": "https://sitgesangels.protecms.com/animales?name=&kind=dog&status=adoption&sex=&birth_date=",
+  "associativeInscriptionNumber": "58048",
+  "dateOfInscription": "2016-03-03T00:00:00.000Z"
+}

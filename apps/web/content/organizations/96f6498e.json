@@ -1,0 +1,23 @@
+{
+  "id": "96f6498e",
+  "name": "Associació Encaixant Mons",
+  "shortName": "Encaixant Mons",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "info@encaixantmons.org",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Sant Boi de Llobregat",
+  "socials": {
+    "facebook": "https://www.facebook.com/rmacvoluntaris",
+    "instagram": "https://www.instagram.com/rmacvoluntaris"
+  },
+  "description": "Encaixant Mons va sorgir amb l'objectiu d'assolir la participació activa dels voluntaris en aquelles decisions que repercuteixen els animals del Refugi Municipal d'Animals de Companyia de Sant Boi de Llobregat (RMAC).\n    Un dels nostres desitjos és conscienciar la població sobre la tinença responsable dels animals de companyia. De la mateixa manera, vetllar pel benestar animal, el respecte i la conservació de l'entorn des de les nostres possibilitats com a associació.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "logo": "https://protectorabcn.es/wp-content/themes/protectorabcn/assets/icons/logo.svg",
+  "website": "https://www.encaixantmons.org/",
+  "adoptAnimalsURL": "https://www.encaixantmons.org/perros/",
+  "associativeInscriptionNumber": "69708",
+  "dateOfInscription": "2021-07-16T00:00:00.000Z"
+}

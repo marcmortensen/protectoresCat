@@ -1,0 +1,21 @@
+{
+  "id": "693ef814",
+  "name": "El Club de Kat (Para Animales Discapacitados y Enfermos Crónicos)",
+  "shortName": "El Club de Kat",
+  "contactEmail": "socioscdk@gmail.com",
+  "animalFocus": "cats&dogs",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Cornellà de Llobregat",
+  "description": "El Club de Kat som una associació, fundada el 2003, sense ànim de lucre que treballa a nivell Estatal, de forma absolutament voluntària, centrant els nostres esforços en ajudar Animals discapacitats i malalts crònics abandonats i les persones que en tenen cura.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/3/4/0/0/vqr0vetipz.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/elclubdekat/",
+  "associativeInscriptionNumber": "33382",
+  "dateOfInscription": "2006-11-07:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/elclubdekat/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "3d1a5847",
+  "name": "Associació Vida Animal Digna a Linyola",
+  "shortName": "VADAL",
+  "contactEmail": "vadal.linyola@gmail.com",
+  "animalFocus": "cats&dogs",
+  "region": "pla-durgell",
+  "province": "lleida",
+  "municipality": "Linyola",
+  "description": "VADAL és Vida Animal Digna a Linyola, una entitat sense ànim de lucre formada per veïns voluntaris de Linyola que vetllen pel benestar dels animals que viuen al carrer. - Objectius principals: 1. Reduir la població de gats comunitaris a través de l’esterilització progressiva i l’adopció d’aquells que siguin mansos, siguin abandonats o no. 2. Treure dels carrers els gossos, ajudant-los a trobar la seva llar, en el cas que estiguin perduts, i posant-los en adopció, en el cas de ser abandonats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/7/6/4/3/reaswrpbpy.jpeg",
+  "website": "https://vadal.sukycms.com/",
+  "adoptAnimalsURL": "https://vadal.sukycms.com/animales",
+  "associativeInscriptionNumber": "74224",
+  "dateOfInscription": "2023-12-01:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/vadal_linyola/",
+    "facebook": "https://www.facebook.com/vadal.linyola/"
+  }
+}

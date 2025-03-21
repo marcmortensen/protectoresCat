@@ -1,0 +1,22 @@
+{
+  "id": "846017cd",
+  "name": "Associació Protectora d'Animals i Medi de Vacarisses",
+  "shortName": "APAME",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "apamevacarisses@gmail.com",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipality": "Vacarisses",
+  "description": "Organització sense ànim de lucre dedicada al rescat, cura i alimentació de gossos i gats que habiten els carrers del poble de Vacarisses.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/7/2/6/3/woww4xtvxe.jpeg",
+  "adoptAnimalsURL": "https://www.facebook.com/apamevacarisses/",
+  "associativeInscriptionNumber": "60873",
+  "dateOfInscription": "2017-04-12:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/apame.vacarisses/",
+    "facebook": "https://www.facebook.com/apamevacarisses/"
+  }
+}

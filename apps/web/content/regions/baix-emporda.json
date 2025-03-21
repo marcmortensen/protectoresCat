@@ -1,0 +1,10 @@
+{
+  "name": "Baix Empordà",
+  "slug": "baix-emporda",
+  "connectedTo": [
+    "alt-emporda",
+    "girones",
+    "selva"
+  ],
+  "province": "girona"
+}

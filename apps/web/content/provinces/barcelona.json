@@ -1,0 +1,18 @@
+{
+  "name": "Barcelona",
+  "slug": "barcelona",
+  "regions": [
+    "alt-penedes",
+    "anoia",
+    "bages",
+    "baix-llobregat",
+    "barcelones",
+    "bergueda",
+    "garraf",
+    "maresme",
+    "moianes",
+    "osona",
+    "valles-occidental",
+    "valles-oriental"
+  ]
+}

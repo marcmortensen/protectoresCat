@@ -1,0 +1,31 @@
+{
+  "id": "7665d087",
+  "name": "Associació Amor Als Animals Maria Adam",
+  "shortName": "Amor Als Animals",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "amoralsanimals@gmail.com",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Begues",
+  "whatsAppPhone": "615173627",
+  "socials": {
+    "instagram": "https://www.instagram.com/amoralsanimals/"
+  },
+  "shelter": [
+    {
+      "adress": "Masia Can Figueres, 1, 08859 Begues, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/DVHcNwuYnFV8bd2DA",
+      "openingHoursURL": "https://amoralsanimals.org/ca/visitans/",
+      "phone": "615173627"
+    }
+  ],
+  "description": "L’Associació d’Amor als Animals Maria Adam neix amb l’objectiu d’unir totes aquelles persones que comparteixen un mateix sentiment cap a aquestes criatures fantàstiques: els animals.\n    Tots els que formem part de l’associació treballem amb la voluntat de donar-los amor, de vetllar per la salut tant física com psicològica i de cuidar-los mentre busquem una família que els pugui donar una nova vida.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "logo": "https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png",
+  "website": "https://amoralsanimals.org/ca/",
+  "adoptAnimalsURL": "https://amoralsanimals.org/ca/animals-en-adopcio/",
+  "associativeInscriptionNumber": "29579",
+  "dateOfInscription": "2004-09-22T00:00:00.000Z"
+}

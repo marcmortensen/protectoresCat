@@ -1,0 +1,22 @@
+{
+  "id": "1e26ce22",
+  "name": "Associació ANCA",
+  "shortName": "ANCA",
+  "animalFocus": "cats",
+  "region": "alt-emporda",
+  "province": "girona",
+  "municipality": "Figueres",
+  "contactPhone": "654457955",
+  "description": "A l'hivern del 2020 vam constituir ANCA, una associació pública i legal, sense ànim de lucre, amb una sola finalitat: afavorir la defensa i protecció dels animals, sobretot els de la nostra ciutat, Figueres. Necessitem amb urgència donacions, d'aliments, material, etc.. Per continuar fent la nostra feina, ja que actualment alimentem més de 80 gats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/5/7/2/2/v62dc8aejw.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100069100126434",
+  "associativeInscriptionNumber": "67617",
+  "dateOfInscription": "2020-05-27:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/anca_figueres",
+    "facebook": "https://www.facebook.com/profile.php?id=100069100126434"
+  }
+}

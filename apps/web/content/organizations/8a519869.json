@@ -1,0 +1,21 @@
+{
+  "id": "8a519869",
+  "name": "Associació Protectora d'Arenys",
+  "shortName": "Protectora d'Arenys",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "victoriarm88@gmail.com",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipality": "Arenys de Mar",
+  "description": "Som una protectora d'animals on ens encarreguem de recollir qualsevol tipus d'animal abandonat i/o ferit. L'objectiu és trobar-los una família que els cuidi i els vulgui, però abans els hem de curar i mantenir durant l'espera d'adopció. Per desgràcia cada cop hi ha més abandonaments i tenim més despeses de les esperades. Necessitem la vostra ajuda per poder donar-los totes les cures que mereixen. Moltes gràcies per endavant.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/1/3/0/1/y77lhrue5c.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/Protectoraanimalesarenys",
+  "associativeInscriptionNumber": "39898",
+  "dateOfInscription": "2009-07-22:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/Protectoraanimalesarenys"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ec70e929",
+  "name": "Associació Montaltmiau",
+  "shortName": "Montaltmiau",
+  "contactEmail": "montaltmiau@gmail.com",
+  "animalFocus": "cats",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipality": "Sant Vicenç de Montalt",
+  "description": "Associació sense ànim de lucre formada per voluntaris que gestionen i controlen colònies felines: Esterilització a través del mètode CER, alimentació, controls de sanitat, adopcions. Necessitem la vostra col.laboració per seguir ajudant-los.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/0/8/4/2/sx33kzhpwt.png",
+  "adoptAnimalsURL": "https://www.instagram.com/montaltmiau",
+  "associativeInscriptionNumber": "38833",
+  "dateOfInscription": "2009-03-27:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/montaltmiau",
+    "facebook": "https://www.facebook.com/profile.php?id=100071781323941"
+  }
+}

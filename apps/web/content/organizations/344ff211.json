@@ -1,0 +1,22 @@
+{
+  "id": "344ff211",
+  "name": "Associació Progat l'Ampolla",
+  "shortName": "Progat l'Ampolla",
+  "contactEmail": "progatlampolla@gmail.com",
+  "animalFocus": "cats",
+  "region": "baix-ebre",
+  "province": "tarragona",
+  "municipality": "l'Ampolla",
+  "description": "Associació sense ànim de lucre que treballem amb personal voluntari en la cura dels gats de carrer, mitjançant el mètode C.E.R, cures veterinàries i recerca de cases d'adopció per als gats sociables.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/1/4/3/1/o0m6nhbpg0.png",
+  "adoptAnimalsURL": "https://www.instagram.com/progatlampolla/",
+  "associativeInscriptionNumber": "58149",
+  "dateOfInscription": "2016-03-30:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/ProgatPalamos/",
+    "instagram": "https://www.instagram.com/progatlampolla/"
+  }
+}

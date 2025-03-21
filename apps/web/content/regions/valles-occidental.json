@@ -1,0 +1,12 @@
+{
+  "name": "Vallès Occidental",
+  "slug": "valles-occidental",
+  "connectedTo": [
+    "valles-oriental",
+    "bages",
+    "baix-llobregat",
+    "barcelones",
+    "moianes"
+  ],
+  "province": "barcelona"
+}

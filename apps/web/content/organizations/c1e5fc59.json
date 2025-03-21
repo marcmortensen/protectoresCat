@@ -1,0 +1,29 @@
+{
+  "id": "c1e5fc59",
+  "name": "Refugi Municipal d'Animales de Companyia (RMAC)",
+  "shortName": "RMAC",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "rmac@santboi.cat",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Sant Boi de Llobregat",
+  "contactPhone": "936405714",
+  "socials": {
+    "facebook": "https://www.facebook.com/adoptaanimalessantboillobregat/"
+  },
+  "shelter": [
+    {
+      "googleMapsLink": "https://maps.app.goo.gl/jZiXoEBrcHDLTDWSA",
+      "phone": "936405714",
+      "adress": "Carrer de la Riera del Fonollar, 2, 08830 Sant Boi de Llobregat, Barcelona",
+      "openingHoursURL": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia"
+    }
+  ],
+  "description": "El RMAC és un centre municipal on acollim els gossos, gats i fures que s’han trobat abandonats o perduts als carrers de Sant Boi. Hi atenem els animals fins que la persona propietària els recupera o alguna altra persona els adopta.",
+  "isActive": true,
+  "isMunicipal": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "logo": "https://www.santboi.cat/sites/default/files/2022-09/SantBoi_Logo.png",
+  "website": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia",
+  "adoptAnimalsURL": "https://www.facebook.com/adoptaanimalessantboillobregat/"
+}

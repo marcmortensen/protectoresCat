@@ -1,0 +1,12 @@
+{
+  "name": "Baix Camp",
+  "slug": "baix-camp",
+  "connectedTo": [
+    "tarragones",
+    "alt-camp",
+    "conca-de-barbera",
+    "priorat",
+    "ribera-debre"
+  ],
+  "province": "tarragona"
+}
