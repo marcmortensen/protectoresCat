@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/image",
     "@nuxt/content",
+    "@nuxt/ui",
   ],
   vite: {
     plugins: [tailwindcss()],
