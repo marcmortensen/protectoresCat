@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/content",
     "@nuxt/ui",
+    "@vueuse/nuxt",
   ],
   vite: {
     plugins: [tailwindcss()],
