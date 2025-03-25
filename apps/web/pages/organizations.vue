@@ -9,9 +9,11 @@ const queryTransform = {
 };
 
 const regions = useRouteQuery("regions", undefined, {
+  mode: "push",
   transform: queryTransform,
 });
 const animalType = useRouteQuery("animalType", undefined, {
+  mode: "push",
   transform: queryTransform,
 });
 
@@ -19,6 +21,8 @@ const page = useRouteQuery("page", "1", {
   mode: "push",
   transform: { get: Number, set: String },
 });
+
+const ITEMS_PER_PAGE = 9;
 
 const { data } = await useAsyncData(
   route.path,
@@ -43,12 +47,44 @@ const { data } = await useAsyncData(
         return query.where("animalFocus", "LIKE", `%cats&dogs%`);
       });
     }
-
-    const orgs = await query.limit(9).all();
-    return { orgs, regions: dataRegions };
+    const orgsCount = await query.count();
+    const orgs = await query
+      .limit(ITEMS_PER_PAGE)
+      .skip((page.value - 1) * ITEMS_PER_PAGE)
+      .all();
+    return { orgsCount, orgs, regions: dataRegions };
   },
   { immediate: true, watch: [regions, animalType, page] }
 );
+
+const resetPage = () => {
+  page.value = 1;
+};
+
+watch(
+  [regions, animalType],
+  () => {
+    resetPage();
+  },
+  {
+    flush: "sync",
+  }
+);
+
+const entryCardsTop = ref<HTMLDivElement>();
+const scrollOffset = 50;
+const entryCardsTopIsVisible = useElementVisibility(entryCardsTop, {
+  rootMargin: () => `-${scrollOffset}px 0px 0px 0px`,
+});
+
+const scrollToTop = () => {
+  if (entryCardsTop.value && !entryCardsTopIsVisible.value) {
+    entryCardsTop.value.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
 </script>
 
 <template>
@@ -57,8 +93,10 @@ const { data } = await useAsyncData(
     class="flex flex-col w-1/2 justify-center items-center mx-auto mt-4"
   >
     <div>
+      <pre>{{ data.orgsCount }}</pre>
       <USelectMenu
         v-model="regions"
+        class="w-52"
         multiple
         :items="data.regions"
         value-key="slug"
@@ -67,6 +105,7 @@ const { data } = await useAsyncData(
       />
       <USelectMenu
         v-model="animalType"
+        class="w-52"
         multiple
         :items="typeOfAnimal"
         :search-input="false"
@@ -80,6 +119,10 @@ const { data } = await useAsyncData(
       Here are some organizations that you can support
     </p>
 
+    <div
+      ref="entryCardsTop"
+      :style="{ scrollMarginTop: `${scrollOffset + 16}px` }"
+    />
     <div v-if="data?.orgs" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
       <div
         v-for="org in data.orgs"
@@ -120,5 +163,13 @@ const { data } = await useAsyncData(
         </div>
       </div>
     </div>
+    <UPagination
+      v-model:page="page"
+      :items-per-page="ITEMS_PER_PAGE"
+      :total="data.orgsCount"
+      :default-page="1"
+      @update:page="scrollToTop"
+    />
+    <div class="bg-amber-800 h-60 w-full">Footer</div>
   </div>
 </template>
