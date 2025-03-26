@@ -1,7 +1,10 @@
 <script setup lang="ts">
 const route = useRoute();
 
-const typeOfAnimal = ["cats", "dogs"];
+const typeOfAnimal = [
+  { label: "Cats", value: "cats" },
+  { label: "Dogs", value: "dogs" },
+];
 
 const queryTransform = {
   get: (value: string | undefined) => value?.split(",") || [],
@@ -57,6 +60,40 @@ const { data } = await useAsyncData(
   { immediate: true, watch: [regions, animalType, page] }
 );
 
+const filters = computed(() => {
+  return [
+    ...regions.value
+      .filter((regionSlug) =>
+        data.value?.regions.find((region) => region.slug === regionSlug)
+      )
+      .map((regionSlug) => {
+        const region = data.value?.regions.find((r) => r.slug === regionSlug);
+        return {
+          label: region!.name,
+          remove: () =>
+            (regions.value = regions.value.filter(
+              (region) => region !== regionSlug
+            )),
+        };
+      }),
+    ...animalType.value
+      .filter((animalTypeSlug) =>
+        typeOfAnimal.find((typeAnimal) => typeAnimal.value === animalTypeSlug)
+      )
+      .map((animalTypeSlug) => {
+        const animal = typeOfAnimal.find(
+          (animal) => animal.value === animalTypeSlug
+        );
+        return {
+          label: animal!.label,
+          remove: () =>
+            (animalType.value = animalType.value.filter(
+              (animal) => animal !== animalTypeSlug
+            )),
+        };
+      }),
+  ];
+});
 const resetPage = () => {
   page.value = 1;
 };
@@ -108,6 +145,8 @@ const scrollToTop = () => {
         class="w-52"
         multiple
         :items="typeOfAnimal"
+        value-key="value"
+        label-key="label"
         :search-input="false"
         placeholder="Select animal type"
       />
@@ -123,6 +162,18 @@ const scrollToTop = () => {
       ref="entryCardsTop"
       :style="{ scrollMarginTop: `${scrollOffset + 16}px` }"
     />
+    <div class="flex gap-2">
+      <UBadge
+        v-for="(filter, index) in filters"
+        :key="index"
+        color="neutral"
+        trailing-icon="i-lucide-x"
+        variant="outline"
+        :label="filter.label"
+        @click="filter.remove()"
+      />
+    </div>
+
     <div v-if="data?.orgs" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
       <div
         v-for="org in data.orgs"
