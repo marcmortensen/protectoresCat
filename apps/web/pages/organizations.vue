@@ -27,7 +27,7 @@ const page = useRouteQuery("page", "1", {
 
 const ITEMS_PER_PAGE = 9;
 
-const { data } = await useAsyncData(
+const { data, refresh, clear } = await useAsyncData(
   route.path,
   async () => {
     const dataRegions = await queryCollection("regions").all();
@@ -62,36 +62,28 @@ const { data } = await useAsyncData(
 
 const filters = computed(() => {
   return [
-    ...regions.value
-      .filter((regionSlug) =>
-        data.value?.regions.find((region) => region.slug === regionSlug)
-      )
-      .map((regionSlug) => {
-        const region = data.value?.regions.find((r) => r.slug === regionSlug);
-        return {
-          label: region!.name,
-          remove: () =>
-            (regions.value = regions.value.filter(
-              (region) => region !== regionSlug
-            )),
-        };
-      }),
-    ...animalType.value
-      .filter((animalTypeSlug) =>
-        typeOfAnimal.find((typeAnimal) => typeAnimal.value === animalTypeSlug)
-      )
-      .map((animalTypeSlug) => {
-        const animal = typeOfAnimal.find(
-          (animal) => animal.value === animalTypeSlug
-        );
-        return {
-          label: animal!.label,
-          remove: () =>
-            (animalType.value = animalType.value.filter(
-              (animal) => animal !== animalTypeSlug
-            )),
-        };
-      }),
+    ...regions.value.map((regionSlug) => {
+      const region = data.value?.regions.find((r) => r.slug === regionSlug);
+      return {
+        label: region?.name || "",
+        remove: () =>
+          (regions.value = regions.value.filter(
+            (region) => region !== regionSlug
+          )),
+      };
+    }),
+    ...animalType.value.map((animalTypeSlug) => {
+      const animal = typeOfAnimal.find(
+        (animal) => animal.value === animalTypeSlug
+      );
+      return {
+        label: animal?.label || "",
+        remove: () =>
+          (animalType.value = animalType.value.filter(
+            (animal) => animal !== animalTypeSlug
+          )),
+      };
+    }),
   ];
 });
 const resetPage = () => {
@@ -122,6 +114,37 @@ const scrollToTop = () => {
     });
   }
 };
+
+const cleanQueryParams = async () => {
+  const validRegions = data.value?.regions.map((region) => region.slug) || [];
+  const validAnimalTypes = typeOfAnimal.map((animal) => animal.value);
+
+  const cleanedRegions = regions.value.filter((region) =>
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    validRegions.includes(region as any)
+  );
+  const cleanedAnimalTypes = animalType.value.filter((type) =>
+    validAnimalTypes.includes(type)
+  );
+
+  let refreshRequired = false;
+  if (cleanedRegions.length !== regions.value.length) {
+    refreshRequired = true;
+    regions.value = cleanedRegions.length > 0 ? cleanedRegions : [];
+  }
+  if (cleanedAnimalTypes.length !== animalType.value.length) {
+    refreshRequired = true;
+    animalType.value = cleanedAnimalTypes;
+  }
+  if (refreshRequired) {
+    clear();
+    refresh();
+  }
+};
+
+onMounted(() => {
+  cleanQueryParams();
+});
 </script>
 
 <template>
@@ -130,7 +153,6 @@ const scrollToTop = () => {
     class="flex flex-col w-1/2 justify-center items-center mx-auto mt-4"
   >
     <div>
-      <pre>{{ data.orgsCount }}</pre>
       <USelectMenu
         v-model="regions"
         class="w-52"
@@ -163,15 +185,16 @@ const scrollToTop = () => {
       :style="{ scrollMarginTop: `${scrollOffset + 16}px` }"
     />
     <div class="flex gap-2">
-      <UBadge
-        v-for="(filter, index) in filters"
-        :key="index"
-        color="neutral"
-        trailing-icon="i-lucide-x"
-        variant="outline"
-        :label="filter.label"
-        @click="filter.remove()"
-      />
+      <template v-for="(filter, index) in filters" :key="index">
+        <UBadge
+          v-if="filter.label"
+          color="neutral"
+          trailing-icon="i-lucide-x"
+          variant="outline"
+          :label="filter.label"
+          @click="filter.remove()"
+        />
+      </template>
     </div>
 
     <div v-if="data?.orgs" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
