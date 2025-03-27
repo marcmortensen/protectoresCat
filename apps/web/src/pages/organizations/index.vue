@@ -6,21 +6,27 @@ const typeOfAnimal = [
   { label: "Dogs", value: "dogs" },
 ];
 
+const QueryParam = {
+  REGIONS: "regions",
+  ANIMAL_TYPES: "focus",
+  PAGE: "page",
+};
+
 const queryTransform = {
   get: (value: string | undefined) => value?.split(",") || [],
   set: (value: string[]) => (value.length === 0 ? undefined : value.join(",")),
 };
 
-const regions = useRouteQuery("regions", undefined, {
+const regions = useRouteQuery(QueryParam.REGIONS, undefined, {
   mode: "push",
   transform: queryTransform,
 });
-const animalType = useRouteQuery("animalType", undefined, {
+const animalType = useRouteQuery(QueryParam.ANIMAL_TYPES, undefined, {
   mode: "push",
   transform: queryTransform,
 });
 
-const page = useRouteQuery("page", "1", {
+const page = useRouteQuery(QueryParam.PAGE, "1", {
   mode: "push",
   transform: { get: Number, set: String },
 });
@@ -198,9 +204,10 @@ onMounted(() => {
     </div>
 
     <div v-if="data?.orgs" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <div
+      <NuxtLink
         v-for="org in data.orgs"
         :key="org.id"
+        :to="{ name: 'organizations-id', params: { id: org.id } }"
         class="bg-white p-4 shadow rounded group relative"
       >
         <div class="flex gap-2 flex-col h-full">
@@ -235,7 +242,7 @@ onMounted(() => {
           <div v-else class="h-6" />
           <span>{{ `${org.municipality}` }}</span>
         </div>
-      </div>
+      </NuxtLink>
     </div>
     <UPagination
       v-model:page="page"
