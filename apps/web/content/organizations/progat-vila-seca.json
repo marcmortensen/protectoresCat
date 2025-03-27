@@ -1,0 +1,24 @@
+{
+  "id": "f7c69d7e",
+  "slug": "progat-vila-seca",
+  "name": "Progat Vila-seca",
+  "shortName": "Progat Vila-seca",
+  "animalFocus": "cats",
+  "contactPhone": "652059359",
+  "contactEmail": "progatvilaseca@hotmail.es",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipality": "Vila-seca",
+  "description": "Progat Vila-seca és una entitat sense ànim de lucre que pretén controlar i gestionar les colònies de gats lliures a la nostra ciutat per millorar-ne la qualitat de vida i la de les persones que hi conviuen.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ077LtsAhyphenhyphenhEzX2HAY1bXCHAIBEVW-QusMUc1H2EIrpvJc-26t-AsqWoyFqxASqN0DAVQixS-K35HJEc-HtPDUuAqc2v2hmdyLrCx3UZXpsV2ieXLLT2pnSH-uoouCP5arDmFhNSic74-/s150/LOGO.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/progatvilaseca/",
+  "associativeInscriptionNumber": "38110",
+  "dateOfInscription": "2008-11-27:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/progatvilaseca/",
+    "facebook": "https://www.facebook.com/progatvilaseca"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "8b9feb13",
+  "slug": "animals-vida-digna",
+  "name": "Associació Animals Vida Digna",
+  "shortName": "Animals Vida Digna",
+  "contactEmail": "animals.vidadigna@gmail.com",
+  "contactPhone": "695941134",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/1/1/1/0/tydjvjwzeu.jpeg",
+  "region": "ripolles",
+  "province": "girona",
+  "description": "L'Associació Animals Vida Digna és una entitat animalista sense ànim de lucre que promou l'adopció responsable dels gats abandonats de Ripoll i en gestiona les colònies de gats dels carrer. A l'associació centrem la nostra tasca, esforç i dedicació en: -La Caseta de fusta: espai on viuen els gats a l'espera de ser adoptats o apadrinats. -Gats de carrer: se'ls hi proporciona aliment alhora que s'esterilitza i es retorna els gats a les colònies, per tal d'evitar la sobrepoblació.",
+  "adoptAnimalsURL": "https://www.instagram.com/animalsvidadignaripoll/",
+  "shelter": [
+    {
+      "adress": "Polígon industrial els Pintors Carrer Pablo Picasso N. 30, Ripoll 17500",
+      "googleMapsLink": "https://maps.app.goo.gl/rmgGuABcpcrYpktM9",
+      "phone": "695941134"
+    }
+  ],
+  "animalFocus": "cats",
+  "associativeInscriptionNumber": "47983",
+  "municipality": "Ripoll",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2012-06-13T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/associacioanimalsvidadigna/",
+    "instagram": "https://www.instagram.com/animalsvidadignaripoll/"
+  }
+}

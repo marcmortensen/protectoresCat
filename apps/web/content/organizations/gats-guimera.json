@@ -1,0 +1,20 @@
+{
+  "id": "7e9867da",
+  "slug": "gats-guimera",
+  "name": "Associació Gats de Guimerà",
+  "shortName": "Gats de Guimerà",
+  "animalFocus": "cats",
+  "region": "urgell",
+  "province": "lleida",
+  "municipality": "Guimerà",
+  "description": "Associació sense ànim de lucre per la protecció i defensa dels animals. Registrada al Departament d'Acció Climàtica, Alimentació i Agenda Rural.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gatsguimera",
+  "associativeInscriptionNumber": "72266",
+  "dateOfInscription": "2023-01-03:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gatsguimera"
+  }
+}

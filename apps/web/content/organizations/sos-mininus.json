@@ -1,0 +1,21 @@
+{
+  "id": "8dab0e63",
+  "slug": "sos-mininus",
+  "name": "Associació S.O.S Mininus",
+  "shortName": "S.O.S Mininus",
+  "animalFocus": "cats",
+  "region": "alt-emporda",
+  "province": "girona",
+  "municipality": "Figueres",
+  "description": "Som una associació de voluntaris i voluntàries que treballem per donar una llar i molt d’afecte als gats, gates, gatets i gatetes del carrer. Saps d’algú que vulgui adoptar? Ens pots donar un cop de mà fent difusió! Gràcies!",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/SosMininusFigueres/",
+  "associativeInscriptionNumber": "58720",
+  "dateOfInscription": "2016-06-14:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/associaciososmininus/",
+    "facebook": "https://www.facebook.com/SosMininusFigueres/"
+  }
+}

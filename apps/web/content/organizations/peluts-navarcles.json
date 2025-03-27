@@ -1,0 +1,25 @@
+{
+  "id": "6f3e3426",
+  "slug": "peluts-navarcles",
+  "name": "Associació Els Peluts de Navarcles",
+  "shortName": "Els Peluts de Navarcles",
+  "contactEmail": "ass.pelutsnavarcles@gmail.com",
+  "whatsAppPhone": "665018987",
+  "logo": "https://cdn.sukycms.com/shelters/60/images/logo.png",
+  "region": "bages",
+  "province": "barcelona",
+  "description": "L'Associació Els Peluts de Navarcles tenim com objectiu modificar les concentracions de gats que estan en males condicions per convertir-les en colònies controlades, construïm casetes i els posem menjadores i abeuradors per cobrir les seves necessitats bàsiques. Ubiquem i controlem les diverses colònies de gats per tal de millorar la convivència amb els veïns i l'entorn on viuen.",
+  "adoptAnimalsURL": "https://www.instagram.com/elspelutsnavarcles",
+  "associativeInscriptionNumber": "60157",
+  "animalFocus": "cats",
+  "municipality": "Navarcles",
+  "isMunicipal": false,
+  "website": "https://pelutsnavarcles.sukycms.com/",
+  "lastUpdate": "2025-03-21T00:00:00.000Z",
+  "dateOfInscription": "2017-01-10T00:00:00.000Z",
+  "isActive": true,
+  "socials": {
+    "facebook": "https://www.facebook.com/pelutsnavarcles/",
+    "instagram": "https://www.instagram.com/elspelutsnavarcles"
+  }
+}

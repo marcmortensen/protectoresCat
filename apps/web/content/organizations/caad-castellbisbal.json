@@ -1,0 +1,26 @@
+{
+  "id": "bcf4f3cd",
+  "slug": "caad-castellbisbal",
+  "name": "Centre d'Acollida d'Animals Domèstics de Castellbisbal",
+  "shortName": "CAAD Castellbisbal",
+  "contactEmail": "caad@castellbisbal.cat",
+  "contactPhone": "937722779",
+  "website": "https://www.castellbisbal.cat/guia-del-municipi/guia-dequipaments/centre-dacollida-danimals-domestics-caad.html",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "description": "El Centre d’Acollida d’Animals Domèstics (CAAD) de Castellbisbal és un equipament municipal que ofereix atenció integral als animals abandonats o perduts, comptant amb professionals com cuidadores i veterinària. Els seus serveis inclouen la recollida i recuperació d’animals identificats amb microxip, l’adopció responsable, el voluntariat, i el control de colònies felines en col·laboració amb l’Ajuntament",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Ctra. BV-1501 (al costat de la Deixalleria), 08755 Castellbisbal, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/BRHRmMQxoeGK6AUW7",
+      "phone": "937722779",
+      "openingHoursURL": "https://www.castellbisbal.cat/guia-del-municipi/guia-dequipaments/centre-dacollida-danimals-domestics-caad.html"
+    }
+  ],
+  "municipality": "Castellbisbal",
+  "isMunicipal": true,
+  "idZoologicalNucleus": "B25/00565",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z"
+}

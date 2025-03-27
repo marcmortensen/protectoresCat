@@ -1,0 +1,22 @@
+{
+  "id": "d9388910",
+  "slug": "adacc",
+  "name": "Associació per a la Defensa dels Animals de Companyia de Cornellà",
+  "shortName": "ADACC",
+  "animalFocus": "cats&dogs",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Cornellà de Llobregat",
+  "description": "ADACC és una associació sense ànim de lucre que es dedica a rescatar animals abandonats. Fundada a través de voluntaris. Tots aquests animals passen un control veterinari abans de buscar-los una llar definitiva o temporal. Adacc no rep subvencions de cap mena. Organitzem mercats ambulants de segona mà i teaming per poder pagar les factures corresponents que comporta cada animal rescatat.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/8/3/4/0/j2xjnbenrf.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/adacc_cornella/",
+  "associativeInscriptionNumber": "28098",
+  "dateOfInscription": "2003-09-30T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/maria.rios.5209",
+    "instagram": "https://www.instagram.com/adacc_cornella/"
+  }
+}

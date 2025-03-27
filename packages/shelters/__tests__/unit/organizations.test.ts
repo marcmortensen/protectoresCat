@@ -9,6 +9,7 @@ describe('organizations', () => {
   it('checks duplicates', async () => {
     for (const org of organizations) {
       expect(organizations.filter((o) => o.id === org.id)).toHaveLength(1);
+      expect(organizations.filter((o) => o.slug === org.slug)).toHaveLength(1);
       if (org.associativeInscriptionNumber) {
         expect(
           organizations.filter(

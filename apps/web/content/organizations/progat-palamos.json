@@ -1,0 +1,25 @@
+{
+  "id": "62d2bccf",
+  "slug": "progat-palamos",
+  "name": "Associació Progat Palamós i Sant Joan",
+  "shortName": "Progat Palamós",
+  "contactEmail": "progatpalamos3@gmail.com",
+  "whatsAppPhone": "651988122",
+  "animalFocus": "cats",
+  "region": "baix-emporda",
+  "province": "girona",
+  "municipality": "Palamós",
+  "description": "Som una ONG, registrada i formada per unes poques voluntàries. Ens encarreguem d'alimentar, cuidar i esterilitzar els gats de carrer de Palamós (Girona) aplicant el programa CES (Captura Esterilització Solta - Alliberament). Amb un petit gest, ens pots ajudar molt.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/4/8/3/1/9drbczv9qd.jpg",
+  "website": "https://progatpalamosisantjoan.cat/",
+  "adoptAnimalsURL": "https://progatpalamosisantjoan.cat/els-nostres-animals/adoptam",
+  "associativeInscriptionNumber": "38451",
+  "dateOfInscription": "2009-02-03:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/ProgatPalamos/",
+    "instagram": "https://www.instagram.com/palamosprogat/"
+  }
+}

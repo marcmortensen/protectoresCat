@@ -1,0 +1,33 @@
+{
+  "id": "b075e455",
+  "slug": "altarriba",
+  "name": "Fundació Altarriba",
+  "shortName": "Refugi Bú Bup Parc",
+  "contactEmail": "altarriba@altarriba.org",
+  "contactPhone": "603047621",
+  "website": "https://www.altarriba.org/",
+  "logo": "https://i0.wp.com/www.altarriba.org/wp-content/uploads/2018/11/cropped-logo-azul-sin-letras.png",
+  "region": "baix-emporda",
+  "province": "girona",
+  "description": "La Fundació Altarriba Olivar de Baix-Castell d'Empordà és una protectora d'animals compromesa amb el benestar dels animals. Oferim una àmplia varietat de serveis per ajudar els animals en necessitat, des d'adopcions fins a tractaments mèdics. El nostre equip de professionals es dedica a proporcionar un entorn segur i saludable per als animals, així com a promoure la consciència sobre la cura dels animals. Estem compromesos a ajudar els animals a trobar una llar amorosa i segura.",
+  "adoptAnimalsURL": "https://www.altarriba.org/category/en-adopcion/",
+  "shelter": [
+    {
+      "adress": "17115 La Bisbal d'Empordà, Girona",
+      "googleMapsLink": "https://maps.app.goo.gl/Ky93fw9gGFK1SkJP7",
+      "phone": "696652749",
+      "openingHoursURL": "https://www.instagram.com/bubuppark"
+    }
+  ],
+  "animalFocus": "dogs",
+  "associativeInscriptionNumber": "1217",
+  "idZoologicalNucleus": "G25/00159",
+  "municipality": "la Bisbal d'Empordà",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "1998-10-02T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/bubuppark"
+  }
+}

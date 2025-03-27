@@ -1,0 +1,26 @@
+{
+  "id": "432e15c5",
+  "slug": "adas",
+  "name": "Associació en defensa dels animals de Solsona",
+  "shortName": "ADAS",
+  "contactEmail": "adasolsona@gmail.com",
+  "contactPhone": "674288720",
+  "whatsAppPhone": "674288720",
+  "logo": "http://www.adasolsona.org/wp-content/uploads/2023/07/Associacio-en-Defensa-dels-Animals-de-Solsona-1-300x78.png",
+  "website": "https://www.adasolsona.org/",
+  "region": "solsones",
+  "province": "lleida",
+  "description": "Som l’Associació en Defensa dels Animals de Solsona, una organització no governamental d’àmbit local, formada íntegrament per voluntaris i dedicada a la protecció i a la cura dels animals. El nostre finançament ve en gran part de les quotes aportades pels socis, padrins i simpatitzants, a més de donatius puntuals i dels diners aconseguits mitjançant les múltiples activitats que realitzem al llarg de l’any.",
+  "adoptAnimalsURL": "https://www.adasolsona.org/animals_en_adopcio/",
+  "associativeInscriptionNumber": "46732",
+  "animalFocus": "cats&dogs",
+  "municipality": "Solsona",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2012-01-02T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/protectorasolsona",
+    "instagram": "https://www.instagram.com/adassolsona"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "f0887db6",
+  "slug": "protectora-bcn",
+  "name": "Lliga per a la Protecció d'Animals i Plantes de Barcelona",
+  "shortName": "protectora BCN",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "info@protectorabcn.es",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "contactPhone": "934170124",
+  "socials": {
+    "facebook": "https://www.facebook.com/protectorabarcelona",
+    "instagram": "https://www.instagram.com/protectora.bcn/"
+  },
+  "shelter": [
+    {
+      "adress": "Carrer Guarda Antón, 10 08035 Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/APZknSWucKpJiFSn8",
+      "openingHoursURL": "https://protectorabcn.es/ca/contacte/",
+      "phone": "934170124"
+    }
+  ],
+  "description": "La nostra entitat, creada l’any 1944, porta prop de 80 anys lluitant pels animals amb l’objectiu principal de salvar les seves vides quan estan en perill i aconseguir-los aquesta segona oportunitat que, sens dubte, mereixen. Són molts anys d’esforç i també molts els animals que han aconseguit una nova llar però, lamentablement, queda encara molta feina per fer i la nostra Entitat continua col·laborant per millorar aquesta situació.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "logo": "https://protectorabcn.es/wp-content/themes/protectorabcn/assets/icons/logo.svg",
+  "website": "https://protectorabcn.es",
+  "adoptAnimalsURL": "https://protectorabcn.es/ca/els-nostres-animals/?fwp_categories=en-adopcion",
+  "associativeInscriptionNumber": "882",
+  "dateOfInscription": "1967-05-30T00:00:00.000Z"
+}

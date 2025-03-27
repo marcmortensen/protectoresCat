@@ -1,0 +1,24 @@
+{
+  "id": "ffa15ca4",
+  "slug": "gatera-girona",
+  "name": "Xarxa Gatera de Girona",
+  "shortName": "La gatera de Girona",
+  "contactEmail": "lagateradegirona@gmail.com",
+  "contactPhone": "603022695",
+  "logo": "https://web.girona.cat/o/si?mh=300&i=/documents/368703/11402336/720_wqaegx3lz8.jpeg/3fa7a031-4c95-a4e8-13f1-12da249a916b?t=1679664334983",
+  "region": "girones",
+  "province": "girona",
+  "description": "Les adopcions de gats es fan a través de la Xarxa Gatera de Girona. Cal demanar cita prèvia.El consistori ha firmat un conveni amb la Federació Xarxa Gatera de Girona i el Col·legi de Veterinaris de Girona pel control eficient dels felins de carrer. Els gats es porten a les brigades municipals de Mas Xirgu.",
+  "adoptAnimalsURL": "https://www.facebook.com/ServeiAcollidaAnimalsGirona/",
+  "animalFocus": "cats",
+  "associativeInscriptionNumber": "830",
+  "dateOfInscription": "2021-02-01T00:00:00.000Z",
+  "municipality": "Girona",
+  "isMunicipal": true,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/ServeiAcollidaAnimalsGirona/",
+    "instagram": "https://www.instagram.com/lagateradegirona/"
+  }
+}

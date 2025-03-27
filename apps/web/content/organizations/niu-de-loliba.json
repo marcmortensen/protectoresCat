@@ -1,0 +1,22 @@
+{
+  "id": "afd9e0e0",
+  "slug": "niu-de-loliba",
+  "name": "Associació d'Animals el Niu de l'Òliba",
+  "shortName": "El Niu de l'Òliba",
+  "animalFocus": "cats&dogs",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipality": "Vacarisses",
+  "description": "Som una associació sense ànim de lucre que ens dediquem a rescatar animals del carrer, animals abandonats, ferits, malalts, en perill de mort, maltractats... que es troben en el municipi de Vacarisses. Els hi donem assistència veterinària, gestionem cases d’acollida i posteriorment adopcions responsables. Esterilitzacions, cures, alimentació i control dels gats de colònia Assegurarem mitjançant seguiments i assessorament als adoptants el benestar del gos/gat i la família.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/9/8/4/2/q1yevgfqnj.png",
+  "adoptAnimalsURL": "https://www.instagram.com/el_niu_de_l_oliba/",
+  "associativeInscriptionNumber": "67698",
+  "dateOfInscription": "2020-06-08:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/el_niu_de_l_oliba/",
+    "facebook": "https://www.facebook.com/elniudeloliba/"
+  }
+}

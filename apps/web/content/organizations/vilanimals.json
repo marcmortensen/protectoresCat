@@ -1,0 +1,24 @@
+{
+  "id": "cf02b7c6",
+  "slug": "vilanimals",
+  "name": "Associació Vilanimals",
+  "shortName": "Vilanimals",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "vilanimals@gmail.com",
+  "region": "alt-penedes",
+  "province": "barcelona",
+  "municipality": "Vilafranca del Penedès",
+  "description": "Vilanimals és una associació protectora d'animals de Vilafranca del Penedès que es dedica a tenir cura d'animals abandonats, esterilització d'animals i promoure adopcions.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/5/0/5/1/xrnzuyifif.jpg",
+  "website": "https://vilanimals.sukycms.com/",
+  "adoptAnimalsURL": "https://www.instagram.com/vilanimals_vilafranca/",
+  "associativeInscriptionNumber": "58885",
+  "dateOfInscription": "2016-06-20:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/vilanimals_vilafranca/",
+    "facebook": "https://www.facebook.com/vilanimals/"
+  }
+}

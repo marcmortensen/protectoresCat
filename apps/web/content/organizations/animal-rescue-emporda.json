@@ -1,0 +1,22 @@
+{
+  "id": "92c9a57a",
+  "slug": "animal-rescue-emporda",
+  "name": "Assoc. Are Animal Rescue Empordà",
+  "shortName": "Animal Rescue Empordà",
+  "contactEmail": "animalrescueemporda@gmail.com",
+  "animalFocus": "cats&dogs",
+  "region": "garrotxa",
+  "province": "girona",
+  "municipality": "Olot",
+  "description": "Som un grup de persones voluntàries i sense ànim de lucre que hem creat aquesta organització per tal de poder ajudar els animals. Intentem fer-ho amb la nostra millor voluntat i dins de les nostres possibilitats totes les espècies Volem també conscienciar la gent contra l'abandonament i l'explotació animal i les conseqüències que això comporta. Lliurem en adopció responsable a tots els animals esterilitzats, vacunats, desparasitats i xipats. No comptem amb refugi propi on tenir albergats els animals rescatats, per això necessitem cases d'acollida i residència de pagament per als animals que hem rescatat de manera urgent, o no hem trobat acollida encara per a ells. No rebem cap tipus d'ajuda governamental, per la qual cosa en certes ocasions, els recursos escassegen i no volem que per aquest motiu disminueixi la nostra activitat, i això només ho podem aconseguir entre tots, aportant el nostre petit granet de sorra, ja sigui apadrinant, socis, aportacions o grup teaming.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/3/0/1/rahi22dokz.jpg",
+  "adoptAnimalsURL": "https://www.facebook.com/animalrescueemporda/",
+  "associativeInscriptionNumber": "61076",
+  "dateOfInscription": "2017-05-19:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/animalrescueemporda/"
+  }
+}

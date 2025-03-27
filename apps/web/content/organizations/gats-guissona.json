@@ -1,0 +1,21 @@
+{
+  "id": "c59fcb0d",
+  "slug": "gats-guissona",
+  "name": "Associació Gats de Guissona",
+  "shortName": "Gats de Guissona",
+  "animalFocus": "cats",
+  "contactEmail": "gatsdeguissona@gmail.com",
+  "region": "segarra",
+  "province": "lleida",
+  "municipality": "Guissona",
+  "description": "Som un grup de voluntàries i voluntaris que ens hem associat per protegir, cuidar i alimentar les colònies felines del nostre poble. Disposem d'una desena de punts d'alimentació. Tenim comptabilitzats uns 150-200 gats urbans a Guissona, dels quals n'hem esterilitzat des del 2023 més de 120 amb el sistema CER (Captura-Esterilització-Retorn). També rescatem i busquem adopció a gats abandonats, gatets recent nascuts, gatons, gats ferits i malalts, etc.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gatsdeguissona",
+  "associativeInscriptionNumber": "72708",
+  "dateOfInscription": "2023-03-14:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gatsdeguissona"
+  }
+}

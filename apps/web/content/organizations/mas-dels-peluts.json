@@ -1,0 +1,22 @@
+{
+  "id": "b413c64f",
+  "slug": "mas-dels-peluts",
+  "name": "Associació Mas dels peluts",
+  "shortName": "Mas dels peluts",
+  "contactPhone": "619479104",
+  "animalFocus": "cats&dogs",
+  "region": "baix-camp",
+  "province": "tarragona",
+  "municipality": "Reus",
+  "description": "Mas dels Peluts és una casa d'acollida d'animals abandonats que funciona com una associació sense ànim de lucre des de fa sis anys. A diferència d'una protectora, disposa d'un espai limitat per rescatar gossos, gats i rosegadors. Quan arriben, els animals passen un període de quarantena fins a recuperar-se completament, després són desparasitats, vacunats, xipats i esterilitzats si són adults. Un cop disponibles per a l'adopció, es realitza un test preadopció per assegurar la compatibilitat amb la família adoptant. Finalment, es formalitza l'adopció mitjançant un contracte i una donació, la qual ajuda a continuar la tasca de rescat.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/elmasdelspeluts/",
+  "associativeInscriptionNumber": "54442",
+  "dateOfInscription": "2014-10-23:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/elmasdelspeluts/",
+    "instagram": "https://www.instagram.com/mas_dels_peluts/"
+  }
+}

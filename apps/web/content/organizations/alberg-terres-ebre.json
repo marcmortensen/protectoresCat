@@ -1,0 +1,32 @@
+{
+  "id": "f6567d0f",
+  "slug": "alberg-terres-ebre",
+  "name": "Alberg d'Animals de les Terres de l'Ebre",
+  "shortName": "Alberg Terres de l'Ebre",
+  "animalFocus": "cats&dogs",
+  "contactPhone": "657181437",
+  "contactEmail": "encarna@albergdanimals.com",
+  "region": "baix-ebre",
+  "province": "tarragona",
+  "municipality": "Camarles",
+  "socials": {
+    "instagram": "https://www.instagram.com/alberg_animals_terres_ebre/",
+    "facebook": "https://www.facebook.com/alberganimals"
+  },
+  "shelter": [
+    {
+      "adress": "Masia Ardevol, s/n, 43894 Camarles, Tarragona, Espanya",
+      "googleMapsLink": "https://maps.app.goo.gl/Cz6PssjkSjttnW3t9",
+      "phone": "657181437"
+    }
+  ],
+  "description": "Com Associació Protectora d'Animals sense ànim de lucre, la nostra fundació es centra en acollir a tots aquells animals que, per diverses circumstàncies, es troben en una situació d'abandonament o maltracte. En la major part dels casos, aquests animals arriben en una situació precària al nostre alberg.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "logo": "https://www.albergdanimals.com/assets/LOGO%20ALBERGUE@2x.png",
+  "website": "https://albergdanimals.com/",
+  "adoptAnimalsURL": "https://www.instagram.com/alberg_animals_terres_ebre/",
+  "associativeInscriptionNumber": "1082",
+  "dateOfInscription": "2004-10-15T00:00:00.000Z"
+}

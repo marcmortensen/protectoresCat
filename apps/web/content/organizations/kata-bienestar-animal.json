@@ -1,0 +1,20 @@
+{
+  "id": "ff4b94bd",
+  "slug": "kata-bienestar-animal",
+  "name": "Associació Kata Bienestar Animal",
+  "shortName": "Kata Bienestar Animal",
+  "animalFocus": "cats",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipality": "Vacarisses",
+  "description": "Som una entitat sense ánimo de Lucro, la nostra finalitat és cuidar, alimentar , castrar els nostre gats de carrer, i mirar pel seu benestar.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/katabienestaranimal/",
+  "associativeInscriptionNumber": "74585",
+  "dateOfInscription": "2024-02-06:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/katabienestaranimal/"
+  }
+}

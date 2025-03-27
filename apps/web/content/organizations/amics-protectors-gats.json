@@ -1,0 +1,23 @@
+{
+  "id": "10862974",
+  "slug": "amics-protectors-gats",
+  "name": "Amics i Protectors dels Gats de Vilanova i la Geltrú",
+  "shortName": "Amics i Protectors dels Gats",
+  "contactEmail": "gats@amicsiprotectorsdelsgats.org",
+  "animalFocus": "cats",
+  "region": "garraf",
+  "province": "barcelona",
+  "municipality": "Vilanova i la Geltrú",
+  "description": "Amics i Protectors dels Gats som una associació sense ànim de lucre que des de fa 19 anys tenim cura de colònies de gats a Vilanova i la Geltrú, la majoria han estat abandonats i a diari els alimentem, vetllem per la seva salut i benestar i els hi procurem una adopció o casa d'acollida. Demanem qualsevol tipus de donatiu ja que no paren els abandonaments i hem d'assumir el menjar, despeses veterinàries procedents d'operacions, de castracions i esterilitzacions, urgències i medicació.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "website": "https://www.amicsiprotectorsdelsgats.org/",
+  "adoptAnimalsURL": "https://www.instagram.com/amicsiprotectorsdelsgats/",
+  "associativeInscriptionNumber": "27557",
+  "dateOfInscription": "2003-05-13:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/amicsiprotectorsdelsgats/",
+    "instagram": "https://www.instagram.com/amicsiprotectorsdelsgats/"
+  }
+}

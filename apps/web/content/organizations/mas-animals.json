@@ -1,0 +1,24 @@
+{
+  "id": "0dbbd3dc",
+  "slug": "mas-animals",
+  "name": "Associació Mas Animals",
+  "shortName": "Mas Animals",
+  "animalFocus": "cats",
+  "whatsAppPhone": "621001276",
+  "contactEmail": "masanimals@gmail.com",
+  "region": "alt-camp",
+  "province": "tarragona",
+  "municipality": "Cabra del Camp",
+  "description": "Som una associació sense ànim de lucre formada per voluntaris, que intenta millorar la qualitat de vida dels animals, més específicament, dels felins. Gestionem colònies mitjançant el mètode C.E.R, cuidem del seu entorn així com de les cures veterinàries quan és necessari. També pretenem difondre informació sobre les necessitats i el caràcter real dels gats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/4/1/4/2/u4gcdmjz7z.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/mas_animals/",
+  "associativeInscriptionNumber": "68716",
+  "dateOfInscription": "2021-01-28:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/mas_animals/",
+    "facebook": "https://www.facebook.com/associaciomasanimals/"
+  }
+}

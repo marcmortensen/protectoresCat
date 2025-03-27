@@ -1,0 +1,24 @@
+{
+  "id": "ade7b00d",
+  "slug": "aam",
+  "name": "Associació Animalista de Manlleu",
+  "shortName": "AAM",
+  "contactPhone": "607919334",
+  "contactEmail": "animalistesdemanlleu@gmail.com",
+  "animalFocus": "cats&dogs",
+  "region": "osona",
+  "province": "barcelona",
+  "municipality": "Manlleu",
+  "description": "Manlleuencs! Som una associació registrada 25718. Ens dediquem a el sistema CER per controlar la població de gats de carrer a Manlleu i millorar, a la vegada, la vida d'aquests animals. CER significa: captura, esterilització i retorn. O sigui, atrapem els gats, els portem a una clínica veterinàri a esterilitzar i, un cop recuperats, els retornem als seus territoris. També ajudem les alimentadores a comprar el pinso. Cada alimentadora té cura d'una o dues colònies de gats. Gràcies!",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://www.entitatsmanlleu.cat/wp-content/uploads/2014/10/Logo_Associaci%C3%B3-Animalista-de-Manlleu-604x270.png",
+  "adoptAnimalsURL": "https://www.facebook.com/animalistesdemanlleu/",
+  "associativeInscriptionNumber": "25718",
+  "dateOfInscription": "2002-01-28:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/animalistesdemanlleu/",
+    "instagram": "https://www.instagram.com/assanimalistamanlleu"
+  }
+}

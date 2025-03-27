@@ -1,0 +1,23 @@
+{
+  "id": "ce373933",
+  "slug": "terra-viva",
+  "name": "Terra viva Associació Protectora Animals Garrotxa",
+  "shortName": "Terra viva",
+  "contactEmail": "protectoraterraviva@gmail.com",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/4/9/2/0/o4fqbesqkz.jpg",
+  "region": "garrotxa",
+  "province": "girona",
+  "description": "Som una associació sense ànim de lucre creada amb la finalitat de promoure l'adopció d'animals, en especial els animals de la comarca de la Garrotxa. També promoure l'identificació i l'esterilització dels animals de companyia per a reduir el nombre d'abandonaments com a conseqüència de les cadelledes indesitjades. Entre els nostres objectius hi ha la creació de campanyes i projectes per promoure l'adopció, conscienciar a la població sobre l'abandonament, l'esterilització i l'identificació dels animals de companyia, així com projectes d'àmbit social i terapèutic. Si vols col·laborar amb nosaltres no dubtis en contactar-nos! Necessitem voluntaris per a difondre els animals en adopció, cases d'acollida per a cadells que necessitin biberó, animals malalts mentre es recuperen i tots aquells animals que pel motiu que sigui no poden estar al Centre (animals vells, malalts crònics, gats, animals exòtics...).",
+  "adoptAnimalsURL": "https://www.facebook.com/protectoraterraviva/",
+  "animalFocus": "cats&dogs",
+  "associativeInscriptionNumber": "46344",
+  "municipality": "Olot",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2011-11-24T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/protectoraterraviva/",
+    "instagram": "https://www.instagram.com/terraviva_protectora_garrotxa/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f6ef7c77",
+  "slug": "caldes-animal",
+  "name": "Associació Protectora de Caldes de Montbui",
+  "shortName": "Caldes Animal",
+  "animalFocus": "cats&dogs",
+  "whatsAppPhone": "666526181",
+  "contactEmail": "caldesanimal@caldesanimal.org",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "Caldes de Montbui",
+  "socials": {
+    "instagram": "https://www.instagram.com/protectora_caldes_animal_"
+  },
+  "shelter": [
+    {
+      "adress": "Km 15, C-59, 08140 Caldes de Montbui, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/FFDRdeAJaZeG3AQ48",
+      "openingHoursURL": "https://caldesanimal.org/",
+      "phone": "666526181"
+    }
+  ],
+  "description": "Caldes Animal lluita per millorar el benestar dels animals abandonats quan el nombre d'abandó sembla que no para d'incrementar-se i la societat sembla no voler assumir la seva responsabilitat en la defensa animal. Cada any passen per la protectora gossos i gats desnodrits, amb ferides i amb problemes de socialització per maltractament. Nosaltres els atenem i posem tota la nostra calor humana a trobar una nova llar per a tots ells. Ajuda'ns a ajudar-los!",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "logo": "https://caldesanimal.org/wp-content/uploads/2022/01/logo2.png",
+  "website": "https://caldesanimal.org/",
+  "adoptAnimalsURL": "https://caldesanimal.org/#elvpets_iframe",
+  "associativeInscriptionNumber": "38054",
+  "dateOfInscription": "2008-11-13T00:00:00.000Z"
+}

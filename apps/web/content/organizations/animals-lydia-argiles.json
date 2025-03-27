@@ -1,0 +1,34 @@
+{
+  "id": "a89078af",
+  "slug": "animals-lydia-argiles",
+  "name": "Protectora d'Animals Lydia Argilés",
+  "shortName": "Animals Lydia Argilés",
+  "contactEmail": "protectoraanimalslydiaargiles@hotmail.com",
+  "contactPhone": "686234542",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/0/1/0/dxdh0jolli.jpg",
+  "website": "https://protectoraanimalslydiaargiles.blogspot.com/",
+  "region": "segria",
+  "province": "lleida",
+  "shelter": [
+    {
+      "adress": "Partida Sant Just, 55 A, 25192 Lleida, Espanya",
+      "googleMapsLink": "https://maps.app.goo.gl/AToGGe8M1SUF231K7",
+      "phone": "686234542",
+      "openingHoursURL": "https://maps.app.goo.gl/AToGGe8M1SUF231K7"
+    }
+  ],
+  "description": "Associació animalista amb més de 30 anys d'experiència dedicada al rescat d'animals (gossos i gats), a la defensa dels seus drets ia la recerca de noves llars per a ells. Situada a la ciutat de Lleida.",
+  "adoptAnimalsURL": "https://protectoraanimalslydiaargiles.blogspot.com/",
+  "associativeInscriptionNumber": "2724",
+  "animalFocus": "cats&dogs",
+  "idZoologicalNucleus": "L25/00102",
+  "municipality": "Lleida",
+  "isMunicipal": true,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2001-03-14T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/protectoralydiaargiles",
+    "instagram": "https://www.instagram.com/protectora_lydiaargiles/"
+  }
+}

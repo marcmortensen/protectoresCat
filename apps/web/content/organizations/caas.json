@@ -1,0 +1,28 @@
+{
+  "id": "b1840f32",
+  "slug": "caas",
+  "name": "Centre d'Acollida d'Animals de la Selva",
+  "shortName": "CAAS",
+  "logo": "https://caas.selva.cat/imatges/logo_CAAS.png",
+  "contactEmail": "caas@selva.cat",
+  "contactPhone": "972340813",
+  "website": "https://caas.selva.cat/",
+  "region": "selva",
+  "province": "girona",
+  "animalFocus": "cats&dogs",
+  "adoptAnimalsURL": "https://caas.selva.cat/registre.php",
+  "description": "Servei de recollida d'animals abandonats assumit pel Consell Comarcal de la Selva va començar a ser operatiu l'any 1990. Aquest servei ha estat realitzat per la Societat Protectora d'Animals i Plantes de Tossa de Mar, en virtud del contracte signat entre aquesta entitat i el Consell Comarcal.",
+  "shelter": [
+    {
+      "adress": "Ctra. Llagostera, Km 1, 17320 Tossa de Mar, Girona",
+      "googleMapsLink": "https://maps.app.goo.gl/RSxDApLY3naGZFH68",
+      "phone": "972340813",
+      "openingHoursURL": "https://caas.selva.cat/centre.php"
+    }
+  ],
+  "idZoologicalNucleus": "G25/00053",
+  "municipality": "Tossa de Mar",
+  "isMunicipal": true,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z"
+}

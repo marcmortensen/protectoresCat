@@ -1,0 +1,23 @@
+{
+  "id": "2af16b46",
+  "slug": "petjades-espluga",
+  "name": "Associació Petjades de l'Espluga de Francolí",
+  "shortName": "Petjades Espluga",
+  "logo": "https://www.adopta-un-animal.es/entities/protectora/622747d3cf14aa79e3a6bc9c/imagenes/img_principal.jpeg",
+  "contactEmail": "petjades.espluga@gmail.com",
+  "region": "conca-de-barbera",
+  "province": "tarragona",
+  "description": "Associació sense ànim de lucre dedicada a la protecció i benestar dels animals, especialment gats i gossos, al municipi de l'Espluga de Francolí. Gestiona colònies de gats mitjançant el mètode CER (Captura, Esterilització i Retorn) i fomenta l'adopció responsable.",
+  "adoptAnimalsURL": "https://www.instagram.com/petjades_espluga/",
+  "animalFocus": "cats&dogs",
+  "municipality": "l'Espluga de Francolí",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "69455",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2021-06-11T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100083339616985",
+    "instagram": "https://www.instagram.com/petjades_espluga/"
+  }
+}

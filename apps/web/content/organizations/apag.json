@@ -1,0 +1,34 @@
+{
+  "id": "79f25009",
+  "slug": "apag",
+  "name": "Associació Protectora d'Animals de Granollers (APAG)",
+  "shortName": "APAG",
+  "contactEmail": "info@protectoragranollers.org",
+  "contactPhone": "938402777",
+  "whatsAppPhone": "675643755",
+  "logo": "https://i0.wp.com/protectoragranollers.org/wp-content/uploads/2024/06/logo-apag.webp",
+  "website": "https://protectoragranollers.org/",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "description": "L’Associació Protectora d’Animals de Granollers (APAG) és una associació, sense ànim de lucre, que té com a objectiu acollir gossos, gats i altres animals abandonats per tenir cura d’ells en el nostre refugi mentre els hi busquem una nova llar on puguin ser feliços. L’associació està reconeguda per la Generalitat de Catalunya i compta amb el suport de l’Ajuntament de Granollers.",
+  "adoptAnimalsURL": "https://protectoragranollers.org/category/gossos/",
+  "shelter": [
+    {
+      "adress": "Carrer Severo Ochoa 103-105, Pol. Industrial Font del Radium 08403 Granollers",
+      "googleMapsLink": "https://maps.app.goo.gl/b82VKJWSFUzAfUtj6",
+      "phone": "938402777",
+      "openingHoursURL": "https://protectoragranollers.org/contacte/"
+    }
+  ],
+  "animalFocus": "cats&dogs",
+  "associativeInscriptionNumber": "30034",
+  "municipality": "Granollers",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2005-02-01T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/protectoragranollers",
+    "instagram": "https://www.instagram.com/apagranollers_protectora/"
+  }
+}

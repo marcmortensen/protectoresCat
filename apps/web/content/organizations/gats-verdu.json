@@ -1,0 +1,23 @@
+{
+  "id": "196ba3e4",
+  "slug": "gats-verdu",
+  "name": "Associació Gats de Verdú",
+  "shortName": "Gats de Verdú",
+  "animalFocus": "cats",
+  "contactPhone": "655256316",
+  "contactEmail": "gatsverdu@gmail.com",
+  "region": "urgell",
+  "province": "lleida",
+  "municipality": "Verdú",
+  "description": "Associació sense ànim de lucre que té com a objectiu la gestió i control de gats ferals al poble de Verdú (Lleida) mitjançant el Mètode CER (captura-estirilització-retorn). Intentem millorar la qualitat de vida de les colònies urbanes i retirar-les a gats domèstics, malalts i cadells per buscar adopcions responsables. No disposem de cap mena de subvenció, les colònies són molt nombroses i els seus membres es troben en molt mal estat. Ens ajudes a ajudar-los?",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/4/4/8/7/8/jzl7ub4wk6.jpeg",
+  "adoptAnimalsURL": "https://www.facebook.com/AssociacioDAIMA",
+  "associativeInscriptionNumber": "72908",
+  "dateOfInscription": "2023-04-18:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gatsdeverdu/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2e98180d",
+  "slug": "fundacio-silvestre",
+  "name": "Fundació Privada Silvestre",
+  "shortName": "Fundació Silvestre",
+  "contactEmail": "info@fundaciosilvestre.org",
+  "animalFocus": "cats",
+  "whatsAppPhone": "696873793",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "description": "Som una fundació privada, sense ànim de lucre i totalment independent. Ens vam constituir formalment el 2007 (tot i que vam començar rescatant animals que ho necessitaven molt abans) i la fundació està inscrita al Registre de la Generalitat de Catalunya amb el núm. 2374.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/9/2/7/0/cfelc9kbzo.png",
+  "website": "https://fundaciosilvestre.org/",
+  "adoptAnimalsURL": "https://fundaciosilvestre.org/la-26-adopcion-de-gatos",
+  "associativeInscriptionNumber": "2374",
+  "dateOfInscription": "2007-11-15:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/fundaciosilvestre/"
+  }
+}

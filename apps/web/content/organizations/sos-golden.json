@@ -1,0 +1,25 @@
+{
+  "id": "5b59f972",
+  "slug": "sos-golden",
+  "name": "Associació SOS Golden",
+  "shortName": "SOS Golden",
+  "contactEmail": "sosgolden@gmail.com",
+  "animalFocus": "dogs",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "municipality": "Banyeres del Penedès",
+  "description": "Sosgolden és una associació sense ànim de lucre creada el 2007 amb l'única finalitat d'ajudar i defensar els que no tenen veu, els nostres animals. Som una protectora dedicada a rescatar Golden i Labrador Retriever en particular, però ens fem ressò de qualsevol gos que necessiti ser rescatat. Adopcions a Barcelona, Tarragona, Girona... Tenim un grup de voluntaris i cuidadors meravellosos, que busquen famílies per a les nostres \"estrelles\" del refugi i amb la vostra ajuda podem guarir-los i preparar-los per ser apadrinats o adoptats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://sosgolden.org/wp-content/uploads/2010/11/logo-rescatando-peq.jpg",
+  "website": "https://sosgolden.org/",
+  "adoptAnimalsURL": "https://sosgolden.org/",
+  "associativeInscriptionNumber": "48218",
+  "dateOfInscription": "2012-07-10:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/SOSGOLDEN/",
+    "instagram": "https://www.instagram.com/SOSGOLDEN/"
+  },
+  "idZoologicalNucleus": "T25/00084"
+}

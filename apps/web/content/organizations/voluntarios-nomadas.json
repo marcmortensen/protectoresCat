@@ -1,0 +1,23 @@
+{
+  "id": "cc420b96",
+  "slug": "voluntarios-nomadas",
+  "name": "Associació Animalista Voluntarios Nómadas",
+  "shortName": "Voluntarios Nómadas",
+  "animalFocus": "dogs",
+  "whatsAppPhone": "747442547",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "description": "Som un grup dedicat al rescat i recuperació de mascotes, principalment gossets. Som a Barcelona. Tenim totes les ganes i molta il·lusió, però no comptem amb cap mena de subvenció. Sortim endavant gràcies a les aportacions dels adoptants i als nostres treballs. Però no n'hi ha prou per poder seguir tirant endavant i donant una oportunitat a totes les bestioles que ens necessiten.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "logo": "https://img.miwuki.com/Og7Il6n1",
+  "adoptAnimalsURL": "https://www.instagram.com/voluntariosnomadas/",
+  "associativeInscriptionNumber": "74055",
+  "dateOfInscription": "2023-10-31:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/voluntariosnomadas/",
+    "facebook": "https://www.facebook.com/voluntariosnomadas2"
+  }
+}

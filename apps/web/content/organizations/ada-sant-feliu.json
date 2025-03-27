@@ -1,0 +1,25 @@
+{
+  "id": "03d59d11",
+  "slug": "ada-sant-feliu",
+  "name": "Associació Defensa Animal Sant Feliu de Codines",
+  "shortName": "ADA Sant Feliu",
+  "contactEmail": "adasantfeliudecodines@gmail.com",
+  "animalFocus": "cats&dogs",
+  "contactPhone": "686471888",
+  "whatsAppPhone": "686471888",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "Sant Feliu de Codines",
+  "description": "L'associació per la defensa dels gats a S.Feliu amb la voluntat de donar una vida digna als gats de carrer vivint en colonies controlades.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/ADAsantfeliudecodines/",
+  "associativeInscriptionNumber": "56947",
+  "dateOfInscription": "2015-09-09:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/adasantfeliu",
+    "facebook": "https://www.facebook.com/ADAsantfeliudecodines/",
+    "tikTok": "https://www.tiktok.com/@ada.santfeliudecodines"
+  }
+}

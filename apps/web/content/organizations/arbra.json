@@ -1,0 +1,23 @@
+{
+  "id": "53c96b76",
+  "slug": "arbra",
+  "name": "Adopcions Responsables i Benestar Animal",
+  "shortName": "ARBRA",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "adopcionsresponsables@gmail.com",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "Santa Eulàlia de Ronçana",
+  "socials": {
+    "instagram": "https://www.instagram.com/arbra_associacio/",
+    "facebook": "https://www.facebook.com/adopcionsresponsables"
+  },
+  "description": "L'associació ARBRA va néixer al març del 2011 a Sta. Eulàlia de Ronçana, amb l'objectiu de donar una llar als animals que han estat abandonats, principalment al nostre municipi, així com d'altres llocs. També és important per a nosaltres la conscienciació ciutadana envers el respecte cap a tot tipus d'ésser viu. El nostre objectiu principal és trobar una família definitiva a tots aquests animals, i fins que arribi aquest moment, tenir cura d'ells. Ens ajudes a seguir salvant vides?",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/1/4/0/0/pmdah97ngr.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/arbra_associacio/",
+  "associativeInscriptionNumber": "44897",
+  "dateOfInscription": "2011-04-29T00:00:00.000Z"
+}

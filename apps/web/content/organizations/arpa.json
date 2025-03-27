@@ -1,0 +1,23 @@
+{
+  "id": "365175e4",
+  "slug": "arpa",
+  "name": "Associació de Rescat i Protecció d'Animals (ARPA)",
+  "shortName": "ARPA",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/9/8/3/3/720_utfikmh751.png",
+  "contactEmail": "associacioarpaandorra@gmail.com",
+  "contactPhone": "376321685",
+  "region": "alt-urgell",
+  "province": "lleida",
+  "description": "Vetllar pel benestar i protecció d'animals de tota mena i el compliment de la Llei de Protecció d'Animals,fomentant la adopció i tinença responsable d'animals de companyia.A més de controlar i esterilitzar les colònies de gats del carrer. En queda exclòs tot ànim de lucre.",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100085098911186",
+  "animalFocus": "cats&dogs",
+  "municipality": "la Seu d'Urgell",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "57462",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2015-11-27T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100085098911186"
+  }
+}

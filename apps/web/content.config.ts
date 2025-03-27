@@ -85,6 +85,7 @@ export default defineContentConfig({
       source: "organizations/*.json",
       schema: z.object({
         id: z.string(),
+        slug: z.string(),
         name: z.string(),
         shortName: z.string(),
         logo: z.string().optional(),

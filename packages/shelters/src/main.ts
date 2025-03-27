@@ -27,7 +27,7 @@ try {
 const activeOrganizations = organizations.filter((a) => a.isActive);
 try {
   for (const org of activeOrganizations) {
-    const filePath = path.join(organizationsPath, `${org.id}.json`);
+    const filePath = path.join(organizationsPath, `${org.slug}.json`);
     await fs.writeFile(filePath, JSON.stringify(org, null, 2));
   }
 } catch (error) {

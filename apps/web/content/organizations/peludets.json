@@ -1,0 +1,23 @@
+{
+  "id": "4fe6b6e6",
+  "slug": "peludets",
+  "name": "Associació Peludets Sant Vicenç",
+  "shortName": "Peludets",
+  "contactEmail": "peludetsdesvc@gmail.com",
+  "animalFocus": "cats",
+  "region": "bages",
+  "province": "barcelona",
+  "municipality": "Sant Vicenç de Castellet",
+  "description": "Som unes poques voluntàries amants dels gats que dediquem les nostres vides i els nostres pocs recursos econòmics a ajudar als gats que viuen al carrer i no estan controlats per l'ajuntament. Actualment tenim cura d'una colònia de gats i gatons d'uns 14 individus situats a prop de l'estació de Sant Vicenç de Castellet",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/1/7/4/0/h94q0acvq1.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/peludetsdesvc/",
+  "associativeInscriptionNumber": "66554",
+  "dateOfInscription": "2019-10-28:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/peludetsdesvc/",
+    "facebook": "https://www.facebook.com/peludetsantvicenc/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "7506e022",
+  "slug": "spac",
+  "name": "Associació Societat Protectora d'Animals de Catalunya (SPAC)",
+  "shortName": "SPAC",
+  "logo": "https://spac.cat/_mibambu/_spac/imas/logo-circulo.png",
+  "contactEmail": "adopcions.spac@gmail.com",
+  "contactPhone": "637338011",
+  "whatsAppPhone": "637338011",
+  "website": "https://www.spac.cat/",
+  "region": "tarragones",
+  "province": "tarragona",
+  "description": "Som SPAC (Societat Protectora D'animals de Catalunya), un grup jove i amb molta energia. La nostra prioritat és el benestar animal. Posem tot el nostre afany a trobar famílies responsables que els donin tot l'afecte i cures que ells necessiten i mereixen. Depenen de l'associació més de 400 gossos, 30 gats i més de 50 animals de granja. Els animals es lliuren als seus adoptants amb contracte d'adopció, esterilitzats, vacunats, desparasitats internament i externament, microxipats i amb cartilla sanitària. Si vols ampliar la teva família amb algun dels nostres peluts, has arribat al lloc adequat.",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Cami de la protectora s/n - 43830 Torredembarra",
+      "googleMapsLink": "https://maps.app.goo.gl/oHia4c7LhBZgkcwu6",
+      "phone": "637338011",
+      "openingHoursURL": "https://spac.cat/s33-donde-estamos"
+    },
+    {
+      "adress": "Carrer dels Basters 8-14 Nau 4 Polígono Industrial La Cometa - 43700 El Vendrell",
+      "googleMapsLink": "https://maps.app.goo.gl/ZSZTWsy581yEoLRi6",
+      "phone": "662289910",
+      "openingHoursURL": "https://spac.cat/s33-donde-estamos"
+    }
+  ],
+  "adoptAnimalsURL": "https://spac.cat/listado",
+  "municipality": "Torredembarra",
+  "isMunicipal": true,
+  "associativeInscriptionNumber": "54815",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2014-11-07T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/ProtectoraSPAC/",
+    "instagram": "https://www.instagram.com/protectora_spac/"
+  }
+}

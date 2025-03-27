@@ -1,0 +1,26 @@
+{
+  "id": "8e61e173",
+  "slug": "animals-del-pirineu",
+  "name": "APAP Associació pels Animals del Pirineu",
+  "shortName": "Animals del Pirineu",
+  "contactEmail": "apapirineu@gmail.com",
+  "contactPhone": "677297293",
+  "whatsAppPhone": "677297293",
+  "logo": "https://apapirineu.com/wp-content/uploads/2024/04/logotransparente_opt.png",
+  "website": "https://apapirineu.com/",
+  "region": "alt-urgell",
+  "province": "lleida",
+  "description": "Som una petita organització de La Seu d'Urgell, sense ànim de lucre que ajuda als animals sense llar.",
+  "adoptAnimalsURL": "https://apapirineu.com/",
+  "associativeInscriptionNumber": "48518",
+  "animalFocus": "cats&dogs",
+  "municipality": "la Seu d'Urgell",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "dateOfInscription": "2012-09-14T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/Associaciopelsanimalsdelpirineu",
+    "instagram": "https://www.instagram.com/assoc.pelsanimalsdelpirineu/"
+  }
+}

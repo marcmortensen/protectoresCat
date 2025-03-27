@@ -1,0 +1,24 @@
+{
+  "id": "59f0da2d",
+  "slug": "adoptagat",
+  "name": "Associació Adoptagat",
+  "shortName": "Adoptagat",
+  "contactEmail": "adoptagat@hotmail.com",
+  "whatsAppPhone": "673038177",
+  "animalFocus": "cats",
+  "region": "anoia",
+  "province": "barcelona",
+  "municipality": "Igualada",
+  "description": "El nostre objectiu és millorar la qualitat de vida dels gats abandonats al carrer: Alimentar-los, donar-los assistència veterinària, esterilitzar-los, vacunar-los... cercar adoptants o cases d'acollida per a ells La nostra tasca requereix voluntaris però també recursos econòmics per pagar pinso i veterinari. Qualsevol ajuda ens pot servir per SALVARLOS Tots els voluntaris treballem de forma altruista. Associació registrada al Departament d'Entitats Jurídiques (Generalitat).",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/9/2/3/0/1/uxsqao2zrw.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/adoptagat/",
+  "associativeInscriptionNumber": "53803",
+  "dateOfInscription": "2014-07-11:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/adoptagat/",
+    "facebook": "https://www.facebook.com/adoptagat.associacio/"
+  }
+}

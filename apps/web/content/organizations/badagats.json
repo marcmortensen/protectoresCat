@@ -1,0 +1,23 @@
+{
+  "id": "7a45651b",
+  "slug": "badagats",
+  "name": "Associació Badagats",
+  "shortName": "Badagats",
+  "contactEmail": "antonia@badagats.com",
+  "animalFocus": "cats",
+  "contactPhone": "628579841",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Badalona",
+  "description": "Badagats és una associació sense ànim de lucre, amb més de 300 gats, l'objectiu dels quals és ajudar, acollir i millorar la qualitat de vida dels gats abandonats i del carrer. Volem donar a conèixer els nostres gats i aconseguir adopcions responsables. A més de seguir amb la nostra tasca de rescatar, cuidar i esterilitzar.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "website": "https://badagats.org/",
+  "adoptAnimalsURL": "https://badagats.org/listado",
+  "associativeInscriptionNumber": "30006",
+  "dateOfInscription": "2005-01-25:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/Badagats"
+  }
+}

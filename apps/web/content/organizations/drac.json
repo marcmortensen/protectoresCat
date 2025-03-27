@@ -1,0 +1,25 @@
+{
+  "id": "1008a222",
+  "slug": "drac",
+  "name": "Associació Defensa i Rescat Animal de Catalunya",
+  "shortName": "DRAC",
+  "contactEmail": "ong.drac@gmail.com",
+  "animalFocus": "cats&dogs",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "municipality": "Cunit",
+  "contactPhone": "637262663",
+  "description": "D.R.A.C és una associació sense ànim de lucre dedicada a la protecció dels drets dels animals, especialment aquells en situació de vulnerabilitat o risc d'abandonament. La seva tasca principal consisteix en rescatar i cuidar gossos i gats abandonats, proporcionant-los una llar temporal i buscant adoptants que els ofereixin una llar definitiva.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://www.cunit.cat/wp-content/uploads/2024/04/Logo-DRAC-Defensa-i-Rescat-Animal-de-Catalunya.jpg",
+  "website": "https://www.ongdrac.com/",
+  "adoptAnimalsURL": "https://www.ongdrac.com/adopta/perros/",
+  "associativeInscriptionNumber": "70514",
+  "dateOfInscription": "2022-01-18:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/drac.ong/",
+    "facebook": "https://www.facebook.com/asodrac"
+  }
+}

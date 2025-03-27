@@ -1,0 +1,25 @@
+{
+  "id": "5e8092a1",
+  "slug": "sos-maullidos",
+  "name": "Associació SOS Maullidos",
+  "shortName": "SOS Maullidos",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipality": "Pallejà",
+  "contactEmail": "sos.maullidos@gmail.com",
+  "whatsAppPhone": "644359605",
+  "description": "Som SOS MAULLIDOS de Pallejà (Barcelona), una associació sense ànim de lucre! Som diverses voluntàries que ens dediquem a controlar, alimentar, curar i cuidar les colònies de gats que viuen als carrers de Pallejà, Fontpineda i la Magina, perquè els gats estiguin sans i no es reprodueixin sense control. També busquem adopció als gatets i als gats adults sociables perquè puguin trobar una família i no hagin de viure al carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/7/9/9/0/ofg3ctzqxs.jpg",
+  "website": "https://sosmaullidospalleja.wordpress.com/",
+  "adoptAnimalsURL": "https://padlet.com/mtrench2/els-nostres-gats-en-adopci-ahqo79yu1o9mv9tr",
+  "associativeInscriptionNumber": "60189",
+  "dateOfInscription": "2017-01-10:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/sosmaullidos/",
+    "facebook": "https://www.facebook.com/sosmaullidos"
+  }
+}

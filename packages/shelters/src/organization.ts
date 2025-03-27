@@ -11,6 +11,7 @@ interface Shelter {
 }
 export interface Organization {
   id: string;
+  slug: string;
   name: string;
   shortName: string;
   logo?: string;
@@ -43,6 +44,7 @@ export interface Organization {
 export const organizations: Organization[] = [
   {
     id: 'b1840f32',
+    slug: 'caas',
     name: "Centre d'Acollida d'Animals de la Selva",
     shortName: 'CAAS',
     logo: 'https://caas.selva.cat/imatges/logo_CAAS.png',
@@ -71,6 +73,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e21ae529',
+    slug: 'rodamon',
     name: "Associació Protectora d'Animals Rodamon del Baix Empordà",
     shortName: `Rodamón`,
     logo: 'https://www.aparodamon.com/wp-content/uploads/2024/01/Apa-Rodamon-Associacio-Protectora-AnimalsMesa-de-trabajo-68.png',
@@ -107,6 +110,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ccd944e2',
+    slug: 'girogats',
     name: 'GiroGats',
     shortName: 'GiroGats',
     logo: 'http://girogats.org/wp-content/uploads/2015/03/LogoGiroGats.png',
@@ -130,6 +134,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '203c1720',
+    slug: 'galgos112',
     name: 'Associació Protectora de Llebrers Galgos 112',
     shortName: 'Galgos112',
     contactEmail: 'info@galgos112.com',
@@ -155,6 +160,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '834531ac',
+    slug: 'deixant-petjada',
     name: "Associació Protectora d'animals Deixant petjada",
     shortName: 'Deixant petjada',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/4/9/6/6/4/w3i56bu4cy.jpeg',
@@ -182,6 +188,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ebe46f92',
+    slug: 'ebe46f92',
     name: 'Associació Protectora KmaKus',
     shortName: 'Kmakus',
     contactEmail: 'protectorakmakus@gmail.com',
@@ -208,6 +215,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ce373933',
+    slug: 'terra-viva',
     name: 'Terra viva Associació Protectora Animals Garrotxa',
     shortName: 'Terra viva',
     contactEmail: 'protectoraterraviva@gmail.com',
@@ -232,6 +240,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '54500e86',
+    slug: 'refugi-ripolles',
     name: "Refugi d'Animals del Ripollés",
     shortName: 'Refugi Ripollés',
     contactEmail: 'refugiripolles@gmail.com',
@@ -264,6 +273,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b075e455',
+    slug: 'altarriba',
     name: 'Fundació Altarriba',
     shortName: 'Refugi Bú Bup Parc',
     contactEmail: 'altarriba@altarriba.org',
@@ -296,6 +306,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '563d91cf',
+    slug: 'apape',
     name: "Associació de protecció i defensa dels animals de la comarca del Pla de l'Estany",
     shortName: 'APAPE',
     contactEmail: 'info@protectoraplaestany.cat',
@@ -330,6 +341,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7fc89969',
+    slug: 'apapf',
     name: "Refugi de l'Associació Protectora d'Animals i Plantes de Figueres",
     shortName: 'APAPF',
     contactEmail: 'info@protectorafigueres.com',
@@ -362,6 +374,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f28e80cb',
+    slug: 'ccae',
     name: "Centre Comarcal de protecció i adopció d'animals de companyia a l’Alt Empordà",
     shortName: 'CCAE',
     contactEmail: 'info@mediambient-altemporda.org',
@@ -390,6 +403,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e56b8d4d',
+    slug: 'apda-torroella-estartit',
     name: 'APDA Amics Protectors dels Animals',
     shortName: 'APDA Torroella Estartit',
     contactEmail: 'apdatorroellaestartit@gmail.com',
@@ -416,6 +430,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f6536434',
+    slug: 'progat-begur',
     name: 'Associació Progat Begur',
     shortName: 'Progat Begur',
     contactEmail: 'progatbegur@gmail.com',
@@ -441,6 +456,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5d982e33',
+    slug: 'anxova-peluda',
     name: `Associació Protectora d'Animals l'Anxova Peluda`,
     shortName: 'Anxova Peluda',
     contactEmail: 'anxovapeluda@gmail.com',
@@ -465,6 +481,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '014644e1',
+    slug: 'gats-port-de-la-selva',
     name: `Associació dels gats del Port de la Selva`,
     shortName: 'Gats del Port de la Selva',
     contactEmail: 'gatsportselva@gmail.com',
@@ -490,6 +507,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2c98a4a7',
+    slug: 'sol-gat-lescala',
     name: `Associació Sol Gat L'Escala`,
     shortName: 'Sol Gat',
     contactEmail: 'infosolgat@gmail.com',
@@ -518,6 +536,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5623f263',
+    slug: 'progat-ampuria',
     name: `Progat i gos Ampuria`,
     shortName: 'Progat Ampuria',
     contactEmail: 'info@progatampuria.com',
@@ -545,6 +564,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'de317cfe',
+    slug: 'gats-de-llanca',
     name: `Associació Gats de Llançà`,
     shortName: 'Gats de Llançà',
     contactEmail: 'gatsdellansa@gmail.com',
@@ -569,6 +589,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '8e61e173',
+    slug: 'animals-del-pirineu',
     name: `APAP Associació pels Animals del Pirineu`,
     shortName: 'Animals del Pirineu',
     contactEmail: 'apapirineu@gmail.com',
@@ -596,6 +617,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7b891d3c',
+    slug: 'cau-de-la-cendra',
     name: `Associació El Cau de la Cendra`,
     shortName: 'El Cau de la Cendra',
     contactEmail: 'elcaudelacendra@gmail.com',
@@ -621,6 +643,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '4aded00f',
+    slug: 'servei-acollida-animals-girona',
     name: `Centre Municipal d'Acollida d'Animals de Girona`,
     shortName: `Servei d'acollida d'animals de Girona`,
     contactEmail: 'serveisladevesa2009@gmail.com',
@@ -652,6 +675,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ffa15ca4',
+    slug: 'gatera-girona',
     name: `Xarxa Gatera de Girona`,
     shortName: `La gatera de Girona`,
     contactEmail: 'lagateradegirona@gmail.com',
@@ -677,6 +701,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd333de8a',
+    slug: 'sos-animals-cerdanya',
     name: `Associació SOS Animals Cerdanya`,
     shortName: `SOS Animals Cerdanya`,
     contactEmail: 'animalscerdanya@gmail.com',
@@ -701,6 +726,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'fcbb5576',
+    slug: 'espargats',
     name: `Associació Espargats`,
     shortName: `Espargats`,
     contactEmail: 'espargats@gmail.com',
@@ -727,6 +753,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2a3192fb',
+    slug: 'aprodega',
     name: `Associació Protectora de Gats Abandonats (APRODEGA)`,
     shortName: `Aprodega`,
     contactEmail: 'aprodega.vilassardedalt@gmail.com',
@@ -753,6 +780,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '51bee492',
+    slug: 'cau-amic',
     name: `Associació Protectora d'Animals El Cau Amic`,
     shortName: `El Cau Amic`,
     contactEmail: 'info@cauamic.cat',
@@ -778,6 +806,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'a4612e39',
+    slug: 'gats-carrer-santpedor',
     name: `Associació Gat's Carrer Santpedor`,
     shortName: `Gat's Carrer Santpedor`,
     contactEmail: 'gatscarrer@hotmail.com',
@@ -804,6 +833,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '097c866b',
+    slug: 'progat-alt-bergueda',
     name: `Progat Alt Berguedà`,
     shortName: `Progat Alt Berguedà`,
     contactEmail: 'progataltbergueda@gmail.com',
@@ -830,6 +860,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '6f3e3426',
+    slug: 'peluts-navarcles',
     name: `Associació Els Peluts de Navarcles`,
     shortName: `Els Peluts de Navarcles`,
     contactEmail: 'ass.pelutsnavarcles@gmail.com',
@@ -856,6 +887,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '432e15c5',
+    slug: 'adas',
     name: `Associació en defensa dels animals de Solsona`,
     shortName: `ADAS`,
     contactEmail: 'adasolsona@gmail.com',
@@ -883,6 +915,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '1a897063',
+    slug: 'amics-animals-segria',
     name: `Associació Amics dels Animals del Segrià`,
     shortName: `Amics dels Animals del Segrià`,
     contactEmail: 'protectoralleida@hotmail.com',
@@ -914,8 +947,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'a89078af',
+    slug: 'animals-lydia-argiles',
     name: `Protectora d'Animals Lydia Argilés`,
-    shortName: `Protectora d'Animals Lydia Argilés`,
+    shortName: `Animals Lydia Argilés`,
     contactEmail: 'protectoraanimalslydiaargiles@hotmail.com',
     contactPhone: '686234542',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/0/1/0/dxdh0jolli.jpg',
@@ -948,6 +982,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e16fc6bb',
+    slug: 'sa-gatonera-blanes',
     name: `Associació Sa Gatonera Blanes`,
     shortName: `SA Gatonera Blanes`,
     contactEmail: 'info@sagatonerablanes.cat',
@@ -973,6 +1008,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5f3c7997',
+    slug: 'bigotitos-angel',
     name: `Bigotitos de angel`,
     shortName: `Bigotitos de angel`,
     contactEmail: 'bigotitosadopta@gmail.com',
@@ -998,6 +1034,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '8b9feb13',
+    slug: 'animals-vida-digna',
     name: `Associació Animals Vida Digna`,
     shortName: `Animals Vida Digna`,
     contactEmail: 'animals.vidadigna@gmail.com',
@@ -1031,6 +1068,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '79f25009',
+    slug: 'apag',
     name: `Associació Protectora d'Animals de Granollers (APAG)`,
     shortName: `APAG`,
     contactEmail: 'info@protectoragranollers.org',
@@ -1066,6 +1104,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '73289a2e',
+    slug: 'caad',
     name: `Centre d'Acollida d'Animals Domèstics (CAAD)`,
     shortName: `CAAD`,
     contactEmail: 'caad@mancomunitat.cat',
@@ -1098,6 +1137,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '78bda56a',
+    slug: 'adap',
     name: `Amics per la Defensa dels Animals del Penedès (ADAP)`,
     shortName: `ADAP`,
     contactEmail: 'contacto.adap@gmail.com',
@@ -1123,6 +1163,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '42beb6c3',
+    slug: 'dana',
     name: `Defensa dels animals i la naturalesa (DANA)`,
     shortName: `DANA`,
     contactPhone: '657566530',
@@ -1156,6 +1197,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e2fda422',
+    slug: 'amics-gats-colomencs',
     name: `Associació Amics dels Gats Colomencs`,
     shortName: `Amics dels Gats Colomencs`,
     contactEmail: 'amicsdelsgatscolomencs@gmail.com',
@@ -1181,6 +1223,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'cf755a03',
+    slug: 'aaap',
     name: `Associació Amics dels Animals de Palafolls`,
     shortName: `AAAP`,
     contactEmail: 'amicsanimalspalafolls@gmail.com',
@@ -1214,6 +1257,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7dba8c2c',
+    slug: 'mixets-llagostera',
     name: `Associació Mixets De Llagostera`,
     shortName: `Mixets De Llagostera`,
     contactEmail: 'mixets.cat@gmail.com',
@@ -1238,6 +1282,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'fcd9907e',
+    slug: 'gats-baix-emporda',
     name: `Associació Adopta Gats Baix Empordà`,
     shortName: `Gats Baix Empordà`,
     contactEmail: undefined,
@@ -1263,6 +1308,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '61835aad',
+    slug: 'bub-bubs',
     name: `Associació Amics dels Animals de Sant Hilari Sacalm`,
     shortName: `Bub Bub's`,
     contactEmail: 'amicsdelsanimalshilariencs@gmail.com',
@@ -1295,6 +1341,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e8ff863c',
+    slug: 'guillacats',
     name: `Associació Guillacats`,
     shortName: `Guillacats`,
     contactEmail: 'guillacats5@gmail.com',
@@ -1320,6 +1367,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e927064c',
+    slug: 'sol-miaus',
     name: `Associació de Sol de Miaus de la Vall d'Aro`,
     shortName: `Sol de Miaus`,
     contactEmail: undefined,
@@ -1346,6 +1394,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7edb10f7',
+    slug: 'canigat',
     name: `Associació Canigat Vallbona d'Anoia`,
     shortName: 'Canigat',
     logo: 'https://totesvida.org/_mibambu/_canigat/imas/logo-canigat.png',
@@ -1373,6 +1422,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b577de98',
+    slug: 'apan',
     name: "Associació Centre de Protecció d'Animals de l'Anoia",
     shortName: 'APAN',
     logo: 'https://www.protectora-apan.org/wp-content/uploads/2022/10/nou-logo-apan-portada-e1666260928456.jpg',
@@ -1407,6 +1457,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'bcf4f3cd',
+    slug: 'caad-castellbisbal',
     name: "Centre d'Acollida d'Animals Domèstics de Castellbisbal",
     shortName: 'CAAD Castellbisbal',
     contactEmail: 'caad@castellbisbal.cat',
@@ -1436,6 +1487,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '61d86980',
+    slug: 'caad-moianes',
     name: "Centre d'Acollida d'Animals Domèstics del Moianès",
     shortName: 'CAAD Moianès',
     logo: 'http://caadmoianes.moia.cat/wp-content/uploads/2017/01/caadm_logo-1.jpg',
@@ -1469,6 +1521,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '929a212a',
+    slug: 'caad-maresme',
     name: "Centre d'Atenció d'Animals Domèstics del Maresme",
     shortName: 'CAAD Maresme',
     logo: 'https://www.caadmaresme.com/img/logo-web.png',
@@ -1501,6 +1554,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'a5ea8f2e',
+    slug: 'caad-terrassa',
     name: "Centre d'Atenció d'Animals Domèstics de Terrassa",
     shortName: 'CAAD Terrassa',
     logo: 'https://adoptam.terrassa.cat/wp-content/uploads/2016/01/adoptam_logo_llarg_color_web.jpg',
@@ -1532,6 +1586,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'dcd87b37',
+    slug: 'protectora-animals-osona',
     name: `Associació i Defensa dels Animals d'Osona`,
     shortName: `Protectora d'Animals d'Osona`,
     logo: 'http://protectoraosona.cat/wp-content/uploads/2022/01/cropped-cropped-cropped-IMG_6928.jpg',
@@ -1565,6 +1620,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7506e022',
+    slug: 'spac',
     name: `Associació Societat Protectora d'Animals de Catalunya (SPAC)`,
     shortName: `SPAC`,
     logo: 'https://spac.cat/_mibambu/_spac/imas/logo-circulo.png',
@@ -1605,6 +1661,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ec549749',
+    slug: 'arda',
     name: `Associació de Rescat i Defensa Animal ARDA`,
     shortName: `ARDA`,
     logo: 'https://arda.es/_mibambu/_arda/imas/logo.jpg',
@@ -1630,6 +1687,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '0cc09299',
+    slug: 'animals-tarragona',
     name: "La Societat Protectora d'Animals i Plantes de Tarragona",
     shortName: `Protectora d'Animals de Tarragona`,
     logo: 'https://cdn.sukycms.com/shelters/288/images/logo.png',
@@ -1664,6 +1722,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '6ac499b8',
+    slug: 'facct',
     name: "Fundació d'Animals de Companyia",
     shortName: `FACCT`,
     logo: 'https://www.fundacioanimals.org/wp-content/uploads/2019/07/fund_logo_hor_250px_negatiu.png',
@@ -1698,6 +1757,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '6713571a',
+    slug: 'vallsgat',
     name: 'Associació VallsGat Protegim el Gat de Carrer',
     shortName: 'VallsGat',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/8/9/5/0/joxyua6tdl.jpg',
@@ -1723,6 +1783,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '69a9880a',
+    slug: 'arca',
     name: 'Associació per al Refugi i Cura dels Animals',
     shortName: 'ARCA',
     logo: 'https://www.arcaprotectora.com/images/Imagenes-arca/Logotipos/logotipo-1.jpg',
@@ -1756,6 +1817,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2af16b46',
+    slug: 'petjades-espluga',
     name: "Associació Petjades de l'Espluga de Francolí",
     shortName: 'Petjades Espluga',
     logo: 'https://www.adopta-un-animal.es/entities/protectora/622747d3cf14aa79e3a6bc9c/imagenes/img_principal.jpeg',
@@ -1780,6 +1842,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '6a0f51d6',
+    slug: 'gats-floresta',
     name: 'Associació Amics dels Gats de la Floresta',
     shortName: 'Gats de la Floresta',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/2/7/2/0/3qykk7tefb.jpg',
@@ -1804,6 +1867,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '89916793',
+    slug: 'ada-noguera',
     name: 'Associació Amics dels Animals de la Noguera',
     shortName: 'ADA Noguera',
     logo: 'https://amicsdelsanimalsdelanoguera.org/_mibambu/_aanoguera/imas/logo-aanoguera.jpg',
@@ -1838,6 +1902,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '69cd1f16',
+    slug: 'engrescats',
     name: `Associació d'Engrescats de les Terres de l'Ebre`,
     shortName: 'Engrescats',
     logo: 'https://cdn.sukycms.com/shelters/175/images/logo.png',
@@ -1873,6 +1938,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '21e99355',
+    slug: 'agosagats',
     name: `Associació Protectora d'Animals Agosagats`,
     shortName: 'Agosagats',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/1/5/8/0/lzgycuuyog.jpg',
@@ -1897,8 +1963,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b3d511bd',
+    slug: 'can-flix',
     name: `Associacó amics dels animals de Flix`,
-    shortName: 'Can Flix & Ampare ',
+    shortName: 'Can Flix & Ampare',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/6/3/5/0/gbsgsosocq.png',
     contactEmail: 'associacioanimalsflix@hotmail.com',
     contactPhone: '634495086',
@@ -1928,6 +1995,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '934a3cdf',
+    slug: 'un-mes-del-poble',
     name: `Associació Per a La Protecció dels Animals Un Més del Poble`,
     shortName: 'Un Més del Poble',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/3/9/5/1/mjchzo1xft.jpg',
@@ -1953,6 +2021,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ccd5b413',
+    slug: 'gatsort',
     name: `Associació de Gats Gatsort`,
     shortName: 'Gatsort',
     logo: undefined,
@@ -1976,6 +2045,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e23bce6c',
+    slug: 'peluts-palau-danglesola',
     name: `Associació Amics dels Peluts del Palau d'Anglesola`,
     shortName: `Amics dels Peluts del Palau d'Anglesola`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/2/9/6/2/720_7t0dqw7o1u.jfif',
@@ -2000,8 +2070,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'bcd2bd4a',
+    slug: 'animals-bellvis-arcs',
     name: `Associació Protectora Animals de Bellvís Els Arcs`,
-    shortName: `Els Arcs`,
+    shortName: `Animals de Bellvís i Els Arcs`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/1/3/3/3/720_7o0hvbhvqn.jpg',
     contactEmail: undefined,
     website: undefined,
@@ -2023,6 +2094,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '365175e4',
+    slug: 'arpa',
     name: `Associació de Rescat i Protecció d'Animals (ARPA)`,
     shortName: `ARPA`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/9/8/3/3/720_utfikmh751.png',
@@ -2047,6 +2119,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f7d973c9',
+    slug: 'adoptam-mollerussa',
     name: `Associació Adopta'm Mollerussa`,
     shortName: `Adopta'm Mollerussa`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/2/5/4/3/720_c1aeinpuor.jpg',
@@ -2070,6 +2143,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '423d03b7',
+    slug: 'refugi-segarra',
     name: `Associació Refugi la Segarra`,
     shortName: `Refugi la Segarra`,
     logo: 'https://cdn.sukycms.com/shelters/424/images/T3UGAv6uXsk5EzX18rW5L15UeNOxLao0ofGLQYtd.jpg',
@@ -2103,6 +2177,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5ec450bf',
+    slug: 'animals-de-tarrega',
     name: `Societat Protectora d'Animals de Tàrrega`,
     shortName: `Protectora d'Animals de Tàrrega`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/projects/8/1/4/6/0/720_k50lhygf3s.jpg',
@@ -2136,6 +2211,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5bf41644',
+    slug: 'tarregats',
     name: `Associació TarreGATS`,
     shortName: `Gatera municipal Tàrrega`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/9/6/3/1/witvufbhh6.png',
@@ -2157,6 +2233,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c7267902',
+    slug: 'animals-de-seros',
     animalFocus: 'dogs',
     contactEmail: 'peludosbc@gmail.com',
     name: `Associació Protectora d'Animals de Seròs`,
@@ -2189,8 +2266,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f40fcdfa',
+    slug: 'ugema',
     name: `Centre d'Adopcions d'Animals Alt Urgell i Cerdanya`,
-    shortName: 'Consorci Alt Urgell Gestió Medi Ambient (UGEMA)',
+    shortName: 'UGEMA',
     animalFocus: 'cats&dogs',
     contactEmail: 'refugianimals@ccau.cat',
     region: 'alt-urgell',
@@ -2220,6 +2298,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '82172335',
+    slug: 'vallgats',
     name: `Associació Vallgats`,
     shortName: 'Vallgats',
     animalFocus: 'cats',
@@ -2244,7 +2323,8 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c1e5fc59',
-    name: `Refugi Municipal d'Animales de Companyia (RMAC)`,
+    slug: 'rmac',
+    name: `Refugi Municipal d'Animales de Companyia`,
     shortName: 'RMAC',
     animalFocus: 'cats&dogs',
     contactEmail: 'rmac@santboi.cat',
@@ -2275,8 +2355,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c043eb45',
+    slug: 'bgig',
     name: `Associació Barcelona Gat i Gos`,
-    shortName: 'Barcelona Gat i Gos (BGiG)',
+    shortName: 'BGiG',
     animalFocus: 'cats',
     region: 'barcelones',
     province: 'barcelona',
@@ -2298,6 +2379,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ae87f8f9',
+    slug: 'lliga-protectora-danimals-sabadell',
     name: `Lliga Protectora d'Animals i Plantes de Sabadell`,
     shortName: `Lliga Protectora d'Animals de Sabadell`,
     animalFocus: 'cats&dogs',
@@ -2332,6 +2414,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '9b436ba6',
+    slug: 'aixopluc-animals-manresa',
     name: `Protectora d'Animals de Manresa Aixopluc`,
     shortName: `Refugi Aixopluc Animals de Manresa`,
     animalFocus: 'cats&dogs',
@@ -2366,6 +2449,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '0b5e51ea',
+    slug: 'arda-blancafort',
     name: `Associació pel rescat i la defensa dels animals de Blancafort`,
     shortName: 'ARDA Blancafort',
     animalFocus: 'dogs',
@@ -2392,6 +2476,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f2ae90c4',
+    slug: 'associacio-masnougats',
     name: `Associació Masnougats`,
     shortName: 'Masnou Gats',
     animalFocus: 'cats',
@@ -2417,6 +2502,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ab69d6c1',
+    slug: 'apa-pupetc',
     name: `Associació Protectora d'Animals Pon una Patita en tu Corazón`,
     shortName: 'APA Pupetc',
     animalFocus: 'dogs',
@@ -2442,6 +2528,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '9733825d',
+    slug: 'adam',
     name: `Associació de Defensa dels Animals del Masnou`,
     shortName: 'ADAM Protectora',
     animalFocus: 'cats&dogs',
@@ -2469,6 +2556,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd2e6f8c6',
+    slug: 'sircan',
     name: `Centre Sircan`,
     shortName: 'Sircan',
     animalFocus: 'cats&dogs',
@@ -2501,6 +2589,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '600bd07c',
+    slug: 'adea-vd',
     name: `Associació Defensora dels Animals Abandonats Vilassar de Dalt`,
     shortName: 'ADEA VD',
     animalFocus: 'dogs',
@@ -2535,6 +2624,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '430c7336',
+    slug: 'protectora-berga',
     name: `Associació Berguedana per a la Protecció dels Animals`,
     shortName: 'Protectora de Berga',
     animalFocus: 'cats&dogs',
@@ -2569,6 +2659,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ccd92209',
+    slug: 'caac-lleida',
     name: `Centre d'Acollida d'Animals de Companyia de l'Ajuntament de Lleida`,
     shortName: 'CAAC Lleida',
     animalFocus: 'cats&dogs',
@@ -2600,8 +2691,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f0887db6',
+    slug: 'protectora-bcn',
     name: `Lliga per a la Protecció d'Animals i Plantes de Barcelona`,
-    shortName: 'protectora BCN',
+    shortName: 'Protectora BCN',
     animalFocus: 'cats&dogs',
     contactEmail: 'info@protectorabcn.es',
     region: 'barcelones',
@@ -2633,6 +2725,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '96f6498e',
+    slug: 'encaixant-mons',
     name: `Associació Encaixant Mons`,
     shortName: 'Encaixant Mons',
     animalFocus: 'cats&dogs',
@@ -2658,6 +2751,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2f34740c',
+    slug: 'reus-gats',
     name: `Associació Reus Gats`,
     shortName: 'Reus Gats',
     animalFocus: 'cats',
@@ -2683,6 +2777,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '1661b88a',
+    slug: 'refugiaab',
     name: `Asociación Animales Discapacitados, Enfermos Crónicos y Colónias de Gatos`,
     shortName: 'El refugi',
     animalFocus: 'cats&dogs',
@@ -2716,6 +2811,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7665d087',
+    slug: 'amor-als-animals',
     name: `Associació Amor Als Animals Maria Adam`,
     shortName: 'Amor Als Animals',
     animalFocus: 'cats&dogs',
@@ -2748,6 +2844,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c458cd6e',
+    slug: 'caniausa',
     name: `CaniAusa`,
     shortName: 'CaniAusa',
     animalFocus: 'cats&dogs',
@@ -2770,6 +2867,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f3e576b9',
+    slug: 'gg-rescat',
     name: `Associació de Rescat de Gossos i Gats`,
     shortName: 'G&G Rescat',
     animalFocus: 'dogs',
@@ -2796,8 +2894,9 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f9ff62df',
+    slug: 'animals-parets',
     name: `Associació Protectora d'Animals de Parets`,
-    shortName: `Associació Protectora d'Animals de Parets`,
+    shortName: `Protectora d'Animals de Parets`,
     animalFocus: 'cats&dogs',
     contactEmail: 'protectoraanimalsparets@gmail.com',
     contactPhone: '664127247',
@@ -2829,6 +2928,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e11753ec',
+    slug: 'peluts-llica',
     name: `Associació Protectora d'Animals Peluts Lliçà`,
     shortName: `Peluts Lliçà`,
     animalFocus: 'cats',
@@ -2852,6 +2952,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '26de41c3',
+    slug: 'adana',
     name: `Associació per a la Defensa dels Animals i la Natura d'Alella`,
     shortName: `ADANA`,
     animalFocus: 'cats&dogs',
@@ -2884,6 +2985,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e85dc493',
+    slug: 'advam',
     name: `Associació de Voluntaris Animalistes de Montcada i Reixac`,
     shortName: `AdVAM`,
     animalFocus: 'cats',
@@ -2909,6 +3011,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c8bb365a',
+    slug: 'refugi-torrelles',
     name: `Associació el Refugi de Torrelles`,
     shortName: `Refugi de Torrelles`,
     animalFocus: 'cats&dogs',
@@ -2942,6 +3045,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2518c012',
+    slug: 'adoptans-sant-cugat',
     name: `Associació Adopta'ns Sant Cugat`,
     shortName: `Adopta'ns Sant Cugat`,
     animalFocus: 'cats&dogs',
@@ -2966,6 +3070,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'cf0acb8d',
+    slug: 'jardinet-gats',
     name: `Associació El Jardinet del Gats`,
     shortName: `El Jardinet del Gats`,
     animalFocus: 'cats',
@@ -2993,6 +3098,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5c69be10',
+    slug: 'gat-sa',
     name: `Associació de Voluntaris per a la Defensa del Gat de Carrer a Sant Sadurní d'Anoia`,
     shortName: `Gat sà`,
     animalFocus: 'cats&dogs',
@@ -3019,6 +3125,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '386c8522',
+    slug: 'spam',
     name: `Associació Societat Protectora d'Animals de Mataró`,
     shortName: `SPAM`,
     animalFocus: 'cats&dogs',
@@ -3062,6 +3169,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c8f203db',
+    slug: 'abam-apropat',
     name: `ABAM i APROPA'T`,
     shortName: `ABAM i APROPA'T`,
     animalFocus: 'cats&dogs',
@@ -3089,6 +3197,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'a2044591',
+    slug: 'sos-bigotis',
     name: `Associació SOS Bigotis`,
     shortName: `SOS Bigotis`,
     animalFocus: 'cats',
@@ -3113,6 +3222,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd4390c3c',
+    slug: 'caseta-gats',
     name: `Associació La Caseta dels Gats`,
     shortName: `La Caseta dels Gats`,
     animalFocus: 'cats',
@@ -3137,6 +3247,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '878cbc67',
+    slug: 'gatets-hostalets',
     name: `Associació Gatets dels Hostalets`,
     shortName: `Gatets dels Hostalets`,
     animalFocus: 'cats',
@@ -3162,6 +3273,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f7229119',
+    slug: 'ajpg',
     name: `Associació Jonquerenca Protectora de Gats`,
     shortName: `AJPG`,
     animalFocus: 'cats',
@@ -3186,6 +3298,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5356e1e6',
+    slug: 'animals-sense-sostre',
     name: `Associació Animals sense Sostre`,
     shortName: `Animals sense Sostre`,
     animalFocus: 'cats&dogs',
@@ -3217,6 +3330,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '355ca9c1',
+    slug: 'gats108',
     name: `Associació Gats108`,
     shortName: `Gats108`,
     animalFocus: 'cats',
@@ -3241,6 +3355,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '25a50b9f',
+    slug: 'noaa',
     name: `Asociación No al Abandonament d'Animals`,
     shortName: `NOAA`,
     animalFocus: 'cats&dogs',
@@ -3267,6 +3382,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5b781e46',
+    slug: 'apap-tossa-de-mar',
     name: `Fundació Chari Cruz`,
     shortName: `APAP Tossa de Mar`,
     animalFocus: 'cats&dogs',
@@ -3298,6 +3414,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '6c0f0468',
+    slug: 'ump',
     name: `Associació Un Munt de Petjades per la Defensa i la Tinença Responsable d'Animals`,
     shortName: `UMP`,
     animalFocus: 'cats&dogs',
@@ -3321,6 +3438,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '70649e54',
+    slug: 'pelescapat',
     name: `Asociación Protectora d'Animals Pelescapat`,
     shortName: `Pelescapat`,
     animalFocus: 'cats&dogs',
@@ -3345,6 +3463,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'fb568b76',
+    slug: 'pas',
     name: `Asociación Plataforma Animalista de Sant Cugat del Vallès`,
     shortName: `PAS`,
     animalFocus: 'cats&dogs',
@@ -3369,6 +3488,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '943d3482',
+    slug: 'angels-sitges',
     name: `Associació Animalista Sitges Àngels Protectors de la Natura`,
     shortName: `Àngels Sitges`,
     animalFocus: 'cats&dogs',
@@ -3395,6 +3515,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f6ef7c77',
+    slug: 'caldes-animal',
     name: `Associació Protectora de Caldes de Montbui`,
     shortName: `Caldes Animal`,
     animalFocus: 'cats&dogs',
@@ -3426,6 +3547,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f6567d0f',
+    slug: 'alberg-terres-ebre',
     name: `Alberg d'Animals de les Terres de l'Ebre`,
     shortName: `Alberg Terres de l'Ebre`,
     animalFocus: 'cats&dogs',
@@ -3458,6 +3580,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '1a37340f',
+    slug: 'pasos-vendrell',
     name: `Associació Protecció Animal SOS del Vendrell`,
     shortName: `P.A.S.O.S Vendrell`,
     animalFocus: 'cats&dogs',
@@ -3483,6 +3606,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'bbdf544d',
+    slug: 'amics-animals-dosrius',
     name: `Associació Amics dels Animals de Dosrius`,
     shortName: `Amics dels Animals de Dosrius`,
     animalFocus: 'cats&dogs',
@@ -3518,6 +3642,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '122b7f58',
+    slug: 'veu-animal',
     name: `Associació Veu Animal`,
     shortName: `Veu Animal`,
     animalFocus: 'cats',
@@ -3540,6 +3665,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'e267567f',
+    slug: 'sos-galgos',
     name: `Associació SOS Galgos`,
     shortName: `SOS Galgos`,
     animalFocus: 'dogs',
@@ -3564,6 +3690,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b5e4ebc4',
+    slug: 'galgos-catalunya',
     name: `Associació Huellas de Galgos Catalunya`,
     shortName: `Galgos Catalunya`,
     animalFocus: 'dogs',
@@ -3590,6 +3717,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '53c96b76',
+    slug: 'arbra',
     name: `Adopcions Responsables i Benestar Animal`,
     shortName: `ARBRA`,
     animalFocus: 'cats&dogs',
@@ -3614,6 +3742,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5c1ef8b5',
+    slug: 'refugio-amistad',
     name: `Associació Refugio la Amistad`,
     shortName: `Refugio la Amistad`,
     contactPhone: '655650377',
@@ -3646,6 +3775,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '77606de9',
+    slug: 'nou-refugi-baix-camp',
     name: `Associació nou refugi Baix Camp`,
     shortName: `Nou refugi Baix Camp`,
     contactPhone: '636579473',
@@ -3672,6 +3802,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '79b2175b',
+    slug: 'progat-tortosa',
     name: `Associació Progat Tortosa`,
     shortName: `Progat Tortosa`,
     animalFocus: 'cats',
@@ -3696,6 +3827,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b3f7d4ae',
+    slug: 'progat-catalunya',
     name: `Associació Progat Catalunya`,
     shortName: `Progat Catalunya`,
     animalFocus: 'cats',
@@ -3721,6 +3853,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '3fe652ea',
+    slug: 'animals-can-moret',
     name: `Centre d'Acollida d'Animals Can Moret`,
     shortName: `Animals Can Moret`,
     animalFocus: 'cats&dogs',
@@ -3748,6 +3881,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'da612cad',
+    slug: 'progat-cerdanya',
     name: `Associació Progat Cerdanya`,
     shortName: `Progat Cerdanya`,
     animalFocus: 'cats',
@@ -3772,6 +3906,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '9ad72ae4',
+    slug: 'gab',
     name: `Asociación Grupo de Ayuda al Perro Ratonero Bodeguero Andaluz`,
     shortName: `GAB`,
     animalFocus: 'dogs',
@@ -3797,6 +3932,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '670e782e',
+    slug: '7-vides',
     name: `Associació 7 Vides Animals Òdena`,
     shortName: `7 Vides`,
     animalFocus: 'cats',
@@ -3822,6 +3958,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '006df9d2',
+    slug: 'sakura-paradise',
     name: `Associació Sakura Paradise Sanctuary`,
     shortName: `Sakura Paradise`,
     animalFocus: 'cats&dogs',
@@ -3847,6 +3984,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '1214ba87',
+    slug: '101-vida',
     name: `Asociación 101 Vida`,
     shortName: `101 Vida`,
     animalFocus: 'cats&dogs',
@@ -3870,6 +4008,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '955e95c9',
+    slug: 'aamm',
     name: `Amics dels Animals de Malgrat de Mar`,
     shortName: `AAMM`,
     animalFocus: 'cats',
@@ -3893,6 +4032,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '301861b0',
+    slug: 'amancu',
     name: `Associació Amics dels Animals de Cunit`,
     shortName: `AMANCU`,
     animalFocus: 'cats&dogs',
@@ -3917,6 +4057,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b675d16a',
+    slug: 'napa',
     name: `Nueva Asociación Protectora de Animales`,
     shortName: `NAPA`,
     animalFocus: 'cats&dogs',
@@ -3939,6 +4080,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'db1dc289',
+    slug: 'gats-carrer-cubelles',
     name: `Associació Gats de Carrer Cubelles`,
     shortName: `Gats de Carrer Cubelles`,
     animalFocus: 'cats',
@@ -3963,6 +4105,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7271e9f3',
+    slug: 'apac',
     name: `Associació Protectora d'Animals de Cabrera`,
     shortName: `APAC`,
     animalFocus: 'cats',
@@ -3988,6 +4131,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd9388910',
+    slug: 'adacc',
     name: `Associació per a la Defensa dels Animals de Companyia de Cornellà`,
     shortName: `ADACC`,
     animalFocus: 'cats&dogs',
@@ -4012,6 +4156,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7ace6be4',
+    slug: 'trifolium',
     name: `Fundación Trifolium`,
     shortName: `Trifolium`,
     animalFocus: 'cats&dogs',
@@ -4038,6 +4183,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '529f0eb1',
+    slug: 'raam',
     name: `Refugi d'Animals Abandonats del Moianès`,
     shortName: `RAAM`,
     animalFocus: 'cats&dogs',
@@ -4060,6 +4206,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7f6c978d',
+    slug: 'daya-cervello',
     name: `Associació Daya Cervelló`,
     shortName: `Daya Cervelló`,
     animalFocus: 'cats&dogs',
@@ -4086,6 +4233,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5f69dfc3',
+    slug: 'aavdm',
     name: `Associació Amics dels Animals Vilassar de Mar`,
     shortName: `AAVDM`,
     animalFocus: 'cats&dogs',
@@ -4109,6 +4257,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '010b6bc3',
+    slug: 'progat-cornella',
     name: `Associació Progat Cornella`,
     shortName: `Progat Cornella`,
     animalFocus: 'cats',
@@ -4133,6 +4282,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '8a519869',
+    slug: 'protectora-darenys',
     name: `Associació Protectora d'Arenys`,
     shortName: `Protectora d'Arenys`,
     animalFocus: 'cats&dogs',
@@ -4155,6 +4305,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '4011456d',
+    slug: 'gatpi',
     name: `Associació Protectora d'Animals GATPI`,
     shortName: `GATPI`,
     animalFocus: 'cats',
@@ -4179,6 +4330,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f7c69d7e',
+    slug: 'progat-vila-seca',
     name: `Progat Vila-seca`,
     shortName: `Progat Vila-seca`,
     animalFocus: 'cats',
@@ -4203,6 +4355,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '16b7690c',
+    slug: 'ada-santa-eulalia',
     name: `Associació Amics dels Animals Santa Eulàlia de Ronçana`,
     shortName: `ADA Santa Eulàlia`,
     animalFocus: 'cats',
@@ -4227,6 +4380,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '8dab0e63',
+    slug: 'sos-mininus',
     name: `Associació S.O.S Mininus`,
     shortName: `S.O.S Mininus`,
     animalFocus: 'cats',
@@ -4250,6 +4404,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5e8092a1',
+    slug: 'sos-maullidos',
     name: `Associació SOS Maullidos`,
     shortName: `SOS Maullidos`,
     animalFocus: 'cats',
@@ -4276,6 +4431,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '1e26ce22',
+    slug: 'anca',
     name: `Associació ANCA`,
     shortName: `ANCA`,
     animalFocus: 'cats',
@@ -4299,6 +4455,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '615524c1',
+    slug: 'canae',
     name: `Associació S.O.S Border collie`,
     shortName: `CANAE`,
     whatsAppPhone: '654735377',
@@ -4323,6 +4480,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '1008a222',
+    slug: 'drac',
     name: `Associació Defensa i Rescat Animal de Catalunya`,
     shortName: `DRAC`,
     contactEmail: 'ong.drac@gmail.com',
@@ -4348,6 +4506,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '0d0b6553',
+    slug: 'acaima',
     name: `Associació contra l'Abandó i Maltractament Animal`,
     shortName: `ACAIMA`,
     contactEmail: 'acaima_olesa@hotmail.com',
@@ -4372,6 +4531,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c168e136',
+    slug: 'ada-cv',
     name: `Asociación para la Defensa de Animales de Castellar del Vallès`,
     shortName: `ADA-CV`,
     contactEmail: 'adacastellardelvalles@gmail.com',
@@ -4396,6 +4556,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd417e31c',
+    slug: 'adipac',
     name: `Associació per la Defensa I Protecció dels Animals de Calafell`,
     shortName: `ADIPAC`,
     contactEmail: 'adipaccalafell@gmail.com',
@@ -4421,6 +4582,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '325b0e40',
+    slug: 'adopta-un-amic',
     name: `Associació Adopta Un Amic`,
     shortName: `Adopta Un Amic`,
     contactEmail: 'adoptaunamic@gmail.com',
@@ -4445,6 +4607,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '59f0da2d',
+    slug: 'adoptagat',
     name: `Associació Adoptagat`,
     shortName: `Adoptagat`,
     contactEmail: 'adoptagat@hotmail.com',
@@ -4470,6 +4633,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c94f6263',
+    slug: 'degats',
     name: `Associació Defensa dels Gats`,
     shortName: `DEGATS`,
     contactEmail: 'adopciones@degats.org',
@@ -4495,6 +4659,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'cdd3b696',
+    slug: 'animals-de-cadaques',
     name: `Amics dels Animals de Cadaqués`,
     shortName: `Animals de Cadaqués`,
     contactEmail: 'info@gatsdecadaques.com',
@@ -4520,6 +4685,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5e270ca4',
+    slug: 'agab',
     name: `Associació Amics dels Gats i Animals de Balenyà`,
     shortName: `AGAB`,
     contactEmail: 'pitucuca@gmail.com',
@@ -4545,6 +4711,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '707e3bf9',
+    slug: 'som-la-seva-veu',
     name: `Associació de Voluntaris Som La Seva Veu`,
     shortName: `Som La Seva Veu`,
     contactEmail: 'somlasevaveu2021@gmail.com',
@@ -4569,6 +4736,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '823405a7',
+    slug: 'caag',
     name: `Centre d'Acollida d'Animals de la Garrotxa`,
     shortName: `CAAG`,
     contactPhone: '621294554',
@@ -4598,6 +4766,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '10862974',
+    slug: 'amics-protectors-gats',
     name: `Amics i Protectors dels Gats de Vilanova i la Geltrú`,
     shortName: `Amics i Protectors dels Gats`,
     contactEmail: 'gats@amicsiprotectorsdelsgats.org',
@@ -4622,6 +4791,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f2f97fbc',
+    slug: 'som-amics-dels-animals',
     name: `Associació Som Amics dels Animals.cat`,
     shortName: `Som Amics dels Animals`,
     whatsAppPhone: '689363648',
@@ -4646,6 +4816,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '38398845',
+    slug: 'aragat',
     name: `Associació Aragat`,
     shortName: `Aragat`,
     whatsAppPhone: '618009359',
@@ -4670,6 +4841,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '92c9a57a',
+    slug: 'animal-rescue-emporda',
     name: `Assoc. Are Animal Rescue Empordà`,
     shortName: `Animal Rescue Empordà`,
     contactEmail: 'animalrescueemporda@gmail.com',
@@ -4693,6 +4865,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7eb434d6',
+    slug: 'cergats',
     name: `Associació Cergats Lleida`,
     shortName: `Cergats`,
     contactEmail: 'cergatslleida@gmail.com',
@@ -4717,6 +4890,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '30f01942',
+    slug: 'rescat',
     name: `Associació Animalista Rescat`,
     shortName: `Rescat`,
     whatsAppPhone: '699163793',
@@ -4750,6 +4924,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ade7b00d',
+    slug: 'aam',
     name: `Associació Animalista de Manlleu`,
     shortName: `AAM`,
     contactPhone: '607919334',
@@ -4775,6 +4950,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c43c0e2b',
+    slug: 'quissos',
     name: `Associació els Quissos`,
     shortName: `Els Quissos`,
     contactPhone: '630349755',
@@ -4800,6 +4976,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2c708722',
+    slug: 'rodagat',
     name: `Rodagat Protegim el Gat de Carrer`,
     shortName: `Rodagat`,
     contactEmail: 'infogat@rodagat.org',
@@ -4824,6 +5001,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7a45651b',
+    slug: 'badagats',
     name: `Associació Badagats`,
     shortName: `Badagats`,
     contactEmail: 'antonia@badagats.com',
@@ -4848,6 +5026,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '03d59d11',
+    slug: 'ada-sant-feliu',
     name: `Associació Defensa Animal Sant Feliu de Codines`,
     shortName: `ADA Sant Feliu`,
     contactEmail: 'adasantfeliudecodines@gmail.com',
@@ -4875,6 +5054,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7e17ffb1',
+    slug: 'creixell-natura',
     name: `Associació Creixell Natura`,
     shortName: `Creixell Natura`,
     contactEmail: 'creixellnatura@yahoo.es',
@@ -4899,6 +5079,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '693ef814',
+    slug: 'club-de-kat',
     name: `El Club de Kat (Para Animales Discapacitados y Enfermos Crónicos)`,
     shortName: `El Club de Kat`,
     contactEmail: 'socioscdk@gmail.com',
@@ -4922,6 +5103,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2e98180d',
+    slug: 'fundacio-silvestre',
     name: `Fundació Privada Silvestre`,
     shortName: `Fundació Silvestre`,
     contactEmail: 'info@fundaciosilvestre.org',
@@ -4946,6 +5128,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5c07b6ae',
+    slug: 'fundacio-fauna',
     name: `Fundació Privada Fauna`,
     shortName: `Fundació Fauna`,
     contactEmail: 'info@fundaciofauna.org',
@@ -4970,6 +5153,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '31572693',
+    slug: 'gats-gracia',
     name: `Associació Gats de Gràcia`,
     shortName: `Gats de Gràcia`,
     contactPhone: '639742023',
@@ -4995,6 +5179,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7bcec051',
+    slug: 'gats-carrer-llobregat',
     name: `Associació Gats del Carrer del Baix Llobregat`,
     shortName: `Gats del Carrer`,
     contactPhone: '651626346',
@@ -5021,6 +5206,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '4fe6b6e6',
+    slug: 'peludets',
     name: `Associació Peludets Sant Vicenç`,
     shortName: `Peludets`,
     contactEmail: 'peludetsdesvc@gmail.com',
@@ -5045,6 +5231,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ec70e929',
+    slug: 'montaltmiau',
     name: `Associació Montaltmiau`,
     shortName: `Montaltmiau`,
     contactEmail: 'montaltmiau@gmail.com',
@@ -5069,6 +5256,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '8adad82d',
+    slug: 'ggsf',
     name: `Associació Gats i Gossos Sant Feliu`,
     shortName: `GGSF`,
     contactEmail: 'gatsigossosfeliu@gmail.com',
@@ -5094,6 +5282,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b7286a6a',
+    slug: 'gats-igualada',
     name: `Associació Gats Igualada`,
     shortName: `Gats Igualada`,
     contactEmail: 'gatsigualada@gmail.com',
@@ -5118,6 +5307,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd6357d5d',
+    slug: 'gats-la-roca',
     name: `Associació Gats la Roca`,
     shortName: `Gats la Roca`,
     contactEmail: 'gatslaroca@gmail.com',
@@ -5142,6 +5332,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'aa263c91',
+    slug: 'geligats',
     name: `Associació d'Amics dels Gats sense Sostre de Gelida`,
     shortName: `Geligats`,
     contactEmail: 'adopta@geligats.com',
@@ -5167,6 +5358,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd99d27b4',
+    slug: 'help-guau',
     name: `Help Guau`,
     shortName: `Help Guau`,
     contactEmail: 'adopciones@helpguau.com',
@@ -5197,6 +5389,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '43e48913',
+    slug: 'proaniplan',
     name: `Asociación Protectora de Animales y Plantas Baix Llobregat`,
     shortName: `Proaniplan`,
     contactEmail: 'proaniplanprotectora@gmail.com',
@@ -5223,6 +5416,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '380f7b17',
+    slug: 'progat-bonastre',
     name: `Associació Progat Bonastre`,
     shortName: `Progat Bonastre`,
     contactEmail: 'progatbonastre@hotmail.com',
@@ -5246,6 +5440,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '35c0ec05',
+    slug: 'progat-la-garriga',
     name: `Associació Progat la Garriga`,
     shortName: `Progat la Garriga`,
     contactEmail: 'progat.la.garriga@gmail.com',
@@ -5270,6 +5465,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c00d3113',
+    slug: 'progat-sant-boi',
     name: `Associació Progat Sant Boi`,
     shortName: `Progat Sant Boi`,
     contactEmail: 'progatssantboi@gmail.com',
@@ -5294,6 +5490,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '785d1a22',
+    slug: 'progat-terrassa',
     name: `Associació Progat Terrassa`,
     shortName: `Progat Terrassa`,
     contactEmail: 'info@progatterrassa.org',
@@ -5318,6 +5515,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ee50620a',
+    slug: 'sar',
     name: `Associació Salvem Animals Recollits`,
     shortName: `SAR`,
     contactPhone: '666717950',
@@ -5342,6 +5540,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '82ad390f',
+    slug: 'apao',
     name: `Associació Protectora d'Animals de l'Ordal`,
     shortName: `APAO`,
     contactEmail: 'apaocats@gmail.com',
@@ -5366,6 +5565,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '9c23a87e',
+    slug: 'seproan',
     name: `Associació de Protecció d'Animals de Sallent`,
     shortName: `Seproan`,
     contactEmail: 'seproan_sallent@hotmail.com',
@@ -5390,6 +5590,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '381fa6c2',
+    slug: 'sos-bdn',
     name: `Associació SOS BDN Defensa Animal`,
     shortName: `SOS BDN`,
     contactEmail: 'asociacionsosbdn@gmail.com',
@@ -5414,6 +5615,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '62d2bccf',
+    slug: 'progat-palamos',
     name: `Associació Progat Palamós i Sant Joan`,
     shortName: `Progat Palamós`,
     contactEmail: 'progatpalamos3@gmail.com',
@@ -5440,6 +5642,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '344ff211',
+    slug: 'progat-lampolla',
     name: `Associació Progat l'Ampolla`,
     shortName: `Progat l'Ampolla`,
     contactEmail: 'progatlampolla@gmail.com',
@@ -5464,6 +5667,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f4c56178',
+    slug: 'sos-gat-salou',
     name: `Associació SOS Gat Salou`,
     shortName: `SOS Gat Salou`,
     contactEmail: 'madox-lau@hotmail.com',
@@ -5490,6 +5694,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2892ae51',
+    slug: 'sos-gats',
     name: `Associació S.O.S Gats`,
     shortName: `S.O.S Gats`,
     contactEmail: 'associaciososgats@gmail.com',
@@ -5514,6 +5719,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5b59f972',
+    slug: 'sos-golden',
     name: `Associació SOS Golden`,
     shortName: `SOS Golden`,
     contactEmail: 'sosgolden@gmail.com',
@@ -5539,6 +5745,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '2c009b6f',
+    slug: 'sqanimalia',
     name: `Associació per a la Protecció i la Defensa dels Animals de Sant Quirze`,
     shortName: `SQAnimàlia`,
     contactPhone: '637267490',
@@ -5565,6 +5772,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'dcee3def',
+    slug: 'adac-cerdanyola',
     name: `Associació Amics dels Animals de Cerdanyola`,
     shortName: `ADAC`,
     contactEmail: 'contacto@adacerdanyola.com',
@@ -5590,6 +5798,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'a1547d0f',
+    slug: 'huellas-felices',
     name: `Associació Amics dels Animals de Canyelles Huellas Felices`,
     shortName: `Huellas Felices`,
     animalFocus: 'cats',
@@ -5615,6 +5824,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '0ed0e4ed',
+    slug: 'daima',
     name: `Associació Defensa dels Animals i el Medi Ambient`,
     shortName: `DAIMA`,
     animalFocus: 'cats&dogs',
@@ -5640,6 +5850,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '196ba3e4',
+    slug: 'gats-verdu',
     name: `Associació Gats de Verdú`,
     shortName: `Gats de Verdú`,
     animalFocus: 'cats',
@@ -5664,6 +5875,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7d9f61ee',
+    slug: 'gats-segarra',
     name: `Associació Gats de Segarra`,
     shortName: `Gats de Segarra`,
     animalFocus: 'cats',
@@ -5688,6 +5900,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '97aa1614',
+    slug: 'gats-brafim',
     name: `Associació Gats de Bràfim`,
     shortName: `Gats de Bràfim`,
     animalFocus: 'cats',
@@ -5713,6 +5926,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd6a61990',
+    slug: 'puigmascot',
     name: `Asociación Puigmascot`,
     shortName: `Puigmascot`,
     animalFocus: 'cats&dogs',
@@ -5737,6 +5951,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '0dbbd3dc',
+    slug: 'mas-animals',
     name: `Associació Mas Animals`,
     shortName: `Mas Animals`,
     animalFocus: 'cats',
@@ -5762,6 +5977,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '27a0c069',
+    slug: 'gats-vilabella',
     name: `Associació Gats de Vilabella Boig per Tu`,
     shortName: `Gats de Vilabella`,
     animalFocus: 'cats',
@@ -5784,6 +6000,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd60a524b',
+    slug: 'plagats',
     name: `Associació PlaGats`,
     shortName: `PlaGats`,
     contactPhone: '626658996',
@@ -5809,6 +6026,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '3d1a5847',
+    slug: 'vadal',
     name: `Associació Vida Animal Digna a Linyola`,
     shortName: `VADAL`,
     contactEmail: 'vadal.linyola@gmail.com',
@@ -5833,6 +6051,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '622197b4',
+    slug: 'moien',
     name: `Associació de Gats Moien`,
     shortName: `MOIEN`,
     whatsAppPhone: '644295961',
@@ -5857,6 +6076,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5d74c050',
+    slug: 'meskanimals',
     name: `Associació Més K Animals`,
     shortName: `MésKAnimals`,
     whatsAppPhone: '609479705',
@@ -5880,6 +6100,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '5afcc389',
+    slug: 'dava',
     name: `Associació Defensa Animal de Vacarisses`,
     shortName: `DAVA`,
     whatsAppPhone: '638850685',
@@ -5905,6 +6126,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'ff4b94bd',
+    slug: 'kata-bienestar-animal',
     name: `Associació Kata Bienestar Animal`,
     shortName: `Kata Bienestar Animal`,
     animalFocus: 'cats',
@@ -5927,6 +6149,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'afd9e0e0',
+    slug: 'niu-de-loliba',
     name: `Associació d'Animals el Niu de l'Òliba`,
     shortName: `El Niu de l'Òliba`,
     animalFocus: 'cats&dogs',
@@ -5950,6 +6173,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '846017cd',
+    slug: 'apame',
     name: `Associació Protectora d'Animals i Medi de Vacarisses`,
     shortName: `APAME`,
     animalFocus: 'cats&dogs',
@@ -5974,6 +6198,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'bc057c94',
+    slug: 'estartit-gats',
     name: `Associació Animalista l'Estartit Gats`,
     shortName: `Estartit Gats`,
     animalFocus: 'cats',
@@ -5996,6 +6221,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b413c64f',
+    slug: 'mas-dels-peluts',
     name: `Associació Mas dels peluts`,
     shortName: `Mas dels peluts`,
     contactPhone: '619479104',
@@ -6020,6 +6246,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '92667ccf',
+    slug: 'marrameus-sanauja',
     name: `Associació Marrameus de Sanaüja`,
     shortName: `Marrameus de Sanaüja`,
     animalFocus: 'cats',
@@ -6042,6 +6269,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '3b8a0c3c',
+    slug: 'progat-ginestar',
     name: `Associació Progat Ginestar`,
     shortName: `Progat Ginestar`,
     animalFocus: 'cats',
@@ -6068,6 +6296,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '628766e9',
+    slug: 'refugi-ginesta',
     name: `Associació Refugi d'Animals La Ginesta`,
     shortName: `La Ginesta`,
     animalFocus: 'cats&dogs',
@@ -6092,6 +6321,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b5f8d18a',
+    slug: 'benesgat',
     name: `Associació Benesgat`,
     shortName: `Benesgat`,
     animalFocus: 'cats',
@@ -6114,6 +6344,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '03b14c1f',
+    slug: 'vimbodi-pets',
     name: `Associació ProDefensa Vimbodí Pets`,
     shortName: `Vimbodí Pets`,
     animalFocus: 'cats&dogs',
@@ -6138,6 +6369,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '26624c03',
+    slug: 'montblanc-gatgos',
     name: `Associació Montblanc Gat i Gos`,
     shortName: `Montblanc GatGos`,
     contactEmail: 'montblanc.gatigos@gmail.com',
@@ -6163,6 +6395,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '12eb3d1b',
+    slug: 'vilacat',
     name: `Associació Vilacat`,
     shortName: `Vilacat`,
     animalFocus: 'cats',
@@ -6186,6 +6419,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'cc420b96',
+    slug: 'voluntarios-nomadas',
     name: `Associació Animalista Voluntarios Nómadas`,
     shortName: `Voluntarios Nómadas`,
     animalFocus: 'dogs',
@@ -6210,6 +6444,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '05b45b75',
+    slug: 'app-gpp',
     name: `Associació per a la Protecció dels Gossos Potencialment Perillosos`,
     shortName: `APPxGPP`,
     animalFocus: 'dogs',
@@ -6234,6 +6469,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'cf02b7c6',
+    slug: 'vilanimals',
     name: `Associació Vilanimals`,
     shortName: `Vilanimals`,
     animalFocus: 'cats&dogs',
@@ -6258,6 +6494,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'af11e16e',
+    slug: 'calma-felina',
     name: `Associació Calma Felina`,
     shortName: `Calma Felina`,
     animalFocus: 'cats',
@@ -6283,6 +6520,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '054f4244',
+    slug: 'gats-dolivella',
     name: `Asociació Gats d'Olivella`,
     shortName: `Gats d'Olivella`,
     animalFocus: 'cats',
@@ -6307,6 +6545,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '771f6a4a',
+    slug: 'adoptame-y-mimame',
     name: `Asociació Adóptame y Mímame`,
     shortName: `Adóptame y Mímame`,
     animalFocus: 'cats&dogs',
@@ -6334,6 +6573,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'afae631c',
+    slug: 'adac-canyelles',
     name: `Associació en Defensa Animals Canyelles`,
     shortName: `ADAC`,
     animalFocus: 'cats&dogs',
@@ -6358,6 +6598,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '215db813',
+    slug: 'matica',
     name: `Associació Matica`,
     shortName: `Matica`,
     animalFocus: 'dogs',
@@ -6383,6 +6624,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '3ea7fdd9',
+    slug: 'malugats',
     name: `Associació Malugats`,
     shortName: `Malugats`,
     animalFocus: 'cats',
@@ -6409,6 +6651,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '0777645b',
+    slug: 'peluts-cubelles',
     name: `Associació de Colònies de Gats de Cubelles Peluts`,
     shortName: `Peluts de Cubelles`,
     animalFocus: 'cats',
@@ -6433,6 +6676,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '736bdb60',
+    slug: 'gats-talladell',
     name: `Associació Gats del Talladell`,
     shortName: `Gats del Talladell`,
     animalFocus: 'cats',
@@ -6454,6 +6698,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '7e9867da',
+    slug: 'gats-guimera',
     name: `Associació Gats de Guimerà`,
     shortName: `Gats de Guimerà`,
     animalFocus: 'cats',
@@ -6476,6 +6721,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '9861a33e',
+    slug: 'animals-doliana',
     name: `Associació en Defensa dels Animals d'Oliana`,
     shortName: `Animals d'Oliana`,
     animalFocus: 'cats&dogs',
@@ -6498,6 +6744,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'a3017db7',
+    slug: 'barretina-felina',
     name: `Associació La Barretina Felina`,
     shortName: `La Barretina Felina`,
     contactEmail: '873.la.barretina.felina@gmail.com',
@@ -6521,6 +6768,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '9c21c7ef',
+    slug: 'nova-petjada',
     name: `Associació Nova Petjada`,
     shortName: `Nova Petjada`,
     animalFocus: 'cats&dogs',
@@ -6544,6 +6792,7 @@ export const organizations: Organization[] = [
   },
   {
     id: '20c2b203',
+    slug: 'gats-4-pobles',
     name: `Associació Gats 4 Pobles La Secuita`,
     shortName: `Gats 4 Pobles`,
     animalFocus: 'cats',
@@ -6568,6 +6817,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'c59fcb0d',
+    slug: 'gats-guissona',
     name: `Associació Gats de Guissona`,
     shortName: `Gats de Guissona`,
     animalFocus: 'cats',
@@ -6591,6 +6841,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'b3101329',
+    slug: 'adyla',
     name: `Asociación, Defensa y Libertad Animal`,
     shortName: `ADYLA`,
     animalFocus: 'cats',
@@ -6616,6 +6867,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'd2df4316',
+    slug: '4-potes',
     name: `Associació 4 Potes Palau-saverdera`,
     shortName: `4 Potes`,
     animalFocus: 'cats&dogs',
@@ -6640,6 +6892,7 @@ export const organizations: Organization[] = [
   },
   {
     id: 'f7d83ec4',
+    slug: 'refugi-lobita',
     name: `Associació Refugi Lobita per la Protrecció dels Animals`,
     shortName: `Refugi Lobita`,
     animalFocus: 'cats&dogs',

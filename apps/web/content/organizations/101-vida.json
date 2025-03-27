@@ -1,0 +1,21 @@
+{
+  "id": "1214ba87",
+  "slug": "101-vida",
+  "name": "Asociación 101 Vida",
+  "shortName": "101 Vida",
+  "animalFocus": "cats&dogs",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "description": "Necessitem la vostra ajuda per a transports, pinsos, medicació, són animals recollits del carrer que han patit l'abandó, el maltractament i cap tipus d'afecte, intentem curar els traumes amb ajuda de professionals i cases d'acollida perquè trobin la vostra llar definitiva i siguin feliços tota la vida.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/2/1/6/4/7/swtqgamnzd.jpg",
+  "adoptAnimalsURL": "https://www.instagram.com/101vida_rescate_animal/",
+  "associativeInscriptionNumber": "62662",
+  "dateOfInscription": "2018-01-22T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/101vida_rescate_animal/"
+  }
+}

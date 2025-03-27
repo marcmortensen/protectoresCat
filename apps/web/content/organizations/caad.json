@@ -1,0 +1,30 @@
+{
+  "id": "73289a2e",
+  "slug": "caad",
+  "name": "Centre d'Acollida d'Animals Domèstics (CAAD)",
+  "shortName": "CAAD",
+  "contactEmail": "caad@mancomunitat.cat",
+  "contactPhone": "938100698",
+  "logo": "https://www.mancomunitat.cat/media/repository/serveis/CAAD/2023_logo_caad-Horitzontal.png",
+  "website": "https://www.mancomunitat.cat/temes/animals-de-companyia/",
+  "region": "alt-penedes",
+  "province": "barcelona",
+  "description": "El CAAD Penedès és el Centre d’Acollida d’Animals Domèstics de la Mancomunitat Penedès-Garraf que, amb criteris de benestar animal, s’encarrega de la recollida dels gossos, gats i fures que es perden o abandonen a les nostres comarques, i se n’ocupa fins que es retroben amb les seves famílies o poden ser adoptats.",
+  "adoptAnimalsURL": "https://www.instagram.com/caadpenedes/",
+  "shelter": [
+    {
+      "adress": "Camí de la Pedrera, s/n - 08720 Vilafranca del Penedès - Barcelona (Catalunya)",
+      "googleMapsLink": "https://maps.app.goo.gl/SueqUcdUJieNozNe7",
+      "phone": "938100698",
+      "openingHoursURL": "https://www.mancomunitat.cat/temes/animals-de-companyia/"
+    }
+  ],
+  "animalFocus": "cats&dogs",
+  "municipality": "Vilafranca del Penedès",
+  "isMunicipal": true,
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/caadpenedes/"
+  }
+}

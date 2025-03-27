@@ -1,0 +1,31 @@
+{
+  "id": "ccd92209",
+  "slug": "caac-lleida",
+  "name": "Centre d'Acollida d'Animals de Companyia de l'Ajuntament de Lleida",
+  "shortName": "CAAC Lleida",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "refugipeluts@paeria.cat",
+  "region": "segria",
+  "province": "lleida",
+  "municipality": "Lleida",
+  "contactPhone": "973263504",
+  "socials": {
+    "facebook": "https://www.facebook.com/caaclleida",
+    "instagram": "https://www.instagram.com/caaclleida/"
+  },
+  "shelter": [
+    {
+      "adress": "Partida Caparrella, 123, 25192 Lleida",
+      "googleMapsLink": "https://maps.app.goo.gl/KsgwPrCAQU6kmas39",
+      "openingHoursURL": "https://urbanisme.paeria.cat/sostenibilitat/animals-de-companyia-i-plagues-urbanes/el-refugi-dels-peluts/el-refugi-dels-peluts",
+      "phone": "973263504"
+    }
+  ],
+  "description": "El Refugi dels Peluts és un centre públic de l’Ajuntament de Lleida que treballa per oferir una segona oportunitat als animals de companyia perduts i abandonats al municipi facilitant el retrobament amb els seus propietaris o buscant-los una nova llar.",
+  "isActive": true,
+  "isMunicipal": true,
+  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "logo": "https://refugipeluts.paeria.cat/++theme++paeria_site/img/logo-paeria.svg",
+  "website": "https://refugipeluts.paeria.cat/",
+  "adoptAnimalsURL": "https://refugipeluts.paeria.cat/ca/animals-en-adopcio"
+}

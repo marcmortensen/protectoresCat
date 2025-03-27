@@ -1,0 +1,25 @@
+{
+  "id": "c94f6263",
+  "slug": "degats",
+  "name": "Associació Defensa dels Gats",
+  "shortName": "DEGATS",
+  "contactEmail": "adopciones@degats.org",
+  "whatsAppPhone": "673038177",
+  "animalFocus": "cats",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "description": "Som una associació formada per voluntaris que volen aquests petits éssers que un dia es van colar a les nostres vides. Ajudem a alimentar i controlar colònies de gats a Barcelona, rescatant i donant en adopció cadells i gats adults abandonats. Volem conscienciar sobre el respecte i la tinença responsable com a únic camí per solucionar la dramàtica situació dels gats sense llar. Tu pots formar-ne part, anima't.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=png/path/s00098bae46f9d585/image/i52cb853bf139e670/version/1644083771/image.png",
+  "website": "https://www.degats.org/",
+  "adoptAnimalsURL": "https://www.instagram.com/degats/",
+  "associativeInscriptionNumber": "44576",
+  "dateOfInscription": "2011-03-16:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/degats/",
+    "facebook": "https://www.facebook.com/DeGatsBcn/"
+  }
+}

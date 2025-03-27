@@ -1,0 +1,26 @@
+{
+  "id": "b5e4ebc4",
+  "slug": "galgos-catalunya",
+  "name": "Associació Huellas de Galgos Catalunya",
+  "shortName": "Galgos Catalunya",
+  "animalFocus": "dogs",
+  "contactPhone": "617282511",
+  "whatsAppPhone": "617282511",
+  "contactEmail": "info@galgoscatalunya.es",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipality": "Sant Celoni",
+  "socials": {
+    "instagram": "https://www.instagram.com/galgos_catalunya/",
+    "facebook": "https://www.facebook.com/GalgosCatalunya/"
+  },
+  "description": "Galgos Catalunya és una associació sense ànim de lucre creada amb l'objectiu de prestar auxili a llebrers i podencs en situació de desemparament. El nostre objectiu és rescatar-los de l'abandó i el maltractament, resguardar-los, recuperar-los tant com sigui possible tant els seus danys físics com psicològics, i finalment aconseguir-los una llar on ser estimats com mereixen.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/3/0/7/2/mc1kxdxngm.jpg",
+  "website": "https://galgoscatalunya.es/",
+  "adoptAnimalsURL": "https://www.instagram.com/galgos_catalunya/",
+  "associativeInscriptionNumber": "68954",
+  "dateOfInscription": "2021-03-02T00:00:00.000Z"
+}

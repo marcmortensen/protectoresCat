@@ -1,0 +1,24 @@
+{
+  "id": "301861b0",
+  "slug": "amancu",
+  "name": "Associació Amics dels Animals de Cunit",
+  "shortName": "AMANCU",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "amancu.amancu@gmail.com",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "municipality": "Cunit",
+  "description": "AMANCU va ser creada el 2016 per voluntaris amb l'objectiu de millorar el benestar dels gossos i els gats de la gossera municipal de Cunit. Al març de 2024, després de 8 anys gestionant la gossera municipal de Cunit, vam començar el nostre camí com a associació sense cap mena d'ajuda pública. No hem abandonat cap dels peludxs que teníem, tots estan amb nosaltres al refugi o en cases d'acollida. A la nostra nova llar no hi havia més que una casa, així que ens vam posar a construir totes les gàbies, una a una, pensant en cadascun d'ells.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "logo": "https://cdn.sukycms.com/shelters/59/images/spnYbXFEs0Lt7kg9BAi4wurfk1NrybnHvQe82Gcx.jpg",
+  "website": "https://amancu.protecms.com/",
+  "adoptAnimalsURL": "https://amancu.protecms.com/animales",
+  "associativeInscriptionNumber": "59596",
+  "dateOfInscription": "2016-10-26T00:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/amancu_refugio/",
+    "facebook": "https://www.facebook.com/amancu.amancu.cunit/"
+  }
+}

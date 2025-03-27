@@ -31,7 +31,7 @@ const page = useRouteQuery(QueryParam.PAGE, "1", {
   transform: { get: Number, set: String },
 });
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 1;
 
 const { data, refresh, clear } = await useAsyncData(
   route.path,
@@ -59,8 +59,13 @@ const { data, refresh, clear } = await useAsyncData(
     const orgsCount = await query.count();
     const orgs = await query
       .limit(ITEMS_PER_PAGE)
+      .order("shortName", "ASC")
       .skip((page.value - 1) * ITEMS_PER_PAGE)
       .all();
+    console.log(
+      "orgs.length",
+      orgs.map((org) => org.shortName)
+    );
     return { orgsCount, orgs, regions: dataRegions };
   },
   { immediate: true, watch: [regions, animalType, page] }
@@ -207,7 +212,7 @@ onMounted(() => {
       <NuxtLink
         v-for="org in data.orgs"
         :key="org.id"
-        :to="{ name: 'organizations-id', params: { id: org.id } }"
+        :to="{ name: 'organizations-slug', params: { slug: org.slug } }"
         class="bg-white p-4 shadow rounded group relative"
       >
         <div class="flex gap-2 flex-col h-full">
@@ -251,6 +256,5 @@ onMounted(() => {
       :default-page="1"
       @update:page="scrollToTop"
     />
-    <div class="bg-amber-800 h-60 w-full">Footer</div>
   </div>
 </template>

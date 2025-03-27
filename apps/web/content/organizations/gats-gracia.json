@@ -1,0 +1,25 @@
+{
+  "id": "31572693",
+  "slug": "gats-gracia",
+  "name": "Associació Gats de Gràcia",
+  "shortName": "Gats de Gràcia",
+  "contactPhone": "639742023",
+  "contactEmail": "info@gatsdegracia.cat",
+  "animalFocus": "cats",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipality": "Barcelona",
+  "description": "Gats de Gràcia és una associació sense ànim de lucre que cuida els gats de Gràcia i Horta-Guinardó amb l’ajuda de desenes de voluntaris. Té cura de més de 500 felins en 50 colònies repartides entre ambdós barris, compta amb un refugi i cases d’acollida.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "logo": "https://www.gatsdegracia.cat/wp-content/uploads/2022/06/image1.png",
+  "website": "https://www.gatsdegracia.cat/",
+  "adoptAnimalsURL": "https://www.instagram.com/gatsdegracia/",
+  "associativeInscriptionNumber": "50259",
+  "dateOfInscription": "2013-04-17:00:00.000Z",
+  "socials": {
+    "instagram": "https://www.instagram.com/gatsdegracia/",
+    "facebook": "https://www.facebook.com/GatsDeGracia"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2c009b6f",
+  "slug": "sqanimalia",
+  "name": "Associació per a la Protecció i la Defensa dels Animals de Sant Quirze",
+  "shortName": "SQAnimàlia",
+  "contactPhone": "637267490",
+  "whatsAppPhone": "637267490",
+  "contactEmail": "santquirzeanimalia@gmail.com",
+  "animalFocus": "cats",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipality": "Sant Quirze del Vallès",
+  "description": "Associació per la protecció i defensa dels animals de Sant Quirze del Vallès. Mantenim un refugi de gats i també alimentem i esterilitzem totes les colònies del poble. Ajuda'ns a ajudar-los!",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "website": "https://sites.google.com/view/sqanimalia/",
+  "adoptAnimalsURL": "https://www.facebook.com/SQAnimalia/",
+  "associativeInscriptionNumber": "37381",
+  "dateOfInscription": "2008-07-21:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/SQAnimalia/",
+    "instagram": "https://www.instagram.com/sqanimalia/"
+  }
+}

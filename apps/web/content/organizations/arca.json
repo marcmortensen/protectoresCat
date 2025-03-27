@@ -1,0 +1,32 @@
+{
+  "id": "69a9880a",
+  "slug": "arca",
+  "name": "Associació per al Refugi i Cura dels Animals",
+  "shortName": "ARCA",
+  "logo": "https://www.arcaprotectora.com/images/Imagenes-arca/Logotipos/logotipo-1.jpg",
+  "contactPhone": "655040359",
+  "website": "https://www.arcaprotectora.com/",
+  "region": "baix-ebre",
+  "province": "tarragona",
+  "description": "Arca és una associació que té com a objectius la defensa i protecció dels animals abandonats i la seva posterior adopció.",
+  "adoptAnimalsURL": "https://www.facebook.com/protearca/",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Camí del Pedregal Negre d'Alfara, 43591, Tarragona",
+      "googleMapsLink": "https://maps.app.goo.gl/YB2SUDBuc96pCzkt9",
+      "phone": "655040359",
+      "openingHoursURL": "https://www.arcaprotectora.com"
+    }
+  ],
+  "municipality": "Aldover",
+  "isMunicipal": false,
+  "associativeInscriptionNumber": "924",
+  "dateOfInscription": "2001-08-10T00:00:00.000Z",
+  "isActive": true,
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/protearca/",
+    "instagram": "https://www.instagram.com/protectora_arca_international"
+  }
+}
