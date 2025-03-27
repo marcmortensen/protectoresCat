@@ -31,7 +31,7 @@ const page = useRouteQuery(QueryParam.PAGE, "1", {
   transform: { get: Number, set: String },
 });
 
-const ITEMS_PER_PAGE = 1;
+const ITEMS_PER_PAGE = 9;
 
 const { data, refresh, clear } = await useAsyncData(
   route.path,
@@ -62,10 +62,7 @@ const { data, refresh, clear } = await useAsyncData(
       .order("shortName", "ASC")
       .skip((page.value - 1) * ITEMS_PER_PAGE)
       .all();
-    console.log(
-      "orgs.length",
-      orgs.map((org) => org.shortName)
-    );
+
     return { orgsCount, orgs, regions: dataRegions };
   },
   { immediate: true, watch: [regions, animalType, page] }
@@ -237,14 +234,6 @@ onMounted(() => {
               {{ org.description }}
             </p>
           </div>
-          <a
-            v-if="org.website"
-            class="bg-amber-500"
-            :href="org.website"
-            target="_blank"
-            >View</a
-          >
-          <div v-else class="h-6" />
           <span>{{ `${org.municipality}` }}</span>
         </div>
       </NuxtLink>
