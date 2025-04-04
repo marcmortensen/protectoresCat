@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import type { BreadcrumbItem } from "@nuxt/ui";
 const route = useRoute();
-const router = useRouter();
 
 const { history } = useRouter().options;
 
@@ -16,13 +16,28 @@ const { data } = await useAsyncData(
   },
   { immediate: true }
 );
+
+const items = computed<BreadcrumbItem[]>(() => [
+  {
+    label: "Home",
+    icon: "i-lucide-house",
+    to: { name: "index" },
+  },
+  {
+    label: "Organizations",
+    icon: "i-lucide-box",
+    to: (history.state.back as string) || { name: "organizations" },
+  },
+  {
+    label: data.value?.org.shortName,
+    icon: "i-lucide-link",
+  },
+]);
 </script>
 
 <template>
   <div>
-    <button @click="history.state.back ? router.back() : navigateTo('/')">
-      Go back
-    </button>
+    <UBreadcrumb :items="items" />
     <pre v-if="data && data.org">{{ data.org.shortName }}</pre>
     <pre v-else>ERROROROR</pre>
   </div>

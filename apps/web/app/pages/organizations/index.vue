@@ -1,4 +1,20 @@
 <script setup lang="ts">
+import cat1 from "~/assets/icons/animals/cat1.svg?inline";
+import cat2 from "~/assets/icons/animals/cat2.svg?inline";
+import cat3 from "~/assets/icons/animals/cat3.svg?inline";
+import cat4 from "~/assets/icons/animals/cat4.svg?inline";
+import cat5 from "~/assets/icons/animals/cat5.svg?inline";
+import cat6 from "~/assets/icons/animals/cat6.svg?inline";
+import dog1 from "~/assets/icons/animals/dog1.svg?inline";
+import dog2 from "~/assets/icons/animals/dog2.svg?inline";
+import dog3 from "~/assets/icons/animals/dog3.svg?inline";
+import dog4 from "~/assets/icons/animals/dog4.svg?inline";
+import dog5 from "~/assets/icons/animals/dog5.svg?inline";
+import dog6 from "~/assets/icons/animals/dog6.svg?inline";
+
+const catPlaceholderImages = [cat1, cat2, cat3, cat4, cat5, cat6];
+const dogPlaceholderImages = [dog1, dog2, dog3, dog4, dog5, dog6];
+
 const route = useRoute();
 
 const typeOfAnimal = [
@@ -36,6 +52,12 @@ const ITEMS_PER_PAGE = 9;
 const { data, refresh, clear } = await useAsyncData(
   route.path,
   async () => {
+    const randomPlaceholderImage = Math.floor(
+      Math.random() * catPlaceholderImages.length
+    );
+    const randomPlaceholderImageMultiple = Math.floor(
+      Math.random() * catPlaceholderImages.length + dogPlaceholderImages.length
+    );
     const dataRegions = await queryCollection("regions").all();
     const query = queryCollection("organizations");
 
@@ -63,7 +85,13 @@ const { data, refresh, clear } = await useAsyncData(
       .skip((page.value - 1) * ITEMS_PER_PAGE)
       .all();
 
-    return { orgsCount, orgs, regions: dataRegions };
+    return {
+      orgsCount,
+      orgs,
+      regions: dataRegions,
+      randomPlaceholderImage,
+      randomPlaceholderImageMultiple,
+    };
   },
   { immediate: true, watch: [regions, animalType, page] }
 );
@@ -153,6 +181,10 @@ const cleanQueryParams = async () => {
 onMounted(() => {
   cleanQueryParams();
 });
+
+function stringToNumber(str: string, limit: number): number {
+  return [...str].reduce((acc, char) => acc + char.charCodeAt(0), 0) % limit;
+}
 </script>
 
 <template>
@@ -162,13 +194,14 @@ onMounted(() => {
   >
     <div>
       <USelectMenu
-        v-model="regions"
+        v-model="regions as typeof data.regions"
         class="w-52"
         multiple
         :items="data.regions"
         value-key="slug"
         label-key="name"
         placeholder="Select a region"
+        color="primary"
       />
       <USelectMenu
         v-model="animalType"
@@ -181,7 +214,6 @@ onMounted(() => {
         placeholder="Select animal type"
       />
     </div>
-    <pre>{{ data?.orgs.length }}</pre>
     <UIcon name="i-lucide-lightbulb" class="size-5" />
     <h1 class="text-4xl font-semibold">Organizations</h1>
     <p class="text-lg text-gray-500">
@@ -214,14 +246,29 @@ onMounted(() => {
       >
         <div class="flex gap-2 flex-col h-full">
           <div class="flex justify-center">
-            <img
+            <NuxtImg
               v-if="org.logo"
               :src="org.logo"
               alt="logo"
               class="h-30"
+              placeholder
               @error="console.log('loading image', org.logo)"
             />
-            <div v-else class="h-30 bg-amber-950 w-full" />
+
+            <img
+              v-else
+              :src="
+                org.animalFocus === 'cats' || animalType.includes('cats')
+                  ? catPlaceholderImages[stringToNumber(org.slug, 6)]
+                  : org.animalFocus === 'dogs' || animalType.includes('dogs')
+                    ? dogPlaceholderImages[stringToNumber(org.slug, 6)]
+                    : [...catPlaceholderImages, ...dogPlaceholderImages][
+                        stringToNumber(org.slug, 12)
+                      ]
+              "
+              alt="logo"
+              class="h-30"
+            />
           </div>
           <div>
             <div class="flex justify-between items-center">
@@ -243,6 +290,7 @@ onMounted(() => {
       :items-per-page="ITEMS_PER_PAGE"
       :total="data.orgsCount"
       :default-page="1"
+      color="primary"
       @update:page="scrollToTop"
     />
   </div>

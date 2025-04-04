@@ -5888,7 +5888,7 @@ export const organizations: Organization[] = [
     isActive: true,
     isMunicipal: false,
     lastUpdate: '2025-02-25T00:00:00.000Z',
-    logo: 'https://gatssegarra.org/wp-content/uploads/2025/03/cropped-cropped-cropped-LOGO-1-300x253.png',
+    logo: 'https://gatssegarra.org/wp-content/uploads/2025/03/Imagen-de-WhatsApp-2025-03-27-a-las-18.29.44_cfaa1863.jpg',
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/GatsdelaSegarra/',
     associativeInscriptionNumber: '61409',

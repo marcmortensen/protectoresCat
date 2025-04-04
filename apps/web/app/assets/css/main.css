@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme static {
+  --color-primary: #dc842a;
+  --color-primary-50: #fdf8ed;
+  --color-primary-100: #f8eacd;
+  --color-primary-200: #f0d397;
+  --color-primary-300: #e9b860;
+  --color-primary-400: #e3a13c;
+  --color-primary-500: #dc842a;
+  --color-primary-600: #c2611d;
+  --color-primary-700: #a1461c;
+  --color-primary-800: #83371d;
+  --color-primary-900: #6c2e1b;
+  --color-primary-950: #3e160a;
+}
+@import "@nuxt/ui";
