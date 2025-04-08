@@ -17,6 +17,21 @@ const { data } = await useAsyncData(
   { immediate: true }
 );
 
+const hasError = computed(() => data.value?.org === null);
+watch(
+  hasError,
+  (value) => {
+    if (value) {
+      throw createError({
+        statusCode: 500,
+        statusMessage: "Organization not found",
+        fatal: true,
+      });
+    }
+  },
+  { immediate: true }
+);
+
 const items = computed<BreadcrumbItem[]>(() => [
   {
     label: "Home",
@@ -33,12 +48,13 @@ const items = computed<BreadcrumbItem[]>(() => [
     icon: "i-lucide-link",
   },
 ]);
+
+definePageMeta({});
 </script>
 
 <template>
-  <div>
+  <div v-if="!hasError">
     <UBreadcrumb :items="items" />
-    <pre v-if="data && data.org">{{ data.org.shortName }}</pre>
-    <pre v-else>ERROROROR</pre>
+    <pre v-if="data && data.org">{{ data.org }}</pre>
   </div>
 </template>
