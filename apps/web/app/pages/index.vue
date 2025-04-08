@@ -1,8 +1,17 @@
 <script setup lang="ts">
 import type { RouteLocationRaw } from "vue-router";
-const selectedRegionId = ref();
-const hoveredRegionId = ref();
+import type { AccordionItem } from "@nuxt/ui";
+const selectedRegionId = ref<string | undefined>();
+const hoveredRegionId = ref<string | null>();
+const isSlideoverOpen = ref(false);
 
+const allRegionItems = computed<AccordionItem[]>(() =>
+  (data.value?.regions || []).map((region) => ({
+    label: region.name,
+    disabled: !data.value?.orgsByRegions.find((r) => r.region === region.slug),
+    slug: region.slug,
+  }))
+);
 const route = useRoute();
 
 const { data } = await useAsyncData(
@@ -41,7 +50,10 @@ const regionRouteBuilder = (regionSlug: string): RouteLocationRaw => {
     },
   };
 };
+
+definePageMeta({});
 </script>
+
 <template>
   <div class="bg-white shadow-lg w-full h-full overflow-hidden">
     <div v-if="data" class="flex flex-col xl:flex-row w-full h-screen">
@@ -95,10 +107,37 @@ const regionRouteBuilder = (regionSlug: string): RouteLocationRaw => {
               v-if="regions"
               v-model="selectedRegionId"
               :regions="regions"
-              class="transition-all duration-500 ease-in-out w-full h-full"
+              class="hidden lg:block transition-all duration-500 ease-in-out w-full h-full"
               :route-builder="regionRouteBuilder"
               @hover="hoveredRegionId = $event"
             />
+
+            <RegionsMap
+              v-if="regions"
+              :regions="regions"
+              class="block lg:hidden transition-all duration-500 ease-in-out w-full h-full"
+              read-only
+              @click="isSlideoverOpen = true"
+            />
+
+            <USlideover
+              v-if="isSlideoverOpen"
+              v-model:open="isSlideoverOpen"
+              title="Regions"
+            >
+              <template #body>
+                <UAccordion :items="allRegionItems" :multiple="false">
+                  <template #body="{ item }">
+                    See all the organizations from
+                    <UButton
+                      class="-ml-2"
+                      variant="link"
+                      :to="regionRouteBuilder(item.slug)"
+                      :label="`${item.label}`"
+                    /> </template
+                ></UAccordion>
+              </template>
+            </USlideover>
 
             <div
               v-if="currentRegion"

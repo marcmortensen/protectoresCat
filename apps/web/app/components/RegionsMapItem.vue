@@ -1,5 +1,9 @@
 <template>
-  <NuxtLink v-if="route" :to="route" :title="region ? region.name : undefined">
+  <NuxtLink
+    v-if="route && !readOnly"
+    :to="route"
+    :title="region ? region.name : undefined"
+  >
     <g>
       <path :d="d" :class="styleClass" v-on="on" />
     </g>

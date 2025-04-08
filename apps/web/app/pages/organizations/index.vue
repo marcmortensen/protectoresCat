@@ -185,6 +185,14 @@ onMounted(() => {
 function stringToNumber(str: string, limit: number): number {
   return [...str].reduce((acc, char) => acc + char.charCodeAt(0), 0) % limit;
 }
+
+const getConnectedToRegions = computed(() => {
+  return regions.value && regions.value.length === 1
+    ? data.value?.regions.find((region) => region.slug === regions.value[0])
+        ?.connectedTo
+    : [];
+});
+definePageMeta({});
 </script>
 
 <template>
@@ -214,6 +222,19 @@ function stringToNumber(str: string, limit: number): number {
         placeholder="Select animal type"
       />
     </div>
+    <UButton
+      v-if="filters.length > 0"
+      class="mt-4"
+      color="primary"
+      variant="outline"
+      label="Clear filters"
+      @click="
+        () => {
+          regions = [];
+          animalType = [];
+        }
+      "
+    />
     <UIcon name="i-lucide-lightbulb" class="size-5" />
     <h1 class="text-4xl font-semibold">Organizations</h1>
     <p class="text-lg text-gray-500">
@@ -236,7 +257,37 @@ function stringToNumber(str: string, limit: number): number {
         />
       </template>
     </div>
-
+    <UAlert
+      v-if="
+        (regions.length === 1 && getConnectedToRegions) || data?.orgsCount === 0
+      "
+      :title="
+        data?.orgsCount === 0 ? 'No organizations found' : 'Organizations found'
+      "
+      :description="`You can get more organizations by searching for more regions and animal types.`"
+      orientation="horizontal"
+      color="neutral"
+      variant="outline"
+      :actions="
+        regions.length === 1 && getConnectedToRegions
+          ? [
+              {
+                label: 'Get surrounding regions',
+                to: {
+                  name: 'organizations',
+                  query: {
+                    ...route.query,
+                    regions: [
+                      route.query.regions as string,
+                      ...getConnectedToRegions,
+                    ].join(','),
+                  },
+                },
+              },
+            ]
+          : []
+      "
+    />
     <div v-if="data?.orgs" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
       <NuxtLink
         v-for="org in data.orgs"
