@@ -47,7 +47,7 @@ const page = useRouteQuery(QueryParam.PAGE, "1", {
   transform: { get: Number, set: String },
 });
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 12;
 
 const { data, refresh, clear } = await useAsyncData(
   route.path,
@@ -93,7 +93,7 @@ const { data, refresh, clear } = await useAsyncData(
       randomPlaceholderImageMultiple,
     };
   },
-  { immediate: true, watch: [regions, animalType, page] }
+  { immediate: true, watch: [regions, animalType, page], deep: true }
 );
 
 const filters = computed(() => {
@@ -182,23 +182,20 @@ onMounted(() => {
   cleanQueryParams();
 });
 
-function stringToNumber(str: string, limit: number): number {
-  return [...str].reduce((acc, char) => acc + char.charCodeAt(0), 0) % limit;
-}
-
 const getConnectedToRegions = computed(() => {
   return regions.value && regions.value.length === 1
     ? data.value?.regions.find((region) => region.slug === regions.value[0])
         ?.connectedTo
     : [];
 });
+
 definePageMeta({});
 </script>
 
 <template>
   <div
     v-if="data"
-    class="flex flex-col w-1/2 justify-center items-center mx-auto mt-4"
+    class="flex flex-col w-full px-1 xl:px-0 xl:w-1/2 justify-center items-center mx-auto mt-4"
   >
     <div>
       <USelectMenu
@@ -235,12 +232,6 @@ definePageMeta({});
         }
       "
     />
-    <UIcon name="i-lucide-lightbulb" class="size-5" />
-    <h1 class="text-4xl font-semibold">Organizations</h1>
-    <p class="text-lg text-gray-500">
-      Here are some organizations that you can support
-    </p>
-
     <div
       ref="entryCardsTop"
       :style="{ scrollMarginTop: `${scrollOffset + 16}px` }"
@@ -261,9 +252,7 @@ definePageMeta({});
       v-if="
         (regions.length === 1 && getConnectedToRegions) || data?.orgsCount === 0
       "
-      :title="
-        data?.orgsCount === 0 ? 'No organizations found' : 'Organizations found'
-      "
+      :title="data?.orgsCount === 0 ? 'No organizations found' : undefined"
       :description="`You can get more organizations by searching for more regions and animal types.`"
       orientation="horizontal"
       color="neutral"
@@ -288,7 +277,10 @@ definePageMeta({});
           : []
       "
     />
-    <div v-if="data?.orgs" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div
+      v-if="data?.orgs"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
+    >
       <NuxtLink
         v-for="org in data.orgs"
         :key="org.id"
@@ -296,34 +288,40 @@ definePageMeta({});
         class="bg-white p-4 shadow rounded group relative"
       >
         <div class="flex gap-2 flex-col h-full">
-          <div class="flex justify-center">
-            <NuxtImg
+          <div class="flex justify-center h-30 w-full">
+            <NuxtPicture
               v-if="org.logo"
+              format="avif,webp"
               :src="org.logo"
               alt="logo"
-              class="h-30"
-              placeholder
-              @error="console.log('loading image', org.logo)"
+              :img-attrs="{
+                class: 'h-30',
+              }"
+              @error="org.logo = undefined"
             />
 
-            <img
-              v-else
-              :src="
-                org.animalFocus === 'cats' || animalType.includes('cats')
-                  ? catPlaceholderImages[stringToNumber(org.slug, 6)]
-                  : org.animalFocus === 'dogs' || animalType.includes('dogs')
-                    ? dogPlaceholderImages[stringToNumber(org.slug, 6)]
-                    : [...catPlaceholderImages, ...dogPlaceholderImages][
-                        stringToNumber(org.slug, 12)
-                      ]
-              "
-              alt="logo"
-              class="h-30"
-            />
+            <template v-else>
+              <SvgoAnimalsCat1
+                v-if="
+                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'cats'
+                "
+                :font-controlled="false"
+                class="h-30"
+              />
+              <SvgoAnimalsDog5
+                v-if="
+                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'dogs'
+                "
+                :font-controlled="false"
+                class="h-30"
+              />
+            </template>
           </div>
           <div>
             <div class="flex justify-between items-center">
-              <h1 class="font-semibold">{{ org.shortName }}</h1>
+              <h1 class="font-semibold group-hover:text-primary">
+                {{ org.shortName }}
+              </h1>
               <span v-if="org.animalFocus === 'cats&dogs'">🐱🐶</span>
               <span v-if="org.animalFocus === 'cats'">🐱</span>
               <span v-if="org.animalFocus === 'dogs'">🐶</span>

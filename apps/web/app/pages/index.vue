@@ -70,14 +70,24 @@ definePageMeta({});
                 <li
                   v-for="(type, index) in ['cats', 'dogs']"
                   :key="index"
-                  class="xl:w-1/3 px-4 text-center first:ml-auto last:mr-auto"
+                  class="lg:w-1/3 px-4 text-center first:ml-auto last:mr-auto"
                 >
                   <NuxtLink
-                    class="mx-auto text-9xl xl:text-[250px] text-primary hover:text-gray-500"
+                    class="mx-auto hover:text-primary text-gray"
                     :to="{ name: 'organizations', query: { focus: type } }"
                   >
-                    <SvgoAnimalsCat1 v-if="type === 'cats'" alt="logo" />
-                    <SvgoAnimalsDog5 v-else alt="logo" />
+                    <SvgoAnimalsCat1
+                      v-if="type === 'cats'"
+                      :font-controlled="false"
+                      class="w-36 h-36 sm:w-64 sm:h-64 xl:w-40 xl:h-40 2xl:w-64 2xl:h-64"
+                      alt="logo"
+                    />
+                    <SvgoAnimalsDog5
+                      v-else
+                      :font-controlled="false"
+                      class="w-36 h-36 sm:w-64 sm:h-64 xl:w-40 xl:h-40 2xl:w-64 2xl:h-64"
+                      alt="logo"
+                    />
                   </NuxtLink>
                 </li>
               </ul>
@@ -107,7 +117,7 @@ definePageMeta({});
               v-if="regions"
               v-model="selectedRegionId"
               :regions="regions"
-              class="hidden lg:block transition-all duration-500 ease-in-out w-full h-full"
+              class="hidden xl:block transition-all duration-500 ease-in-out w-full h-full"
               :route-builder="regionRouteBuilder"
               @hover="hoveredRegionId = $event"
             />
@@ -115,7 +125,7 @@ definePageMeta({});
             <RegionsMap
               v-if="regions"
               :regions="regions"
-              class="block lg:hidden transition-all duration-500 ease-in-out w-full h-full"
+              class="block xl:hidden transition-all duration-500 ease-in-out w-full h-full"
               read-only
               @click="isSlideoverOpen = true"
             />
@@ -143,7 +153,7 @@ definePageMeta({});
               v-if="currentRegion"
               class="text-right absolute right-0 bottom-0 p-4 w-full flex flex-col items-end pointer-events-none"
             >
-              <div class="text-7xl uppercase tracking-150 text-gray-dark">
+              <div class="text-6xl uppercase tracking-150 text-gray-dark">
                 {{ currentRegion.name }}
               </div>
             </div>
