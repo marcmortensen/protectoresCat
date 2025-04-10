@@ -3,11 +3,10 @@
   "slug": "protectora-animals-osona",
   "name": "Associació i Defensa dels Animals d'Osona",
   "shortName": "Protectora d'Animals d'Osona",
-  "logo": "http://protectoraosona.cat/wp-content/uploads/2022/01/cropped-cropped-cropped-IMG_6928.jpg",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/7/8/0/0/ekiwtscfcu.jpeg",
   "contactEmail": "infoproteosona@gmail.com",
   "contactPhone": "638986301",
   "contactPhone2": "696256120",
-  "website": "http://protectoraosona.cat/",
   "region": "osona",
   "province": "barcelona",
   "description": "Vam néixer fa uns trenta anys i sempre hem tingut l’objectiu de salvar els animals. Actualment tenim uns dos-cents gossos i uns cinquanta gats esperant una família: anima’t i vine a conèixer-los! El nostre objectiu principal és donar una vida digne i sana a tots els animals que ho necessiten . Per això, intentem generar recursos per garantir una atenció adequada als animals, cuidant-nos de l’alimentació , l’atenció veterinària i el manteniment de les instal·lacions on viuen.",
@@ -16,16 +15,15 @@
     {
       "adress": "Torre d’en Bosch s/n, Gurb, a prop de l’ermita de Palau",
       "googleMapsLink": "https://maps.app.goo.gl/XhvwCZrFHCRvjdeK6",
-      "phone": "638986301",
-      "openingHoursURL": "http://protectoraosona.cat/horari/"
+      "phone": "638986301"
     }
   ],
-  "adoptAnimalsURL": "http://protectoraosona.cat/draco/",
+  "adoptAnimalsURL": "https://www.instagram.com/protectora_osona/",
   "municipality": "Gurb",
   "isMunicipal": true,
   "associativeInscriptionNumber": "11514",
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-04-10T00:00:00.000Z",
   "dateOfInscription": "1990-03-12T00:00:00.000Z",
   "socials": {
     "facebook": "https://www.facebook.com/ProtectoraAnimalsOsona",
