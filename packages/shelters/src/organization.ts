@@ -1875,8 +1875,7 @@ export const organizations: Organization[] = [
     website: 'https://amicsdelsanimalsdelanoguera.org/',
     region: 'noguera',
     province: 'lleida',
-    description: `Som un grup de voluntaris de la comarca de La Noguera (Lleida) que, després de comprovar amb impotència com els nostres pobles i carreteres s'omplen de gossos i gats abandonats, vem decidir formar una associació per donar-los acollida i buscar una segona família que els estimi. 
-    La nostra és una associació sense ànim de lucre formada per un grup de voluntaris que ens estimem els animals. Els voluntaris ens esforcem per donar als gossos i gats unes condicions de vida dignes al seu pas per la protectora, mentre esperen ser adoptats.`,
+    description: `Som un grup de voluntaris de la comarca de La Noguera (Lleida) que, després de comprovar amb impotència com els nostres pobles i carreteres s'omplen de gossos i gats abandonats, vem decidir formar una associació per donar-los acollida i buscar una segona família que els estimi. La nostra és una associació sense ànim de lucre formada per un grup de voluntaris que ens estimem els animals. Els voluntaris ens esforcem per donar als gossos i gats unes condicions de vida dignes al seu pas per la protectora, mentre esperen ser adoptats.`,
     adoptAnimalsURL:
       'https://amicsdelsanimalsdelanoguera.org/cat/la-31-perros-en-adopcion',
     animalFocus: 'cats&dogs',
@@ -2435,8 +2434,7 @@ export const organizations: Organization[] = [
         openingHoursURL: 'https://aixoplucmanresa.org/contacte/',
       },
     ],
-    description: `La protectora d'Animals Aixopluc, és una associació que té cura d'un centenar de gossos i més de tres-cents gats. Molts arriben al centre en molt mal estat i la seva recuperació és vital per donar-los una bona qualitat de vida i una futura adopció. El centre està ubicat a Manresa (Barcelona). Per fer front a tots aquests costos sanitaris i alimentaris, ens unim a aquesta meravellosa iniciativa.
-    `,
+    description: `La protectora d'Animals Aixopluc, és una associació que té cura d'un centenar de gossos i més de tres-cents gats. Molts arriben al centre en molt mal estat i la seva recuperació és vital per donar-los una bona qualitat de vida i una futura adopció. El centre està ubicat a Manresa (Barcelona). Per fer front a tots aquests costos sanitaris i alimentaris, ens unim a aquesta meravellosa iniciativa.`,
     isActive: true,
     isMunicipal: false,
     lastUpdate: '2025-01-27T00:00:00.000Z',
@@ -2611,8 +2609,7 @@ export const organizations: Organization[] = [
         phone: '600433165',
       },
     ],
-    description: `Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt.
-    El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.`,
+    description: `Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt. El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.`,
     isActive: true,
     isMunicipal: true,
     lastUpdate: '2025-01-30T00:00:00.000Z',
@@ -2645,9 +2642,7 @@ export const organizations: Organization[] = [
         phone: '938221291',
       },
     ],
-    description: `L’Associació Berguedana per a la Protecció dels Animals som una associació sense ànim de lucre que estem en funcionament des del setembre de 1990.
-    El radi d’actuació és comarcal, el Berguedà, tot i que mantenim contacte amb altres protectores i diferents grups interessats en la mateixa tasca.
-    El refugi es manté gràcies a les aportacions dels socis, dels teamers, dels convenis signats amb els Ajuntaments de la comarca (exceptuant-ne algun) i amb el Consell Comarcal del Berguedà.`,
+    description: `L’Associació Berguedana per a la Protecció dels Animals som una associació sense ànim de lucre que estem en funcionament des del setembre de 1990. El radi d’actuació és comarcal, el Berguedà, tot i que mantenim contacte amb altres protectores i diferents grups interessats en la mateixa tasca. El refugi es manté gràcies a les aportacions dels socis, dels teamers, dels convenis signats amb els Ajuntaments de la comarca (exceptuant-ne algun) i amb el Consell Comarcal del Berguedà.`,
     isActive: true,
     isMunicipal: true,
     lastUpdate: '2025-01-30T00:00:00.000Z',
@@ -2738,8 +2733,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/rmacvoluntaris',
     },
     shelter: undefined,
-    description: `Encaixant Mons va sorgir amb l'objectiu d'assolir la participació activa dels voluntaris en aquelles decisions que repercuteixen els animals del Refugi Municipal d'Animals de Companyia de Sant Boi de Llobregat (RMAC).
-    Un dels nostres desitjos és conscienciar la població sobre la tinença responsable dels animals de companyia. De la mateixa manera, vetllar pel benestar animal, el respecte i la conservació de l'entorn des de les nostres possibilitats com a associació.`,
+    description: `Encaixant Mons va sorgir amb l'objectiu d'assolir la participació activa dels voluntaris en aquelles decisions que repercuteixen els animals del Refugi Municipal d'Animals de Companyia de Sant Boi de Llobregat (RMAC). Un dels nostres desitjos és conscienciar la població sobre la tinença responsable dels animals de companyia. De la mateixa manera, vetllar pel benestar animal, el respecte i la conservació de l'entorn des de les nostres possibilitats com a associació.`,
     isActive: true,
     isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
@@ -2831,8 +2825,7 @@ export const organizations: Organization[] = [
         phone: '615173627',
       },
     ],
-    description: `L’Associació d’Amor als Animals Maria Adam neix amb l’objectiu d’unir totes aquelles persones que comparteixen un mateix sentiment cap a aquestes criatures fantàstiques: els animals.
-    Tots els que formem part de l’associació treballem amb la voluntat de donar-los amor, de vetllar per la salut tant física com psicològica i de cuidar-los mentre busquem una família que els pugui donar una nova vida.`,
+    description: `L’Associació d’Amor als Animals Maria Adam neix amb l’objectiu d’unir totes aquelles persones que comparteixen un mateix sentiment cap a aquestes criatures fantàstiques: els animals. Tots els que formem part de l’associació treballem amb la voluntat de donar-los amor, de vetllar per la salut tant física com psicològica i de cuidar-los mentre busquem una família que els pugui donar una nova vida.`,
     isActive: true,
     isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
