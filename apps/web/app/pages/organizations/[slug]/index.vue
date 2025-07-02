@@ -101,6 +101,7 @@ const phones = computed(() => {
     }));
 });
 
+const showidZoologicalNucleus = false;
 useSeoMeta({
   ogTitle: () => `${data.value?.org.shortName} | Adoptar.cat`,
   title: () => `${data.value?.org.shortName} | Adoptar.cat`,
@@ -407,7 +408,7 @@ useSchemaOrg([
             {{ data.org.description }}
           </p>
         </dd>
-        <div v-if="data.org.idZoologicalNucleus">
+        <div v-if="data.org.idZoologicalNucleus && showidZoologicalNucleus">
           <dt class="font-semibold">Núm. zoològic:</dt>
           <dd class="ml-2.5">
             {{ data.org.idZoologicalNucleus }}
@@ -471,7 +472,7 @@ useSchemaOrg([
       </div>
 
       <div class="pt-2">
-        <time :datetime="data.org.lastUpdate" class="italic text-gray-300"
+        <time :datetime="data.org.lastUpdate" class="italic"
           >Última actualització
           {{ formatTextDate(new Date(data.org.lastUpdate)) }}</time
         >

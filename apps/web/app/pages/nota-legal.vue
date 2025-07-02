@@ -77,8 +77,6 @@ useSeoMeta({
         <a href="mailto:legal@adoptar.cat">legal@adoptar.cat</a>.
       </p>
     </section>
-    <time class="italic text-gray-300"
-      >Última actualització 7 de Juliol del 2025.
-    </time>
+    <time class="italic">Última actualització 7 de Juliol del 2025. </time>
   </div>
 </template>

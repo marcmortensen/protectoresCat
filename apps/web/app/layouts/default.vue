@@ -4,6 +4,7 @@ const mobileMenuOpen = ref(false);
 const { isModalActive } = useCookieControl();
 
 const navigation = [
+  { label: "Inici", to: { name: "index" } },
   { label: "Entitats", to: { name: "organizations" } },
   { label: "Preguntes freqüents", to: { name: "faq" } },
 ];
@@ -72,7 +73,7 @@ const isDark = computed({
           >
         </div>
         <div
-          class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-5 text-black dark:text-white"
+          class="hidden lg:ml-30 lg:flex lg:flex-1 lg:justify-center lg:gap-5 text-black dark:text-white"
         >
           <NuxtLink
             v-for="item in navigation"
@@ -107,13 +108,6 @@ const isDark = computed({
       >
         <template #body>
           <div class="flex flex-col text-gray-900 dark:text-white">
-            <NuxtLink
-              :to="{ name: 'index' }"
-              class="hover:text-primary border-b border-(--ui-border) last:border-b-0 font-medium text-sm py-3.5"
-              active-class="text-primary"
-              @click="mobileMenuOpen = false"
-              >Inici</NuxtLink
-            >
             <NuxtLink
               v-for="item in navigation"
               :key="item.label"

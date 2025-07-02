@@ -93,8 +93,6 @@ useSeoMeta({
         />
       </p>
     </section>
-    <time class="italic text-gray-300"
-      >Última actualització 25 de Maig del 2025.
-    </time>
+    <time class="italic">Última actualització 25 de Maig del 2025. </time>
   </div>
 </template>
