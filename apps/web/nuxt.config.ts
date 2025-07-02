@@ -32,6 +32,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-svgo",
     "@dargmuesli/nuxt-cookie-control",
+    "nuxt-schema-org",
   ],
 
   vite: {
@@ -63,7 +64,7 @@ export default defineNuxtConfig({
         {
           rel: "apple-touch-icon",
           type: "image/png",
-          href: "//apple-touch-icon.png",
+          href: "/apple-touch-icon.png",
           sizes: "180x180",
         },
         { rel: "manifest", href: "/site.webmanifest" },

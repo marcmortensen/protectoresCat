@@ -209,6 +209,35 @@ useSeoMeta({
   ogImageUrl: "https://adoptar.cat/logo_w1200_h630.png",
   twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
 });
+
+useSchemaOrg([
+  defineWebPage({
+    "@type": "CollectionPage",
+    name: "Llistat d'entitats d'adopció",
+    description: "Llistat d'entitats d'adopció d'animals a Catalunya.",
+  }),
+  defineItemList({
+    itemListElement: data.value?.orgs.map((org, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      url: `https://adoptar.cat/organizations/${org.slug}`,
+      name: org.shortName,
+      alternateName: org.name,
+      sameAs: [
+        org.socials?.facebook,
+        org.socials?.instagram,
+        org.socials?.tikTok,
+        org.website,
+      ].filter(Boolean),
+      description: org.description,
+      image: org.enabledLogoUsage
+        ? getOrganizationLogoPath(org.slug)
+        : undefined,
+    })),
+    numberOfItems: data.value?.orgsCount || 0,
+    itemListOrder: "Ascending",
+  }),
+]);
 </script>
 
 <template>
@@ -366,14 +395,13 @@ useSeoMeta({
                   class="md:shrink-0 h-48 w-full md:w-48 sm:h-full flex items-center justify-center"
                 >
                   <NuxtPicture
-                    v-if="org.logo && org.enabledLogoUsage"
+                    v-if="org.enabledLogoUsage"
                     format="avif,webp"
-                    :src="org.logo"
-                    :alt="`Logo of ${org.name}`"
+                    :src="getOrganizationLogoPath(org.slug)"
+                    :alt="`Logotip de ${org.name}`"
                     :img-attrs="{
                       class: 'h-48 sm:w-full md:h-full md:w-48 max-h-48',
                     }"
-                    @error="org.logo = undefined"
                   />
                   <template v-else>
                     <SvgoAnimalsCat1

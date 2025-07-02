@@ -65,6 +65,17 @@ useSeoMeta({
   ogImageUrl: "https://adoptar.cat/logo_w1200_h630.png",
   twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
 });
+
+useSchemaOrg([
+  defineOrganization({
+    "@id": "https://adoptar.cat/#siteorg",
+    name: "Adoptar.cat",
+    url: "https://adoptar.cat",
+    logo: "/logo_w1200_h630.png",
+    description:
+      "Adoptar.cat és una plataforma informativa i sense ànim de lucre que connecta adoptants amb entitats i voluntaris per promoure l'adopció responsable d'animals a Catalunya.",
+  }),
+]);
 </script>
 
 <template>

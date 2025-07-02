@@ -1,20 +1,19 @@
 <script setup lang="ts">
 const items = [
-  /*{
-    label: "Com afegir una nova entrada al llistat?",
-    slot: "form" as const,
-  },
-  {
-    label: "M'he trobat un error, què he de fer?",
-    slot: "issue" as const,
-    description:
-      "Si trobes un error, si us plau, contacta amb nosaltres obrint un 'issue' al nostre repositori de GitHub. Si us plau, proporciona tanta informació com sigui possible per ajudar-nos a reproduir el problema.",
-  },
-  */
   {
     label: "Per què no hi ha més entrades?",
     description:
-      "L'objectiu d'aquesta plana és proporcionar a la ciutadania una eina útil per a trobar informació sobre entitats que permetin adopcions prop del seu domicili. Per tal de garantir la qualitat de la informació cal que com a mínim estiguin degudament registrades a Catalunya i continuïn operant. Continuem registrant més entitats a mesura que les trobem, si coneixes alguna entitat que creus que hauríem d'incloure o algun canvi, no dubtis a contactar amb nosaltres a info@adoptar.cat.",
+      "L'objectiu d'aquesta plana és proporcionar a la ciutadania una eina útil per a trobar informació sobre entitats que permetin adopcions prop del seu domicili. Per tal de garantir la qualitat de la informació cal que com a mínim estiguin degudament registrades a Catalunya i continuïn operant.",
+  },
+  {
+    label: "Com afegir una nova entrada al llistat?",
+    description:
+      "Si coneixes una entitat que permet adopcions i que no està al nostre llistat, pots contactar amb nosaltres a info@adoptar.cat.",
+  },
+  {
+    label: "M'he trobat un error, què he de fer?",
+    description:
+      "Si trobes un error, si us plau, contacta amb nosaltres a info@adoptar.cat proporciont tanta informació com sigui possible per ajudar-nos a reproduir el problema.",
   },
   {
     label: "Podeu afegir més regions d'Espanya?",
@@ -32,6 +31,22 @@ useSeoMeta({
   description:
     "Consulta les preguntes més freqüents sobre el nostre llistat d'entitats i adopcions.",
 });
+useSchemaOrg([
+  defineWebPage({
+    name: "Preguntes freqüents",
+    description:
+      "Consulta les preguntes més freqüents sobre el nostre llistat d'entitats i adopcions.",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.label,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.description,
+      },
+    })),
+  }),
+]);
 </script>
 
 <template>

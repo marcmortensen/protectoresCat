@@ -43,28 +43,6 @@ watch(
   { immediate: true }
 );
 
-definePageMeta({});
-
-const stateLogo = ref<string | undefined | null>();
-const logo = computed({
-  get() {
-    return stateLogo.value;
-  },
-  set(value: string | null) {
-    stateLogo.value = value;
-  },
-});
-
-watch(
-  () => data.value?.org.logo,
-  (value) => {
-    if (value && data.value?.org.enabledLogoUsage) {
-      logo.value = value;
-    }
-  },
-  { immediate: true }
-);
-
 type Org = NonNullable<typeof data.value>["org"];
 type Social = keyof NonNullable<Org["socials"]>;
 const socialIcons: Record<Social, { icon: string; name: string }> = {
@@ -134,14 +112,46 @@ useSeoMeta({
     `Descobreix tota la informació sobre ${data.value?.org.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
   twitterCard: "summary_large_image",
   twitterTitle: () => `${data.value?.org.shortName} | Adoptar.cat`,
-  // TODO fetch the logo from the URL if and only if the logo is enabled to be displayed.
   ogImage: () =>
-    data.value?.org.enabledLogoUsage && logo.value ? logo.value : undefined,
+    data.value?.org.enabledLogoUsage
+      ? getOrganizationLogoPath(data.value.org.slug)
+      : undefined,
   ogImageUrl: () =>
-    data.value?.org.enabledLogoUsage && logo.value ? logo.value : undefined,
+    data.value?.org.enabledLogoUsage
+      ? getOrganizationLogoPath(data.value.org.slug)
+      : undefined,
   twitterImage: () =>
-    data.value?.org.enabledLogoUsage && logo.value ? logo.value : undefined,
+    data.value?.org.enabledLogoUsage
+      ? getOrganizationLogoPath(data.value.org.slug)
+      : undefined,
 });
+
+useSchemaOrg([
+  defineOrganization({
+    "@id": `https://adoptar.cat/organizations/${data.value?.org.slug}#org`,
+    name: data.value?.org.shortName,
+    legalName: data.value?.org.name,
+    url: `https://adoptar.cat/organizations/${data.value?.org.slug}`,
+    logo: data.value?.org.enabledLogoUsage
+      ? getOrganizationLogoPath(data.value?.org.slug)
+      : undefined,
+    description: data.value?.org.description,
+    email: data.value?.org.contactEmail,
+    telephone: data.value?.org.contactPhone,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: data.value?.org.municipality,
+      addressRegion: currentRegion.value!.name,
+      addressCountry: "ES",
+    },
+    sameAs: [
+      data.value?.org.socials?.facebook,
+      data.value?.org.socials?.instagram,
+      data.value?.org.socials?.tikTok,
+      data.value?.org.website,
+    ].filter(Boolean),
+  }),
+]);
 </script>
 
 <template>
@@ -169,12 +179,7 @@ useSeoMeta({
       color="neutral"
       variant="outline"
     />
-    <article
-      v-if="data && data.org"
-      itemscope
-      itemtype="https://schema.org/Organization"
-      class="flex flex-col gap-2"
-    >
+    <article v-if="data && data.org" class="flex flex-col gap-2">
       <header
         class="flex flex-col lg:flex-row justify-start lg:justify-between gap-6 w-full h-full items-start"
       >
@@ -183,15 +188,13 @@ useSeoMeta({
             class="lg:shrink-0 h-24 lg:h-48 sm:h-full w-full sm:w-auto lg:w-48 flex items-center justify-center"
           >
             <NuxtPicture
-              v-if="logo && data.org.enabledLogoUsage"
+              v-if="data.org.enabledLogoUsage"
               format="avif,webp"
-              :src="logo"
+              :src="getOrganizationLogoPath(data.org.slug)"
               :alt="`Logo of ${data.org.name}`"
               :img-attrs="{
                 class: 'h-24 sm:w-full lg:h-full lg:w-48 max-h-48',
-                itemprop: 'logo',
               }"
-              @error="logo = null"
             />
             <template v-else>
               <SvgoAnimalsCat1
@@ -213,19 +216,18 @@ useSeoMeta({
             </template>
           </div>
           <div class="flex flex-col justify-center gap-1">
-            <h1 class="text-2xl font-bold mb-1" itemprop="alternateName">
+            <h1 class="text-2xl font-bold mb-1">
               {{ data.org.shortName }}
             </h1>
             <p
               v-if="data.org.name !== data.org.shortName"
               class="text-gray-600 dark:text-gray-300 italic"
-              itemprop="legalName"
             >
               {{ data.org.name }}
             </p>
             <div class="flex items-center gap-2">
               <UIcon name="i-lucide-map-pin" class="size-5 shrink-0" />
-              <span itemprop="location">{{
+              <span>{{
                 `${data.org.municipality}, ${currentRegion!.name}`
               }}</span>
             </div>
@@ -362,7 +364,7 @@ useSeoMeta({
 
         <dl v-if="data.org.dateOfInscription" class="hidden">
           <dt class="font-semibold">Data d'inscripció:</dt>
-          <dd class="ml-2.5 inline" itemprop="foundingDate">
+          <dd class="ml-2.5 inline">
             {{ formatFullDate(new Date(data.org.dateOfInscription)) }}
           </dd>
         </dl>
@@ -371,7 +373,6 @@ useSeoMeta({
           <dt class="font-semibold">Pàgina web:</dt>
           <dd>
             <UButton
-              itemprop="url"
               class="text-gray-700 dark:text-gray-200"
               :href="data.org.website"
               color="primary"
@@ -387,7 +388,6 @@ useSeoMeta({
           <dt class="font-semibold">Email:</dt>
           <dd>
             <a
-              itemprop="email"
               class="text-gray-700 dark:text-gray-200 hover:text-primary"
               :href="`mailto:${data.org.contactEmail}`"
               >{{ data.org.contactEmail }}</a
@@ -403,7 +403,7 @@ useSeoMeta({
             {{ data.org.municipalityInscription }} el
             {{ formatFullDate(new Date(data.org.dateOfInscription!)) }}.
           </p>
-          <p itemprop="description">
+          <p>
             {{ data.org.description }}
           </p>
         </dd>

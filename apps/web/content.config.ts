@@ -91,7 +91,6 @@ export default defineContentConfig({
           slug: z.string(),
           name: z.string(),
           shortName: z.string(),
-          logo: z.string().optional(),
           contactEmail: z.string().optional(),
           whatsAppPhone: z.string().optional(),
           contactPhone: z.string().optional(),

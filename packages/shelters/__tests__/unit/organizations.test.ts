@@ -4,6 +4,8 @@ import {
   municipalityToRegion,
   regionToProvince,
 } from '../../src/utils/locations.js';
+import path from 'path';
+import fs from 'fs';
 
 describe('organizations', () => {
   it('checks duplicates', async () => {
@@ -114,17 +116,15 @@ describe('organizations', () => {
       );
     }
   });
-  it.skip('checks logos', { timeout: 80000 }, async () => {
+  it('checks logos', async () => {
+    const logosDir = path.resolve(__dirname, '../../organizationLogos');
     for (const org of organizations) {
-      if (org.logo !== undefined) {
-        try {
-          const response = await fetch(org.logo, { method: 'HEAD' });
-          if (!response.ok) console.log('Error Fetching: ' + org.logo);
-          expect(response.ok).toBe(true);
-          expect(response.headers.get('content-type')).toContain('image');
-        } catch (e) {
-          console.error(`Error fetching logo for ${org.name}:`, e);
-        }
+      if (org.enabledLogoUsage) {
+        const logoPath = path.join(logosDir, `${org.slug}.webp`);
+        expect(
+          fs.existsSync(logoPath),
+          `Logo missing for organization: ${org.slug} (${logoPath})`,
+        ).toBe(true);
       }
     }
   });

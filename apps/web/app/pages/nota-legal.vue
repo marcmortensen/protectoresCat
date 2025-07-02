@@ -72,14 +72,13 @@ useSeoMeta({
       <h2 class="text-2xl">Dades identificatives</h2>
       <p>
         Les dades identificatives completes del responsable del lloc web (inclòs
-        NIF) estan a disposició de les autoritats competents i també poden ser
-        facilitades a qualsevol usuari que les sol·liciti de manera motivada,
-        d’acord amb la normativa vigent. Podeu sol·licitar-les escrivint a:
+        NIF) estan a disposició de les autoritats competents. Podeu
+        sol·licitar-les escrivint a:
         <a href="mailto:legal@adoptar.cat">legal@adoptar.cat</a>.
       </p>
     </section>
     <time class="italic text-gray-300"
-      >Última actualització 25 de Maig del 2025.
+      >Última actualització 7 de Juliol del 2025.
     </time>
   </div>
 </template>
