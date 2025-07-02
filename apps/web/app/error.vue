@@ -4,7 +4,7 @@
     <NuxtLayout>
       <div class="h-screen max-w-screen bg-white flex items-center">
         <div
-          class="container flex flex-col-reverse md:flex-row items-center justify-center px-5 text-gray-700"
+          class="container flex flex-col-reverse md:flex-row items-center justify-center px-5 text-gray-700 gap-4"
         >
           <div class="max-w-md">
             <div class="text-5xl font-dark font-bold">404</div>
@@ -20,9 +20,9 @@
             />
           </div>
           <div class="max-w-lg flex justify-center h-full w-full">
-            <SvgoAnimalsCatTripBase
+            <SvgoAnimalsCatTripMilk
               :font-controlled="false"
-              class="h-52 w-full sm:h-96"
+              class="h-full w-full"
             />
           </div>
         </div>
