@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <UApp>
+  <UApp class="font-display">
     <NuxtLayout>
       <div class="h-screen max-w-screen bg-white flex items-center">
         <div
@@ -9,16 +9,13 @@
           <div class="max-w-md">
             <div class="text-5xl font-dark font-bold">404</div>
             <p class="text-2xl md:text-3xl font-light leading-normal">
-              Sorry we couldn't find this page.
+              La pàgina no s’ha trobat.
             </p>
-            <p class="mb-8">
-              But dont worry, you can find plenty of other things on our
-              homepage.
-            </p>
+            <p class="mb-8">Potser ha estat eliminada o no existeix.</p>
 
             <UButton
               icon="i-lucide-house"
-              label="Back to homepage"
+              label="Tornar a l'inici"
               :to="{ name: 'index' }"
             />
           </div>

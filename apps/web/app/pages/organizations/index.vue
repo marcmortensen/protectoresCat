@@ -1,31 +1,16 @@
 <script setup lang="ts">
-import cat1 from "~/assets/icons/animals/cat1.svg?inline";
-import cat2 from "~/assets/icons/animals/cat2.svg?inline";
-import cat3 from "~/assets/icons/animals/cat3.svg?inline";
-import cat4 from "~/assets/icons/animals/cat4.svg?inline";
-import cat5 from "~/assets/icons/animals/cat5.svg?inline";
-import cat6 from "~/assets/icons/animals/cat6.svg?inline";
-import dog1 from "~/assets/icons/animals/dog1.svg?inline";
-import dog2 from "~/assets/icons/animals/dog2.svg?inline";
-import dog3 from "~/assets/icons/animals/dog3.svg?inline";
-import dog4 from "~/assets/icons/animals/dog4.svg?inline";
-import dog5 from "~/assets/icons/animals/dog5.svg?inline";
-import dog6 from "~/assets/icons/animals/dog6.svg?inline";
-
-const catPlaceholderImages = [cat1, cat2, cat3, cat4, cat5, cat6];
-const dogPlaceholderImages = [dog1, dog2, dog3, dog4, dog5, dog6];
-
 const route = useRoute();
 
 const typeOfAnimal = [
-  { label: "Cats", value: "cats" },
-  { label: "Dogs", value: "dogs" },
+  { label: "Gats", value: "cats" },
+  { label: "Gossos", value: "dogs" },
 ];
 
 const QueryParam = {
   REGIONS: "regions",
   ANIMAL_TYPES: "focus",
   PAGE: "page",
+  SEARCH: "search",
 };
 
 const queryTransform = {
@@ -42,6 +27,25 @@ const animalType = useRouteQuery(QueryParam.ANIMAL_TYPES, undefined, {
   transform: queryTransform,
 });
 
+const search = useRouteQuery(QueryParam.SEARCH, "", {
+  transform: { get: String, set: String },
+});
+
+const resetFilters = () => {
+  regions.value = [];
+  animalType.value = [];
+};
+
+watch(
+  search,
+  () => {
+    resetPage();
+  },
+  {
+    flush: "sync",
+  }
+);
+
 const page = useRouteQuery(QueryParam.PAGE, "1", {
   mode: "push",
   transform: { get: Number, set: String },
@@ -52,15 +56,18 @@ const ITEMS_PER_PAGE = 12;
 const { data, refresh, clear } = await useAsyncData(
   route.path,
   async () => {
-    const randomPlaceholderImage = Math.floor(
-      Math.random() * catPlaceholderImages.length
-    );
-    const randomPlaceholderImageMultiple = Math.floor(
-      Math.random() * catPlaceholderImages.length + dogPlaceholderImages.length
-    );
     const dataRegions = await queryCollection("regions").all();
     const query = queryCollection("organizations");
 
+    if (search.value) {
+      query.orWhere((query) => {
+        query
+          .where("name", "LIKE", `%${search.value}%`)
+          .where("municipality", "LIKE", `%${search.value}%`)
+          .where("shortName", "LIKE", `%${search.value}%`);
+        return query;
+      });
+    }
     if (regions.value.length > 0) {
       query.orWhere((query) => {
         regions.value.forEach((slug) => {
@@ -89,11 +96,9 @@ const { data, refresh, clear } = await useAsyncData(
       orgsCount,
       orgs,
       regions: dataRegions,
-      randomPlaceholderImage,
-      randomPlaceholderImageMultiple,
     };
   },
-  { immediate: true, watch: [regions, animalType, page], deep: true }
+  { immediate: true, watch: [regions, animalType, page, search], deep: true }
 );
 
 const filters = computed(() => {
@@ -127,7 +132,7 @@ const resetPage = () => {
 };
 
 watch(
-  [regions, animalType],
+  [regions, animalType, search],
   () => {
     resetPage();
   },
@@ -137,7 +142,7 @@ watch(
 );
 
 const entryCardsTop = ref<HTMLDivElement>();
-const scrollOffset = 50;
+const scrollOffset = 80;
 const entryCardsTopIsVisible = useElementVisibility(entryCardsTop, {
   rootMargin: () => `-${scrollOffset}px 0px 0px 0px`,
 });
@@ -182,165 +187,248 @@ onMounted(() => {
   cleanQueryParams();
 });
 
-const getConnectedToRegions = computed(() => {
-  return regions.value && regions.value.length === 1
+const getConnectedToRegions = computed(() =>
+  regions.value && regions.value.length === 1
     ? data.value?.regions.find((region) => region.slug === regions.value[0])
         ?.connectedTo
-    : [];
-});
+    : []
+);
 
-definePageMeta({});
+useSeoMeta({
+  ogTitle: "Llistat d'entitats d'adopció d'animals a Catalunya",
+  title: "Llistat d'entitats d'adopció d'animals a Catalunya",
+  description:
+    "Descobreix totes les entitats que permeten adopcions filtra per tipus o per comarques.",
+  ogDescription:
+    "Descobreix totes les entitats que permeten adopcions filtra per tipus o per comarques.",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Llistat d'entitats d'adopció d'animals a Catalunya",
+  twitterDescription:
+    "Descobreix totes les entitats que permeten adopcions filtra per tipus o per comarques.",
+  ogImage: "https://adoptar.cat/logo_w1200_h630.png",
+  ogImageUrl: "https://adoptar.cat/logo_w1200_h630.png",
+  twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
+});
 </script>
 
 <template>
   <div
     v-if="data"
-    class="flex flex-col w-full px-1 xl:px-0 xl:w-1/2 justify-center items-center mx-auto mt-4"
+    class="lg:px-32 py-4 3xl:w-3/4 flex flex-col w-full px-1 justify-center items-center mx-auto gap-4 last:pb-4"
   >
-    <div>
-      <USelectMenu
-        v-model="regions as typeof data.regions"
-        class="w-52"
-        multiple
-        :items="data.regions"
-        value-key="slug"
-        label-key="name"
-        placeholder="Select a region"
-        color="primary"
-      />
-      <USelectMenu
-        v-model="animalType"
-        class="w-52"
-        multiple
-        :items="typeOfAnimal"
-        value-key="value"
-        label-key="label"
-        :search-input="false"
-        placeholder="Select animal type"
-      />
-    </div>
-    <UButton
-      v-if="filters.length > 0"
-      class="mt-4"
-      color="primary"
-      variant="outline"
-      label="Clear filters"
-      @click="
-        () => {
-          regions = [];
-          animalType = [];
-        }
-      "
-    />
-    <div
-      ref="entryCardsTop"
-      :style="{ scrollMarginTop: `${scrollOffset + 16}px` }"
-    />
-    <div class="flex gap-2">
-      <template v-for="(filter, index) in filters" :key="index">
-        <UBadge
-          v-if="filter.label"
-          color="neutral"
-          trailing-icon="i-lucide-x"
-          variant="outline"
-          :label="filter.label"
-          @click="filter.remove()"
-        />
-      </template>
-    </div>
-    <UAlert
-      v-if="
-        (regions.length === 1 && getConnectedToRegions) || data?.orgsCount === 0
-      "
-      :title="data?.orgsCount === 0 ? 'No organizations found' : undefined"
-      :description="`You can get more organizations by searching for more regions and animal types.`"
-      orientation="horizontal"
-      color="neutral"
-      variant="outline"
-      :actions="
-        regions.length === 1 && getConnectedToRegions
-          ? [
-              {
-                label: 'Get surrounding regions',
-                to: {
-                  name: 'organizations',
-                  query: {
-                    ...route.query,
-                    regions: [
-                      route.query.regions as string,
-                      ...getConnectedToRegions,
-                    ].join(','),
-                  },
-                },
-              },
-            ]
-          : []
-      "
-    />
-    <div
-      v-if="data?.orgs"
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
-    >
-      <NuxtLink
-        v-for="org in data.orgs"
-        :key="org.id"
-        :to="{ name: 'organizations-slug', params: { slug: org.slug } }"
-        class="bg-white p-4 shadow rounded group relative"
-      >
-        <div class="flex gap-2 flex-col h-full">
-          <div class="flex justify-center h-30 w-full">
-            <NuxtPicture
-              v-if="org.logo"
-              format="avif,webp"
-              :src="org.logo"
-              alt="logo"
-              :img-attrs="{
-                class: 'h-30',
-              }"
-              @error="org.logo = undefined"
+    <div class="w-full flex flex-col xl:flex-row gap-4 px-4">
+      <!-- Filters Sidebar (Comarques & Animals) -->
+      <div class="w-full xl:w-80 flex flex-col lg:flex-row xl:flex-col gap-4">
+        <div class="flex flex-col sm:flex-row xl:flex-col gap-4 w-full">
+          <div class="w-full sm:w-1/2 xl:w-full">
+            <label
+              class="text-sm font-semibold text-gray-900 dark:text-white mb-1 block"
+              >Comarques:</label
+            >
+            <USelectMenu
+              v-model="regions as typeof data.regions"
+              class="w-full"
+              multiple
+              :items="data.regions"
+              value-key="slug"
+              label-key="name"
+              placeholder="Escull una comarca"
+              color="primary"
             />
-
-            <template v-else>
-              <SvgoAnimalsCat1
-                v-if="
-                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'cats'
-                "
-                :font-controlled="false"
-                class="h-30"
-              />
-              <SvgoAnimalsDog5
-                v-if="
-                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'dogs'
-                "
-                :font-controlled="false"
-                class="h-30"
-              />
-            </template>
           </div>
-          <div>
-            <div class="flex justify-between items-center">
-              <h1 class="font-semibold group-hover:text-primary">
-                {{ org.shortName }}
-              </h1>
-              <span v-if="org.animalFocus === 'cats&dogs'">🐱🐶</span>
-              <span v-if="org.animalFocus === 'cats'">🐱</span>
-              <span v-if="org.animalFocus === 'dogs'">🐶</span>
-            </div>
-            <p class="line-clamp-4 min-h-24">
-              {{ org.description }}
-            </p>
+          <div class="w-full sm:w-1/2 xl:w-full">
+            <label
+              class="text-sm font-semibold text-gray-900 dark:text-white mb-1 block"
+              >Animals:</label
+            >
+            <USelectMenu
+              v-model="animalType"
+              class="w-full"
+              multiple
+              :items="typeOfAnimal"
+              value-key="value"
+              label-key="label"
+              :search-input="false"
+              placeholder="Escull el tipus d'animal"
+            />
           </div>
-          <span>{{ `${org.municipality}` }}</span>
         </div>
-      </NuxtLink>
+      </div>
+      <!-- Results + Search -->
+      <div class="flex-1 flex flex-col gap-4">
+        <!-- Search on top of results (right side on desktop) -->
+        <div class="w-full mb-2">
+          <label
+            class="text-sm font-semibold text-gray-900 dark:text-white mb-1 block xl:hidden"
+            >Cerca:</label
+          >
+          <UInput
+            v-model="search"
+            placeholder="Cerca per nom o municipi"
+            class="w-full xl:mt-6"
+            icon="i-lucide-search"
+          />
+        </div>
+        <!-- Results summary and clear filters -->
+        <div
+          ref="entryCardsTop"
+          :style="{ scrollMarginTop: `${scrollOffset - 50}px` }"
+          class="flex items-center justify-between w-full h-5"
+        >
+          <div v-if="filters.length > 0 || search" class="h-5">
+            {{
+              data.orgsCount === 0
+                ? "Sense resultats"
+                : data.orgsCount === 1
+                  ? `1 resultat`
+                  : `${data.orgsCount} resultats`
+            }}
+          </div>
+          <div v-if="filters.length > 0 || search">
+            <UButton
+              class="h-5"
+              color="primary"
+              variant="ghost"
+              label="Netejar filtres"
+              @click="
+                () => {
+                  search = '';
+                  resetFilters();
+                }
+              "
+            />
+          </div>
+        </div>
+        <!-- Filter badges -->
+        <div
+          class="flex justify-start items-center gap-4 md:gap-2 w-full flex-wrap"
+        >
+          <template v-for="(filter, index) in filters" :key="index">
+            <UBadge
+              v-if="filter.label"
+              color="neutral"
+              class="cursor-pointer hover:text-primary"
+              trailing-icon="i-lucide-x"
+              variant="outline"
+              :label="filter.label"
+              @click="filter.remove()"
+            />
+          </template>
+        </div>
+        <!-- Connected regions alert -->
+        <div
+          v-if="regions.length === 1 && getConnectedToRegions"
+          class="w-full"
+        >
+          <UAlert color="neutral" variant="outline">
+            <template #description>
+              <div>
+                <span>
+                  Pots trobar més resultats afegint les comarques adjacents fent
+                  clic
+                </span>
+                <UButton
+                  class="!p-0 !m-0 !text-sm"
+                  color="primary"
+                  variant="link"
+                  :to="{
+                    name: 'organizations',
+                    query: {
+                      ...route.query,
+                      regions: [
+                        route.query.regions as string,
+                        ...(getConnectedToRegions as string[]),
+                      ].join(','),
+                    },
+                  }"
+                  label="aquí."
+                />
+              </div>
+            </template>
+          </UAlert>
+        </div>
+        <!-- Results grid -->
+        <div
+          v-if="data?.orgs"
+          class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 gap-4 w-full"
+        >
+          <NuxtLink
+            v-for="org in data.orgs"
+            :key="org.id"
+            :to="{ name: 'organizations-slug', params: { slug: org.slug } }"
+            class="group relative"
+          >
+            <div
+              class="overflow-hidden rounded-xl bg-white dark:bg-gray-700 shadow-md w-full transform transition-transform duration-500 group-hover:rotate-y-12 group-hover:scale-105"
+            >
+              <div class="md:flex w-full h-full items-center justify-center">
+                <div
+                  class="md:shrink-0 h-48 w-full md:w-48 sm:h-full flex items-center justify-center"
+                >
+                  <NuxtPicture
+                    v-if="org.logo && org.enabledLogoUsage"
+                    format="avif,webp"
+                    :src="org.logo"
+                    :alt="`Logo of ${org.name}`"
+                    :img-attrs="{
+                      class: 'h-48 sm:w-full md:h-full md:w-48 max-h-48',
+                    }"
+                    @error="org.logo = undefined"
+                  />
+                  <template v-else>
+                    <SvgoAnimalsCat1
+                      v-if="
+                        org.animalFocus === 'cats&dogs' ||
+                        org.animalFocus === 'cats'
+                      "
+                      :font-controlled="false"
+                      class="h-48"
+                    />
+                    <SvgoAnimalsDog5
+                      v-if="
+                        org.animalFocus === 'cats&dogs' ||
+                        org.animalFocus === 'dogs'
+                      "
+                      :font-controlled="false"
+                      class="h-48"
+                    />
+                  </template>
+                </div>
+                <div class="pt-2 p-8 md:pt-8 text-black dark:text-white">
+                  <div
+                    class="text-lg leading-tight line-clamp-1 font-medium group-hover:text-primary"
+                  >
+                    {{ org.shortName }}
+                  </div>
+                  <div
+                    class="mt-1 text-sm font-semibold tracking-wide line-clamp-1"
+                  >
+                    {{ org.municipality }}
+                  </div>
+                  <p
+                    class="mt-2 text-gray-500 dark:text-gray-100 line-clamp-4 min-h-24 text-pretty"
+                  >
+                    {{ org.description }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </NuxtLink>
+        </div>
+        <div class="w-full flex justify-center">
+          <UPagination
+            v-if="
+              data && data.orgsCount !== 0 && data.orgsCount > ITEMS_PER_PAGE
+            "
+            v-model:page="page"
+            :items-per-page="ITEMS_PER_PAGE"
+            :total="data.orgsCount"
+            :default-page="1"
+            color="primary"
+            @update:page="scrollToTop"
+          />
+        </div>
+      </div>
     </div>
-    <UPagination
-      v-model:page="page"
-      :items-per-page="ITEMS_PER_PAGE"
-      :total="data.orgsCount"
-      :default-page="1"
-      color="primary"
-      @update:page="scrollToTop"
-    />
   </div>
 </template>

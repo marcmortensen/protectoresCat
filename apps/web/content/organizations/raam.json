@@ -6,6 +6,7 @@
   "animalFocus": "cats&dogs",
   "region": "moianes",
   "province": "barcelona",
+  "municipalityInscription": "Moià",
   "municipality": "Moià",
   "description": "Som una entitat animalista que aplega persones de la comarca del Moianès. Concretament pertanyem a pobles com Moià, Estany i Castellterçol. Vivim a zones rurals i encara que ens agradaria millorar la situació de tots els animals ens centrem principalment en gossos i gats. Sobretot al control de colònies felines mitjançant mètode CER. Actualment som poques persones pel que necessitem mans i fons per a despeses veterinàries.",
   "isActive": true,

@@ -6,6 +6,7 @@
   "animalFocus": "cats&dogs",
   "region": "baix-llobregat",
   "province": "barcelona",
+  "municipalityInscription": "Cornellà de Llobregat",
   "municipality": "Cornellà de Llobregat",
   "description": "ADACC és una associació sense ànim de lucre que es dedica a rescatar animals abandonats. Fundada a través de voluntaris. Tots aquests animals passen un control veterinari abans de buscar-los una llar definitiva o temporal. Adacc no rep subvencions de cap mena. Organitzem mercats ambulants de segona mà i teaming per poder pagar les factures corresponents que comporta cada animal rescatat.",
   "isActive": true,

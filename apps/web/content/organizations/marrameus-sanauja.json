@@ -6,6 +6,7 @@
   "animalFocus": "cats",
   "region": "segarra",
   "province": "lleida",
+  "municipalityInscription": "Sanaüja",
   "municipality": "Sanaüja",
   "description": "L’Associació Marrameus de Sanaüja és una entitat sense ànim de lucre formada per un grup de voluntàries, que en col•laboració amb l’Ajuntament de Sanaüja, té per objectiu el control i gestió ètica de les colònies de gats existents al municipi. Mitjançant l’aplicació del mètode CER (Captura-Esterilització-Retorn) pretenem reduir progressivament la població de gats ferals, al mateix temps que garantim la seva adequada alimentació i millorem les seves condicions sanitàries.",
   "isActive": true,

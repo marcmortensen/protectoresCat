@@ -1,4 +1,5 @@
 import { defineCollection, defineContentConfig, z } from "@nuxt/content";
+import { asSitemapCollection } from "@nuxtjs/sitemap/content";
 
 const regionSchema = z.union([
   z.literal("alt-camp"),
@@ -75,57 +76,62 @@ export default defineContentConfig({
       source: "regions/*.json",
       schema: z.object({
         name: z.string(),
+        article: z.string(),
         slug: regionSchema,
         connectedTo: z.array(regionSchema),
         province: provinceSchema,
       }),
     }),
-    organizations: defineCollection({
-      type: "data",
-      source: "organizations/*.json",
-      schema: z.object({
-        id: z.string(),
-        slug: z.string(),
-        name: z.string(),
-        shortName: z.string(),
-        logo: z.string().optional(),
-        contactEmail: z.string().optional(),
-        whatsAppPhone: z.string().optional(),
-        contactPhone: z.string().optional(),
-        contactPhone2: z.string().optional(),
-        website: z.string().optional(),
-        region: regionSchema,
-        province: provinceSchema,
-        description: z.string(),
-        adoptAnimalsURL: z.string().optional(),
-        animalFocus: animalsSchema,
-        shelter: z.union([
-          z.array(
-            z.object({
-              adress: z.string(),
-              googleMapsLink: z.string(),
-              phone: z.union([z.string(), z.undefined()]),
-              openingHoursURL: z.union([z.string(), z.undefined()]),
+    organizations: defineCollection(
+      asSitemapCollection({
+        type: "page",
+        source: "organizations/*.json",
+        schema: z.object({
+          id: z.string(),
+          slug: z.string(),
+          name: z.string(),
+          shortName: z.string(),
+          logo: z.string().optional(),
+          contactEmail: z.string().optional(),
+          whatsAppPhone: z.string().optional(),
+          contactPhone: z.string().optional(),
+          contactPhone2: z.string().optional(),
+          website: z.string().optional(),
+          region: regionSchema,
+          province: provinceSchema,
+          description: z.string(),
+          adoptAnimalsURL: z.string().optional(),
+          animalFocus: animalsSchema,
+          shelter: z.union([
+            z.array(
+              z.object({
+                adress: z.string(),
+                googleMapsLink: z.string(),
+                phone: z.union([z.string(), z.undefined()]),
+                openingHoursURL: z.union([z.string(), z.undefined()]),
+              })
+            ),
+            z.undefined(),
+          ]),
+          idZoologicalNucleus: z.string().optional(),
+          associativeInscriptionNumber: z.string().optional(),
+          dateOfInscription: z.string().optional(),
+          municipality: z.string(),
+          municipalityInscription: z.string(),
+          isMunicipal: z.boolean(),
+          isActive: z.boolean(),
+          lastUpdate: z.string(),
+          enabledLogoUsage: z.boolean(),
+          socials: z
+            .object({
+              facebook: z.string().optional(),
+              instagram: z.string().optional(),
+              tikTok: z.string().optional(),
             })
-          ),
-          z.undefined(),
-        ]),
-        idZoologicalNucleus: z.string().optional(),
-        associativeInscriptionNumber: z.string().optional(),
-        dateOfInscription: z.string().optional(),
-        municipality: z.string(),
-        isMunicipal: z.boolean(),
-        isActive: z.boolean(),
-        lastUpdate: z.string(),
-        socials: z
-          .object({
-            facebook: z.string().optional(),
-            instagram: z.string().optional(),
-            tikTok: z.string().optional(),
-          })
-          .optional(),
-      }),
-    }),
+            .optional(),
+        }),
+      })
+    ),
     organizationByRegion: defineCollection({
       type: "data",
       source: "organizationsByRegion/*.json",

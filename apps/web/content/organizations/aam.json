@@ -8,6 +8,7 @@
   "animalFocus": "cats&dogs",
   "region": "osona",
   "province": "barcelona",
+  "municipalityInscription": "Manlleu",
   "municipality": "Manlleu",
   "description": "Manlleuencs! Som una associació registrada 25718. Ens dediquem a el sistema CER per controlar la població de gats de carrer a Manlleu i millorar, a la vegada, la vida d'aquests animals. CER significa: captura, esterilització i retorn. O sigui, atrapem els gats, els portem a una clínica veterinàri a esterilitzar i, un cop recuperats, els retornem als seus territoris. També ajudem les alimentadores a comprar el pinso. Cada alimentadora té cura d'una o dues colònies de gats. Gràcies!",
   "isActive": true,

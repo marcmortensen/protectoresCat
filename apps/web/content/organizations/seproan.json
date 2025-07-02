@@ -7,6 +7,7 @@
   "animalFocus": "cats&dogs",
   "region": "bages",
   "province": "barcelona",
+  "municipalityInscription": "Sallent",
   "municipality": "Sallent",
   "description": "Som una associació sense ànim de lucre, formada per voluntaris, per ajudar els animals (gossos i gats) perduts, abandonats i maltractats. Vetllem per la seva recuperació i posterior adopció amb families responsables. També tenim cura de les colònies de gats del carrer.",
   "isActive": true,

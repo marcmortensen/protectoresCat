@@ -7,6 +7,7 @@
   "animalFocus": "cats&dogs",
   "region": "baix-camp",
   "province": "tarragona",
+  "municipalityInscription": "Reus",
   "municipality": "Reus",
   "description": "Mas dels Peluts és una casa d'acollida d'animals abandonats que funciona com una associació sense ànim de lucre des de fa sis anys. A diferència d'una protectora, disposa d'un espai limitat per rescatar gossos, gats i rosegadors. Quan arriben, els animals passen un període de quarantena fins a recuperar-se completament, després són desparasitats, vacunats, xipats i esterilitzats si són adults. Un cop disponibles per a l'adopció, es realitza un test preadopció per assegurar la compatibilitat amb la família adoptant. Finalment, es formalitza l'adopció mitjançant un contracte i una donació, la qual ajuda a continuar la tasca de rescat.",
   "isActive": true,

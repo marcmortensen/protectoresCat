@@ -9,6 +9,7 @@
   "description": "Som una associació sense ànim de lucre dedicada al benestar dels gats de Tàrrega (Lleida). Gestionem la gatera municipal i treballem per millorar la vida dels gats de carrer mitjançant el mètode CER (captura, esterilització i retorn). Oferim refugi i atenció veterinària a gats amb possibilitat de ser adoptats. El manteniment de la gatera suposa un gran esforç i cost, i no rebem subvencions. Ens ajudes a continuar ajudant-los?",
   "adoptAnimalsURL": "https://www.instagram.com/gateradetarrega/",
   "animalFocus": "cats",
+  "municipalityInscription": "Tàrrega",
   "municipality": "Tàrrega",
   "isMunicipal": true,
   "associativeInscriptionNumber": "62793",

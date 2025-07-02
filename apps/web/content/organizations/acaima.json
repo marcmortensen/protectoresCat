@@ -7,6 +7,7 @@
   "animalFocus": "cats",
   "region": "baix-llobregat",
   "province": "barcelona",
+  "municipalityInscription": "Olesa de Montserrat",
   "municipality": "Olesa de Montserrat",
   "description": "Una Associació de Voluntaris sense ànim de lucre, legalment constituïda i que neix a Olesa de Montserrat l’any 2004. Entre els nostres objectius i finalitats d’emparar i protegir els animals, i des de l’any 2004, ens ocupem de la Gestió de les Colònies Controlades dels Gats d’Olesa. Mitjançant el “Conveni de Col.laboració entre l’Ajuntament d’Olesa de Montserrat i ACAIMA” som l’entitat Gestora de les Colònies Felines (anem identificats quan realitzem les nostres tasques).",
   "isActive": true,

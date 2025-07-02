@@ -7,6 +7,7 @@
   "animalFocus": "cats",
   "region": "valles-occidental",
   "province": "barcelona",
+  "municipalityInscription": "Cerdanyola del Vallès",
   "municipality": "Cerdanyola del Vallès",
   "description": "Som una petita associació de defensa d'animals de Cerdanyola del Vallès que intenta cuidar i protegir els gats de carrer de la nostra comunitat. El nostre objectiu és millorar la qualitat de vida dels gats assilvestrats, amb el mètode de capturar, esterilitzar i deixar anar i donar una segona oportunitat a gats abandonats o cadells que cuidem fins trobar-los adopció.",
   "isActive": true,

@@ -21,6 +21,7 @@
       "openingHoursURL": "https://adoptam.terrassa.cat/horaris/"
     }
   ],
+  "municipalityInscription": "Terrassa",
   "municipality": "Terrassa",
   "isMunicipal": true,
   "isActive": true,

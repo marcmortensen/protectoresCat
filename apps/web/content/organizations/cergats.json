@@ -7,6 +7,7 @@
   "animalFocus": "cats",
   "region": "segria",
   "province": "lleida",
+  "municipalityInscription": "Lleida",
   "municipality": "Lleida",
   "description": "Som una entitat que neix de la necessitat de fer un projecte CER, un control ètic de colònies felines a la ciutat de Lleida. Som voluntaris i duem a terme aquesta tasca altruistament. Treballem amb cases d'acollida i els diners que disposem per a les esterilitzacions i cures de la colònia, procedeixen de la licitació a què optem al seu moment. Uneix-te a nosaltres!",
   "isActive": true,

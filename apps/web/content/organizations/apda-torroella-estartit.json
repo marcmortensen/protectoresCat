@@ -11,6 +11,7 @@
   "description": "Sóm una associació sense ànim de lucre, creada per ajudar els animals que han estat abandonats del municipi de Torroella de Montgrí i l'Estartit.",
   "animalFocus": "cats&dogs",
   "associativeInscriptionNumber": "3340",
+  "municipalityInscription": "Torroella de Montgrí",
   "municipality": "Torroella de Montgrí",
   "isMunicipal": false,
   "isActive": true,

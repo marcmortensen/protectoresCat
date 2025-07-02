@@ -109,7 +109,9 @@ describe('organizations', () => {
         expect(org.socials.tikTok).toContain('https://www.tiktok.com/');
       }
       expect(org.province).toBe(regionToProvince[org.region]);
-      expect(org.region).toBe(municipalityToRegion[org.municipality]);
+      expect(org.region).toBe(
+        municipalityToRegion[org.municipalityInscription],
+      );
     }
   });
   it.skip('checks logos', { timeout: 80000 }, async () => {

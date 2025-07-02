@@ -8,6 +8,7 @@
   "animalFocus": "cats",
   "region": "barcelones",
   "province": "barcelona",
+  "municipalityInscription": "Barcelona",
   "municipality": "Barcelona",
   "description": "Gats de Gràcia és una associació sense ànim de lucre que cuida els gats de Gràcia i Horta-Guinardó amb l’ajuda de desenes de voluntaris. Té cura de més de 500 felins en 50 colònies repartides entre ambdós barris, compta amb un refugi i cases d’acollida.",
   "isActive": true,

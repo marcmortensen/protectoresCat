@@ -7,6 +7,7 @@
   "animalFocus": "cats&dogs",
   "region": "pla-durgell",
   "province": "lleida",
+  "municipalityInscription": "Linyola",
   "municipality": "Linyola",
   "description": "VADAL és Vida Animal Digna a Linyola, una entitat sense ànim de lucre formada per veïns voluntaris de Linyola que vetllen pel benestar dels animals que viuen al carrer. - Objectius principals: 1. Reduir la població de gats comunitaris a través de l’esterilització progressiva i l’adopció d’aquells que siguin mansos, siguin abandonats o no. 2. Treure dels carrers els gossos, ajudant-los a trobar la seva llar, en el cas que estiguin perduts, i posant-los en adopció, en el cas de ser abandonats.",
   "isActive": true,

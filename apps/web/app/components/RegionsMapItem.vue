@@ -23,8 +23,6 @@ const props = defineProps<{
   d: string;
   region?: {
     id: string;
-    cats: number;
-    dogs: number;
     slug: string;
     name: string;
   };

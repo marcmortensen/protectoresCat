@@ -26,8 +26,6 @@ const modelValue = defineModel<string>();
 const props = defineProps<{
   regions: {
     id: string;
-    cats: number;
-    dogs: number;
     slug: string;
     name: string;
   }[];

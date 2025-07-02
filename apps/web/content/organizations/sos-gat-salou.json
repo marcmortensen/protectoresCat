@@ -9,6 +9,7 @@
   "animalFocus": "cats",
   "region": "tarragones",
   "province": "tarragona",
+  "municipalityInscription": "Salou",
   "municipality": "Salou",
   "description": "Associació sense ànim de lucre ubicada a salou. Volem implantar una gestió més ètica de les colònies de gats urbanes del municipi. La manera més efectiva és mitjançant l'esterilització. Així, els gats no es reprodueixen sense control i fan un seguiment veterinari evitant així les captures sistemàtiques que duu a terme l'administració pública. Donem als gats una oportunitat!",
   "isActive": true,

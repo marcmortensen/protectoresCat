@@ -12,5 +12,10 @@
   --color-primary-800: #83371d;
   --color-primary-900: #6c2e1b;
   --color-primary-950: #3e160a;
+  --spacing-header: 56px;
+  --spacing-screen-height-header: calc(100vh - 56px);
+  --breakpoint-3xl: 120rem;
+  --font-display: "Delius", "sans-serif";
+  --font-title: "Caveat", "sans-serif";
 }
 @import "@nuxt/ui";

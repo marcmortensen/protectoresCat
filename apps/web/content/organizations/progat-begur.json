@@ -10,12 +10,14 @@
   "region": "baix-emporda",
   "province": "girona",
   "description": "Associació sense ànim de lucre, en defensa i per al control de colònies felines a Begur (Costa Brava). Creada l'any 2000.",
+  "adoptAnimalsURL": "https://www.instagram.com/progatbegur/",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "3827",
+  "municipalityInscription": "Begur",
   "municipality": "Begur",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-05-16T00:00:00.000Z",
   "dateOfInscription": "2000-07-14T00:00:00.000Z",
   "socials": {
     "instagram": "https://www.instagram.com/progatbegur/"
