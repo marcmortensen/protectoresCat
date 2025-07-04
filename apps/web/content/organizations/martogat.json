@@ -1,0 +1,24 @@
+{
+  "id": "db83639a",
+  "slug": "martogat",
+  "name": "Martorell amb el Gat Urbà",
+  "shortName": "Martogat",
+  "animalFocus": "cats",
+  "contactEmail": "martogat@gmail.com",
+  "whatsAppPhone": "602482236",
+  "contactPhone": "602482236",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Martorell",
+  "municipality": "Martorell",
+  "description": "L’associació MARTORELL AMB EL GAT URBÀ (Martogat) va ser creada l’any 2000, per la iniciativa d’un grup de veïns, amb la finalitat de millorar la situació dels gats urbans de la població de Martorell. Des de la nostra fundació, s'han esterilitzat més de 450 gats, hem promocionat les adopcions i hem ajudat a moltes persones amants dels animals, en particular dels gats. Volem agrair l'ajut dels veterinaris, dels col·laboradors, dels socis i dels voluntaris que fan possible aquesta associació.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-07-04T00:00:00.000Z",
+  "associativeInscriptionNumber": "24643",
+  "dateOfInscription": "2001-04-04:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/martogat",
+    "instagram": "https://www.instagram.com/martogat/"
+  }
+}

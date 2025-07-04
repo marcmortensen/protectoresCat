@@ -1,0 +1,23 @@
+{
+  "id": "fe117899",
+  "slug": "sos-animals-catalunya",
+  "name": "Associació Socors i Salvament d'Animals de Catalunya",
+  "shortName": "SOS Animals Catalunya",
+  "animalFocus": "dogs",
+  "contactEmail": "sosamaresme@gmail.com",
+  "whatsAppPhone": "654335822",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Mataró",
+  "municipality": "Mataró",
+  "description": "SOS ANIMALS CATALUNYA, abans anomenada SOS Animals Maresme, som una associació sense ànim de lucre que porta lluitant contra el maltractament i abandó animal des del 2015. Estem ubicats a Mataró (Barcelona). Els nostres recursos són limitats i per això no ens podem permetre tenir un terreny per a un refugi. Tot allò recaptat, va directe al pagament de factures veterinàries.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-07-04T00:00:00.000Z",
+  "associativeInscriptionNumber": "68568",
+  "dateOfInscription": "2020-12-18:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/nuestravozanimal/",
+    "instagram": "https://www.instagram.com/sosacatalunya/"
+  }
+}
