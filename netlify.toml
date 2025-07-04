@@ -1,0 +1,12 @@
+[build]
+  base = "apps/web"
+  publish = ".output/public"
+  command = "pnpm run build"
+
+[functions]
+  directory = ".output/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/__render__"
+  status = 200
