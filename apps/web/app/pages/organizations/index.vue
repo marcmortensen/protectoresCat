@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { RegionsCollectionItem } from "@nuxt/content";
+
 const route = useRoute();
 
 const typeOfAnimal = [
@@ -20,8 +22,14 @@ const queryTransform = {
 
 const regions = useRouteQuery(QueryParam.REGIONS, undefined, {
   mode: "push",
-  transform: queryTransform,
+  transform: {
+    get: (value: string | undefined) =>
+      (value?.split(",") as RegionsCollectionItem["slug"][]) || [],
+    set: (value: RegionsCollectionItem["slug"][]) =>
+      value.length === 0 ? undefined : value.join(","),
+  },
 });
+
 const animalType = useRouteQuery(QueryParam.ANIMAL_TYPES, undefined, {
   mode: "push",
   transform: queryTransform,
@@ -255,7 +263,7 @@ useSchemaOrg([
               >Comarques:</label
             >
             <USelectMenu
-              v-model="regions as typeof data.regions"
+              v-model="regions"
               class="w-full"
               multiple
               :items="data.regions"
