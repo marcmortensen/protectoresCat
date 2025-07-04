@@ -2,7 +2,7 @@
   "id": "61d86980",
   "slug": "caad-moianes",
   "name": "Centre d'Acollida d'Animals Domèstics del Moianès",
-  "shortName": "CAAD Moianès",
+  "shortName": "CAADM",
   "logo": "http://caadmoianes.moia.cat/wp-content/uploads/2017/01/caadm_logo-1.jpg",
   "contactEmail": "caadmoianes@moia.cat",
   "contactPhone": "662615731",
@@ -22,7 +22,7 @@
   ],
   "municipalityInscription": "Moià",
   "municipality": "Moià",
-  "isMunicipal": true,
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "socials": {

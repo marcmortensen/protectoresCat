@@ -24,7 +24,7 @@
   ],
   "description": "Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt. El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.",
   "isActive": true,
-  "isMunicipal": true,
+  "isMunicipal": false,
   "lastUpdate": "2025-01-30T00:00:00.000Z",
   "logo": "https://adeavd.org/wp-content/uploads/2017/10/Logowebpng.png",
   "website": "https://adeavd.org/",

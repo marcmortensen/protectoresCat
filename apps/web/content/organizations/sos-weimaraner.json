@@ -1,0 +1,25 @@
+{
+  "id": "33128f68",
+  "slug": "sos-weimaraner",
+  "name": "Asociaciòn Weimaraner Rescue Spain",
+  "shortName": "SOS WEIMARANER",
+  "animalFocus": "dogs",
+  "contactEmail": "guau@sosweimaraner.org",
+  "whatsAppPhone": "654335822",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipalityInscription": "Barcelona",
+  "municipality": "Barcelona",
+  "description": "SOS Weimaraner és una Associació sense ànim de lucre que treballa per millorar el benestar de gossos de raça weimaraner o altres. Realitzem tasques de rescat, busquem cases d'acollida i famílies adoptives per a tots aquells casos que ens arriben de gossos maltractats, lesionats, sense família o senzillament que busquen una nova llar. Els casos que tractem són a nivell nacional i els nostres gossos es lliuren en perfecte estat de salut, vacunats, desparasitats, xipats, esterilitzats i amb passaport.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-07-04T00:00:00.000Z",
+  "website": "https://sosweimaraner.org/",
+  "adoptAnimalsURL": "https://sosweimaraner.org/adopta-o-amadrina-un-perro/",
+  "associativeInscriptionNumber": "65621",
+  "dateOfInscription": "2019-04-29:00:00.000Z",
+  "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100064966352983",
+    "instagram": "https://www.instagram.com/sosweimaraner_org/"
+  }
+}

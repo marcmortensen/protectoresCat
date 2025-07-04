@@ -24,7 +24,7 @@
   ],
   "description": "Sircan és una empresa dedicada a l'acollida i adopció d'animals abandonats, principalment gossos i gats. Treballa en col·laboració amb diversos ajuntaments per promoure l'adopció responsable i oferir una segona oportunitat a aquests animals. A més, proporciona serveis d'adopció i informació per a aquells interessats a incorporar una mascota a la seva família.",
   "isActive": true,
-  "isMunicipal": true,
+  "isMunicipal": false,
   "lastUpdate": "2025-01-30T00:00:00.000Z",
   "logo": "https://sircan.cat/wp-content/uploads/2023/02/cropped-logo_web.jpg",
   "website": "https://sircan.cat/",

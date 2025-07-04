@@ -11,7 +11,7 @@
   "animalFocus": "cats",
   "municipalityInscription": "Tàrrega",
   "municipality": "Tàrrega",
-  "isMunicipal": true,
+  "isMunicipal": false,
   "associativeInscriptionNumber": "62793",
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",

@@ -1,7 +1,7 @@
 import { Animal } from './animalsFromOrganizations.js';
 import { Municipality, Province, Region } from './utils/locations.js';
-import { getAnimals as CAASGetAnimals } from './exporter/CAAS/getAnimals.js';
-import { getAnimals as RodamonGetAnimals } from './exporter/Rodamon/getAnimals.js';
+//import { getAnimals as CAASGetAnimals } from './exporter/CAAS/getAnimals.js';
+//import { getAnimals as RodamonGetAnimals } from './exporter/Rodamon/getAnimals.js';
 
 interface Shelter {
   adress: string;
@@ -56,7 +56,7 @@ export const organizations: Organization[] = [
     region: 'selva',
     province: 'girona',
     animalFocus: 'cats&dogs',
-    exporter: CAASGetAnimals,
+    //exporter: CAASGetAnimals,
     adoptAnimalsURL: 'https://caas.selva.cat/registre.php',
     description: `Servei de recollida d'animals abandonats assumit pel Consell Comarcal de la Selva va començar a ser operatiu l'any 1990. Aquest servei ha estat realitzat per la Societat Protectora d'Animals i Plantes de Tossa de Mar, en virtud del contracte signat entre aquesta entitat i el Consell Comarcal.`,
     shelter: [
@@ -87,7 +87,7 @@ export const organizations: Organization[] = [
     region: 'baix-emporda',
     province: 'girona',
     animalFocus: 'cats&dogs',
-    exporter: RodamonGetAnimals,
+    //exporter: RodamonGetAnimals,
     adoptAnimalsURL: 'https://www.aparodamon.com/adoptar/',
     description: `L'Associació Protectora d'Animals del Baix Empordà, Rodamón, és una entitat sense ànim de lucre que es dedica a la protecció dels animals de la comarca del Baix Empordà. La nostra tasca principal és la recollida, acollida, cura i adopció d'animals abandonats o maltractats.`,
     shelter: [
@@ -147,7 +147,7 @@ export const organizations: Organization[] = [
     website: 'https://www.galgos112.es/',
     region: 'baix-emporda',
     province: 'girona',
-    exporter: undefined,
+
     adoptAnimalsURL: 'https://www.galgos112.es/lang-es/pag/adopta/',
     description: `L'associació Galgos 112 (Associació Protectora de Llebrers Galgos 112) va ser creada el 13 d'abril del 2008 a Sant Feliu de Guíxols (Girona), per un grup de persones amb una finalitat comuna: contribuir al reconeixement dels gossos llebrers, llebrers i podencs, com a animals de companyia a Espanya i al món. Galgos 112 està formada per un grup de persones, totes voluntàries, que tenim una finalitat comuna: donar a conèixer al món la realitat dels gossos llebrers, llebrers i podencs, a Espanya alhora que canviem aquesta situació. Els anys d'experiència ens han mostrat que la solució a la sobreexplotació i el maltractament que pateixen els gossos de caça en general i els llebrers i podencs en particular, no se solucionarà si no canvia la mentalitat de les moltes persones que encara els veuen com a simples eines . Perquè aquest canvi succeeixi cal tenir un bon cos normatiu, que ha de ser degudament aplicat, així com aprofundir en l'educació de la nostra societat. A Galgos 112 centrem part important del nostre esforç en assolir aquest canvi. L'associació ha anat incrementant la seva presència al territori amb el pas del temps. Als seus inicis Galgos 112 comptava amb voluntaris a Girona, Barcelona, València, i Sevilla. A dia d'avui hi ha delegacions a tots aquests llocs més Tarragona, Castelló, Alacant, Màlaga, Saragossa, La Rioja, Navarra, Cantàbria, Astúries, la Corunya, Pontevedra i Suïssa. A més col·labora de forma assídua amb Holanda, Bèlgica i França`,
     animalFocus: 'dogs',
@@ -178,7 +178,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     shelter: undefined,
     description: `La nostra única missió és donar en adopció tots els animals que arribin a les nostres mans i que siguin feliços amb les seves noves famílies. Així com també mentre encara no siguin adoptats, intentarem donar-los tot l'amor possible i que siguin atesos com es mereixen. No tenim refugi, ni instal·lacions, tampoc ajuda ni cap subvenció. No tenim instal·lacions que es puguin visitar i per això és molt important treballar amb cases d'acollida. Tots els nostres animals acollits sota el càrrec de la protectora, conviuen amb els nostres voluntaris particulars als seus domicilis.Amb les cases d'acollida, ens encarreguem de tot, ells de donar-los amor, cura i l'atenció que necessiten.Estem buscant cases d'acollida per tenir els nostres animals exclusivament a Girona i rodalies (província).Si esteu interessats, poseu-vos en contacte amb nosaltres.`,
-    exporter: undefined,
+
     adoptAnimalsURL: 'https://www.instagram.com/protectoradeixantpetjada/',
     animalFocus: 'cats',
     associativeInscriptionNumber: '50002',
@@ -206,7 +206,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     shelter: undefined,
     description: `Associació Protectora d'Animals KMAKUS, sense ànim de lucre. Som voluntaris, que oferim el nostre temps lliure, cercant una nova família a animals abandonats.`,
-    exporter: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/protectorakmakus/',
     animalFocus: 'cats&dogs',
     associativeInscriptionNumber: '63302',
@@ -341,7 +340,7 @@ export const organizations: Organization[] = [
     idZoologicalNucleus: 'G25/00033',
     municipalityInscription: 'Banyoles',
     municipality: 'Banyoles',
-    isMunicipal: true,
+    isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     associativeInscriptionNumber: '1665',
@@ -365,7 +364,7 @@ export const organizations: Organization[] = [
     description: `L’ Associació Protectora d ‘ Animals i Plantes de Figueres és una associació sense ànim de lucre constituïda legalment l’any 1955, formada per una Junta Directiva i aproximadament uns 350 socis. Està inscrita al registre de nuclis zoològics amb el número G2500093 i té el CIF G17068024. Actualment les nostres instal·lacions acullen, enmig de pins i rosers, aproximadament uns 150 gossos i 50 gats, tots ells a l’ espera de trobar una nova llar. El finançament de la Protectora s’efectua mitjançant els convenis de servei de recollida dels animals perduts i abandonats de la ciutat de Figueres,  Consell comarcal de l’Alt Empordà i Consell Comarcal del Gironès, servei que les administracions públiques han de garantir als ciutadans.`,
     adoptAnimalsURL:
       'http://www.protectorafigueres.com/index.php/ca/adoptar-2/itemlist/filter?array1[0]=Gos&array1[1]=Gat&moduleId=159&limitstart=0#maininner',
-    exporter: () => undefined, // crappy website but good.
+    //exporter: () => undefined, // good.
     shelter: [
       {
         adress: 'c/ Pont de Molins, nº 17 17600 Figueres, Girona',
@@ -407,7 +406,7 @@ export const organizations: Organization[] = [
         openingHoursURL: undefined,
       },
     ],
-    exporter: () => undefined, // good prospect
+    //exporter: () => undefined, // good prospect
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Figueres',
     municipality: 'Figueres',
@@ -428,7 +427,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Sóm una associació sense ànim de lucre, creada per ajudar els animals que han estat abandonats del municipi de Torroella de Montgrí i l'Estartit.`,
     adoptAnimalsURL: undefined,
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats&dogs',
     associativeInscriptionNumber: '3340',
@@ -457,7 +456,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Associació sense ànim de lucre, en defensa i per al control de colònies felines a Begur (Costa Brava). Creada l'any 2000.`,
     adoptAnimalsURL: 'https://www.instagram.com/progatbegur/',
-    exporter: undefined,
+
     animalFocus: 'cats',
     associativeInscriptionNumber: '3827',
     municipalityInscription: `Begur`,
@@ -483,7 +482,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Associació sense ànim de lucre per les necessitats dels gossos maltractats, abandonats i/o perduts. Creada el febrer de l'any 2014.`,
     adoptAnimalsURL: 'https://www.instagram.com/anxovapeluda/?hl=en',
-    exporter: undefined,
+
     animalFocus: 'cats&dogs',
     associativeInscriptionNumber: '55465',
     municipalityInscription: `l'Escala`,
@@ -510,7 +509,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Associació amb la col·laboració de l’Ajuntament del nostre poble hem començat un projecte de control de les colònies de gats per donar resposta a la problemàtica existent a causa de la presència descontrolada d’aquests animals  i de  l’augment continuat de la seva població, cosa que crea conflictes amb alguns dels veïns o estiuejants, a part dels problemes de caire sanitari de la població felina mateixa.`,
     adoptAnimalsURL: 'https://www.facebook.com/gatsdeportdelaselva/',
-    exporter: undefined,
+
     animalFocus: 'cats',
     associativeInscriptionNumber: '45742',
     municipalityInscription: `el Port de la Selva`,
@@ -538,7 +537,7 @@ export const organizations: Organization[] = [
     description: `Cuidem de colònies de gats de carrer a l'Escala (Girona), ONG sense ànim de lucre. Apliquem el programa CER. Adopció de gatets rescatats.`,
     adoptAnimalsURL:
       'https://www.facebook.com/people/Associaci%C3%B3-Sol-Gat-LEscala/100070472588731/',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '37125',
@@ -568,7 +567,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació pública i legal sense ànim de lucre que va ser fundada el 1993 per protegir els gats i gossos de Castelló d´Empúries i Empuriabrava. En col·laboració amb l'Ajuntament de Castelló d´Empuries ens encarreguem dels molts gats sense llar mitjançant l´establiment d´estacions d´alimentació per capturar-los i poder procedir a la seva castració, a continuació es tornen a deixar lliures en zones controlades i continuen sent observats i atesos`,
     adoptAnimalsURL: 'https://www.instagram.com/progat_castello/',
-    exporter: undefined,
+
     animalFocus: 'cats&dogs',
     associativeInscriptionNumber: '2769',
     municipalityInscription: `Castelló d'Empúries`,
@@ -594,7 +593,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `L'Associació Gats de Llançà ha estat recentment creada per un grup de voluntaris/es de Llançà que ja veniem treballant pels animals del nostre poble durant anys. El nostre principal objectiu és el benestar dels animals que viuen als carrers de Llançà.  Implementem el mètode CER (Captura, Esterilització, Retorn) per al control de les colònies felines del poble, tenim cura de la seva alimentació i la seva salut física. També rescatem gats petits o sociables, els busquem cases d'acollida i posterior casa adoptiva. El nostre àmbit d'actuació és el municipi de Llançà.`,
     adoptAnimalsURL: 'https://www.instagram.com/gatsdellansa/',
-    exporter: undefined,
+
     animalFocus: 'cats',
     associativeInscriptionNumber: '72150',
     municipalityInscription: 'Llançà',
@@ -623,7 +622,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una petita organització de La Seu d'Urgell, sense ànim de lucre que ajuda als animals sense llar.`,
     adoptAnimalsURL: 'https://apapirineu.com/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '48518',
     animalFocus: 'cats&dogs',
     municipalityInscription: `la Seu d'Urgell`,
@@ -650,7 +649,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Entitat sense ànim de lucre creada a Girona l’any 2013 i que té com a finalitat la protecció d’animals en situacions de risc o perill i abandonament. Realitzem la nostra tasca gràcies a la col·laboració de particulars i amb la recaptació dels diferents esdeveniments en què participem.`,
     adoptAnimalsURL: 'http://elcaudelacendra.org/adopcio/en-adopcio/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '51399',
     animalFocus: 'cats',
     municipalityInscription: 'Girona',
@@ -678,7 +677,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `El Centre Municipal d'Acollida d'Animals acull els animals de companyia de Girona abandonats o perduts.`,
     adoptAnimalsURL: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
-    exporter: undefined,
+
     shelter: [
       {
         adress: 'CAN ROUREDA Disseminat Domeny s/n 17007 Girona',
@@ -710,13 +709,13 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Les adopcions de gats es fan a través de la Xarxa Gatera de Girona. Cal demanar cita prèvia.El consistori ha firmat un conveni amb la Federació Xarxa Gatera de Girona i el Col·legi de Veterinaris de Girona pel control eficient dels felins de carrer. Els gats es porten a les brigades municipals de Mas Xirgu.`,
     adoptAnimalsURL: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
-    exporter: undefined,
+
     animalFocus: 'cats',
     associativeInscriptionNumber: '830',
     dateOfInscription: '2021-02-01T00:00:00.000Z',
     municipalityInscription: 'Girona',
     municipality: 'Girona',
-    isMunicipal: true,
+    isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     socials: {
@@ -736,7 +735,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una organització sense ànim de lucre que ajudem als animals de la Cerdanya. Esmentarem a la nostra pagina animals perduts o trobats i animals en adopció.`,
     adoptAnimalsURL: 'https://www.facebook.com/asac.animalscerdanya',
-    exporter: undefined,
+
     associativeInscriptionNumber: '61232',
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Ger',
@@ -764,7 +763,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació sense ànim de lucre, formada per voluntaris i voluntàries, creada per gestionar i controlar les colònies de gats d'Esparreguera (Barcelona). També rescatem gats que han estat abandonats o que viuen al carrer i els busquem una llar mitjançant adopcions responsables.`,
     adoptAnimalsURL: 'https://www.espargats.com/adopta/nuestros-gatos/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '65367',
     dateOfInscription: '2019-03-26T00:00:00.000Z',
     animalFocus: 'cats',
@@ -792,7 +791,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Associació protectora, necessitem cases d'acollida temporal, adopcions, socis i donatius per a poder seguir esterilitzant i cuidant els nostres gats del poble.`,
     adoptAnimalsURL: 'https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '40156',
     animalFocus: 'cats',
     municipalityInscription: 'Vilassar de Dalt',
@@ -819,7 +818,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `El CAU AMIC és una associació, grup d’amics dels animals, que voluntàriament i de forma altruista dóna auxili i acollida temporal a animals que ho necessiten. Som l’Associació Protectora, que rescatem i cuidem gats, gossos i altres animals abandonats a Sant Cugat del Vallès, Mira-sol, La Floresta, Valldoreix i Les Planes. El Cau Amic és el seu refugi. Els estimem, els passegem, els cuidem i els reeduquem per a que puguin tenir una segona oportunitat en una bona família`,
     adoptAnimalsURL: 'https://www.cauamic.cat/adopcions/gossos/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '18367',
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Sant Cugat del Vallès',
@@ -847,7 +846,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una Associació sense ànim de lucre, creada per un grup de voluntaries per ajudar als gats del carrer. Fem el mètode CER (captura, esterilitza i retorna) per evitar baralles de mascles, malalties, embarassos, perills i reduir i controlar la població. També els alimentem els fem refugis, menjadores i tenim cura d'ells i si algun gat és adaptable a viure en una llar l'acollim.`,
     adoptAnimalsURL: 'https://www.instagram.com/gatscarrersantpedor/',
-    exporter: undefined,
     associativeInscriptionNumber: '64201',
     animalFocus: 'cats',
     municipalityInscription: 'Santpedor',
@@ -875,7 +873,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Ens dediquem al control i protecció de gats de carrer i a l'esterilització de colònies urbanes. No tenim un refugi físic, treballem per millorar les condicions de vida dels gats del carrer.`,
     adoptAnimalsURL: 'https://www.facebook.com/Progatbergueda/',
-    exporter: undefined,
+
     animalFocus: 'cats',
     associativeInscriptionNumber: '57562',
     municipalityInscription: 'Guardiola de Berguedà',
@@ -902,7 +900,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `L'Associació Els Peluts de Navarcles tenim com objectiu modificar les concentracions de gats que estan en males condicions per convertir-les en colònies controlades, construïm casetes i els posem menjadores i abeuradors per cobrir les seves necessitats bàsiques. Ubiquem i controlem les diverses colònies de gats per tal de millorar la convivència amb els veïns i l'entorn on viuen.`,
     adoptAnimalsURL: 'https://www.instagram.com/elspelutsnavarcles',
-    exporter: undefined,
+
     associativeInscriptionNumber: '60157',
     animalFocus: 'cats',
     municipalityInscription: 'Navarcles',
@@ -931,7 +929,7 @@ export const organizations: Organization[] = [
     province: 'lleida',
     description: `Som l’Associació en Defensa dels Animals de Solsona, una organització no governamental d’àmbit local, formada íntegrament per voluntaris i dedicada a la protecció i a la cura dels animals. El nostre finançament ve en gran part de les quotes aportades pels socis, padrins i simpatitzants, a més de donatius puntuals i dels diners aconseguits mitjançant les múltiples activitats que realitzem al llarg de l’any.`,
     adoptAnimalsURL: 'https://www.adasolsona.org/animals_en_adopcio/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '46732',
     animalFocus: 'cats&dogs',
     shelter: undefined,
@@ -966,12 +964,12 @@ export const organizations: Organization[] = [
     ],
     description: `Som una Associació sense ànim de lucre, que es dedica a la cura de més de 150 gossos, que han estat abandonats a la seva sort i ara estan esperant ser adoptats per una família que no els torni a trair. N’hi ha de totes les mides, edats, caràcters, però tots són únics i us podem assegurar que són també els més agraïts. Ells no van tenir la culpa de venir a aquest món en el que la societat està construïda d’una manera en que estan totalment indefensos. Ens necessiten i per ells lluitem cada dia un grup de voluntaris, amb l’ajuda de socis, iniciatives i donacions particulars. La nostra major recompensa és veure’ls feliços i si els trobem una família, es la nostra major assoliment. Al nostre refugi s’entreguen tots els gossos en adopció amb el microxip instaurat, les vacunes al dia, desparasitats interna i externament i esterilitzats/castrats.`,
     adoptAnimalsURL: 'https://amicsdelsanimals.org/listado',
-    exporter: () => undefined, // could be extracted
+    //exporter: () => undefined, // could be extracted
     associativeInscriptionNumber: '2052',
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Lleida',
     municipality: 'Lleida',
-    isMunicipal: true,
+    isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1996-10-03T00:00:00.000Z',
@@ -1000,13 +998,13 @@ export const organizations: Organization[] = [
     ],
     description: `Associació animalista amb més de 30 anys d'experiència dedicada al rescat d'animals (gossos i gats), a la defensa dels seus drets ia la recerca de noves llars per a ells. Situada a la ciutat de Lleida.`,
     adoptAnimalsURL: 'https://protectoraanimalslydiaargiles.blogspot.com/',
-    exporter: () => undefined, // could be extracted
+    //exporter: () => undefined, // could be extracted
     associativeInscriptionNumber: '2724',
     animalFocus: 'cats&dogs',
     idZoologicalNucleus: 'L25/00102',
     municipalityInscription: 'Lleida',
     municipality: 'Lleida',
-    isMunicipal: true,
+    isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2001-03-14T00:00:00.000Z',
@@ -1028,7 +1026,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació de voluntaris experts en protecció felina preocupats per la super població de gats de carrer de Blanes. Apostem per donar-los una millor qualitat de vida. Gestió de colònies, alimentació, coordinació d'alimentadors, assistència veterinària, cens, esterilització i alliberament a les colònies procedents. Assistència en gats domèstics abandonats i adopcions responsables. Som una associació de voluntaris experts en protecció felina preocupats per la super població de gats de carrer de Blanes. Apostem per donar-los una millor qualitat de vida. Gestió de colònies, alimentació, coordinació d'alimentadors, assistència veterinària, cens, esterilització i alliberament a les colònies procedents. Assistència a gats domèstics abandonats i adopcions responsables.`,
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/NenPpcOd',
-    exporter: undefined,
+
     animalFocus: 'cats',
     associativeInscriptionNumber: '59918',
     municipalityInscription: 'Blanes',
@@ -1055,7 +1053,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació que, sense ànim de lucre, lluita per i pel benestar dels gats sense llar. El nostre objectiu és seguir practicant el mètode CER (Captura, Esterilització i Retorn), donant el millor tracte i qualitat de vida possible a tots els michis que puguem. Donar en adopció a tothom que sigui apte per fer-ho, assessorant, si cal, els adoptants, crear consciència, informar sobre temes relacionats, realitzar esdeveniments i/o activitats a favor d'aquests éssers.`,
     adoptAnimalsURL: 'https://www.instagram.com/bigotitosdeangel/',
-    exporter: undefined,
+
     associativeInscriptionNumber: '72528',
     animalFocus: 'cats',
     municipalityInscription: 'Maçanet de la Selva',
@@ -1081,7 +1079,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `L'Associació Animals Vida Digna és una entitat animalista sense ànim de lucre que promou l'adopció responsable dels gats abandonats de Ripoll i en gestiona les colònies de gats dels carrer. A l'associació centrem la nostra tasca, esforç i dedicació en: -La Caseta de fusta: espai on viuen els gats a l'espera de ser adoptats o apadrinats. -Gats de carrer: se'ls hi proporciona aliment alhora que s'esterilitza i es retorna els gats a les colònies, per tal d'evitar la sobrepoblació.`,
     adoptAnimalsURL: 'https://www.instagram.com/animalsvidadignaripoll/',
-    exporter: undefined,
+
     shelter: [
       {
         adress:
@@ -1118,7 +1116,7 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `L’Associació Protectora d’Animals de Granollers (APAG) és una associació, sense ànim de lucre, que té com a objectiu acollir gossos, gats i altres animals abandonats per tenir cura d’ells en el nostre refugi mentre els hi busquem una nova llar on puguin ser feliços. L’associació està reconeguda per la Generalitat de Catalunya i compta amb el suport de l’Ajuntament de Granollers.`,
     adoptAnimalsURL: 'https://protectoragranollers.org/category/gossos/',
-    exporter: undefined,
+
     shelter: [
       {
         adress:
@@ -1154,7 +1152,7 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `El CAAD Penedès és el Centre d’Acollida d’Animals Domèstics de la Mancomunitat Penedès-Garraf que, amb criteris de benestar animal, s’encarrega de la recollida dels gossos, gats i fures que es perden o abandonen a les nostres comarques, i se n’ocupa fins que es retroben amb les seves famílies o poden ser adoptats.`,
     adoptAnimalsURL: 'https://www.instagram.com/caadpenedes/',
-    exporter: undefined,
+
     shelter: [
       {
         adress:
@@ -1187,7 +1185,7 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `L´Associació d´Amics per la Defensa d´Animals del Penedès és una petita associació sense ànim de lucre creada recentment per un grup d´amics amb iniciativa. Fa temps que actuem de manera particular intentant ajudar els animals d'un territori on creiem que estan molt desprotegits. El nostre principal objectiu és defensar i promoure l'adopció d'animals de companyia , busquem una nova oportunitat a tots aquells animals que estan abandonats i desemparats.`,
     adoptAnimalsURL: 'https://adap-penedes.org/listado.php',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats&dogs',
     associativeInscriptionNumber: '48234',
@@ -1215,7 +1213,7 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `DANA és una associació sense ànim de lucre, fundada fa més de 17anys, que té com a objectiu per donar una llar als animals que tenim en el refugi. Tenim acollits gossos i gats als quals els voluntaris i voluntàries de Dana cuidem els 365 dies de l’any. Els nostres animals surten del refugi amb xip, vacunats, desparasitats i esterilitzats.`,
     adoptAnimalsURL: 'https://www.protectoradana.org/gossos/',
-    exporter: undefined,
+
     shelter: [
       {
         adress:
@@ -1249,7 +1247,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Els Amics dels gats colomencs som una associació sense ànim de lucre que vol acabar amb la problemàtica que suposen els gats abandonats esterelitzant-los.`,
     adoptAnimalsURL: 'https://www.instagram.com/amicsdelsgatscolomencs/',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '56206',
@@ -1277,7 +1275,7 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `L'associació Amics dels Animals de Palafolls és una entitat sense ànim de lucre constituida al 2007 amb el propòsit de donar atenció a aquells gossos i gats que han estat abandonats a Palafolls i proporcinar-los-hi una nova llar i siguin tractats de la manera que els corresponen: amb atenció i estima. Som voluntaries que realitzem aquesta tasca desinteressadament, invertint el nostre temps personal intentant sol·lucionar els problemes dels abandonaments, maltractaments i accidents dels animals de la nostra població.`,
     adoptAnimalsURL: 'https://www.instagram.com/protepala',
-    exporter: undefined,
+
     shelter: [
       {
         adress: `Molí d'en Puigvert - c/ Gorg de'n Puigvert (Camí dels Plans Palafolls - Tordera), 08389 Palafolls, Barcelona`,
@@ -1311,7 +1309,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Assosiació centrada en contribuir a través de tots els medis disponibles, al respecte i protecció del mediambient i els seus éssers vius. Contribuir a través de tots els medis disponibles, al respecte als animals, la seva protecció i tot allò que tingui a veure amb el seu bon viure. Control i cura de colònies de gats comunitaris. #CER `,
     adoptAnimalsURL: 'https://www.instagram.com/mixetsdellagostera/',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '73158',
@@ -1337,7 +1335,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Assosiació La realització i la promoció de les accions necessàries per a promocionar la màxima qualitat de vida possible als gats, desprotegits i així com millorar la convivència dels gats domèstics en general amb les persones. Cuidar, rehabilitar, esterilitzar i protegir els gats desemparats per a donar-los en adopció.Per aconseguir les seves finalitats, l'associació realitza les activitats següents:La creació d'un o més refugis per a cuidar, rehabilitar i protegir els gats recollits. En queda exclòs tot ànim de lucre.`,
     adoptAnimalsURL: 'https://www.instagram.com/adoptagatsbaixemporda/',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '70464',
@@ -1365,7 +1363,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Els fins de l'associació són la recollida dels gossos abandonats, la seva cura i la preparació per a la seva adopció. Per aconseguir aquestes finalitats, l'associació realitza diverses activitats, com la recollida d'animals, la seva manutenció, higiene i educació, així com la promoció de la salut, el registre i l'esterilització. En tot moment, queda exclòs qualsevol ànim de lucre.`,
     adoptAnimalsURL: 'https://www.instagram.com/bubbubs_santhilari/',
-    exporter: undefined,
+
     shelter: [
       {
         adress: 'Carrer Verge de Montserrat, 17403 Sant Hilari Sacalm, Girona',
@@ -1378,7 +1376,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '56532',
     municipalityInscription: 'Sant Hilari Sacalm',
     municipality: 'Sant Hilari Sacalm',
-    isMunicipal: true,
+    isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2015-07-01T00:00:00.000Z',
@@ -1398,7 +1396,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Entitat animalista formada per un grup de voluntaris que ajuda els gats de carrer. D’acord amb el que disposa el Decret Legislatiu 2/2008, de 15 d’abril, pel qual s’aprova el Text refós de la Llei de protecció dels animals, la seva tasca consisteix a esterilitzar-los i tornar-los a deixar on els han trobat. Tot i això, si són petits o si es considera que poden ser adoptats i no estan identificats, en el termini de 20 dies se’ls busca una família.`,
     adoptAnimalsURL: 'https://www.instagram.com/guillacats',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '64521',
@@ -1426,7 +1424,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Associació sense ànim de lucre  dedicada a la cura dels gats que viuen al carrer. El nostre objectiu és dur a terme una gestió ètica de les colònies de gats del municipi. Apliquem el mètode CER (Captura-Esterilització-Retorn), prioritzant el benestar del gat en tot el procediment. El nostre objectiu principal és cuidar els gats del carrer i buscar una llar a tot gat adult, que pel seu grau de sociabilitat així ho permeti, així com pels gatets nascuts al carrer.`,
     adoptAnimalsURL: 'https://www.instagram.com/soldemiaus',
-    exporter: undefined,
+
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '65494',
@@ -1452,7 +1450,7 @@ export const organizations: Organization[] = [
     website: 'https://totesvida.org/',
     region: 'anoia',
     province: 'barcelona',
-    exporter: () => undefined, // good prospect
+    //exporter: () => undefined, // good prospect
     description:
       'Canigat Vallbona d’Anoia és una associació sense ànim de lucre formada només per persones voluntàries que vetllem pel benestar animal. La nosta activitat principal és la creació i gestió de colònies de gats comunitaris en els municipis on actuem, busquem localitzacions i mirem com generar un espai d’alimentació i refugi de manera segura per ells i que no sigui molt visible. Esterilitzem els gats mitjançant el mètode CER (Captura, Esterilització i Retorn), els alimentem i fem seguiment de salut. Rescatem cadells, animals abandonats i/o ferits per donar-los una nova oportunitat a través d’adopcions responsables i oferir-los una nova vida ben lluny del carrer. Treballem amb voluntaris dels mateixos municipis i juntament amb els consistoris assessorem i ajudem a pacificar situacions que a vegades es generen entre veïns en relació amb els animals.',
     adoptAnimalsURL: 'https://totesvida.org/listado',
@@ -1541,7 +1539,7 @@ export const organizations: Organization[] = [
     id: '61d86980',
     slug: 'caad-moianes',
     name: "Centre d'Acollida d'Animals Domèstics del Moianès",
-    shortName: 'CAAD Moianès',
+    shortName: 'CAADM',
     logo: 'http://caadmoianes.moia.cat/wp-content/uploads/2017/01/caadm_logo-1.jpg',
     contactEmail: 'caadmoianes@moia.cat',
     contactPhone: '662615731',
@@ -1563,7 +1561,7 @@ export const organizations: Organization[] = [
     ],
     municipalityInscription: 'Moià',
     municipality: 'Moià',
-    isMunicipal: true,
+    isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     socials: {
@@ -1664,7 +1662,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/protectora_osona/',
     municipalityInscription: 'Gurb',
     municipality: 'Gurb',
-    isMunicipal: true,
+    isMunicipal: false,
     associativeInscriptionNumber: '11514',
     isActive: true,
     lastUpdate: '2025-04-10T00:00:00.000Z',
@@ -1706,7 +1704,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://spac.cat/listado',
     municipalityInscription: 'Torredembarra',
     municipality: 'Torredembarra',
-    isMunicipal: true,
+    isMunicipal: false,
     associativeInscriptionNumber: '54815',
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
@@ -1770,7 +1768,7 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Tarragona',
     municipality: 'Tarragona',
     isMunicipal: false,
-    exporter: () => undefined, // good prospect
+    //exporter: () => undefined, // good prospect
     isActive: true,
     lastUpdate: '2025-02-24T00:00:00.000Z',
     dateOfInscription: '1967-07-02T00:00:00.000Z',
@@ -1991,7 +1989,7 @@ export const organizations: Organization[] = [
     ],
     municipalityInscription: 'Amposta',
     municipality: 'Amposta',
-    isMunicipal: true,
+    isMunicipal: false,
     associativeInscriptionNumber: '50771',
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
@@ -2298,7 +2296,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     municipalityInscription: `Tàrrega`,
     municipality: `Tàrrega`,
-    isMunicipal: true,
+    isMunicipal: false,
     associativeInscriptionNumber: '62793',
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
@@ -2631,7 +2629,7 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `ADAM és una associació sense ànim de lucre; composta per una Junta Directiva formada per Socis i Voluntaris. La nostra tasca es basa en la recollida de tot gos perdut i/o abandonat; tractar de trobar el seu amo i/o trobar una família adequada per a l'adopció dels qui han estat abandonats. A la nostra associació no se sacrifica cap animal, excepte en els casos extrems per malaltia amb patiment i sempre sota la supervisió del veterinari.`,
     isActive: true,
-    isMunicipal: true,
+    isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
     logo: 'https://adamprotectora.org/_mibambu/_adam/imas/logo.jpg',
     website: 'https://adamprotectora.org/',
@@ -2667,7 +2665,7 @@ export const organizations: Organization[] = [
     ],
     description: `Sircan és una empresa dedicada a l'acollida i adopció d'animals abandonats, principalment gossos i gats. Treballa en col·laboració amb diversos ajuntaments per promoure l'adopció responsable i oferir una segona oportunitat a aquests animals. A més, proporciona serveis d'adopció i informació per a aquells interessats a incorporar una mascota a la seva família.`,
     isActive: true,
-    isMunicipal: true,
+    isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
     logo: 'https://sircan.cat/wp-content/uploads/2023/02/cropped-logo_web.jpg',
     website: 'https://sircan.cat/',
@@ -2701,7 +2699,7 @@ export const organizations: Organization[] = [
     ],
     description: `Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt. El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.`,
     isActive: true,
-    isMunicipal: true,
+    isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
     logo: 'https://adeavd.org/wp-content/uploads/2017/10/Logowebpng.png',
     website: 'https://adeavd.org/',
@@ -2735,7 +2733,7 @@ export const organizations: Organization[] = [
     ],
     description: `L’Associació Berguedana per a la Protecció dels Animals som una associació sense ànim de lucre que estem en funcionament des del setembre de 1990. El radi d’actuació és comarcal, el Berguedà, tot i que mantenim contacte amb altres protectores i diferents grups interessats en la mateixa tasca. El refugi es manté gràcies a les aportacions dels socis, dels teamers, dels convenis signats amb els Ajuntaments de la comarca (exceptuant-ne algun) i amb el Consell Comarcal del Berguedà.`,
     isActive: true,
-    isMunicipal: true,
+    isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
     logo: 'https://protectoraberga.com/wp-content/uploads/2024/04/IMG-20240410-WA0011-1.jpg',
     website: 'https://protectoraberga.com/',
@@ -3750,7 +3748,7 @@ export const organizations: Organization[] = [
     ],
     description: `Amics dels Animals de Dosrius, neix el febrer del 2000 com a associació per a la protecció dels animals sense cap ànim de lucre. Està formada íntegrament per voluntaris, sense cap mena de retribució econòmica. L'Associació es va crear amb la voluntat d'ajudar els animals que arribaven a la gossera municipal de Dosrius i els nostres objectius sempre han estat marcats per les necessitats que ja existien abans que existíssim com a tal.`,
     isActive: true,
-    isMunicipal: true,
+    isMunicipal: false,
     lastUpdate: '2025-02-13T00:00:00.000Z',
     logo: 'https://www.amicsdelsanimalsdosrius.org/wp-content/uploads/2019/04/cropped-Logo-Amics-dels-Animals-Dosrius-1.png',
     website: 'https://www.amicsdelsanimalsdosrius.org/',
@@ -4916,7 +4914,7 @@ export const organizations: Organization[] = [
     ],
     description: `Recollida d'animals perduts o abandonats, adopció i control de colònies 📞 621 294 554 de 9h a 15h`,
     isActive: true,
-    isMunicipal: true,
+    isMunicipal: false,
     lastUpdate: '2025-02-24T00:00:00.000Z',
     logo: undefined,
     website: undefined,
@@ -7160,6 +7158,32 @@ export const organizations: Organization[] = [
     dateOfInscription: '2018-10-19:00:00.000Z',
     socials: {
       facebook: 'https://www.facebook.com/profile.php?id=100070265105040',
+    },
+  },
+  {
+    id: '33128f68',
+    slug: 'sos-weimaraner',
+    name: `Asociaciòn Weimaraner Rescue Spain`,
+    shortName: `SOS WEIMARANER`,
+    animalFocus: 'dogs',
+    contactEmail: 'guau@sosweimaraner.org',
+    whatsAppPhone: '654335822',
+    region: 'barcelones',
+    province: 'barcelona',
+    municipalityInscription: `Barcelona`,
+    municipality: `Barcelona`,
+    shelter: undefined,
+    description: `SOS Weimaraner és una Associació sense ànim de lucre que treballa per millorar el benestar de gossos de raça weimaraner o altres. Realitzem tasques de rescat, busquem cases d'acollida i famílies adoptives per a tots aquells casos que ens arriben de gossos maltractats, lesionats, sense família o senzillament que busquen una nova llar. Els casos que tractem són a nivell nacional i els nostres gossos es lliuren en perfecte estat de salut, vacunats, desparasitats, xipats, esterilitzats i amb passaport.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-07-04T00:00:00.000Z',
+    website: 'https://sosweimaraner.org/',
+    adoptAnimalsURL: 'https://sosweimaraner.org/adopta-o-amadrina-un-perro/',
+    associativeInscriptionNumber: '65621',
+    dateOfInscription: '2019-04-29:00:00.000Z',
+    socials: {
+      facebook: 'https://www.facebook.com/profile.php?id=100064966352983',
+      instagram: 'https://www.instagram.com/sosweimaraner_org/',
     },
   },
 ];

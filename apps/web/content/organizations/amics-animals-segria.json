@@ -22,7 +22,7 @@
   "animalFocus": "cats&dogs",
   "municipalityInscription": "Lleida",
   "municipality": "Lleida",
-  "isMunicipal": true,
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "1996-10-03T00:00:00.000Z",
