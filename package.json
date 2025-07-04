@@ -10,7 +10,8 @@
     "test-unit-run:shelters": "turbo run test:unit-run --filter=@protectorescat/shelters",
     "tsc:shelters": "turbo run tsc --filter=@protectorescat/shelters",
     "tsc:web": "turbo run tsc --filter=@protectorescat/web",
-    "tsc:all": "turbo run tsc"
+    "tsc:all": "turbo run tsc",
+    "build:web": "turbo run build --filter @protectorescat/web"
   },
   "private": true,
   "keywords": [],
