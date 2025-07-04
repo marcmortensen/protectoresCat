@@ -1,12 +1,7 @@
 [build]
   base = "apps/web"
-  publish = ".output/public"
   command = "pnpm run build"
+  publish = "apps/web/.output/public"
 
 [functions]
-  directory = ".output/functions"
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/__render__"
-  status = 200
+  directory = "apps/web/.netlify/functions-internal"
