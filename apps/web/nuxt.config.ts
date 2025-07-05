@@ -2,6 +2,7 @@ import content from "@originjs/vite-plugin-content";
 import tailwindcss from "@tailwindcss/vite";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true,
   future: {
     compatibilityVersion: 4,
   },
