@@ -3,9 +3,6 @@ base = "apps/web"
 publish = ".output/public"
 command = "pnpm run build"
 
-[functions]
-directory = ".output/functions"
-
 [[redirects]]
 from = "/*"
 to = "/.netlify/functions/server"
