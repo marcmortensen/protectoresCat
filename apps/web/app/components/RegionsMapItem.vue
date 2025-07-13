@@ -65,3 +65,18 @@ const on = computed(() =>
       }
 );
 </script>
+<!-- RegionsMapItem.vue -->
+<style scoped>
+path {
+  fill: currentColor;
+  stroke: #fff;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+  transition: all 0.2s ease;
+}
+
+path:hover,
+path.highlighted {
+  stroke-width: 2;
+}
+</style>
