@@ -94,7 +94,7 @@ export default defineNuxtConfig({
           },
           id: "g",
           targetCookieIds: ["_ga", "_gat", "_gid"],
-          src: `https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`,
+          src: `https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID || ""}`,
         },
       ],
       necessary: [
