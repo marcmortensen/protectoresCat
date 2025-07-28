@@ -73,13 +73,13 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e21ae529',
     slug: 'rodamon',
     name: "Associació Protectora d'Animals Rodamon del Baix Empordà",
     shortName: `Rodamón`,
-    logo: 'https://www.aparodamon.com/wp-content/uploads/2024/01/Apa-Rodamon-Associacio-Protectora-AnimalsMesa-de-trabajo-68.png',
     contactEmail: 'info@aparodamon.com',
     contactPhone: '972301486',
     contactPhone2: '629260464',
@@ -111,6 +111,7 @@ export const organizations: Organization[] = [
     },
     associativeInscriptionNumber: '499',
     dateOfInscription: '1978-08-25T00:00:00.000Z',
+    enabledLogoUsage: true,
   },
   {
     id: 'ccd944e2',
@@ -136,6 +137,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/girogats/',
     },
     dateOfInscription: '2011-11-28T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '203c1720',
@@ -147,7 +149,6 @@ export const organizations: Organization[] = [
     website: 'https://www.galgos112.es/',
     region: 'baix-emporda',
     province: 'girona',
-
     adoptAnimalsURL: 'https://www.galgos112.es/lang-es/pag/adopta/',
     description: `L'associació Galgos 112 (Associació Protectora de Llebrers Galgos 112) va ser creada el 13 d'abril del 2008 a Sant Feliu de Guíxols (Girona), per un grup de persones amb una finalitat comuna: contribuir al reconeixement dels gossos llebrers, llebrers i podencs, com a animals de companyia a Espanya i al món. Galgos 112 està formada per un grup de persones, totes voluntàries, que tenim una finalitat comuna: donar a conèixer al món la realitat dels gossos llebrers, llebrers i podencs, a Espanya alhora que canviem aquesta situació. Els anys d'experiència ens han mostrat que la solució a la sobreexplotació i el maltractament que pateixen els gossos de caça en general i els llebrers i podencs en particular, no se solucionarà si no canvia la mentalitat de les moltes persones que encara els veuen com a simples eines . Perquè aquest canvi succeeixi cal tenir un bon cos normatiu, que ha de ser degudament aplicat, així com aprofundir en l'educació de la nostra societat. A Galgos 112 centrem part important del nostre esforç en assolir aquest canvi. L'associació ha anat incrementant la seva presència al territori amb el pas del temps. Als seus inicis Galgos 112 comptava amb voluntaris a Girona, Barcelona, València, i Sevilla. A dia d'avui hi ha delegacions a tots aquests llocs més Tarragona, Castelló, Alacant, Màlaga, Saragossa, La Rioja, Navarra, Cantàbria, Astúries, la Corunya, Pontevedra i Suïssa. A més col·labora de forma assídua amb Holanda, Bèlgica i França`,
     animalFocus: 'dogs',
