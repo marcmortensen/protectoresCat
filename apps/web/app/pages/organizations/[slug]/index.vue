@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const { trackEvent } = useGtag();
+
+const onClick = () => {
+  if (!data.value || !data.value.org.adoptAnimalsURL) return;
+  trackEvent("click_button_adopt_url", {
+    event_category: "engagement",
+    event_label: "Adopt button clicked",
+    href: data.value.org.adoptAnimalsURL,
+  });
+};
+
 const route = useRoute();
 
 const { history } = useRouter().options;
@@ -268,6 +279,7 @@ useSchemaOrg([
                 color="primary"
                 icon="i-lucide-paw-print"
                 label="Adopció"
+                @click="onClick"
               />
             </span>
           </div>

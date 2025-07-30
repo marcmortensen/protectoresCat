@@ -1,57 +1,57 @@
+import { createGtag, optIn, optOut } from "vue-gtag";
+
 export default defineNuxtPlugin(() => {
   const config = useRuntimeConfig();
   const { cookiesEnabledIds } = useCookieControl();
 
-  // Type declarations for Google Analytics
-  type DataLayerEvent = (...args: unknown[]) => void;
-  interface WindowWithDataLayer extends Window {
-    dataLayer: unknown[];
-    gtag?: DataLayerEvent;
+  let gtagInitialized = false;
+  let gtagPlugin: ReturnType<typeof createGtag> | null = null;
+
+  // Function to initialize Google Analytics with vue-gtag
+  function initializeGoogleAnalytics() {
+    if (!config.public.googleAnalyticsId || gtagInitialized || window.gtag) {
+      return;
+    }
+    const nuxtApp = useNuxtApp();
+    if (nuxtApp.vueApp) {
+      gtagPlugin = createGtag({
+        tagId: config.public.googleAnalyticsId,
+      });
+
+      gtagPlugin(nuxtApp.vueApp);
+      gtagInitialized = true;
+    }
   }
 
-  // Function to load Google Analytics script
-  function loadGoogleAnalyticsScript(googleAnalyticsId: string) {
-    // Check if script is already loaded
-    if (document.querySelector('script[src*="googletagmanager.com"]')) {
+  // Function to enable Google Analytics
+  function enableGoogleAnalytics() {
+    if (!config.public.googleAnalyticsId) {
       return;
     }
 
-    // Create and append the Google Analytics script
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`;
-    document.head.appendChild(script);
+    // Initialize if not already done
+    if (!gtagInitialized) {
+      initializeGoogleAnalytics();
+    }
 
-    // Initialize gtag
-    const win = window as unknown as WindowWithDataLayer;
-    win.dataLayer = win.dataLayer || [];
-    win.gtag = function (...args: unknown[]) {
-      win.dataLayer.push(args);
-    };
-
-    win.gtag("js", new Date());
-    win.gtag("config", googleAnalyticsId);
+    // Use vue-gtag optIn to enable tracking
+    optIn(config.public.googleAnalyticsId);
   }
 
-  // Function to remove Google Analytics
-  function removeGoogleAnalytics() {
-    // Remove the script tag
-    const script = document.querySelector(
-      'script[src*="googletagmanager.com"]'
-    );
-    if (script) {
-      script.remove();
+  // Function to disable Google Analytics using vue-gtag optOut
+  function disableGoogleAnalytics() {
+    if (!config.public.googleAnalyticsId) {
+      return;
     }
+
+    // Use vue-gtag optOut to disable tracking
+    optOut(config.public.googleAnalyticsId);
 
     // Clear cookies
     ["_ga", "_gid", "_gat"].forEach((cookie) => {
       document.cookie = `${cookie}=; Max-Age=0; path=/; domain=${location.hostname}`;
       document.cookie = `${cookie}=; Max-Age=0; path=/`;
     });
-
-    // Stub out gtag
-    const win = window as unknown as WindowWithDataLayer;
-    win.gtag = function () {};
   }
 
   // Watch for cookie consent changes
@@ -63,21 +63,26 @@ export default defineNuxtPlugin(() => {
         current?.includes("g") &&
         config.public.googleAnalyticsId
       ) {
-        loadGoogleAnalyticsScript(config.public.googleAnalyticsId);
+        // Small delay to ensure cookie control is fully initialized
+        setTimeout(() => {
+          enableGoogleAnalytics();
+        }, 50);
       }
 
       if (previous?.includes("g") && !current?.includes("g")) {
-        removeGoogleAnalytics();
+        disableGoogleAnalytics();
       }
     },
     { deep: true }
   );
 
-  // Check if Google Analytics should be loaded on initial load
   if (
     cookiesEnabledIds.value?.includes("g") &&
     config.public.googleAnalyticsId
   ) {
-    loadGoogleAnalyticsScript(config.public.googleAnalyticsId);
+    // Small delay to ensure cookie control is fully initialized
+    setTimeout(() => {
+      enableGoogleAnalytics();
+    }, 50);
   }
 });
