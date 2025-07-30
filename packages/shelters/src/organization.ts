@@ -164,6 +164,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/galgos112oficial/',
       facebook: 'https://www.facebook.com/112ers',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '834531ac',
@@ -179,7 +180,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     shelter: undefined,
     description: `La nostra única missió és donar en adopció tots els animals que arribin a les nostres mans i que siguin feliços amb les seves noves famílies. Així com també mentre encara no siguin adoptats, intentarem donar-los tot l'amor possible i que siguin atesos com es mereixen. No tenim refugi, ni instal·lacions, tampoc ajuda ni cap subvenció. No tenim instal·lacions que es puguin visitar i per això és molt important treballar amb cases d'acollida. Tots els nostres animals acollits sota el càrrec de la protectora, conviuen amb els nostres voluntaris particulars als seus domicilis.Amb les cases d'acollida, ens encarreguem de tot, ells de donar-los amor, cura i l'atenció que necessiten.Estem buscant cases d'acollida per tenir els nostres animals exclusivament a Girona i rodalies (província).Si esteu interessats, poseu-vos en contacte amb nosaltres.`,
-
     adoptAnimalsURL: 'https://www.instagram.com/protectoradeixantpetjada/',
     animalFocus: 'cats',
     associativeInscriptionNumber: '50002',
@@ -193,10 +193,11 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/ProtectoraDeixantPetjada',
       instagram: 'https://www.instagram.com/protectoradeixantpetjada',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ebe46f92',
-    slug: 'ebe46f92',
+    slug: 'kmakus',
     name: 'Associació Protectora KmaKus',
     shortName: 'Kmakus',
     contactEmail: 'protectorakmakus@gmail.com',
@@ -246,6 +247,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectoraterraviva/',
       instagram: 'https://www.instagram.com/terraviva_protectora_garrotxa/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '54500e86',
@@ -280,6 +282,7 @@ export const organizations: Organization[] = [
     socials: {
       instagram: 'https://www.instagram.com/refugiripolles/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b075e455',
@@ -314,6 +317,7 @@ export const organizations: Organization[] = [
     socials: {
       instagram: 'https://www.instagram.com/bubuppark',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '563d91cf',
@@ -342,8 +346,8 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Banyoles',
     municipality: 'Banyoles',
     isMunicipal: false,
-    isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    isActive: false,
+    lastUpdate: '2025-07-30T00:00:00.000Z',
     associativeInscriptionNumber: '1665',
     dateOfInscription: '1989-06-19T00:00:00.000Z',
     socials: {
