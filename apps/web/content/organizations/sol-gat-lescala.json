@@ -4,14 +4,12 @@
   "name": "Associació Sol Gat L'Escala",
   "shortName": "Sol Gat",
   "contactEmail": "infosolgat@gmail.com",
-  "contactPhone": "695928399",
-  "whatsAppPhone": "695928399",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/2/4/4/0/ez45f9iktf.png",
   "website": "https://solgatlescala.wordpress.com/",
   "region": "alt-emporda",
   "province": "girona",
   "description": "Cuidem de colònies de gats de carrer a l'Escala (Girona), ONG sense ànim de lucre. Apliquem el programa CER. Adopció de gatets rescatats.",
-  "adoptAnimalsURL": "https://www.facebook.com/people/Associaci%C3%B3-Sol-Gat-LEscala/100070472588731/",
+  "adoptAnimalsURL": "https://www.facebook.com/solgat.lescalaempuries.3",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "37125",
   "municipalityInscription": "l'Escala",
@@ -21,6 +19,6 @@
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2008-06-25T00:00:00.000Z",
   "socials": {
-    "facebook": "https://www.facebook.com/people/Associaci%C3%B3-Sol-Gat-LEscala/100070472588731/"
+    "facebook": "https://www.facebook.com/solgat.lescalaempuries.3"
   }
 }
