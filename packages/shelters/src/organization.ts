@@ -748,6 +748,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/asac.animalscerdanya/',
       facebook: 'https://www.facebook.com/asac.animalscerdanya',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'fcbb5576',
@@ -1084,7 +1085,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `L'Associació Animals Vida Digna és una entitat animalista sense ànim de lucre que promou l'adopció responsable dels gats abandonats de Ripoll i en gestiona les colònies de gats dels carrer. A l'associació centrem la nostra tasca, esforç i dedicació en: -La Caseta de fusta: espai on viuen els gats a l'espera de ser adoptats o apadrinats. -Gats de carrer: se'ls hi proporciona aliment alhora que s'esterilitza i es retorna els gats a les colònies, per tal d'evitar la sobrepoblació.`,
     adoptAnimalsURL: 'https://www.instagram.com/animalsvidadignaripoll/',
-
     shelter: [
       {
         adress:
@@ -1106,6 +1106,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/associacioanimalsvidadigna/',
       instagram: 'https://www.instagram.com/animalsvidadignaripoll/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '79f25009',
@@ -1121,7 +1122,6 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `L’Associació Protectora d’Animals de Granollers (APAG) és una associació, sense ànim de lucre, que té com a objectiu acollir gossos, gats i altres animals abandonats per tenir cura d’ells en el nostre refugi mentre els hi busquem una nova llar on puguin ser feliços. L’associació està reconeguda per la Generalitat de Catalunya i compta amb el suport de l’Ajuntament de Granollers.`,
     adoptAnimalsURL: 'https://protectoragranollers.org/category/gossos/',
-
     shelter: [
       {
         adress:
@@ -1143,6 +1143,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectoragranollers',
       instagram: 'https://www.instagram.com/apagranollers_protectora/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '73289a2e',
@@ -1157,7 +1158,6 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `El CAAD Penedès és el Centre d’Acollida d’Animals Domèstics de la Mancomunitat Penedès-Garraf que, amb criteris de benestar animal, s’encarrega de la recollida dels gossos, gats i fures que es perden o abandonen a les nostres comarques, i se n’ocupa fins que es retroben amb les seves famílies o poden ser adoptats.`,
     adoptAnimalsURL: 'https://www.instagram.com/caadpenedes/',
-
     shelter: [
       {
         adress:
@@ -1177,6 +1177,7 @@ export const organizations: Organization[] = [
     socials: {
       instagram: 'https://www.instagram.com/caadpenedes/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '78bda56a',
@@ -1190,7 +1191,6 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `L´Associació d´Amics per la Defensa d´Animals del Penedès és una petita associació sense ànim de lucre creada recentment per un grup d´amics amb iniciativa. Fa temps que actuem de manera particular intentant ajudar els animals d'un territori on creiem que estan molt desprotegits. El nostre principal objectiu és defensar i promoure l'adopció d'animals de companyia , busquem una nova oportunitat a tots aquells animals que estan abandonats i desemparats.`,
     adoptAnimalsURL: 'https://adap-penedes.org/listado.php',
-
     shelter: undefined,
     animalFocus: 'cats&dogs',
     associativeInscriptionNumber: '48234',
@@ -1204,6 +1204,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/adappenedes',
       instagram: 'https://www.instagram.com/adappenedes/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '42beb6c3',
@@ -1218,7 +1219,6 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `DANA és una associació sense ànim de lucre, fundada fa més de 17anys, que té com a objectiu per donar una llar als animals que tenim en el refugi. Tenim acollits gossos i gats als quals els voluntaris i voluntàries de Dana cuidem els 365 dies de l’any. Els nostres animals surten del refugi amb xip, vacunats, desparasitats i esterilitzats.`,
     adoptAnimalsURL: 'https://www.protectoradana.org/gossos/',
-
     shelter: [
       {
         adress:
@@ -1239,6 +1239,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectoradanateia',
       instagram: 'https://www.instagram.com/protectoradanaorg',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e2fda422',
@@ -1252,7 +1253,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Els Amics dels gats colomencs som una associació sense ànim de lucre que vol acabar amb la problemàtica que suposen els gats abandonats esterelitzant-los.`,
     adoptAnimalsURL: 'https://www.instagram.com/amicsdelsgatscolomencs/',
-
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '56206',
@@ -1266,6 +1266,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/profile.php?id=100068994394049',
       instagram: 'https://www.instagram.com/amicsdelsgatscolomencs/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'cf755a03',
@@ -1280,7 +1281,6 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     description: `L'associació Amics dels Animals de Palafolls és una entitat sense ànim de lucre constituida al 2007 amb el propòsit de donar atenció a aquells gossos i gats que han estat abandonats a Palafolls i proporcinar-los-hi una nova llar i siguin tractats de la manera que els corresponen: amb atenció i estima. Som voluntaries que realitzem aquesta tasca desinteressadament, invertint el nostre temps personal intentant sol·lucionar els problemes dels abandonaments, maltractaments i accidents dels animals de la nostra població.`,
     adoptAnimalsURL: 'https://www.instagram.com/protepala',
-
     shelter: [
       {
         adress: `Molí d'en Puigvert - c/ Gorg de'n Puigvert (Camí dels Plans Palafolls - Tordera), 08389 Palafolls, Barcelona`,
@@ -1301,6 +1301,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectorapalafolls',
       instagram: 'https://www.instagram.com/protepala',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '7dba8c2c',
@@ -1314,7 +1315,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Assosiació centrada en contribuir a través de tots els medis disponibles, al respecte i protecció del mediambient i els seus éssers vius. Contribuir a través de tots els medis disponibles, al respecte als animals, la seva protecció i tot allò que tingui a veure amb el seu bon viure. Control i cura de colònies de gats comunitaris. #CER `,
     adoptAnimalsURL: 'https://www.instagram.com/mixetsdellagostera/',
-
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '73158',
@@ -1327,6 +1327,7 @@ export const organizations: Organization[] = [
     socials: {
       instagram: 'https://www.instagram.com/mixetsdellagostera/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'fcd9907e',
