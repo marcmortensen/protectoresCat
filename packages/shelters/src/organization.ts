@@ -673,7 +673,7 @@ export const organizations: Organization[] = [
     contactPhone: '972419037',
     contactPhone2: '649951599',
     logo: 'https://web.girona.cat/documents/20147/10417637/logo_ajgirona_color.gif',
-    website: undefined, //'https://www.residenciacaninaladevesa.com/',
+    website: undefined,
     region: 'girones',
     province: 'girona',
     description: `El Centre Municipal d'Acollida d'Animals acull els animals de companyia de Girona abandonats o perduts.`,
@@ -695,6 +695,7 @@ export const organizations: Organization[] = [
     socials: {
       facebook: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ffa15ca4',
@@ -721,6 +722,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
       instagram: 'https://www.instagram.com/lagateradegirona/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd333de8a',
@@ -734,7 +736,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una organització sense ànim de lucre que ajudem als animals de la Cerdanya. Esmentarem a la nostra pagina animals perduts o trobats i animals en adopció.`,
     adoptAnimalsURL: 'https://www.facebook.com/asac.animalscerdanya',
-
     associativeInscriptionNumber: '61232',
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Ger',
@@ -742,7 +743,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    dateOfInscription: '2017-13-04T00:00:00.000Z',
+    dateOfInscription: '2017-06-13T00:00:00.000Z',
     socials: {
       instagram: 'https://www.instagram.com/asac.animalscerdanya/',
       facebook: 'https://www.facebook.com/asac.animalscerdanya',
@@ -762,7 +763,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació sense ànim de lucre, formada per voluntaris i voluntàries, creada per gestionar i controlar les colònies de gats d'Esparreguera (Barcelona). També rescatem gats que han estat abandonats o que viuen al carrer i els busquem una llar mitjançant adopcions responsables.`,
     adoptAnimalsURL: 'https://www.espargats.com/adopta/nuestros-gatos/',
-
     associativeInscriptionNumber: '65367',
     dateOfInscription: '2019-03-26T00:00:00.000Z',
     animalFocus: 'cats',
@@ -775,6 +775,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/espargats/',
       facebook: 'https://www.facebook.com/espargats',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '2a3192fb',
@@ -790,7 +791,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Associació protectora, necessitem cases d'acollida temporal, adopcions, socis i donatius per a poder seguir esterilitzant i cuidant els nostres gats del poble.`,
     adoptAnimalsURL: 'https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/',
-
     associativeInscriptionNumber: '40156',
     animalFocus: 'cats',
     municipalityInscription: 'Vilassar de Dalt',
@@ -803,6 +803,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/aprodega/',
       facebook: 'https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '51bee492',
@@ -817,7 +818,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `El CAU AMIC és una associació, grup d’amics dels animals, que voluntàriament i de forma altruista dóna auxili i acollida temporal a animals que ho necessiten. Som l’Associació Protectora, que rescatem i cuidem gats, gossos i altres animals abandonats a Sant Cugat del Vallès, Mira-sol, La Floresta, Valldoreix i Les Planes. El Cau Amic és el seu refugi. Els estimem, els passegem, els cuidem i els reeduquem per a que puguin tenir una segona oportunitat en una bona família`,
     adoptAnimalsURL: 'https://www.cauamic.cat/adopcions/gossos/',
-
     associativeInscriptionNumber: '18367',
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Sant Cugat del Vallès',
@@ -830,6 +830,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/el_cau_amic_oficial/',
       facebook: 'https://www.facebook.com/cauamicsantcugat/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a4612e39',
@@ -838,6 +839,7 @@ export const organizations: Organization[] = [
     shortName: `Gat's Carrer Santpedor`,
     contactEmail: 'gatscarrer@hotmail.com',
     contactPhone: '660417984',
+    whatsAppPhone: '660417984',
     logo: 'https://bio.linkcdn.cc/20200409/1586426107176.jpeg',
     website: undefined,
     region: 'bages',
@@ -851,12 +853,13 @@ export const organizations: Organization[] = [
     municipality: 'Santpedor',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-12T00:00:00.000Z',
     dateOfInscription: '2018-10-03T00:00:00.000Z',
     socials: {
       instagram: 'https://www.instagram.com/gatscarrersantpedor/',
       facebook: 'https://www.facebook.com/gatscarrersantpedor/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '097c866b',
@@ -872,7 +875,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Ens dediquem al control i protecció de gats de carrer i a l'esterilització de colònies urbanes. No tenim un refugi físic, treballem per millorar les condicions de vida dels gats del carrer.`,
     adoptAnimalsURL: 'https://www.facebook.com/Progatbergueda/',
-
     animalFocus: 'cats',
     associativeInscriptionNumber: '57562',
     municipalityInscription: 'Guardiola de Berguedà',
@@ -885,6 +887,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/Progatbergueda/',
       instagram: 'https://www.instagram.com/progataltbergueda/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '6f3e3426',
@@ -899,7 +902,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `L'Associació Els Peluts de Navarcles tenim com objectiu modificar les concentracions de gats que estan en males condicions per convertir-les en colònies controlades, construïm casetes i els posem menjadores i abeuradors per cobrir les seves necessitats bàsiques. Ubiquem i controlem les diverses colònies de gats per tal de millorar la convivència amb els veïns i l'entorn on viuen.`,
     adoptAnimalsURL: 'https://www.instagram.com/elspelutsnavarcles',
-
     associativeInscriptionNumber: '60157',
     animalFocus: 'cats',
     municipalityInscription: 'Navarcles',
@@ -928,7 +930,6 @@ export const organizations: Organization[] = [
     province: 'lleida',
     description: `Som l’Associació en Defensa dels Animals de Solsona, una organització no governamental d’àmbit local, formada íntegrament per voluntaris i dedicada a la protecció i a la cura dels animals. El nostre finançament ve en gran part de les quotes aportades pels socis, padrins i simpatitzants, a més de donatius puntuals i dels diners aconseguits mitjançant les múltiples activitats que realitzem al llarg de l’any.`,
     adoptAnimalsURL: 'https://www.adasolsona.org/animals_en_adopcio/',
-
     associativeInscriptionNumber: '46732',
     animalFocus: 'cats&dogs',
     shelter: undefined,
@@ -942,6 +943,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectorasolsona',
       instagram: 'https://www.instagram.com/adassolsona',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '1a897063',
@@ -975,6 +977,7 @@ export const organizations: Organization[] = [
     socials: {
       facebook: 'https://www.facebook.com/Amicsdelsanimalsdelsegria',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a89078af',
@@ -1011,6 +1014,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectoralydiaargiles',
       instagram: 'https://www.instagram.com/protectora_lydiaargiles/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e16fc6bb',
@@ -1025,7 +1029,6 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació de voluntaris experts en protecció felina preocupats per la super població de gats de carrer de Blanes. Apostem per donar-los una millor qualitat de vida. Gestió de colònies, alimentació, coordinació d'alimentadors, assistència veterinària, cens, esterilització i alliberament a les colònies procedents. Assistència en gats domèstics abandonats i adopcions responsables. Som una associació de voluntaris experts en protecció felina preocupats per la super població de gats de carrer de Blanes. Apostem per donar-los una millor qualitat de vida. Gestió de colònies, alimentació, coordinació d'alimentadors, assistència veterinària, cens, esterilització i alliberament a les colònies procedents. Assistència a gats domèstics abandonats i adopcions responsables.`,
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/NenPpcOd',
-
     animalFocus: 'cats',
     associativeInscriptionNumber: '59918',
     municipalityInscription: 'Blanes',
@@ -1038,12 +1041,15 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/sagatonerablanes',
       instagram: 'https://www.instagram.com/sagatonerablanes',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '5f3c7997',
     slug: 'bigotitos-angel',
     name: `Bigotitos de angel`,
     shortName: `Bigotitos de angel`,
+    contactPhone: '635666005',
+    whatsAppPhone: '635666005',
     contactEmail: 'bigotitosadopta@gmail.com',
     logo: 'https://fly.linkcdn.cc/upload/2023011019/167337844521946378.jpeg',
     website: 'https://bigotitosdeangel.wordpress.com/home/',
@@ -1052,19 +1058,19 @@ export const organizations: Organization[] = [
     shelter: undefined,
     description: `Som una associació que, sense ànim de lucre, lluita per i pel benestar dels gats sense llar. El nostre objectiu és seguir practicant el mètode CER (Captura, Esterilització i Retorn), donant el millor tracte i qualitat de vida possible a tots els michis que puguem. Donar en adopció a tothom que sigui apte per fer-ho, assessorant, si cal, els adoptants, crear consciència, informar sobre temes relacionats, realitzar esdeveniments i/o activitats a favor d'aquests éssers.`,
     adoptAnimalsURL: 'https://www.instagram.com/bigotitosdeangel/',
-
     associativeInscriptionNumber: '72528',
     animalFocus: 'cats',
     municipalityInscription: 'Maçanet de la Selva',
     municipality: 'Maçanet de la Selva',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-12T00:00:00.000Z',
     dateOfInscription: '2023-02-14T00:00:00.000Z',
     socials: {
       facebook: 'https://www.facebook.com/bigotitosdeangel/',
       instagram: 'https://www.instagram.com/bigotitosdeangel/',
     },
+    enabledLogoUsage: undefined,
   },
   {
     id: '8b9feb13',
