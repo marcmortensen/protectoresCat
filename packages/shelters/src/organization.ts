@@ -748,7 +748,7 @@ export const organizations: Organization[] = [
       instagram: 'https://www.instagram.com/asac.animalscerdanya/',
       facebook: 'https://www.facebook.com/asac.animalscerdanya',
     },
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'fcbb5576',
@@ -1143,7 +1143,7 @@ export const organizations: Organization[] = [
       facebook: 'https://www.facebook.com/protectoragranollers',
       instagram: 'https://www.instagram.com/apagranollers_protectora/',
     },
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '73289a2e',
@@ -1334,14 +1334,13 @@ export const organizations: Organization[] = [
     slug: 'gats-baix-emporda',
     name: `Associació Adopta Gats Baix Empordà`,
     shortName: `Gats Baix Empordà`,
-    contactEmail: undefined,
+    contactEmail: 'keredaad@hotmail.com',
     logo: 'https://www.palafrugell.cat/images/business_directory/associacions/animals/logo_adopta_gats_baix_emporda.jpg',
     website: undefined,
     region: 'baix-emporda',
     province: 'girona',
     description: `Assosiació La realització i la promoció de les accions necessàries per a promocionar la màxima qualitat de vida possible als gats, desprotegits i així com millorar la convivència dels gats domèstics en general amb les persones. Cuidar, rehabilitar, esterilitzar i protegir els gats desemparats per a donar-los en adopció.Per aconseguir les seves finalitats, l'associació realitza les activitats següents:La creació d'un o més refugis per a cuidar, rehabilitar i protegir els gats recollits. En queda exclòs tot ànim de lucre.`,
     adoptAnimalsURL: 'https://www.instagram.com/adoptagatsbaixemporda/',
-
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '70464',
@@ -1349,10 +1348,10 @@ export const organizations: Organization[] = [
     municipality: 'Palafrugell',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-13T00:00:00.000Z',
     dateOfInscription: '2022-01-07T00:00:00.000Z',
     socials: {
-      facebook: 'https://www.facebook.com/RebecaFerLaGata/',
+      facebook: 'https://www.facebook.com/adoptagatsdelbaixemporda/',
       instagram: 'https://www.instagram.com/adoptagatsbaixemporda/',
     },
   },
@@ -1369,7 +1368,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Els fins de l'associació són la recollida dels gossos abandonats, la seva cura i la preparació per a la seva adopció. Per aconseguir aquestes finalitats, l'associació realitza diverses activitats, com la recollida d'animals, la seva manutenció, higiene i educació, així com la promoció de la salut, el registre i l'esterilització. En tot moment, queda exclòs qualsevol ànim de lucre.`,
     adoptAnimalsURL: 'https://www.instagram.com/bubbubs_santhilari/',
-
     shelter: [
       {
         adress: 'Carrer Verge de Montserrat, 17403 Sant Hilari Sacalm, Girona',
@@ -1402,7 +1400,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Entitat animalista formada per un grup de voluntaris que ajuda els gats de carrer. D’acord amb el que disposa el Decret Legislatiu 2/2008, de 15 d’abril, pel qual s’aprova el Text refós de la Llei de protecció dels animals, la seva tasca consisteix a esterilitzar-los i tornar-los a deixar on els han trobat. Tot i això, si són petits o si es considera que poden ser adoptats i no estan identificats, en el termini de 20 dies se’ls busca una família.`,
     adoptAnimalsURL: 'https://www.instagram.com/guillacats',
-
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '64521',
