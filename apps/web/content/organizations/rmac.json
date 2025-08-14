@@ -10,9 +10,12 @@
   "municipalityInscription": "Sant Boi de Llobregat",
   "municipality": "Sant Boi de Llobregat",
   "contactPhone": "936405714",
-  "socials": {
-    "facebook": "https://www.facebook.com/adoptaanimalessantboillobregat/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adoptaanimalessantboillobregat/"
+    }
+  ],
   "shelter": [
     {
       "googleMapsLink": "https://maps.app.goo.gl/jZiXoEBrcHDLTDWSA",

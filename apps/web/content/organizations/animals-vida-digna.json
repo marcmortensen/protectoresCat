@@ -25,8 +25,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2012-06-13T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/associacioanimalsvidadigna/",
-    "instagram": "https://www.instagram.com/animalsvidadignaripoll/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associacioanimalsvidadigna/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/animalsvidadignaripoll/"
+    }
+  ]
 }

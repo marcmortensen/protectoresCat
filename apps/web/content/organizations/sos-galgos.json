@@ -9,10 +9,16 @@
   "province": "barcelona",
   "municipalityInscription": "Esplugues de Llobregat",
   "municipality": "Esplugues de Llobregat",
-  "socials": {
-    "instagram": "https://www.instagram.com/sosgalgos",
-    "facebook": "https://www.facebook.com/sosgalgosoficial"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sosgalgos"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/sosgalgosoficial"
+    }
+  ],
   "description": "SOS Galgos és una associació sense ànim de lucre, que té com a objectiu rescatar llebrers espanyols desemparats brindant-los la possibilitat d'iniciar una nova vida, formant part d'una família que els vulgui i els protegeixi com a animal de companyia.",
   "isActive": true,
   "isMunicipal": false,

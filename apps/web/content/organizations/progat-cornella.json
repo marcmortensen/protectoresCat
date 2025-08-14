@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/progatcornella/",
   "associativeInscriptionNumber": "33637",
   "dateOfInscription": "2006-12-18:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/progatcornella/",
-    "facebook": "https://www.facebook.com/progat.cornella"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progatcornella/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progat.cornella"
+    }
+  ]
 }

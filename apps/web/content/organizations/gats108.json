@@ -8,10 +8,16 @@
   "province": "girona",
   "municipalityInscription": "Llagostera",
   "municipality": "Llagostera",
-  "socials": {
-    "instagram": "https://www.instagram.com/gats108llagostera/",
-    "facebook": "https://www.facebook.com/Gats108/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gats108llagostera/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Gats108/"
+    }
+  ],
   "description": "Som una entitat sense finalitat de lucre, constituïda per voluntariat, amb l´objectiu de millorar les condicions de vida dels gats del carrer, una vida molt dura.. Procurem el benestar i la convivència amb les persones, controlant les zones amb alimentadors/voluntaris autoritzats, dels que rebem informació de gats ferits o malalts, naixements o algun tipus de maltractament. Controlem la natalitat amb el mètode CER (Captura, esterilització i retorn) Promovem l´adopció responsable.",
   "isActive": true,
   "isMunicipal": false,

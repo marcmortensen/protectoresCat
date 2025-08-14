@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/gatpi.protectora",
   "associativeInscriptionNumber": "49419",
   "dateOfInscription": "2013-01-07:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatpi.protectora",
-    "facebook": "https://www.facebook.com/profile.php?id=100064727467274"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatpi.protectora"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100064727467274"
+    }
+  ]
 }

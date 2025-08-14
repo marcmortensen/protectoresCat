@@ -11,9 +11,12 @@
   "municipality": "la Seu d'Urgell",
   "contactPhone": "690691494",
   "contactPhone2": "973353112",
-  "socials": {
-    "facebook": "https://www.facebook.com/refugianimalsbenavarre"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/refugianimalsbenavarre"
+    }
+  ],
   "shelter": [
     {
       "googleMapsLink": "https://maps.app.goo.gl/YTYF84BLLDVSzcQi6",

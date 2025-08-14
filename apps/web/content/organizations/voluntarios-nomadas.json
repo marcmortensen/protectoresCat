@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/voluntariosnomadas/",
   "associativeInscriptionNumber": "74055",
   "dateOfInscription": "2023-10-31:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/voluntariosnomadas/",
-    "facebook": "https://www.facebook.com/voluntariosnomadas2"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/voluntariosnomadas/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/voluntariosnomadas2"
+    }
+  ]
 }

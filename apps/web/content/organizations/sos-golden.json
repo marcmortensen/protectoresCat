@@ -18,9 +18,15 @@
   "adoptAnimalsURL": "https://sosgolden.org/",
   "associativeInscriptionNumber": "48218",
   "dateOfInscription": "2012-07-10:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/SOSGOLDEN/",
-    "instagram": "https://www.instagram.com/SOSGOLDEN/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/SOSGOLDEN/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/SOSGOLDEN/"
+    }
+  ],
   "idZoologicalNucleus": "T25/00084"
 }

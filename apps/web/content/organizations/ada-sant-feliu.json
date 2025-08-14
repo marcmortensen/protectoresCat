@@ -18,9 +18,18 @@
   "adoptAnimalsURL": "https://www.facebook.com/ADAsantfeliudecodines/",
   "associativeInscriptionNumber": "56947",
   "dateOfInscription": "2015-09-09:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/adasantfeliu",
-    "facebook": "https://www.facebook.com/ADAsantfeliudecodines/",
-    "tikTok": "https://www.tiktok.com/@ada.santfeliudecodines"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adasantfeliu"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ADAsantfeliudecodines/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@ada.santfeliudecodines"
+    }
+  ]
 }

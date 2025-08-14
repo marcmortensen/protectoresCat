@@ -19,8 +19,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/SQAnimalia/",
   "associativeInscriptionNumber": "37381",
   "dateOfInscription": "2008-07-21:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/SQAnimalia/",
-    "instagram": "https://www.instagram.com/sqanimalia/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/SQAnimalia/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sqanimalia/"
+    }
+  ]
 }

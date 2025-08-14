@@ -16,8 +16,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/ProgatLaGarrigaAssoc",
   "associativeInscriptionNumber": "31445",
   "dateOfInscription": "2006-01-09:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/progat.la.garriga/",
-    "facebook": "https://www.facebook.com/ProgatLaGarrigaAssoc"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progat.la.garriga/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProgatLaGarrigaAssoc"
+    }
+  ]
 }

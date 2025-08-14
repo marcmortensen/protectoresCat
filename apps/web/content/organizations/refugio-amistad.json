@@ -10,9 +10,12 @@
   "province": "barcelona",
   "municipalityInscription": "Vallirana",
   "municipality": "Vallirana",
-  "socials": {
-    "instagram": "https://www.instagram.com/refugiolamistad/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/refugiolamistad/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Masia Can Bugunya, s/n, 08759 Vallirana, Barcelona, Espanya",

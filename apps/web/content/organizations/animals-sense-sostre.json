@@ -9,10 +9,16 @@
   "province": "barcelona",
   "municipalityInscription": "Barcelona",
   "municipality": "Barcelona",
-  "socials": {
-    "instagram": "https://www.instagram.com/animalssensesostre/",
-    "facebook": "https://www.facebook.com/AnimalsSenseSostre"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/animalssensesostre/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/AnimalsSenseSostre"
+    }
+  ],
   "shelter": [
     {
       "adress": "C/Poeta Pitarra, Vallirana, Barcelona",

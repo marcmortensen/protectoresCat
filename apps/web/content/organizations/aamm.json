@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/amics_dels_animals/",
   "associativeInscriptionNumber": "29913",
   "dateOfInscription": "2004-12-15T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/amics_dels_animals/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amics_dels_animals/"
+    }
+  ]
 }

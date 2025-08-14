@@ -9,9 +9,12 @@
   "province": "girona",
   "municipalityInscription": "Campdevànol",
   "municipality": "Campdevànol",
-  "socials": {
-    "instagram": "https://www.instagram.com/un_munt_de_petjades/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/un_munt_de_petjades/"
+    }
+  ],
   "description": "Un Munt de Petjades, és una entitat sense ànim de lucre, creada l'octubre de l'any 2014 al Ripollès, i que neix amb la finalitat de protegir i cuidar els animals de companyia en situació de risc, ja sigui per falta de responsabilitat dels seus propietaris o perquè no tenen ningú que se n'ocupi. Aquesta motivació la traslladem a tots els àmbits, treballant perquè canviï la situació actual dels animals.",
   "isActive": true,
   "isMunicipal": false,

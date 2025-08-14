@@ -15,7 +15,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/katabienestaranimal/",
   "associativeInscriptionNumber": "74585",
   "dateOfInscription": "2024-02-06:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/katabienestaranimal/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/katabienestaranimal/"
+    }
+  ]
 }

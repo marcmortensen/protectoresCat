@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/marrameusdesanauja/",
   "associativeInscriptionNumber": "73078",
   "dateOfInscription": "2023-05-16:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/marrameusdesanauja/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/marrameusdesanauja/"
+    }
+  ]
 }

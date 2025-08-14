@@ -10,10 +10,16 @@
   "province": "girona",
   "municipalityInscription": "Tossa de Mar",
   "municipality": "Tossa de Mar",
-  "socials": {
-    "instagram": "https://www.instagram.com/con.apaptossa/",
-    "facebook": "https://www.facebook.com/con.apaptossa"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/con.apaptossa/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/con.apaptossa"
+    }
+  ],
   "shelter": [
     {
       "adress": "Refugi d'Animals Sa Sureda, s/n",

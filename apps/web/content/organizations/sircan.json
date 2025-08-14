@@ -11,9 +11,12 @@
   "municipality": "Olesa de Bonesvalls",
   "contactPhone": "629539551",
   "whatsAppPhone": "629539551",
-  "socials": {
-    "facebook": "https://www.facebook.com/people/Centro-Canino-Sircan/100064208004173/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/people/Centro-Canino-Sircan/100064208004173/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Cami de la Fontana s/n Olesa de Bonesvals",

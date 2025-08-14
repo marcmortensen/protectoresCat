@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://gatsdolivella.com/ahora-en-adopcion/",
   "associativeInscriptionNumber": "57294",
   "dateOfInscription": "2015-10-30:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatsolivella",
-    "facebook": "https://www.facebook.com/GatsDolivella"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsolivella"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GatsDolivella"
+    }
+  ]
 }

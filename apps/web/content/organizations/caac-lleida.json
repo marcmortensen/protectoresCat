@@ -10,10 +10,16 @@
   "municipalityInscription": "Lleida",
   "municipality": "Lleida",
   "contactPhone": "973263504",
-  "socials": {
-    "facebook": "https://www.facebook.com/caaclleida",
-    "instagram": "https://www.instagram.com/caaclleida/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/caaclleida"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/caaclleida/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Partida Caparrella, 123, 25192 Lleida",

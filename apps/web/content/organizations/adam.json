@@ -10,10 +10,16 @@
   "municipalityInscription": "el Masnou",
   "municipality": "el Masnou",
   "contactPhone": "650796050",
-  "socials": {
-    "facebook": "https://www.facebook.com/AssociacioEnDefensaDelsAnimalsDelMasnou",
-    "instagram": "https://www.instagram.com/adamprotectora"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/AssociacioEnDefensaDelsAnimalsDelMasnou"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adamprotectora"
+    }
+  ],
   "description": "ADAM és una associació sense ànim de lucre; composta per una Junta Directiva formada per Socis i Voluntaris. La nostra tasca es basa en la recollida de tot gos perdut i/o abandonat; tractar de trobar el seu amo i/o trobar una família adequada per a l'adopció dels qui han estat abandonats. A la nostra associació no se sacrifica cap animal, excepte en els casos extrems per malaltia amb patiment i sempre sota la supervisió del veterinari.",
   "isActive": true,
   "isMunicipal": false,

@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/progatvilaseca/",
   "associativeInscriptionNumber": "38110",
   "dateOfInscription": "2008-11-27:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/progatvilaseca/",
-    "facebook": "https://www.facebook.com/progatvilaseca"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progatvilaseca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progatvilaseca"
+    }
+  ]
 }

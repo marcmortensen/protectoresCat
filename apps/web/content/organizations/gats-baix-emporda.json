@@ -17,8 +17,14 @@
   "isActive": true,
   "lastUpdate": "2025-08-13T00:00:00.000Z",
   "dateOfInscription": "2022-01-07T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/adoptagatsdelbaixemporda/",
-    "instagram": "https://www.instagram.com/adoptagatsbaixemporda/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adoptagatsdelbaixemporda/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adoptagatsbaixemporda/"
+    }
+  ]
 }

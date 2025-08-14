@@ -16,8 +16,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/gats4pobles/",
   "associativeInscriptionNumber": "65038",
   "dateOfInscription": "2019-02-19:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gats4pobles/",
-    "facebook": "https://www.facebook.com/gats4pobles"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gats4pobles/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gats4pobles"
+    }
+  ]
 }

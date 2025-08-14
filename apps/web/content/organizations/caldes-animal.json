@@ -10,9 +10,12 @@
   "province": "barcelona",
   "municipalityInscription": "Caldes de Montbui",
   "municipality": "Caldes de Montbui",
-  "socials": {
-    "instagram": "https://www.instagram.com/protectora_caldes_animal_"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora_caldes_animal_"
+    }
+  ],
   "shelter": [
     {
       "adress": "Km 15, C-59, 08140 Caldes de Montbui, Barcelona",

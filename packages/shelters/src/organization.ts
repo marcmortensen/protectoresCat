@@ -36,10 +36,9 @@ export interface Organization {
   isActive: boolean;
   lastUpdate: string;
   socials?: {
-    facebook?: string;
-    instagram?: string;
-    tikTok?: string;
-  };
+    type: 'facebook' | 'instagram' | 'tiktok';
+    url: string;
+  }[];
   enabledLogoUsage?: boolean;
 }
 
@@ -104,11 +103,16 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/apa_rodamon_baix_emporda/',
-      facebook:
-        'https://www.facebook.com/profile.php?id=100064441191908&locale=ca_ES',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/apa_rodamon_baix_emporda/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064441191908&locale=ca_ES',
+      },
+    ],
     associativeInscriptionNumber: '499',
     dateOfInscription: '1978-08-25T00:00:00.000Z',
     enabledLogoUsage: true,
@@ -133,9 +137,12 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/girogats/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/girogats/',
+      },
+    ],
     dateOfInscription: '2011-11-28T00:00:00.000Z',
     enabledLogoUsage: undefined,
   },
@@ -160,10 +167,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2008-05-13T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/galgos112oficial/',
-      facebook: 'https://www.facebook.com/112ers',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/galgos112oficial/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/112ers',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -189,10 +202,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2013-04-08:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ProtectoraDeixantPetjada',
-      instagram: 'https://www.instagram.com/protectoradeixantpetjada',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraDeixantPetjada',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoradeixantpetjada',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -217,10 +236,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2018-05-16T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/protectorakmakus/',
-      facebook: 'https://www.facebook.com/KmaKuss/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectorakmakus/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/KmaKuss/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -244,10 +269,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2011-11-24T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectoraterraviva/',
-      instagram: 'https://www.instagram.com/terraviva_protectora_garrotxa/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoraterraviva/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/terraviva_protectora_garrotxa/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -280,9 +311,12 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/refugiripolles/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/refugiripolles/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -315,9 +349,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1998-10-02T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/bubuppark',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/bubuppark',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -351,10 +388,16 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-07-30T00:00:00.000Z',
     associativeInscriptionNumber: '1665',
     dateOfInscription: '1989-06-19T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/protectoraplaestany/',
-      facebook: 'https://www.facebook.com/protectoraplaestany/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoraplaestany/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoraplaestany/',
+      },
+    ],
   },
   {
     id: '7fc89969',
@@ -442,10 +485,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1998-07-31T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/apda.estartit',
-      instagram: 'https://www.instagram.com/apdatorroellaestartit/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/apda.estartit',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/apdatorroellaestartit/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -470,9 +519,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-05-16T00:00:00.000Z',
     dateOfInscription: '2000-07-14T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatbegur/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatbegur/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -496,9 +548,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2015-02-09T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/anxovapeluda/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/anxovapeluda/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -523,9 +578,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2011-09-21T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/gatsdeportdelaselva',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatsdeportdelaselva',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -549,9 +607,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2008-06-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/solgat.lescalaempuries.3',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/solgat.lescalaempuries.3',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -577,10 +638,16 @@ export const organizations: Organization[] = [
     isActive: false,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1996-02-05T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progat_castello/',
-      facebook: 'https://www.facebook.com/ProGatAmpuriaDE?_rdr',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progat_castello/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProGatAmpuriaDE?_rdr',
+      },
+    ],
   },
   {
     id: 'de317cfe',
@@ -600,13 +667,19 @@ export const organizations: Organization[] = [
     municipality: 'Llançà',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-14T00:00:00.000Z',
     dateOfInscription: '2022-11-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100086114720455',
-      instagram: 'https://www.instagram.com/gatsdellansa/',
-    },
-    enabledLogoUsage: undefined,
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100086114720455',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdellansa/',
+      },
+    ],
+    enabledLogoUsage: true,
   },
   {
     id: '8e61e173',
@@ -631,10 +704,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2012-09-14T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/Associaciopelsanimalsdelpirineu',
-      instagram: 'https://www.instagram.com/assoc.pelsanimalsdelpirineu/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Associaciopelsanimalsdelpirineu',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/assoc.pelsanimalsdelpirineu/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -658,10 +737,16 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-01-25T00:00:00.000Z',
     isActive: true,
     dateOfInscription: '2013-10-16T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100064543215614',
-      instagram: 'https://www.instagram.com/elcaudelacendra/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064543215614',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/elcaudelacendra/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -692,9 +777,12 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -718,10 +806,16 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
-      instagram: 'https://www.instagram.com/lagateradegirona/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/lagateradegirona/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -744,10 +838,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2017-06-13T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/asac.animalscerdanya/',
-      facebook: 'https://www.facebook.com/asac.animalscerdanya',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/asac.animalscerdanya/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/asac.animalscerdanya',
+      },
+    ],
     enabledLogoUsage: true,
   },
   {
@@ -772,10 +872,16 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/espargats/',
-      facebook: 'https://www.facebook.com/espargats',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/espargats/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/espargats',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -800,10 +906,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2009-09-01T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/aprodega/',
-      facebook: 'https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/aprodega/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -827,10 +939,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1996-07-16T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/el_cau_amic_oficial/',
-      facebook: 'https://www.facebook.com/cauamicsantcugat/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/el_cau_amic_oficial/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/cauamicsantcugat/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -856,10 +974,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-08-12T00:00:00.000Z',
     dateOfInscription: '2018-10-03T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatscarrersantpedor/',
-      facebook: 'https://www.facebook.com/gatscarrersantpedor/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatscarrersantpedor/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatscarrersantpedor/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -884,10 +1008,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2015-12-09T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/Progatbergueda/',
-      instagram: 'https://www.instagram.com/progataltbergueda/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Progatbergueda/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progataltbergueda/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -912,10 +1042,16 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-03-21T00:00:00.000Z',
     dateOfInscription: '2017-01-10T00:00:00.000Z',
     isActive: true,
-    socials: {
-      facebook: 'https://www.facebook.com/pelutsnavarcles/',
-      instagram: 'https://www.instagram.com/elspelutsnavarcles',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/pelutsnavarcles/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/elspelutsnavarcles',
+      },
+    ],
   },
   {
     id: '432e15c5',
@@ -940,10 +1076,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2012-01-02T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectorasolsona',
-      instagram: 'https://www.instagram.com/adassolsona',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectorasolsona',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adassolsona',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -975,9 +1117,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1996-10-03T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/Amicsdelsanimalsdelsegria',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Amicsdelsanimalsdelsegria',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1011,10 +1156,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2001-03-14T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectoralydiaargiles',
-      instagram: 'https://www.instagram.com/protectora_lydiaargiles/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoralydiaargiles',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora_lydiaargiles/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1038,10 +1189,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2016-11-28T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/sagatonerablanes',
-      instagram: 'https://www.instagram.com/sagatonerablanes',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/sagatonerablanes',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sagatonerablanes',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1067,10 +1224,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-08-12T00:00:00.000Z',
     dateOfInscription: '2023-02-14T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/bigotitosdeangel/',
-      instagram: 'https://www.instagram.com/bigotitosdeangel/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/bigotitosdeangel/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/bigotitosdeangel/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1102,10 +1265,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2012-06-13T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/associacioanimalsvidadigna/',
-      instagram: 'https://www.instagram.com/animalsvidadignaripoll/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/associacioanimalsvidadigna/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/animalsvidadignaripoll/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1139,10 +1308,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2005-02-01T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectoragranollers',
-      instagram: 'https://www.instagram.com/apagranollers_protectora/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoragranollers',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/apagranollers_protectora/',
+      },
+    ],
     enabledLogoUsage: true,
   },
   {
@@ -1174,9 +1349,12 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/caadpenedes/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/caadpenedes/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1200,10 +1378,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2012-07-10T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/adappenedes',
-      instagram: 'https://www.instagram.com/adappenedes/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adappenedes',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adappenedes/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1235,10 +1419,16 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectoradanateia',
-      instagram: 'https://www.instagram.com/protectoradanaorg',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoradanateia',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoradanaorg',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1262,10 +1452,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2015-05-21T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100068994394049',
-      instagram: 'https://www.instagram.com/amicsdelsgatscolomencs/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100068994394049',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amicsdelsgatscolomencs/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1297,10 +1493,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2008-02-01T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectorapalafolls',
-      instagram: 'https://www.instagram.com/protepala',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectorapalafolls',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protepala',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1324,9 +1526,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2023-05-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/mixetsdellagostera/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/mixetsdellagostera/',
+      },
+    ],
     enabledLogoUsage: undefined,
   },
   {
@@ -1350,10 +1555,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-08-13T00:00:00.000Z',
     dateOfInscription: '2022-01-07T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/adoptagatsdelbaixemporda/',
-      instagram: 'https://www.instagram.com/adoptagatsbaixemporda/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adoptagatsdelbaixemporda/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adoptagatsbaixemporda/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '61835aad',
@@ -1384,9 +1596,13 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2015-07-01T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/bubbubs_santhilari/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/bubbubs_santhilari/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e8ff863c',
@@ -1409,17 +1625,24 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2018-11-27T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/guillacats',
-      facebook: 'https://www.facebook.com/guillacats',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/guillacats',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/guillacats',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e927064c',
     slug: 'sol-miaus',
     name: `Associació de Sol de Miaus de la Vall d'Aro`,
     shortName: `Sol de Miaus`,
-    contactEmail: undefined,
+    contactEmail: 'soldemiaus@gmail.com',
     whatsAppPhone: '622418187',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/2/4/3/1/4/eu7ftut7dy.jpg',
     website: undefined,
@@ -1427,7 +1650,6 @@ export const organizations: Organization[] = [
     province: 'girona',
     description: `Associació sense ànim de lucre  dedicada a la cura dels gats que viuen al carrer. El nostre objectiu és dur a terme una gestió ètica de les colònies de gats del municipi. Apliquem el mètode CER (Captura-Esterilització-Retorn), prioritzant el benestar del gat en tot el procediment. El nostre objectiu principal és cuidar els gats del carrer i buscar una llar a tot gat adult, que pel seu grau de sociabilitat així ho permeti, així com pels gatets nascuts al carrer.`,
     adoptAnimalsURL: 'https://www.instagram.com/soldemiaus',
-
     shelter: undefined,
     animalFocus: 'cats',
     associativeInscriptionNumber: '65494',
@@ -1437,10 +1659,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2019-04-16T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/soldemiaus.gats',
-      instagram: 'https://www.instagram.com/soldemiaus',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/soldemiaus.gats',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/soldemiaus',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7edb10f7',
@@ -1466,10 +1695,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-03-11T00:00:00.000Z',
     dateOfInscription: '2017-01-10T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/CanigatVallbona/',
-      instagram: 'https://www.instagram.com/canigat_vallbona/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/CanigatVallbona/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/canigat_vallbona/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b577de98',
@@ -1502,10 +1738,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1998-01-26T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/refugiapan/',
-      tikTok: 'https://www.tiktok.com/@protectoradanimalsapan',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/refugiapan/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@protectoradanimalsapan',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'bcf4f3cd',
@@ -1537,6 +1780,7 @@ export const organizations: Organization[] = [
     idZoologicalNucleus: 'B25/00565',
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '61d86980',
@@ -1567,11 +1811,18 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/AnimalsCAADMoianes',
-      instagram: 'https://www.instagram.com/caadmoianes/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AnimalsCAADMoianes',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/caadmoianes/',
+      },
+    ],
     idZoologicalNucleus: 'B25/00710',
+    enabledLogoUsage: undefined,
   },
   {
     id: '929a212a',
@@ -1601,11 +1852,17 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook:
-        'https://www.facebook.com/centreatencioanimalsdomesticsmaresme/',
-      instagram: 'https://www.instagram.com/caadmaresme/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/centreatencioanimalsdomesticsmaresme/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/caadmaresme/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a5ea8f2e',
@@ -1636,9 +1893,13 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adopcionsterrassa/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adopcionsterrassa/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'dcd87b37',
@@ -1670,10 +1931,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-04-10T00:00:00.000Z',
     dateOfInscription: '1990-03-12T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ProtectoraAnimalsOsona',
-      instagram: 'https://www.instagram.com/protectora_osona/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraAnimalsOsona',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora_osona/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7506e022',
@@ -1712,10 +1980,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2014-11-07T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ProtectoraSPAC/',
-      instagram: 'https://www.instagram.com/protectora_spac/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraSPAC/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora_spac/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ec549749',
@@ -1738,11 +2013,9 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '53866',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-13T00:00:00.000Z',
     dateOfInscription: '2014-08-14T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/arda.associacio',
-    },
+    enabledLogoUsage: undefined,
   },
   {
     id: '0cc09299',
@@ -1773,12 +2046,23 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     //exporter: () => undefined, // good prospect
     isActive: true,
-    lastUpdate: '2025-02-24T00:00:00.000Z',
+    lastUpdate: '2025-08-14T00:00:00.000Z',
     dateOfInscription: '1967-07-02T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectoratarragona/',
-      instagram: 'https://www.instagram.com/protectoratarragona/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoratarragona/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoratarragona/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gateres.protetgn/',
+      },
+    ],
+    enabledLogoUsage: true,
   },
   {
     id: '6ac499b8',
@@ -1811,10 +2095,17 @@ export const organizations: Organization[] = [
     idZoologicalNucleus: 'T25/00065',
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/fundacioanimalstgn/',
-      instagram: 'https://www.instagram.com/fundacioanimalstgn/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/fundacioanimalstgn/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/fundacioanimalstgn/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '6713571a',
@@ -1828,8 +2119,7 @@ export const organizations: Organization[] = [
     region: 'alt-camp',
     province: 'tarragona',
     description: `L'Associació VallsGat, fundada el 2008 a Valls (Alt Camp), és una entitat sense ànim de lucre formada per voluntaris que treballen per millorar la vida dels gats que viuen en colònies al carrer. Les seves activitats inclouen alimentar els gats mitjançant menjadores fixes, desparacitar-los regularment, proporcionar atenció veterinària, controlar la natalitat a través del mètode CER (Captura-Esterilització-Retorn), gestionar adopcions, realitzar rescats quan és necessari i acollir temporalment els animals en perill. La seva tasca es centra en evitar l'augment de les colònies pel carrer i assegurar-se que els gats adoptats tinguin una vida millor i segura.`,
-    adoptAnimalsURL:
-      'https://www.facebook.com/profile.php?id=100081338495680&_rdr',
+    adoptAnimalsURL: 'https://www.instagram.com/associacio_vallsgat',
     animalFocus: 'cats',
     shelter: undefined,
     municipalityInscription: 'Valls',
@@ -1838,10 +2128,18 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '39635',
     dateOfInscription: '2009-07-23T00:00:00.000Z',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100081338495680&_rdr',
-    },
+    lastUpdate: '2025-08-14T00:00:00.000Z',
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064305956929',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associacio_vallsgat',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '69a9880a',
@@ -1873,10 +2171,17 @@ export const organizations: Organization[] = [
     dateOfInscription: '2001-08-10T00:00:00.000Z',
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protearca/',
-      instagram: 'https://www.instagram.com/protectora_arca_international',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protearca/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora_arca_international',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '2af16b46',
@@ -1899,10 +2204,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2021-06-11T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100083339616985',
-      instagram: 'https://www.instagram.com/petjades_espluga/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100083339616985',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/petjades_espluga/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '6a0f51d6',
@@ -1925,10 +2237,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2007-11-07T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/amicsgatsfloresta',
-      instagram: 'https://www.instagram.com/amicsgatsfloresta/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsgatsfloresta',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amicsgatsfloresta/',
+      },
+    ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '89916793',
@@ -1960,10 +2279,17 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2002-10-31T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/amicsdelsanimalsdelanoguera',
-      instagram: 'https://www.instagram.com/amicsdelsanimalsdelanoguera/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsdelsanimalsdelanoguera',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amicsdelsanimalsdelanoguera/',
+      },
+    ],
+    enabledLogoUsage: true,
   },
   {
     id: '69cd1f16',
@@ -1997,10 +2323,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2013-07-19T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/engrescatsdelesterresdelebre',
-      instagram: 'https://www.instagram.com/proteengrescats/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/engrescatsdelesterresdelebre',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/proteengrescats/',
+      },
+    ],
   },
   {
     id: '21e99355',
@@ -2023,10 +2355,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2016-01-04T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100064673622445',
-      instagram: 'https://www.instagram.com/agosagats/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064673622445',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/agosagats/',
+      },
+    ],
   },
   {
     id: 'b3d511bd',
@@ -2056,10 +2394,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2012-07-23T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/canflixanimals/',
-      instagram: 'https://www.instagram.com/canflixanimals/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/canflixanimals/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/canflixanimals/',
+      },
+    ],
   },
   {
     id: '934a3cdf',
@@ -2083,10 +2427,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2008-03-31T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/unmesdelpoble/',
-      instagram: 'https://www.instagram.com/unmesdelpoble/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/unmesdelpoble/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/unmesdelpoble/',
+      },
+    ],
   },
   {
     id: 'ccd5b413',
@@ -2108,10 +2458,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2021-10-20T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100083091382963',
-      instagram: 'https://www.instagram.com/associaciogatsort/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100083091382963',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associaciogatsort/',
+      },
+    ],
   },
   {
     id: 'e23bce6c',
@@ -2135,9 +2491,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2021-10-01T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/amics_peluts_elpalau/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amics_peluts_elpalau/',
+      },
+    ],
   },
   {
     id: 'bcd2bd4a',
@@ -2160,9 +2519,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2021-03-17T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/associacioanimalsbellvis/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associacioanimalsbellvis/',
+      },
+    ],
   },
   {
     id: '365175e4',
@@ -2186,9 +2548,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2015-11-27T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100085098911186',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100085098911186',
+      },
+    ],
   },
   {
     id: 'f7d973c9',
@@ -2211,9 +2576,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2023-09-18T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adoptam_mollerussa/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adoptam_mollerussa/',
+      },
+    ],
   },
   {
     id: '423d03b7',
@@ -2245,10 +2613,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1992-05-12T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/cervera.refugisegarra',
-      instagram: 'https://www.instagram.com/refugi_de_la_segarra/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/cervera.refugisegarra',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/refugi_de_la_segarra/',
+      },
+    ],
   },
   {
     id: '5ec450bf',
@@ -2280,10 +2654,16 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1988-10-04T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/protectoratarrega',
-      instagram: 'https://www.instagram.com/protectoratarrega/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoratarrega',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoratarrega/',
+      },
+    ],
   },
   {
     id: '5bf41644',
@@ -2304,9 +2684,12 @@ export const organizations: Organization[] = [
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2018-03-01T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gateradetarrega/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gateradetarrega/',
+      },
+    ],
   },
   {
     id: 'c7267902',
@@ -2321,11 +2704,16 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Seròs',
     municipality: 'Seròs',
     isActive: true,
-    socials: {
-      instagram: 'https://www.instagram.com/amigospeludosbajocinca/',
-      facebook:
-        'https://www.facebook.com/AmigosPeludosBajoCincaProtectoraAnimalsdeSeros/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amigospeludosbajocinca/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AmigosPeludosBajoCincaProtectoraAnimalsdeSeros/',
+      },
+    ],
     shelter: [
       {
         adress: `Crta, Seròs, Km 15, 9, 25183 La Granja d'Escarp, Lleida`,
@@ -2355,9 +2743,12 @@ export const organizations: Organization[] = [
     municipality: `la Seu d'Urgell`,
     contactPhone: '690691494',
     contactPhone2: '973353112',
-    socials: {
-      facebook: 'https://www.facebook.com/refugianimalsbenavarre',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/refugianimalsbenavarre',
+      },
+    ],
     shelter: [
       {
         googleMapsLink: 'https://maps.app.goo.gl/YTYF84BLLDVSzcQi6',
@@ -2386,9 +2777,12 @@ export const organizations: Organization[] = [
     municipalityInscription: `Lliçà de Vall`,
     municipality: `Lliçà de Vall`,
     contactPhone: '615621907',
-    socials: {
-      instagram: 'https://www.instagram.com/vallgats/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/vallgats/',
+      },
+    ],
     shelter: undefined,
     description: `VALLGATS neix amb la necessitat ajudar els gats dels carrers del municipi de Lliçà de Vall. Per millorar-ne la qualitat de vida, proporcionar-los aliment, recer i assistència veterinària. Som un grup de voluntaris que no disposem de cap ajut econòmic, actuem gràcies a vosaltres, els nostres seguidors. Amb un sol euro pots ajudar-nos a seguir amb la nostra feina. Millorar la vida dels gats abandonats, maltractats o els que han nascut al carrer.`,
     isActive: true,
@@ -2413,9 +2807,12 @@ export const organizations: Organization[] = [
     municipalityInscription: `Sant Boi de Llobregat`,
     municipality: `Sant Boi de Llobregat`,
     contactPhone: '936405714',
-    socials: {
-      facebook: 'https://www.facebook.com/adoptaanimalessantboillobregat/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adoptaanimalessantboillobregat/',
+      },
+    ],
     shelter: [
       {
         googleMapsLink: 'https://maps.app.goo.gl/jZiXoEBrcHDLTDWSA',
@@ -2444,10 +2841,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Barcelona`,
     municipality: `Barcelona`,
-    socials: {
-      instagram: 'https://www.instagram.com/barcelona_gatigos',
-      facebook: 'https://www.facebook.com/barcelonagatigosoficial',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/barcelona_gatigos',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/barcelonagatigosoficial',
+      },
+    ],
     shelter: undefined,
     description: `Som una associació dedicada de manera gairebé exclusiva a cura del gat urbà. Comptem amb un refugi felí on hi ha els gats mentre es busquen adoptants, cases d'acollida i ens ocupem de controlar diverses colònies felines a Barcelona.`,
     isActive: true,
@@ -2471,9 +2874,12 @@ export const organizations: Organization[] = [
     municipalityInscription: `Sabadell`,
     municipality: `Sabadell`,
     contactPhone: '937267227',
-    socials: {
-      facebook: 'https://www.facebook.com/protectorasabadell/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectorasabadell/',
+      },
+    ],
     shelter: [
       {
         googleMapsLink: 'https://maps.app.goo.gl/uY5ipQWRgUDqjcs59',
@@ -2507,10 +2913,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Manresa`,
     municipality: `Manresa`,
     contactPhone: '938727074',
-    socials: {
-      facebook: 'https://www.facebook.com/aixoplucmanresa/',
-      instagram: 'https://www.instagram.com/aixoplucmanresa/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/aixoplucmanresa/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/aixoplucmanresa/',
+      },
+    ],
     shelter: [
       {
         googleMapsLink: 'https://maps.app.goo.gl/HXUFLjiJema3DC1W8',
@@ -2542,10 +2954,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Blancafort`,
     municipality: `Blancafort`,
     contactPhone: '696335662',
-    socials: {
-      facebook: 'https://www.facebook.com/ardablancafort',
-      instagram: 'https://www.instagram.com/ardablancafort/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ardablancafort',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/ardablancafort/',
+      },
+    ],
     shelter: undefined,
     description: `A.R.D.A. Blancafort és una associació sense ànim de lucre oberta a totes les persones que desitgin col·laborar i lluitar pel benestar animal. El propòsit de l'entitat és vetllar pels drets i la protecció dels animals de la zona, així com d'implantar propostes que ajudin a millorar les condicions dels espais municipals i millorin la qualitat de vida de les mascotes. Els objectius principals són el rescat de gossos abandonats, el control de colònies felines i el foment d'una política pública que reguli la protecció i tinença d'animals.`,
     isActive: true,
@@ -2570,10 +2988,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `el Masnou`,
     municipality: `el Masnou`,
-    socials: {
-      facebook: 'https://www.facebook.com/MasnouGats/',
-      instagram: 'https://www.instagram.com/masnougats/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/MasnouGats/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/masnougats/',
+      },
+    ],
     shelter: undefined,
     description: `Som una associació sense ànim de lucre creada l’any 2014 i formada per voluntaris que ens dediquem a la protecció dels gats de carrer d’El Masnou. Vam començar gestionant 35 colònies que, després d’aplicar el mètode CER (Captura – Esterilització – Retorn) per evitar la superpoblació, poc a poc s’han anat reduint fins les 22 que existeixen actualment, amb un total aproximat de 500 gats. A més de preocupar-nos per la salut i benestar dels gats que viuen en elles, acollim i intentem trobar una llar per tots aquells que són sociables. L’any 2023, més de 70 dels nostres rescatats han trobat famílies increïbles amb les que ser feliços i estimats com mai abans ho han estat.`,
     isActive: true,
@@ -2597,10 +3021,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `l'Hospitalet de Llobregat`,
     municipality: `l'Hospitalet de Llobregat`,
     whatsAppPhone: '665155678',
-    socials: {
-      facebook: 'https://www.facebook.com/APApupetc',
-      instagram: 'https://www.instagram.com/adopta_apa_pupetc/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/APApupetc',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adopta_apa_pupetc/',
+      },
+    ],
     shelter: undefined,
     description: `Asoc.Protectora d'Animals "Posa Una Patita A Tu Corazon" Som una associació protectora d'animals de Catalunya, sense ànim de lucre.`,
     isActive: true,
@@ -2624,11 +3054,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `el Masnou`,
     municipality: `el Masnou`,
     contactPhone: '650796050',
-    socials: {
-      facebook:
-        'https://www.facebook.com/AssociacioEnDefensaDelsAnimalsDelMasnou',
-      instagram: 'https://www.instagram.com/adamprotectora',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AssociacioEnDefensaDelsAnimalsDelMasnou',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adamprotectora',
+      },
+    ],
     shelter: undefined,
     description: `ADAM és una associació sense ànim de lucre; composta per una Junta Directiva formada per Socis i Voluntaris. La nostra tasca es basa en la recollida de tot gos perdut i/o abandonat; tractar de trobar el seu amo i/o trobar una família adequada per a l'adopció dels qui han estat abandonats. A la nostra associació no se sacrifica cap animal, excepte en els casos extrems per malaltia amb patiment i sempre sota la supervisió del veterinari.`,
     isActive: true,
@@ -2654,10 +3089,12 @@ export const organizations: Organization[] = [
     municipality: `Olesa de Bonesvalls`,
     contactPhone: '629539551',
     whatsAppPhone: '629539551',
-    socials: {
-      facebook:
-        'https://www.facebook.com/people/Centro-Canino-Sircan/100064208004173/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/people/Centro-Canino-Sircan/100064208004173/',
+      },
+    ],
     shelter: [
       {
         adress: 'Cami de la Fontana s/n Olesa de Bonesvals',
@@ -2687,10 +3124,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Vilassar de Dalt`,
     municipality: `Vilassar de Dalt`,
     contactPhone: '600433165',
-    socials: {
-      facebook: 'https://www.facebook.com/ADEAVD',
-      instagram: 'https://www.instagram.com/protectoravilassar/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ADEAVD',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoravilassar/',
+      },
+    ],
     shelter: [
       {
         adress:
@@ -2722,10 +3165,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Berga`,
     municipality: `Berga`,
     contactPhone: '938221291',
-    socials: {
-      facebook: 'https://www.facebook.com/ProtectoraBerga/',
-      instagram: 'https://www.instagram.com/protectoraberga/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraBerga/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoraberga/',
+      },
+    ],
     shelter: [
       {
         adress: 'Casa Nova de Cal Galta s/n 08600 BERGA',
@@ -2756,10 +3205,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Lleida`,
     municipality: `Lleida`,
     contactPhone: '973263504',
-    socials: {
-      facebook: 'https://www.facebook.com/caaclleida',
-      instagram: 'https://www.instagram.com/caaclleida/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/caaclleida',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/caaclleida/',
+      },
+    ],
     shelter: [
       {
         adress: 'Partida Caparrella, 123, 25192 Lleida',
@@ -2789,10 +3244,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Barcelona`,
     municipality: `Barcelona`,
     contactPhone: '934170124',
-    socials: {
-      facebook: 'https://www.facebook.com/protectorabarcelona',
-      instagram: 'https://www.instagram.com/protectora.bcn/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectorabarcelona',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora.bcn/',
+      },
+    ],
     shelter: [
       {
         adress: 'Carrer Guarda Antón, 10 08035 Barcelona',
@@ -2823,10 +3284,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Sant Boi de Llobregat`,
     municipality: `Sant Boi de Llobregat`,
-    socials: {
-      facebook: 'https://www.facebook.com/rmacvoluntaris',
-      instagram: 'https://www.instagram.com/rmacvoluntaris',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/rmacvoluntaris',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/rmacvoluntaris',
+      },
+    ],
     shelter: undefined,
     description: `Encaixant Mons va sorgir amb l'objectiu d'assolir la participació activa dels voluntaris en aquelles decisions que repercuteixen els animals del Refugi Municipal d'Animals de Companyia de Sant Boi de Llobregat (RMAC). Un dels nostres desitjos és conscienciar la població sobre la tinença responsable dels animals de companyia. De la mateixa manera, vetllar pel benestar animal, el respecte i la conservació de l'entorn des de les nostres possibilitats com a associació.`,
     isActive: true,
@@ -2850,10 +3317,16 @@ export const organizations: Organization[] = [
     municipalityInscription: `Reus`,
     municipality: `Reus`,
     whatsAppPhone: '615454647',
-    socials: {
-      facebook: 'https://www.facebook.com/reusgats',
-      instagram: 'https://www.instagram.com/reusgats/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/reusgats',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/reusgats/',
+      },
+    ],
     shelter: undefined,
     description: `REUS GATS és una associació que va néixer d'un grup de persones que comparteixen les mateixes inquietuds pels gats. Constituïda des del 2011 a Reus, el nostre objectiu és proporcionar una vida millor a tots aquells gats que viuen als nostres carrers. Fomentem l'adopció via Facebook als qui han estat víctimes de l'abandonament, auxiliem els malalts o ferits, i els proporcionem l'atenció veterinària que necessitin.`,
     isActive: true,
@@ -2877,11 +3350,20 @@ export const organizations: Organization[] = [
     municipalityInscription: `Gironella`,
     municipality: `Gironella`,
     contactPhone: '677890556',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100064785183838#',
-      instagram: 'https://www.instagram.com/elrefugiaab/',
-      tikTok: 'https://www.tiktok.com/@elrefugiaab',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064785183838#',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/elrefugiaab/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@elrefugiaab',
+      },
+    ],
     shelter: [
       {
         adress: '08610 Avià, Barcelona',
@@ -2912,9 +3394,12 @@ export const organizations: Organization[] = [
     municipalityInscription: `Begues`,
     municipality: `Begues`,
     whatsAppPhone: '615173627',
-    socials: {
-      instagram: 'https://www.instagram.com/amoralsanimals/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amoralsanimals/',
+      },
+    ],
     shelter: [
       {
         adress: 'Masia Can Figueres, 1, 08859 Begues, Barcelona',
@@ -2944,10 +3429,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Taradell`,
     municipality: `Taradell`,
-    socials: {
-      instagram: 'https://www.instagram.com/caniausa/',
-      facebook: 'https://www.facebook.com/people/CaniAusa/61554640562660/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/caniausa/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/people/CaniAusa/61554640562660/',
+      },
+    ],
     shelter: undefined,
     description: `Caniausa Center S.L. és una empresa dedicada a la recollida i custòdia d'animals de companyia, així com a la seva adopció. Ofereixen serveis a l'administració, incloent-hi atenció 24 hores els 365 dies de l'any, personal qualificat per al maneig de gossos de races considerades perilloses i instal·lacions amb nucli zoològic adaptades a cada necessitat. També col·laboren amb associacions mitjançant convenis de voluntariat per promoure el benestar animal.`,
     isActive: true,
@@ -2970,10 +3461,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `el Masnou`,
     municipality: `el Masnou`,
-    socials: {
-      instagram: 'https://www.instagram.com/ggrescat/',
-      facebook: 'https://www.facebook.com/ggrescat/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/ggrescat/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ggrescat/',
+      },
+    ],
     shelter: undefined,
     description: `Associació de Rescat de Gossos i Gats Associació sense ànim de lucre dedicada a la cura i benestar de gossos i gats maltractats o abandonats. G&G RESCAT, situada al Maresme (Barcelona), sorgeix amb l'esperança d'ajudar i protegir a gossos i gats desafortunats amb l'objectiu d'oferir-los una nova oportunitat amb una nova família.`,
     isActive: true,
@@ -2998,10 +3495,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Parets del Vallès`,
     municipality: `Parets del Vallès`,
-    socials: {
-      instagram: 'https://www.instagram.com/protectoraanimalsparets/',
-      facebook: 'https://www.facebook.com/ProtectoraParets/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoraanimalsparets/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraParets/',
+      },
+    ],
     shelter: [
       {
         adress: 'Carrer Sinia, 3 08150 - Parets del Vallès, Barcelona',
@@ -3031,9 +3534,12 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Lliçà d'Amunt`,
     municipality: `Lliçà d'Amunt`,
-    socials: {
-      instagram: 'https://www.instagram.com/pelutsllica/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/pelutsllica/',
+      },
+    ],
     shelter: undefined,
     description: `Som una associació de voluntaris de Lliçà d’Amunt que protegeix els animals. Ens dediquem al control de colònies de gats mitjançant el mètode CER (Captura, Esterilitza i Retorna). Quan trobem cadells, els recollim i els busquem cases d’acollida. També oferim assistència veterinària a gats ferits al carrer.`,
     isActive: true,
@@ -3057,10 +3563,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Alella`,
     municipality: `Alella`,
-    socials: {
-      instagram: 'https://www.instagram.com/adana_protectora',
-      facebook: 'https://www.facebook.com/AdanaAlella/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adana_protectora',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AdanaAlella/',
+      },
+    ],
     shelter: [
       {
         adress: 'Rambla Àngel Guimerà, s/n, 08328 Alella, Barcelona',
@@ -3091,10 +3603,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Montcada i Reixac`,
     municipality: `Montcada i Reixac`,
-    socials: {
-      instagram: 'https://www.instagram.com/advammontcada',
-      facebook: 'https://www.facebook.com/profile.php?id=100064642903870',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/advammontcada',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064642903870',
+      },
+    ],
     shelter: undefined,
     description: `AdVAM (Associació de Voluntaris Animalistes de Montcada i Reixac) és una entitat sense ànim de lucre que protegeix els animals abandonats i maltractats. Els seus objectius inclouen rescat, cures veterinàries, adopció, control de colònies de gats ferals, i sensibilització sobre el respecte pels animals. També rebutja l'experimentació animal i la seva utilització en espectacles. La col·laboració de socis, donacions i voluntaris és essencial per dur a terme aquestes tasques.`,
     isActive: true,
@@ -3117,11 +3635,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Torrelles de Llobregat`,
     municipality: `Torrelles de Llobregat`,
-    socials: {
-      instagram: 'https://www.instagram.com/el_refugi_de_torrelles/',
-      facebook:
-        'https://www.facebook.com/p/El-Refugi-de-Torrelles-100094496297406/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/el_refugi_de_torrelles/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/p/El-Refugi-de-Torrelles-100094496297406/',
+      },
+    ],
     shelter: [
       {
         adress:
@@ -3152,10 +3675,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Sant Cugat del Vallès`,
     municipality: `Sant Cugat del Vallès`,
-    socials: {
-      instagram: 'https://www.instagram.com/adoptanssantcugat/',
-      facebook: 'https://www.facebook.com/adoptanssantcugat',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adoptanssantcugat/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adoptanssantcugat',
+      },
+    ],
     shelter: undefined,
     description: `Adopta'ns Sant Cugat és una associació que té com a objectiu trobar una família a gossos i gats que viuen al carrer. Amb la teva ajuda podrem afrontar les despeses del rescat de l'animal i els serveis veterinaris necessaris per recuperar la seva salut, ja que en moltes ocasions els animals arriben en condicions extremes. Ens ajudes?!`,
     isActive: true,
@@ -3180,10 +3709,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Barcelona`,
     municipality: `Barcelona`,
-    socials: {
-      instagram: 'https://www.instagram.com/eljardinetdelsgats',
-      facebook: 'https://www.facebook.com/ElJardinetdelsGats',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/eljardinetdelsgats',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ElJardinetdelsGats',
+      },
+    ],
     shelter: undefined,
     description: `Som una entitat sense ànim de lucre fundada el 2008, nascuda d'un projecte iniciat el 2004, amb l'objectiu de cuidar i protegir els gats de carrer i abandonats de Ciutat Vella. Un equip de voluntaris treballa de manera desinteressada per millorar la seva qualitat de vida i benestar.`,
     isActive: true,
@@ -3209,10 +3744,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Sant Sadurní d'Anoia`,
     municipality: `Sant Sadurní d'Anoia`,
-    socials: {
-      instagram: 'https://www.instagram.com/gatsasantsadurni/',
-      facebook: 'https://www.facebook.com/gatsa.santsadurni',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsasantsadurni/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatsa.santsadurni',
+      },
+    ],
     shelter: undefined,
     description: `GAT SÀ, fundat el 2001 amb el suport de l'Ajuntament de Sant Sadurní d'Anoia, té com a objectiu integrar els gats de carrer al paisatge urbà. Gestionen colònies utilitzant el mètode CER (Captura, Esterilització i Retorn) i fan adopcions responsables.`,
     isActive: true,
@@ -3235,10 +3776,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Mataró`,
     municipality: `Mataró`,
-    socials: {
-      instagram: 'https://www.instagram.com/protectoramataro/',
-      facebook: 'https://www.facebook.com/protectoramataro',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoramataro/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectoramataro',
+      },
+    ],
     shelter: [
       {
         adress: 'Ctra NII Km 648,4 de Mataró (Barcelona)',
@@ -3283,10 +3830,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Montgat`,
     municipality: `Montgat`,
-    socials: {
-      instagram: 'https://www.instagram.com/abamiapropat/',
-      facebook: 'https://www.facebook.com/abamiapropat/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/abamiapropat/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/abamiapropat/',
+      },
+    ],
     shelter: undefined,
     description: `ABAM i APROPA'T són dues associacions amb refugis sense ànim de lucre constituïdes l’any 2002 i 2003 respectivament. Ambdues treballen per a l’assistència, recuperació i sociabilització d'animals abandonats i/o maltractats de les zones de Montgat i Tiana, i en promouen la seva adopció o acollida.Per motius de seguretat, les associacions ABAM i Apropa't no fan pública la ubicació dels seus refugis. Si desitges conèixer la seva localització o visitar-los, et recomanem posar-te en contacte directament amb ells.`,
     isActive: true,
@@ -3310,9 +3863,12 @@ export const organizations: Organization[] = [
     province: 'lleida',
     municipalityInscription: `Balaguer`,
     municipality: `Balaguer`,
-    socials: {
-      instagram: 'https://www.instagram.com/sosbigotis/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosbigotis/',
+      },
+    ],
     shelter: undefined,
     description: `Som un grup de voluntaris que ens hem unit per a vetllar pel benestar dels gats de carrer del nostre municipi. Ens hem constituït com associació sense ànim de lucre per a la realització del mètode C.E.R. (Captura, Esterilització i Retorn) i per a garantir la gestió ètica de les colònies felines. No disposem de refugi. Els diners recaptats es destinen a alimentació i despeses veterinàries.`,
     isActive: true,
@@ -3335,10 +3891,16 @@ export const organizations: Organization[] = [
     province: 'tarragona',
     municipalityInscription: `Tarragona`,
     municipality: `Tarragona`,
-    socials: {
-      instagram: 'https://www.instagram.com/lacasetadelsgats/',
-      facebook: 'https://www.facebook.com/lacasetadelsgats',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/lacasetadelsgats/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/lacasetadelsgats',
+      },
+    ],
     shelter: undefined,
     description: `La Caseta dels Gats és un projecte que va néixer a Tarragona el setembre de 2014. El nostre objectiu és oferir un lloc segur, cures, alimentació i afecte als gats que són rescatats del carrer. El nostre espai està a disposició de les associacions de protecció animal amb les quals col·laborem en la gestió i control de colònies felines. No volem que cap gat estigui al carrer buscant-li una llar, però necessitem col·laboració per fer front a les despeses veterinàries i d'alimentació.`,
     isActive: true,
@@ -3362,10 +3924,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `els Hostalets de Pierola`,
     municipality: `els Hostalets de Pierola`,
-    socials: {
-      instagram: 'https://www.instagram.com/gatetshostalets/',
-      facebook: 'https://www.facebook.com/GatetsHostalets/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatetshostalets/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GatetsHostalets/',
+      },
+    ],
     shelter: undefined,
     description: `Gatets del Hostalets és un projecte de gestió i control de colònies de gats del carrer. Creiem que els gatets del carrer han de tenir una vida digna, per aixó vam decidir aportar el nostre petit granet de sorra pel seu benestar. Perquè les accions locals impacten al món, i a la vida. Ens ajudes? Amb un euro mensual, ens ajudaràs amb el menjar, les despeses veterinàries, gateres per les colònies.`,
     isActive: true,
@@ -3388,10 +3956,16 @@ export const organizations: Organization[] = [
     province: 'girona',
     municipalityInscription: `la Jonquera`,
     municipality: `la Jonquera`,
-    socials: {
-      instagram: 'https://www.instagram.com/tramungats/',
-      facebook: 'https://www.facebook.com/associojonquerencadegats/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/tramungats/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/associojonquerencadegats/',
+      },
+    ],
     shelter: undefined,
     description: `L'Associació Jonquerenca Protectora de Gats (AJPG) és una entitat sense ànim de lucre. El que volem aconseguir és parar la població de gats als carrers de la jonquera i donar-los en adopció a famílies de confiança que el facin portar la seva vida el millor possible.`,
     isActive: true,
@@ -3414,10 +3988,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Barcelona`,
     municipality: `Barcelona`,
-    socials: {
-      instagram: 'https://www.instagram.com/animalssensesostre/',
-      facebook: 'https://www.facebook.com/AnimalsSenseSostre',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/animalssensesostre/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AnimalsSenseSostre',
+      },
+    ],
     shelter: [
       {
         adress: 'C/Poeta Pitarra, Vallirana, Barcelona',
@@ -3447,10 +4027,16 @@ export const organizations: Organization[] = [
     province: 'girona',
     municipalityInscription: `Llagostera`,
     municipality: `Llagostera`,
-    socials: {
-      instagram: 'https://www.instagram.com/gats108llagostera/',
-      facebook: 'https://www.facebook.com/Gats108/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gats108llagostera/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Gats108/',
+      },
+    ],
     shelter: undefined,
     description: `Som una entitat sense finalitat de lucre, constituïda per voluntariat, amb l´objectiu de millorar les condicions de vida dels gats del carrer, una vida molt dura.. Procurem el benestar i la convivència amb les persones, controlant les zones amb alimentadors/voluntaris autoritzats, dels que rebem informació de gats ferits o malalts, naixements o algun tipus de maltractament. Controlem la natalitat amb el mètode CER (Captura, esterilització i retorn) Promovem l´adopció responsable.`,
     isActive: true,
@@ -3475,10 +4061,16 @@ export const organizations: Organization[] = [
     province: 'girona',
     municipalityInscription: `Llagostera`,
     municipality: `Llagostera`,
-    socials: {
-      instagram: 'https://www.instagram.com/asociacionnoaa/',
-      facebook: 'https://www.facebook.com/asociacionnoaa/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/asociacionnoaa/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/asociacionnoaa/',
+      },
+    ],
     shelter: undefined,
     description: `Associació NOAA, a estat constituïda aquest febrer de 2016. Ens dediquem a rescatar gossos de la gossera de Girona i trobar-los una bona llar. La nostra única finalitat és ajudar els animals necessitats, tant a gats com a gossos. Necessitem fons per poder alimentar els nostres acollits i per poder pagar les despeses de veterinari.`,
     isActive: true,
@@ -3502,10 +4094,16 @@ export const organizations: Organization[] = [
     province: 'girona',
     municipalityInscription: `Tossa de Mar`,
     municipality: `Tossa de Mar`,
-    socials: {
-      instagram: 'https://www.instagram.com/con.apaptossa/',
-      facebook: 'https://www.facebook.com/con.apaptossa',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/con.apaptossa/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/con.apaptossa',
+      },
+    ],
     shelter: [
       {
         adress: `Refugi d'Animals Sa Sureda, s/n`,
@@ -3534,9 +4132,12 @@ export const organizations: Organization[] = [
     province: 'girona',
     municipalityInscription: `Campdevànol`,
     municipality: `Campdevànol`,
-    socials: {
-      instagram: 'https://www.instagram.com/un_munt_de_petjades/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/un_munt_de_petjades/',
+      },
+    ],
     shelter: undefined,
     description: `Un Munt de Petjades, és una entitat sense ànim de lucre, creada l'octubre de l'any 2014 al Ripollès, i que neix amb la finalitat de protegir i cuidar els animals de companyia en situació de risc, ja sigui per falta de responsabilitat dels seus propietaris o perquè no tenen ningú que se n'ocupi. Aquesta motivació la traslladem a tots els àmbits, treballant perquè canviï la situació actual dels animals.`,
     isActive: true,
@@ -3560,9 +4161,12 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Barcelona`,
     municipality: `Barcelona`,
-    socials: {
-      instagram: 'https://www.instagram.com/protectora_pelescapat/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora_pelescapat/',
+      },
+    ],
     shelter: undefined,
     description: `Som una Associació protectora d´animals sense ànim de lucre situada a Barcelona que fomenta l´adopció d´animals i no la compra. Som voluntaris que oferim el nostre temps lliure a cercar famílies a animals abandonats. La protectora depèn únicament i exclusiva de cases d'acollida, i en alguns casos, de residències.`,
     isActive: true,
@@ -3586,9 +4190,12 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Sant Cugat del Vallès`,
     municipality: `Sant Cugat del Vallès`,
-    socials: {
-      instagram: 'https://www.instagram.com/pascugat/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/pascugat/',
+      },
+    ],
     shelter: undefined,
     description: `La PAS (Plataforma Animalista de Sant Cugat) és una associació sense ànim de lucre composta per voluntaris dedicats a millorar la situació dels animals. El seu treball inclou la gestió de colònies de gats, impulsant l'esterilització i el benestar dels animals. A més, col·laboren amb les autoritats per promoure una gestió ètica de la fauna. Organitzen activitats de sensibilització i educació, i promouen les adopcions responsables d'animals. Tot i no ser un refugi, ofereixen assessorament per a emergències i casos de maltractament.`,
     isActive: true,
@@ -3612,10 +4219,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Badalona`,
     municipality: `Badalona`,
-    socials: {
-      instagram: 'https://www.instagram.com/sitgesangels/',
-      facebook: 'https://www.facebook.com/sitges.angels',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sitgesangels/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/sitges.angels',
+      },
+    ],
     shelter: undefined,
     description: `Som una ONG que dóna protecció, menjar i atenció veterinària a animals abandonats. Estem 100% anti sacrifici. Durant 20 anys de feina hem rescatat més que 6000 gossos, gats i altres animals de la fam, la malaltia, l'abandó i la mort imminent, i els hem trobat cases a tot Europa. En aquest moment donem aixopluc a uns 40 gossos, gats i altres animals que necessiten la teva ajuda.`,
     isActive: true,
@@ -3640,9 +4253,12 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Caldes de Montbui`,
     municipality: `Caldes de Montbui`,
-    socials: {
-      instagram: 'https://www.instagram.com/protectora_caldes_animal_',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectora_caldes_animal_',
+      },
+    ],
     shelter: [
       {
         adress: 'Km 15, C-59, 08140 Caldes de Montbui, Barcelona',
@@ -3673,10 +4289,16 @@ export const organizations: Organization[] = [
     province: 'tarragona',
     municipalityInscription: `Camarles`,
     municipality: `Camarles`,
-    socials: {
-      instagram: 'https://www.instagram.com/alberg_animals_terres_ebre/',
-      facebook: 'https://www.facebook.com/alberganimals',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/alberg_animals_terres_ebre/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/alberganimals',
+      },
+    ],
     shelter: [
       {
         adress: 'Masia Ardevol, s/n, 43894 Camarles, Tarragona, Espanya',
@@ -3706,10 +4328,12 @@ export const organizations: Organization[] = [
     province: 'tarragona',
     municipalityInscription: `el Vendrell`,
     municipality: `el Vendrell`,
-    socials: {
-      facebook:
-        'https://www.facebook.com/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/',
+      },
+    ],
     shelter: undefined,
     description: `L'associació va ser creada l'any 2007 per un grup que volíem ser “la veu dels sense veu”, intentant alliberar tots els animals del municipi de la injustícia, el maltractament, el silenci i l'abandó; pretenent amb el nostre incondicional i constant treball atorgar-los la dignitat i respecte del que mai van haver de mancar com a éssers vius. Estem duent a terme la CER (Captura-Esterilització i Retorn) de les colònies de gats. Ajudem i busquem llars per a qualsevol animal necessitat.`,
     isActive: true,
@@ -3735,10 +4359,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Dosrius`,
     municipality: `Dosrius`,
-    socials: {
-      instagram: 'https://www.instagram.com/protectoradosrius',
-      facebook: 'https://www.facebook.com/amicsdelsanimals',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/protectoradosrius',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsdelsanimals',
+      },
+    ],
     shelter: [
       {
         adress:
@@ -3770,10 +4400,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Santa Coloma de Gramenet`,
     municipality: `Santa Coloma de Gramenet`,
-    socials: {
-      instagram: 'https://www.instagram.com/veuanimal',
-      facebook: 'https://www.facebook.com/veuanimal',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/veuanimal',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/veuanimal',
+      },
+    ],
     shelter: undefined,
     description: `VEU ANIMAL és una associació sense ànim de lucre. El nostre àmbit d´actuació és Santa Coloma de Gramenet, BCN. Recollim animals abandonats, ventrada de gatets, els donem aixopluc i cures veterinàries. Un cop recuperats, els donem en adopció amb les màximes garanties. No disposem de refugi, per això ens ajuden les nostres cases d'acollida i diversos voluntaris. Necessitem sufragar despeses veterinàries, alimentació i de gestió.`,
     isActive: true,
@@ -3794,10 +4430,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Esplugues de Llobregat`,
     municipality: `Esplugues de Llobregat`,
-    socials: {
-      instagram: 'https://www.instagram.com/sosgalgos',
-      facebook: 'https://www.facebook.com/sosgalgosoficial',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosgalgos',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/sosgalgosoficial',
+      },
+    ],
     shelter: undefined,
     description: `SOS Galgos és una associació sense ànim de lucre, que té com a objectiu rescatar llebrers espanyols desemparats brindant-los la possibilitat d'iniciar una nova vida, formant part d'una família que els vulgui i els protegeixi com a animal de companyia.`,
     isActive: true,
@@ -3822,10 +4464,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Sant Celoni`,
     municipality: `Sant Celoni`,
-    socials: {
-      instagram: 'https://www.instagram.com/galgos_catalunya/',
-      facebook: 'https://www.facebook.com/GalgosCatalunya/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/galgos_catalunya/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GalgosCatalunya/',
+      },
+    ],
     shelter: undefined,
     description: `Galgos Catalunya és una associació sense ànim de lucre creada amb l'objectiu de prestar auxili a llebrers i podencs en situació de desemparament. El nostre objectiu és rescatar-los de l'abandó i el maltractament, resguardar-los, recuperar-los tant com sigui possible tant els seus danys físics com psicològics, i finalment aconseguir-los una llar on ser estimats com mereixen.`,
     isActive: true,
@@ -3848,10 +4496,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Santa Eulàlia de Ronçana`,
     municipality: `Santa Eulàlia de Ronçana`,
-    socials: {
-      instagram: 'https://www.instagram.com/arbra_associacio/',
-      facebook: 'https://www.facebook.com/adopcionsresponsables',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/arbra_associacio/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adopcionsresponsables',
+      },
+    ],
     shelter: undefined,
     description: `L'associació ARBRA va néixer al març del 2011 a Sta. Eulàlia de Ronçana, amb l'objectiu de donar una llar als animals que han estat abandonats, principalment al nostre municipi, així com d'altres llocs. També és important per a nosaltres la conscienciació ciutadana envers el respecte cap a tot tipus d'ésser viu. El nostre objectiu principal és trobar una família definitiva a tots aquests animals, i fins que arribi aquest moment, tenir cura d'ells. Ens ajudes a seguir salvant vides?`,
     isActive: true,
@@ -3875,9 +4529,12 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Vallirana`,
     municipality: `Vallirana`,
-    socials: {
-      instagram: 'https://www.instagram.com/refugiolamistad/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/refugiolamistad/',
+      },
+    ],
     shelter: [
       {
         adress: 'Masia Can Bugunya, s/n, 08759 Vallirana, Barcelona, Espanya',
@@ -3910,10 +4567,16 @@ export const organizations: Organization[] = [
     province: 'tarragona',
     municipalityInscription: `Reus`,
     municipality: `Reus`,
-    socials: {
-      instagram: 'https://www.instagram.com/nourefugibaixcamp/',
-      facebook: 'https://www.facebook.com/RefugiBaixCamp.org/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/nourefugibaixcamp/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/RefugiBaixCamp.org/',
+      },
+    ],
     shelter: undefined,
     description: `Som un centre d’adopció i recuperació d’animals que vam néixer al 2001 com una iniciativa per lluitar de qualsevol forma legal contra l´abandonament, potenciar la seva defensa i protecció i fomentar l´adopció dels que ja han estat abandonats. Actualment, donada la situació del nostre territori hem decidit iniciar un nou projecte de continuïtat que permeti ampliar en tots els sentits el refugi i assumir la responsabilitat d'acollir i salvar més animals.`,
     isActive: true,
@@ -3936,10 +4599,16 @@ export const organizations: Organization[] = [
     province: 'tarragona',
     municipalityInscription: `Tortosa`,
     municipality: `Tortosa`,
-    socials: {
-      instagram: 'https://www.instagram.com/progat.tortosa/',
-      facebook: 'https://www.facebook.com/progat.tortosa.5',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progat.tortosa/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/progat.tortosa.5',
+      },
+    ],
     shelter: undefined,
     description: `Progat Tortosa és una associació que defensa el gat lliure, la seva vida en llibertat i la seva integració en hàbitats que compartim… Progat Tortosa no té refugi, treballa directament amb els gats lliures, al seu hàbitat i dóna en adopció als que, per qualsevol motiu, no poden continuar fent-ho al seu hàbitat.`,
     isActive: true,
@@ -3963,10 +4632,16 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Barcelona`,
     municipality: `Barcelona`,
-    socials: {
-      instagram: 'https://www.instagram.com/progatcatalunya/',
-      facebook: 'https://www.facebook.com/ProgatCatalunya',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatcatalunya/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProgatCatalunya',
+      },
+    ],
     shelter: undefined,
     description: `Progat Catalunya és una associació fundada el 1998 que treballa per a la defensa dels gats lliures, promovent la seva integració en els hàbitats que compartim. La seva missió se centra en implementar programes de control ètic de colònies de gats mitjançant el mètode de Captura, Esterilització i Retorn (CER), amb l'objectiu d'evitar la superpoblació i afavorir una convivència harmoniosa amb els veïns.`,
     isActive: true,
@@ -4028,10 +4703,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adopta_progatcerdanya/',
     associativeInscriptionNumber: '47842',
     dateOfInscription: '2012-05-29T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adopta_progatcerdanya/',
-      facebook: 'https://www.facebook.com/ProgatCerdanya/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adopta_progatcerdanya/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProgatCerdanya/',
+      },
+    ],
   },
   {
     id: '9ad72ae4',
@@ -4054,11 +4735,20 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/q7GQvrbq',
     associativeInscriptionNumber: '58754',
     dateOfInscription: '2016-05-24T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gab_grupo.ayuda.bodegueros/',
-      facebook: 'https://www.facebook.com/grupoayudabodegueros/',
-      tikTok: 'https://www.tiktok.com/@gab_grupoayudabodegueros',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gab_grupo.ayuda.bodegueros/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/grupoayudabodegueros/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@gab_grupoayudabodegueros',
+      },
+    ],
   },
   {
     id: '670e782e',
@@ -4082,10 +4772,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/7vides.cat/',
     associativeInscriptionNumber: '64339',
     dateOfInscription: '2018-10-19T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/7vides.cat/',
-      facebook: 'https://www.facebook.com/profile.php?id=100064657090525',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/7vides.cat/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064657090525',
+      },
+    ],
   },
   {
     id: '006df9d2',
@@ -4109,10 +4805,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/sakuraparadisesanctuary/',
     associativeInscriptionNumber: '71723',
     dateOfInscription: '2022-09-26T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/sakuraparadisesanctuary/',
-      facebook: 'https://www.facebook.com/profile.php?id=100078265972964',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sakuraparadisesanctuary/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100078265972964',
+      },
+    ],
   },
   {
     id: '1214ba87',
@@ -4135,9 +4837,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/101vida_rescate_animal/',
     associativeInscriptionNumber: '62662',
     dateOfInscription: '2018-01-22T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/101vida_rescate_animal/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/101vida_rescate_animal/',
+      },
+    ],
   },
   {
     id: '955e95c9',
@@ -4160,9 +4865,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/amics_dels_animals/',
     associativeInscriptionNumber: '29913',
     dateOfInscription: '2004-12-15T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/amics_dels_animals/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amics_dels_animals/',
+      },
+    ],
   },
   {
     id: '301861b0',
@@ -4185,10 +4893,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://amancu.protecms.com/animales',
     associativeInscriptionNumber: '59596',
     dateOfInscription: '2016-10-26T00:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/amancu_refugio/',
-      facebook: 'https://www.facebook.com/amancu.amancu.cunit/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amancu_refugio/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amancu.amancu.cunit/',
+      },
+    ],
   },
   {
     id: 'b675d16a',
@@ -4210,9 +4924,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/NAPAnimales/',
     associativeInscriptionNumber: '50526',
     dateOfInscription: '2013-06-11T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/NAPAnimales/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/NAPAnimales/',
+      },
+    ],
   },
   {
     id: 'db1dc289',
@@ -4235,10 +4952,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gats.cubelles',
     associativeInscriptionNumber: '61893',
     dateOfInscription: '2017-07-26T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/gatscarrercubelles',
-      instagram: 'https://www.instagram.com/gatsdecarrercubelles',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatscarrercubelles',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdecarrercubelles',
+      },
+    ],
   },
   {
     id: '7271e9f3',
@@ -4263,9 +4986,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100064448391637#',
     associativeInscriptionNumber: '25902',
     dateOfInscription: '2002-03-13T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100064448391637#',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064448391637#',
+      },
+    ],
   },
   {
     id: 'd9388910',
@@ -4288,10 +5014,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adacc_cornella/',
     associativeInscriptionNumber: '28098',
     dateOfInscription: '2003-09-30T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/maria.rios.5209',
-      instagram: 'https://www.instagram.com/adacc_cornella/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/maria.rios.5209',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adacc_cornella/',
+      },
+    ],
   },
   {
     id: '7ace6be4',
@@ -4315,11 +5047,20 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://fundaciontrifolium.org/adoptar-perros-gatos/',
     associativeInscriptionNumber: '1328',
     dateOfInscription: '1999-10-26T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/fundaciontrifolium',
-      instagram: 'https://www.instagram.com/fundaciontrifolium/',
-      tikTok: 'https://www.tiktok.com/@fundaciontrifolium',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/fundaciontrifolium',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/fundaciontrifolium/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@fundaciontrifolium',
+      },
+    ],
   },
   {
     id: '529f0eb1',
@@ -4341,9 +5082,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100070786266156',
     associativeInscriptionNumber: '28768',
     dateOfInscription: '2004-03-25T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100070786266156',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100070786266156',
+      },
+    ],
   },
   {
     id: '7f6c978d',
@@ -4368,10 +5112,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/santuaridaya',
     associativeInscriptionNumber: '52123',
     dateOfInscription: '2014-01-28T00:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100070040460948#',
-      instagram: 'https://www.instagram.com/santuaridaya',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100070040460948#',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/santuaridaya',
+      },
+    ],
   },
   {
     id: '5f69dfc3',
@@ -4394,9 +5144,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/amicsdelsanimalsvdm/',
     associativeInscriptionNumber: '21558',
     dateOfInscription: '1999-02-15:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/amicsdelsanimalsvdm/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amicsdelsanimalsvdm/',
+      },
+    ],
   },
   {
     id: '010b6bc3',
@@ -4419,10 +5172,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progatcornella/',
     associativeInscriptionNumber: '33637',
     dateOfInscription: '2006-12-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatcornella/',
-      facebook: 'https://www.facebook.com/progat.cornella',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatcornella/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/progat.cornella',
+      },
+    ],
   },
   {
     id: '8a519869',
@@ -4444,9 +5203,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/Protectoraanimalesarenys',
     associativeInscriptionNumber: '39898',
     dateOfInscription: '2009-07-22:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/Protectoraanimalesarenys',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Protectoraanimalesarenys',
+      },
+    ],
   },
   {
     id: '4011456d',
@@ -4469,10 +5231,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatpi.protectora',
     associativeInscriptionNumber: '49419',
     dateOfInscription: '2013-01-07:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatpi.protectora',
-      facebook: 'https://www.facebook.com/profile.php?id=100064727467274',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatpi.protectora',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064727467274',
+      },
+    ],
   },
   {
     id: 'f7c69d7e',
@@ -4495,10 +5263,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progatvilaseca/',
     associativeInscriptionNumber: '38110',
     dateOfInscription: '2008-11-27:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatvilaseca/',
-      facebook: 'https://www.facebook.com/progatvilaseca',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatvilaseca/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/progatvilaseca',
+      },
+    ],
   },
   {
     id: '16b7690c',
@@ -4521,10 +5295,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/amics_dels_animals_ser/',
     associativeInscriptionNumber: '73512',
     dateOfInscription: '2023-07-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/amics_dels_animals_ser/',
-      facebook: 'https://www.facebook.com/amicsdelsanimalsser/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amics_dels_animals_ser/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsdelsanimalsser/',
+      },
+    ],
   },
   {
     id: '8dab0e63',
@@ -4546,10 +5326,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/SosMininusFigueres/',
     associativeInscriptionNumber: '58720',
     dateOfInscription: '2016-06-14:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/associaciososmininus/',
-      facebook: 'https://www.facebook.com/SosMininusFigueres/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associaciososmininus/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/SosMininusFigueres/',
+      },
+    ],
   },
   {
     id: '5e8092a1',
@@ -4574,10 +5360,16 @@ export const organizations: Organization[] = [
       'https://padlet.com/mtrench2/els-nostres-gats-en-adopci-ahqo79yu1o9mv9tr',
     associativeInscriptionNumber: '60189',
     dateOfInscription: '2017-01-10:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/sosmaullidos/',
-      facebook: 'https://www.facebook.com/sosmaullidos',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosmaullidos/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/sosmaullidos',
+      },
+    ],
   },
   {
     id: '1e26ce22',
@@ -4599,10 +5391,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100069100126434',
     associativeInscriptionNumber: '67617',
     dateOfInscription: '2020-05-27:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/anca_figueres',
-      facebook: 'https://www.facebook.com/profile.php?id=100069100126434',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/anca_figueres',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100069100126434',
+      },
+    ],
   },
   {
     id: '615524c1',
@@ -4626,9 +5424,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/associacio.canae_oficial/',
     associativeInscriptionNumber: '42864',
     dateOfInscription: '2010-07-05:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/associacio.canae_oficial/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associacio.canae_oficial/',
+      },
+    ],
   },
   {
     id: '1008a222',
@@ -4652,10 +5453,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.ongdrac.com/adopta/perros/',
     associativeInscriptionNumber: '70514',
     dateOfInscription: '2022-01-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/drac.ong/',
-      facebook: 'https://www.facebook.com/asodrac',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/drac.ong/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/asodrac',
+      },
+    ],
   },
   {
     id: '0d0b6553',
@@ -4678,10 +5485,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/acaimaolesa/',
     associativeInscriptionNumber: '30499',
     dateOfInscription: '2005-05-17:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/acaimaolesa/',
-      facebook: 'https://www.facebook.com/Acaima.org/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/acaimaolesa/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Acaima.org/',
+      },
+    ],
   },
   {
     id: 'c168e136',
@@ -4704,10 +5517,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adacastellarvalles/',
     associativeInscriptionNumber: '57686',
     dateOfInscription: '2015-12-23:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adacastellarvalles/',
-      facebook: 'https://www.facebook.com/ada.castellardelvalles2015/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adacastellarvalles/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ada.castellardelvalles2015/',
+      },
+    ],
   },
   {
     id: 'd417e31c',
@@ -4731,10 +5550,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adipaccalafell/',
     associativeInscriptionNumber: '62432',
     dateOfInscription: '2018-01-11:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adipaccalafell/',
-      facebook: 'https://www.facebook.com/adipaccalafell/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adipaccalafell/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adipaccalafell/',
+      },
+    ],
   },
   {
     id: '325b0e40',
@@ -4757,10 +5582,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://adoptaunamic.org/listado',
     associativeInscriptionNumber: '51284',
     dateOfInscription: '2013-09-19:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adoptaunamic/',
-      facebook: 'https://www.facebook.com/adoptaunamic/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adoptaunamic/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adoptaunamic/',
+      },
+    ],
   },
   {
     id: '59f0da2d',
@@ -4784,10 +5615,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adoptagat/',
     associativeInscriptionNumber: '53803',
     dateOfInscription: '2014-07-11:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adoptagat/',
-      facebook: 'https://www.facebook.com/adoptagat.associacio/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adoptagat/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adoptagat.associacio/',
+      },
+    ],
   },
   {
     id: 'c94f6263',
@@ -4811,10 +5648,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/degats/',
     associativeInscriptionNumber: '44576',
     dateOfInscription: '2011-03-16:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/degats/',
-      facebook: 'https://www.facebook.com/DeGatsBcn/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/degats/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/DeGatsBcn/',
+      },
+    ],
   },
   {
     id: 'cdd3b696',
@@ -4838,10 +5681,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/amicsdesesanimalsdecdqs/',
     associativeInscriptionNumber: '37014',
     dateOfInscription: '2008-06-10:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/amicsdesesanimalsdecdqs/',
-      facebook: 'https://www.facebook.com/profile.php?id=61552284463447',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amicsdesesanimalsdecdqs/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=61552284463447',
+      },
+    ],
   },
   {
     id: '5e270ca4',
@@ -4866,9 +5715,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/amicsanimalsbalenyaseva',
     associativeInscriptionNumber: '57309',
     dateOfInscription: '2015-10-30:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/amicsanimalsbalenyaseva',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsanimalsbalenyaseva',
+      },
+    ],
   },
   {
     id: '707e3bf9',
@@ -4891,10 +5743,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/somlasevaveu/',
     associativeInscriptionNumber: '71731',
     dateOfInscription: '2022-09-28:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100081015622447',
-      instagram: 'https://www.instagram.com/somlasevaveu/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100081015622447',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/somlasevaveu/',
+      },
+    ],
   },
   {
     id: '823405a7',
@@ -4922,10 +5780,16 @@ export const organizations: Organization[] = [
     logo: undefined,
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/centreacollidagarrotxa/',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php/?id=61557462790707',
-      instagram: 'https://www.instagram.com/centreacollidagarrotxa/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php/?id=61557462790707',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/centreacollidagarrotxa/',
+      },
+    ],
   },
   {
     id: '10862974',
@@ -4948,10 +5812,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/amicsiprotectorsdelsgats/',
     associativeInscriptionNumber: '27557',
     dateOfInscription: '2003-05-13:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/amicsiprotectorsdelsgats/',
-      instagram: 'https://www.instagram.com/amicsiprotectorsdelsgats/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsiprotectorsdelsgats/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/amicsiprotectorsdelsgats/',
+      },
+    ],
   },
   {
     id: 'f2f97fbc',
@@ -4974,10 +5844,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/somamicsdelsanimalscat/',
     associativeInscriptionNumber: '52510',
     dateOfInscription: '2014-03-24:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100083232851721#',
-      instagram: 'https://www.instagram.com/somamicsdelsanimalscat/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100083232851721#',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/somamicsdelsanimalscat/',
+      },
+    ],
   },
   {
     id: '38398845',
@@ -5000,10 +5876,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://aragat.org/listado',
     associativeInscriptionNumber: '52146',
     dateOfInscription: '2014-02-04:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ARAGATBCN',
-      instagram: 'https://www.instagram.com/aragatbcn/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ARAGATBCN',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/aragatbcn/',
+      },
+    ],
   },
   {
     id: '92c9a57a',
@@ -5026,9 +5908,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/animalrescueemporda/',
     associativeInscriptionNumber: '61076',
     dateOfInscription: '2017-05-19:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/animalrescueemporda/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/animalrescueemporda/',
+      },
+    ],
   },
   {
     id: '7eb434d6',
@@ -5052,9 +5937,12 @@ export const organizations: Organization[] = [
       'https://www.facebook.com/groups/446768788772103/user/100075555862250/',
     associativeInscriptionNumber: '68862',
     dateOfInscription: '2021-02-19:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100066493214718',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100066493214718',
+      },
+    ],
   },
   {
     id: '30f01942',
@@ -5085,11 +5973,20 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/rescat.asociacion.animalista',
     associativeInscriptionNumber: '38000',
     dateOfInscription: '2008-10-29:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/asociacion.animalista.rescat/',
-      instagram: 'https://www.instagram.com/rescat.asociacion.animalista/',
-      tikTok: 'https://www.tiktok.com/@asociacionrescat',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/asociacion.animalista.rescat/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/rescat.asociacion.animalista/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@asociacionrescat',
+      },
+    ],
   },
   {
     id: 'ade7b00d',
@@ -5113,10 +6010,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/animalistesdemanlleu/',
     associativeInscriptionNumber: '25718',
     dateOfInscription: '2002-01-28:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/animalistesdemanlleu/',
-      instagram: 'https://www.instagram.com/assanimalistamanlleu',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/animalistesdemanlleu/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/assanimalistamanlleu',
+      },
+    ],
   },
   {
     id: 'c43c0e2b',
@@ -5140,10 +6043,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/associacioelsquissos/',
     associativeInscriptionNumber: '32888',
     dateOfInscription: '2006-07-24:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/associacioelsquissos/',
-      instagram: 'https://www.instagram.com/elsquissos/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/associacioelsquissos/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/elsquissos/',
+      },
+    ],
   },
   {
     id: '2c708722',
@@ -5166,10 +6075,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/rodagat',
     associativeInscriptionNumber: '31797',
     dateOfInscription: '2006-02-28:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/rodagat',
-      instagram: 'https://www.instagram.com/associaciorodagat/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/rodagat',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associaciorodagat/',
+      },
+    ],
   },
   {
     id: '7a45651b',
@@ -5193,9 +6108,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://badagats.org/listado',
     associativeInscriptionNumber: '30006',
     dateOfInscription: '2005-01-25:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/Badagats',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Badagats',
+      },
+    ],
   },
   {
     id: '03d59d11',
@@ -5220,11 +6138,20 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/ADAsantfeliudecodines/',
     associativeInscriptionNumber: '56947',
     dateOfInscription: '2015-09-09:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adasantfeliu',
-      facebook: 'https://www.facebook.com/ADAsantfeliudecodines/',
-      tikTok: 'https://www.tiktok.com/@ada.santfeliudecodines',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adasantfeliu',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ADAsantfeliudecodines/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@ada.santfeliudecodines',
+      },
+    ],
   },
   {
     id: '7e17ffb1',
@@ -5247,10 +6174,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/CreixellNatura/',
     associativeInscriptionNumber: '36607',
     dateOfInscription: '2008-04-08:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/creixellnatura/',
-      facebook: 'https://www.facebook.com/CreixellNatura/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/creixellnatura/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/CreixellNatura/',
+      },
+    ],
   },
   {
     id: '693ef814',
@@ -5273,9 +6206,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/elclubdekat/',
     associativeInscriptionNumber: '33382',
     dateOfInscription: '2006-11-07:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/elclubdekat/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/elclubdekat/',
+      },
+    ],
   },
   {
     id: '2e98180d',
@@ -5299,9 +6235,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://fundaciosilvestre.org/la-26-adopcion-de-gatos',
     associativeInscriptionNumber: '2374',
     dateOfInscription: '2007-11-15:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/fundaciosilvestre/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/fundaciosilvestre/',
+      },
+    ],
   },
   {
     id: '5c07b6ae',
@@ -5324,10 +6263,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/fundaciofauna/',
     associativeInscriptionNumber: '2199',
     dateOfInscription: '2006-05-11:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/fundaciofauna/',
-      facebook: 'https://www.facebook.com/fundaciofauna',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/fundaciofauna/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/fundaciofauna',
+      },
+    ],
   },
   {
     id: '31572693',
@@ -5351,10 +6296,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsdegracia/',
     associativeInscriptionNumber: '50259',
     dateOfInscription: '2013-04-17:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsdegracia/',
-      facebook: 'https://www.facebook.com/GatsDeGracia',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdegracia/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GatsDeGracia',
+      },
+    ],
   },
   {
     id: '7bcec051',
@@ -5379,10 +6330,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsdelcarrer/',
     associativeInscriptionNumber: '49119',
     dateOfInscription: '2012-11-19:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsdelcarrer/',
-      facebook: 'https://www.facebook.com/Gatsdelcarrer',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdelcarrer/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Gatsdelcarrer',
+      },
+    ],
   },
   {
     id: '4fe6b6e6',
@@ -5405,10 +6362,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/peludetsdesvc/',
     associativeInscriptionNumber: '66554',
     dateOfInscription: '2019-10-28:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/peludetsdesvc/',
-      facebook: 'https://www.facebook.com/peludetsantvicenc/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/peludetsdesvc/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/peludetsantvicenc/',
+      },
+    ],
   },
   {
     id: 'ec70e929',
@@ -5431,10 +6394,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/montaltmiau',
     associativeInscriptionNumber: '38833',
     dateOfInscription: '2009-03-27:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/montaltmiau',
-      facebook: 'https://www.facebook.com/profile.php?id=100071781323941',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/montaltmiau',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100071781323941',
+      },
+    ],
   },
   {
     id: '8adad82d',
@@ -5458,10 +6427,16 @@ export const organizations: Organization[] = [
       'https://gatsigossos.protecms.com/animales?status-in=adoption%2Creserved',
     associativeInscriptionNumber: '57431',
     dateOfInscription: '2015-11-20:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsigossossantfeliu/',
-      facebook: 'https://www.facebook.com/gatsigossosfeliu',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsigossossantfeliu/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatsigossosfeliu',
+      },
+    ],
   },
   {
     id: 'b7286a6a',
@@ -5484,10 +6459,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gats_igualada/',
     associativeInscriptionNumber: '58452',
     dateOfInscription: '2016-04-26:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gats_igualada/',
-      facebook: 'https://www.facebook.com/GatsIgualada',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gats_igualada/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GatsIgualada',
+      },
+    ],
   },
   {
     id: 'd6357d5d',
@@ -5510,10 +6491,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatslaroca/',
     associativeInscriptionNumber: '54714',
     dateOfInscription: '2014-10-29:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatslaroca/',
-      facebook: 'https://www.facebook.com/GatslaRoca/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatslaroca/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GatslaRoca/',
+      },
+    ],
   },
   {
     id: 'aa263c91',
@@ -5537,10 +6524,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.geligats.com/adopcions/',
     associativeInscriptionNumber: '52902',
     dateOfInscription: '2014-04-24:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/geligats',
-      facebook: 'https://www.facebook.com/Geligats',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/geligats',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Geligats',
+      },
+    ],
   },
   {
     id: 'd99d27b4',
@@ -5569,10 +6562,16 @@ export const organizations: Organization[] = [
     logo: 'https://www.helpguau.com/wp-content/uploads/2019/06/cropped-logo-hg@2x.png',
     website: 'https://www.helpguau.com/',
     adoptAnimalsURL: 'https://www.helpguau.com/animales/',
-    socials: {
-      instagram: 'https://www.instagram.com/helpguau/',
-      facebook: 'https://www.facebook.com/helpguauadopta',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/helpguau/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/helpguauadopta',
+      },
+    ],
   },
   {
     id: '43e48913',
@@ -5597,10 +6596,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/proaniplanprotectora/',
     associativeInscriptionNumber: '43808',
     dateOfInscription: '2010-12-14:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/proaniplanprotectora/',
-      facebook: 'https://www.facebook.com/ProtectoraDeAnimalesYPlantas/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/proaniplanprotectora/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraDeAnimalesYPlantas/',
+      },
+    ],
   },
   {
     id: '380f7b17',
@@ -5622,10 +6627,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/progatbonastre',
     associativeInscriptionNumber: '38493',
     dateOfInscription: '2009-02-10:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatbonastre/',
-      facebook: 'https://www.facebook.com/progatbonastre',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatbonastre/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/progatbonastre',
+      },
+    ],
   },
   {
     id: '35c0ec05',
@@ -5648,10 +6659,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/ProgatLaGarrigaAssoc',
     associativeInscriptionNumber: '31445',
     dateOfInscription: '2006-01-09:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progat.la.garriga/',
-      facebook: 'https://www.facebook.com/ProgatLaGarrigaAssoc',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progat.la.garriga/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProgatLaGarrigaAssoc',
+      },
+    ],
   },
   {
     id: 'c00d3113',
@@ -5674,10 +6691,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progatsantboi',
     associativeInscriptionNumber: '26080',
     dateOfInscription: '2002-04-26:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatsantboi',
-      facebook: 'https://www.facebook.com/progat.santboi',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatsantboi',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/progat.santboi',
+      },
+    ],
   },
   {
     id: '785d1a22',
@@ -5700,10 +6723,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progatterrassa/',
     associativeInscriptionNumber: '29236',
     dateOfInscription: '2004-06-22:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatterrassa/',
-      facebook: 'https://www.facebook.com/progat.terrassa1/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatterrassa/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/progat.terrassa1/',
+      },
+    ],
   },
   {
     id: 'ee50620a',
@@ -5727,9 +6756,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/ProtectoraSar',
     associativeInscriptionNumber: '40245',
     dateOfInscription: '2009-09-08:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ProtectoraSar',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProtectoraSar',
+      },
+    ],
   },
   {
     id: '82ad390f',
@@ -5752,10 +6784,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/ProtectoraSar',
     associativeInscriptionNumber: '41691',
     dateOfInscription: '2010-03-08:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/apao.cat',
-      instagram: 'https://www.instagram.com/apaocatsanctuary/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/apao.cat',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/apaocatsanctuary/',
+      },
+    ],
   },
   {
     id: '9c23a87e',
@@ -5778,10 +6816,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/seproansallent/',
     associativeInscriptionNumber: '25767',
     dateOfInscription: '2002-02-08:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/seproan.sallent',
-      instagram: 'https://www.instagram.com/seproansallent/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/seproan.sallent',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/seproansallent/',
+      },
+    ],
   },
   {
     id: '381fa6c2',
@@ -5804,10 +6848,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/sos_bdn',
     associativeInscriptionNumber: '57467',
     dateOfInscription: '2015-11-20:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/sosbdn',
-      instagram: 'https://www.instagram.com/sos_bdn',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/sosbdn',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sos_bdn',
+      },
+    ],
   },
   {
     id: '62d2bccf',
@@ -5832,10 +6882,16 @@ export const organizations: Organization[] = [
       'https://progatpalamosisantjoan.cat/els-nostres-animals/adoptam',
     associativeInscriptionNumber: '38451',
     dateOfInscription: '2009-02-03:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ProgatPalamos/',
-      instagram: 'https://www.instagram.com/palamosprogat/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProgatPalamos/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/palamosprogat/',
+      },
+    ],
   },
   {
     id: '344ff211',
@@ -5858,10 +6914,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progatlampolla/',
     associativeInscriptionNumber: '58149',
     dateOfInscription: '2016-03-30:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/ProgatPalamos/',
-      instagram: 'https://www.instagram.com/progatlampolla/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ProgatPalamos/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatlampolla/',
+      },
+    ],
   },
   {
     id: 'f4c56178',
@@ -5886,10 +6948,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/sosgatsalou/',
     associativeInscriptionNumber: '50162',
     dateOfInscription: '2013-04-23:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/sosgat.salou',
-      instagram: 'https://www.instagram.com/sosgatsalou/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/sosgat.salou',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosgatsalou/',
+      },
+    ],
   },
   {
     id: '2892ae51',
@@ -5912,10 +6980,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/gatosdelave/',
     associativeInscriptionNumber: '34484',
     dateOfInscription: '2007-05-12:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/gatosdelave/',
-      instagram: 'https://www.instagram.com/sosgatsbcn/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatosdelave/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosgatsbcn/',
+      },
+    ],
   },
   {
     id: '5b59f972',
@@ -5938,10 +7012,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://sosgolden.org/',
     associativeInscriptionNumber: '48218',
     dateOfInscription: '2012-07-10:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/SOSGOLDEN/',
-      instagram: 'https://www.instagram.com/SOSGOLDEN/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/SOSGOLDEN/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/SOSGOLDEN/',
+      },
+    ],
     idZoologicalNucleus: 'T25/00084',
   },
   {
@@ -5967,10 +7047,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/SQAnimalia/',
     associativeInscriptionNumber: '37381',
     dateOfInscription: '2008-07-21:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/SQAnimalia/',
-      instagram: 'https://www.instagram.com/sqanimalia/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/SQAnimalia/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sqanimalia/',
+      },
+    ],
   },
   {
     id: 'dcee3def',
@@ -5993,11 +7079,20 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adacerdanyola/',
     associativeInscriptionNumber: '28586',
     dateOfInscription: '2004-02-06:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/adaccerdanyola',
-      instagram: 'https://www.instagram.com/adacerdanyola/',
-      tikTok: 'https://www.tiktok.com/@adac_cerdanyola',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adaccerdanyola',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adacerdanyola/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@adac_cerdanyola',
+      },
+    ],
   },
   {
     id: 'a1547d0f',
@@ -6020,11 +7115,16 @@ export const organizations: Organization[] = [
       'https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices',
     associativeInscriptionNumber: '57985',
     dateOfInscription: '2016-02-17:00:00.000Z',
-    socials: {
-      facebook:
-        'https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices',
-      instagram: 'https://www.instagram.com/huellasfelicescanyelles/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/huellasfelicescanyelles/',
+      },
+    ],
   },
   {
     id: '0ed0e4ed',
@@ -6048,10 +7148,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/AssociacioDAIMA',
     associativeInscriptionNumber: '59257',
     dateOfInscription: '2016-09-16:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/AssociacioDAIMA',
-      instagram: 'https://www.instagram.com/daimasoc/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/AssociacioDAIMA',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/daimasoc/',
+      },
+    ],
   },
   {
     id: '196ba3e4',
@@ -6075,9 +7181,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/AssociacioDAIMA',
     associativeInscriptionNumber: '72908',
     dateOfInscription: '2023-04-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsdeverdu/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdeverdu/',
+      },
+    ],
   },
   {
     id: '7d9f61ee',
@@ -6100,10 +7209,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/GatsdelaSegarra/',
     associativeInscriptionNumber: '61409',
     dateOfInscription: '2017-06-26:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gats_de_la_segarra/',
-      facebook: 'https://www.facebook.com/GatsdelaSegarra/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gats_de_la_segarra/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GatsdelaSegarra/',
+      },
+    ],
   },
   {
     id: '97aa1614',
@@ -6127,10 +7242,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsdebrafim/',
     associativeInscriptionNumber: '60340',
     dateOfInscription: '2017-02-07:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsdebrafim/',
-      facebook: 'https://www.facebook.com/gatsdebrafim/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdebrafim/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gatsdebrafim/',
+      },
+    ],
   },
   {
     id: 'd6a61990',
@@ -6153,10 +7274,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=61562512900572',
     associativeInscriptionNumber: '75486',
     dateOfInscription: '2024-06-06:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/asociacionpuigmascot/',
-      facebook: 'https://www.facebook.com/profile.php?id=61562512900572',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/asociacionpuigmascot/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=61562512900572',
+      },
+    ],
   },
   {
     id: '0dbbd3dc',
@@ -6180,10 +7307,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/mas_animals/',
     associativeInscriptionNumber: '68716',
     dateOfInscription: '2021-01-28:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/mas_animals/',
-      facebook: 'https://www.facebook.com/associaciomasanimals/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/mas_animals/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/associaciomasanimals/',
+      },
+    ],
   },
   {
     id: '27a0c069',
@@ -6205,9 +7338,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/boigpertu_vilabella/',
     associativeInscriptionNumber: '66356',
     dateOfInscription: '2019-10-08:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/boigpertu_vilabella/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/boigpertu_vilabella/',
+      },
+    ],
   },
   {
     id: 'd60a524b',
@@ -6231,10 +7367,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://plagatsadopta.org/gatos-en-adopcion-tarragona/',
     associativeInscriptionNumber: '69047',
     dateOfInscription: '2021-03-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/plagats',
-      facebook: 'https://www.facebook.com/plagats/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/plagats',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/plagats/',
+      },
+    ],
   },
   {
     id: '3d1a5847',
@@ -6257,10 +7399,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://vadal.sukycms.com/animales',
     associativeInscriptionNumber: '74224',
     dateOfInscription: '2023-12-01:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/vadal_linyola/',
-      facebook: 'https://www.facebook.com/vadal.linyola/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/vadal_linyola/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/vadal.linyola/',
+      },
+    ],
   },
   {
     id: '622197b4',
@@ -6284,9 +7432,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsmoien/',
     associativeInscriptionNumber: '66197',
     dateOfInscription: '2019-08-28:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsmoien/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsmoien/',
+      },
+    ],
   },
   {
     id: '5d74c050',
@@ -6309,9 +7460,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/meskanimals/',
     associativeInscriptionNumber: '60196',
     dateOfInscription: '2017-01-10:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/meskanimals/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/meskanimals/',
+      },
+    ],
   },
   {
     id: '5afcc389',
@@ -6335,10 +7489,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/d._a._v._a/',
     associativeInscriptionNumber: '69303',
     dateOfInscription: '2021-04-28:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/d._a._v._a/',
-      facebook: 'https://www.facebook.com/rescatanimal/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/d._a._v._a/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/rescatanimal/',
+      },
+    ],
   },
   {
     id: 'ff4b94bd',
@@ -6360,9 +7520,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/katabienestaranimal/',
     associativeInscriptionNumber: '74585',
     dateOfInscription: '2024-02-06:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/katabienestaranimal/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/katabienestaranimal/',
+      },
+    ],
   },
   {
     id: 'afd9e0e0',
@@ -6384,10 +7547,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/el_niu_de_l_oliba/',
     associativeInscriptionNumber: '67698',
     dateOfInscription: '2020-06-08:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/el_niu_de_l_oliba/',
-      facebook: 'https://www.facebook.com/elniudeloliba/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/el_niu_de_l_oliba/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/elniudeloliba/',
+      },
+    ],
   },
   {
     id: '846017cd',
@@ -6410,10 +7579,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/apamevacarisses/',
     associativeInscriptionNumber: '60873',
     dateOfInscription: '2017-04-12:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/apame.vacarisses/',
-      facebook: 'https://www.facebook.com/apamevacarisses/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/apame.vacarisses/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/apamevacarisses/',
+      },
+    ],
   },
   {
     id: 'bc057c94',
@@ -6435,9 +7610,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/groups/853428221458056/',
     associativeInscriptionNumber: '59054',
     dateOfInscription: '2016-07-27:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/groups/853428221458056/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/groups/853428221458056/',
+      },
+    ],
   },
   {
     id: 'b413c64f',
@@ -6460,10 +7638,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/elmasdelspeluts/',
     associativeInscriptionNumber: '54442',
     dateOfInscription: '2014-10-23:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/elmasdelspeluts/',
-      instagram: 'https://www.instagram.com/mas_dels_peluts/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/elmasdelspeluts/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/mas_dels_peluts/',
+      },
+    ],
   },
   {
     id: '92667ccf',
@@ -6485,9 +7669,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/marrameusdesanauja/',
     associativeInscriptionNumber: '73078',
     dateOfInscription: '2023-05-16:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/marrameusdesanauja/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/marrameusdesanauja/',
+      },
+    ],
   },
   {
     id: '3b8a0c3c',
@@ -6512,10 +7699,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/PROGATGINESTA/',
     associativeInscriptionNumber: '67871',
     dateOfInscription: '2020-07-20:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/progatginestar/',
-      facebook: 'https://www.facebook.com/PROGATGINESTA/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/progatginestar/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/PROGATGINESTA/',
+      },
+    ],
   },
   {
     id: '628766e9',
@@ -6538,9 +7731,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/refugilaginesta/',
     associativeInscriptionNumber: '37281',
     dateOfInscription: '2008-07-16:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/refugilaginesta/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/refugilaginesta/',
+      },
+    ],
     idZoologicalNucleus: 'E25/00062',
   },
   {
@@ -6563,9 +7759,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/benesgat/',
     associativeInscriptionNumber: '70592',
     dateOfInscription: '2022-02-02:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/benesgat/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/benesgat/',
+      },
+    ],
   },
   {
     id: '03b14c1f',
@@ -6587,11 +7786,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/associacio_vimbodipets/',
     associativeInscriptionNumber: '64949',
     dateOfInscription: '2019-02-08:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/associacio_vimbodipets/',
-      facebook:
-        'https://www.facebook.com/people/Vimbod%C3%AD-Pets/100064553445351/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associacio_vimbodipets/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/people/Vimbod%C3%AD-Pets/100064553445351/',
+      },
+    ],
   },
   {
     id: '26624c03',
@@ -6615,10 +7819,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatigosmontblanc/',
     associativeInscriptionNumber: '58674',
     dateOfInscription: '2016-06-08:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatigosmontblanc/',
-      facebook: 'https://www.facebook.com/montblancgatigos',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatigosmontblanc/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/montblancgatigos',
+      },
+    ],
   },
   {
     id: '12eb3d1b',
@@ -6640,10 +7850,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/vilacat2023/',
     associativeInscriptionNumber: '70491',
     dateOfInscription: '2022-01-13:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/vilacat2023/',
-      facebook: 'https://www.facebook.com/profile.php?id=100083053842542',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/vilacat2023/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100083053842542',
+      },
+    ],
   },
   {
     id: 'cc420b96',
@@ -6666,10 +7882,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/voluntariosnomadas/',
     associativeInscriptionNumber: '74055',
     dateOfInscription: '2023-10-31:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/voluntariosnomadas/',
-      facebook: 'https://www.facebook.com/voluntariosnomadas2',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/voluntariosnomadas/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/voluntariosnomadas2',
+      },
+    ],
   },
   {
     id: '05b45b75',
@@ -6692,10 +7914,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/asociacion_defensa_ppp/',
     associativeInscriptionNumber: '49509',
     dateOfInscription: '2013-01-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/asociacion_defensa_ppp/',
-      facebook: 'https://www.facebook.com/associacio.perlaprotecciodelsgpp',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/asociacion_defensa_ppp/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/associacio.perlaprotecciodelsgpp',
+      },
+    ],
   },
   {
     id: 'cf02b7c6',
@@ -6718,10 +7946,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/vilanimals_vilafranca/',
     associativeInscriptionNumber: '58885',
     dateOfInscription: '2016-06-20:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/vilanimals_vilafranca/',
-      facebook: 'https://www.facebook.com/vilanimals/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/vilanimals_vilafranca/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/vilanimals/',
+      },
+    ],
   },
   {
     id: 'af11e16e',
@@ -6745,10 +7979,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/calma.felina/',
     associativeInscriptionNumber: '76072',
     dateOfInscription: '2024-09-12:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/calma.felina/',
-      facebook: 'https://www.facebook.com/calmafelina/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/calma.felina/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/calmafelina/',
+      },
+    ],
   },
   {
     id: '054f4244',
@@ -6771,10 +8011,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://gatsdolivella.com/ahora-en-adopcion/',
     associativeInscriptionNumber: '57294',
     dateOfInscription: '2015-10-30:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsolivella',
-      facebook: 'https://www.facebook.com/GatsDolivella',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsolivella',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/GatsDolivella',
+      },
+    ],
   },
   {
     id: '771f6a4a',
@@ -6799,11 +8045,20 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adoptame_y_mimame',
     associativeInscriptionNumber: '60487',
     dateOfInscription: '2017-02-14:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adoptame_y_mimame',
-      facebook: 'https://www.facebook.com/adoptameymimame',
-      tikTok: 'https://www.tiktok.com/@adoptameymimame',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adoptame_y_mimame',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adoptameymimame',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@adoptameymimame',
+      },
+    ],
   },
   {
     id: 'afae631c',
@@ -6826,10 +8081,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adac_canyelles/',
     associativeInscriptionNumber: '47238',
     dateOfInscription: '2012-03-02:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adac_canyelles/',
-      facebook: 'https://www.facebook.com/profile.php?id=100004349085094',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adac_canyelles/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100004349085094',
+      },
+    ],
   },
   {
     id: '215db813',
@@ -6853,10 +8114,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/matica_animal_rescue/',
     associativeInscriptionNumber: '70853',
     dateOfInscription: '2022-03-19:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/matica_animal_rescue/',
-      facebook: 'https://www.facebook.com/profile.php?id=100064501944435',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/matica_animal_rescue/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064501944435',
+      },
+    ],
   },
   {
     id: '3ea7fdd9',
@@ -6881,10 +8148,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/colonia.malugats/',
     associativeInscriptionNumber: '68588',
     dateOfInscription: '2020-12-23:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/colonia.malugats/',
-      facebook: 'https://www.facebook.com/profile.php?id=100078863536614',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/colonia.malugats/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100078863536614',
+      },
+    ],
   },
   {
     id: '0777645b',
@@ -6907,10 +8180,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/pelutscubelles/',
     associativeInscriptionNumber: '49516',
     dateOfInscription: '2013-01-11:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/pelutscubelles/',
-      facebook: 'https://www.facebook.com/groups/colonia.cat.cubelles',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/pelutscubelles/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/groups/colonia.cat.cubelles',
+      },
+    ],
   },
   {
     id: '736bdb60',
@@ -6931,9 +8210,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php/?id=61562158372483',
     associativeInscriptionNumber: '75021',
     dateOfInscription: '2024-04-04:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php/?id=61562158372483',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php/?id=61562158372483',
+      },
+    ],
   },
   {
     id: '7e9867da',
@@ -6955,9 +8237,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsguimera',
     associativeInscriptionNumber: '72266',
     dateOfInscription: '2023-01-03:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsguimera',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsguimera',
+      },
+    ],
   },
   {
     id: '9861a33e',
@@ -6979,9 +8264,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adao_oliana/',
     associativeInscriptionNumber: '69979',
     dateOfInscription: '2021-09-28:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adao_oliana/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adao_oliana/',
+      },
+    ],
   },
   {
     id: 'a3017db7',
@@ -7004,9 +8292,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/labarretinafelina/',
     associativeInscriptionNumber: '47099',
     dateOfInscription: '2012-02-21:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/labarretinafelina/',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/labarretinafelina/',
+      },
+    ],
   },
   {
     id: '9c21c7ef',
@@ -7028,10 +8319,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/nova_petjada/',
     associativeInscriptionNumber: '77054',
     dateOfInscription: '2025-02-25:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/nova_petjada/',
-      facebook: 'https://www.facebook.com/profile.php?id=61572294824539',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/nova_petjada/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=61572294824539',
+      },
+    ],
   },
   {
     id: '20c2b203',
@@ -7054,10 +8351,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gats4pobles/',
     associativeInscriptionNumber: '65038',
     dateOfInscription: '2019-02-19:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gats4pobles/',
-      facebook: 'https://www.facebook.com/gats4pobles',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gats4pobles/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gats4pobles',
+      },
+    ],
   },
   {
     id: 'c59fcb0d',
@@ -7080,9 +8383,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsdeguissona',
     associativeInscriptionNumber: '72708',
     dateOfInscription: '2023-03-14:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/gatsdeguissona',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatsdeguissona',
+      },
+    ],
   },
   {
     id: 'b3101329',
@@ -7106,10 +8412,16 @@ export const organizations: Organization[] = [
       'https://adylasantfost.sukycms.com/animales?status=adoption',
     associativeInscriptionNumber: '60186',
     dateOfInscription: '2017-01-18:00:00.000Z',
-    socials: {
-      instagram: 'https://www.instagram.com/adylasantfost/',
-      facebook: 'https://www.facebook.com/ADYLASANTFOST',
-    },
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adylasantfost/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/ADYLASANTFOST',
+      },
+    ],
   },
   {
     id: 'd2df4316',
@@ -7133,9 +8445,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/4potespalausaverdera/',
     associativeInscriptionNumber: '60542',
     dateOfInscription: '2017-03-01:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/4potespalausaverdera/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/4potespalausaverdera/',
+      },
+    ],
   },
   {
     id: 'f7d83ec4',
@@ -7159,9 +8474,12 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100070265105040',
     associativeInscriptionNumber: '64320',
     dateOfInscription: '2018-10-19:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100070265105040',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100070265105040',
+      },
+    ],
   },
   {
     id: '33128f68',
@@ -7184,10 +8502,16 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://sosweimaraner.org/adopta-o-amadrina-un-perro/',
     associativeInscriptionNumber: '65621',
     dateOfInscription: '2019-04-29:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/profile.php?id=100064966352983',
-      instagram: 'https://www.instagram.com/sosweimaraner_org/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100064966352983',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosweimaraner_org/',
+      },
+    ],
   },
   {
     id: 'fe117899',
@@ -7208,10 +8532,16 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-07-04T00:00:00.000Z',
     associativeInscriptionNumber: '68568',
     dateOfInscription: '2020-12-18:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/nuestravozanimal/',
-      instagram: 'https://www.instagram.com/sosacatalunya/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/nuestravozanimal/',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/sosacatalunya/',
+      },
+    ],
   },
   {
     id: 'db83639a',
@@ -7233,9 +8563,15 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-07-04T00:00:00.000Z',
     associativeInscriptionNumber: '24643',
     dateOfInscription: '2001-04-04:00:00.000Z',
-    socials: {
-      facebook: 'https://www.facebook.com/martogat',
-      instagram: 'https://www.instagram.com/martogat/',
-    },
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/martogat',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/martogat/',
+      },
+    ],
   },
 ];

@@ -3,6 +3,7 @@
   "slug": "sol-miaus",
   "name": "Associació de Sol de Miaus de la Vall d'Aro",
   "shortName": "Sol de Miaus",
+  "contactEmail": "soldemiaus@gmail.com",
   "whatsAppPhone": "622418187",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/2/4/3/1/4/eu7ftut7dy.jpg",
   "region": "baix-emporda",
@@ -17,8 +18,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2019-04-16T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/soldemiaus.gats",
-    "instagram": "https://www.instagram.com/soldemiaus"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/soldemiaus.gats"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/soldemiaus"
+    }
+  ]
 }

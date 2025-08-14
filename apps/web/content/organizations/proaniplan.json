@@ -20,8 +20,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/proaniplanprotectora/",
   "associativeInscriptionNumber": "43808",
   "dateOfInscription": "2010-12-14:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/proaniplanprotectora/",
-    "facebook": "https://www.facebook.com/ProtectoraDeAnimalesYPlantas/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/proaniplanprotectora/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProtectoraDeAnimalesYPlantas/"
+    }
+  ]
 }

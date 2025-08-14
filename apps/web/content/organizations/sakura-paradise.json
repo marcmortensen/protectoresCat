@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/sakuraparadisesanctuary/",
   "associativeInscriptionNumber": "71723",
   "dateOfInscription": "2022-09-26T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/sakuraparadisesanctuary/",
-    "facebook": "https://www.facebook.com/profile.php?id=100078265972964"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sakuraparadisesanctuary/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100078265972964"
+    }
+  ]
 }

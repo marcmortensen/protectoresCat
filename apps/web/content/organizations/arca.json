@@ -26,8 +26,14 @@
   "dateOfInscription": "2001-08-10T00:00:00.000Z",
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/protearca/",
-    "instagram": "https://www.instagram.com/protectora_arca_international"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/protearca/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora_arca_international"
+    }
+  ]
 }

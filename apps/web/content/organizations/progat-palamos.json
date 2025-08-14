@@ -19,8 +19,14 @@
   "adoptAnimalsURL": "https://progatpalamosisantjoan.cat/els-nostres-animals/adoptam",
   "associativeInscriptionNumber": "38451",
   "dateOfInscription": "2009-02-03:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/ProgatPalamos/",
-    "instagram": "https://www.instagram.com/palamosprogat/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProgatPalamos/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/palamosprogat/"
+    }
+  ]
 }

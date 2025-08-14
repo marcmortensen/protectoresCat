@@ -9,10 +9,16 @@
   "province": "barcelona",
   "municipalityInscription": "Santa Eulàlia de Ronçana",
   "municipality": "Santa Eulàlia de Ronçana",
-  "socials": {
-    "instagram": "https://www.instagram.com/arbra_associacio/",
-    "facebook": "https://www.facebook.com/adopcionsresponsables"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/arbra_associacio/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adopcionsresponsables"
+    }
+  ],
   "description": "L'associació ARBRA va néixer al març del 2011 a Sta. Eulàlia de Ronçana, amb l'objectiu de donar una llar als animals que han estat abandonats, principalment al nostre municipi, així com d'altres llocs. També és important per a nosaltres la conscienciació ciutadana envers el respecte cap a tot tipus d'ésser viu. El nostre objectiu principal és trobar una família definitiva a tots aquests animals, i fins que arribi aquest moment, tenir cura d'ells. Ens ajudes a seguir salvant vides?",
   "isActive": true,
   "isMunicipal": false,

@@ -10,10 +10,16 @@
   "province": "barcelona",
   "municipalityInscription": "Badalona",
   "municipality": "Badalona",
-  "socials": {
-    "instagram": "https://www.instagram.com/sitgesangels/",
-    "facebook": "https://www.facebook.com/sitges.angels"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sitgesangels/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/sitges.angels"
+    }
+  ],
   "description": "Som una ONG que dóna protecció, menjar i atenció veterinària a animals abandonats. Estem 100% anti sacrifici. Durant 20 anys de feina hem rescatat més que 6000 gossos, gats i altres animals de la fam, la malaltia, l'abandó i la mort imminent, i els hem trobat cases a tot Europa. En aquest moment donem aixopluc a uns 40 gossos, gats i altres animals que necessiten la teva ajuda.",
   "isActive": true,
   "isMunicipal": false,

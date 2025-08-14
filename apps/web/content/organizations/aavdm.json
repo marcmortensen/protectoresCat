@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/amicsdelsanimalsvdm/",
   "associativeInscriptionNumber": "21558",
   "dateOfInscription": "1999-02-15:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/amicsdelsanimalsvdm/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amicsdelsanimalsvdm/"
+    }
+  ]
 }

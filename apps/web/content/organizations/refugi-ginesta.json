@@ -16,8 +16,11 @@
   "adoptAnimalsURL": "https://www.facebook.com/refugilaginesta/",
   "associativeInscriptionNumber": "37281",
   "dateOfInscription": "2008-07-16:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/refugilaginesta/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/refugilaginesta/"
+    }
+  ],
   "idZoologicalNucleus": "E25/00062"
 }

@@ -16,7 +16,10 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2018-03-01T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gateradetarrega/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gateradetarrega/"
+    }
+  ]
 }

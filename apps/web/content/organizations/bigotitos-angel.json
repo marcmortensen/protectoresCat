@@ -20,8 +20,14 @@
   "isActive": true,
   "lastUpdate": "2025-08-12T00:00:00.000Z",
   "dateOfInscription": "2023-02-14T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/bigotitosdeangel/",
-    "instagram": "https://www.instagram.com/bigotitosdeangel/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/bigotitosdeangel/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/bigotitosdeangel/"
+    }
+  ]
 }

@@ -19,8 +19,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/sosgatsalou/",
   "associativeInscriptionNumber": "50162",
   "dateOfInscription": "2013-04-23:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/sosgat.salou",
-    "instagram": "https://www.instagram.com/sosgatsalou/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/sosgat.salou"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sosgatsalou/"
+    }
+  ]
 }

@@ -25,10 +25,21 @@
   "municipality": "Tarragona",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "lastUpdate": "2025-08-14T00:00:00.000Z",
   "dateOfInscription": "1967-07-02T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/protectoratarragona/",
-    "instagram": "https://www.instagram.com/protectoratarragona/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/protectoratarragona/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoratarragona/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gateres.protetgn/"
+    }
+  ],
+  "enabledLogoUsage": true
 }

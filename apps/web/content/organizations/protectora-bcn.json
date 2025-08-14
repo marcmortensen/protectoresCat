@@ -10,10 +10,16 @@
   "municipalityInscription": "Barcelona",
   "municipality": "Barcelona",
   "contactPhone": "934170124",
-  "socials": {
-    "facebook": "https://www.facebook.com/protectorabarcelona",
-    "instagram": "https://www.instagram.com/protectora.bcn/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/protectorabarcelona"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora.bcn/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Carrer Guarda Antón, 10 08035 Barcelona",

@@ -9,9 +9,12 @@
   "province": "tarragona",
   "municipalityInscription": "el Vendrell",
   "municipality": "el Vendrell",
-  "socials": {
-    "facebook": "https://www.facebook.com/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/"
+    }
+  ],
   "description": "L'associació va ser creada l'any 2007 per un grup que volíem ser “la veu dels sense veu”, intentant alliberar tots els animals del municipi de la injustícia, el maltractament, el silenci i l'abandó; pretenent amb el nostre incondicional i constant treball atorgar-los la dignitat i respecte del que mai van haver de mancar com a éssers vius. Estem duent a terme la CER (Captura-Esterilització i Retorn) de les colònies de gats. Ajudem i busquem llars per a qualsevol animal necessitat.",
   "isActive": true,
   "isMunicipal": false,

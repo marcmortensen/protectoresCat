@@ -18,7 +18,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/gatsmoien/",
   "associativeInscriptionNumber": "66197",
   "dateOfInscription": "2019-08-28:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatsmoien/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsmoien/"
+    }
+  ]
 }

@@ -10,10 +10,16 @@
   "municipalityInscription": "Reus",
   "municipality": "Reus",
   "whatsAppPhone": "615454647",
-  "socials": {
-    "facebook": "https://www.facebook.com/reusgats",
-    "instagram": "https://www.instagram.com/reusgats/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/reusgats"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/reusgats/"
+    }
+  ],
   "description": "REUS GATS és una associació que va néixer d'un grup de persones que comparteixen les mateixes inquietuds pels gats. Constituïda des del 2011 a Reus, el nostre objectiu és proporcionar una vida millor a tots aquells gats que viuen als nostres carrers. Fomentem l'adopció via Facebook als qui han estat víctimes de l'abandonament, auxiliem els malalts o ferits, i els proporcionem l'atenció veterinària que necessitin.",
   "isActive": true,
   "isMunicipal": false,

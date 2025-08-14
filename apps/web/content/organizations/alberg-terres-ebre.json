@@ -10,10 +10,16 @@
   "province": "tarragona",
   "municipalityInscription": "Camarles",
   "municipality": "Camarles",
-  "socials": {
-    "instagram": "https://www.instagram.com/alberg_animals_terres_ebre/",
-    "facebook": "https://www.facebook.com/alberganimals"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/alberg_animals_terres_ebre/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/alberganimals"
+    }
+  ],
   "shelter": [
     {
       "adress": "Masia Ardevol, s/n, 43894 Camarles, Tarragona, Espanya",

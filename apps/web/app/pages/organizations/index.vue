@@ -231,12 +231,7 @@ useSchemaOrg([
       url: `https://adoptar.cat/organizations/${org.slug}`,
       name: org.shortName,
       alternateName: org.name,
-      sameAs: [
-        org.socials?.facebook,
-        org.socials?.instagram,
-        org.socials?.tikTok,
-        org.website,
-      ].filter(Boolean),
+      sameAs: (org.socials || []).map((social) => social.url),
       description: org.description,
       image: org.enabledLogoUsage
         ? getOrganizationLogoPath(org.slug)

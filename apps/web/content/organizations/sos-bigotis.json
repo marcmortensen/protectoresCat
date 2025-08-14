@@ -10,9 +10,12 @@
   "province": "lleida",
   "municipalityInscription": "Balaguer",
   "municipality": "Balaguer",
-  "socials": {
-    "instagram": "https://www.instagram.com/sosbigotis/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sosbigotis/"
+    }
+  ],
   "description": "Som un grup de voluntaris que ens hem unit per a vetllar pel benestar dels gats de carrer del nostre municipi. Ens hem constituït com associació sense ànim de lucre per a la realització del mètode C.E.R. (Captura, Esterilització i Retorn) i per a garantir la gestió ètica de les colònies felines. No disposem de refugi. Els diners recaptats es destinen a alimentació i despeses veterinàries.",
   "isActive": true,
   "isMunicipal": false,

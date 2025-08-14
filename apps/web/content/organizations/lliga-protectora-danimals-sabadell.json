@@ -10,9 +10,12 @@
   "municipalityInscription": "Sabadell",
   "municipality": "Sabadell",
   "contactPhone": "937267227",
-  "socials": {
-    "facebook": "https://www.facebook.com/protectorasabadell/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/protectorasabadell/"
+    }
+  ],
   "shelter": [
     {
       "googleMapsLink": "https://maps.app.goo.gl/uY5ipQWRgUDqjcs59",

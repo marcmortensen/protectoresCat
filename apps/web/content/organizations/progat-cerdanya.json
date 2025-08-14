@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/adopta_progatcerdanya/",
   "associativeInscriptionNumber": "47842",
   "dateOfInscription": "2012-05-29T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/adopta_progatcerdanya/",
-    "facebook": "https://www.facebook.com/ProgatCerdanya/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adopta_progatcerdanya/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProgatCerdanya/"
+    }
+  ]
 }

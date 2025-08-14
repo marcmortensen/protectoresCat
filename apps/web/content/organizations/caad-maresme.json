@@ -25,8 +25,14 @@
   "isMunicipal": true,
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/centreatencioanimalsdomesticsmaresme/",
-    "instagram": "https://www.instagram.com/caadmaresme/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/centreatencioanimalsdomesticsmaresme/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/caadmaresme/"
+    }
+  ]
 }

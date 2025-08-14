@@ -19,8 +19,14 @@
   "lastUpdate": "2025-03-21T00:00:00.000Z",
   "dateOfInscription": "2017-01-10T00:00:00.000Z",
   "isActive": true,
-  "socials": {
-    "facebook": "https://www.facebook.com/pelutsnavarcles/",
-    "instagram": "https://www.instagram.com/elspelutsnavarcles"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/pelutsnavarcles/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/elspelutsnavarcles"
+    }
+  ]
 }

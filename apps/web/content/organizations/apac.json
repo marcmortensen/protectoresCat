@@ -19,7 +19,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100064448391637#",
   "associativeInscriptionNumber": "25902",
   "dateOfInscription": "2002-03-13T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/profile.php?id=100064448391637#"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100064448391637#"
+    }
+  ]
 }

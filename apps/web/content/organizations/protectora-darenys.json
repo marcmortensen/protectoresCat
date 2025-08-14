@@ -17,7 +17,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/Protectoraanimalesarenys",
   "associativeInscriptionNumber": "39898",
   "dateOfInscription": "2009-07-22:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/Protectoraanimalesarenys"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Protectoraanimalesarenys"
+    }
+  ]
 }

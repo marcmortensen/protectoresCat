@@ -19,8 +19,14 @@
   "adoptAnimalsURL": "https://padlet.com/mtrench2/els-nostres-gats-en-adopci-ahqo79yu1o9mv9tr",
   "associativeInscriptionNumber": "60189",
   "dateOfInscription": "2017-01-10:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/sosmaullidos/",
-    "facebook": "https://www.facebook.com/sosmaullidos"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sosmaullidos/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/sosmaullidos"
+    }
+  ]
 }

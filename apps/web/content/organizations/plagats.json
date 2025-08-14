@@ -19,8 +19,14 @@
   "adoptAnimalsURL": "https://plagatsadopta.org/gatos-en-adopcion-tarragona/",
   "associativeInscriptionNumber": "69047",
   "dateOfInscription": "2021-03-18:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/plagats",
-    "facebook": "https://www.facebook.com/plagats/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/plagats"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/plagats/"
+    }
+  ]
 }

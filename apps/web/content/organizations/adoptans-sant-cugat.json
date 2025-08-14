@@ -9,10 +9,16 @@
   "province": "barcelona",
   "municipalityInscription": "Sant Cugat del Vallès",
   "municipality": "Sant Cugat del Vallès",
-  "socials": {
-    "instagram": "https://www.instagram.com/adoptanssantcugat/",
-    "facebook": "https://www.facebook.com/adoptanssantcugat"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adoptanssantcugat/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adoptanssantcugat"
+    }
+  ],
   "description": "Adopta'ns Sant Cugat és una associació que té com a objectiu trobar una família a gossos i gats que viuen al carrer. Amb la teva ajuda podrem afrontar les despeses del rescat de l'animal i els serveis veterinaris necessaris per recuperar la seva salut, ja que en moltes ocasions els animals arriben en condicions extremes. Ens ajudes?!",
   "isActive": true,
   "isMunicipal": false,

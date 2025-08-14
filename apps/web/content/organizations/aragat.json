@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://aragat.org/listado",
   "associativeInscriptionNumber": "52146",
   "dateOfInscription": "2014-02-04:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/ARAGATBCN",
-    "instagram": "https://www.instagram.com/aragatbcn/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ARAGATBCN"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/aragatbcn/"
+    }
+  ]
 }

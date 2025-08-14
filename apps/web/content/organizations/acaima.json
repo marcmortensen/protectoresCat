@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/acaimaolesa/",
   "associativeInscriptionNumber": "30499",
   "dateOfInscription": "2005-05-17:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/acaimaolesa/",
-    "facebook": "https://www.facebook.com/Acaima.org/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/acaimaolesa/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Acaima.org/"
+    }
+  ]
 }

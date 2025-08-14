@@ -20,8 +20,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2013-04-08:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/ProtectoraDeixantPetjada",
-    "instagram": "https://www.instagram.com/protectoradeixantpetjada"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProtectoraDeixantPetjada"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoradeixantpetjada"
+    }
+  ]
 }

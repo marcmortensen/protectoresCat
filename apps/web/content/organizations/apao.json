@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/ProtectoraSar",
   "associativeInscriptionNumber": "41691",
   "dateOfInscription": "2010-03-08:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/apao.cat",
-    "instagram": "https://www.instagram.com/apaocatsanctuary/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/apao.cat"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/apaocatsanctuary/"
+    }
+  ]
 }

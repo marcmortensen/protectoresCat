@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/101vida_rescate_animal/",
   "associativeInscriptionNumber": "62662",
   "dateOfInscription": "2018-01-22T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/101vida_rescate_animal/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/101vida_rescate_animal/"
+    }
+  ]
 }

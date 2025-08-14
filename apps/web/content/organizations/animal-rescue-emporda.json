@@ -17,7 +17,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/animalrescueemporda/",
   "associativeInscriptionNumber": "61076",
   "dateOfInscription": "2017-05-19:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/animalrescueemporda/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/animalrescueemporda/"
+    }
+  ]
 }

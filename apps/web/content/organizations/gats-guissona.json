@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/gatsdeguissona",
   "associativeInscriptionNumber": "72708",
   "dateOfInscription": "2023-03-14:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatsdeguissona"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsdeguissona"
+    }
+  ]
 }

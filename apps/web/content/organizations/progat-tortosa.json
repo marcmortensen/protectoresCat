@@ -9,10 +9,16 @@
   "province": "tarragona",
   "municipalityInscription": "Tortosa",
   "municipality": "Tortosa",
-  "socials": {
-    "instagram": "https://www.instagram.com/progat.tortosa/",
-    "facebook": "https://www.facebook.com/progat.tortosa.5"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progat.tortosa/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progat.tortosa.5"
+    }
+  ],
   "description": "Progat Tortosa és una associació que defensa el gat lliure, la seva vida en llibertat i la seva integració en hàbitats que compartim… Progat Tortosa no té refugi, treballa directament amb els gats lliures, al seu hàbitat i dóna en adopció als que, per qualsevol motiu, no poden continuar fent-ho al seu hàbitat.",
   "isActive": true,
   "isMunicipal": false,

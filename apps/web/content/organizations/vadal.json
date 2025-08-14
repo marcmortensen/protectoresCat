@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://vadal.sukycms.com/animales",
   "associativeInscriptionNumber": "74224",
   "dateOfInscription": "2023-12-01:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/vadal_linyola/",
-    "facebook": "https://www.facebook.com/vadal.linyola/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/vadal_linyola/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/vadal.linyola/"
+    }
+  ]
 }

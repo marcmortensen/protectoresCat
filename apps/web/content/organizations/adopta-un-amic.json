@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://adoptaunamic.org/listado",
   "associativeInscriptionNumber": "51284",
   "dateOfInscription": "2013-09-19:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/adoptaunamic/",
-    "facebook": "https://www.facebook.com/adoptaunamic/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adoptaunamic/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adoptaunamic/"
+    }
+  ]
 }

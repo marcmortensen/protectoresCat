@@ -11,10 +11,16 @@
   "province": "barcelona",
   "municipalityInscription": "Sant Celoni",
   "municipality": "Sant Celoni",
-  "socials": {
-    "instagram": "https://www.instagram.com/galgos_catalunya/",
-    "facebook": "https://www.facebook.com/GalgosCatalunya/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/galgos_catalunya/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GalgosCatalunya/"
+    }
+  ],
   "description": "Galgos Catalunya és una associació sense ànim de lucre creada amb l'objectiu de prestar auxili a llebrers i podencs en situació de desemparament. El nostre objectiu és rescatar-los de l'abandó i el maltractament, resguardar-los, recuperar-los tant com sigui possible tant els seus danys físics com psicològics, i finalment aconseguir-los una llar on ser estimats com mereixen.",
   "isActive": true,
   "isMunicipal": false,

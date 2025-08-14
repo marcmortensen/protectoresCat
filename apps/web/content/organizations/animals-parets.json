@@ -11,10 +11,16 @@
   "province": "barcelona",
   "municipalityInscription": "Parets del Vallès",
   "municipality": "Parets del Vallès",
-  "socials": {
-    "instagram": "https://www.instagram.com/protectoraanimalsparets/",
-    "facebook": "https://www.facebook.com/ProtectoraParets/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoraanimalsparets/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProtectoraParets/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Carrer Sinia, 3 08150 - Parets del Vallès, Barcelona",

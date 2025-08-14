@@ -10,10 +10,16 @@
   "province": "barcelona",
   "municipalityInscription": "Alella",
   "municipality": "Alella",
-  "socials": {
-    "instagram": "https://www.instagram.com/adana_protectora",
-    "facebook": "https://www.facebook.com/AdanaAlella/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adana_protectora"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/AdanaAlella/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Rambla Àngel Guimerà, s/n, 08328 Alella, Barcelona",

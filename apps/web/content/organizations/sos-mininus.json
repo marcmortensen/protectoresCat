@@ -15,8 +15,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/SosMininusFigueres/",
   "associativeInscriptionNumber": "58720",
   "dateOfInscription": "2016-06-14:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/associaciososmininus/",
-    "facebook": "https://www.facebook.com/SosMininusFigueres/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associaciososmininus/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/SosMininusFigueres/"
+    }
+  ]
 }

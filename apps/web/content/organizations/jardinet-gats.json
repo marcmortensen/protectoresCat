@@ -11,10 +11,16 @@
   "province": "barcelona",
   "municipalityInscription": "Barcelona",
   "municipality": "Barcelona",
-  "socials": {
-    "instagram": "https://www.instagram.com/eljardinetdelsgats",
-    "facebook": "https://www.facebook.com/ElJardinetdelsGats"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/eljardinetdelsgats"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ElJardinetdelsGats"
+    }
+  ],
   "description": "Som una entitat sense ànim de lucre fundada el 2008, nascuda d'un projecte iniciat el 2004, amb l'objectiu de cuidar i protegir els gats de carrer i abandonats de Ciutat Vella. Un equip de voluntaris treballa de manera desinteressada per millorar la seva qualitat de vida i benestar.",
   "isActive": true,
   "isMunicipal": false,

@@ -9,9 +9,12 @@
   "province": "barcelona",
   "municipalityInscription": "Lliçà d'Amunt",
   "municipality": "Lliçà d'Amunt",
-  "socials": {
-    "instagram": "https://www.instagram.com/pelutsllica/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/pelutsllica/"
+    }
+  ],
   "description": "Som una associació de voluntaris de Lliçà d’Amunt que protegeix els animals. Ens dediquem al control de colònies de gats mitjançant el mètode CER (Captura, Esterilitza i Retorna). Quan trobem cadells, els recollim i els busquem cases d’acollida. També oferim assistència veterinària a gats ferits al carrer.",
   "isActive": true,
   "isMunicipal": false,

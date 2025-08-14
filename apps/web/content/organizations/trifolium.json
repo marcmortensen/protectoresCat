@@ -19,9 +19,18 @@
   "adoptAnimalsURL": "https://fundaciontrifolium.org/adoptar-perros-gatos/",
   "associativeInscriptionNumber": "1328",
   "dateOfInscription": "1999-10-26T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/fundaciontrifolium",
-    "instagram": "https://www.instagram.com/fundaciontrifolium/",
-    "tikTok": "https://www.tiktok.com/@fundaciontrifolium"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/fundaciontrifolium"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/fundaciontrifolium/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@fundaciontrifolium"
+    }
+  ]
 }

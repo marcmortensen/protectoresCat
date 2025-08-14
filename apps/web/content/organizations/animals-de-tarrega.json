@@ -26,8 +26,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "1988-10-04T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/protectoratarrega",
-    "instagram": "https://www.instagram.com/protectoratarrega/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/protectoratarrega"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoratarrega/"
+    }
+  ]
 }

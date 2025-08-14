@@ -11,10 +11,16 @@
   "province": "barcelona",
   "municipalityInscription": "el Masnou",
   "municipality": "el Masnou",
-  "socials": {
-    "instagram": "https://www.instagram.com/ggrescat/",
-    "facebook": "https://www.facebook.com/ggrescat/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/ggrescat/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ggrescat/"
+    }
+  ],
   "description": "Associació de Rescat de Gossos i Gats Associació sense ànim de lucre dedicada a la cura i benestar de gossos i gats maltractats o abandonats. G&G RESCAT, situada al Maresme (Barcelona), sorgeix amb l'esperança d'ajudar i protegir a gossos i gats desafortunats amb l'objectiu d'oferir-los una nova oportunitat amb una nova família.",
   "isActive": true,
   "isMunicipal": false,

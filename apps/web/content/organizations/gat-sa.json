@@ -11,10 +11,16 @@
   "province": "barcelona",
   "municipalityInscription": "Sant Sadurní d'Anoia",
   "municipality": "Sant Sadurní d'Anoia",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatsasantsadurni/",
-    "facebook": "https://www.facebook.com/gatsa.santsadurni"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsasantsadurni/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatsa.santsadurni"
+    }
+  ],
   "description": "GAT SÀ, fundat el 2001 amb el suport de l'Ajuntament de Sant Sadurní d'Anoia, té com a objectiu integrar els gats de carrer al paisatge urbà. Gestionen colònies utilitzant el mètode CER (Captura, Esterilització i Retorn) i fan adopcions responsables.",
   "isActive": true,
   "isMunicipal": false,

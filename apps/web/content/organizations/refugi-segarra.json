@@ -26,8 +26,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "1992-05-12T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/cervera.refugisegarra",
-    "instagram": "https://www.instagram.com/refugi_de_la_segarra/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/cervera.refugisegarra"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/refugi_de_la_segarra/"
+    }
+  ]
 }

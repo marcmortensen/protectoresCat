@@ -16,8 +16,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/progatbonastre",
   "associativeInscriptionNumber": "38493",
   "dateOfInscription": "2009-02-10:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/progatbonastre/",
-    "facebook": "https://www.facebook.com/progatbonastre"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progatbonastre/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progatbonastre"
+    }
+  ]
 }

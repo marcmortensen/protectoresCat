@@ -10,10 +10,16 @@
   "municipalityInscription": "l'Hospitalet de Llobregat",
   "municipality": "l'Hospitalet de Llobregat",
   "whatsAppPhone": "665155678",
-  "socials": {
-    "facebook": "https://www.facebook.com/APApupetc",
-    "instagram": "https://www.instagram.com/adopta_apa_pupetc/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/APApupetc"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adopta_apa_pupetc/"
+    }
+  ],
   "description": "Asoc.Protectora d'Animals \"Posa Una Patita A Tu Corazon\" Som una associació protectora d'animals de Catalunya, sense ànim de lucre.",
   "isActive": true,
   "isMunicipal": false,

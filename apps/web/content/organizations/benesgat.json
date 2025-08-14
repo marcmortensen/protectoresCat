@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/benesgat/",
   "associativeInscriptionNumber": "70592",
   "dateOfInscription": "2022-02-02:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/benesgat/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/benesgat/"
+    }
+  ]
 }

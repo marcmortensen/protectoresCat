@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/progatterrassa/",
   "associativeInscriptionNumber": "29236",
   "dateOfInscription": "2004-06-22:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/progatterrassa/",
-    "facebook": "https://www.facebook.com/progat.terrassa1/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progatterrassa/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progat.terrassa1/"
+    }
+  ]
 }

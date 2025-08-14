@@ -10,10 +10,16 @@
   "province": "barcelona",
   "municipalityInscription": "el Masnou",
   "municipality": "el Masnou",
-  "socials": {
-    "facebook": "https://www.facebook.com/MasnouGats/",
-    "instagram": "https://www.instagram.com/masnougats/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/MasnouGats/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/masnougats/"
+    }
+  ],
   "description": "Som una associació sense ànim de lucre creada l’any 2014 i formada per voluntaris que ens dediquem a la protecció dels gats de carrer d’El Masnou. Vam començar gestionant 35 colònies que, després d’aplicar el mètode CER (Captura – Esterilització – Retorn) per evitar la superpoblació, poc a poc s’han anat reduint fins les 22 que existeixen actualment, amb un total aproximat de 500 gats. A més de preocupar-nos per la salut i benestar dels gats que viuen en elles, acollim i intentem trobar una llar per tots aquells que són sociables. L’any 2023, més de 70 dels nostres rescatats han trobat famílies increïbles amb les que ser feliços i estimats com mai abans ho han estat.",
   "isActive": true,
   "isMunicipal": false,

@@ -34,8 +34,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2014-11-07T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/ProtectoraSPAC/",
-    "instagram": "https://www.instagram.com/protectora_spac/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProtectoraSPAC/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora_spac/"
+    }
+  ]
 }

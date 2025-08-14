@@ -11,10 +11,16 @@
   "municipalityInscription": "Seròs",
   "municipality": "Seròs",
   "isActive": true,
-  "socials": {
-    "instagram": "https://www.instagram.com/amigospeludosbajocinca/",
-    "facebook": "https://www.facebook.com/AmigosPeludosBajoCincaProtectoraAnimalsdeSeros/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amigospeludosbajocinca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/AmigosPeludosBajoCincaProtectoraAnimalsdeSeros/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Crta, Seròs, Km 15, 9, 25183 La Granja d'Escarp, Lleida",

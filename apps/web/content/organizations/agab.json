@@ -19,7 +19,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/amicsanimalsbalenyaseva",
   "associativeInscriptionNumber": "57309",
   "dateOfInscription": "2015-10-30:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/amicsanimalsbalenyaseva"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/amicsanimalsbalenyaseva"
+    }
+  ]
 }

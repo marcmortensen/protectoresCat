@@ -122,11 +122,16 @@ export default defineContentConfig({
           lastUpdate: z.string(),
           enabledLogoUsage: z.boolean(),
           socials: z
-            .object({
-              facebook: z.string().optional(),
-              instagram: z.string().optional(),
-              tikTok: z.string().optional(),
-            })
+            .array(
+              z.object({
+                type: z.union([
+                  z.literal("facebook"),
+                  z.literal("instagram"),
+                  z.literal("tiktok"),
+                ]),
+                url: z.string(),
+              })
+            )
             .optional(),
         }),
       })

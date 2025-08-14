@@ -10,10 +10,16 @@
   "province": "barcelona",
   "municipalityInscription": "els Hostalets de Pierola",
   "municipality": "els Hostalets de Pierola",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatetshostalets/",
-    "facebook": "https://www.facebook.com/GatetsHostalets/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatetshostalets/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GatetsHostalets/"
+    }
+  ],
   "description": "Gatets del Hostalets és un projecte de gestió i control de colònies de gats del carrer. Creiem que els gatets del carrer han de tenir una vida digna, per aixó vam decidir aportar el nostre petit granet de sorra pel seu benestar. Perquè les accions locals impacten al món, i a la vida. Ens ajudes? Amb un euro mensual, ens ajudaràs amb el menjar, les despeses veterinàries, gateres per les colònies.",
   "isActive": true,
   "isMunicipal": false,

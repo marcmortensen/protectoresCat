@@ -18,8 +18,14 @@
   "isActive": true,
   "lastUpdate": "2025-03-11T00:00:00.000Z",
   "dateOfInscription": "2017-01-10T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/CanigatVallbona/",
-    "instagram": "https://www.instagram.com/canigat_vallbona/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/CanigatVallbona/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/canigat_vallbona/"
+    }
+  ]
 }

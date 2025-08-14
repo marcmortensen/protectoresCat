@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/peludetsdesvc/",
   "associativeInscriptionNumber": "66554",
   "dateOfInscription": "2019-10-28:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/peludetsdesvc/",
-    "facebook": "https://www.facebook.com/peludetsantvicenc/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/peludetsdesvc/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/peludetsantvicenc/"
+    }
+  ]
 }

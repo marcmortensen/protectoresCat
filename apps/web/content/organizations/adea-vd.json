@@ -10,10 +10,16 @@
   "municipalityInscription": "Vilassar de Dalt",
   "municipality": "Vilassar de Dalt",
   "contactPhone": "600433165",
-  "socials": {
-    "facebook": "https://www.facebook.com/ADEAVD",
-    "instagram": "https://www.instagram.com/protectoravilassar/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ADEAVD"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoravilassar/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Camí dels Bassals s/n (Darrere del camb de futbol) 08339 Vilassar de Dalt",

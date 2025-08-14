@@ -10,11 +10,20 @@
   "municipalityInscription": "Gironella",
   "municipality": "Gironella",
   "contactPhone": "677890556",
-  "socials": {
-    "facebook": "https://www.facebook.com/profile.php?id=100064785183838#",
-    "instagram": "https://www.instagram.com/elrefugiaab/",
-    "tikTok": "https://www.tiktok.com/@elrefugiaab"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100064785183838#"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/elrefugiaab/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@elrefugiaab"
+    }
+  ],
   "shelter": [
     {
       "adress": "08610 Avià, Barcelona",

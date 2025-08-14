@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/sos_bdn",
   "associativeInscriptionNumber": "57467",
   "dateOfInscription": "2015-11-20:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/sosbdn",
-    "instagram": "https://www.instagram.com/sos_bdn"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/sosbdn"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sos_bdn"
+    }
+  ]
 }

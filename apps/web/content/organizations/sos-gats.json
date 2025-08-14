@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/gatosdelave/",
   "associativeInscriptionNumber": "34484",
   "dateOfInscription": "2007-05-12:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/gatosdelave/",
-    "instagram": "https://www.instagram.com/sosgatsbcn/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatosdelave/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sosgatsbcn/"
+    }
+  ]
 }

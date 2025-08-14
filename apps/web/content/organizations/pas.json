@@ -10,9 +10,12 @@
   "province": "barcelona",
   "municipalityInscription": "Sant Cugat del Vallès",
   "municipality": "Sant Cugat del Vallès",
-  "socials": {
-    "instagram": "https://www.instagram.com/pascugat/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/pascugat/"
+    }
+  ],
   "description": "La PAS (Plataforma Animalista de Sant Cugat) és una associació sense ànim de lucre composta per voluntaris dedicats a millorar la situació dels animals. El seu treball inclou la gestió de colònies de gats, impulsant l'esterilització i el benestar dels animals. A més, col·laboren amb les autoritats per promoure una gestió ètica de la fauna. Organitzen activitats de sensibilització i educació, i promouen les adopcions responsables d'animals. Tot i no ser un refugi, ofereixen assessorament per a emergències i casos de maltractament.",
   "isActive": true,
   "isMunicipal": false,

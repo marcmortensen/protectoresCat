@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/apamevacarisses/",
   "associativeInscriptionNumber": "60873",
   "dateOfInscription": "2017-04-12:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/apame.vacarisses/",
-    "facebook": "https://www.facebook.com/apamevacarisses/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/apame.vacarisses/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/apamevacarisses/"
+    }
+  ]
 }

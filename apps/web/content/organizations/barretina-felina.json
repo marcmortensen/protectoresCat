@@ -17,7 +17,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/labarretinafelina/",
   "associativeInscriptionNumber": "47099",
   "dateOfInscription": "2012-02-21:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/labarretinafelina/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/labarretinafelina/"
+    }
+  ]
 }

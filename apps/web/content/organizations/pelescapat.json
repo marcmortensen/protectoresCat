@@ -10,9 +10,12 @@
   "province": "barcelona",
   "municipalityInscription": "Barcelona",
   "municipality": "Barcelona",
-  "socials": {
-    "instagram": "https://www.instagram.com/protectora_pelescapat/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora_pelescapat/"
+    }
+  ],
   "description": "Som una Associació protectora d´animals sense ànim de lucre situada a Barcelona que fomenta l´adopció d´animals i no la compra. Som voluntaris que oferim el nostre temps lliure a cercar famílies a animals abandonats. La protectora depèn únicament i exclusiva de cases d'acollida, i en alguns casos, de residències.",
   "isActive": true,
   "isMunicipal": false,

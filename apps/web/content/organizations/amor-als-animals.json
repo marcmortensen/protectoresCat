@@ -10,9 +10,12 @@
   "municipalityInscription": "Begues",
   "municipality": "Begues",
   "whatsAppPhone": "615173627",
-  "socials": {
-    "instagram": "https://www.instagram.com/amoralsanimals/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amoralsanimals/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Masia Can Figueres, 1, 08859 Begues, Barcelona",

@@ -26,8 +26,14 @@
   "isActive": true,
   "lastUpdate": "2025-04-10T00:00:00.000Z",
   "dateOfInscription": "1990-03-12T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/ProtectoraAnimalsOsona",
-    "instagram": "https://www.instagram.com/protectora_osona/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProtectoraAnimalsOsona"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora_osona/"
+    }
+  ]
 }

@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/rodagat",
   "associativeInscriptionNumber": "31797",
   "dateOfInscription": "2006-02-28:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/rodagat",
-    "instagram": "https://www.instagram.com/associaciorodagat/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/rodagat"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associaciorodagat/"
+    }
+  ]
 }

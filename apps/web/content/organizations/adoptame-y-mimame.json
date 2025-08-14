@@ -20,9 +20,18 @@
   "adoptAnimalsURL": "https://www.instagram.com/adoptame_y_mimame",
   "associativeInscriptionNumber": "60487",
   "dateOfInscription": "2017-02-14:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/adoptame_y_mimame",
-    "facebook": "https://www.facebook.com/adoptameymimame",
-    "tikTok": "https://www.tiktok.com/@adoptameymimame"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adoptame_y_mimame"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adoptameymimame"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@adoptameymimame"
+    }
+  ]
 }

@@ -11,10 +11,16 @@
   "province": "tarragona",
   "municipalityInscription": "Reus",
   "municipality": "Reus",
-  "socials": {
-    "instagram": "https://www.instagram.com/nourefugibaixcamp/",
-    "facebook": "https://www.facebook.com/RefugiBaixCamp.org/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/nourefugibaixcamp/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/RefugiBaixCamp.org/"
+    }
+  ],
   "description": "Som un centre d’adopció i recuperació d’animals que vam néixer al 2001 com una iniciativa per lluitar de qualsevol forma legal contra l´abandonament, potenciar la seva defensa i protecció i fomentar l´adopció dels que ja han estat abandonats. Actualment, donada la situació del nostre territori hem decidit iniciar un nou projecte de continuïtat que permeti ampliar en tots els sentits el refugi i assumir la responsabilitat d'acollir i salvar més animals.",
   "isActive": true,
   "isMunicipal": false,

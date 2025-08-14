@@ -18,8 +18,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2015-12-09T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/Progatbergueda/",
-    "instagram": "https://www.instagram.com/progataltbergueda/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Progatbergueda/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progataltbergueda/"
+    }
+  ]
 }

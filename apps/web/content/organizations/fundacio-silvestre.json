@@ -19,7 +19,10 @@
   "adoptAnimalsURL": "https://fundaciosilvestre.org/la-26-adopcion-de-gatos",
   "associativeInscriptionNumber": "2374",
   "dateOfInscription": "2007-11-15:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/fundaciosilvestre/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/fundaciosilvestre/"
+    }
+  ]
 }

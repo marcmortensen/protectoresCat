@@ -11,10 +11,16 @@
   "province": "girona",
   "municipalityInscription": "Llagostera",
   "municipality": "Llagostera",
-  "socials": {
-    "instagram": "https://www.instagram.com/asociacionnoaa/",
-    "facebook": "https://www.facebook.com/asociacionnoaa/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/asociacionnoaa/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/asociacionnoaa/"
+    }
+  ],
   "description": "Associació NOAA, a estat constituïda aquest febrer de 2016. Ens dediquem a rescatar gossos de la gossera de Girona i trobar-los una bona llar. La nostra única finalitat és ajudar els animals necessitats, tant a gats com a gossos. Necessitem fons per poder alimentar els nostres acollits i per poder pagar les despeses de veterinari.",
   "isActive": true,
   "isMunicipal": false,

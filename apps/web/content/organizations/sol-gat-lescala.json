@@ -18,7 +18,10 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2008-06-25T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/solgat.lescalaempuries.3"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/solgat.lescalaempuries.3"
+    }
+  ]
 }

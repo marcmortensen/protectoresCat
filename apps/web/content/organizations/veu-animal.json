@@ -9,10 +9,16 @@
   "province": "barcelona",
   "municipalityInscription": "Santa Coloma de Gramenet",
   "municipality": "Santa Coloma de Gramenet",
-  "socials": {
-    "instagram": "https://www.instagram.com/veuanimal",
-    "facebook": "https://www.facebook.com/veuanimal"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/veuanimal"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/veuanimal"
+    }
+  ],
   "description": "VEU ANIMAL és una associació sense ànim de lucre. El nostre àmbit d´actuació és Santa Coloma de Gramenet, BCN. Recollim animals abandonats, ventrada de gatets, els donem aixopluc i cures veterinàries. Un cop recuperats, els donem en adopció amb les màximes garanties. No disposem de refugi, per això ens ajuden les nostres cases d'acollida i diversos voluntaris. Necessitem sufragar despeses veterinàries, alimentació i de gestió.",
   "isActive": true,
   "isMunicipal": false,

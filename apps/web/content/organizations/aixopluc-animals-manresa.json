@@ -10,10 +10,16 @@
   "municipalityInscription": "Manresa",
   "municipality": "Manresa",
   "contactPhone": "938727074",
-  "socials": {
-    "facebook": "https://www.facebook.com/aixoplucmanresa/",
-    "instagram": "https://www.instagram.com/aixoplucmanresa/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/aixoplucmanresa/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/aixoplucmanresa/"
+    }
+  ],
   "shelter": [
     {
       "googleMapsLink": "https://maps.app.goo.gl/HXUFLjiJema3DC1W8",

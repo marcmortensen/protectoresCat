@@ -10,10 +10,16 @@
   "municipalityInscription": "Berga",
   "municipality": "Berga",
   "contactPhone": "938221291",
-  "socials": {
-    "facebook": "https://www.facebook.com/ProtectoraBerga/",
-    "instagram": "https://www.instagram.com/protectoraberga/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ProtectoraBerga/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoraberga/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Casa Nova de Cal Galta s/n 08600 BERGA",

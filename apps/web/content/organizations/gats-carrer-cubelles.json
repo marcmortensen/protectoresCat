@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/gats.cubelles",
   "associativeInscriptionNumber": "61893",
   "dateOfInscription": "2017-07-26T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/gatscarrercubelles",
-    "instagram": "https://www.instagram.com/gatsdecarrercubelles"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatscarrercubelles"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsdecarrercubelles"
+    }
+  ]
 }

@@ -16,7 +16,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/groups/853428221458056/",
   "associativeInscriptionNumber": "59054",
   "dateOfInscription": "2016-07-27:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/groups/853428221458056/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/groups/853428221458056/"
+    }
+  ]
 }

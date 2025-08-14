@@ -12,10 +12,16 @@
   "province": "barcelona",
   "municipalityInscription": "Montgat",
   "municipality": "Montgat",
-  "socials": {
-    "instagram": "https://www.instagram.com/abamiapropat/",
-    "facebook": "https://www.facebook.com/abamiapropat/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/abamiapropat/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/abamiapropat/"
+    }
+  ],
   "description": "ABAM i APROPA'T són dues associacions amb refugis sense ànim de lucre constituïdes l’any 2002 i 2003 respectivament. Ambdues treballen per a l’assistència, recuperació i sociabilització d'animals abandonats i/o maltractats de les zones de Montgat i Tiana, i en promouen la seva adopció o acollida.Per motius de seguretat, les associacions ABAM i Apropa't no fan pública la ubicació dels seus refugis. Si desitges conèixer la seva localització o visitar-los, et recomanem posar-te en contacte directament amb ells.",
   "isActive": true,
   "isMunicipal": false,

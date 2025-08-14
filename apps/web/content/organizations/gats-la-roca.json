@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/gatslaroca/",
   "associativeInscriptionNumber": "54714",
   "dateOfInscription": "2014-10-29:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatslaroca/",
-    "facebook": "https://www.facebook.com/GatslaRoca/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatslaroca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GatslaRoca/"
+    }
+  ]
 }

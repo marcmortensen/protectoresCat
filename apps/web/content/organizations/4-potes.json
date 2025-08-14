@@ -18,7 +18,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/4potespalausaverdera/",
   "associativeInscriptionNumber": "60542",
   "dateOfInscription": "2017-03-01:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/4potespalausaverdera/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/4potespalausaverdera/"
+    }
+  ]
 }

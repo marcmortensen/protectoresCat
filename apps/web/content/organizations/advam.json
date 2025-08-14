@@ -10,10 +10,16 @@
   "province": "barcelona",
   "municipalityInscription": "Montcada i Reixac",
   "municipality": "Montcada i Reixac",
-  "socials": {
-    "instagram": "https://www.instagram.com/advammontcada",
-    "facebook": "https://www.facebook.com/profile.php?id=100064642903870"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/advammontcada"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100064642903870"
+    }
+  ],
   "description": "AdVAM (Associació de Voluntaris Animalistes de Montcada i Reixac) és una entitat sense ànim de lucre que protegeix els animals abandonats i maltractats. Els seus objectius inclouen rescat, cures veterinàries, adopció, control de colònies de gats ferals, i sensibilització sobre el respecte pels animals. També rebutja l'experimentació animal i la seva utilització en espectacles. La col·laboració de socis, donacions i voluntaris és essencial per dur a terme aquestes tasques.",
   "isActive": true,
   "isMunicipal": false,

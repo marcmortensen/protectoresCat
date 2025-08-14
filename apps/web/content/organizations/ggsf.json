@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://gatsigossos.protecms.com/animales?status-in=adoption%2Creserved",
   "associativeInscriptionNumber": "57431",
   "dateOfInscription": "2015-11-20:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatsigossossantfeliu/",
-    "facebook": "https://www.facebook.com/gatsigossosfeliu"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsigossossantfeliu/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatsigossosfeliu"
+    }
+  ]
 }

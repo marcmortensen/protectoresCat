@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/matica_animal_rescue/",
   "associativeInscriptionNumber": "70853",
   "dateOfInscription": "2022-03-19:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/matica_animal_rescue/",
-    "facebook": "https://www.facebook.com/profile.php?id=100064501944435"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/matica_animal_rescue/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100064501944435"
+    }
+  ]
 }

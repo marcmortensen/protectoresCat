@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/seproansallent/",
   "associativeInscriptionNumber": "25767",
   "dateOfInscription": "2002-02-08:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/seproan.sallent",
-    "instagram": "https://www.instagram.com/seproansallent/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/seproan.sallent"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/seproansallent/"
+    }
+  ]
 }

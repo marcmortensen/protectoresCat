@@ -17,9 +17,18 @@
   "adoptAnimalsURL": "https://petshelter.miwuki.com/p/q7GQvrbq",
   "associativeInscriptionNumber": "58754",
   "dateOfInscription": "2016-05-24T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gab_grupo.ayuda.bodegueros/",
-    "facebook": "https://www.facebook.com/grupoayudabodegueros/",
-    "tikTok": "https://www.tiktok.com/@gab_grupoayudabodegueros"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gab_grupo.ayuda.bodegueros/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/grupoayudabodegueros/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@gab_grupoayudabodegueros"
+    }
+  ]
 }

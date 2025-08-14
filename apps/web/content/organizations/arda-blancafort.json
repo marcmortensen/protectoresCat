@@ -10,10 +10,16 @@
   "municipalityInscription": "Blancafort",
   "municipality": "Blancafort",
   "contactPhone": "696335662",
-  "socials": {
-    "facebook": "https://www.facebook.com/ardablancafort",
-    "instagram": "https://www.instagram.com/ardablancafort/"
-  },
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ardablancafort"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/ardablancafort/"
+    }
+  ],
   "description": "A.R.D.A. Blancafort és una associació sense ànim de lucre oberta a totes les persones que desitgin col·laborar i lluitar pel benestar animal. El propòsit de l'entitat és vetllar pels drets i la protecció dels animals de la zona, així com d'implantar propostes que ajudin a millorar les condicions dels espais municipals i millorin la qualitat de vida de les mascotes. Els objectius principals són el rescat de gossos abandonats, el control de colònies felines i el foment d'una política pública que reguli la protecció i tinença d'animals.",
   "isActive": true,
   "isMunicipal": false,

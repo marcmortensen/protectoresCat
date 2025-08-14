@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/amics_dels_animals_ser/",
   "associativeInscriptionNumber": "73512",
   "dateOfInscription": "2023-07-18:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/amics_dels_animals_ser/",
-    "facebook": "https://www.facebook.com/amicsdelsanimalsser/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amics_dels_animals_ser/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/amicsdelsanimalsser/"
+    }
+  ]
 }

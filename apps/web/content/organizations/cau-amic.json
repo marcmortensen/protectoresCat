@@ -18,8 +18,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "1996-07-16T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/el_cau_amic_oficial/",
-    "facebook": "https://www.facebook.com/cauamicsantcugat/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/el_cau_amic_oficial/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/cauamicsantcugat/"
+    }
+  ]
 }

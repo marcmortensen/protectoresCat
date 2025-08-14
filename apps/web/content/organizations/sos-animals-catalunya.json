@@ -16,8 +16,14 @@
   "lastUpdate": "2025-07-04T00:00:00.000Z",
   "associativeInscriptionNumber": "68568",
   "dateOfInscription": "2020-12-18:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/nuestravozanimal/",
-    "instagram": "https://www.instagram.com/sosacatalunya/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/nuestravozanimal/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sosacatalunya/"
+    }
+  ]
 }

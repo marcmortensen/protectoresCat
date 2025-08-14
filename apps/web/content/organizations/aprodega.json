@@ -18,8 +18,14 @@
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "dateOfInscription": "2009-09-01T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/aprodega/",
-    "facebook": "https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/aprodega/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/AprodegaGatetsDeVilassarDeDalt/"
+    }
+  ]
 }

@@ -9,10 +9,16 @@
   "province": "girona",
   "municipalityInscription": "la Jonquera",
   "municipality": "la Jonquera",
-  "socials": {
-    "instagram": "https://www.instagram.com/tramungats/",
-    "facebook": "https://www.facebook.com/associojonquerencadegats/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/tramungats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associojonquerencadegats/"
+    }
+  ],
   "description": "L'Associació Jonquerenca Protectora de Gats (AJPG) és una entitat sense ànim de lucre. El que volem aconseguir és parar la població de gats als carrers de la jonquera i donar-los en adopció a famílies de confiança que el facin portar la seva vida el millor possible.",
   "isActive": true,
   "isMunicipal": false,

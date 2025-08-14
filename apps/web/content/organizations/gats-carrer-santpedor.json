@@ -19,8 +19,14 @@
   "isActive": true,
   "lastUpdate": "2025-08-12T00:00:00.000Z",
   "dateOfInscription": "2018-10-03T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatscarrersantpedor/",
-    "facebook": "https://www.facebook.com/gatscarrersantpedor/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatscarrersantpedor/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatscarrersantpedor/"
+    }
+  ]
 }

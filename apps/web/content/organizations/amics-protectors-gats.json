@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/amicsiprotectorsdelsgats/",
   "associativeInscriptionNumber": "27557",
   "dateOfInscription": "2003-05-13:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/amicsiprotectorsdelsgats/",
-    "instagram": "https://www.instagram.com/amicsiprotectorsdelsgats/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/amicsiprotectorsdelsgats/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amicsiprotectorsdelsgats/"
+    }
+  ]
 }

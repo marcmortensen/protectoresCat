@@ -26,10 +26,16 @@
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/apa_rodamon_baix_emporda/",
-    "facebook": "https://www.facebook.com/profile.php?id=100064441191908&locale=ca_ES"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/apa_rodamon_baix_emporda/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100064441191908&locale=ca_ES"
+    }
+  ],
   "associativeInscriptionNumber": "499",
   "dateOfInscription": "1978-08-25T00:00:00.000Z",
   "enabledLogoUsage": true

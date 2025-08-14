@@ -25,8 +25,14 @@
   "logo": "https://www.helpguau.com/wp-content/uploads/2019/06/cropped-logo-hg@2x.png",
   "website": "https://www.helpguau.com/",
   "adoptAnimalsURL": "https://www.helpguau.com/animales/",
-  "socials": {
-    "instagram": "https://www.instagram.com/helpguau/",
-    "facebook": "https://www.facebook.com/helpguauadopta"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/helpguau/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/helpguauadopta"
+    }
+  ]
 }

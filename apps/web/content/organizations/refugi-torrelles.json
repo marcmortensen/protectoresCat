@@ -8,10 +8,16 @@
   "province": "barcelona",
   "municipalityInscription": "Torrelles de Llobregat",
   "municipality": "Torrelles de Llobregat",
-  "socials": {
-    "instagram": "https://www.instagram.com/el_refugi_de_torrelles/",
-    "facebook": "https://www.facebook.com/p/El-Refugi-de-Torrelles-100094496297406/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/el_refugi_de_torrelles/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/p/El-Refugi-de-Torrelles-100094496297406/"
+    }
+  ],
   "shelter": [
     {
       "adress": "Carrer del Raval Roig, 08629 Torrelles de Llobregat, Barcelona",

@@ -101,14 +101,20 @@ describe('organizations', () => {
       if (org.website !== undefined) {
         expect(org.website).toMatch(urlRegex);
       }
-      if (org.socials?.facebook) {
-        expect(org.socials.facebook).toContain('https://www.facebook.com/');
+      if (org.socials?.some((s) => s.type === 'facebook')) {
+        expect(org.socials.find((s) => s.type === 'facebook')?.url).toContain(
+          'https://www.facebook.com/',
+        );
       }
-      if (org.socials?.instagram) {
-        expect(org.socials.instagram).toContain('https://www.instagram.com/');
+      if (org.socials?.some((s) => s.type === 'instagram')) {
+        expect(org.socials.find((s) => s.type === 'instagram')?.url).toContain(
+          'https://www.instagram.com/',
+        );
       }
-      if (org.socials?.tikTok) {
-        expect(org.socials.tikTok).toContain('https://www.tiktok.com/');
+      if (org.socials?.some((s) => s.type === 'tiktok')) {
+        expect(org.socials.find((s) => s.type === 'tiktok')?.url).toContain(
+          'https://www.tiktok.com/',
+        );
       }
       expect(org.province).toBe(regionToProvince[org.region]);
       expect(org.region).toBe(
@@ -117,15 +123,15 @@ describe('organizations', () => {
     }
   });
   it('checks logos', async () => {
-    const logosDir = path.resolve(__dirname, '../../organizationLogos');
-    for (const org of organizations) {
-      if (org.enabledLogoUsage) {
-        const logoPath = path.join(logosDir, `${org.slug}.webp`);
-        expect(
-          fs.existsSync(logoPath),
-          `Logo missing for organization: ${org.slug} (${logoPath})`,
-        ).toBe(true);
-      }
+    // Get the project root directory (packages/shelters)
+    const projectRoot = path.resolve(process.cwd());
+    const logosDir = path.join(projectRoot, 'organizationLogos');
+    for (const org of organizations.filter((o) => o.enabledLogoUsage)) {
+      const logoPath = path.join(logosDir, `${org.slug}.webp`);
+      expect(
+        fs.existsSync(logoPath),
+        `Logo missing for organization: ${org.slug} (${logoPath})`,
+      ).toBe(true);
     }
   });
 });

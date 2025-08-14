@@ -19,8 +19,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/associacioelsquissos/",
   "associativeInscriptionNumber": "32888",
   "dateOfInscription": "2006-07-24:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/associacioelsquissos/",
-    "instagram": "https://www.instagram.com/elsquissos/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associacioelsquissos/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/elsquissos/"
+    }
+  ]
 }

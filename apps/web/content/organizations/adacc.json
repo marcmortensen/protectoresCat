@@ -16,8 +16,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/adacc_cornella/",
   "associativeInscriptionNumber": "28098",
   "dateOfInscription": "2003-09-30T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/maria.rios.5209",
-    "instagram": "https://www.instagram.com/adacc_cornella/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/maria.rios.5209"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adacc_cornella/"
+    }
+  ]
 }

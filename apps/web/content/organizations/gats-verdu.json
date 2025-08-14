@@ -18,7 +18,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/AssociacioDAIMA",
   "associativeInscriptionNumber": "72908",
   "dateOfInscription": "2023-04-18:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/gatsdeverdu/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsdeverdu/"
+    }
+  ]
 }

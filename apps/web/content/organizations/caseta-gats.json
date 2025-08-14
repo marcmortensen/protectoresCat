@@ -9,10 +9,16 @@
   "province": "tarragona",
   "municipalityInscription": "Tarragona",
   "municipality": "Tarragona",
-  "socials": {
-    "instagram": "https://www.instagram.com/lacasetadelsgats/",
-    "facebook": "https://www.facebook.com/lacasetadelsgats"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/lacasetadelsgats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/lacasetadelsgats"
+    }
+  ],
   "description": "La Caseta dels Gats és un projecte que va néixer a Tarragona el setembre de 2014. El nostre objectiu és oferir un lloc segur, cures, alimentació i afecte als gats que són rescatats del carrer. El nostre espai està a disposició de les associacions de protecció animal amb les quals col·laborem en la gestió i control de colònies felines. No volem que cap gat estigui al carrer buscant-li una llar, però necessitem col·laboració per fer front a les despeses veterinàries i d'alimentació.",
   "isActive": true,
   "isMunicipal": false,

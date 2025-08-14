@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/progatsantboi",
   "associativeInscriptionNumber": "26080",
   "dateOfInscription": "2002-04-26:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/progatsantboi",
-    "facebook": "https://www.facebook.com/progat.santboi"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progatsantboi"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progat.santboi"
+    }
+  ]
 }

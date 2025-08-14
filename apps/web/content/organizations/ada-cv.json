@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.instagram.com/adacastellarvalles/",
   "associativeInscriptionNumber": "57686",
   "dateOfInscription": "2015-12-23:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/adacastellarvalles/",
-    "facebook": "https://www.facebook.com/ada.castellardelvalles2015/"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adacastellarvalles/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ada.castellardelvalles2015/"
+    }
+  ]
 }

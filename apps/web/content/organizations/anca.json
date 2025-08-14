@@ -17,8 +17,14 @@
   "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100069100126434",
   "associativeInscriptionNumber": "67617",
   "dateOfInscription": "2020-05-27:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/anca_figueres",
-    "facebook": "https://www.facebook.com/profile.php?id=100069100126434"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/anca_figueres"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100069100126434"
+    }
+  ]
 }

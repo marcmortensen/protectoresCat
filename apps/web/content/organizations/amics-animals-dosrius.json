@@ -11,10 +11,16 @@
   "province": "barcelona",
   "municipalityInscription": "Dosrius",
   "municipality": "Dosrius",
-  "socials": {
-    "instagram": "https://www.instagram.com/protectoradosrius",
-    "facebook": "https://www.facebook.com/amicsdelsanimals"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectoradosrius"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/amicsdelsanimals"
+    }
+  ],
   "shelter": [
     {
       "adress": "Polígon industrial La Surera, Carrer dels Carboners, s/n, 08319 Barcelona, Espanya",

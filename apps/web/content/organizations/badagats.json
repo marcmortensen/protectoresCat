@@ -18,7 +18,10 @@
   "adoptAnimalsURL": "https://badagats.org/listado",
   "associativeInscriptionNumber": "30006",
   "dateOfInscription": "2005-01-25:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/Badagats"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Badagats"
+    }
+  ]
 }

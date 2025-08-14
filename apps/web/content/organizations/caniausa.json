@@ -9,10 +9,16 @@
   "province": "barcelona",
   "municipalityInscription": "Taradell",
   "municipality": "Taradell",
-  "socials": {
-    "instagram": "https://www.instagram.com/caniausa/",
-    "facebook": "https://www.facebook.com/people/CaniAusa/61554640562660/"
-  },
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/caniausa/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/people/CaniAusa/61554640562660/"
+    }
+  ],
   "description": "Caniausa Center S.L. és una empresa dedicada a la recollida i custòdia d'animals de companyia, així com a la seva adopció. Ofereixen serveis a l'administració, incloent-hi atenció 24 hores els 365 dies de l'any, personal qualificat per al maneig de gossos de races considerades perilloses i instal·lacions amb nucli zoològic adaptades a cada necessitat. També col·laboren amb associacions mitjançant convenis de voluntariat per promoure el benestar animal.",
   "isActive": true,
   "isMunicipal": false,

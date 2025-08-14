@@ -17,7 +17,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/NAPAnimales/",
   "associativeInscriptionNumber": "50526",
   "dateOfInscription": "2013-06-11T00:00:00.000Z",
-  "socials": {
-    "facebook": "https://www.facebook.com/NAPAnimales/"
-  }
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/NAPAnimales/"
+    }
+  ]
 }

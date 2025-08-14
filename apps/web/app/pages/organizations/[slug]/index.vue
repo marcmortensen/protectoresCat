@@ -55,24 +55,23 @@ watch(
 );
 
 type Org = NonNullable<typeof data.value>["org"];
-type Social = keyof NonNullable<Org["socials"]>;
+type Social = NonNullable<Org["socials"]>[number]["type"];
 const socialIcons: Record<Social, { icon: string; name: string }> = {
   facebook: { icon: "i-lucide-facebook", name: "Facebook" },
   instagram: { icon: "i-lucide-instagram", name: "Instagram" },
-  tikTok: { icon: "", name: "TikTok" },
+  tiktok: { icon: "", name: "TikTok" },
 };
 
 const socials = computed(() => {
   if (!data.value?.org || !data.value?.org.socials) {
     return [];
   }
-  return Object.entries(data.value.org.socials).map(([key, value]) => {
-    const typedKey = key as Social;
+  return data.value.org.socials.map((social) => {
     return {
-      type: typedKey,
-      name: socialIcons[typedKey].name,
-      url: value,
-      icon: socialIcons[typedKey].icon,
+      type: social.type,
+      name: socialIcons[social.type].name,
+      url: social.url,
+      icon: socialIcons[social.type].icon,
     };
   });
 });
@@ -156,12 +155,7 @@ useSchemaOrg([
       addressRegion: currentRegion.value!.name,
       addressCountry: "ES",
     },
-    sameAs: [
-      data.value?.org.socials?.facebook,
-      data.value?.org.socials?.instagram,
-      data.value?.org.socials?.tikTok,
-      data.value?.org.website,
-    ].filter(Boolean),
+    sameAs: (data.value?.org.socials || []).map((social) => social.url),
   }),
 ]);
 </script>
@@ -329,7 +323,7 @@ useSchemaOrg([
                       :aria-label="social.name"
                     />
                     <SvgoSocialsTikTok
-                      v-if="social.type === 'tikTok'"
+                      v-if="social.type === 'tiktok'"
                       class="size-5 shrink-0"
                     />
                   </template>

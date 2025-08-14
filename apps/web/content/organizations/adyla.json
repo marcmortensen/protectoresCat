@@ -18,8 +18,14 @@
   "adoptAnimalsURL": "https://adylasantfost.sukycms.com/animales?status=adoption",
   "associativeInscriptionNumber": "60186",
   "dateOfInscription": "2017-01-18:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/adylasantfost/",
-    "facebook": "https://www.facebook.com/ADYLASANTFOST"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adylasantfost/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/ADYLASANTFOST"
+    }
+  ]
 }

@@ -19,8 +19,14 @@
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-01-25T00:00:00.000Z",
-  "socials": {
-    "instagram": "https://www.instagram.com/espargats/",
-    "facebook": "https://www.facebook.com/espargats"
-  }
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/espargats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/espargats"
+    }
+  ]
 }
