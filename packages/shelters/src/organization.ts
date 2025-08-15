@@ -2297,7 +2297,6 @@ export const organizations: Organization[] = [
     name: `Associació d'Engrescats de les Terres de l'Ebre`,
     shortName: 'Engrescats',
     logo: 'https://cdn.sukycms.com/shelters/175/images/logo.png',
-    contactEmail: 'info@engrescats.cat',
     contactPhone: '620847048',
     whatsAppPhone: '620847048',
     website: 'https://engrescades.protecms.com/',
@@ -2333,6 +2332,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/proteengrescats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '21e99355',
@@ -2365,6 +2365,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/agosagats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b3d511bd',
@@ -2404,6 +2405,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/canflixanimals/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '934a3cdf',
@@ -2418,7 +2420,7 @@ export const organizations: Organization[] = [
     province: 'lleida',
     description: `Som una nova asociació per el benestar i la proteccio dels animals abandonats. Som un grup de persones de diferents disciplines professionals i laborals que unim la nostra formació i experiència per a treballar i per a resoldre els problemes que la gestió incorrecta o la no gestió dels animals lliures que conviuen als nostres pobles i ciutats implica al conjunt de la ciutadania.`,
     adoptAnimalsURL: 'https://www.facebook.com/unmesdelpoble/',
-    animalFocus: 'cats',
+    animalFocus: 'cats&dogs',
     shelter: undefined,
     municipalityInscription: 'Tremp',
     municipality: 'Tremp',
@@ -2437,6 +2439,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/unmesdelpoble/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ccd5b413',
@@ -2468,6 +2471,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/associaciogatsort/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e23bce6c',
@@ -2480,7 +2484,7 @@ export const organizations: Organization[] = [
     website: undefined,
     region: 'pla-durgell',
     province: 'lleida',
-    description: `Benvinguts al nostre petit-gran projecte! L'Associació Amics dels Peluts del Palau d'Anglesola som un grup de veïns d'aquesta població que vetllem pel benestar dels animals de la zona. Som una associació sense ànim de lucre amb l'objectiu d'ajudar i rescatar qualsevol pelut i no tan pelut que ho necessiti. A través d'aquesta plataforma volem donar a conèixer la nostra feina i trobar persones que comparteixin la nostra visió i que puguin aportar el seu granet de sorra. Moltes gràcies!`,
+    description: `L'Associació Amics dels Peluts del Palau d'Anglesola és una entitat sense ànim de lucre dedicada a la protecció i benestar dels animals, especialment dels gats, gossos i ànecs del municipi. Treballem per fomentar l'esterilització per evitar camades no desitjades i duem a terme el mètode CER (captura, esterilització i retorn) amb els gats de carrer. També promovem la conscienciació ciutadana sobre el respecte i la cura dels animals, col·laborant amb voluntaris i veïns per garantir-los una vida digna i segura. A través d’aquesta plataforma volem donar a conèixer la nostra feina i trobar persones que comparteixin la nostra visió i vulguin aportar-hi el seu granet de sorra. Moltes gràcies!`,
     adoptAnimalsURL: 'https://www.instagram.com/amics_peluts_elpalau/',
     animalFocus: 'cats&dogs',
     shelter: undefined,
@@ -2497,6 +2501,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/amics_peluts_elpalau/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'bcd2bd4a',
@@ -2525,6 +2530,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/associacioanimalsbellvis/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '365175e4',
@@ -2582,6 +2588,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/adoptam_mollerussa/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '423d03b7',
@@ -2623,6 +2630,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/refugi_de_la_segarra/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5ec450bf',
@@ -2664,6 +2672,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/protectoratarrega/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5bf41644',
@@ -2690,6 +2699,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gateradetarrega/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c7267902',
@@ -2729,6 +2739,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/8/3/2/3/4/s5oso0quwx.jpg',
     adoptAnimalsURL: 'https://www.instagram.com/amigospeludosbajocinca/',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f40fcdfa',
@@ -8532,6 +8543,7 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-07-04T00:00:00.000Z',
     associativeInscriptionNumber: '68568',
     dateOfInscription: '2020-12-18:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/sosacatalunya/',
     socials: [
       {
         type: 'facebook',
@@ -8563,6 +8575,7 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-07-04T00:00:00.000Z',
     associativeInscriptionNumber: '24643',
     dateOfInscription: '2001-04-04:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/martogat/',
     socials: [
       {
         type: 'facebook',
@@ -8571,6 +8584,32 @@ export const organizations: Organization[] = [
       {
         type: 'instagram',
         url: 'https://www.instagram.com/martogat/',
+      },
+    ],
+  },
+  {
+    id: '55d56c27',
+    slug: 'mollegats',
+    name: `Mollegats`,
+    shortName: `Mollegats`,
+    animalFocus: 'cats',
+    contactEmail: 'mollegats@gmail.com',
+    region: 'pla-durgell',
+    province: 'lleida',
+    municipalityInscription: `Mollerussa`,
+    municipality: `Mollerussa`,
+    shelter: undefined,
+    description: `Associació sense ànims de lucre Molle Gats neix amb la idea d'ajudar als gats que sobreviuen com poden als carrers de Mollerussa. • Busquem voluntaris, cases d'acollida, teamers… tota ajuda serà benvinguda. Poc a poc us anirem presentant als gats.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-08-15T00:00:00.000Z',
+    associativeInscriptionNumber: '77921',
+    dateOfInscription: '2025-07-07:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/mollegats/',
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/mollegats/',
       },
     ],
   },
