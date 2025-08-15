@@ -1,0 +1,27 @@
+{
+  "id": "610cda34",
+  "slug": "petjades-puigreig",
+  "name": "Petjades Gats i Gossos de Puig-Reig",
+  "contactPhone": "655684108",
+  "shortName": "Petjades Puig-Reig",
+  "animalFocus": "cats",
+  "contactEmail": "petjadespuigreig@gmail.com",
+  "region": "bergueda",
+  "province": "barcelona",
+  "municipalityInscription": "Puig-reig",
+  "municipality": "Puig-reig",
+  "description": "Associació sense ànims de lucre Molle Gats neix amb la idea d'ajudar als gats que sobreviuen com poden als carrers de Mollerussa. • Busquem voluntaris, cases d'acollida, teamers… tota ajuda serà benvinguda. Poc a poc us anirem presentant als gats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-08-15T00:00:00.000Z",
+  "associativeInscriptionNumber": "65540",
+  "dateOfInscription": "2019-04-16:00:00.000Z",
+  "adoptAnimalsURL": "https://petjadespuigreig.sukycms.com/",
+  "website": "https://petjadespuigreig.sukycms.com/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/petjades_puigreig/"
+    }
+  ]
+}
