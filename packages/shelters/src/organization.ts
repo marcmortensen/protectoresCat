@@ -2493,7 +2493,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '69990',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-15T00:00:00.000Z',
     dateOfInscription: '2021-10-01T00:00:00.000Z',
     socials: [
       {
@@ -2501,7 +2501,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/amics_peluts_elpalau/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'bcd2bd4a',
@@ -2776,6 +2776,7 @@ export const organizations: Organization[] = [
     logo: 'http://www.alturgell.cat/sites/default/files/imagecache/third_under_content_banner/banners/logo_augema.JPG',
     website: 'https://www.alturgell.cat/refugi-supracomarcal-animals',
     adoptAnimalsURL: 'https://www.facebook.com/refugianimalsbenavarre',
+    enabledLogoUsage: undefined,
   },
   {
     id: '82172335',
@@ -2805,6 +2806,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '70755',
     dateOfInscription: '2022-03-04T00:00:00.000Z',
     contactEmail: 'vallgats21@gmail.com',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c1e5fc59',
@@ -2841,6 +2843,7 @@ export const organizations: Organization[] = [
     website:
       'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia',
     adoptAnimalsURL: 'https://www.facebook.com/adoptaanimalessantboillobregat/',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c043eb45',
@@ -2861,17 +2864,22 @@ export const organizations: Organization[] = [
         type: 'facebook',
         url: 'https://www.facebook.com/barcelonagatigosoficial',
       },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@barcelonagatigos',
+      },
     ],
     shelter: undefined,
     description: `Som una associació dedicada de manera gairebé exclusiva a cura del gat urbà. Comptem amb un refugi felí on hi ha els gats mentre es busquen adoptants, cases d'acollida i ens ocupem de controlar diverses colònies felines a Barcelona.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-27T00:00:00.000Z',
+    lastUpdate: '2025-08-15T00:00:00.000Z',
     logo: 'https://barcelonagatigos.org/wp-content/uploads/2021/05/BCN-GG-logo-GRANDE-600x357.png',
-    website: undefined,
+    website: 'https://barcelonagatigos.org/',
     adoptAnimalsURL: 'https://barcelonagatigos.org/adoptar/?lang=ca',
     associativeInscriptionNumber: '27783',
     dateOfInscription: '2003-07-09T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ae87f8f9',
@@ -2911,6 +2919,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '4120',
     dateOfInscription: '1979-06-12T00:00:00.000Z',
     idZoologicalNucleus: 'B23/00012',
+    enabledLogoUsage: undefined,
   },
   {
     id: '9b436ba6',
@@ -2952,6 +2961,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '993',
     dateOfInscription: '1967-09-19T00:00:00.000Z',
     idZoologicalNucleus: 'B23/00084',
+    enabledLogoUsage: undefined,
   },
   {
     id: '0b5e51ea',
@@ -2986,6 +2996,7 @@ export const organizations: Organization[] = [
       'https://sites.google.com/view/ardablancafort/adopta-o-acull',
     associativeInscriptionNumber: '69221',
     dateOfInscription: '2021-04-15T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f2ae90c4',
@@ -3019,6 +3030,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://masnougats.cat/adopta',
     associativeInscriptionNumber: '52448',
     dateOfInscription: '2014-03-07T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ab69d6c1',
@@ -3052,6 +3064,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adopta_apa_pupetc/',
     associativeInscriptionNumber: '52894',
     dateOfInscription: '2014-04-16T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '9733825d',
@@ -3086,6 +3099,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '26109',
     dateOfInscription: '2002-04-26T00:00:00.000Z',
     idZoologicalNucleus: 'B25/00871',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd2e6f8c6',
@@ -3122,6 +3136,7 @@ export const organizations: Organization[] = [
     website: 'https://sircan.cat/',
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/w0oBzTHO',
     idZoologicalNucleus: 'B25/00619',
+    enabledLogoUsage: undefined,
   },
   {
     id: '600bd07c',
@@ -3163,6 +3178,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/5U3Tf0l4',
     associativeInscriptionNumber: '24292',
     dateOfInscription: '2001-01-15T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '430c7336',
@@ -3203,6 +3219,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/ProtectoraBerga/',
     associativeInscriptionNumber: '11606',
     dateOfInscription: '1990-04-03T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ccd92209',
@@ -3242,6 +3259,7 @@ export const organizations: Organization[] = [
     logo: 'https://refugipeluts.paeria.cat/++theme++paeria_site/img/logo-paeria.svg',
     website: 'https://refugipeluts.paeria.cat/',
     adoptAnimalsURL: 'https://refugipeluts.paeria.cat/ca/animals-en-adopcio',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f0887db6',
@@ -3283,6 +3301,7 @@ export const organizations: Organization[] = [
       'https://protectorabcn.es/ca/els-nostres-animals/?fwp_categories=en-adopcion',
     associativeInscriptionNumber: '882',
     dateOfInscription: '1967-05-30T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '96f6498e',
@@ -3315,6 +3334,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.encaixantmons.org/perros/',
     associativeInscriptionNumber: '69708',
     dateOfInscription: '2021-07-16T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '2f34740c',
@@ -3348,6 +3368,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/reusgats',
     associativeInscriptionNumber: '47722',
     dateOfInscription: '2012-05-16T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '1661b88a',
@@ -3392,6 +3413,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100064785183838#',
     associativeInscriptionNumber: '56082',
     dateOfInscription: '2015-04-13T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '7665d087',
@@ -3424,10 +3446,11 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-01-30T00:00:00.000Z',
     logo: 'https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png',
-    website: 'https://amoralsanimals.org/ca/',
+    website: 'https://amoralsanimals.org/',
     adoptAnimalsURL: 'https://amoralsanimals.org/ca/animals-en-adopcio/',
     associativeInscriptionNumber: '29579',
     dateOfInscription: '2004-09-22T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c458cd6e',
@@ -3458,6 +3481,7 @@ export const organizations: Organization[] = [
     logo: 'https://www.caniausa.cat/wp-content/uploads/2020/02/logo-caniausa.png',
     website: 'https://www.caniausa.cat',
     adoptAnimalsURL: 'https://www.caniausa.cat/categoria-animals/adopcio/',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f3e576b9',
@@ -3492,6 +3516,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.facebook.com/ggrescat/',
     associativeInscriptionNumber: '57668',
     dateOfInscription: '2015-12-15T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f9ff62df',
@@ -3533,6 +3558,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/protectoraanimalsparets/',
     associativeInscriptionNumber: '55849',
     dateOfInscription: '2015-03-16T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e11753ec',
@@ -3561,6 +3587,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/pelutsllica/',
     associativeInscriptionNumber: '64051',
     dateOfInscription: '2018-09-17T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '26de41c3',
@@ -3601,6 +3628,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.adana.cat/category/featured/gos-en-adopcio/',
     associativeInscriptionNumber: '24787',
     dateOfInscription: '2001-05-14T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e85dc493',
@@ -3634,6 +3662,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/advammontcada',
     associativeInscriptionNumber: '46637',
     dateOfInscription: '2011-11-29T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c8bb365a',
@@ -3674,6 +3703,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/el_refugi_de_torrelles/',
     associativeInscriptionNumber: '73690',
     dateOfInscription: '2023-09-04T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '2518c012',
@@ -3706,6 +3736,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/adoptanssantcugat/',
     associativeInscriptionNumber: '60493',
     dateOfInscription: '2017-02-17T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'cf0acb8d',
@@ -3741,6 +3772,7 @@ export const organizations: Organization[] = [
       'https://www.eljardinetdelsgats.org/ca/category/per-adoptar/',
     associativeInscriptionNumber: '36082',
     dateOfInscription: '2008-02-01T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '5c69be10',
@@ -3775,6 +3807,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gatsasantsadurni/',
     associativeInscriptionNumber: '25762',
     dateOfInscription: '2002-02-08T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '386c8522',
@@ -3826,6 +3859,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://protectoramataro.org/buscador/',
     associativeInscriptionNumber: '1670',
     dateOfInscription: '1972-07-28T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c8f203db',
