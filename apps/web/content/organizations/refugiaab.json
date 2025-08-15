@@ -1,7 +1,7 @@
 {
   "id": "1661b88a",
   "slug": "refugiaab",
-  "name": "Asociación Animales Discapacitados, Enfermos Crónicos y Colónias de Gatos",
+  "name": "El Refugi Animals en adopció del Berguedà",
   "shortName": "El refugi",
   "animalFocus": "cats&dogs",
   "contactEmail": "elrefugiaab@gmail.com",
@@ -35,10 +35,11 @@
   "description": "Associació sense ànim de lucre, per a l'adopció d'animals.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "lastUpdate": "2025-08-15T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/7/5/4/0/ntu82hxjgl.jpg",
   "website": "https://elrefugiaab.wordpress.com/",
   "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100064785183838#",
   "associativeInscriptionNumber": "56082",
-  "dateOfInscription": "2015-04-13T00:00:00.000Z"
+  "dateOfInscription": "2015-04-13T00:00:00.000Z",
+  "enabledLogoUsage": true
 }
