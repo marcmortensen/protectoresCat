@@ -44,6 +44,11 @@ describe('organizations', () => {
           organizations.filter((o) => o.description === org.description),
         ).toHaveLength(1);
       }
+      if (org.whatsAppPhone) {
+        expect(
+          organizations.filter((o) => o.whatsAppPhone === org.whatsAppPhone),
+        ).toHaveLength(1);
+      }
       if (org.contactPhone) {
         expect(
           organizations.filter((o) => o.contactPhone === org.contactPhone),
