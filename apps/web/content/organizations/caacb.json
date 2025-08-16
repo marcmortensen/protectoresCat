@@ -1,0 +1,27 @@
+{
+  "id": "590af335",
+  "slug": "caacb",
+  "name": "Centre d’Acollida d’Animals de Companyia de Barcelona",
+  "contactEmail": "adopcionscaacb@bcn.cat",
+  "shortName": "CAACB",
+  "website": "https://ajuntament.barcelona.cat/benestaranimal/ca/centre-dacollida-danimals-de-companyia-caacb",
+  "contactPhone": "934132199",
+  "animalFocus": "cats&dogs",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipalityInscription": "Barcelona",
+  "municipality": "Barcelona",
+  "shelter": [
+    {
+      "adress": "Ctra. de Sant Cugat, 250 / Ctra. de l’Arrabassada, km 3,8",
+      "googleMapsLink": "https://maps.app.goo.gl/HGnThrG2cEPmU3jz7",
+      "phone": "934132199",
+      "openingHoursURL": "https://ajuntament.barcelona.cat/benestaranimal/ca/adopcio"
+    }
+  ],
+  "adoptAnimalsURL": "https://ajuntament.barcelona.cat/benestaranimal/ca/cercador-danimals-en-adopcio-tots",
+  "description": "El CAACB és un equipament de l’Ajuntament de Barcelona que compta amb un equip d’una vintena de professionals cuidadors, veterinaris, experts en medicina del comportament, dinamització del voluntariat i personal d’oficina, que s’encarrega de l’atenció integral dels animals en adopció. Alhora, més de cent cinquanta voluntaris col·laboren amb el centre d’una manera altruista, fent-se càrrec de treure a passejar els gossos i de jugar amb els gats i entretenir-los.",
+  "isActive": true,
+  "isMunicipal": true,
+  "lastUpdate": "2025-08-16T00:00:00.000Z"
+}

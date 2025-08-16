@@ -30,7 +30,7 @@ export interface Organization {
   idZoologicalNucleus?: string;
   associativeInscriptionNumber?: string;
   dateOfInscription?: string;
-  municipalityInscription: Municipality;
+  municipalityInscription?: Municipality;
   municipality: Municipality;
   isMunicipal: boolean;
   isActive: boolean;
@@ -1199,7 +1199,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sagatonerablanes',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '5f3c7997',
@@ -3334,7 +3334,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.encaixantmons.org/perros/',
     associativeInscriptionNumber: '69708',
     dateOfInscription: '2021-07-16T00:00:00.000Z',
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '2f34740c',
@@ -4724,7 +4724,6 @@ export const organizations: Organization[] = [
     logo: undefined,
     website: undefined,
     adoptAnimalsURL: undefined,
-    associativeInscriptionNumber: undefined,
     dateOfInscription: undefined,
   },
   {
@@ -8731,6 +8730,70 @@ export const organizations: Organization[] = [
       {
         type: 'instagram',
         url: 'https://www.instagram.com/acolama/',
+      },
+    ],
+  },
+  {
+    id: '590af335',
+    slug: 'caacb',
+    name: `Centre d’Acollida d’Animals de Companyia de Barcelona`,
+    contactEmail: 'adopcionscaacb@bcn.cat',
+    shortName: `CAACB`,
+    website:
+      'https://ajuntament.barcelona.cat/benestaranimal/ca/centre-dacollida-danimals-de-companyia-caacb',
+    contactPhone: '934132199',
+    animalFocus: 'cats&dogs',
+    region: 'barcelones',
+    province: 'barcelona',
+    municipalityInscription: `Barcelona`,
+    municipality: `Barcelona`,
+    shelter: [
+      {
+        adress: 'Ctra. de Sant Cugat, 250 / Ctra. de l’Arrabassada, km 3,8',
+        googleMapsLink: 'https://maps.app.goo.gl/HGnThrG2cEPmU3jz7',
+        phone: '934132199',
+        openingHoursURL:
+          'https://ajuntament.barcelona.cat/benestaranimal/ca/adopcio',
+      },
+    ],
+    adoptAnimalsURL:
+      'https://ajuntament.barcelona.cat/benestaranimal/ca/cercador-danimals-en-adopcio-tots',
+    description: `El CAACB és un equipament de l’Ajuntament de Barcelona que compta amb un equip d’una vintena de professionals cuidadors, veterinaris, experts en medicina del comportament, dinamització del voluntariat i personal d’oficina, que s’encarrega de l’atenció integral dels animals en adopció. Alhora, més de cent cinquanta voluntaris col·laboren amb el centre d’una manera altruista, fent-se càrrec de treure a passejar els gossos i de jugar amb els gats i entretenir-los.`,
+    isActive: true,
+    isMunicipal: true,
+    lastUpdate: '2025-08-16T00:00:00.000Z',
+  },
+  {
+    id: 'b103f17f',
+    slug: 'poteta-blava',
+    name: `Associació Poteta Blava`,
+    contactEmail: 'potetablava@gmail.com',
+    shortName: `Poteta Blava`,
+    whatsAppPhone: '642362095',
+    animalFocus: 'cats',
+    region: 'baix-llobregat',
+    province: 'barcelona',
+    municipalityInscription: `el Prat de Llobregat`,
+    municipality: `el Prat de Llobregat`,
+    shelter: undefined,
+    description: `Aquest projecte neix de la il·lusió d'un grup de voluntaris de colònies felines. Mancant una protectora que vetlli pels drets dels nostres animals, decidim crear una associació per millorar la seva qualitat de vida. No rebem cap mena de subvenció, així que necessitem la vostra ajuda per seguir salvant vides, alimentant amb pinso de qualitat, oferint atenció veterinària i buscant famílies per a gats que necessiten la calor d'una llar.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-08-16T00:00:00.000Z',
+    associativeInscriptionNumber: '73947',
+    dateOfInscription: '2023-10-19:00:00.000Z',
+    socials: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=61564452280652',
+      },
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/queremos_protectora_prat/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@potetablava',
       },
     ],
   },
