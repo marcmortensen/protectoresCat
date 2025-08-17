@@ -1,0 +1,30 @@
+{
+  "id": "10b8999d",
+  "slug": "caldes-pels-animals",
+  "name": "Associació Caldes pels Animals",
+  "contactEmail": "caldespelsanimals@gmail.com",
+  "website": "https://caldespelsanimals.com",
+  "shortName": "Caldes pels Animals",
+  "animalFocus": "cats",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Caldes d'Estrac",
+  "municipality": "Caldes d'Estrac",
+  "description": "Caldes pels animals és una associació que treballa per garantir els drets dels animals. Hem unit esforços entre les persones voluntàries que teníem cura de les colònies dels gats de carrer i que estàvem portant a terme aquesta tasca de manera individual. Des de llavors, i entre totes, assegurem l'alimentació, la cura i el control de les colònies de gats de Caldes d'Estrac alhora que treballem per conscienciar a la població sobre la tinença responsable dels animals de companyia.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-08-17T00:00:00.000Z",
+  "associativeInscriptionNumber": "61855",
+  "dateOfInscription": "2017-09-14:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/caldespelsanimals",
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/caldespelsanimals"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/caldespelsanimals"
+    }
+  ]
+}
