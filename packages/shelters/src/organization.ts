@@ -2418,7 +2418,7 @@ export const organizations: Organization[] = [
     whatsAppPhone: '610685600',
     region: 'pallars-jussa',
     province: 'lleida',
-    description: `Som una nova asociació per el benestar i la proteccio dels animals abandonats. Som un grup de persones de diferents disciplines professionals i laborals que unim la nostra formació i experiència per a treballar i per a resoldre els problemes que la gestió incorrecta o la no gestió dels animals lliures que conviuen als nostres pobles i ciutats implica al conjunt de la ciutadania.`,
+    description: `Som una associació pel benestar i la protecció dels animals abandonats. Som un grup de persones de diferents disciplines professionals i laborals que unim la nostra formació i experiència per a treballar i per a resoldre els problemes que la gestió incorrecta o la no gestió dels animals lliures que conviuen als nostres pobles i ciutats implica al conjunt de la ciutadania.`,
     adoptAnimalsURL: 'https://www.facebook.com/unmesdelpoble/',
     animalFocus: 'cats&dogs',
     shelter: undefined,
@@ -2427,7 +2427,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '36528',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-17T00:00:00.000Z',
     dateOfInscription: '2008-03-31T00:00:00.000Z',
     socials: [
       {
