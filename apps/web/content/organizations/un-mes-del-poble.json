@@ -17,7 +17,7 @@
   "isMunicipal": false,
   "associativeInscriptionNumber": "36528",
   "isActive": true,
-  "lastUpdate": "2025-08-17T00:00:00.000Z",
+  "lastUpdate": "2025-08-18T00:00:00.000Z",
   "dateOfInscription": "2008-03-31T00:00:00.000Z",
   "socials": [
     {
@@ -28,5 +28,6 @@
       "type": "instagram",
       "url": "https://www.instagram.com/unmesdelpoble/"
     }
-  ]
+  ],
+  "enabledLogoUsage": true
 }

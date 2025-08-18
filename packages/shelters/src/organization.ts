@@ -2431,7 +2431,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '36528',
     isActive: true,
-    lastUpdate: '2025-08-17T00:00:00.000Z',
+    lastUpdate: '2025-08-18T00:00:00.000Z',
     dateOfInscription: '2008-03-31T00:00:00.000Z',
     socials: [
       {
@@ -2443,7 +2443,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/unmesdelpoble/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'ccd5b413',
@@ -2836,18 +2836,19 @@ export const organizations: Organization[] = [
         phone: '936405714',
         adress: `Carrer de la Riera del Fonollar, 2, 08830 Sant Boi de Llobregat, Barcelona`,
         openingHoursURL:
-          'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia',
+          'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac',
       },
     ],
     description: `El RMAC és un centre municipal on acollim els gossos, gats i fures que s’han trobat abandonats o perduts als carrers de Sant Boi. Hi atenem els animals fins que la persona propietària els recupera o alguna altra persona els adopta.`,
     isActive: true,
     isMunicipal: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-18T00:00:00.000Z',
     logo: 'https://www.santboi.cat/sites/default/files/2022-09/SantBoi_Logo.png',
     website:
-      'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia',
-    adoptAnimalsURL: 'https://www.facebook.com/adoptaanimalessantboillobregat/',
-    enabledLogoUsage: undefined,
+      'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac',
+    adoptAnimalsURL:
+      'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/rmac-refugi-municipal-danimals-de-companyia/adopcions',
+    enabledLogoUsage: true,
   },
   {
     id: 'c043eb45',
