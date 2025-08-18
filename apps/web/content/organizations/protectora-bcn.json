@@ -31,10 +31,11 @@
   "description": "La nostra entitat, creada l’any 1944, porta prop de 80 anys lluitant pels animals amb l’objectiu principal de salvar les seves vides quan estan en perill i aconseguir-los aquesta segona oportunitat que, sens dubte, mereixen. Són molts anys d’esforç i també molts els animals que han aconseguit una nova llar però, lamentablement, queda encara molta feina per fer i la nostra Entitat continua col·laborant per millorar aquesta situació.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "lastUpdate": "2025-08-18T00:00:00.000Z",
   "logo": "https://protectorabcn.es/wp-content/themes/protectorabcn/assets/icons/logo.svg",
   "website": "https://protectorabcn.es",
   "adoptAnimalsURL": "https://protectorabcn.es/ca/els-nostres-animals/?fwp_categories=en-adopcion",
   "associativeInscriptionNumber": "882",
-  "dateOfInscription": "1967-05-30T00:00:00.000Z"
+  "dateOfInscription": "1967-05-30T00:00:00.000Z",
+  "enabledLogoUsage": true
 }
