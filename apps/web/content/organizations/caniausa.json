@@ -6,6 +6,9 @@
   "animalFocus": "cats&dogs",
   "contactEmail": "info@caniausa.cat",
   "region": "osona",
+  "additionalRegions": [
+    "moianes"
+  ],
   "province": "barcelona",
   "municipalityInscription": "Taradell",
   "municipality": "Taradell",

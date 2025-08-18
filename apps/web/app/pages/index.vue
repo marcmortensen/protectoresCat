@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { RouteLocationRaw } from "vue-router";
 import type { AccordionItem } from "@nuxt/ui";
-const selectedRegionId = ref<string | undefined>();
+const selectedRegionId = ref<string[] | undefined>();
 const hoveredRegionId = ref<string | null>();
 const isSlideoverOpen = ref(false);
 

@@ -18,7 +18,7 @@ import { computed } from "vue";
 import type { RouteLocationRaw } from "vue-router";
 
 const props = defineProps<{
-  selectedRegion?: string | null;
+  selectedRegion?: string[] | null;
   hoveredRegion?: string | null;
   d: string;
   region?: {
@@ -50,7 +50,7 @@ const isHovered = computed(
   () => props.region && props.region.id === props.hoveredRegion
 );
 const isSelected = computed(
-  () => props.region && props.region.id === props.selectedRegion
+  () => props.region && props.selectedRegion?.includes(props.region.id)
 );
 const isHighlighted = computed(() => isHovered.value || isSelected.value);
 

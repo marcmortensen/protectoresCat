@@ -38,6 +38,7 @@ const currentOrgs = activeOrganizations.map((org) => ({
   region: org.region,
   province: org.province,
   animalFocus: org.animalFocus,
+  additionalRegions: org.additionalRegions,
 }));
 const regions: Region[] = [
   'alt-camp',
@@ -86,7 +87,12 @@ const regions: Region[] = [
 ];
 
 const missingRegions = regions.filter(
-  (region) => !currentOrgs.some((org) => org.region === region),
+  (region) =>
+    !currentOrgs.some(
+      (org) =>
+        org.region === region ||
+        org.additionalRegions?.some((r) => r === region),
+    ),
 );
 
 const organizationsByRegionPath = path.resolve(
@@ -96,14 +102,19 @@ const organizationsByRegionPath = path.resolve(
 
 try {
   const orgsByRegion = currentOrgs.reduce((acc, org) => {
-    if (!acc[org.region]) {
-      acc[org.region] = { region: org.region, cats: 0, dogs: 0 };
-    }
-    if (org.animalFocus === 'cats&dogs') {
-      acc[org.region].cats++;
-      acc[org.region].dogs++;
-    } else {
-      acc[org.region][org.animalFocus]++;
+    const allRegions = [org.region, ...(org.additionalRegions ?? [])];
+
+    for (const regionSlug of allRegions) {
+      if (!acc[regionSlug]) {
+        acc[regionSlug] = { region: regionSlug, cats: 0, dogs: 0 };
+      }
+
+      if (org.animalFocus === 'cats&dogs') {
+        acc[regionSlug].cats++;
+        acc[regionSlug].dogs++;
+      } else {
+        acc[regionSlug][org.animalFocus]++;
+      }
     }
     return acc;
   }, {});

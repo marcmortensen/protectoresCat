@@ -21,6 +21,7 @@ export interface Organization {
   contactPhone2?: string;
   website?: string;
   region: Region;
+  additionalRegions?: Region[];
   province: Province;
   exporter?: () => Promise<Animal[]>;
   description: string;
@@ -3465,6 +3466,7 @@ export const organizations: Organization[] = [
     animalFocus: 'cats&dogs',
     contactEmail: 'info@caniausa.cat',
     region: 'osona',
+    additionalRegions: ['moianes'],
     province: 'barcelona',
     municipalityInscription: `Taradell`,
     municipality: `Taradell`,
@@ -3482,11 +3484,11 @@ export const organizations: Organization[] = [
     description: `Caniausa Center S.L. és una empresa dedicada a la recollida i custòdia d'animals de companyia, així com a la seva adopció. Ofereixen serveis a l'administració, incloent-hi atenció 24 hores els 365 dies de l'any, personal qualificat per al maneig de gossos de races considerades perilloses i instal·lacions amb nucli zoològic adaptades a cada necessitat. També col·laboren amb associacions mitjançant convenis de voluntariat per promoure el benestar animal.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-30T00:00:00.000Z',
+    lastUpdate: '2025-08-18T00:00:00.000Z',
     logo: 'https://www.caniausa.cat/wp-content/uploads/2020/02/logo-caniausa.png',
     website: 'https://www.caniausa.cat',
     adoptAnimalsURL: 'https://www.caniausa.cat/categoria-animals/adopcio/',
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'f3e576b9',

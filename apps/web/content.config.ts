@@ -97,6 +97,7 @@ export default defineContentConfig({
           contactPhone2: z.string().optional(),
           website: z.string().optional(),
           region: regionSchema,
+          additionalRegions: z.array(regionSchema).optional(),
           province: provinceSchema,
           description: z.string(),
           adoptAnimalsURL: z.string().optional(),

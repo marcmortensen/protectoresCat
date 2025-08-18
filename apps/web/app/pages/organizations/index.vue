@@ -80,6 +80,7 @@ const { data, refresh, clear } = await useAsyncData(
       query.orWhere((query) => {
         regions.value.forEach((slug) => {
           query.where("region", "LIKE", `%${slug}%`);
+          query.where("additionalRegions", "LIKE", `%${slug}%`);
         });
         return query;
       });

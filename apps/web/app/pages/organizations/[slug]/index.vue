@@ -284,7 +284,10 @@ useSchemaOrg([
           <div class="flex h-24 lg:h-40">
             <RegionsMap
               v-if="regions"
-              :model-value="data.org.region"
+              :model-value="[
+                data.org.region,
+                ...(data.org.additionalRegions || []),
+              ]"
               :regions="regions"
               read-only
               class="w-full h-full text-gray-300 opacity-70"

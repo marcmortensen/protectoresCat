@@ -20,7 +20,7 @@ import regionsMap from "~/assets/xml/cataloniaRegions.xml";
 import RegionsMapItem from "./RegionsMapItem.vue";
 import type { RouteLocationRaw } from "vue-router";
 
-const modelValue = defineModel<string>();
+const modelValue = defineModel<string[]>();
 
 // Props
 const props = defineProps<{
@@ -47,11 +47,21 @@ const on = computed(() =>
   props.readOnly
     ? {}
     : {
-        click: (region: string) => (modelValue.value = region),
+        click: (region: string) => toggleRegion(region),
         mouseenter: (region: string) => setHoveredRegion(region),
         mouseleave: () => setHoveredRegion(null),
       }
 );
+
+const toggleRegion = (region: string) => {
+  if (!modelValue.value) {
+    modelValue.value = [region];
+  } else if (modelValue.value.includes(region)) {
+    modelValue.value = modelValue.value.filter((r) => r !== region);
+  } else {
+    modelValue.value = [...modelValue.value, region];
+  }
+};
 
 // Methods
 const getRegionByMapId = (slugId: string) => {
