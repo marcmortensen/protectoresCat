@@ -3,7 +3,7 @@ const items = [
   {
     label: "Per què no hi ha més entrades?",
     description:
-      "L'objectiu d'aquesta plana és proporcionar a la ciutadania una eina útil per a trobar informació sobre entitats que permetin adopcions prop del seu domicili. Per tal de garantir la qualitat de la informació cal que com a mínim estiguin degudament registrades a Catalunya i continuïn operant.",
+      "L'objectiu d'aquesta plana és proporcionar a la ciutadania una eina útil per a trobar informació sobre entitats que permetin adopcions prop del seu domicili. Per tal de garantir la qualitat de la informació cal que siguin equipaments municipals o que estiguin degudament registrades a Catalunya i continuïn operant.",
   },
   {
     label: "Com afegir una nova entrada al llistat?",
