@@ -37,7 +37,7 @@ export interface Organization {
   isActive: boolean;
   lastUpdate: string;
   socials?: {
-    type: 'facebook' | 'instagram' | 'tiktok';
+    type: 'facebook' | 'instagram' | 'tiktok' | 'twitter';
     url: string;
   }[];
   enabledLogoUsage?: boolean;
@@ -1909,22 +1909,20 @@ export const organizations: Organization[] = [
   {
     id: 'dcd87b37',
     slug: 'protectora-animals-osona',
-    name: `Associació i Defensa dels Animals d'Osona`,
+    name: ` Protectora d'Animals d'Osona`,
     shortName: `Protectora d'Animals d'Osona`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/7/8/0/0/ekiwtscfcu.jpeg',
     contactEmail: 'infoproteosona@gmail.com',
-    contactPhone: '638986301',
-    contactPhone2: '696256120',
-    website: undefined,
+    website: 'http://www.protectoraosona.org',
     region: 'osona',
     province: 'barcelona',
-    description: `Vam néixer fa uns trenta anys i sempre hem tingut l’objectiu de salvar els animals. Actualment tenim uns dos-cents gossos i uns cinquanta gats esperant una família: anima’t i vine a conèixer-los! El nostre objectiu principal és donar una vida digne i sana a tots els animals que ho necessiten . Per això, intentem generar recursos per garantir una atenció adequada als animals, cuidant-nos de l’alimentació , l’atenció veterinària i el manteniment de les instal·lacions on viuen.`,
+    description: `La Protectora d'Animals d'Osona som una associació sense ànim de lucre que treballem des de fa més de 30 anys per acollir, cuidar i promoure l'adopció de gossos i gats abandonats. Estem inscrits al registre d'entitats de protecció i defensa dels animals de la Generalitat de Catalunya. Els nostres objectius són ajudar els gossos i gats abandonats perquè tinguin l'oportunitat d'una vida digne amb famílies responsables que els cuidin i estimin per a la resta de la seva vida, fomentar la tinença responsable d'animals de companyia i evitar l'abandonament i el maltractament, ajudar els propietaris de gossos i gats perduts a retrobar-los, i sensibilitzar la societat d'adoptar en comptes de comprar.`,
     animalFocus: 'cats&dogs',
     shelter: [
       {
         adress: 'Torre d’en Bosch s/n, Gurb, a prop de l’ermita de Palau',
         googleMapsLink: 'https://maps.app.goo.gl/XhvwCZrFHCRvjdeK6',
-        phone: '638986301',
+        phone: undefined,
         openingHoursURL: undefined,
       },
     ],
@@ -1934,7 +1932,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '11514',
     isActive: true,
-    lastUpdate: '2025-04-10T00:00:00.000Z',
+    lastUpdate: '2025-08-20T00:00:00.000Z',
     dateOfInscription: '1990-03-12T00:00:00.000Z',
     socials: [
       {
@@ -1945,8 +1943,12 @@ export const organizations: Organization[] = [
         type: 'instagram',
         url: 'https://www.instagram.com/protectora_osona/',
       },
+      {
+        type: 'twitter',
+        url: 'https://x.com/OsonaProtectora',
+      },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '7506e022',

@@ -129,6 +129,7 @@ export default defineContentConfig({
                   z.literal("facebook"),
                   z.literal("instagram"),
                   z.literal("tiktok"),
+                  z.literal("twitter"),
                 ]),
                 url: z.string(),
               })

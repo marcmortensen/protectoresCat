@@ -59,6 +59,7 @@ type Social = NonNullable<Org["socials"]>[number]["type"];
 const socialIcons: Record<Social, { icon: string; name: string }> = {
   facebook: { icon: "i-lucide-facebook", name: "Facebook" },
   instagram: { icon: "i-lucide-instagram", name: "Instagram" },
+  twitter: { icon: "", name: "Twitter" },
   tiktok: { icon: "", name: "TikTok" },
 };
 
@@ -329,6 +330,12 @@ useSchemaOrg([
                       v-if="social.type === 'tiktok'"
                       class="size-5 shrink-0"
                     />
+                    <div
+                      v-if="social.type === 'twitter'"
+                      class="size-3 flex items-center justify-center"
+                    >
+                      𝕏
+                    </div>
                   </template>
                 </UButton>
               </li>
