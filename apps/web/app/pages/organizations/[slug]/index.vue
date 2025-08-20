@@ -390,7 +390,7 @@ useSchemaOrg([
           <dt class="font-semibold">Pàgina web:</dt>
           <dd>
             <UButton
-              class="text-gray-700 dark:text-gray-200"
+              class="text-gray-700 dark:text-gray-200 w-full"
               :href="data.org.website"
               color="primary"
               variant="link"
