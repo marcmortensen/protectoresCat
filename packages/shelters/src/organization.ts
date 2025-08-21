@@ -2712,7 +2712,7 @@ export const organizations: Organization[] = [
     id: 'c7267902',
     slug: 'animals-de-seros',
     animalFocus: 'dogs',
-    contactEmail: 'peludosbc@gmail.com',
+    contactEmail: 'adoptapeludosbc@gmail.com',
     name: `Associació Protectora d'Animals de Seròs`,
     shortName: 'Amigos Peludos Bajo Cinca',
     associativeInscriptionNumber: '57033',
@@ -2730,6 +2730,14 @@ export const organizations: Organization[] = [
         type: 'facebook',
         url: 'https://www.facebook.com/AmigosPeludosBajoCincaProtectoraAnimalsdeSeros/',
       },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@amigospeludosbajocinca',
+      },
+      {
+        type: 'twitter',
+        url: 'https://x.com/Amigospeludosbc',
+      },
     ],
     shelter: [
       {
@@ -2739,14 +2747,14 @@ export const organizations: Organization[] = [
         openingHoursURL: 'https://maps.app.goo.gl/R7R2B5rAq8i4Nseh6',
       },
     ],
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-08-21T00:00:00.000Z',
     dateOfInscription: '2015-10-06T00:00:00.000Z',
     idZoologicalNucleus: 'L25/00205',
     description: `Som una protectora d'animals que portem treballant des de juliol de 2014 a la comarca de el Baix Cinca i del Baix Segrià. Rescatem animals en mal estat, maltractats i abandonats. Les acollim en els nostres refugi, els donem les cures necessàries, atenció veterinària, els reeduquem perquè puguin viure en una llar amb una família i els busquem adopció.`,
     isMunicipal: false,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/8/3/2/3/4/s5oso0quwx.jpg',
     adoptAnimalsURL: 'https://www.instagram.com/amigospeludosbajocinca/',
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'f40fcdfa',
