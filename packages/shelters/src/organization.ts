@@ -3965,6 +3965,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/lacasetadelsgats/',
     associativeInscriptionNumber: '48310',
     dateOfInscription: '2012-07-26T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '878cbc67',
@@ -4030,6 +4031,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/tramungats/',
     associativeInscriptionNumber: '57502',
     dateOfInscription: '2015-12-03T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '5356e1e6',
@@ -4069,6 +4071,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://animalssensesostre.org/la-47-perros-en-adopcion',
     associativeInscriptionNumber: '27086',
     dateOfInscription: '2002-12-18T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '355ca9c1',
@@ -4135,6 +4138,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/asociacionnoaa/',
     associativeInscriptionNumber: '59788',
     dateOfInscription: '2016-11-14T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '5b781e46',
@@ -4174,6 +4178,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/con.apaptossa/',
     associativeInscriptionNumber: '1714',
     dateOfInscription: '2002-11-04T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '6c0f0468',
@@ -4231,6 +4236,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/protectora_pelescapat/',
     associativeInscriptionNumber: '53842',
     dateOfInscription: '2014-08-11T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'fb568b76',
@@ -4260,6 +4266,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/pascugat/',
     associativeInscriptionNumber: '58560',
     dateOfInscription: '2016-05-13T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '943d3482',
@@ -4294,6 +4301,7 @@ export const organizations: Organization[] = [
       'https://sitgesangels.protecms.com/animales?name=&kind=dog&status=adoption&sex=&birth_date=',
     associativeInscriptionNumber: '58048',
     dateOfInscription: '2016-03-03T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f6ef7c77',
@@ -4330,6 +4338,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://caldesanimal.org/#elvpets_iframe',
     associativeInscriptionNumber: '38054',
     dateOfInscription: '2008-11-13T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f6567d0f',
@@ -4370,6 +4379,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/alberg_animals_terres_ebre/',
     associativeInscriptionNumber: '1082',
     dateOfInscription: '2004-10-15T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '1a37340f',
@@ -4399,6 +4409,7 @@ export const organizations: Organization[] = [
       'https://www.facebook.com/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/',
     associativeInscriptionNumber: '40207',
     dateOfInscription: '2009-10-26T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'bbdf544d',
@@ -4442,6 +4453,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/protectoradosrius',
     associativeInscriptionNumber: '24378',
     dateOfInscription: '2001-02-12T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '122b7f58',
@@ -4472,6 +4484,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/veuanimal',
     associativeInscriptionNumber: '26333',
     dateOfInscription: '2002-06-28T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e267567f',
@@ -4504,6 +4517,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.sosgalgos.org/adopta-un-galgo-rescatado',
     associativeInscriptionNumber: '23482',
     dateOfInscription: '2000-06-02T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b5e4ebc4',
@@ -4538,6 +4552,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/galgos_catalunya/',
     associativeInscriptionNumber: '68954',
     dateOfInscription: '2021-03-02T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '53c96b76',
@@ -4570,6 +4585,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/arbra_associacio/',
     associativeInscriptionNumber: '44897',
     dateOfInscription: '2011-04-29T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '5c1ef8b5',
@@ -4607,6 +4623,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/refugiolamistad/',
     associativeInscriptionNumber: '25381',
     dateOfInscription: '2001-10-31T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '77606de9',
@@ -4641,6 +4658,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/nourefugibaixcamp/',
     associativeInscriptionNumber: '3881',
     dateOfInscription: '2001-09-26T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '79b2175b',
@@ -4673,6 +4691,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progat.tortosa/',
     associativeInscriptionNumber: '32759',
     dateOfInscription: '2006-07-17T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b3f7d4ae',
@@ -4706,6 +4725,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/progatcatalunya/',
     associativeInscriptionNumber: '20860',
     dateOfInscription: '1998-06-18T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '3fe652ea',
@@ -4713,6 +4733,7 @@ export const organizations: Organization[] = [
     name: `Centre d'Acollida d'Animals Can Moret`,
     shortName: `Animals Can Moret`,
     animalFocus: 'cats&dogs',
+    contactEmail: 'canmoret@hotmail.com',
     contactPhone: '610318857',
     region: 'valles-oriental',
     province: 'barcelona',
@@ -4729,11 +4750,12 @@ export const organizations: Organization[] = [
     description: `El Centre d´Acolliment d´Animals Can Moret és un lloc únic on els animals troben una llar temporal. Aquesta protectora d'animals ofereix una atenció i una cura excepcional per als animals que han estat abandonats, maltractats o que simplement necessiten un lloc segur.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-02-13T00:00:00.000Z',
+    lastUpdate: '2025-09-05T00:00:00.000Z',
     logo: undefined,
-    website: undefined,
+    website: 'https://xeu.cat/centre-dacollida-danimals-can-moret/',
     adoptAnimalsURL: undefined,
     dateOfInscription: undefined,
+    enabledLogoUsage: undefined,
   },
   {
     id: 'da612cad',
@@ -4766,6 +4788,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ProgatCerdanya/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '9ad72ae4',
@@ -4802,6 +4825,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@gab_grupoayudabodegueros',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '670e782e',
@@ -4835,6 +4859,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100064657090525',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '006df9d2',
@@ -4868,6 +4893,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100078265972964',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '1214ba87',
@@ -4924,6 +4950,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/amics_dels_animals/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '301861b0',
@@ -4956,6 +4983,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/amancu.amancu.cunit/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b675d16a',
@@ -4983,6 +5011,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/NAPAnimales/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'db1dc289',
@@ -5015,6 +5044,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gatsdecarrercubelles',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7271e9f3',
@@ -5045,6 +5075,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100064448391637#',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd9388910',

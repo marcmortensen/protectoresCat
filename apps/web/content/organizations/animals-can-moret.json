@@ -4,6 +4,7 @@
   "name": "Centre d'Acollida d'Animals Can Moret",
   "shortName": "Animals Can Moret",
   "animalFocus": "cats&dogs",
+  "contactEmail": "canmoret@hotmail.com",
   "contactPhone": "610318857",
   "region": "valles-oriental",
   "province": "barcelona",
@@ -19,5 +20,6 @@
   "description": "El Centre d´Acolliment d´Animals Can Moret és un lloc únic on els animals troben una llar temporal. Aquesta protectora d'animals ofereix una atenció i una cura excepcional per als animals que han estat abandonats, maltractats o que simplement necessiten un lloc segur.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-13T00:00:00.000Z"
+  "lastUpdate": "2025-09-05T00:00:00.000Z",
+  "website": "https://xeu.cat/centre-dacollida-danimals-can-moret/"
 }
