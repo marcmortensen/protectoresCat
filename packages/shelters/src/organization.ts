@@ -4753,7 +4753,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-09-06T00:00:00.000Z',
     logo: undefined,
-    website: 'https://xeu.cat/centre-dacollida-danimals-can-moret/',
+    website: undefined,
     adoptAnimalsURL: undefined,
     dateOfInscription: undefined,
     enabledLogoUsage: true,
