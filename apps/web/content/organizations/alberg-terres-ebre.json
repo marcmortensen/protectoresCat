@@ -5,7 +5,7 @@
   "shortName": "Alberg Terres de l'Ebre",
   "animalFocus": "cats&dogs",
   "contactPhone": "657181437",
-  "contactEmail": "encarna@albergdanimals.com",
+  "contactEmail": "albergdanimas@gmail.com",
   "region": "baix-ebre",
   "province": "tarragona",
   "municipalityInscription": "Camarles",
@@ -30,10 +30,11 @@
   "description": "Com Associació Protectora d'Animals sense ànim de lucre, la nostra fundació es centra en acollir a tots aquells animals que, per diverses circumstàncies, es troben en una situació d'abandonament o maltracte. En la major part dels casos, aquests animals arriben en una situació precària al nostre alberg.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "lastUpdate": "2025-09-09T00:00:00.000Z",
   "logo": "https://www.albergdanimals.com/assets/LOGO%20ALBERGUE@2x.png",
   "website": "https://albergdanimals.com",
   "adoptAnimalsURL": "https://www.instagram.com/alberg_animals_terres_ebre/",
   "associativeInscriptionNumber": "1082",
-  "dateOfInscription": "2004-10-15T00:00:00.000Z"
+  "dateOfInscription": "2004-10-15T00:00:00.000Z",
+  "enabledLogoUsage": true
 }
