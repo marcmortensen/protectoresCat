@@ -1388,10 +1388,6 @@ export const organizations: Organization[] = [
         type: 'instagram',
         url: 'https://www.instagram.com/adappenedes/',
       },
-      {
-        type: 'twitter',
-        url: 'https://x.com/AsociacioADAP',
-      },
     ],
     enabledLogoUsage: true,
   },
@@ -5113,6 +5109,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/adacc_cornella/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7ace6be4',
@@ -5150,6 +5147,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@fundaciontrifolium',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '529f0eb1',
@@ -5177,6 +5175,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100070786266156',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7f6c978d',
@@ -5211,6 +5210,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/santuaridaya',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5f69dfc3',
@@ -5238,7 +5238,12 @@ export const organizations: Organization[] = [
         type: 'instagram',
         url: 'https://www.instagram.com/amicsdelsanimalsvdm/',
       },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100072456526152',
+      },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '010b6bc3',
@@ -5271,6 +5276,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/progat.cornella',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8a519869',
@@ -5298,6 +5304,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/Protectoraanimalesarenys',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '4011456d',
@@ -5330,6 +5337,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100064727467274',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f7c69d7e',
@@ -5362,6 +5370,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/progatvilaseca',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '16b7690c',
@@ -5394,6 +5403,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/amicsdelsanimalsser/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8dab0e63',
@@ -5425,6 +5435,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/SosMininusFigueres/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5e8092a1',
@@ -5459,6 +5470,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/sosmaullidos',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '1e26ce22',
@@ -5490,6 +5502,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100069100126434',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '615524c1',
@@ -5519,6 +5532,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/associacio.canae_oficial/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '1008a222',
@@ -5552,6 +5566,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/asodrac',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '0d0b6553',
@@ -5584,6 +5599,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/Acaima.org/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c168e136',
@@ -5616,6 +5632,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ada.castellardelvalles2015/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd417e31c',
@@ -5649,6 +5666,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/adipaccalafell/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '325b0e40',
@@ -5681,6 +5699,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/adoptaunamic/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '59f0da2d',
@@ -5714,6 +5733,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/adoptagat.associacio/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c94f6263',
@@ -5746,6 +5766,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/DeGatsBcn/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'cdd3b696',
@@ -5779,6 +5800,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61552284463447',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5e270ca4',
@@ -5809,6 +5831,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/amicsanimalsbalenyaseva',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '707e3bf9',
@@ -5841,6 +5864,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/somlasevaveu/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '823405a7',
