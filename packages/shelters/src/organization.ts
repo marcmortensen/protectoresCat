@@ -1377,7 +1377,7 @@ export const organizations: Organization[] = [
     municipality: 'Vilafranca del Penedès',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-09-25T00:00:00.000Z',
     dateOfInscription: '2012-07-10T00:00:00.000Z',
     socials: [
       {
@@ -1388,8 +1388,12 @@ export const organizations: Organization[] = [
         type: 'instagram',
         url: 'https://www.instagram.com/adappenedes/',
       },
+      {
+        type: 'twitter',
+        url: 'https://x.com/AsociacioADAP',
+      },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '42beb6c3',
