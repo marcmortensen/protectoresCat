@@ -5898,6 +5898,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/centreacollidagarrotxa/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '10862974',
@@ -5930,6 +5931,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/amicsiprotectorsdelsgats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f2f97fbc',
@@ -5962,6 +5964,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/somamicsdelsanimalscat/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '38398845',
@@ -5974,6 +5977,7 @@ export const organizations: Organization[] = [
     province: 'barcelona',
     municipalityInscription: `Cornellà de Llobregat`,
     municipality: `Cornellà de Llobregat`,
+    contactEmail: 'aragatbcn@gmail.com',
     shelter: undefined,
     description: `Som una associació, sense ànim de lucre i sense ajuts governamentals, que ens dediquem al rescat i adopció de gats de carrer o que la gent abandona. Centrem la nostra activitat principal en gats abandonats als carrers del Baix Llobregat (Bcn). Però també donem suport a qualsevol mena de cas urgent i de gravetat, tant al Baix Llobregat com a la resta de Catalunya, sempre que la nostra situació econòmica i física ens ho permet.`,
     isActive: true,
@@ -5994,6 +5998,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/aragatbcn/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '92c9a57a',
@@ -6022,6 +6027,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/animalrescueemporda/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7eb434d6',
@@ -6051,6 +6057,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100066493214718',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '30f01942',
@@ -6095,6 +6102,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@asociacionrescat',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ade7b00d',
@@ -6128,6 +6136,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/assanimalistamanlleu',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c43c0e2b',
@@ -6161,6 +6170,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/elsquissos/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '2c708722',
@@ -6193,6 +6203,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/associaciorodagat/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7a45651b',
@@ -6222,6 +6233,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/Badagats',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '03d59d11',
@@ -6260,6 +6272,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@ada.santfeliudecodines',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7e17ffb1',
@@ -6292,6 +6305,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/CreixellNatura/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '693ef814',
@@ -6320,6 +6334,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/elclubdekat/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '2e98180d',
@@ -6349,6 +6364,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/fundaciosilvestre/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5c07b6ae',
@@ -6381,6 +6397,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/fundaciofauna',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '31572693',
@@ -6414,6 +6431,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsDeGracia',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7bcec051',
@@ -6448,6 +6466,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/Gatsdelcarrer',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '4fe6b6e6',
@@ -6480,6 +6499,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/peludetsantvicenc/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ec70e929',
@@ -6512,6 +6532,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100071781323941',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8adad82d',
@@ -6545,6 +6566,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/gatsigossosfeliu',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b7286a6a',
@@ -6577,6 +6599,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsIgualada',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd6357d5d',
@@ -6609,6 +6632,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatslaRoca/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'aa263c91',
@@ -6642,6 +6666,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/Geligats',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd99d27b4',
@@ -6680,6 +6705,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/helpguauadopta',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '43e48913',
@@ -6714,6 +6740,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ProtectoraDeAnimalesYPlantas/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '380f7b17',
@@ -6745,6 +6772,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/progatbonastre',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '35c0ec05',
@@ -6777,6 +6805,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ProgatLaGarrigaAssoc',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c00d3113',
@@ -6809,6 +6838,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/progat.santboi',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '785d1a22',
@@ -6841,6 +6871,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/progat.terrassa1/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ee50620a',
@@ -6870,6 +6901,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ProtectoraSar',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '82ad390f',
@@ -6902,6 +6934,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/apaocatsanctuary/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '9c23a87e',
@@ -6934,6 +6967,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/seproansallent/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '381fa6c2',
@@ -6966,6 +7000,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sos_bdn',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '62d2bccf',
