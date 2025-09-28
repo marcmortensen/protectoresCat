@@ -1,0 +1,31 @@
+{
+  "id": "88ae5712",
+  "slug": "animalistes-de-salt",
+  "name": "Associació Entitat Animalista de Salt",
+  "shortName": "Animalistes de Salt",
+  "animalFocus": "cats&dogs",
+  "region": "girones",
+  "province": "girona",
+  "municipalityInscription": "Salt",
+  "municipality": "Salt",
+  "contactEmail": "saltanimalista@gmail.com",
+  "whatsAppPhone": "646695954",
+  "website": "https://saltanimalista.wixsite.com/website",
+  "description": "L'Entitat Animalista de Salt és una associació sense ànim de lucre formada per voluntàries que es dedica al benestar animal, rescatem animals perduts o abandonats, donem acollida i gestionem adopcions. També ens ocupem dels gats de carrer del municipi. La nostra feina suposa un elevat cost en veterinaris, alimentació, etc. Per això necessitem la vostra ajuda per seguir ajudant!",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-09-28T00:00:00.000Z",
+  "associativeInscriptionNumber": "62201",
+  "dateOfInscription": "2017-11-21T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/animalista.salt",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/animalista.salt"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100082959117770"
+    }
+  ]
+}

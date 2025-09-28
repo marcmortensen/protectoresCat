@@ -1,0 +1,30 @@
+{
+  "id": "f9dca8ab",
+  "slug": "borders-sin-fronteras",
+  "name": "Associació Borders sin Fronteras",
+  "shortName": "Borders sin Fronteras",
+  "animalFocus": "dogs",
+  "region": "bergueda",
+  "province": "barcelona",
+  "municipalityInscription": "Casserres",
+  "municipality": "Casserres",
+  "contactEmail": "borderssinfronteras@gmail.com",
+  "website": "https://borderssinfronteras.org/",
+  "description": "Associació dedicada al rescat de Border Collies i mestissos, també pastors. Ajudem a rehabilitar-los, curar-los i posteriorment trobar-los una llar. Agraïm tota l'ajuda, ja que no tenim un lloc on allotjar-los i necessitem refugis i ajuda per pagar les residències, els veterinaris, les operacions i els educadors.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-09-28T00:00:00.000Z",
+  "associativeInscriptionNumber": "66008",
+  "dateOfInscription": "2019-07-01T00:00:00.000Z",
+  "adoptAnimalsURL": "https://borderssinfronteras.org/adopciones/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/borderssinfronteras"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associacioborderssinfronteras"
+    }
+  ]
+}
