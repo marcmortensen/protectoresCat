@@ -401,39 +401,6 @@ export const organizations: Organization[] = [
     ],
   },
   {
-    id: '7fc89969',
-    slug: 'apapf',
-    name: "Refugi de l'Associació Protectora d'Animals i Plantes de Figueres",
-    shortName: 'APAPF',
-    contactEmail: 'info@protectorafigueres.com',
-    contactPhone: '972502361',
-    logo: 'http://www.protectorafigueres.com/images/proyecto/logoprotexsok.jpg',
-    region: 'alt-emporda',
-    province: 'girona',
-    description: `L’ Associació Protectora d ‘ Animals i Plantes de Figueres és una associació sense ànim de lucre constituïda legalment l’any 1955, formada per una Junta Directiva i aproximadament uns 350 socis. Està inscrita al registre de nuclis zoològics amb el número G2500093 i té el CIF G17068024. Actualment les nostres instal·lacions acullen, enmig de pins i rosers, aproximadament uns 150 gossos i 50 gats, tots ells a l’ espera de trobar una nova llar. El finançament de la Protectora s’efectua mitjançant els convenis de servei de recollida dels animals perduts i abandonats de la ciutat de Figueres,  Consell comarcal de l’Alt Empordà i Consell Comarcal del Gironès, servei que les administracions públiques han de garantir als ciutadans.`,
-    adoptAnimalsURL:
-      'http://www.protectorafigueres.com/index.php/ca/adoptar-2/itemlist/filter?array1[0]=Gos&array1[1]=Gat&moduleId=159&limitstart=0#maininner',
-    //exporter: () => undefined, // good.
-    shelter: [
-      {
-        adress: 'c/ Pont de Molins, nº 17 17600 Figueres, Girona',
-        googleMapsLink: 'https://maps.app.goo.gl/63qgzJuxB2ZWB7339',
-        phone: '972502361',
-        openingHoursURL:
-          'http://www.protectorafigueres.com/index.php/ca/#bottom-a',
-      },
-    ],
-    idZoologicalNucleus: 'G25/00093',
-    animalFocus: 'cats&dogs',
-    municipalityInscription: 'Figueres',
-    municipality: 'Figueres',
-    isMunicipal: false,
-    isActive: false,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
-    associativeInscriptionNumber: '3460',
-    dateOfInscription: '1999-02-10T00:00:00.000Z',
-  },
-  {
     id: 'f28e80cb',
     slug: 'ccae',
     name: "Centre Comarcal de protecció i adopció d'animals de companyia a l’Alt Empordà",
@@ -636,7 +603,7 @@ export const organizations: Organization[] = [
     municipalityInscription: `Castelló d'Empúries`,
     municipality: `Castelló d'Empúries`,
     isMunicipal: false,
-    isActive: false,
+    isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '1996-02-05T00:00:00.000Z',
     socials: [
@@ -7002,6 +6969,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/palamosprogat/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '344ff211',
@@ -7034,6 +7002,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/progatlampolla/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f4c56178',
@@ -7068,6 +7037,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sosgatsalou/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '2892ae51',
@@ -7100,6 +7070,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sosgatsbcn/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5b59f972',
@@ -7133,6 +7104,7 @@ export const organizations: Organization[] = [
       },
     ],
     idZoologicalNucleus: 'T25/00084',
+    enabledLogoUsage: undefined,
   },
   {
     id: '2c009b6f',
@@ -7167,6 +7139,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sqanimalia/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'dcee3def',
@@ -7203,6 +7176,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@adac_cerdanyola',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a1547d0f',
@@ -7235,6 +7209,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/huellasfelicescanyelles/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '0ed0e4ed',
@@ -7268,6 +7243,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/daimasoc/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '196ba3e4',
@@ -7297,6 +7273,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gatsdeverdu/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7d9f61ee',
@@ -7329,6 +7306,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsdelaSegarra/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '97aa1614',
@@ -7362,6 +7340,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/gatsdebrafim/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd6a61990',
@@ -7394,6 +7373,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61562512900572',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '0dbbd3dc',
@@ -7427,6 +7407,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associaciomasanimals/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '27a0c069',
@@ -7454,6 +7435,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/boigpertu_vilabella/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd60a524b',
@@ -7487,6 +7469,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/plagats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '3d1a5847',
@@ -7519,6 +7502,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/vadal.linyola/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '622197b4',
@@ -7548,6 +7532,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gatsmoien/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5d74c050',
@@ -7576,6 +7561,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/meskanimals/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5afcc389',
@@ -7609,6 +7595,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/rescatanimal/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'ff4b94bd',
@@ -7636,6 +7623,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/katabienestaranimal/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'afd9e0e0',
@@ -7667,6 +7655,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/elniudeloliba/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '846017cd',
@@ -7699,6 +7688,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/apamevacarisses/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'bc057c94',
@@ -7758,6 +7748,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/mas_dels_peluts/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '92667ccf',
@@ -7785,6 +7776,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/marrameusdesanauja/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '3b8a0c3c',
@@ -7819,6 +7811,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/PROGATGINESTA/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '628766e9',
@@ -7848,12 +7841,15 @@ export const organizations: Organization[] = [
       },
     ],
     idZoologicalNucleus: 'E25/00062',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b5f8d18a',
     slug: 'benesgat',
     name: `Associació Benesgat`,
     shortName: `Benesgat`,
+    contactEmail: 'benesgat@gmail.com',
+    whatsAppPhone: '669642971',
     animalFocus: 'cats',
     region: 'ribera-debre',
     province: 'tarragona',
@@ -7874,7 +7870,12 @@ export const organizations: Organization[] = [
         type: 'instagram',
         url: 'https://www.instagram.com/benesgat/',
       },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=100079968757987',
+      },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '03b14c1f',
@@ -7906,6 +7907,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/people/Vimbod%C3%AD-Pets/100064553445351/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '26624c03',
@@ -7939,6 +7941,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/montblancgatigos',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '12eb3d1b',
@@ -7970,6 +7973,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100083053842542',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'cc420b96',
@@ -7977,6 +7981,7 @@ export const organizations: Organization[] = [
     name: `Associació Animalista Voluntarios Nómadas`,
     shortName: `Voluntarios Nómadas`,
     animalFocus: 'dogs',
+    contactEmail: 'info@voluntariosnomadas.com',
     whatsAppPhone: '747442547',
     region: 'barcelones',
     province: 'barcelona',
@@ -8034,6 +8039,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associacio.perlaprotecciodelsgpp',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'cf02b7c6',
@@ -9028,36 +9034,6 @@ export const organizations: Organization[] = [
       {
         type: 'tiktok',
         url: 'https://www.tiktok.com/@montgatet',
-      },
-    ],
-  },
-  {
-    id: '2ce62133',
-    slug: 'gats-del-reg',
-    name: `Associació Protectora d'Animals Urbans Gats del Reg i Rodalies`,
-    contactEmail: 'gatsdelreg@hotmail.com',
-    shortName: `Gats del Reg`,
-    animalFocus: 'cats',
-    region: 'barcelones',
-    province: 'barcelona',
-    municipalityInscription: `Barcelona`,
-    municipality: `Barcelona`,
-    shelter: undefined,
-    description: `Els Gats del Reg és una colònia urbana controlada de gats ubicada en uns jardins de Barcelona. És gestionada per persones voluntàries que en tenen cura i promouen el benestar dels animals mitjançant el mètode CER (captura, esterilització i retorn). L’organització treballa per sensibilitzar sobre la protecció felina, prevenir abandonaments i fomentar la convivència amb el veïnat.`,
-    isActive: false,
-    isMunicipal: false,
-    lastUpdate: '2025-08-20T00:00:00.000Z',
-    associativeInscriptionNumber: '53595',
-    dateOfInscription: '2014-06-27:00:00.000Z',
-    adoptAnimalsURL: 'https://www.facebook.com/gatsreg',
-    socials: [
-      {
-        type: 'facebook',
-        url: 'https://www.facebook.com/gatsreg',
-      },
-      {
-        type: 'twitter',
-        url: 'https://x.com/Gatsdelreg',
       },
     ],
   },
