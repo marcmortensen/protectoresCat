@@ -7468,8 +7468,12 @@ export const organizations: Organization[] = [
         type: 'facebook',
         url: 'https://www.facebook.com/plagats/',
       },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@plagats2025',
+      },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '3d1a5847',
@@ -8072,6 +8076,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/vilanimals/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'af11e16e',
@@ -8105,6 +8110,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/calmafelina/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '054f4244',
@@ -8137,6 +8143,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsDolivella',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '771f6a4a',
@@ -8175,6 +8182,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@adoptameymimame',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'afae631c',
@@ -8207,6 +8215,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100004349085094',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '215db813',
@@ -8240,6 +8249,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100064501944435',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '3ea7fdd9',
@@ -8274,6 +8284,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100078863536614',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '0777645b',
@@ -8306,6 +8317,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/groups/colonia.cat.cubelles',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '736bdb60',
@@ -8332,12 +8344,14 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php/?id=61562158372483',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7e9867da',
     slug: 'gats-guimera',
     name: `Associació Gats de Guimerà`,
     shortName: `Gats de Guimerà`,
+    contactEmail: 'gatsguimera@gmail.com',
     animalFocus: 'cats',
     region: 'urgell',
     province: 'lleida',
@@ -8347,7 +8361,7 @@ export const organizations: Organization[] = [
     description: `Associació sense ànim de lucre per la protecció i defensa dels animals. Registrada al Departament d'Acció Climàtica, Alimentació i Agenda Rural.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-03-03T00:00:00.000Z',
+    lastUpdate: '2025-09-29T00:00:00.000Z',
     logo: undefined,
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatsguimera',
@@ -8359,6 +8373,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gatsguimera',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '9861a33e',
@@ -8386,6 +8401,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/adao_oliana/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a3017db7',
@@ -8414,6 +8430,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/labarretinafelina/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '9c21c7ef',
@@ -8445,6 +8462,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61572294824539',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '20c2b203',
@@ -8477,6 +8495,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/gats4pobles',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c59fcb0d',

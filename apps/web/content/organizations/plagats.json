@@ -27,6 +27,11 @@
     {
       "type": "facebook",
       "url": "https://www.facebook.com/plagats/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@plagats2025"
     }
-  ]
+  ],
+  "enabledLogoUsage": true
 }
