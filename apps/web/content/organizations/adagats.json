@@ -1,0 +1,31 @@
+{
+  "id": "5494c943",
+  "slug": "adagats",
+  "name": "Asociación de Defensa y Ayuda de Gatos y Animales de Compañia",
+  "shortName": "ADAGATS",
+  "animalFocus": "cats",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipalityInscription": "Barcelona",
+  "municipality": "Barcelona",
+  "contactEmail": "infoadagats@gmail.com",
+  "contactPhone": "655477488",
+  "website": "https://adagatsanimales.blogspot.com/",
+  "description": "ADAGATS s'ha creat amb la idea de ser una associació de CASES D'ACOLLIDA. No tenim refugis. Pensem que els animals no només necessiten menjar, cures veterinàries i un recer sinó que també necessiten l'afecte i l'amor que, per la seva massificació, moltes vegades no se'ls pot prestar als refugis. Pensem que els refugis han de ser una opció “de pas”, no una llar definitiva. La nostra finalitat és rescatar i ajudar animals i trobar-los una nova llar.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-09-30T00:00:00.000Z",
+  "associativeInscriptionNumber": "55215",
+  "dateOfInscription": "2025-01-09T00:00:00.000Z",
+  "adoptAnimalsURL": "https://adagatsanimales.blogspot.com/search/label/En%20adopci%C3%B3n",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adagatsanimales/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adagats/"
+    }
+  ]
+}

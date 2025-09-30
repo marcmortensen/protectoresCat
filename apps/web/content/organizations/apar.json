@@ -1,0 +1,30 @@
+{
+  "id": "c88b143b",
+  "slug": "apar",
+  "name": "Associació Protectora d'Animals la Roca",
+  "shortName": "APAR",
+  "animalFocus": "cats&dogs",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "la Roca del Vallès",
+  "municipality": "la Roca del Vallès",
+  "contactEmail": "aparlaroca@gmail.com",
+  "contactPhone": "613044803",
+  "description": "Associació protectora d'animals de La Roca del Vallès. Vetllem pel benestar dels gossos i gats recollits en el nostre terme municipal.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-09-30T00:00:00.000Z",
+  "associativeInscriptionNumber": "69077",
+  "dateOfInscription": "2021-03-15T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/aparlaroca/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/aparlaroca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100066452601654"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bf7610bc",
+  "slug": "gaticua",
+  "name": "Associació Gat i Cua",
+  "shortName": "Gat i Cua",
+  "animalFocus": "cats",
+  "region": "baix-emporda",
+  "province": "girona",
+  "municipalityInscription": "Cruïlles, Monells i Sant Sadurní de l'Heura",
+  "municipality": "Cruïlles, Monells i Sant Sadurní de l'Heura",
+  "contactEmail": "gaticua.associacio@gmail.com",
+  "website": "https://www.gaticua.org",
+  "description": "Som l'Associació Gat i Cua, una organització no governamental en defensa dels animals, formada a Cruïlles, Monells i Sant Sant Sadurní de l'Heura per voluntaris dedicada a la protecció i cura dels animals.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-09-30T00:00:00.000Z",
+  "associativeInscriptionNumber": "69560",
+  "dateOfInscription": "2021-07-07T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gaticuacruilles/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gaticuacruilles/"
+    }
+  ]
+}
