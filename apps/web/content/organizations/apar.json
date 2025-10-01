@@ -10,7 +10,7 @@
   "municipality": "la Roca del Vallès",
   "contactEmail": "aparlaroca@gmail.com",
   "contactPhone": "613044803",
-  "description": "Associació protectora d'animals de La Roca del Vallès. Vetllem pel benestar dels gossos i gats recollits en el nostre terme municipal.",
+  "description": "APAR La Roca som una associació, sense ànim de lucre, que va néixer per vetllar pels interessos i el benestar animal del nostre municipi. Està formada per un grup de voluntàries disposades a ajudar als peluts a tenir el seu espai on es sentin segurs, respectats i estimats, per sempre,  i la millor manera és fomentant l'adopció. No disposem de refugi,  les cases d'acollida què ens ajuden són les que recuperen emocionalment els nostres animalons i els preparen per ser adoptats.",
   "isActive": true,
   "isMunicipal": false,
   "lastUpdate": "2025-09-30T00:00:00.000Z",
@@ -26,5 +26,6 @@
       "type": "facebook",
       "url": "https://www.facebook.com/profile.php?id=100066452601654"
     }
-  ]
+  ],
+  "enabledLogoUsage": true
 }
