@@ -1,0 +1,31 @@
+{
+  "id": "69c601ea",
+  "slug": "mixets-de-llinars",
+  "name": "Associació Mixets de Llinars",
+  "shortName": "Mixets de Llinars",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Llinars del Vallès",
+  "municipality": "Llinars del Vallès",
+  "contactEmail": "mixetsllinars@gmail.com",
+  "contactPhone": "610384730",
+  "website": "https://mixetsdellinars.weebly.com",
+  "description": "Som un grup de voluntaris que intentem ajudar als gats abandonats a Llinars del Vallès. Actualment NO disposem de refugi  pel que treballem amb cases d’acollida que realitzen una tasca molt important. No cobrem res per la nostra feina, és totalment altruista. Tot i això, podem rebre donacions que destinarem als gats de les colònies i futures adopcions.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "associativeInscriptionNumber": "72838",
+  "dateOfInscription": "2023-03-30T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/mixetsdellinars/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/mixetsdellinars/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100092439172463"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "08ca1f7e",
+  "slug": "argentgats",
+  "name": "Associació Argentgats",
+  "shortName": "Argentgats",
+  "animalFocus": "cats",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Argentona",
+  "municipality": "Argentona",
+  "contactEmail": "argentgats@gmail.com",
+  "contactPhone": "611040306",
+  "description": "Som un grup de voluntàries que ens dediquem a la cura, benestar i alimentació de les colònies felines. Ajudem en tot el possible als nostres gatets. Qualsevol cosa pots contactar amb nosaltres.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "associativeInscriptionNumber": "68843",
+  "dateOfInscription": "2021-02-12T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/argentgats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/argentgats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/argentgats/"
+    }
+  ]
+}

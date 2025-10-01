@@ -1,0 +1,30 @@
+{
+  "id": "a18a9606",
+  "slug": "animalets",
+  "name": "Associació Animalets",
+  "shortName": "Animalets",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "la Llagosta",
+  "municipality": "la Llagosta",
+  "contactEmail": "animaletslallagosta@gmail.com",
+  "website": "https://animaletslallagosta.org",
+  "description": "Hola, som un petit refugi de gats situat a la Llagosta, som una gran família felina i els costos són molts: menjar, sorra, aigua, manteniment de l'espai i, sobretot, la despesa veterinaria. El treball de les voluntàries és totalment altruista, ja portem més de 10 anys ajudant els animals del nostre municipi i volem seguir ajudant-los molts més.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "associativeInscriptionNumber": "27491",
+  "dateOfInscription": "2003-04-15T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/animalets_la_llagosta",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/animalets_la_llagosta"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/animalets.lallagosta.5"
+    }
+  ]
+}

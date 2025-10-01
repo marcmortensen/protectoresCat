@@ -1,0 +1,32 @@
+{
+  "id": "dae80843",
+  "slug": "batec",
+  "name": "Associació Brigada Animalista pel Tracte Ètic Cardedeu",
+  "shortName": "BATEC",
+  "animalFocus": "cats&dogs",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Cardedeu",
+  "municipality": "Cardedeu",
+  "contactEmail": "infobatec22@gmail.com",
+  "contactPhone": "622098728",
+  "whatsAppPhone": "622098728",
+  "website": "https://batec-cardedeu.cat",
+  "description": "Associació Animalista sense ànim de lucre de Cardedeu. El nostre propòsit és protegir i vetllar pel benestar animal. Conscienciar i afavorir una conducta més cívica, responsable i empàtica en defensa i preservació dels animals i el seu hàbitat. Des del respecte, empatia i amor, treballem per ells. Ens ajudes a aconseguir un món millor per als animals?",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "associativeInscriptionNumber": "71241",
+  "dateOfInscription": "2022-06-07T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/batec_cardedeu/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/batec_cardedeu/"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/batec_cardedeu"
+    }
+  ]
+}

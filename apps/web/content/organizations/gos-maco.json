@@ -1,0 +1,36 @@
+{
+  "id": "52aafb57",
+  "slug": "gos-maco",
+  "name": "Asociación Gos Maco",
+  "shortName": "Gos Maco",
+  "animalFocus": "cats&dogs",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Mataró",
+  "municipality": "Mataró",
+  "contactEmail": "gosmaco@gmail.com",
+  "contactPhone": "694471712",
+  "whatsAppPhone": "694471712",
+  "website": "https://gosmaco.wordpress.com",
+  "description": "Som una associació de Barcelona dedicada al rescat d'animals. No tenim refugi; només funcionem amb cases d'acollida, que en el nostre cas són essencials per poder continuar ajudant els animals que ens necessiten. Ens considerem el pont cap a la felicitat per a tots aquests animals desafortunats, però sense la vostra ajuda no és possible. Hi ha molts animals, molta feina, moltes despeses, molt de temps i dedicació.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "associativeInscriptionNumber": "64008",
+  "dateOfInscription": "2018-09-04T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gosmaco/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gosmaco/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gosmacobcn/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@asociaciongosmaco"
+    }
+  ]
+}
