@@ -9446,14 +9446,14 @@ export const organizations: Organization[] = [
     contactEmail: 'animalistesmasquefa@gmail.com',
     whatsAppPhone: '653955058',
     shelter: undefined,
-    website: 'https://animalistesmasquefa.wordpress.com',
+    website: 'https://animalistesmasquefa.org',
     description: `Animalistes Masquefa som una associació sense ànim de lucre formada per un grup de voluntàries i voluntaris. Aquesta organització es va crear com un projecte social que tenia com a objectiu vetllar i controlar les colònies de gats del nostre poble, lluitant contra l'abandó i el maltractament animal. Els nostres esforços van orientats a aconseguir i mantenir una convivència equilibrada entre humans i felins, intentant controlar les colònies de gats mitjançant una alimentació controlada i un procés d'esterilització (aplicant el mètode CER: Captura, Esterilització i Retorn).`,
     isActive: true,
     isMunicipal: false,
     lastUpdate: '2025-10-01T00:00:00.000Z',
     associativeInscriptionNumber: '58340',
     dateOfInscription: '2016-04-11T00:00:00.000Z',
-    adoptAnimalsURL: 'https://animalistesmasquefa.wordpress.com',
+    adoptAnimalsURL: 'https://animalistesmasquefa.org/animales',
     socials: [
       {
         type: 'instagram',
@@ -9463,10 +9463,7 @@ export const organizations: Organization[] = [
         type: 'facebook',
         url: 'https://www.facebook.com/AnimalistesMasquefa/',
       },
-      {
-        type: 'twitter',
-        url: 'https://x.com/amasquefa',
-      },
     ],
+    enabledLogoUsage: true,
   },
 ];
