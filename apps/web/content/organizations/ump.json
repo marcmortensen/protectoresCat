@@ -22,5 +22,10 @@
   "logo": "https://web.archive.org/web/20170721025638im_/http://www.unmuntdepetjades.org/s/misc/logo.png?t=1497261373",
   "adoptAnimalsURL": "https://www.instagram.com/un_munt_de_petjades/",
   "associativeInscriptionNumber": "65873",
-  "dateOfInscription": "2019-06-25T00:00:00.000Z"
+  "dateOfInscription": "2019-06-25T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

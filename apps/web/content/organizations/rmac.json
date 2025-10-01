@@ -31,5 +31,10 @@
   "logo": "https://www.santboi.cat/sites/default/files/2022-09/SantBoi_Logo.png",
   "website": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac",
   "adoptAnimalsURL": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/rmac-refugi-municipal-danimals-de-companyia/adopcions",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-18T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

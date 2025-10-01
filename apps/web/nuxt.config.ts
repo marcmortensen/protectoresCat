@@ -50,6 +50,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   experimental: {
     viewTransition: true,
+    inlineRouteRules: true,
   },
   app: {
     head: {

@@ -203,6 +203,20 @@ const getConnectedToRegions = computed(() =>
     : []
 );
 
+const pageLastUpdate = computed(() => {
+  if (!data.value?.orgs || data.value.orgs.length === 0) {
+    return undefined;
+  }
+
+  // Get the most recent lastUpdate from the currently visible organizations
+  const lastUpdates = data.value.orgs.map((org) => new Date(org.lastUpdate));
+  const mostRecent = new Date(
+    Math.max(...lastUpdates.map((date) => date.getTime()))
+  );
+
+  return mostRecent.toISOString();
+});
+
 useSeoMeta({
   ogTitle: "Llistat d'entitats d'adopció d'animals a Catalunya",
   title: "Llistat d'entitats d'adopció d'animals a Catalunya",
@@ -217,6 +231,15 @@ useSeoMeta({
   ogImage: "https://adoptar.cat/logo_w1200_h630.png",
   ogImageUrl: "https://adoptar.cat/logo_w1200_h630.png",
   twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
+  articleModifiedTime: pageLastUpdate,
+});
+
+defineRouteRules({
+  sitemap: {
+    lastmod: "2025-07-02T00:00:00.000Z",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
 });
 
 useSchemaOrg([

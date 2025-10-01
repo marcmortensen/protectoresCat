@@ -23,5 +23,10 @@
       "type": "instagram",
       "url": "https://www.instagram.com/meskanimals/"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-03-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -23,5 +23,10 @@
   "description": "El CAACB és un equipament de l’Ajuntament de Barcelona que compta amb un equip d’una vintena de professionals cuidadors, veterinaris, experts en medicina del comportament, dinamització del voluntariat i personal d’oficina, que s’encarrega de l’atenció integral dels animals en adopció. Alhora, més de cent cinquanta voluntaris col·laboren amb el centre d’una manera altruista, fent-se càrrec de treure a passejar els gossos i de jugar amb els gats i entretenir-los.",
   "isActive": true,
   "isMunicipal": true,
-  "lastUpdate": "2025-08-16T00:00:00.000Z"
+  "lastUpdate": "2025-08-16T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-08-16T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

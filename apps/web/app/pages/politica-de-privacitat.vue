@@ -3,6 +3,15 @@ useSeoMeta({
   title: "Política de privacitat | Adoptar.cat",
   description:
     "Consulta la nostra política de privacitat per entendre com gestionem les dades dels usuaris.",
+  articleModifiedTime: "2025-05-25T00:00:00.000Z",
+});
+
+defineRouteRules({
+  sitemap: {
+    lastmod: "2025-05-25T00:00:00.000Z",
+    changefreq: "yearly",
+    priority: 0.3,
+  },
 });
 </script>
 <template>

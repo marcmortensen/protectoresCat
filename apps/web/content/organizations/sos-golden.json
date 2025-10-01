@@ -28,5 +28,10 @@
       "url": "https://www.instagram.com/SOSGOLDEN/"
     }
   ],
-  "idZoologicalNucleus": "T25/00084"
+  "idZoologicalNucleus": "T25/00084",
+  "sitemap": {
+    "lastmod": "2025-02-25T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

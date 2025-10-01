@@ -29,5 +29,10 @@
   "website": "https://galgoscatalunya.es",
   "adoptAnimalsURL": "https://www.instagram.com/galgos_catalunya/",
   "associativeInscriptionNumber": "68954",
-  "dateOfInscription": "2021-03-02T00:00:00.000Z"
+  "dateOfInscription": "2021-03-02T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

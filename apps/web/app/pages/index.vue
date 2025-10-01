@@ -66,6 +66,14 @@ useSeoMeta({
   twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
 });
 
+defineRouteRules({
+  sitemap: {
+    lastmod: "2025-07-02T00:00:00.000Z",
+    changefreq: "monthly",
+    priority: 1,
+  },
+});
+
 useSchemaOrg([
   defineOrganization({
     "@id": "https://adoptar.cat/#siteorg",

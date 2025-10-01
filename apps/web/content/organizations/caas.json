@@ -25,5 +25,10 @@
   "municipality": "Tossa de Mar",
   "isMunicipal": true,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z"
+  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-01-25T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

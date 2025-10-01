@@ -22,5 +22,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/8/5/1/0/f5zdycotxw.jpg",
   "adoptAnimalsURL": "https://www.facebook.com/Asociaci%C3%B3n-PASOS-El-Vendrell-100080644246174/",
   "associativeInscriptionNumber": "40207",
-  "dateOfInscription": "2009-10-26T00:00:00.000Z"
+  "dateOfInscription": "2009-10-26T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -27,5 +27,10 @@
       "url": "https://www.facebook.com/people/Associaci%C3%B3-Mixets-De-Llagostera/100090736322144/"
     }
   ],
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-17T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

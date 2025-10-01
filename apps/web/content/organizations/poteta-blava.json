@@ -28,5 +28,10 @@
       "type": "tiktok",
       "url": "https://www.tiktok.com/@potetablava"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-08-16T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

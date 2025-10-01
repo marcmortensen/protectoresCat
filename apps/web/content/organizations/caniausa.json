@@ -29,5 +29,10 @@
   "logo": "https://www.caniausa.cat/wp-content/uploads/2020/02/logo-caniausa.png",
   "website": "https://www.caniausa.cat",
   "adoptAnimalsURL": "https://www.caniausa.cat/categoria-animals/adopcio/",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-18T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

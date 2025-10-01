@@ -23,5 +23,10 @@
       "type": "instagram",
       "url": "https://www.instagram.com/associacio.canae_oficial/"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-02-15T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

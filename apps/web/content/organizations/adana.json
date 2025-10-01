@@ -35,5 +35,10 @@
   "website": "https://www.adana.cat",
   "adoptAnimalsURL": "https://www.adana.cat/category/featured/gos-en-adopcio/",
   "associativeInscriptionNumber": "24787",
-  "dateOfInscription": "2001-05-14T00:00:00.000Z"
+  "dateOfInscription": "2001-05-14T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-11T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

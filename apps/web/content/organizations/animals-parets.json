@@ -36,5 +36,10 @@
   "logo": "https://bio.linkcdn.cc/upload/2022022415/164571632300065582.png",
   "adoptAnimalsURL": "https://www.instagram.com/protectoraanimalsparets/",
   "associativeInscriptionNumber": "55849",
-  "dateOfInscription": "2015-03-16T00:00:00.000Z"
+  "dateOfInscription": "2015-03-16T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-11T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

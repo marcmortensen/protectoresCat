@@ -26,5 +26,10 @@
   "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsG3dDr7GHVd6-NRRy4PH44ha7yuYohPU5eRnfFBf87U0dYKB_sHoU7EhX8Dy3AgTq3CKU7_suSkmCZ54RU6rUUirRl3V0Qz68x0h_iy1fHDIIEq-STKIiFtq8exVcLQUxMu4xoo33XLWD/w800/heiufhiew.png",
   "adoptAnimalsURL": "https://www.instagram.com/tramungats/",
   "associativeInscriptionNumber": "57502",
-  "dateOfInscription": "2015-12-03T00:00:00.000Z"
+  "dateOfInscription": "2015-12-03T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

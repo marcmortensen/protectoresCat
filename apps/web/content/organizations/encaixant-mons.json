@@ -28,5 +28,10 @@
   "adoptAnimalsURL": "https://www.encaixantmons.org/perros/",
   "associativeInscriptionNumber": "69708",
   "dateOfInscription": "2021-07-16T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-05-18T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

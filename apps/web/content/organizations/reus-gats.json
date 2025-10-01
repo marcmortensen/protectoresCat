@@ -29,5 +29,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/reusgats",
   "associativeInscriptionNumber": "47722",
   "dateOfInscription": "2012-05-16T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-01-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

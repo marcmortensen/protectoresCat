@@ -39,5 +39,10 @@
   "logo": "https://refugipeluts.paeria.cat/++theme++paeria_site/img/logo-paeria.svg",
   "website": "https://refugipeluts.paeria.cat",
   "adoptAnimalsURL": "https://refugipeluts.paeria.cat/ca/animals-en-adopcio",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-09-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

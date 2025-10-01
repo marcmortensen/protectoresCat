@@ -22,5 +22,10 @@
       "type": "instagram",
       "url": "https://www.instagram.com/gaticuacruilles/"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-09-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -25,5 +25,10 @@
   "lastUpdate": "2025-02-13T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/veuanimal",
   "associativeInscriptionNumber": "26333",
-  "dateOfInscription": "2002-06-28T00:00:00.000Z"
+  "dateOfInscription": "2002-06-28T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

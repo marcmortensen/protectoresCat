@@ -28,5 +28,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/adopta_apa_pupetc/",
   "associativeInscriptionNumber": "52894",
   "dateOfInscription": "2014-04-16T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-20T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

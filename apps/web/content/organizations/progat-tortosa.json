@@ -28,5 +28,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/progat.tortosa/",
   "associativeInscriptionNumber": "32759",
   "dateOfInscription": "2006-07-17T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-09-09T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

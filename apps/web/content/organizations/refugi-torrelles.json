@@ -31,5 +31,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/3/4/3/3/720_g1omhp4woo.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/el_refugi_de_torrelles/",
   "associativeInscriptionNumber": "73690",
-  "dateOfInscription": "2023-09-04T00:00:00.000Z"
+  "dateOfInscription": "2023-09-04T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-11T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

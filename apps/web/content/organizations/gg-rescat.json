@@ -29,5 +29,10 @@
   "website": "https://www.ggrescat.org",
   "adoptAnimalsURL": "https://www.facebook.com/ggrescat/",
   "associativeInscriptionNumber": "57668",
-  "dateOfInscription": "2015-12-15T00:00:00.000Z"
+  "dateOfInscription": "2015-12-15T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-01-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -28,5 +28,10 @@
   "website": "https://masnougats.cat",
   "adoptAnimalsURL": "https://masnougats.cat/adopta",
   "associativeInscriptionNumber": "52448",
-  "dateOfInscription": "2014-03-07T00:00:00.000Z"
+  "dateOfInscription": "2014-03-07T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-01-29T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

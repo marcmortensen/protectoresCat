@@ -32,5 +32,10 @@
   "website": "https://caldesanimal.org",
   "adoptAnimalsURL": "https://caldesanimal.org/#elvpets_iframe",
   "associativeInscriptionNumber": "38054",
-  "dateOfInscription": "2008-11-13T00:00:00.000Z"
+  "dateOfInscription": "2008-11-13T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

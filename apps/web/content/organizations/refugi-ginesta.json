@@ -22,5 +22,10 @@
       "url": "https://www.facebook.com/refugilaginesta/"
     }
   ],
-  "idZoologicalNucleus": "E25/00062"
+  "idZoologicalNucleus": "E25/00062",
+  "sitemap": {
+    "lastmod": "2025-03-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -28,5 +28,10 @@
   "website": "https://advam.org",
   "adoptAnimalsURL": "https://www.instagram.com/advammontcada",
   "associativeInscriptionNumber": "46637",
-  "dateOfInscription": "2011-11-29T00:00:00.000Z"
+  "dateOfInscription": "2011-11-29T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-11T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

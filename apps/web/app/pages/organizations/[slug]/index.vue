@@ -136,6 +136,7 @@ useSeoMeta({
     data.value?.org.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
       : undefined,
+  articleModifiedTime: () => data.value?.org.lastUpdate,
 });
 
 useSchemaOrg([

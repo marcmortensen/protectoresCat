@@ -32,5 +32,10 @@
   "logo": "https://sircan.cat/wp-content/uploads/2023/02/cropped-logo_web.jpg",
   "website": "https://sircan.cat",
   "adoptAnimalsURL": "https://petshelter.miwuki.com/p/w0oBzTHO",
-  "idZoologicalNucleus": "B25/00619"
+  "idZoologicalNucleus": "B25/00619",
+  "sitemap": {
+    "lastmod": "2025-01-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -36,5 +36,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/alberg_animals_terres_ebre/",
   "associativeInscriptionNumber": "1082",
   "dateOfInscription": "2004-10-15T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-09-09T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

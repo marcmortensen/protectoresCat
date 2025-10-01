@@ -37,5 +37,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/ProtectoraBerga/",
   "associativeInscriptionNumber": "11606",
   "dateOfInscription": "1990-04-03T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-01-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

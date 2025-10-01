@@ -29,5 +29,10 @@
       "url": "https://www.facebook.com/calmafelina/"
     }
   ],
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-09-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -26,10 +26,12 @@ const items = [
       "La revisió de les entrades és manual, per tant, hi pot haver un cert biaix entre el qual es representa a la plana i la realitat. Tot i això, es revisaran totes les entrades com a mínim 2 cops per any, i l'última data de revisió serà degudament visible en cada una de les entrades.",
   },
 ];
+
 useSeoMeta({
   title: "Preguntes freqüents | Adoptar.cat",
   description:
     "Consulta les preguntes més freqüents sobre el nostre llistat d'entitats i adopcions.",
+  articleModifiedTime: "2025-08-20T00:00:00.000Z",
 });
 useSchemaOrg([
   defineWebPage({
@@ -47,6 +49,14 @@ useSchemaOrg([
     })),
   }),
 ]);
+
+defineRouteRules({
+  sitemap: {
+    lastmod: "2025-08-20T00:00:00.000Z",
+    changefreq: "monthly",
+    priority: 0.3,
+  },
+});
 </script>
 
 <template>

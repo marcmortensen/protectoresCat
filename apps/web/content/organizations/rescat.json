@@ -40,5 +40,10 @@
       "type": "tiktok",
       "url": "https://www.tiktok.com/@asociacionrescat"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-03-21T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

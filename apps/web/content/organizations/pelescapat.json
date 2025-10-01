@@ -24,5 +24,10 @@
   "website": "https://pelescapat.org",
   "adoptAnimalsURL": "https://www.instagram.com/protectora_pelescapat/",
   "associativeInscriptionNumber": "53842",
-  "dateOfInscription": "2014-08-11T00:00:00.000Z"
+  "dateOfInscription": "2014-08-11T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

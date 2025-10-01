@@ -38,5 +38,10 @@
   "associativeInscriptionNumber": "4120",
   "dateOfInscription": "1979-06-12T00:00:00.000Z",
   "idZoologicalNucleus": "B23/00012",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-20T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

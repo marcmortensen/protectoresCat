@@ -37,5 +37,10 @@
   "adoptAnimalsURL": "https://petshelter.miwuki.com/p/5U3Tf0l4",
   "associativeInscriptionNumber": "24292",
   "dateOfInscription": "2001-01-15T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-15T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

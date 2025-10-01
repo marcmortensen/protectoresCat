@@ -25,5 +25,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/0/5/3/5/9/f8xpotmhq6.jpeg",
   "adoptAnimalsURL": "https://www.instagram.com/gats108llagostera/",
   "associativeInscriptionNumber": "61784",
-  "dateOfInscription": "2017-09-15T00:00:00.000Z"
+  "dateOfInscription": "2017-09-15T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

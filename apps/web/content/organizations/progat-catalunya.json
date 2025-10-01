@@ -28,5 +28,10 @@
   "website": "https://progat.cat",
   "adoptAnimalsURL": "https://www.instagram.com/progatcatalunya/",
   "associativeInscriptionNumber": "20860",
-  "dateOfInscription": "1998-06-18T00:00:00.000Z"
+  "dateOfInscription": "1998-06-18T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

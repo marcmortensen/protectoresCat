@@ -29,5 +29,10 @@
       "type": "instagram",
       "url": "https://www.instagram.com/bigotitosdeangel/"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-08-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

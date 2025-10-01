@@ -37,5 +37,10 @@
   "adoptAnimalsURL": "https://protectorabcn.es/ca/els-nostres-animals/?fwp_categories=en-adopcion",
   "associativeInscriptionNumber": "882",
   "dateOfInscription": "1967-05-30T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-18T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

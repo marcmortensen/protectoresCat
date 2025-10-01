@@ -37,5 +37,10 @@
   "website": "https://www.amicsdelsanimalsdosrius.org",
   "adoptAnimalsURL": "https://www.instagram.com/protectoradosrius",
   "associativeInscriptionNumber": "24378",
-  "dateOfInscription": "2001-02-12T00:00:00.000Z"
+  "dateOfInscription": "2001-02-12T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

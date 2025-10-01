@@ -29,5 +29,10 @@
   "website": "https://www.eljardinetdelsgats.org/ca",
   "adoptAnimalsURL": "https://www.eljardinetdelsgats.org/ca/category/per-adoptar/",
   "associativeInscriptionNumber": "36082",
-  "dateOfInscription": "2008-02-01T00:00:00.000Z"
+  "dateOfInscription": "2008-02-01T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-11T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

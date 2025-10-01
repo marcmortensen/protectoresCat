@@ -47,5 +47,10 @@
   "website": "https://protectoramataro.org",
   "adoptAnimalsURL": "https://protectoramataro.org/buscador/",
   "associativeInscriptionNumber": "1670",
-  "dateOfInscription": "1972-07-28T00:00:00.000Z"
+  "dateOfInscription": "1972-07-28T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-11T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

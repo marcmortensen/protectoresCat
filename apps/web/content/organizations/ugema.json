@@ -31,5 +31,10 @@
   "lastUpdate": "2025-01-25T00:00:00.000Z",
   "logo": "http://www.alturgell.cat/sites/default/files/imagecache/third_under_content_banner/banners/logo_augema.JPG",
   "website": "https://www.alturgell.cat/refugi-supracomarcal-animals",
-  "adoptAnimalsURL": "https://www.facebook.com/refugianimalsbenavarre"
+  "adoptAnimalsURL": "https://www.facebook.com/refugianimalsbenavarre",
+  "sitemap": {
+    "lastmod": "2025-01-25T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

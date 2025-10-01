@@ -28,5 +28,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/3/8/5/1/9/qcvmnntlt1.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/asociacionnoaa/",
   "associativeInscriptionNumber": "59788",
-  "dateOfInscription": "2016-11-14T00:00:00.000Z"
+  "dateOfInscription": "2016-11-14T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

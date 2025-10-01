@@ -26,5 +26,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/5/5/9/8/0/otitp7irxq.jpeg",
   "adoptAnimalsURL": "https://www.instagram.com/lacasetadelsgats/",
   "associativeInscriptionNumber": "48310",
-  "dateOfInscription": "2012-07-26T00:00:00.000Z"
+  "dateOfInscription": "2012-07-26T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

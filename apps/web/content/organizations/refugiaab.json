@@ -41,5 +41,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100064785183838#",
   "associativeInscriptionNumber": "56082",
   "dateOfInscription": "2015-04-13T00:00:00.000Z",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-15T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -135,6 +135,11 @@ export default defineContentConfig({
               })
             )
             .optional(),
+          sitemap: z.object({
+            lastmod: z.string(),
+            changefreq: z.string(),
+            priority: z.number(),
+          }),
         }),
       })
     ),

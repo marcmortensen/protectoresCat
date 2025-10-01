@@ -43,5 +43,10 @@
   "isMunicipal": false,
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/8/3/2/3/4/s5oso0quwx.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/amigospeludosbajocinca/",
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-21T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

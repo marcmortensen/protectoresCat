@@ -23,5 +23,10 @@
   "adoptAnimalsURL": "https://www.instagram.com/vallgats/",
   "associativeInscriptionNumber": "70755",
   "dateOfInscription": "2022-03-04T00:00:00.000Z",
-  "contactEmail": "vallgats21@gmail.com"
+  "contactEmail": "vallgats21@gmail.com",
+  "sitemap": {
+    "lastmod": "2025-01-27T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

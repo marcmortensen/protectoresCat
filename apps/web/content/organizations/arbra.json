@@ -26,5 +26,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/1/4/0/0/pmdah97ngr.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/arbra_associacio/",
   "associativeInscriptionNumber": "44897",
-  "dateOfInscription": "2011-04-29T00:00:00.000Z"
+  "dateOfInscription": "2011-04-29T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -38,5 +38,10 @@
       "url": "https://x.com/OsonaProtectora"
     }
   ],
-  "enabledLogoUsage": true
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-08-20T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

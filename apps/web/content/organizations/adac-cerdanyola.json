@@ -31,5 +31,10 @@
       "type": "tiktok",
       "url": "https://www.tiktok.com/@adac_cerdanyola"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-02-25T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -37,5 +37,10 @@
   "adoptAnimalsURL": "https://www.facebook.com/aixoplucmanresa/",
   "associativeInscriptionNumber": "993",
   "dateOfInscription": "1967-09-19T00:00:00.000Z",
-  "idZoologicalNucleus": "B23/00084"
+  "idZoologicalNucleus": "B23/00084",
+  "sitemap": {
+    "lastmod": "2025-01-27T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

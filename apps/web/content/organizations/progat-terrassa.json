@@ -27,5 +27,10 @@
       "type": "facebook",
       "url": "https://www.facebook.com/progat.terrassa1/"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-02-25T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

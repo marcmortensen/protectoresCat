@@ -28,6 +28,13 @@ const activeOrganizations = organizations.filter((a) => a.isActive);
 try {
   for (const org of activeOrganizations) {
     const filePath = path.join(organizationsPath, `${org.slug}.json`);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    org.sitemap = {
+      lastmod: org.lastUpdate,
+      changefreq: 'monthly',
+      priority: 0.5,
+    };
     await fs.writeFile(filePath, JSON.stringify(org, null, 2));
   }
 } catch (error) {

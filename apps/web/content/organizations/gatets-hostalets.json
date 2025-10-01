@@ -27,5 +27,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/2/5/5/2/s233gg7sol.png",
   "adoptAnimalsURL": "https://www.instagram.com/gatetshostalets/",
   "associativeInscriptionNumber": "69157",
-  "dateOfInscription": "2021-03-31T00:00:00.000Z"
+  "dateOfInscription": "2021-03-31T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

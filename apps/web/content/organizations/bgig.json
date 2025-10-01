@@ -30,5 +30,10 @@
   "website": "https://barcelonagatigos.org",
   "adoptAnimalsURL": "https://barcelonagatigos.org/adoptar/?lang=ca",
   "associativeInscriptionNumber": "27783",
-  "dateOfInscription": "2003-07-09T00:00:00.000Z"
+  "dateOfInscription": "2003-07-09T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-08-15T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

@@ -28,5 +28,10 @@
   "website": "https://sitgesangels.protecms.com",
   "adoptAnimalsURL": "https://sitgesangels.protecms.com/animales?name=&kind=dog&status=adoption&sex=&birth_date=",
   "associativeInscriptionNumber": "58048",
-  "dateOfInscription": "2016-03-03T00:00:00.000Z"
+  "dateOfInscription": "2016-03-03T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

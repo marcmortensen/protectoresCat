@@ -3,6 +3,15 @@ useSeoMeta({
   title: "Avís legal | Adoptar.cat",
   description:
     "Avís legal d'Adoptar.cat, informació sobre l'ús del lloc web i responsabilitats.",
+  articleModifiedTime: "2025-08-07T00:00:00.000Z",
+});
+
+defineRouteRules({
+  sitemap: {
+    lastmod: "2025-08-07T00:00:00.000Z",
+    changefreq: "yearly",
+    priority: 0.3,
+  },
 });
 </script>
 

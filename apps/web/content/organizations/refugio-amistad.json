@@ -31,5 +31,10 @@
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/7/4/0/1/0/jm1ul8tvdl.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/refugiolamistad/",
   "associativeInscriptionNumber": "25381",
-  "dateOfInscription": "2001-10-31T00:00:00.000Z"
+  "dateOfInscription": "2001-10-31T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

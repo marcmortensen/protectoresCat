@@ -34,5 +34,10 @@
   "website": "https://animalssensesostre.org",
   "adoptAnimalsURL": "https://animalssensesostre.org/la-47-perros-en-adopcion",
   "associativeInscriptionNumber": "27086",
-  "dateOfInscription": "2002-12-18T00:00:00.000Z"
+  "dateOfInscription": "2002-12-18T00:00:00.000Z",
+  "sitemap": {
+    "lastmod": "2025-02-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

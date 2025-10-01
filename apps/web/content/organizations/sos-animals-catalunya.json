@@ -25,5 +25,10 @@
       "type": "instagram",
       "url": "https://www.instagram.com/sosacatalunya/"
     }
-  ]
+  ],
+  "sitemap": {
+    "lastmod": "2025-07-04T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }

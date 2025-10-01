@@ -29,5 +29,10 @@
   "adoptAnimalsURL": "https://adamprotectora.org/cat/listado",
   "associativeInscriptionNumber": "26109",
   "dateOfInscription": "2002-04-26T00:00:00.000Z",
-  "idZoologicalNucleus": "B25/00871"
+  "idZoologicalNucleus": "B25/00871",
+  "sitemap": {
+    "lastmod": "2025-01-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
 }
