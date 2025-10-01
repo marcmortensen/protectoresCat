@@ -132,9 +132,9 @@ const isDark = computed({
         </template>
       </USlideover>
     </header>
-    <div class="min-h-screen-height-header bg-gray-50 dark:bg-gray-800">
+    <main class="min-h-screen-height-header bg-gray-50 dark:bg-gray-800">
       <slot />
-    </div>
+    </main>
     <footer
       class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700"
     >
