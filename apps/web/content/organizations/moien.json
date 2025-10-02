@@ -10,10 +10,10 @@
   "province": "lleida",
   "municipalityInscription": "la Pobla de Segur",
   "municipality": "la Pobla de Segur",
-  "description": "Ens dediquem a gestionar i tenir cura de les colònies felines de la Pobla de Segur. Amb el teu suport, podem millorar la vida dels gats de carrer, proporcionant-los aliment, esterilitzacions i tractaments veterinaris. Cada euro ajuda a garantir-los una vida més digna, evitant el patiment i promovent un futur millor. Uneix-te al nostre projecte solidari i forma part d’aquesta cadena d’esperança pels nostres bigotis més vulnerables. Amb tu, podem fer la diferència!",
+  "description": "Gats Moien és una associació sense ànim de lucre dedicada a la protecció i benestar dels gats de la Pobla de Segur. El nostre dia a dia se centra en alimentar i cuidar més de 300 gats de carrer repartits en 12 colònies controlades, recollir gats abandonats o en situació de risc per donar-los una segona oportunitat, fomentar l'adopció responsable, trobant famílies que els donin una llar definitiva. Tot això és possible gràcies a l'esforç dels voluntaris i al suport dels socis i col·laboradors. El nostre objectiu és clar: garantir una vida digna i segura a tots els gats que depenen de nosaltres.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2025-10-02T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/9/5/7/3/7a4kmifkdg.png",
   "adoptAnimalsURL": "https://www.instagram.com/gatsmoien/",
   "associativeInscriptionNumber": "66197",
@@ -24,8 +24,9 @@
       "url": "https://www.instagram.com/gatsmoien/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2025-10-02T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

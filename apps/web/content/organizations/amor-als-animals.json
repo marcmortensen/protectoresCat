@@ -9,7 +9,6 @@
   "province": "barcelona",
   "municipalityInscription": "Begues",
   "municipality": "Begues",
-  "whatsAppPhone": "615173627",
   "socials": [
     {
       "type": "instagram",
@@ -20,21 +19,20 @@
     {
       "adress": "Masia Can Figueres, 1, 08859 Begues, Barcelona",
       "googleMapsLink": "https://maps.app.goo.gl/DVHcNwuYnFV8bd2DA",
-      "openingHoursURL": "https://amoralsanimals.org/ca/visitans/",
-      "phone": "615173627"
+      "openingHoursURL": "https://amoralsanimals.org/visitanos/"
     }
   ],
-  "description": "L’Associació d’Amor als Animals Maria Adam neix amb l’objectiu d’unir totes aquelles persones que comparteixen un mateix sentiment cap a aquestes criatures fantàstiques: els animals. Tots els que formem part de l’associació treballem amb la voluntat de donar-los amor, de vetllar per la salut tant física com psicològica i de cuidar-los mentre busquem una família que els pugui donar una nova vida.",
+  "description": "Som l’Associació Amor als Animals Maria Adam, una entitat sense ànim de lucre dedicada a acollir i ajudar animals abandonats, desahuciats i maltractats. Tenim la missió de fer un món millor optimitzant el benestar i la protecció dels animals mitjançant la prevenció (educant la població, fomentant una tinença responsable i promoure la legislació compromesa), la curació (assistència veterinària, recuperació física i psicològica, fisioteràpia per als més majors), i la gestió (adopcions segures, suport a colònies felines, espais dignes per als animals en la última etapa de la vida)",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "lastUpdate": "2025-10-02T00:00:00.000Z",
   "logo": "https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png",
-  "website": "https://amoralsanimals.org",
-  "adoptAnimalsURL": "https://amoralsanimals.org/ca/animals-en-adopcio/",
+  "website": "https://amoralsanimals.org/",
+  "adoptAnimalsURL": "https://amoralsanimals.org/en_adopcion/",
   "associativeInscriptionNumber": "29579",
   "dateOfInscription": "2004-09-22T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-01-30T00:00:00.000Z",
+    "lastmod": "2025-10-02T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

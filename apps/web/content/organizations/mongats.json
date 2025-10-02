@@ -1,0 +1,37 @@
+{
+  "id": "e5df7533",
+  "slug": "mongats",
+  "name": "Associació Mongats Montbui",
+  "shortName": "Mongats",
+  "animalFocus": "cats",
+  "region": "anoia",
+  "province": "barcelona",
+  "municipalityInscription": "Santa Margarida de Montbui",
+  "municipality": "Santa Margarida de Montbui",
+  "contactEmail": "mongats2019@gmail.com",
+  "whatsAppPhone": "630410087",
+  "contactPhone": "630410087",
+  "website": "https://sites.google.com/view/mongats",
+  "description": "Associació de gats ferals i domèstics abandonats de Montbui",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-02T00:00:00.000Z",
+  "associativeInscriptionNumber": "68015",
+  "dateOfInscription": "2020-09-01T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/mon.gats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/mon.gats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/asociacionmongatsmonbui/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-02T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

@@ -21,7 +21,7 @@
   "description": "Centre d'acolliment d'animals abandonats i/o perduts a la via pública. La nostra funció principal és la recollida i/o captura d'animals, que es troben a vies públiques, per ordre de l'Ajuntament del municipi. El trasllat fins a les nostres instal·lacions, la revisió de cada animal, el seu manteniment i/o cura i oferir-li la millor estada possible el temps que estigui al nostre centre. Buscar-li una llar digna i definitiva, on el més important sigui el seu benestar.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-02T00:00:00.000Z",
   "logo": "https://www.helpguau.com/wp-content/uploads/2019/06/cropped-logo-hg@2x.png",
   "website": "https://www.helpguau.com",
   "adoptAnimalsURL": "https://www.helpguau.com/animales/",
@@ -35,8 +35,9 @@
       "url": "https://www.facebook.com/helpguauadopta"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-02-25T00:00:00.000Z",
+    "lastmod": "2025-10-02T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
