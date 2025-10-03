@@ -1,0 +1,37 @@
+{
+  "id": "c0168e7f",
+  "slug": "gatejades",
+  "name": "Associació Gatejades",
+  "shortName": "Gatejades",
+  "animalFocus": "cats",
+  "region": "selva",
+  "province": "girona",
+  "municipalityInscription": "Riells i Viabrea",
+  "municipality": "Riells i Viabrea",
+  "contactEmail": "info@gatejades.cat",
+  "whatsAppPhone": "606415411",
+  "contactPhone": "606415411",
+  "website": "https://www.gatejades.cat",
+  "description": "Som una associació sense ànim de lucre creada l'any 2021 i formada per voluntaris que ens dediquem a la protecció dels gats de carrer de Riells i Viabrea. Gestionem unes 40 colònies i evitem la seva superpoblació a través del mètode CER (Capturar, Esterilitzar, Retornar), ens preocupem per la seva salut i benestar i donem en adopció els gats més sociables. Fomentem les adopcions dels gats sociables que estan al carrer perquè tinguin l'oportunitat de formar part d'una família, i funcionem amb cases d'acollida ja que no disposem d'un refugi al poble on ubicar els gats malalts i/o sociables que recollim. Respectem el marc legal, vetllant pel respecte a les lleis de protecció dels animals i del medi ambient, i impulsem la reforma d'aquestes per millorar i ampliar el seu abast.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "associativeInscriptionNumber": "70107",
+  "dateOfInscription": "2021-10-18T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gatejades/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatejades/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GATEJADESS/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

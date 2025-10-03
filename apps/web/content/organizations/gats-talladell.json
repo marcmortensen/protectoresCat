@@ -11,7 +11,7 @@
   "description": "L’associació de Gats del Talladell neix amb la intenció de controlar i protegir aquestes colònies, proporcionant atenció veterinària als gats malalts, alimentació, refugi i el més important, el control de població per mitjà de la captura, esterilització i retorn dels animals així com la sortida en adopció dels gats més joves.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.facebook.com/profile.php/?id=61562158372483",
   "associativeInscriptionNumber": "75021",
   "dateOfInscription": "2024-04-04:00:00.000Z",
@@ -21,8 +21,9 @@
       "url": "https://www.facebook.com/profile.php/?id=61562158372483"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2025-10-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

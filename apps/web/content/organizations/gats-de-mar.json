@@ -1,0 +1,36 @@
+{
+  "id": "71d3a8d1",
+  "slug": "gats-de-mar",
+  "name": "Associació Gats de Mar",
+  "shortName": "Gats de Mar",
+  "animalFocus": "cats",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Malgrat de Mar",
+  "municipality": "Malgrat de Mar",
+  "contactEmail": "as.gatsdemar@gmail.com",
+  "whatsAppPhone": "611909262",
+  "website": "https://gatsdemar.wordpress.com",
+  "description": "Som l’associació Gats de Mar i treballem cada dia pel benestar dels gats de carrer de Malgrat de Mar, on n’hi ha més de 1.500, especialment a la zona dels càmpings. Apliquem el mètode CER (Captura, Esterilització i Retorn) per controlar les colònies de manera ètica i sostenible. Tot i comptar amb una col·laboració parcial de l’Ajuntament, la nostra tasca va molt més enllà: acollim cadells orfes, gats atropellats o amb problemes greus de salut, als quals oferim l’atenció i les cures que necessiten. Per fer front a aquestes necessitats, vam crear Gats & Karens, un espai obert a tothom, on els gats esperen una nova oportunitat d’adopció després de passar els protocols veterinaris (quarantena, vacunes, testos). També hi tenim una botiga solidària de temàtica felina, i tots els beneficis es destinen als animals. El nostre compromís és seguir donant visibilitat als gats de Malgrat i oferir-los un futur digne.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "associativeInscriptionNumber": "75677",
+  "dateOfInscription": "2024-07-08T00:00:00.000Z",
+  "adoptAnimalsURL": "https://gatsdemar.wordpress.com/adopcion/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsdemarmalgrat/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatsdemarmalgrat"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
