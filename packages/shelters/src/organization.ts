@@ -40,7 +40,7 @@ export interface Organization {
     type: 'facebook' | 'instagram' | 'tiktok' | 'twitter';
     url: string;
   }[];
-  enabledLogoUsage?: boolean;
+  enabledLogoUsage: boolean | undefined;
 }
 
 export const organizations: Organization[] = [
@@ -385,7 +385,7 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Banyoles',
     municipality: 'Banyoles',
     isMunicipal: false,
-    isActive: false,
+    isActive: true,
     lastUpdate: '2025-07-30T00:00:00.000Z',
     associativeInscriptionNumber: '1665',
     dateOfInscription: '1989-06-19T00:00:00.000Z',
@@ -399,6 +399,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/protectoraplaestany/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f28e80cb',
@@ -616,6 +617,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ProGatAmpuriaDE?_rdr',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'de317cfe',
@@ -1020,6 +1022,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/elspelutsnavarcles',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '432e15c5',
@@ -4046,7 +4049,7 @@ export const organizations: Organization[] = [
     name: `Associació Gats108`,
     shortName: `Gats108`,
     animalFocus: 'cats',
-    contactEmail: undefined,
+    contactEmail: 'associaciogats108@gmail.com',
     region: 'girones',
     province: 'girona',
     municipalityInscription: `Llagostera`,
@@ -4071,6 +4074,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/gats108llagostera/',
     associativeInscriptionNumber: '61784',
     dateOfInscription: '2017-09-15T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '25a50b9f',
@@ -4174,6 +4178,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://www.instagram.com/un_munt_de_petjades/',
     associativeInscriptionNumber: '65873',
     dateOfInscription: '2019-06-25T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: '70649e54',
@@ -4889,6 +4894,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/101vida_rescate_animal/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '955e95c9',
@@ -7719,6 +7725,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/groups/853428221458056/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b413c64f',
@@ -8010,6 +8017,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/voluntariosnomadas2',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '05b45b75',
@@ -8809,6 +8817,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/deltarescat_/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c8789adc',
@@ -8840,6 +8849,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/acolama/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '590af335',
@@ -8870,6 +8880,7 @@ export const organizations: Organization[] = [
     isActive: true,
     isMunicipal: true,
     lastUpdate: '2025-08-16T00:00:00.000Z',
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b103f17f',
@@ -8903,6 +8914,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@potetablava',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '2c00268e',
@@ -8933,6 +8945,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/asoc.soscats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '10b8999d',
@@ -8964,6 +8977,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/caldespelsanimals',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a4048f5b',
@@ -8999,12 +9013,13 @@ export const organizations: Organization[] = [
         url: 'https://x.com/ProgatSabadell',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '61c8ad40',
     slug: 'el-solar-dels-gats',
     name: `Associació El Solar dels Gats`,
-    contactEmail: 'elsolardegats@gmail.com',
+    contactEmail: 'elsolardelsgats@gmail.com',
     website: 'https://elsolardelsgats.com',
     shortName: `El Solar dels Gats`,
     animalFocus: 'cats',
@@ -9016,7 +9031,7 @@ export const organizations: Organization[] = [
     description: `Som una associació sense ànim de lucre que gestiona íntegrament un espai amb més de 200 gats i gates.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-20T00:00:00.000Z',
+    lastUpdate: '2025-10-03T00:00:00.000Z',
     associativeInscriptionNumber: '70709',
     dateOfInscription: '2022-02-24:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/elsolardelsgats/',
@@ -9038,6 +9053,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@elsolardelsgats',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '60e8fd4e',
@@ -9073,6 +9089,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@montgatet',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8408550d',
@@ -9098,6 +9115,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/aoveg_allaonviuenelsgats',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '88ae5712',
@@ -9130,6 +9148,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100082959117770',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f9dca8ab',
@@ -9161,6 +9180,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associacioborderssinfronteras',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'bf7610bc',
@@ -9318,6 +9338,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/argentgats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '52aafb57',
@@ -9355,6 +9376,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@asociaciongosmaco',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'dae80843',
@@ -9388,6 +9410,7 @@ export const organizations: Organization[] = [
         url: 'https://x.com/batec_cardedeu',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '69c601ea',
@@ -9420,6 +9443,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100092439172463',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a18a9606',
@@ -9451,6 +9475,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/animalets.lallagosta.5',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '4fe509cc',
@@ -9517,6 +9542,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/asociacionmongatsmonbui/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c0168e7f',

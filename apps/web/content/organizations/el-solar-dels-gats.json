@@ -2,7 +2,7 @@
   "id": "61c8ad40",
   "slug": "el-solar-dels-gats",
   "name": "Associació El Solar dels Gats",
-  "contactEmail": "elsolardegats@gmail.com",
+  "contactEmail": "elsolardelsgats@gmail.com",
   "website": "https://elsolardelsgats.com",
   "shortName": "El Solar dels Gats",
   "animalFocus": "cats",
@@ -13,7 +13,7 @@
   "description": "Som una associació sense ànim de lucre que gestiona íntegrament un espai amb més de 200 gats i gates.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-20T00:00:00.000Z",
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
   "associativeInscriptionNumber": "70709",
   "dateOfInscription": "2022-02-24:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/elsolardelsgats/",
@@ -36,7 +36,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-08-20T00:00:00.000Z",
+    "lastmod": "2025-10-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
