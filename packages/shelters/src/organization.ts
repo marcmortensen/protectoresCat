@@ -202,7 +202,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     isActive: true,
     lastUpdate: '2025-01-25T00:00:00.000Z',
-    dateOfInscription: '2013-04-08:00:00.000Z',
+    dateOfInscription: '2013-04-08T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5207,7 +5207,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/amicsdelsanimalsvdm/',
     associativeInscriptionNumber: '21558',
-    dateOfInscription: '1999-02-15:00:00.000Z',
+    dateOfInscription: '1999-02-15T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5240,7 +5240,7 @@ export const organizations: Organization[] = [
     website: 'https://progatcornella.org',
     adoptAnimalsURL: 'https://www.instagram.com/progatcornella/',
     associativeInscriptionNumber: '33637',
-    dateOfInscription: '2006-12-18:00:00.000Z',
+    dateOfInscription: '2006-12-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5272,7 +5272,7 @@ export const organizations: Organization[] = [
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/1/3/0/1/y77lhrue5c.jpg',
     adoptAnimalsURL: 'https://www.facebook.com/Protectoraanimalesarenys',
     associativeInscriptionNumber: '39898',
-    dateOfInscription: '2009-07-22:00:00.000Z',
+    dateOfInscription: '2009-07-22T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5301,7 +5301,7 @@ export const organizations: Organization[] = [
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/2/5/8/0/wnxskduzlt.jpg',
     adoptAnimalsURL: 'https://www.instagram.com/gatpi.protectora',
     associativeInscriptionNumber: '49419',
-    dateOfInscription: '2013-01-07:00:00.000Z',
+    dateOfInscription: '2013-01-07T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5334,7 +5334,7 @@ export const organizations: Organization[] = [
     logo: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ077LtsAhyphenhyphenhEzX2HAY1bXCHAIBEVW-QusMUc1H2EIrpvJc-26t-AsqWoyFqxASqN0DAVQixS-K35HJEc-HtPDUuAqc2v2hmdyLrCx3UZXpsV2ieXLLT2pnSH-uoouCP5arDmFhNSic74-/s150/LOGO.jpg',
     adoptAnimalsURL: 'https://www.instagram.com/progatvilaseca/',
     associativeInscriptionNumber: '38110',
-    dateOfInscription: '2008-11-27:00:00.000Z',
+    dateOfInscription: '2008-11-27T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5367,7 +5367,7 @@ export const organizations: Organization[] = [
     website: 'https://amicsdelsanimalsser.my.canva.site',
     adoptAnimalsURL: 'https://www.instagram.com/amics_dels_animals_ser/',
     associativeInscriptionNumber: '73512',
-    dateOfInscription: '2023-07-18:00:00.000Z',
+    dateOfInscription: '2023-07-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5399,7 +5399,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/SosMininusFigueres/',
     associativeInscriptionNumber: '58720',
-    dateOfInscription: '2016-06-14:00:00.000Z',
+    dateOfInscription: '2016-06-14T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5434,7 +5434,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL:
       'https://padlet.com/mtrench2/els-nostres-gats-en-adopci-ahqo79yu1o9mv9tr',
     associativeInscriptionNumber: '60189',
-    dateOfInscription: '2017-01-10:00:00.000Z',
+    dateOfInscription: '2017-01-10T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5466,7 +5466,7 @@ export const organizations: Organization[] = [
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/5/7/2/2/v62dc8aejw.jpg',
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100069100126434',
     associativeInscriptionNumber: '67617',
-    dateOfInscription: '2020-05-27:00:00.000Z',
+    dateOfInscription: '2020-05-27T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5500,7 +5500,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/associacio.canae_oficial/',
     associativeInscriptionNumber: '42864',
-    dateOfInscription: '2010-07-05:00:00.000Z',
+    dateOfInscription: '2010-07-05T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5530,7 +5530,7 @@ export const organizations: Organization[] = [
     website: 'https://www.ongdrac.com',
     adoptAnimalsURL: 'https://www.ongdrac.com/adopta/perros/',
     associativeInscriptionNumber: '70514',
-    dateOfInscription: '2022-01-18:00:00.000Z',
+    dateOfInscription: '2022-01-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5563,7 +5563,7 @@ export const organizations: Organization[] = [
     website: 'https://acaima.org',
     adoptAnimalsURL: 'https://www.instagram.com/acaimaolesa/',
     associativeInscriptionNumber: '30499',
-    dateOfInscription: '2005-05-17:00:00.000Z',
+    dateOfInscription: '2005-05-17T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5592,7 +5592,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/adacastellarvalles/',
     associativeInscriptionNumber: '57686',
-    dateOfInscription: '2015-12-23:00:00.000Z',
+    dateOfInscription: '2015-12-23T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5626,7 +5626,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/adipaccalafell/',
     associativeInscriptionNumber: '62432',
-    dateOfInscription: '2018-01-11:00:00.000Z',
+    dateOfInscription: '2018-01-11T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5659,7 +5659,7 @@ export const organizations: Organization[] = [
     website: 'https://adoptaunamic.org',
     adoptAnimalsURL: 'https://adoptaunamic.org/listado',
     associativeInscriptionNumber: '51284',
-    dateOfInscription: '2013-09-19:00:00.000Z',
+    dateOfInscription: '2013-09-19T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5693,7 +5693,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/adoptagat/',
     associativeInscriptionNumber: '53803',
-    dateOfInscription: '2014-07-11:00:00.000Z',
+    dateOfInscription: '2014-07-11T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5726,7 +5726,7 @@ export const organizations: Organization[] = [
     website: 'https://www.degats.org',
     adoptAnimalsURL: 'https://www.instagram.com/degats/',
     associativeInscriptionNumber: '44576',
-    dateOfInscription: '2011-03-16:00:00.000Z',
+    dateOfInscription: '2011-03-16T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5760,7 +5760,7 @@ export const organizations: Organization[] = [
     website: 'https://gatsdecadaques.com',
     adoptAnimalsURL: 'https://www.instagram.com/amicsdesesanimalsdecdqs/',
     associativeInscriptionNumber: '37014',
-    dateOfInscription: '2008-06-10:00:00.000Z',
+    dateOfInscription: '2008-06-10T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -5795,7 +5795,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/amicsanimalsbalenyaseva',
     associativeInscriptionNumber: '57309',
-    dateOfInscription: '2015-10-30:00:00.000Z',
+    dateOfInscription: '2015-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5824,7 +5824,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/somlasevaveu/',
     associativeInscriptionNumber: '71731',
-    dateOfInscription: '2022-09-28:00:00.000Z',
+    dateOfInscription: '2022-09-28T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5895,7 +5895,7 @@ export const organizations: Organization[] = [
     website: 'https://www.amicsiprotectorsdelsgats.org',
     adoptAnimalsURL: 'https://www.instagram.com/amicsiprotectorsdelsgats/',
     associativeInscriptionNumber: '27557',
-    dateOfInscription: '2003-05-13:00:00.000Z',
+    dateOfInscription: '2003-05-13T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5928,7 +5928,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/somamicsdelsanimalscat/',
     associativeInscriptionNumber: '52510',
-    dateOfInscription: '2014-03-24:00:00.000Z',
+    dateOfInscription: '2014-03-24T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5962,7 +5962,7 @@ export const organizations: Organization[] = [
     website: 'https://www.aragat.org',
     adoptAnimalsURL: 'https://aragat.org/listado',
     associativeInscriptionNumber: '52146',
-    dateOfInscription: '2014-02-04:00:00.000Z',
+    dateOfInscription: '2014-02-04T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -5995,7 +5995,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/animalrescueemporda/',
     associativeInscriptionNumber: '61076',
-    dateOfInscription: '2017-05-19:00:00.000Z',
+    dateOfInscription: '2017-05-19T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6025,7 +6025,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL:
       'https://www.facebook.com/groups/446768788772103/user/100075555862250/',
     associativeInscriptionNumber: '68862',
-    dateOfInscription: '2021-02-19:00:00.000Z',
+    dateOfInscription: '2021-02-19T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6062,7 +6062,7 @@ export const organizations: Organization[] = [
     website: 'https://asociacion-rescat.cat',
     adoptAnimalsURL: 'https://www.instagram.com/rescat.asociacion.animalista',
     associativeInscriptionNumber: '38000',
-    dateOfInscription: '2008-10-29:00:00.000Z',
+    dateOfInscription: '2008-10-29T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6100,7 +6100,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/animalistesdemanlleu/',
     associativeInscriptionNumber: '25718',
-    dateOfInscription: '2002-01-28:00:00.000Z',
+    dateOfInscription: '2002-01-28T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6134,7 +6134,7 @@ export const organizations: Organization[] = [
     website: 'https://elsquissos.wordpress.com',
     adoptAnimalsURL: 'https://www.facebook.com/associacioelsquissos/',
     associativeInscriptionNumber: '32888',
-    dateOfInscription: '2006-07-24:00:00.000Z',
+    dateOfInscription: '2006-07-24T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6167,7 +6167,7 @@ export const organizations: Organization[] = [
     website: 'https://www.rodagat.org',
     adoptAnimalsURL: 'https://www.facebook.com/rodagat',
     associativeInscriptionNumber: '31797',
-    dateOfInscription: '2006-02-28:00:00.000Z',
+    dateOfInscription: '2006-02-28T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6201,7 +6201,7 @@ export const organizations: Organization[] = [
     website: 'https://badagats.org',
     adoptAnimalsURL: 'https://badagats.org/listado',
     associativeInscriptionNumber: '30006',
-    dateOfInscription: '2005-01-25:00:00.000Z',
+    dateOfInscription: '2005-01-25T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6232,7 +6232,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/ADAsantfeliudecodines/',
     associativeInscriptionNumber: '56947',
-    dateOfInscription: '2015-09-09:00:00.000Z',
+    dateOfInscription: '2015-09-09T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6269,7 +6269,7 @@ export const organizations: Organization[] = [
     website: 'https://creixellnatura.org',
     adoptAnimalsURL: 'https://www.facebook.com/CreixellNatura/',
     associativeInscriptionNumber: '36607',
-    dateOfInscription: '2008-04-08:00:00.000Z',
+    dateOfInscription: '2008-04-08T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6302,7 +6302,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/elclubdekat/',
     associativeInscriptionNumber: '33382',
-    dateOfInscription: '2006-11-07:00:00.000Z',
+    dateOfInscription: '2006-11-07T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6332,7 +6332,7 @@ export const organizations: Organization[] = [
     website: 'https://fundaciosilvestre.org',
     adoptAnimalsURL: 'https://fundaciosilvestre.org/la-26-adopcion-de-gatos',
     associativeInscriptionNumber: '2374',
-    dateOfInscription: '2007-11-15:00:00.000Z',
+    dateOfInscription: '2007-11-15T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6362,7 +6362,7 @@ export const organizations: Organization[] = [
     website: 'https://www.gatsdegracia.cat',
     adoptAnimalsURL: 'https://www.instagram.com/gatsdegracia/',
     associativeInscriptionNumber: '50259',
-    dateOfInscription: '2013-04-17:00:00.000Z',
+    dateOfInscription: '2013-04-17T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6397,7 +6397,7 @@ export const organizations: Organization[] = [
     website: 'https://gatsdelcarrer.org',
     adoptAnimalsURL: 'https://www.instagram.com/gatsdelcarrer/',
     associativeInscriptionNumber: '49119',
-    dateOfInscription: '2012-11-19:00:00.000Z',
+    dateOfInscription: '2012-11-19T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6430,7 +6430,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/peludetsdesvc/',
     associativeInscriptionNumber: '66554',
-    dateOfInscription: '2019-10-28:00:00.000Z',
+    dateOfInscription: '2019-10-28T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6463,7 +6463,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/montaltmiau',
     associativeInscriptionNumber: '38833',
-    dateOfInscription: '2009-03-27:00:00.000Z',
+    dateOfInscription: '2009-03-27T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6497,7 +6497,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL:
       'https://gatsigossos.protecms.com/animales?status-in=adoption%2Creserved',
     associativeInscriptionNumber: '57431',
-    dateOfInscription: '2015-11-20:00:00.000Z',
+    dateOfInscription: '2015-11-20T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6530,7 +6530,7 @@ export const organizations: Organization[] = [
     website: 'https://sites.google.com/view/gats-igualada',
     adoptAnimalsURL: 'https://www.instagram.com/gats_igualada/',
     associativeInscriptionNumber: '58452',
-    dateOfInscription: '2016-04-26:00:00.000Z',
+    dateOfInscription: '2016-04-26T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6563,7 +6563,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatslaroca/',
     associativeInscriptionNumber: '54714',
-    dateOfInscription: '2014-10-29:00:00.000Z',
+    dateOfInscription: '2014-10-29T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6597,7 +6597,7 @@ export const organizations: Organization[] = [
     website: 'https://www.geligats.com',
     adoptAnimalsURL: 'https://www.geligats.com/adopcions/',
     associativeInscriptionNumber: '52902',
-    dateOfInscription: '2014-04-24:00:00.000Z',
+    dateOfInscription: '2014-04-24T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6671,7 +6671,7 @@ export const organizations: Organization[] = [
     website: 'https://sites.google.com/view/proaniplan',
     adoptAnimalsURL: 'https://www.instagram.com/proaniplanprotectora/',
     associativeInscriptionNumber: '43808',
-    dateOfInscription: '2010-12-14:00:00.000Z',
+    dateOfInscription: '2010-12-14T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6703,7 +6703,7 @@ export const organizations: Organization[] = [
     logo: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/progatbonastre',
     associativeInscriptionNumber: '38493',
-    dateOfInscription: '2009-02-10:00:00.000Z',
+    dateOfInscription: '2009-02-10T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6736,7 +6736,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/ProgatLaGarrigaAssoc',
     associativeInscriptionNumber: '31445',
-    dateOfInscription: '2006-01-09:00:00.000Z',
+    dateOfInscription: '2006-01-09T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6769,7 +6769,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/progatsantboi',
     associativeInscriptionNumber: '26080',
-    dateOfInscription: '2002-04-26:00:00.000Z',
+    dateOfInscription: '2002-04-26T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6802,7 +6802,7 @@ export const organizations: Organization[] = [
     website: 'https://progatterrassa.org',
     adoptAnimalsURL: 'https://www.instagram.com/progatterrassa/',
     associativeInscriptionNumber: '29236',
-    dateOfInscription: '2004-06-22:00:00.000Z',
+    dateOfInscription: '2004-06-22T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -6836,7 +6836,7 @@ export const organizations: Organization[] = [
     website: 'https://protectorasar.org',
     adoptAnimalsURL: 'https://www.facebook.com/ProtectoraSar',
     associativeInscriptionNumber: '40245',
-    dateOfInscription: '2009-09-08:00:00.000Z',
+    dateOfInscription: '2009-09-08T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6865,7 +6865,7 @@ export const organizations: Organization[] = [
     website: 'https://apaocat.com',
     adoptAnimalsURL: 'https://www.facebook.com/ProtectoraSar',
     associativeInscriptionNumber: '41691',
-    dateOfInscription: '2010-03-08:00:00.000Z',
+    dateOfInscription: '2010-03-08T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6898,7 +6898,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/seproansallent/',
     associativeInscriptionNumber: '25767',
-    dateOfInscription: '2002-02-08:00:00.000Z',
+    dateOfInscription: '2002-02-08T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6931,7 +6931,7 @@ export const organizations: Organization[] = [
     website: 'https://www.sosbdn.com',
     adoptAnimalsURL: 'https://www.instagram.com/sos_bdn',
     associativeInscriptionNumber: '57467',
-    dateOfInscription: '2015-11-20:00:00.000Z',
+    dateOfInscription: '2015-11-20T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6966,7 +6966,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL:
       'https://progatpalamosisantjoan.cat/els-nostres-animals/adoptam',
     associativeInscriptionNumber: '38451',
-    dateOfInscription: '2009-02-03:00:00.000Z',
+    dateOfInscription: '2009-02-03T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -6999,7 +6999,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/progatlampolla/',
     associativeInscriptionNumber: '58149',
-    dateOfInscription: '2016-03-30:00:00.000Z',
+    dateOfInscription: '2016-03-30T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7034,7 +7034,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/sosgatsalou/',
     associativeInscriptionNumber: '50162',
-    dateOfInscription: '2013-04-23:00:00.000Z',
+    dateOfInscription: '2013-04-23T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7067,7 +7067,7 @@ export const organizations: Organization[] = [
     website: 'https://www.sosgats.cat',
     adoptAnimalsURL: 'https://www.facebook.com/gatosdelave/',
     associativeInscriptionNumber: '34484',
-    dateOfInscription: '2007-05-12:00:00.000Z',
+    dateOfInscription: '2007-05-12T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7100,7 +7100,7 @@ export const organizations: Organization[] = [
     website: 'https://sosgolden.org',
     adoptAnimalsURL: 'https://sosgolden.org/',
     associativeInscriptionNumber: '48218',
-    dateOfInscription: '2012-07-10:00:00.000Z',
+    dateOfInscription: '2012-07-10T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7136,7 +7136,7 @@ export const organizations: Organization[] = [
     website: 'https://sites.google.com/view/sqanimalia',
     adoptAnimalsURL: 'https://www.facebook.com/SQAnimalia/',
     associativeInscriptionNumber: '37381',
-    dateOfInscription: '2008-07-21:00:00.000Z',
+    dateOfInscription: '2008-07-21T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7169,7 +7169,7 @@ export const organizations: Organization[] = [
     website: 'https://adacerdanyola.com',
     adoptAnimalsURL: 'https://www.instagram.com/adacerdanyola/',
     associativeInscriptionNumber: '28586',
-    dateOfInscription: '2004-02-06:00:00.000Z',
+    dateOfInscription: '2004-02-06T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7206,7 +7206,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL:
       'https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices',
     associativeInscriptionNumber: '57985',
-    dateOfInscription: '2016-02-17:00:00.000Z',
+    dateOfInscription: '2016-02-17T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7240,7 +7240,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/AssociacioDAIMA',
     associativeInscriptionNumber: '59257',
-    dateOfInscription: '2016-09-16:00:00.000Z',
+    dateOfInscription: '2016-09-16T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7274,7 +7274,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/AssociacioDAIMA',
     associativeInscriptionNumber: '72908',
-    dateOfInscription: '2023-04-18:00:00.000Z',
+    dateOfInscription: '2023-04-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7303,7 +7303,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/GatsdelaSegarra/',
     associativeInscriptionNumber: '61409',
-    dateOfInscription: '2017-06-26:00:00.000Z',
+    dateOfInscription: '2017-06-26T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7337,7 +7337,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatsdebrafim/',
     associativeInscriptionNumber: '60340',
-    dateOfInscription: '2017-02-07:00:00.000Z',
+    dateOfInscription: '2017-02-07T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7370,7 +7370,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=61562512900572',
     associativeInscriptionNumber: '75486',
-    dateOfInscription: '2024-06-06:00:00.000Z',
+    dateOfInscription: '2024-06-06T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7404,7 +7404,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/mas_animals/',
     associativeInscriptionNumber: '68716',
-    dateOfInscription: '2021-01-28:00:00.000Z',
+    dateOfInscription: '2021-01-28T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7436,7 +7436,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/boigpertu_vilabella/',
     associativeInscriptionNumber: '66356',
-    dateOfInscription: '2019-10-08:00:00.000Z',
+    dateOfInscription: '2019-10-08T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7466,7 +7466,7 @@ export const organizations: Organization[] = [
     website: 'https://plagatsadopta.org',
     adoptAnimalsURL: 'https://plagatsadopta.org/gatos-en-adopcion-tarragona/',
     associativeInscriptionNumber: '69047',
-    dateOfInscription: '2021-03-18:00:00.000Z',
+    dateOfInscription: '2021-03-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7503,7 +7503,7 @@ export const organizations: Organization[] = [
     website: 'https://vadal.sukycms.com',
     adoptAnimalsURL: 'https://vadal.sukycms.com/animales',
     associativeInscriptionNumber: '74224',
-    dateOfInscription: '2023-12-01:00:00.000Z',
+    dateOfInscription: '2023-12-01T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7537,7 +7537,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatsmoien/',
     associativeInscriptionNumber: '66197',
-    dateOfInscription: '2019-08-28:00:00.000Z',
+    dateOfInscription: '2019-08-28T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7566,7 +7566,7 @@ export const organizations: Organization[] = [
     website: 'https://meskanimals.com',
     adoptAnimalsURL: 'https://www.instagram.com/meskanimals/',
     associativeInscriptionNumber: '60196',
-    dateOfInscription: '2017-01-10:00:00.000Z',
+    dateOfInscription: '2017-01-10T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7596,7 +7596,7 @@ export const organizations: Organization[] = [
     website: 'https://davaassociacio.wordpress.com',
     adoptAnimalsURL: 'https://www.instagram.com/d._a._v._a/',
     associativeInscriptionNumber: '69303',
-    dateOfInscription: '2021-04-28:00:00.000Z',
+    dateOfInscription: '2021-04-28T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7628,7 +7628,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/katabienestaranimal/',
     associativeInscriptionNumber: '74585',
-    dateOfInscription: '2024-02-06:00:00.000Z',
+    dateOfInscription: '2024-02-06T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7656,7 +7656,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/el_niu_de_l_oliba/',
     associativeInscriptionNumber: '67698',
-    dateOfInscription: '2020-06-08:00:00.000Z',
+    dateOfInscription: '2020-06-08T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7689,7 +7689,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/apamevacarisses/',
     associativeInscriptionNumber: '60873',
-    dateOfInscription: '2017-04-12:00:00.000Z',
+    dateOfInscription: '2017-04-12T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7721,7 +7721,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/groups/853428221458056/',
     associativeInscriptionNumber: '59054',
-    dateOfInscription: '2016-07-27:00:00.000Z',
+    dateOfInscription: '2016-07-27T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7750,7 +7750,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/elmasdelspeluts/',
     associativeInscriptionNumber: '54442',
-    dateOfInscription: '2014-10-23:00:00.000Z',
+    dateOfInscription: '2014-10-23T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7782,7 +7782,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/marrameusdesanauja/',
     associativeInscriptionNumber: '73078',
-    dateOfInscription: '2023-05-16:00:00.000Z',
+    dateOfInscription: '2023-05-16T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7813,7 +7813,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/PROGATGINESTA/',
     associativeInscriptionNumber: '67871',
-    dateOfInscription: '2020-07-20:00:00.000Z',
+    dateOfInscription: '2020-07-20T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7846,7 +7846,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/refugilaginesta/',
     associativeInscriptionNumber: '37281',
-    dateOfInscription: '2008-07-16:00:00.000Z',
+    dateOfInscription: '2008-07-16T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -7877,7 +7877,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/benesgat/',
     associativeInscriptionNumber: '70592',
-    dateOfInscription: '2022-02-02:00:00.000Z',
+    dateOfInscription: '2022-02-02T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7909,7 +7909,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/associacio_vimbodipets/',
     associativeInscriptionNumber: '64949',
-    dateOfInscription: '2019-02-08:00:00.000Z',
+    dateOfInscription: '2019-02-08T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7943,7 +7943,7 @@ export const organizations: Organization[] = [
     website: 'https://gatigosmontblanc.es',
     adoptAnimalsURL: 'https://www.instagram.com/gatigosmontblanc/',
     associativeInscriptionNumber: '58674',
-    dateOfInscription: '2016-06-08:00:00.000Z',
+    dateOfInscription: '2016-06-08T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -7975,7 +7975,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/vilacat2023/',
     associativeInscriptionNumber: '70491',
-    dateOfInscription: '2022-01-13:00:00.000Z',
+    dateOfInscription: '2022-01-13T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8009,7 +8009,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/voluntariosnomadas/',
     associativeInscriptionNumber: '74055',
-    dateOfInscription: '2023-10-31:00:00.000Z',
+    dateOfInscription: '2023-10-31T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8042,7 +8042,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/asociacion_defensa_ppp/',
     associativeInscriptionNumber: '49509',
-    dateOfInscription: '2013-01-18:00:00.000Z',
+    dateOfInscription: '2013-01-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8075,7 +8075,7 @@ export const organizations: Organization[] = [
     website: 'https://vilanimals.sukycms.com',
     adoptAnimalsURL: 'https://www.instagram.com/vilanimals_vilafranca/',
     associativeInscriptionNumber: '58885',
-    dateOfInscription: '2016-06-20:00:00.000Z',
+    dateOfInscription: '2016-06-20T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8109,7 +8109,7 @@ export const organizations: Organization[] = [
     website: 'https://calmafelina.wixsite.com/calma-felina',
     adoptAnimalsURL: 'https://www.instagram.com/calma.felina/',
     associativeInscriptionNumber: '76072',
-    dateOfInscription: '2024-09-12:00:00.000Z',
+    dateOfInscription: '2024-09-12T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8142,7 +8142,7 @@ export const organizations: Organization[] = [
     website: 'https://gatsdolivella.com',
     adoptAnimalsURL: 'https://gatsdolivella.com/como-colaborar/pagines-4/',
     associativeInscriptionNumber: '57294',
-    dateOfInscription: '2015-10-30:00:00.000Z',
+    dateOfInscription: '2015-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8177,7 +8177,7 @@ export const organizations: Organization[] = [
     website: 'https://adoptameymimame.sukycms.com',
     adoptAnimalsURL: 'https://www.instagram.com/adoptame_y_mimame',
     associativeInscriptionNumber: '60487',
-    dateOfInscription: '2017-02-14:00:00.000Z',
+    dateOfInscription: '2017-02-14T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8214,7 +8214,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/adac_canyelles/',
     associativeInscriptionNumber: '47238',
-    dateOfInscription: '2012-03-02:00:00.000Z',
+    dateOfInscription: '2012-03-02T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8248,7 +8248,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/matica_animal_rescue/',
     associativeInscriptionNumber: '70853',
-    dateOfInscription: '2022-03-19:00:00.000Z',
+    dateOfInscription: '2022-03-19T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8283,7 +8283,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/colonia.malugats/',
     associativeInscriptionNumber: '68588',
-    dateOfInscription: '2020-12-23:00:00.000Z',
+    dateOfInscription: '2020-12-23T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8316,7 +8316,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/pelutscubelles/',
     associativeInscriptionNumber: '49516',
-    dateOfInscription: '2013-01-11:00:00.000Z',
+    dateOfInscription: '2013-01-11T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8347,7 +8347,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/profile.php/?id=61562158372483',
     associativeInscriptionNumber: '75021',
-    dateOfInscription: '2024-04-04:00:00.000Z',
+    dateOfInscription: '2024-04-04T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8376,7 +8376,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatsguimera',
     associativeInscriptionNumber: '72266',
-    dateOfInscription: '2023-01-03:00:00.000Z',
+    dateOfInscription: '2023-01-03T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8404,7 +8404,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/adao_oliana/',
     associativeInscriptionNumber: '69979',
-    dateOfInscription: '2021-09-28:00:00.000Z',
+    dateOfInscription: '2021-09-28T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8433,7 +8433,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/labarretinafelina/',
     associativeInscriptionNumber: '47099',
-    dateOfInscription: '2012-02-21:00:00.000Z',
+    dateOfInscription: '2012-02-21T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8461,7 +8461,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/nova_petjada/',
     associativeInscriptionNumber: '77054',
-    dateOfInscription: '2025-02-25:00:00.000Z',
+    dateOfInscription: '2025-02-25T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8494,7 +8494,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gats4pobles/',
     associativeInscriptionNumber: '65038',
-    dateOfInscription: '2019-02-19:00:00.000Z',
+    dateOfInscription: '2019-02-19T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8527,7 +8527,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatsdeguissona',
     associativeInscriptionNumber: '72708',
-    dateOfInscription: '2023-03-14:00:00.000Z',
+    dateOfInscription: '2023-03-14T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8557,7 +8557,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL:
       'https://adylasantfost.sukycms.com/animales?status=adoption',
     associativeInscriptionNumber: '60186',
-    dateOfInscription: '2017-01-18:00:00.000Z',
+    dateOfInscription: '2017-01-18T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -8591,7 +8591,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/4potespalausaverdera/',
     associativeInscriptionNumber: '60542',
-    dateOfInscription: '2017-03-01:00:00.000Z',
+    dateOfInscription: '2017-03-01T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8621,7 +8621,7 @@ export const organizations: Organization[] = [
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100070265105040',
     associativeInscriptionNumber: '64320',
-    dateOfInscription: '2018-10-19:00:00.000Z',
+    dateOfInscription: '2018-10-19T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8650,7 +8650,7 @@ export const organizations: Organization[] = [
     website: 'https://sosweimaraner.org',
     adoptAnimalsURL: 'https://sosweimaraner.org/adopta-o-amadrina-un-perro/',
     associativeInscriptionNumber: '65621',
-    dateOfInscription: '2019-04-29:00:00.000Z',
+    dateOfInscription: '2019-04-29T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8680,7 +8680,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-07-04T00:00:00.000Z',
     associativeInscriptionNumber: '68568',
-    dateOfInscription: '2020-12-18:00:00.000Z',
+    dateOfInscription: '2020-12-18T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/sosacatalunya/',
     socials: [
       {
@@ -8713,7 +8713,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-07-04T00:00:00.000Z',
     associativeInscriptionNumber: '24643',
-    dateOfInscription: '2001-04-04:00:00.000Z',
+    dateOfInscription: '2001-04-04T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/martogat/',
     socials: [
       {
@@ -8744,7 +8744,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-10-03T00:00:00.000Z',
     associativeInscriptionNumber: '77921',
-    dateOfInscription: '2025-07-07:00:00.000Z',
+    dateOfInscription: '2025-07-07T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/mollegats/',
     socials: [
       {
@@ -8773,7 +8773,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-10-03T00:00:00.000Z',
     associativeInscriptionNumber: '65540',
-    dateOfInscription: '2019-04-16:00:00.000Z',
+    dateOfInscription: '2019-04-16T00:00:00.000Z',
     adoptAnimalsURL: 'https://petjadespuigreig.sukycms.com/',
     website: 'https://petjadespuigreig.sukycms.com',
     socials: [
@@ -8809,7 +8809,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-15T00:00:00.000Z',
     associativeInscriptionNumber: '56862',
-    dateOfInscription: '2015-09-03:00:00.000Z',
+    dateOfInscription: '2015-09-03T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8841,7 +8841,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-15T00:00:00.000Z',
     associativeInscriptionNumber: '55238',
-    dateOfInscription: '2015-01-19:00:00.000Z',
+    dateOfInscription: '2015-01-19T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8902,7 +8902,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-16T00:00:00.000Z',
     associativeInscriptionNumber: '73947',
-    dateOfInscription: '2023-10-19:00:00.000Z',
+    dateOfInscription: '2023-10-19T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -8936,7 +8936,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-16T00:00:00.000Z',
     associativeInscriptionNumber: '70806',
-    dateOfInscription: '2022-03-17:00:00.000Z',
+    dateOfInscription: '2022-03-17T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/asoc.soscats/',
     socials: [
       {
@@ -8968,7 +8968,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-17T00:00:00.000Z',
     associativeInscriptionNumber: '61855',
-    dateOfInscription: '2017-09-14:00:00.000Z',
+    dateOfInscription: '2017-09-14T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.facebook.com/caldespelsanimals',
     socials: [
       {
@@ -9000,7 +9000,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-20T00:00:00.000Z',
     associativeInscriptionNumber: '24023',
-    dateOfInscription: '2000-11-03:00:00.000Z',
+    dateOfInscription: '2000-11-03T00:00:00.000Z',
     adoptAnimalsURL: 'https://progatsbd.org/progateros/adopta/',
     socials: [
       {
@@ -9036,7 +9036,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-10-03T00:00:00.000Z',
     associativeInscriptionNumber: '70709',
-    dateOfInscription: '2022-02-24:00:00.000Z',
+    dateOfInscription: '2022-02-24T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/elsolardelsgats/',
     socials: [
       {
@@ -9076,7 +9076,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     lastUpdate: '2025-08-20T00:00:00.000Z',
     associativeInscriptionNumber: '70715',
-    dateOfInscription: '2022-02-24:00:00.000Z',
+    dateOfInscription: '2022-02-24T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/montgatet/',
     socials: [
       {

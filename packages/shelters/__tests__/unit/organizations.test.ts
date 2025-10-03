@@ -85,6 +85,9 @@ describe('organizations', () => {
     const phoneRegex = /^\d{9}$/;
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const urlRegex = /^(http|https):\/\/[^ "]+$/;
+    const dateRegex =
+      /^(?:(?:(?:19|20)\d{2})-(?:(?:(?:01|03|05|07|08|10|12)-(?:0[1-9]|[12]\d|3[01]))|(?:04|06|09|11)-(?:0[1-9]|[12]\d|30)|(?:02-(?:0[1-9]|1\d|2[0-8]))))T00:00:00\.000Z$|^(?:(?:19|20)(?:[02468][048]|[13579][26]))-02-29T00:00:00\.000Z$/;
+
     for (const org of organizations) {
       if (org.contactPhone) {
         expect(org.contactPhone).toMatch(phoneRegex);
@@ -102,6 +105,12 @@ describe('organizations', () => {
       }
       if (org.contactEmail !== undefined) {
         expect(org.contactEmail).toMatch(emailRegex);
+      }
+      if (org.dateOfInscription) {
+        expect(org.dateOfInscription).toMatch(dateRegex);
+      }
+      if (org.lastUpdate) {
+        expect(org.lastUpdate).toMatch(dateRegex);
       }
       if (org.website !== undefined) {
         expect(org.website).toMatch(urlRegex);
