@@ -3410,7 +3410,7 @@ export const organizations: Organization[] = [
     adoptAnimalsURL: 'https://amoralsanimals.org/en_adopcion/',
     associativeInscriptionNumber: '29579',
     dateOfInscription: '2004-09-22T00:00:00.000Z',
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'c458cd6e',
