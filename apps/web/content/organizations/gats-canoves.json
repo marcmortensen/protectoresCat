@@ -1,0 +1,35 @@
+{
+  "id": "891ab994",
+  "slug": "gats-canoves",
+  "name": "Associació Gats Cànoves",
+  "shortName": "Gats Cànoves",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Cànoves i Samalús",
+  "municipality": "Cànoves i Samalús",
+  "contactEmail": "gatscanoves@gmail.com",
+  "website": "https://gatscanoves.wordpress.com",
+  "description": "L’Associació Gats Cànoves és una entitat sense ànim de lucre que ajuda i té cura dels animals que són abandonats i neixen al carrer. Som un grup de persones voluntàries que treballem de manera desinteressada i altruista pel benestar dels animals de Cànoves. Tots els recursos que tenim són gràcies a donacions de particulars i als esdeveniments on participem. El nostre principal objectiu és tenir cura dels gats de carrer de Cànoves. Amb la col·laboració de l’ajuntament realitzem el mètode CER (Capturar, Esterilitzar i Retornar). Alimentem als gats de les colònies en els seus punts d’alimentació i en mantenim un control. Rescatem a gats abandonats, ventrades de cadells i gats accidentats i els hi donem la oportunitat de trobar una llar.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "associativeInscriptionNumber": "73703",
+  "dateOfInscription": "2023-09-04T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associacio_gatscanoves/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associacio_gatscanoves/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61551537513912"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

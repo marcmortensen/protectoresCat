@@ -1,0 +1,42 @@
+{
+  "id": "12665254",
+  "slug": "el-tuc",
+  "name": "Associació el Tuc",
+  "shortName": "El Tuc",
+  "animalFocus": "cats&dogs",
+  "region": "bages",
+  "province": "barcelona",
+  "municipalityInscription": "el Pont de Vilomara i Rocafort",
+  "municipality": "el Pont de Vilomara i Rocafort",
+  "whatsAppPhone": "687874795",
+  "description": "Som una associació sense ànim de lucre i ens dediquem a l'acollida de gossos abandonats dins el municipi del Pont de Vilomara i Rocafort.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "associativeInscriptionNumber": "50482",
+  "dateOfInscription": "2013-05-24T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/eltuc.refugi/",
+  "shelter": [
+    {
+      "googleMapsLink": "https://maps.app.goo.gl/35ZdxN2nQgmuMVpLA",
+      "adress": "Disseminat Can Martinet, 2, El Pont de Vilomara, Espanya",
+      "openingHoursURL": "https://www.instagram.com/eltuc.refugi",
+      "phone": "687874795"
+    }
+  ],
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/eltuc.refugi/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/RefugielTuc/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

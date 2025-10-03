@@ -1,0 +1,36 @@
+{
+  "id": "7696e94d",
+  "slug": "gatceloni",
+  "name": "Associació GatCeloni",
+  "shortName": "GatCeloni",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Sant Celoni",
+  "municipality": "Sant Celoni",
+  "whatsAppPhone": "613531907",
+  "contactPhone": "613531907",
+  "contactEmail": "adopcio.gatceloni@gmail.com",
+  "description": "Entitat sense ànim de lucre dedicada a cuidar els gatets del carrer 😽. Aplicam el mètode CER (Captura, Esterilització i Retorn) per controlar les colònies de manera ètica i sostenible. També promovem l'adopció responsable.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "associativeInscriptionNumber": "74821",
+  "dateOfInscription": "2024-03-11T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gatceloni/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatceloni/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61555357466754"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-03T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

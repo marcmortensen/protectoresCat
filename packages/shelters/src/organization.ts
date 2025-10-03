@@ -40,7 +40,7 @@ export interface Organization {
     type: 'facebook' | 'instagram' | 'tiktok' | 'twitter';
     url: string;
   }[];
-  enabledLogoUsage: boolean | undefined;
+  enabledLogoUsage?: boolean | undefined;
 }
 
 export const organizations: Organization[] = [
@@ -9650,5 +9650,135 @@ export const organizations: Organization[] = [
       },
     ],
     enabledLogoUsage: undefined,
+  },
+  {
+    id: '8cab90eb',
+    slug: 'gats-riumossencs',
+    name: `Associació Gats Riumossencs`,
+    shortName: `Gats Riumossencs`,
+    animalFocus: 'cats',
+    region: 'alt-emporda',
+    province: 'girona',
+    municipalityInscription: `Riumors`,
+    municipality: `Riumors`,
+    contactEmail: 'gatsriumors@gmail.com',
+    shelter: undefined,
+    description: `Entitat de protecció animal del municipi de Riumors (Alt Empordà). Alimentem i cuidem les colònies de gats a Riumors. Promovem l'adopció responsable.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-10-03T00:00:00.000Z',
+    associativeInscriptionNumber: '74369',
+    dateOfInscription: '2024-01-09T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/ass_gats_riumossencs/',
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/ass_gats_riumossencs/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/people/Associaci%C3%B3-de-Gats-Riumorssencs/61562395873206/',
+      },
+    ],
+  },
+  {
+    id: '7696e94d',
+    slug: 'gatceloni',
+    name: `Associació GatCeloni`,
+    shortName: `GatCeloni`,
+    animalFocus: 'cats',
+    region: 'valles-oriental',
+    province: 'barcelona',
+    municipalityInscription: `Sant Celoni`,
+    municipality: `Sant Celoni`,
+    whatsAppPhone: '613531907',
+    contactPhone: '613531907',
+    contactEmail: 'adopcio.gatceloni@gmail.com',
+    shelter: undefined,
+    description: `Entitat sense ànim de lucre dedicada a cuidar els gatets del carrer 😽. Aplicam el mètode CER (Captura, Esterilització i Retorn) per controlar les colònies de manera ètica i sostenible. També promovem l'adopció responsable.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-10-03T00:00:00.000Z',
+    associativeInscriptionNumber: '74821',
+    dateOfInscription: '2024-03-11T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/gatceloni/',
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/gatceloni/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=61555357466754',
+      },
+    ],
+  },
+  {
+    id: '12665254',
+    slug: 'el-tuc',
+    name: `Associació el Tuc`,
+    shortName: `El Tuc`,
+    animalFocus: 'cats&dogs',
+    region: 'bages',
+    province: 'barcelona',
+    municipalityInscription: `el Pont de Vilomara i Rocafort`,
+    municipality: `el Pont de Vilomara i Rocafort`,
+    whatsAppPhone: '687874795',
+    description: `Som una associació sense ànim de lucre i ens dediquem a l'acollida de gossos abandonats dins el municipi del Pont de Vilomara i Rocafort.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-10-03T00:00:00.000Z',
+    associativeInscriptionNumber: '50482',
+    dateOfInscription: '2013-05-24T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/eltuc.refugi/',
+    shelter: [
+      {
+        googleMapsLink: 'https://maps.app.goo.gl/35ZdxN2nQgmuMVpLA',
+        adress: 'Disseminat Can Martinet, 2, El Pont de Vilomara, Espanya',
+        openingHoursURL: 'https://www.instagram.com/eltuc.refugi',
+        phone: '687874795',
+      },
+    ],
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/eltuc.refugi/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/RefugielTuc/',
+      },
+    ],
+  },
+  {
+    id: '891ab994',
+    slug: 'gats-canoves',
+    name: `Associació Gats Cànoves`,
+    shortName: `Gats Cànoves`,
+    animalFocus: 'cats',
+    region: 'valles-oriental',
+    province: 'barcelona',
+    municipalityInscription: `Cànoves i Samalús`,
+    municipality: `Cànoves i Samalús`,
+    contactEmail: 'gatscanoves@gmail.com',
+    website: 'https://gatscanoves.wordpress.com',
+    description: `L’Associació Gats Cànoves és una entitat sense ànim de lucre que ajuda i té cura dels animals que són abandonats i neixen al carrer. Som un grup de persones voluntàries que treballem de manera desinteressada i altruista pel benestar dels animals de Cànoves. Tots els recursos que tenim són gràcies a donacions de particulars i als esdeveniments on participem. El nostre principal objectiu és tenir cura dels gats de carrer de Cànoves. Amb la col·laboració de l’ajuntament realitzem el mètode CER (Capturar, Esterilitzar i Retornar). Alimentem als gats de les colònies en els seus punts d’alimentació i en mantenim un control. Rescatem a gats abandonats, ventrades de cadells i gats accidentats i els hi donem la oportunitat de trobar una llar.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-10-03T00:00:00.000Z',
+    associativeInscriptionNumber: '73703',
+    dateOfInscription: '2023-09-04T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/associacio_gatscanoves/',
+    shelter: undefined,
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/associacio_gatscanoves/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/profile.php?id=61551537513912',
+      },
+    ],
   },
 ];
