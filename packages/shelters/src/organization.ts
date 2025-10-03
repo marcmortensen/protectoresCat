@@ -8523,6 +8523,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gatsdeguissona',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b3101329',
@@ -8556,6 +8557,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/ADYLASANTFOST',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd2df4316',
@@ -8585,6 +8587,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/4potespalausaverdera/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f7d83ec4',
@@ -8614,6 +8617,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100070265105040',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '33128f68',
@@ -8646,6 +8650,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sosweimaraner_org/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'fe117899',
@@ -8676,6 +8681,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/sosacatalunya/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'db83639a',
@@ -8708,6 +8714,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/martogat/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '55d56c27',
@@ -8734,6 +8741,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/mollegats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '610cda34',
@@ -8745,12 +8753,14 @@ export const organizations: Organization[] = [
     region: 'bergueda',
     province: 'barcelona',
     municipalityInscription: `Puig-reig`,
+    whatsAppPhone: '655684108',
+    contactEmail: 'petjadespuigreig@gmail.com',
     municipality: `Puig-reig`,
     shelter: undefined,
     description: `Petjades Puig-reig és una associació sense ànim de lucre formada per un grup de voluntaris que tenen l'objectiu de protegir els drets dels animals domèstics i les colònies controlades de gats del nostre municipi.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-03T00:00:00.000Z',
     associativeInscriptionNumber: '65540',
     dateOfInscription: '2019-04-16:00:00.000Z',
     adoptAnimalsURL: 'https://petjadespuigreig.sukycms.com/',
@@ -8760,7 +8770,16 @@ export const organizations: Organization[] = [
         type: 'instagram',
         url: 'https://www.instagram.com/petjades_puigreig/',
       },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@petjades.puigreig',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/Petjades.Puig.reig',
+      },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '21bfeb22',
