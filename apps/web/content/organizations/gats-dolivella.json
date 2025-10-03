@@ -12,10 +12,10 @@
   "description": "Som un grup de persones voluntàries que gestionem les diferents colònies felines al municipi d'Olivella mitjançant mètode CER (Captura, Esterilització i Retorn) donant-los una vida digna i tranquil·la en un entorn rural.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/projects/8/6/2/4/0/720_zsohpcyise.jpg",
   "website": "https://gatsdolivella.com",
-  "adoptAnimalsURL": "https://gatsdolivella.com/ahora-en-adopcion/",
+  "adoptAnimalsURL": "https://gatsdolivella.com/como-colaborar/pagines-4/",
   "associativeInscriptionNumber": "57294",
   "dateOfInscription": "2015-10-30:00:00.000Z",
   "socials": [
@@ -28,8 +28,9 @@
       "url": "https://www.facebook.com/GatsDolivella"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2025-10-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

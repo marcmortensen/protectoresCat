@@ -3,7 +3,6 @@
   "slug": "progat-ampuria",
   "name": "Progat i gos Ampuria",
   "shortName": "Progat Ampuria",
-  "contactEmail": "info@progatampuria.com",
   "contactPhone": "638207539",
   "contactPhone2": "626377327",
   "logo": "http://www.progatampuria.com/.cm4all/mediadb/logo.jpg",
@@ -18,7 +17,7 @@
   "municipality": "Castelló d'Empúries",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
   "dateOfInscription": "1996-02-05T00:00:00.000Z",
   "socials": [
     {
@@ -31,7 +30,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

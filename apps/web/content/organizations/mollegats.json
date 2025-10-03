@@ -12,7 +12,7 @@
   "description": "Associació sense ànims de lucre Molle Gats neix amb la idea d'ajudar als gats que sobreviuen com poden als carrers de Mollerussa. • Busquem voluntaris, cases d'acollida, teamers… tota ajuda serà benvinguda. Poc a poc us anirem presentant als gats.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-15T00:00:00.000Z",
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
   "associativeInscriptionNumber": "77921",
   "dateOfInscription": "2025-07-07:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/mollegats/",
@@ -22,8 +22,9 @@
       "url": "https://www.instagram.com/mollegats/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-08-15T00:00:00.000Z",
+    "lastmod": "2025-10-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
