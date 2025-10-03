@@ -3404,7 +3404,7 @@ export const organizations: Organization[] = [
     description: `Som l’Associació Amor als Animals Maria Adam, una entitat sense ànim de lucre dedicada a acollir i ajudar animals abandonats, desahuciats i maltractats. Tenim la missió de fer un món millor optimitzant el benestar i la protecció dels animals mitjançant la prevenció (educant la població, fomentant una tinença responsable i promoure la legislació compromesa), la curació (assistència veterinària, recuperació física i psicològica, fisioteràpia per als més majors), i la gestió (adopcions segures, suport a colònies felines, espais dignes per als animals en la última etapa de la vida)`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-10-02T00:00:00.000Z',
+    lastUpdate: '2025-10-03T00:00:00.000Z',
     logo: 'https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png',
     website: 'https://amoralsanimals.org/',
     adoptAnimalsURL: 'https://amoralsanimals.org/en_adopcion/',
