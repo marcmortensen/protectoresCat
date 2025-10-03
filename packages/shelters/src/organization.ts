@@ -9531,6 +9531,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GATEJADESS/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '1c0370db',
@@ -9567,6 +9568,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@associacioadall',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '71d3a8d1',
@@ -9599,5 +9601,6 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/gatsdemarmalgrat',
       },
     ],
+    enabledLogoUsage: undefined,
   },
 ];
