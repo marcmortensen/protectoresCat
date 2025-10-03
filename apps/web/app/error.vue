@@ -2,9 +2,11 @@
 <template>
   <UApp class="font-display">
     <NuxtLayout>
-      <div class="h-screen max-w-screen bg-white flex items-center">
+      <div
+        class="h-screen max-w-screen bg-white dark:bg-gray-900 flex items-center"
+      >
         <div
-          class="container flex flex-col-reverse md:flex-row items-center justify-center px-5 text-gray-700 gap-4"
+          class="container flex flex-col-reverse md:flex-row items-center justify-center px-5 text-gray-700 dark:text-white gap-4"
         >
           <div class="max-w-md">
             <div class="text-5xl font-dark font-bold">404</div>
