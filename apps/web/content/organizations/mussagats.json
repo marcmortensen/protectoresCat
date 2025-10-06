@@ -1,0 +1,34 @@
+{
+  "id": "b6d8b704",
+  "slug": "mussagats",
+  "name": "Associació Mussagats Vilaplana",
+  "shortName": "Mussagats Vilaplana",
+  "animalFocus": "cats",
+  "region": "baix-camp",
+  "province": "tarragona",
+  "municipalityInscription": "Vilaplana",
+  "municipality": "Vilaplana",
+  "contactPhone": "649773936",
+  "description": "L’associació Mussagats Vilaplana es dedica a la protecció i gestió ètica dels gats ferals o de carrer del municipi de Vilaplana (Baix Camp). Segons publicacions locals, desenvolupen el sistema de Captura‑Esterilització‑Retorn (CER) per controlar la població felina, col·laboren amb l’Ajuntament per imposar la normativa vigent sobre mascotes i activitats de benestar animal, instalen casetes i punts d’alimentació, i fan tasques de sensibilització i educació entre escolars i veïns sobre la cura i convivència amb colònies de gats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-06T00:00:00.000Z",
+  "associativeInscriptionNumber": "71079",
+  "dateOfInscription": "2022-05-09T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/mussagatsvilaplana/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/mussagatsvilaplana/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/mussagatsvilaplana/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-06T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

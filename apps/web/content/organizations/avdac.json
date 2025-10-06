@@ -1,0 +1,33 @@
+{
+  "id": "8cef473a",
+  "slug": "avdac",
+  "name": "Associació de Voluntaris en Defensa dels Animals de Companyia",
+  "shortName": "AVDAC",
+  "animalFocus": "cats&dogs",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Dosrius",
+  "municipality": "Dosrius",
+  "description": "AVDAC va ser creada per ajudar en la mesura del possible a cobrir despeses econòmiques (veterinaris i altres) ia futur, aconseguir obrir molts camins i espais. La nostra missió actual, donar veu en projectes de protectores, i en la realitat que es viu, poder donar més visibilitat als peluts que necessiten ajuda, conscienciar en la realitat dels animals i en educació i respecte envers ells, donar llum a tota la feina feta i la que està per fer, i poder col·laborar amb entitats i projectes.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-06T00:00:00.000Z",
+  "associativeInscriptionNumber": "69068",
+  "dateOfInscription": "2021-03-18T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associacioavdac/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associacioavdac/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100082072105322"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-06T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
