@@ -1,0 +1,33 @@
+{
+  "id": "5beb4c1e",
+  "slug": "petjades-de-lebre",
+  "name": "Associació Petjades de l'Ebre",
+  "shortName": "Petjades de l'Ebre",
+  "animalFocus": "dogs",
+  "region": "baix-ebre",
+  "province": "tarragona",
+  "municipalityInscription": "Tortosa",
+  "municipality": "Tortosa",
+  "description": "Som una associació de les Terres de L'Ebre, que lluita pel benestar animal, la protecció i defensa de gossos i gats, i la nostra filosofia és clara, que les protectores, i les instal·lacions municipals només sigui un lloc de pas per als animals, buscar familia, estimar i empatitzar, es prioritari per veure'l,s feliços.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "68366",
+  "dateOfInscription": "2020-11-12T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/petjadesdelebre/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/petjadesdelebre/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/petjades.delebre.9"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

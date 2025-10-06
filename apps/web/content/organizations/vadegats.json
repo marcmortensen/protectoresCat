@@ -1,0 +1,34 @@
+{
+  "id": "6f20486b",
+  "slug": "vadegats",
+  "name": "Associació Vadegats",
+  "shortName": "Vadegats",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Aiguafreda",
+  "municipality": "Aiguafreda",
+  "contactEmail": "vadegatsaiguafredastmarti@gmail.com",
+  "description": "VADEGATS és una associació sense ànim de lucre formada per persones d’Aiguafreda i Sant Martí de Centelles amants dels animals, especialment dels gats. Neix amb la voluntat d’ajudar els gats de carrer d’aquests municipis, vetllant pel seu benestar mitjançant una alimentació adequada, assistència veterinària quan calgui i el control de la població a través de l’esterilització. L’associació també treballa per afavorir una convivència harmònica entre els veïns i els gats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "53821",
+  "dateOfInscription": "2014-07-18T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/vadegats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/vadegats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/vadegats"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

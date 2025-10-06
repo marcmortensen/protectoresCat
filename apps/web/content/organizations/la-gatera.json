@@ -1,0 +1,39 @@
+{
+  "id": "402497af",
+  "slug": "la-gatera",
+  "name": "Associació La Gatera",
+  "shortName": "La Gatera",
+  "animalFocus": "cats",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipalityInscription": "Tarragona",
+  "municipality": "Tarragona",
+  "contactEmail": "lagatera2019@gmail.com",
+  "website": "https://lagatera8.taplink.ws",
+  "description": "La Gatera és una associació formada per voluntaris que cuiden colònies de carrer de gats a la ciutat de Tarragona i intenten buscar adopció a gats domèstics abandonats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "65669",
+  "dateOfInscription": "2019-05-15T00:00:00.000Z",
+  "adoptAnimalsURL": "https://petshelter.miwuki.com/p/kWafCKiN",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/lagatera8/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/lagatera8"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@lagatera8"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

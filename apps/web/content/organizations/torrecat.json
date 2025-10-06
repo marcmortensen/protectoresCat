@@ -1,0 +1,38 @@
+{
+  "id": "02d0d476",
+  "slug": "torrecat",
+  "name": "Associació TORRECAT",
+  "shortName": "TORRECAT",
+  "animalFocus": "cats",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipalityInscription": "Torredembarra",
+  "municipality": "Torredembarra",
+  "contactEmail": "torrecatassociacio@gmail.com",
+  "description": "Associació ciutadana sense ànim de lucre, dedicada a la protecció i control de les colònies de gats de Torredembarra. Mitjançant el conveni de col·laboració amb l'Ajuntament de Torredembarra i gràcies a tota la gent voluntària i a les ajudes i donatius, podem dur a terme les esterilitzacions necessàries i cuidar als gairebé 600 gats i gates de carrer de Torredembarra.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "41772",
+  "dateOfInscription": "2010-03-15T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associaciotorrecat",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associaciotorrecat"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/Torrecat/"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/torrecatsocial"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

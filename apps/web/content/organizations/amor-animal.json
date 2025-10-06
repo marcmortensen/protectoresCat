@@ -1,0 +1,33 @@
+{
+  "id": "d7ddbdda",
+  "slug": "amor-animal",
+  "name": "Associació Amor Animal",
+  "shortName": "Amor Animal",
+  "animalFocus": "cats",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipalityInscription": "la Pobla de Mafumet",
+  "municipality": "la Pobla de Mafumet",
+  "description": "Associació creada per a la protecció i benestar de la fauna urbana de la Pobla de Mafumet. Gestionem de forma ètica el control de colònies felines mitjançant el mètode CER, així com el rescat dels animals (gats, gossos i fures) perduts, abandonats, malalts o que corrin perill al carrer, per difondre i promocionar una adopció responsable.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "75354",
+  "dateOfInscription": "2024-05-16T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/amoranimal_._/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amoranimal_._/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/amoranimalasociacion"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "b600472f",
+  "slug": "cats-and-dogs",
+  "name": "Associació Cats&Dogs Alt Urgell",
+  "shortName": "Cats&Dogs Alt Urgell",
+  "animalFocus": "cats&dogs",
+  "region": "alt-urgell",
+  "province": "lleida",
+  "municipalityInscription": "la Seu d'Urgell",
+  "municipality": "la Seu d'Urgell",
+  "contactPhone": "629973109",
+  "whatsAppPhone": "629973109",
+  "contactEmail": "catsdogsalturgell@hotmail.com",
+  "description": "Cats & Dogs Seu d’Urgell és una organització dedicada a la protecció i cura dels animals a l’Alt Urgell. Treballen per ajudar gats i gossos en situació de vulnerabilitat, oferint adopcions, acollides temporals i atenció veterinària. També promouen la sensibilització i la participació voluntària per millorar el benestar animal a la comarca.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "68286",
+  "dateOfInscription": "2020-10-27T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/catsdogsalturgell/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/catsdogsalturgell/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100083290993576"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

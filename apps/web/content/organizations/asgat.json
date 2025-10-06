@@ -1,0 +1,39 @@
+{
+  "id": "179dde65",
+  "slug": "asgat",
+  "name": "Associació ASGAT.cat",
+  "shortName": "ASGAT",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Cervelló",
+  "municipality": "Cervelló",
+  "contactEmail": "asgatcervello@gmail.com",
+  "whatsAppPhone": "665109484",
+  "description": "ASGAT és una associació exclosa tot ànim de lucre creada per un grup de voluntaris que té com a objectiu el control de les colònies de gats. Ens encarreguem del seu control, cura i defensa. Actuació veterinaria: esterilització i hospitalització, programa d'adopcions i llars d'acollida temporal, marcatge per retonar-los a les seves colònies al carrer amb les millors condicions sanitàries i seguiment diari per part de personal voluntari per la seva alimentació i control de salut.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "42237",
+  "dateOfInscription": "2010-04-23T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/asgatcervello/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/asgatcervello/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/asgatcervello/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@asgat__"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

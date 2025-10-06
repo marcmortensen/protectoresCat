@@ -1,0 +1,40 @@
+{
+  "id": "dd263ccc",
+  "slug": "karens",
+  "name": "Asociación Karen's",
+  "shortName": "Karen's",
+  "animalFocus": "cats",
+  "region": "baix-penedes",
+  "province": "tarragona",
+  "municipalityInscription": "la Bisbal del Penedès",
+  "municipality": "la Bisbal del Penedès",
+  "contactEmail": "asociacionkarens@gmail.com",
+  "whatsAppPhone": "684743005",
+  "contactPhone": "684743005",
+  "description": "Som una petita associació sense ànim de lucre que ens encarreguem de la cura, l'alimentació i la supervisió d'una colònia de gats ferals. Als adoptables busquem una família amorosa mitjançant processos d'adopció responsables i sota contracte.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "74962",
+  "dateOfInscription": "2024-03-26T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=61554746374515",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/asociacion.karen.s"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61554746374515"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@asociacionkarens"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

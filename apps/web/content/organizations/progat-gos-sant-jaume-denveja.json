@@ -1,0 +1,34 @@
+{
+  "id": "e773dc0a",
+  "slug": "progat-gos-sant-jaume-denveja",
+  "name": "Associació ProGatGos Sant Jaume d'Enveja",
+  "shortName": "ProGatGos Sant Jaume d'Enveja",
+  "animalFocus": "cats",
+  "region": "montsia",
+  "province": "tarragona",
+  "municipalityInscription": "Sant Jaume d'Enveja",
+  "municipality": "Sant Jaume d'Enveja",
+  "contactEmail": "progatgossantjaume@hotmail.com",
+  "description": "L’Associació ProGatGos Sant Jaume d’Enveja és una entitat sense ànim de lucre formada per voluntaris compromesos amb el benestar animal a les Terres de l’Ebre. La seva missió és millorar la vida dels animals, fomentar-ne la cura responsable i crear una convivència harmoniosa amb les persones. Treballen amb un enfocament preventiu, educatiu i solidari, centrant-se especialment en la gestió ètica de colònies de gats. Fan una crida a la col·laboració ciutadana per construir un futur més just per als animals.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "77640",
+  "dateOfInscription": "2025-05-22T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=61576851625582",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associacioprogatgos/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61576851625582"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

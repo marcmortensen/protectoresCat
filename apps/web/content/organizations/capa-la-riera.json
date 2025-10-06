@@ -1,0 +1,31 @@
+{
+  "id": "a3be23d2",
+  "slug": "capa-la-riera",
+  "name": "Associació CAPA La Riera",
+  "shortName": "CAPA La Riera",
+  "animalFocus": "cats&dogs",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipalityInscription": "la Riera de Gaià",
+  "municipality": "la Riera de Gaià",
+  "website": "https://sites.google.com/view/capalariera",
+  "contactEmail": "capalariera@gmail.com",
+  "description": "L’Associació CAPA la Riera (Custòdia, Acollida i Protecció Animal) és una entitat sense ànim de lucre que treballa per protegir i defensar els animals, especialment gossos i gats abandonats, al municipi de la Riera de Gaià i rodalia. La seva tasca inclou acollir i cercar famílies per a animals abandonats, fomentar l’adopció responsable, difondre casos d’animals perduts o en adopció, i organitzar activitats educatives i de sensibilització.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "associativeInscriptionNumber": "72636",
+  "dateOfInscription": "2023-03-02T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/capalariera/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/capalariera/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
