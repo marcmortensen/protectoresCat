@@ -1,0 +1,33 @@
+{
+  "id": "98324854",
+  "slug": "peludos-sin-techo",
+  "name": "Asociación Protectora de Animales Peludos sin Techo",
+  "shortName": "Peludos sin Techo",
+  "animalFocus": "cats&dogs",
+  "region": "segria",
+  "province": "lleida",
+  "municipalityInscription": "Albatàrrec",
+  "municipality": "Albatàrrec",
+  "description": "Som una associació sense ànim de lucre que ajudem els animals abandonats, maltractats, o simplement que ja no els volen buscar una llar i que la seva vida sigui el més agradable possible.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-07T00:00:00.000Z",
+  "associativeInscriptionNumber": "65624",
+  "dateOfInscription": "2019-05-06T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/peludos.sintecho/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/peludos.sintecho/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/peludossintecho/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-07T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

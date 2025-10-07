@@ -1,0 +1,34 @@
+{
+  "id": "e081718f",
+  "slug": "animals-de-la-barca",
+  "name": "Associació Protectora d'Animals de la Barca",
+  "shortName": "Animals de la Barca",
+  "animalFocus": "cats&dogs",
+  "region": "segria",
+  "province": "lleida",
+  "municipalityInscription": "Vilanova de la Barca",
+  "municipality": "Vilanova de la Barca",
+  "contactEmail": "apa.delabarca@gmail.com",
+  "description": "Som una associació que vetllem pel benestar dels animals domèstics abandonats o perduts de Vilanova de la Barca. Intentem retornar-los als seus propietaris, si són localitzats, o els busquem una família que els cuidi responsablement.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-07T00:00:00.000Z",
+  "associativeInscriptionNumber": "74742",
+  "dateOfInscription": "2024-03-02T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/protectora.animalsdelabarca/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/protectora.animalsdelabarca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61562495605025"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-07T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

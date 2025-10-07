@@ -1,0 +1,34 @@
+{
+  "id": "8dbdf841",
+  "slug": "els-felins",
+  "name": "Associació Els Felins",
+  "shortName": "Els Felins",
+  "animalFocus": "cats",
+  "region": "selva",
+  "province": "girona",
+  "municipalityInscription": "Sils",
+  "municipality": "Sils",
+  "contactEmail": "elsfelinssils@gmail.com",
+  "description": "Som Assossiacio Els Felins de Sils El nostre objectiu és controlar les colònies de gats del municipi. El nostre mètode i únic que funciona es Mètode CER ( captura, esterelització i Retorn).",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-07T00:00:00.000Z",
+  "associativeInscriptionNumber": "58497",
+  "dateOfInscription": "2016-05-10T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/elsfelinssils/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/elsfelinssils/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/elsfelinssils/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-07T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
