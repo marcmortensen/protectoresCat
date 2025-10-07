@@ -1,0 +1,34 @@
+{
+  "id": "e5b7f417",
+  "slug": "ardo",
+  "name": "Associació de Rescat d'Animals d'Osona",
+  "shortName": "ARDO",
+  "animalFocus": "cats&dogs",
+  "region": "osona",
+  "province": "barcelona",
+  "municipalityInscription": "Vic",
+  "municipality": "Vic",
+  "contactEmail": "adrosona@gmail.com",
+  "description": "Associació creada per fomentar el benestar animal i lluitar contra els casos de maltractament animal a la comarca d’Osona. Les nostres finalitats principals són: · Actuar en cas de maltractament informant a la persona responsable de l’animal de l’incompliment de la llei de protecció animal. · Fer xerrades, actes informatius, participar en esdeveniments benèfics, etc. per ajudar els nostres amics no humans. · Fomentar el veganisme entenent-lo com a un estil de vida.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-07T00:00:00.000Z",
+  "associativeInscriptionNumber": "56606",
+  "dateOfInscription": "2015-06-23T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/adro.osona/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adro.osona/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adrosona/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-07T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

@@ -2434,7 +2434,7 @@ export const organizations: Organization[] = [
     municipality: 'Sort',
     isMunicipal: false,
     associativeInscriptionNumber: '70121',
-    isActive: true,
+    isActive: false,
     lastUpdate: '2025-01-25T00:00:00.000Z',
     dateOfInscription: '2021-10-20T00:00:00.000Z',
     socials: [
@@ -9680,6 +9680,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/people/Associaci%C3%B3-de-Gats-Riumorssencs/61562395873206/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7696e94d',
@@ -9712,6 +9713,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61555357466754',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '12665254',
@@ -9749,6 +9751,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/RefugielTuc/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '891ab994',
@@ -9780,6 +9783,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61551537513912',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b600472f',
@@ -9812,6 +9816,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100083290993576',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c4f39820',
@@ -9842,6 +9847,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100089681903768',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e773dc0a',
@@ -9872,6 +9878,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61576851625582',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '5beb4c1e',
@@ -9901,6 +9908,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/petjades.delebre.9',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '179dde65',
@@ -9936,6 +9944,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@asgat__',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '6f20486b',
@@ -9966,6 +9975,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/vadegats',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '402497af',
@@ -10001,6 +10011,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@lagatera8',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '02d0d476',
@@ -10035,6 +10046,7 @@ export const organizations: Organization[] = [
         url: 'https://x.com/torrecatsocial',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a3be23d2',
@@ -10062,6 +10074,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/capalariera/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd7ddbdda',
@@ -10091,6 +10104,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/amoranimalasociacion',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'dd263ccc',
@@ -10127,6 +10141,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@asociacionkarens',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7b7b171f',
@@ -10159,6 +10174,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associacio.bisbalgat',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '19e446ba',
@@ -10189,6 +10205,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61577179825072',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8cef473a',
@@ -10218,6 +10235,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100082072105322',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'b6d8b704',
@@ -10248,6 +10266,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/mussagatsvilaplana/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e081718f',
@@ -10278,6 +10297,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61562495605025',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '98324854',
@@ -10307,6 +10327,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/peludossintecho/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8e3c8ec7',
@@ -10337,6 +10358,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associacioBIDA',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '0c37162d',
@@ -10367,6 +10389,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsTona',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8dbdf841',
@@ -10395,6 +10418,37 @@ export const organizations: Organization[] = [
       {
         type: 'facebook',
         url: 'https://www.facebook.com/elsfelinssils/',
+      },
+    ],
+    enabledLogoUsage: undefined,
+  },
+  {
+    id: 'e5b7f417',
+    slug: 'ardo',
+    name: `Associació de Rescat d'Animals d'Osona`,
+    shortName: `ARDO`,
+    animalFocus: 'cats&dogs',
+    region: 'osona',
+    province: 'barcelona',
+    municipalityInscription: `Vic`,
+    municipality: `Vic`,
+    contactEmail: 'adrosona@gmail.com',
+    description: `Associació creada per fomentar el benestar animal i lluitar contra els casos de maltractament animal a la comarca d’Osona. Les nostres finalitats principals són: · Actuar en cas de maltractament informant a la persona responsable de l’animal de l’incompliment de la llei de protecció animal. · Fer xerrades, actes informatius, participar en esdeveniments benèfics, etc. per ajudar els nostres amics no humans. · Fomentar el veganisme entenent-lo com a un estil de vida.`,
+    isActive: true,
+    isMunicipal: false,
+    lastUpdate: '2025-10-07T00:00:00.000Z',
+    associativeInscriptionNumber: '56606',
+    dateOfInscription: '2015-06-23T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/adro.osona/',
+    shelter: undefined,
+    socials: [
+      {
+        type: 'instagram',
+        url: 'https://www.instagram.com/adro.osona/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adrosona/',
       },
     ],
   },
