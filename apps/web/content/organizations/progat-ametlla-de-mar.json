@@ -1,0 +1,39 @@
+{
+  "id": "cce7c4a4",
+  "slug": "progat-ametlla-de-mar",
+  "name": "Associació Progat L'Ametlla de Mar",
+  "shortName": "Progat L'Ametlla de Mar",
+  "animalFocus": "cats",
+  "region": "baix-ebre",
+  "province": "tarragona",
+  "municipalityInscription": "l'Ametlla de Mar",
+  "municipality": "l'Ametlla de Mar",
+  "contactEmail": "progatametllademar@gmail.com",
+  "description": "Associació sense ànim de lucre formada per voluntàris per controlar les colònies de gats del municipi d'Ametlla de Mar (Baix Ebre) aplicant el mètode CER.",
+  "website": "https://www.progat-ametllademar.org",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
+  "associativeInscriptionNumber": "68073",
+  "dateOfInscription": "2020-09-21T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.progat-ametllademar.org/adopcions",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progat_ametllademar/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progat.ametllademar"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/DeProgat"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-08T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

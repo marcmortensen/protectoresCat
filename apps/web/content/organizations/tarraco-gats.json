@@ -1,0 +1,35 @@
+{
+  "id": "8b644a38",
+  "slug": "tarraco-gats",
+  "name": "Associació Tarraco Gats",
+  "shortName": "Tarraco Gats",
+  "animalFocus": "cats",
+  "region": "tarragones",
+  "province": "tarragona",
+  "municipalityInscription": "Tarragona",
+  "municipality": "Tarragona",
+  "website": "http://www.tarracogats.org",
+  "contactEmail": "info@tarracogats.org",
+  "description": "Som una Associació sense ànim de lucre de Tarragona que es dedica a esterilitzar i cuidar les colònies felines de la nostra ciutat, proporcionant-los l'atenció veterinària que necessitin, a més d'alimentar-los i vetllar per la seguretat i el benestar. També busquem adopcions i acollides per a aquells que es troben abandonats o desemparats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
+  "associativeInscriptionNumber": "50159",
+  "dateOfInscription": "2013-04-23T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.facebook.com/TarracoGats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/tarracogats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/TarracoGats/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-08T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

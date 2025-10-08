@@ -12,7 +12,7 @@
   "description": "Progat El Perelló, és una associació sense ànim de lucre, que lluita dia rere dia per proporcionar una qualitat de vida digna als gats de carrer del municipi del Perelló (Tarragona), a partir de l'aplicació del mètode C.E.R, atenció veterinària, i la promoció de l'adopció d'aquests felins.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
   "associativeInscriptionNumber": "73386",
   "dateOfInscription": "2023-06-28T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/progat_el_perello/",
@@ -26,8 +26,9 @@
       "url": "https://www.facebook.com/profile.php?id=100089681903768"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-05T00:00:00.000Z",
+    "lastmod": "2025-10-08T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

@@ -1,0 +1,39 @@
+{
+  "id": "d57bf548",
+  "slug": "aldea-projecte-gat",
+  "name": "Associació L'Aldea: Projecte Gat",
+  "shortName": "Projecte Gat",
+  "animalFocus": "cats",
+  "region": "baix-ebre",
+  "province": "tarragona",
+  "municipalityInscription": "l'Aldea",
+  "municipality": "l'Aldea",
+  "contactEmail": "laldea.projectegat@gmail.com",
+  "contactPhone": "660877540",
+  "description": "L'Associació L'Aldea: Projecte Gat neix amb l'objectiu de dignificar i millorar la vida de les colònies de gats de L'Aldea. Seguim el mètode CER (capturar-esterilitzar-retornar) i ens encarreguem de promocionar les adopcions responsables d'aquells gats que es troben al carrer però que no són ferals.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
+  "associativeInscriptionNumber": "67878",
+  "dateOfInscription": "2020-07-21T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/projectegat/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/projectegat/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/LAldeaProjecteGat/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@projecte.gat"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-08T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
