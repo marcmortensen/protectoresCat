@@ -12,7 +12,7 @@
   "description": "Sos Cat's es crea a partir d'un grup de noies amants dels animals, però sobretot amb una debilitat immensa envers els gats. El 5 de novembre del 2021 neix aquesta associació per intentar donar una vida millor als gats del carrer de Caldes de Malavella.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-16T00:00:00.000Z",
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
   "associativeInscriptionNumber": "70806",
   "dateOfInscription": "2022-03-17T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/asoc.soscats/",
@@ -26,8 +26,9 @@
       "url": "https://www.instagram.com/asoc.soscats/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-08-16T00:00:00.000Z",
+    "lastmod": "2025-10-08T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

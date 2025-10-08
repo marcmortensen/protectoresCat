@@ -14,7 +14,7 @@
   "description": "Som una associació sense ànim de lucre, integrada per voluntaris que operem a La Bisbal. Apliquem mètode CER (capturar-esterilitzar-retornar) per millorar la vida dels gats de colònia. S'evita la sobrepoblació felina, els conflictes veïnals... Els gats s'alimenten amb pinso i es manté l'entorn net. Sovint \"apareixen\" gats abandonats o neixen petits al carrer i promovem la seva acollida i adopció.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-10-05T00:00:00.000Z",
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
   "associativeInscriptionNumber": "46417",
   "dateOfInscription": "2011-11-29T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/bisbalgat_oficial/",
@@ -28,8 +28,9 @@
       "url": "https://www.facebook.com/associacio.bisbalgat"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-05T00:00:00.000Z",
+    "lastmod": "2025-10-08T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

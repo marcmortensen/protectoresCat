@@ -3,16 +3,16 @@
   "slug": "tona-gats",
   "name": "Associació Tona Gats",
   "shortName": "Tona Gats",
-  "animalFocus": "cats",
+  "animalFocus": "cats&dogs",
   "region": "osona",
   "province": "barcelona",
   "municipalityInscription": "Tona",
   "municipality": "Tona",
   "contactEmail": "info@tonagats.cat",
-  "description": "Pel benestar dels gats de carrer 🐱. Controlem la cria a través del mètode CER i alimentem colònies de gats de carrer procurant-los una vida digne.",
+  "description": "Tot i que ja no funcionem com a associació formal, continuem actius com a grup de voluntariat compromès amb el benestar dels gats de carrer 🐱. Col·laborem en coordinació amb l’entitat municipal per controlar la reproducció mitjançant el mètode CER (Captura, Esterilització i Retorn) i alimentem colònies de gats procurant-los una vida digna. També acollim gats que busquen una llar definitiva, tot fomentant l’adopció responsable 😊",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-10-07T00:00:00.000Z",
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
   "associativeInscriptionNumber": "53443",
   "dateOfInscription": "2014-06-16T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/gatsdetona/",
@@ -26,8 +26,9 @@
       "url": "https://www.facebook.com/GatsTona"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-07T00:00:00.000Z",
+    "lastmod": "2025-10-08T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
