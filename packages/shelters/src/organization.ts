@@ -6525,7 +6525,7 @@ export const organizations: Organization[] = [
     description: `Som una associació sense ànim de lucre de la ciutat d'Igualada. La nostra tasca és gestionar el refugi de gats de la ciutat, que està en un espai que lAjuntament cedeix. A més a més ens encarreguem daplicar la metodologia CER (Captura, Esterilització i Retorn) dels gats ferals de la ciutat per tal de reduir el nombre de gats cadells i adults als carrers dIgualada. Quan recollim un gat/et, el desparasitem, latenem a nivell veterinari i emocional i li busquem una adopció responsable.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-02-25T00:00:00.000Z',
+    lastUpdate: '2025-10-11T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/9/3/0/b43y5sdp0j.jpg',
     website: 'https://sites.google.com/view/gats-igualada',
     adoptAnimalsURL: 'https://www.instagram.com/gats_igualada/',
@@ -6541,7 +6541,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsIgualada',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'd6357d5d',
