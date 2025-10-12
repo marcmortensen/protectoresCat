@@ -379,6 +379,7 @@ export type Municipality =
   | 'Juneda'
   | 'Les'
   | 'Linyola'
+  | 'Lladó'
   | 'Lladorre'
   | 'Lladurs'
   | 'Llagostera'
@@ -1373,6 +1374,7 @@ export const municipalityToRegion: Record<Municipality, Region> = {
   Juneda: 'garrigues',
   Les: 'aran',
   Linyola: 'pla-durgell',
+  Lladó: 'alt-emporda',
   Lladorre: 'pallars-sobira',
   Lladurs: 'solsones',
   Llagostera: 'girones',

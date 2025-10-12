@@ -1,0 +1,33 @@
+{
+  "id": "a0194ba2",
+  "slug": "climentgats",
+  "name": "Associació Climentgats",
+  "shortName": "Climentgats",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Sant Climent de Llobregat",
+  "municipality": "Sant Climent de Llobregat",
+  "description": "Som una associació sense ànim de lucre creada per tal de ciudar i gestionar les colònies de gats del carrer, a la població de Sant Climent de Llobregat ( Barcelona). La nostra missió és poder esterilitzar al major nombre de gats possible per evitar la super població, atropellaments, ventrada de petits als carrers. Amb la vostra ajuda podrem donar atenció veterinària, alimentar i donar una vida millor a tots aquests gats que viuen al carrer. No tenim refugi físic d'animals.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "66453",
+  "dateOfInscription": "2019-10-21T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/climentgats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/climentgats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associacio.climentgats.9"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "93c0cfd2",
+  "slug": "moguda-gatuna",
+  "name": "Moguda Gatuna Associació",
+  "shortName": "Moguda Gatuna",
+  "animalFocus": "cats",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipalityInscription": "Santa Perpètua de Mogoda",
+  "municipality": "Santa Perpètua de Mogoda",
+  "contactEmail": "info@mogudagatuna.org",
+  "website": "https://mogudagatuna.org",
+  "description": "Som una associació que des de 2015 treballa i lluita per millorar les condicions de vida de la comunitat de gats de la nostra localitat, Sta. Perpètua de Mogoda, que actualment no està recolzada prou. Intentem socórrer gats abandonats, ferits, a sensibilitzar la població per a una tinença responsable.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "56793",
+  "dateOfInscription": "2015-07-23T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/moguda_gatuna/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/moguda_gatuna/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/mogudagatuna/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@mogudagatuna"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

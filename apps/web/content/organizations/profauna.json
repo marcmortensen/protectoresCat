@@ -1,0 +1,39 @@
+{
+  "id": "f7a9568d",
+  "slug": "profauna",
+  "name": "Associació PROFAUNA Terres de l'Ebre",
+  "shortName": "PROFAUNA",
+  "animalFocus": "cats&dogs",
+  "region": "montsia",
+  "province": "tarragona",
+  "municipalityInscription": "Santa Bàrbara",
+  "municipality": "Santa Bàrbara",
+  "contactEmail": "profaunaterresdelebre@gmail.com",
+  "website": "https://sites.google.com/view/profaunaterresdelebre/inici",
+  "description": "Som una Associació de protecció animal sense ànim de lucre. Volem conscienciar a les persones i vetllar pel benestar dels animals que viuen al carrer o han estat víctimes d'abandó. Ajudar-los és el nostre principal objectiu i necessitem fer recaptacions constants per a seguir, ja que la seva manutenció, despeses veterinàries, etc.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "59796",
+  "dateOfInscription": "2016-11-14T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/profauna_ttee/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/profauna_ttee/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profaunattee"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@profauna_ttee_"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

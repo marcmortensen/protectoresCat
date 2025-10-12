@@ -1,0 +1,33 @@
+{
+  "id": "210c24b3",
+  "slug": "animal-ses",
+  "name": "Associació AnimalSES (Sant Esteve Sesrovires)",
+  "shortName": "AnimalSES",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Sant Esteve Sesrovires",
+  "municipality": "Sant Esteve Sesrovires",
+  "description": "Gestionem les colònies de Sant Esteve Sesrovires i intentem cercar família a aquells gatets que poden ser adoptables. No tenim cap refugi, treballem amb cases d'acollida. ",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "74035",
+  "dateOfInscription": "2023-10-27T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/animal.ses/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/animal.ses/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100093774953300"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

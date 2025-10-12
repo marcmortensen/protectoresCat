@@ -1,0 +1,41 @@
+{
+  "id": "f610a44c",
+  "slug": "gvg",
+  "name": "Associació Gavà Gats",
+  "shortName": "GVG",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Gavà",
+  "municipality": "Gavà",
+  "contactEmail": "info.gavagats@gmail.com",
+  "whatsAppPhone": "624627224",
+  "contactPhone": "624627224",
+  "website": "https://gavagats.com",
+  "description": "Gavà Gats (GVG), és una associació sense ànim de lucre en què ens encarreguem de dignificar la vida dels gats comunitaris mitjançant la creació de colònies felines. Per això utilitzem el mètode CER (Captura/Esterilització/Retorn) reconegut internacionalment com el més humanitari i eficaç per al control de colònies de gat i impulsat per l'Ajuntament de Gavà.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "67507",
+  "dateOfInscription": "2020-03-19T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gava.gats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gava.gats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatsdegava"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@gavagats2"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

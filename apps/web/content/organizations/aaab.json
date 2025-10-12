@@ -1,0 +1,39 @@
+{
+  "id": "8d115e82",
+  "slug": "aaab",
+  "name": "Associació Animalista d'Alòs de Balaguer",
+  "shortName": "Animalista d'Alòs de Balaguer",
+  "animalFocus": "cats",
+  "region": "noguera",
+  "province": "lleida",
+  "municipalityInscription": "Alòs de Balaguer",
+  "municipality": "Alòs de Balaguer",
+  "website": "https://aaab.sukycms.com",
+  "contactEmail": "aaab.gats@gmail.com",
+  "description": "L’Associació Animalista d’Alòs de Balaguer és una entitat sense ànim de lucre formada per voluntaris i voluntàries que té com a principal finalitat garantir la millora de les condicions de benestar dels gats d’Alòs de Balaguer mitjançant la gestió de les seves colònies, per tal d'afavorir la convivència entre els habitants del municipi i els felins que viuen als seus carrers.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "68053",
+  "dateOfInscription": "2020-09-16T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/aaab_alos/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/aaab_alos/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GATSIGATESDALOS"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/AlosAaab"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bc096da3",
+  "slug": "felina-sartilu",
+  "name": "Associació Felina Sartilu",
+  "shortName": "Felina Sartilu",
+  "animalFocus": "cats",
+  "region": "maresme",
+  "province": "barcelona",
+  "municipalityInscription": "Calella",
+  "municipality": "Calella",
+  "contactEmail": "sartilu.cats@gmail.com",
+  "contactPhone": "682791834",
+  "description": "Cuido i alimento colònies de gats abandonats diàriament a Calella. Els proporciono les cures que necessiten, desparasitació, veterinari. També rescato gatets i gats abandonats, els tinc en acollida fins que els trobo una família responsable.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "69117",
+  "dateOfInscription": "2021-03-25T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/sartilu/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/sartilu/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/sartilu"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

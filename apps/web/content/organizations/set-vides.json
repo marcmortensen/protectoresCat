@@ -1,0 +1,34 @@
+{
+  "id": "1b79ad66",
+  "slug": "set-vides",
+  "name": "Associació 7 VIDES LLADÓ",
+  "shortName": "7 Vides",
+  "animalFocus": "cats",
+  "region": "alt-emporda",
+  "province": "girona",
+  "municipalityInscription": "Lladó",
+  "municipality": "Lladó",
+  "contactEmail": "7videsllado@gmail.com",
+  "description": "Associació dedicada al benestar dels gats de carrer de Lladó.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "68543",
+  "dateOfInscription": "2020-12-17T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associacio_7_vides_llado/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associacio_7_vides_llado/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associaciosetvides.llado"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

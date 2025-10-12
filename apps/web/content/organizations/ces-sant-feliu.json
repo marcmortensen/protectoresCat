@@ -1,0 +1,37 @@
+{
+  "id": "d51b0153",
+  "slug": "ces-sant-feliu",
+  "name": "Associació CES Sant Feliu de Llobregat",
+  "shortName": "CES Sant Feliu",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Sant Feliu de Llobregat",
+  "municipality": "Sant Feliu de Llobregat",
+  "contactEmail": "adopcionesbcn@gmail.com",
+  "contactPhone": "680997198",
+  "whatsAppPhone": "680997198",
+  "website": "https://adoptaungatito.es",
+  "description": "Gestió ètica de colònies felines aplicant el mètode CES/R (Captura, Esterilització, Solta/Retorn). Adopció dels gats sociables rescatats. Sant Feliu de Llobregat, Barcelona. Actualment gestionem 11 colònies felines, aproximadament 120 gats, tots castrats per la nostra entitat, però no paren d'arribar gats nous i les peticions d'ajuda de les alimentadores.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "66274",
+  "dateOfInscription": "2019-09-10T00:00:00.000Z",
+  "adoptAnimalsURL": "https://adoptaungatito.es/listado",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adopcionesbcn_cesstfeliu/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associaciocessf/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

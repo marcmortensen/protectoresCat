@@ -1,0 +1,30 @@
+{
+  "id": "e86a0adf",
+  "slug": "mas-gats",
+  "name": "Associació Mas Gats",
+  "shortName": "Mas Gats",
+  "animalFocus": "cats",
+  "region": "barcelones",
+  "province": "barcelona",
+  "municipalityInscription": "Badalona",
+  "municipality": "Badalona",
+  "contactEmail": "m.carrasco64@outlook.com",
+  "description": "Projecte subvencionat per l’Ajuntament de Badalona",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "67624",
+  "dateOfInscription": "2020-05-26T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associacio_mas_gats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associacio_mas_gats/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

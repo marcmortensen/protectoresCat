@@ -1,0 +1,39 @@
+{
+  "id": "10c8ce08",
+  "slug": "montornes-animal",
+  "name": "Associació Montornès Animal",
+  "shortName": "Montornès Animal",
+  "animalFocus": "cats&dogs",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Montornès del Vallès",
+  "municipality": "Montornès del Vallès",
+  "website": "https://montornesanimal.wordpress.com/",
+  "contactEmail": "montornesanimal@gmail.com",
+  "description": "Montornès Animal és una associació sense ànim de lucre de Montornès del Vallès nascuda amb l'objetiu d'ajudar a tots els éssers vius que no tenen veu i a conscienciar a aquells que sí la tenim. Volem un entorn més net, amb més animales i menys contaminació i, per fer-ho, organitzem activitats per a tots els públics. També cuidem de diverses colònies de gats utilitzant el mètodo CER.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "67633",
+  "dateOfInscription": "2020-05-26T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/montornesanimal",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/montornesanimal"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/MontornesAnimal/"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/MontornesAnimal"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

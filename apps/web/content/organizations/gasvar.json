@@ -1,0 +1,38 @@
+{
+  "id": "0ce1ec3a",
+  "slug": "gasvar",
+  "name": "Associació Gasvar de Montornès del Vallès",
+  "shortName": "Gasvar de Montornès del Vallès",
+  "animalFocus": "cats",
+  "region": "valles-oriental",
+  "province": "barcelona",
+  "municipalityInscription": "Montornès del Vallès",
+  "municipality": "Montornès del Vallès",
+  "contactPhone": "649255224",
+  "description": "GASVAR és una associació sense ànim de lucre gestionada per Voluntariat Solidari per dignificar la vida dels gats ferals.Vetllem per la seva alimentació, salut i entorn, mantenint un control sanitari tant de l’espai com dels petits que hi habiten.Practiquem el mètode CER per reduir o acabar amb la proliferació desmesurada d’aquests animals degut a l’abandonament de gats domèstics i de gats nascuts al carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "60621",
+  "dateOfInscription": "2017-03-06T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/associaciogasvar/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/associaciogasvar/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associaciogasvar/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@associaciogasvar"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "035d3214",
+  "slug": "progat-barbera",
+  "name": "Progat Barberà, Associació per la Protecció i Esterilització del Gat Urbà de Carrer",
+  "shortName": "Progat Barberà",
+  "animalFocus": "cats",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipalityInscription": "Barberà del Vallès",
+  "municipality": "Barberà del Vallès",
+  "contactEmail": "progatbarbera.donaciones@gmail.com",
+  "whatsAppPhone": "615236659",
+  "contactPhone": "615236659",
+  "website": "https://progatbarbera.org",
+  "description": "Som una organització, sense ànim de lucre, que té com a objectiu la protecció d'animals que es veuen obligats a sobreviure al carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "31177",
+  "dateOfInscription": "2020-03-19T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/progatbarbera.donaciones/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/progatbarbera.donaciones/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/progatbarberavalles"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

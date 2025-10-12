@@ -1,0 +1,36 @@
+{
+  "id": "1cc12f78",
+  "slug": "gats-vilafranca",
+  "name": "Associació Gats de Vilafranca del Penedès",
+  "shortName": "Gats de Vilafranca",
+  "animalFocus": "cats",
+  "region": "alt-penedes",
+  "province": "barcelona",
+  "municipalityInscription": "Vilafranca del Penedès",
+  "contactPhone": "649166892",
+  "municipality": "Vilafranca del Penedès",
+  "contactEmail": "gatsvilafranca@gmail.com",
+  "website": "https://www.gatsdevilafranca.cat",
+  "description": "Som un grup de voluntaris que operem des del més profund amor pels gats. Dolors Climent, la presidenta de l'associació, porta més de 20 anys duent a terme aquesta tasca i dedicant incondicionalment el seu temps, esforç i amor als gats del carrer. Amb ella hem conegut un grup de voluntaris, junts volem millorar les condicions de vida dels gats. Disposem d'una protectora tancada i 15 colònies obertes al municipi de Vilafranca.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "associativeInscriptionNumber": "40596",
+  "dateOfInscription": "2009-10-01T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.gatsdevilafranca.cat/adoptar",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsdevilafranca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GatsdeVilafranca"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-12T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
