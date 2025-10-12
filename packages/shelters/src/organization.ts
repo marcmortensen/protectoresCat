@@ -10452,6 +10452,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/adrosona/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'cce7c4a4',
@@ -10487,6 +10488,7 @@ export const organizations: Organization[] = [
         url: 'https://x.com/DeProgat',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd57bf548',
@@ -10522,6 +10524,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@projecte.gat',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8b644a38',
@@ -10553,6 +10556,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/TarracoGats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8d115e82',
@@ -10588,6 +10592,7 @@ export const organizations: Organization[] = [
         url: 'https://x.com/AlosAaab',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '10c8ce08',
@@ -10623,6 +10628,7 @@ export const organizations: Organization[] = [
         url: 'https://x.com/MontornesAnimal',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '0ce1ec3a',
@@ -10657,6 +10663,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@associaciogasvar',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f182b749',
@@ -10688,6 +10695,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/pelutsvilanovadelvalles/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '93c0cfd2',
@@ -10723,6 +10731,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@mogudagatuna',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'bc096da3',
@@ -10754,6 +10763,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/sartilu',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'd51b0153',
@@ -10787,6 +10797,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associaciocessf/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'a0194ba2',
@@ -10816,6 +10827,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associacio.climentgats.9',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f7a9568d',
@@ -10851,6 +10863,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@profauna_ttee_',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '1cc12f78',
@@ -10883,6 +10896,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/GatsdeVilafranca',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '1b79ad66',
@@ -10913,6 +10927,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/associaciosetvides.llado',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'e86a0adf',
@@ -10939,6 +10954,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/associacio_mas_gats/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '13c151ef',
@@ -10969,6 +10985,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61572117772004',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'f610a44c',
@@ -11006,6 +11023,7 @@ export const organizations: Organization[] = [
         url: 'https://www.tiktok.com/@gavagats2',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '035d3214',
@@ -11039,6 +11057,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/progatbarberavalles',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '210c24b3',
@@ -11068,6 +11087,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100093774953300',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '7c458703',
@@ -11099,5 +11119,6 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100082796233369',
       },
     ],
+    enabledLogoUsage: undefined,
   },
 ];
