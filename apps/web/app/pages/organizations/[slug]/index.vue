@@ -193,7 +193,7 @@ useSchemaOrg([
       >
         <div class="flex gap-4 w-full flex-col sm:flex-row">
           <div
-            class="lg:shrink-0 h-24 lg:h-48 sm:h-full w-full sm:w-auto lg:w-48 flex items-center justify-center"
+            class="lg:shrink-0 h-48 lg:h-48 sm:h-full w-full sm:w-auto lg:w-48 flex items-center justify-center"
           >
             <NuxtPicture
               v-if="data.org.enabledLogoUsage"
@@ -201,7 +201,7 @@ useSchemaOrg([
               :src="getOrganizationLogoPath(data.org.slug)"
               :alt="`Logo of ${data.org.name}`"
               :img-attrs="{
-                class: 'h-24 sm:w-full lg:h-full lg:w-48 max-h-48',
+                class: 'h-48 sm:w-full lg:h-full lg:w-48 max-h-48',
               }"
             />
             <template v-else>
@@ -274,7 +274,7 @@ useSchemaOrg([
                 no-rel
                 color="primary"
                 icon="i-lucide-paw-print"
-                label="Adopció"
+                label="Vull adoptar"
                 @click="onClick"
               />
             </span>
