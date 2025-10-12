@@ -18,12 +18,14 @@ const route = useRoute();
 const { data } = await useAsyncData(
   route.path,
   async () => {
+    const orgsCount = await queryCollection("organizations").count();
     const orgsByRegions = await queryCollection("organizationByRegion").all();
     const regions = await queryCollection("regions").all();
 
     return {
       orgsByRegions,
       regions,
+      orgsCount,
     };
   },
   { immediate: true }
@@ -68,7 +70,7 @@ useSeoMeta({
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2025-07-02T00:00:00.000Z",
+    lastmod: "2025-10-12T00:00:00.000Z",
     changefreq: "monthly",
     priority: 1,
   },
@@ -237,16 +239,17 @@ useSchemaOrg([
       <p class="text-pretty lg:w-1/2 w-full">
         No som un refugi ni una associació de rescat, però volem ajudar-te a tu
         i a aquestes entitats a trobar-vos, perquè totes les parts implicades en
-        surtin beneficiades. Totes les entitats que apareixen al nostre web
-        estan registrades al Registre d’entitats de Catalunya com a entitats
-        jurídiques i han estat verificades. Estem compromesos a oferir-te la
-        informació més precisa i actualitzada possible. Tingues en compte que la
-        informació disponible al nostre lloc web és purament informativa. Et
-        recomanem que facis la teva pròpia recerca abans de prendre qualsevol
-        decisió relacionada amb l’adopció d’una mascota. No ens fem responsables
-        de les decisions que es prenguin basant-se en la informació publicada al
-        nostre web. Et convidem a contactar directament amb les entitats per
-        obtenir més detalls sobre els seus serveis i polítiques.
+        surtin beneficiades. Totes les {{ data?.orgsCount }} entitats que
+        apareixen al nostre web estan registrades al Registre d’entitats de
+        Catalunya com a entitats jurídiques i han estat verificades. Estem
+        compromesos a oferir-te la informació més precisa i actualitzada
+        possible. Tingues en compte que la informació disponible al nostre lloc
+        web és purament informativa. Et recomanem que facis la teva pròpia
+        recerca abans de prendre qualsevol decisió relacionada amb l’adopció
+        d’una mascota. No ens fem responsables de les decisions que es prenguin
+        basant-se en la informació publicada al nostre web. Et convidem a
+        contactar directament amb les entitats per obtenir més detalls sobre els
+        seus serveis i polítiques.
       </p>
     </div>
   </div>

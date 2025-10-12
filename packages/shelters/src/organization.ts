@@ -25,7 +25,7 @@ export interface Organization {
   province: Province;
   exporter?: () => Promise<Animal[]>;
   description: string;
-  adoptAnimalsURL?: string;
+  adoptAnimalsURL: string;
   animalFocus: 'cats' | 'dogs' | 'cats&dogs';
   shelter: Shelter[] | undefined;
   idZoologicalNucleus?: string;
@@ -1753,8 +1753,9 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     idZoologicalNucleus: 'B25/00565',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-12T00:00:00.000Z',
     enabledLogoUsage: undefined,
+    adoptAnimalsURL: 'https://www.instagram.com/gatera_castellbisbal/',
   },
   {
     id: '61d86980',
@@ -8808,9 +8809,10 @@ export const organizations: Organization[] = [
     description: `DeltaRescat és una associació que neix arrel de l’inconformisme d’un grup de persones que de manera totalment voluntària vol millorar la situació dels animals abandonats o maltractats de les terres de l’Ebre. La nostra finalitat és mirar pels seus drets, rescatar-los i recuperar-los.Tenim experiència amb els animals, com a cases d’acollida, control de colònies felines, entre d’altres. Gent molt diversa però amb un únic objectiu: LLUITAR CONTRA EL MALTRACTE ANIMAL.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-12T00:00:00.000Z',
     associativeInscriptionNumber: '56862',
     dateOfInscription: '2015-09-03T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/deltarescat_/',
     socials: [
       {
         type: 'facebook',
@@ -8840,9 +8842,10 @@ export const organizations: Organization[] = [
     description: `ACOLAMA LA SÉNIA és un projecte que neix d’un grup de voluntaris amb ganes d’ajudar als animals perduts, abandonats i/o maltractats per la societat, i oferir-los, a través del rescat, control i alimentació, una nova oportunitat de ser adoptats per famílies que els estimin de veritat. Som una associació sense ànim de lucre que treballem en el nostre temps lliure per ajudar als peluts més desfavorits amb col·laboració d’altres entitats. No tenim gaires recursos i per això necessitem cases d’acollida per poder rescatar els animals. Sols tenim un punt de recollida d’animals temporal per als gossos i treballem directament amb els gats que viuen al carrer.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-12T00:00:00.000Z',
     associativeInscriptionNumber: '55238',
     dateOfInscription: '2015-01-19T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/acolama/',
     socials: [
       {
         type: 'facebook',
@@ -8904,6 +8907,7 @@ export const organizations: Organization[] = [
     lastUpdate: '2025-08-16T00:00:00.000Z',
     associativeInscriptionNumber: '73947',
     dateOfInscription: '2023-10-19T00:00:00.000Z',
+    adoptAnimalsURL: 'https://www.instagram.com/queremos_protectora_prat/',
     socials: [
       {
         type: 'facebook',

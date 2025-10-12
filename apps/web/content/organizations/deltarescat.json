@@ -12,9 +12,10 @@
   "description": "DeltaRescat és una associació que neix arrel de l’inconformisme d’un grup de persones que de manera totalment voluntària vol millorar la situació dels animals abandonats o maltractats de les terres de l’Ebre. La nostra finalitat és mirar pels seus drets, rescatar-los i recuperar-los.Tenim experiència amb els animals, com a cases d’acollida, control de colònies felines, entre d’altres. Gent molt diversa però amb un únic objectiu: LLUITAR CONTRA EL MALTRACTE ANIMAL.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-15T00:00:00.000Z",
+  "lastUpdate": "2025-10-12T00:00:00.000Z",
   "associativeInscriptionNumber": "56862",
   "dateOfInscription": "2015-09-03T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/deltarescat_/",
   "socials": [
     {
       "type": "facebook",
@@ -26,7 +27,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-08-15T00:00:00.000Z",
+    "lastmod": "2025-10-12T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
