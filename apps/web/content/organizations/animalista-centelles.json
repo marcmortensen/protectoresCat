@@ -1,0 +1,41 @@
+{
+  "id": "a6606040",
+  "slug": "animalista-centelles",
+  "name": "Associació Animalista de Centelles",
+  "shortName": "Animalista de Centelles",
+  "animalFocus": "cats&dogs",
+  "region": "osona",
+  "province": "barcelona",
+  "municipalityInscription": "Centelles",
+  "municipality": "Centelles",
+  "website": "https://animalistadecentelles.org",
+  "contactEmail": "hola@animalistadecentelles.org",
+  "whatsAppPhone": "644691162",
+  "contactPhone": "644691162",
+  "description": "L'Associació Animalista de Centelles, des de fa anys a Centelles persones voluntàries alimenten les colònies felines repartides pel poble, capturen femelles per esterilitzar-les, i evitar la sobrepoblació felina, acullen gats a les seves cases per donar-los en adopció. Necessitem el vostre suport per pagar el pinso dels petits, les cures com la desparasitació, o tractaments antibiòtics, organitzar i netejar els espais de les colònies etc.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-13T00:00:00.000Z",
+  "associativeInscriptionNumber": "67569",
+  "dateOfInscription": "2020-05-07T00:00:00.000Z",
+  "adoptAnimalsURL": "https://animalistadecentelles.org/adoptam/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/animalistadecentelles/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/animalistadecentelles/"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/AACentelles"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

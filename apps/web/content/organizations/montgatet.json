@@ -2,7 +2,7 @@
   "id": "60e8fd4e",
   "slug": "montgatet",
   "name": "Associació Montgatet, Colònies Felines Montmeló",
-  "contactEmail": "info@montgatet.com",
+  "contactEmail": "info@montgatet.org",
   "contactPhone": "671012021",
   "shortName": "Montgatet",
   "animalFocus": "cats",
@@ -13,7 +13,7 @@
   "description": "Som una associació sense ànim de lucre dedicada al control i la gestió voluntària de colònies de gats a Montmeló. Alimentem, esterilitzem amb el mètode CER, ajudem els gats que necessiten tractament veterinari i vetllem pel seu benestar.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-20T00:00:00.000Z",
+  "lastUpdate": "2025-10-13T00:00:00.000Z",
   "associativeInscriptionNumber": "70715",
   "dateOfInscription": "2022-02-24T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/montgatet/",
@@ -31,8 +31,9 @@
       "url": "https://www.tiktok.com/@montgatet"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-08-20T00:00:00.000Z",
+    "lastmod": "2025-10-13T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

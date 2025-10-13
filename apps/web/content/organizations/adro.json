@@ -1,0 +1,35 @@
+{
+  "id": "e5b7f417",
+  "slug": "adro",
+  "name": "Associació de Rescat d'Animals d'Osona",
+  "shortName": "ADRO",
+  "animalFocus": "cats&dogs",
+  "region": "osona",
+  "province": "barcelona",
+  "municipalityInscription": "Vic",
+  "municipality": "Vic",
+  "contactEmail": "adrosona@gmail.com",
+  "description": "Som una associació creada per fomentar el benestar animal i lluitar contra el maltractament a la comarca d’Osona. No disposem de refugi ni espai físic, per això actuem mitjançant una xarxa de cases d’acollida. Les nostres principals finalitats són informar sobre casos de maltractament animal i denunciar l'incompliment de la llei de protecció animal, organitzar xerrades, actes informatius i participar en esdeveniments benèfics per ajudar els nostres amics no humans, promoure el veganisme com a estil de vida, i buscar famílies per a animals abandonats.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-13T00:00:00.000Z",
+  "associativeInscriptionNumber": "56606",
+  "dateOfInscription": "2015-06-23T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/adro.osona/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/adro.osona/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/adrosona/"
+    }
+  ],
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-10-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
