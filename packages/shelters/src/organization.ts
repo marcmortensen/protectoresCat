@@ -9671,7 +9671,7 @@ export const organizations: Organization[] = [
     description: `Entitat de protecció animal del municipi de Riumors (Alt Empordà). Alimentem i cuidem les colònies de gats a Riumors. Promovem l'adopció responsable.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-10-03T00:00:00.000Z',
+    lastUpdate: '2025-10-14T00:00:00.000Z',
     associativeInscriptionNumber: '74369',
     dateOfInscription: '2024-01-09T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/ass_gats_riumossencs/',
@@ -9685,7 +9685,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/people/Associaci%C3%B3-de-Gats-Riumorssencs/61562395873206/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '7696e94d',
@@ -10287,7 +10287,7 @@ export const organizations: Organization[] = [
     description: `Som una associació que vetllem pel benestar dels animals domèstics abandonats o perduts de Vilanova de la Barca. Intentem retornar-los als seus propietaris, si són localitzats, o els busquem una família que els cuidi responsablement.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-10-07T00:00:00.000Z',
+    lastUpdate: '2025-10-14T00:00:00.000Z',
     associativeInscriptionNumber: '74742',
     dateOfInscription: '2024-03-02T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/protectora.animalsdelabarca/',
@@ -10302,7 +10302,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61562495605025',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '98324854',
@@ -11161,5 +11161,6 @@ export const organizations: Organization[] = [
         url: 'https://x.com/AACentelles',
       },
     ],
+    enabledLogoUsage: undefined,
   },
 ];

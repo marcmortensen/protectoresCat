@@ -12,7 +12,7 @@
   "description": "Som una associació que vetllem pel benestar dels animals domèstics abandonats o perduts de Vilanova de la Barca. Intentem retornar-los als seus propietaris, si són localitzats, o els busquem una família que els cuidi responsablement.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-10-07T00:00:00.000Z",
+  "lastUpdate": "2025-10-14T00:00:00.000Z",
   "associativeInscriptionNumber": "74742",
   "dateOfInscription": "2024-03-02T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/protectora.animalsdelabarca/",
@@ -26,8 +26,9 @@
       "url": "https://www.facebook.com/profile.php?id=61562495605025"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-07T00:00:00.000Z",
+    "lastmod": "2025-10-14T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

@@ -12,7 +12,7 @@
   "description": "Entitat de protecció animal del municipi de Riumors (Alt Empordà). Alimentem i cuidem les colònies de gats a Riumors. Promovem l'adopció responsable.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "lastUpdate": "2025-10-14T00:00:00.000Z",
   "associativeInscriptionNumber": "74369",
   "dateOfInscription": "2024-01-09T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/ass_gats_riumossencs/",
@@ -26,8 +26,9 @@
       "url": "https://www.facebook.com/people/Associaci%C3%B3-de-Gats-Riumorssencs/61562395873206/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-03T00:00:00.000Z",
+    "lastmod": "2025-10-14T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
