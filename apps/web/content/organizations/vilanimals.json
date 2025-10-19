@@ -12,7 +12,7 @@
   "description": "Vilanimals és una associació protectora d'animals de Vilafranca del Penedès que es dedica a tenir cura d'animals abandonats, esterilització d'animals i promoure adopcions.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2025-10-19T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/5/0/5/1/xrnzuyifif.jpg",
   "website": "https://vilanimals.sukycms.com",
   "adoptAnimalsURL": "https://www.instagram.com/vilanimals_vilafranca/",
@@ -28,8 +28,9 @@
       "url": "https://www.facebook.com/vilanimals/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2025-10-19T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

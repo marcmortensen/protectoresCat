@@ -10,10 +10,10 @@
   "municipality": "Santa Bàrbara",
   "contactEmail": "profaunaterresdelebre@gmail.com",
   "website": "https://sites.google.com/view/profaunaterresdelebre/inici",
-  "description": "Som una Associació de protecció animal sense ànim de lucre. Volem conscienciar a les persones i vetllar pel benestar dels animals que viuen al carrer o han estat víctimes d'abandó. Ajudar-los és el nostre principal objectiu i necessitem fer recaptacions constants per a seguir, ja que la seva manutenció, despeses veterinàries, etc.",
+  "description": "Som una Associació de protecció animal sense ànim de lucre. Volem conscienciar a les persones i vetllar pel benestar dels animals que viuen al carrer o han estat víctimes d'abandó. Ajudar-los és el nostre principal objectiu, intentant fer el possible i sempre receptives a noves persones que s'hi vulguin unir. El nostre objectiu és trobar cases d'acollida i futures adopcions responsables després d'haver rescatat o ajudat a animals vulnerables o en perill. No disposem de refugi, aquest el gestiona l'Ajuntament, així que depenem en gran part de la seva acció responsable i de la col.laboració de les persones en ser pacients, donar un cop de mà i fer de casa d'acollida.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-10-12T00:00:00.000Z",
+  "lastUpdate": "2025-10-19T00:00:00.000Z",
   "associativeInscriptionNumber": "59796",
   "dateOfInscription": "2016-11-14T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/profauna_ttee/",
@@ -31,8 +31,9 @@
       "url": "https://www.tiktok.com/@profauna_ttee_"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-12T00:00:00.000Z",
+    "lastmod": "2025-10-19T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
