@@ -11106,7 +11106,7 @@ export const organizations: Organization[] = [
     contactEmail: 'infodespigat@gmail.com',
     whatsAppPhone: '601278852',
     description: `DESPIGAT és una associació sense ànim de lucre el projecte del qual es basa en el control i cura de les colònies felines que hi ha a Sant Joan Despí (Barcelona). Això suposa proporcionar una alimentació adequada, l'esterilització dels membres d'aquestes colònies i l'atenció veterinària de malalties o ferides. I també la recerca d'adoptants per a tots aquells gats, ja siguin cadells o adults, que reuneixin les condicions de sociabilitat.`,
-    isActive: true,
+    isActive: false, // Despigat asked to be removed from the list 10/19/2025
     isMunicipal: false,
     lastUpdate: '2025-10-12T00:00:00.000Z',
     associativeInscriptionNumber: '54221',
