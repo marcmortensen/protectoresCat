@@ -11178,10 +11178,10 @@ export const organizations: Organization[] = [
     description: `L'Associació Animals Ripollet és una organització sense ànim de lucre que rescata els animals abandonats del municipi, fent front a despeses veterinàries, d'alimentació o de qualsevol altre tipus i cerca cases d'acollida i adopcions responsables en bones famílies per a ells. A més, s'encarrega de donar suport a l'alimentació i el control poblacional de les colònies de gats de Ripollet i duu a terme activament campanyes per conscienciar la població sobre la tinença responsable d'un animal.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-10-16T00:00:00.000Z',
+    lastUpdate: '2025-10-22T00:00:00.000Z',
     associativeInscriptionNumber: '57480',
     dateOfInscription: '2015-11-20T00:00:00.000Z',
-    adoptAnimalsURL: 'https://www.instagram.com/asociacion_animales_ripollet/',
+    adoptAnimalsURL: 'https://www.animalesripollet.org',
     shelter: undefined,
     socials: [
       {
@@ -11196,8 +11196,12 @@ export const organizations: Organization[] = [
         type: 'twitter',
         url: 'https://x.com/animalsripollet',
       },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@animalesripollet',
+      },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'c1adf7d1',
