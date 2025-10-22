@@ -11197,6 +11197,7 @@ export const organizations: Organization[] = [
         url: 'https://x.com/animalsripollet',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c1adf7d1',
@@ -11290,5 +11291,6 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=61578321912527',
       },
     ],
+    enabledLogoUsage: undefined,
   },
 ];
