@@ -1,0 +1,36 @@
+{
+  "id": "2a9de8f0",
+  "slug": "progat-gats-barca",
+  "name": "Associació Progat Gats de la Barca",
+  "shortName": "Progat Gats de la Barca",
+  "animalFocus": "cats",
+  "region": "baix-llobregat",
+  "province": "barcelona",
+  "municipalityInscription": "Sant Andreu de la Barca",
+  "municipality": "Sant Andreu de la Barca",
+  "contactPhone": "652411925",
+  "whatsAppPhone": "654986548",
+  "contactEmail": "gatssantandreudelabarca@gmail.com",
+  "description": "L’associació Progat Gats de la Barca treballa per gestionar de manera ètica les colònies de gats lliures al municipi de Sant Andreu de la Barca, promou la capturació, esterilització i retorn (CER), vetlla pel benestar dels felins incloent cures veterinaries i alimentació, i impulsa l’adopció o acollida dels animals sociables, tot fomentant la convivència responsable entre veïns i colònies felines.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-22T00:00:00.000Z",
+  "associativeInscriptionNumber": "67413",
+  "dateOfInscription": "2020-03-18T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gatssantandreudelabarca/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatssantandreudelabarca/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/GatsSantandreudelabarca"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-22T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
