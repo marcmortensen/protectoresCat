@@ -1,0 +1,36 @@
+{
+  "id": "d27a052c",
+  "slug": "gats-aiguamurcia",
+  "name": "Associació Gats Amics Aiguamúrcia",
+  "shortName": "Gats Amics Aiguamúrcia",
+  "animalFocus": "cats",
+  "region": "alt-camp",
+  "province": "tarragona",
+  "municipalityInscription": "Aiguamúrcia",
+  "municipality": "Aiguamúrcia",
+  "whatsAppPhone": "661871983",
+  "website": "https://gatsamicsaiguamurcia.org",
+  "contactEmail": "gatsamicsaiguamurcia@gmail.com",
+  "description": "Som una associació de voluntaris creada al 2022 per tenir cura dels gats abandonats que viuen als carrers del municipi d’Aiguamúrcia. Utilitzem el mètode CER per tal de poder esterilitzar-los i així aturar l’augment del nombre de gats que intenten sobreviure al carrer, i ens cuidem de la seva salut, higiene i alimentació, es a dir, els cuidem perquè hi hagui una bona convivència amb les persones i perquè ells tinguin una millor vida.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-23T00:00:00.000Z",
+  "associativeInscriptionNumber": "71670",
+  "dateOfInscription": "2022-09-07T00:00:00.000Z",
+  "adoptAnimalsURL": "https://gatsamicsaiguamurcia.org/adopta-un-gat/#content",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatsamicsaiguamurcia/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/gatsamicsaiguamurcia/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-23T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

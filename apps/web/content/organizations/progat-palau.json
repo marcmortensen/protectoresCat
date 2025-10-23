@@ -1,0 +1,30 @@
+{
+  "id": "8d744b2e",
+  "slug": "progat-palau",
+  "name": "Associació Progat Palau",
+  "shortName": "Progat Palau",
+  "animalFocus": "cats",
+  "region": "valles-occidental",
+  "province": "barcelona",
+  "municipalityInscription": "Palau-solità i Plegamans",
+  "municipality": "Palau-solità i Plegamans",
+  "contactEmail": "info@progatpalau.org",
+  "description": "Som una associació sense ànim de lucre formada per persones voluntàries que estimem els animals. La nostra prioritat és que els gats que viuen als carrers del nostre poble rebin les cures necessàries. Mitjançant el mètode CER (Captura, Esterilització i Retorn) aconseguim a poc a poc que aquestes colònies estiguin controlades i ens encarreguem del seu benestar (alimentació, medicació, despeses veterinàries...)",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-10-23T00:00:00.000Z",
+  "associativeInscriptionNumber": "70078",
+  "dateOfInscription": "2021-10-08T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/gatetsalesteulades/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/gatetsalesteulades/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2025-10-23T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
