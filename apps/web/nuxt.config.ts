@@ -1,6 +1,5 @@
 import content from "@originjs/vite-plugin-content";
 import tailwindcss from "@tailwindcss/vite";
-import type { PluginOption } from "vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -33,14 +32,7 @@ export default defineNuxtConfig({
   ],
 
   vite: {
-    plugins: [
-      tailwindcss() as PluginOption,
-      content({
-        xml: {
-          enabled: true,
-        },
-      }),
-    ],
+    plugins: [tailwindcss(), content({ xml: { enabled: true } })],
   },
   css: ["~/assets/css/main.css"],
   compatibilityDate: "2024-11-01",
