@@ -1,6 +1,6 @@
 [build]
 base = "apps/web"
 publish = "dist"
-command = "pnpm run build"
+command = "pnpm run build-netlify"
 [build.environment]
   NODE_VERSION = "22"
