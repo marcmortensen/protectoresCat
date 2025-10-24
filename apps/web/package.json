@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "build-netlify": "npm rebuild better-sqlite3 && nuxt build && mkdir -p .output/public",
+    "build-netlify": "nuxt build && mkdir -p .output/public",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
