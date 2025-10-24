@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build && mkdir -p .output/public",
+    "build": "npm rebuild better-sqlite3 && nuxt build && mkdir -p .output/public",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
