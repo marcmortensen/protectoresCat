@@ -1,7 +1,4 @@
-import { Animal } from './animalsFromOrganizations.js';
 import { Municipality, Province, Region } from './utils/locations.js';
-//import { getAnimals as CAASGetAnimals } from './exporter/CAAS/getAnimals.js';
-//import { getAnimals as RodamonGetAnimals } from './exporter/Rodamon/getAnimals.js';
 
 interface Shelter {
   adress: string;
@@ -23,7 +20,6 @@ export interface Organization {
   region: Region;
   additionalRegions?: Region[];
   province: Province;
-  exporter?: () => Promise<Animal[]>;
   description: string;
   adoptAnimalsURL: string;
   animalFocus: 'cats' | 'dogs' | 'cats&dogs';
@@ -56,7 +52,6 @@ export const organizations: Organization[] = [
     region: 'selva',
     province: 'girona',
     animalFocus: 'cats&dogs',
-    //exporter: CAASGetAnimals,
     adoptAnimalsURL: 'https://caas.selva.cat/registre.php',
     description: `Servei de recollida d'animals abandonats assumit pel Consell Comarcal de la Selva va començar a ser operatiu l'any 1990. Aquest servei ha estat realitzat per la Societat Protectora d'Animals i Plantes de Tossa de Mar, en virtud del contracte signat entre aquesta entitat i el Consell Comarcal.`,
     shelter: [
@@ -87,7 +82,6 @@ export const organizations: Organization[] = [
     region: 'baix-emporda',
     province: 'girona',
     animalFocus: 'cats&dogs',
-    //exporter: RodamonGetAnimals,
     adoptAnimalsURL: 'https://www.aparodamon.com/adoptar/',
     description: `L'Associació Protectora d'Animals del Baix Empordà, Rodamón, és una entitat sense ànim de lucre que es dedica a la protecció dels animals de la comarca del Baix Empordà. La nostra tasca principal és la recollida, acollida, cura i adopció d'animals abandonats o maltractats.`,
     shelter: [
@@ -423,7 +417,6 @@ export const organizations: Organization[] = [
         openingHoursURL: undefined,
       },
     ],
-    //exporter: () => undefined, // good prospect
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Figueres',
     municipality: 'Figueres',
@@ -1078,7 +1071,6 @@ export const organizations: Organization[] = [
     ],
     description: `Som una Associació sense ànim de lucre, que es dedica a la cura de més de 150 gossos, que han estat abandonats a la seva sort i ara estan esperant ser adoptats per una família que no els torni a trair. N’hi ha de totes les mides, edats, caràcters, però tots són únics i us podem assegurar que són també els més agraïts. Ells no van tenir la culpa de venir a aquest món en el que la societat està construïda d’una manera en que estan totalment indefensos. Ens necessiten i per ells lluitem cada dia un grup de voluntaris, amb l’ajuda de socis, iniciatives i donacions particulars. La nostra major recompensa és veure’ls feliços i si els trobem una família, es la nostra major assoliment. Al nostre refugi s’entreguen tots els gossos en adopció amb el microxip instaurat, les vacunes al dia, desparasitats interna i externament i esterilitzats/castrats.`,
     adoptAnimalsURL: 'https://amicsdelsanimals.org/listado',
-    //exporter: () => undefined, // could be extracted
     associativeInscriptionNumber: '2052',
     animalFocus: 'cats&dogs',
     municipalityInscription: 'Lleida',
@@ -1116,7 +1108,6 @@ export const organizations: Organization[] = [
     ],
     description: `Associació animalista amb més de 30 anys d'experiència dedicada al rescat d'animals (gossos i gats), a la defensa dels seus drets ia la recerca de noves llars per a ells. Situada a la ciutat de Lleida.`,
     adoptAnimalsURL: 'https://protectoraanimalslydiaargiles.blogspot.com/',
-    //exporter: () => undefined, // could be extracted
     associativeInscriptionNumber: '2724',
     animalFocus: 'cats&dogs',
     idZoologicalNucleus: 'L25/00102',
@@ -1656,7 +1647,6 @@ export const organizations: Organization[] = [
     website: 'https://totesvida.org',
     region: 'anoia',
     province: 'barcelona',
-    //exporter: () => undefined, // good prospect
     description:
       'Canigat Vallbona d’Anoia és una associació sense ànim de lucre formada només per persones voluntàries que vetllem pel benestar animal. La nosta activitat principal és la creació i gestió de colònies de gats comunitaris en els municipis on actuem, busquem localitzacions i mirem com generar un espai d’alimentació i refugi de manera segura per ells i que no sigui molt visible. Esterilitzem els gats mitjançant el mètode CER (Captura, Esterilització i Retorn), els alimentem i fem seguiment de salut. Rescatem cadells, animals abandonats i/o ferits per donar-los una nova oportunitat a través d’adopcions responsables i oferir-los una nova vida ben lluny del carrer. Treballem amb voluntaris dels mateixos municipis i juntament amb els consistoris assessorem i ajudem a pacificar situacions que a vegades es generen entre veïns en relació amb els animals.',
     adoptAnimalsURL: 'https://totesvida.org/listado',
@@ -2021,7 +2011,6 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Tarragona',
     municipality: 'Tarragona',
     isMunicipal: false,
-    //exporter: () => undefined, // good prospect
     isActive: true,
     lastUpdate: '2025-08-14T00:00:00.000Z',
     dateOfInscription: '1967-07-02T00:00:00.000Z',
