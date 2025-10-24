@@ -41,6 +41,7 @@
     "@vueuse/nuxt": "14.0.0",
     "@vueuse/router": "14.0.0",
     "typescript": "5.9.3",
+    "vite": "^7.1.12",
     "vue-tsc": "3.1.1"
   }
 }
