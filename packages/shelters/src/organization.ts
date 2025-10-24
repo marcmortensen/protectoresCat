@@ -11328,6 +11328,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/gatsamicsaiguamurcia/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '45c10aa0',
@@ -11358,6 +11359,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/people/Associaci%C3%B3-Vila-Gats/100067997658476/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: '8d744b2e',
@@ -11384,6 +11386,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gatetsalesteulades/',
       },
     ],
+    enabledLogoUsage: undefined,
   },
   {
     id: 'c94cc97b',
@@ -11396,7 +11399,7 @@ export const organizations: Organization[] = [
     municipalityInscription: `Tarragona`,
     municipality: `Tarragona`,
     description: `Gatuninos Torreforta neix d'un reduït grup de persones que de manera altruista ajuda a les colònies més necessitades de la zona de Torreforta, (Tarragona) per tal de ser ben atesos a nivell veterinari i esterilitzant les colònies, a més de buscar adoptants per als que necessitin una llar.`,
-    isActive: true,
+    isActive: false, // Gatuninos Torreforta displays temporary inactive status 2025-24-10T00:00:00.000Z
     isMunicipal: false,
     lastUpdate: '2025-10-23T00:00:00.000Z',
     associativeInscriptionNumber: '60334',
