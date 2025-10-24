@@ -1,11 +1,10 @@
 import content from "@originjs/vite-plugin-content";
 import tailwindcss from "@tailwindcss/vite";
+import type { PluginOption } from "vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
-  future: {
-    compatibilityVersion: 4,
-  },
   runtimeConfig: {
     public: {
       site: {
@@ -15,13 +14,10 @@ export default defineNuxtConfig({
       googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
     },
   },
-
   devtools: { enabled: true },
-
   typescript: {
     typeCheck: true,
   },
-
   modules: [
     "@nuxt/eslint",
     "@nuxt/fonts",
@@ -38,7 +34,7 @@ export default defineNuxtConfig({
 
   vite: {
     plugins: [
-      tailwindcss(),
+      tailwindcss() as PluginOption,
       content({
         xml: {
           enabled: true,

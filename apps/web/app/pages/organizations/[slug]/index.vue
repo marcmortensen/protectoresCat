@@ -2,7 +2,7 @@
 const { trackEvent } = useGtag();
 
 const onClick = () => {
-  if (!data.value || !data.value.org.adoptAnimalsURL) return;
+  if (!data.value || !data.value.org || !data.value.org.adoptAnimalsURL) return;
   trackEvent("click_button_adopt_url", {
     event_category: "engagement",
     event_label: "Adopt button clicked",
@@ -36,7 +36,7 @@ const regions = computed(() => {
 });
 
 const currentRegion = computed(() =>
-  regions.value?.find((region) => region.id === data.value?.org.region)
+  regions.value?.find((region) => region.id === data.value?.org?.region)
 );
 
 const hasError = computed(() => data.value?.org === null);
@@ -55,7 +55,7 @@ watch(
 );
 
 type Org = NonNullable<typeof data.value>["org"];
-type Social = NonNullable<Org["socials"]>[number]["type"];
+type Social = NonNullable<NonNullable<Org>["socials"]>[number]["type"];
 const socialIcons: Record<Social, { icon: string; name: string }> = {
   facebook: { icon: "i-lucide-facebook", name: "Facebook" },
   instagram: { icon: "i-lucide-instagram", name: "Instagram" },
@@ -114,50 +114,50 @@ const phones = computed(() => {
 
 const showidZoologicalNucleus = false;
 useSeoMeta({
-  ogTitle: () => `${data.value?.org.shortName} | Adoptar.cat`,
-  title: () => `${data.value?.org.shortName} | Adoptar.cat`,
+  ogTitle: () => `${data.value?.org?.shortName} | Adoptar.cat`,
+  title: () => `${data.value?.org?.shortName} | Adoptar.cat`,
   description: () =>
-    `Descobreix tota la informació sobre ${data.value?.org.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
+    `Descobreix tota la informació sobre ${data.value?.org?.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
   ogDescription: () =>
-    `Descobreix tota la informació sobre ${data.value?.org.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
+    `Descobreix tota la informació sobre ${data.value?.org?.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
   twitterDescription: () =>
-    `Descobreix tota la informació sobre ${data.value?.org.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
+    `Descobreix tota la informació sobre ${data.value?.org?.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
   twitterCard: "summary_large_image",
-  twitterTitle: () => `${data.value?.org.shortName} | Adoptar.cat`,
+  twitterTitle: () => `${data.value?.org?.shortName} | Adoptar.cat`,
   ogImage: () =>
-    data.value?.org.enabledLogoUsage
+    data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
       : undefined,
   ogImageUrl: () =>
-    data.value?.org.enabledLogoUsage
+    data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
       : undefined,
   twitterImage: () =>
-    data.value?.org.enabledLogoUsage
+    data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
       : undefined,
-  articleModifiedTime: () => data.value?.org.lastUpdate,
+  articleModifiedTime: () => data.value?.org?.lastUpdate,
 });
 
 useSchemaOrg([
   defineOrganization({
-    "@id": `https://adoptar.cat/organizations/${data.value?.org.slug}#org`,
-    name: data.value?.org.shortName,
-    legalName: data.value?.org.name,
-    url: `https://adoptar.cat/organizations/${data.value?.org.slug}`,
-    logo: data.value?.org.enabledLogoUsage
+    "@id": `https://adoptar.cat/organizations/${data.value?.org?.slug}#org`,
+    name: data.value?.org?.shortName,
+    legalName: data.value?.org?.name,
+    url: `https://adoptar.cat/organizations/${data.value?.org?.slug}`,
+    logo: data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value?.org.slug)
       : undefined,
-    description: data.value?.org.description,
-    email: data.value?.org.contactEmail,
-    telephone: data.value?.org.contactPhone,
+    description: data.value?.org?.description,
+    email: data.value?.org?.contactEmail,
+    telephone: data.value?.org?.contactPhone,
     address: {
       "@type": "PostalAddress",
-      addressLocality: data.value?.org.municipality,
+      addressLocality: data.value?.org?.municipality,
       addressRegion: currentRegion.value!.name,
       addressCountry: "ES",
     },
-    sameAs: (data.value?.org.socials || []).map((social) => social.url),
+    sameAs: (data.value?.org?.socials || []).map((social) => social.url),
   }),
 ]);
 </script>

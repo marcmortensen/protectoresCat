@@ -102,17 +102,16 @@ export default defineContentConfig({
           description: z.string(),
           adoptAnimalsURL: z.string().optional(),
           animalFocus: animalsSchema,
-          shelter: z.union([
-            z.array(
+          shelter: z
+            .array(
               z.object({
                 adress: z.string(),
                 googleMapsLink: z.string(),
-                phone: z.union([z.string(), z.undefined()]),
-                openingHoursURL: z.union([z.string(), z.undefined()]),
+                phone: z.string().optional(),
+                openingHoursURL: z.string().optional(),
               })
-            ),
-            z.undefined(),
-          ]),
+            )
+            .optional(),
           idZoologicalNucleus: z.string().optional(),
           associativeInscriptionNumber: z.string().optional(),
           dateOfInscription: z.string().optional(),
