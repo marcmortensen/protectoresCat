@@ -36,7 +36,6 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@eslint/js": "9.38.0",
-    "@types/node": "20.17.10",
     "eslint-config-prettier": "10.1.8",
     "rimraf": "6.0",
     "ts-api-utils": "2.1.0",
