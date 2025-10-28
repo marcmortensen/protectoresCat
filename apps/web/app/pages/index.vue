@@ -80,7 +80,7 @@ useSeoMeta({
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2025-10-12T00:00:00.000Z",
+    lastmod: "2025-10-28T00:00:00.000Z",
     changefreq: "monthly",
     priority: 1,
   },
