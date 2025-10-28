@@ -3,6 +3,7 @@ import type { RouteLocationRaw } from "vue-router";
 import type { AccordionItem } from "@nuxt/ui";
 const selectedRegionId = ref<string[] | undefined>();
 const hoveredRegionId = ref<string | null>();
+const hoveredAnimalType = ref<string | null>();
 const isSlideoverOpen = ref(false);
 
 const allRegionItems = computed<AccordionItem[]>(() =>
@@ -41,6 +42,15 @@ const regions = computed(() => {
 
 const currentRegion = computed(() => {
   return regions.value?.find((region) => region.id === hoveredRegionId.value);
+});
+
+const animalTypes = [
+  { label: "Gats", value: "cats" },
+  { label: "Gossos", value: "dogs" },
+];
+
+const currentAnimalType = computed(() => {
+  return animalTypes.find((type) => type.value === hoveredAnimalType.value);
 });
 
 const regionRouteBuilder = (regionSlug: string): RouteLocationRaw => {
@@ -95,7 +105,7 @@ useSchemaOrg([
       class="flex flex-col xl:flex-row w-full min-h-screen-height-header border-b"
     >
       <div
-        class="xl:absolute w-full xl:pt-12 pb-4 flex-grow flex items-center justify-center"
+        class="xl:absolute w-full xl:pt-12 pb-4 grow flex items-center justify-center"
       >
         <h1
           class="text-center px-4 text-5xl sm:text-35 uppercasete z-10 text-black dark:text-white font-title"
@@ -108,7 +118,7 @@ useSchemaOrg([
       >
         <div class="flex flex-row h-full">
           <div
-            class="h-full border-gray-dark border-x border-b xl:border-l-0 xl:border-b-0 relative w-header xl:w-header flex-shrink-0"
+            class="h-full border-gray-dark border-x border-b xl:border-l-0 xl:border-b-0 relative w-header xl:w-header shrink-0"
           >
             <div
               class="absolute w-0 h-0 top-1/2 left-1/2 flex items-center justify-center"
@@ -121,34 +131,52 @@ useSchemaOrg([
             </div>
           </div>
           <div
-            class="flex-grow h-full overflow-y-hidden overflow-x-auto xl:overflow-x-hidden bg-gray-50 dark:bg-gray-800 bg-contain bg-center bg-no-repeat border-b xl:border-b-0"
+            class="grow h-full overflow-y-hidden overflow-x-auto xl:overflow-x-hidden bg-gray-50 dark:bg-gray-800 bg-contain bg-center bg-no-repeat border-b xl:border-b-0"
           >
-            <div class="h-full">
+            <div class="h-full relative">
               <ul class="h-full flex items-center max-w-512 mx-auto">
                 <li
-                  v-for="(type, index) in ['cats', 'dogs']"
+                  v-for="(animalType, index) in animalTypes"
                   :key="index"
                   class="lg:w-1/3 px-4 text-center first:ml-auto last:mr-auto"
                 >
                   <NuxtLink
-                    class="mx-auto hover:text-primary text-gray"
-                    :to="{ name: 'organizations', query: { focus: type } }"
+                    class="mx-auto hover:text-primary text-gray flex flex-col items-center justify-center"
+                    :to="{
+                      name: 'organizations',
+                      query: { focus: animalType.value },
+                    }"
                   >
                     <SvgoAnimalsCat1
-                      v-if="type === 'cats'"
+                      v-if="animalType.value === 'cats'"
                       :font-controlled="false"
                       class="w-36 h-36 sm:w-64 sm:h-64 xl:w-40 xl:h-40 2xl:w-64 2xl:h-64"
                       alt="logo"
+                      @mouseenter="hoveredAnimalType = animalType.value"
+                      @mouseleave="hoveredAnimalType = null"
                     />
                     <SvgoAnimalsDog5
                       v-else
                       :font-controlled="false"
                       class="w-36 h-36 sm:w-64 sm:h-64 xl:w-40 xl:h-40 2xl:w-64 2xl:h-64"
                       alt="logo"
+                      @mouseenter="hoveredAnimalType = animalType.value"
+                      @mouseleave="hoveredAnimalType = null"
                     />
+                    <span class="text-30 uppercase tracking-500 xl:hidden">{{
+                      animalType.label
+                    }}</span>
                   </NuxtLink>
                 </li>
               </ul>
+              <div
+                v-if="currentAnimalType"
+                class="text-left absolute left-0 bottom-0 p-4 w-full xl:flex flex-col items-start pointer-events-none hidden"
+              >
+                <div class="text-6xl uppercase tracking-150 text-gray-dark">
+                  {{ currentAnimalType.label }}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -158,7 +186,7 @@ useSchemaOrg([
       >
         <div class="flex xl:flex-row-reverse h-full">
           <div
-            class="h-full border-gray-dark border-x xl:border-r-0 relative w-header xl:w-header flex-shrink-0"
+            class="h-full border-gray-dark border-x xl:border-r-0 relative w-header xl:w-header shrink-0"
           >
             <div
               class="absolute w-0 h-0 top-1/2 left-1/2 flex items-center justify-center"
@@ -170,7 +198,7 @@ useSchemaOrg([
               </p>
             </div>
           </div>
-          <div class="flex-grow h-full relative">
+          <div class="grow h-full relative">
             <RegionsMap
               v-if="regions"
               v-model="selectedRegionId"
