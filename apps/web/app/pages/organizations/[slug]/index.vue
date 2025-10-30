@@ -116,12 +116,9 @@ const showidZoologicalNucleus = false;
 useSeoMeta({
   ogTitle: () => `${data.value?.org?.shortName} | Adoptar.cat`,
   title: () => `${data.value?.org?.shortName} | Adoptar.cat`,
-  description: () =>
-    `Descobreix tota la informació sobre ${data.value?.org?.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
-  ogDescription: () =>
-    `Descobreix tota la informació sobre ${data.value?.org?.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
-  twitterDescription: () =>
-    `Descobreix tota la informació sobre ${data.value?.org?.name}, incloent-hi les seves xarxes socials, refugis, telèfons, horaris.`,
+  description: () => data.value?.org?.description,
+  ogDescription: () => data.value?.org?.description,
+  twitterDescription: () => data.value?.org?.description,
   twitterCard: "summary_large_image",
   twitterTitle: () => `${data.value?.org?.shortName} | Adoptar.cat`,
   ogImage: () =>
