@@ -11,7 +11,7 @@
   "region": "valles-oriental",
   "province": "barcelona",
   "description": "L’Associació Protectora d’Animals de Granollers (APAG) és una associació, sense ànim de lucre, que té com a objectiu acollir gossos, gats i altres animals abandonats per tenir cura d’ells en el nostre refugi mentre els hi busquem una nova llar on puguin ser feliços. L’associació està reconeguda per la Generalitat de Catalunya i compta amb el suport de l’Ajuntament de Granollers.",
-  "adoptAnimalsURL": "https://protectoragranollers.org/category/gossos/",
+  "adoptAnimalsURL": "https://protectoragranollers.org/animals-del-refugi/",
   "shelter": [
     {
       "adress": "Carrer Severo Ochoa 103-105, Pol. Industrial Font del Radium 08403 Granollers",
@@ -26,7 +26,7 @@
   "municipality": "Granollers",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "dateOfInscription": "2005-02-01T00:00:00.000Z",
   "socials": [
     {
@@ -40,7 +40,7 @@
   ],
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

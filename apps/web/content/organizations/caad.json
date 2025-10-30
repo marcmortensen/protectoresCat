@@ -24,15 +24,19 @@
   "municipality": "Vilafranca del Penedès",
   "isMunicipal": true,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",
       "url": "https://www.instagram.com/caadpenedes/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/caadpenedes/"
     }
   ],
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

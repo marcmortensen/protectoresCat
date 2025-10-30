@@ -15,7 +15,7 @@
   "municipality": "Torroella de Montgrí",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "dateOfInscription": "1998-07-31T00:00:00.000Z",
   "socials": [
     {
@@ -28,7 +28,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

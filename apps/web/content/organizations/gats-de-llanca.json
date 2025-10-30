@@ -15,7 +15,7 @@
   "municipality": "Llançà",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-08-14T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "dateOfInscription": "2022-11-25T00:00:00.000Z",
   "socials": [
     {
@@ -29,7 +29,7 @@
   ],
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-08-14T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

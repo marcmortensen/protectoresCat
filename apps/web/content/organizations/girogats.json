@@ -16,16 +16,20 @@
   "municipality": "Girona",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",
       "url": "https://www.instagram.com/girogats/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/associacio.girogats.7"
     }
   ],
   "dateOfInscription": "2011-11-28T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

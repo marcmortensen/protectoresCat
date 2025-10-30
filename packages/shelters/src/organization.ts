@@ -67,7 +67,7 @@ export const organizations: Organization[] = [
     municipality: 'Tossa de Mar',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     enabledLogoUsage: undefined,
   },
   {
@@ -97,7 +97,7 @@ export const organizations: Organization[] = [
     municipality: 'Palafrugell',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -131,11 +131,15 @@ export const organizations: Organization[] = [
     municipality: 'Girona',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
         url: 'https://www.instagram.com/girogats/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/associacio.girogats.7',
       },
     ],
     dateOfInscription: '2011-11-28T00:00:00.000Z',
@@ -160,7 +164,7 @@ export const organizations: Organization[] = [
     municipality: 'Sant Feliu de Guíxols',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2008-05-13T00:00:00.000Z',
     socials: [
       {
@@ -195,7 +199,7 @@ export const organizations: Organization[] = [
     municipality: 'Girona',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2013-04-08T00:00:00.000Z',
     socials: [
       {
@@ -229,7 +233,7 @@ export const organizations: Organization[] = [
     municipality: 'Calonge i Sant Antoni',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2018-05-16T00:00:00.000Z',
     socials: [
       {
@@ -262,7 +266,7 @@ export const organizations: Organization[] = [
     municipality: 'Olot',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2011-11-24T00:00:00.000Z',
     socials: [
       {
@@ -305,7 +309,7 @@ export const organizations: Organization[] = [
     municipality: 'Ripoll',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -318,7 +322,7 @@ export const organizations: Organization[] = [
     id: 'b075e455',
     slug: 'altarriba',
     name: 'Fundació Altarriba',
-    shortName: 'Refugi Bú Bup Parc',
+    shortName: 'Altarriba',
     contactEmail: 'altarriba@altarriba.org',
     contactPhone: '603047621',
     website: 'https://www.altarriba.org',
@@ -342,7 +346,7 @@ export const organizations: Organization[] = [
     municipality: `la Bisbal d'Empordà`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '1998-10-02T00:00:00.000Z',
     socials: [
       {
@@ -379,8 +383,8 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Banyoles',
     municipality: 'Banyoles',
     isMunicipal: false,
-    isActive: true,
-    lastUpdate: '2025-07-30T00:00:00.000Z',
+    isActive: false,
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     associativeInscriptionNumber: '1665',
     dateOfInscription: '1989-06-19T00:00:00.000Z',
     socials: [
@@ -422,7 +426,7 @@ export const organizations: Organization[] = [
     municipality: 'Figueres',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     enabledLogoUsage: undefined,
   },
   {
@@ -445,7 +449,7 @@ export const organizations: Organization[] = [
     municipality: `Torroella de Montgrí`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '1998-07-31T00:00:00.000Z',
     socials: [
       {
@@ -479,7 +483,7 @@ export const organizations: Organization[] = [
     municipality: `Begur`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-05-16T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2000-07-14T00:00:00.000Z',
     socials: [
       {
@@ -508,7 +512,7 @@ export const organizations: Organization[] = [
     municipality: `l'Escala`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2015-02-09T00:00:00.000Z',
     socials: [
       {
@@ -538,7 +542,7 @@ export const organizations: Organization[] = [
     municipality: `el Port de la Selva`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2011-09-21T00:00:00.000Z',
     socials: [
       {
@@ -567,7 +571,7 @@ export const organizations: Organization[] = [
     municipality: `l'Escala`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2008-06-25T00:00:00.000Z',
     socials: [
       {
@@ -597,7 +601,7 @@ export const organizations: Organization[] = [
     municipality: `Castelló d'Empúries`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-10-03T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '1996-02-05T00:00:00.000Z',
     socials: [
       {
@@ -629,7 +633,7 @@ export const organizations: Organization[] = [
     municipality: 'Llançà',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-08-14T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2022-11-25T00:00:00.000Z',
     socials: [
       {
@@ -657,14 +661,14 @@ export const organizations: Organization[] = [
     province: 'lleida',
     shelter: undefined,
     description: `Som una petita organització de La Seu d'Urgell, sense ànim de lucre que ajuda als animals sense llar.`,
-    adoptAnimalsURL: 'https://apapirineu.com/',
+    adoptAnimalsURL: 'https://www.instagram.com/assoc.pelsanimalsdelpirineu',
     associativeInscriptionNumber: '48518',
     animalFocus: 'cats&dogs',
     municipalityInscription: `la Seu d'Urgell`,
     municipality: `la Seu d'Urgell`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2012-09-14T00:00:00.000Z',
     socials: [
       {
@@ -696,7 +700,7 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Girona',
     municipality: 'Girona',
     isMunicipal: false,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     isActive: true,
     dateOfInscription: '2013-10-16T00:00:00.000Z',
     socials: [
@@ -738,7 +742,7 @@ export const organizations: Organization[] = [
     municipality: 'Girona',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -759,7 +763,7 @@ export const organizations: Organization[] = [
     province: 'girona',
     shelter: undefined,
     description: `Les adopcions de gats es fan a través de la Xarxa Gatera de Girona. Cal demanar cita prèvia.El consistori ha firmat un conveni amb la Federació Xarxa Gatera de Girona i el Col·legi de Veterinaris de Girona pel control eficient dels felins de carrer. Els gats es porten a les brigades municipals de Mas Xirgu.`,
-    adoptAnimalsURL: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
+    adoptAnimalsURL: 'https://www.instagram.com/lagateradegirona/',
     animalFocus: 'cats',
     associativeInscriptionNumber: '830',
     dateOfInscription: '2021-02-01T00:00:00.000Z',
@@ -767,11 +771,11 @@ export const organizations: Organization[] = [
     municipality: 'Girona',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
-        url: 'https://www.facebook.com/ServeiAcollidaAnimalsGirona/',
+        url: 'https://www.facebook.com/profile.php?id=61573503534696',
       },
       {
         type: 'instagram',
@@ -798,7 +802,7 @@ export const organizations: Organization[] = [
     municipality: 'Ger',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2017-06-13T00:00:00.000Z',
     socials: [
       {
@@ -833,7 +837,7 @@ export const organizations: Organization[] = [
     municipality: 'Esparreguera',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -849,10 +853,11 @@ export const organizations: Organization[] = [
   {
     id: '2a3192fb',
     slug: 'aprodega',
-    name: `Associació Protectora de Gats Abandonats (APRODEGA)`,
+    name: `Associació Protectora de Gats Abandonats`,
     shortName: `Aprodega`,
     contactEmail: 'aprodega.vilassardedalt@gmail.com',
     contactPhone: '657536330',
+    whatsAppPhone: '657536330',
     logo: 'https://aprodega.wordpress.com/wp-content/uploads/2016/06/cropped-11146198_852822184753413_416402243729127025_n2.png',
     website: undefined,
     region: 'maresme',
@@ -866,7 +871,7 @@ export const organizations: Organization[] = [
     municipality: 'Vilassar de Dalt',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2009-09-01T00:00:00.000Z',
     socials: [
       {
@@ -899,7 +904,7 @@ export const organizations: Organization[] = [
     municipality: 'Sant Cugat del Vallès',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '1996-07-16T00:00:00.000Z',
     socials: [
       {
@@ -934,7 +939,7 @@ export const organizations: Organization[] = [
     municipality: 'Santpedor',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-08-12T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2018-10-03T00:00:00.000Z',
     socials: [
       {
@@ -955,6 +960,7 @@ export const organizations: Organization[] = [
     shortName: `Progat Alt Berguedà`,
     contactEmail: 'progataltbergueda@gmail.com',
     contactPhone: '646826622',
+    whatsAppPhone: '646826622',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/5/5/6/0/ajyli1manf.png',
     website: undefined,
     region: 'bergueda',
@@ -968,7 +974,7 @@ export const organizations: Organization[] = [
     municipality: 'Guardiola de Berguedà',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2015-12-09T00:00:00.000Z',
     socials: [
       {
@@ -1001,7 +1007,7 @@ export const organizations: Organization[] = [
     municipality: 'Navarcles',
     isMunicipal: false,
     website: 'https://pelutsnavarcles.sukycms.com',
-    lastUpdate: '2025-03-21T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2017-01-10T00:00:00.000Z',
     isActive: true,
     socials: [
@@ -1037,7 +1043,7 @@ export const organizations: Organization[] = [
     municipality: 'Solsona',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2012-01-02T00:00:00.000Z',
     socials: [
       {
@@ -1077,7 +1083,7 @@ export const organizations: Organization[] = [
     municipality: 'Lleida',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '1996-10-03T00:00:00.000Z',
     socials: [
       {
@@ -1107,7 +1113,7 @@ export const organizations: Organization[] = [
       },
     ],
     description: `Associació animalista amb més de 30 anys d'experiència dedicada al rescat d'animals (gossos i gats), a la defensa dels seus drets ia la recerca de noves llars per a ells. Situada a la ciutat de Lleida.`,
-    adoptAnimalsURL: 'https://protectoraanimalslydiaargiles.blogspot.com/',
+    adoptAnimalsURL: 'https://protectoralydiaargiles.sukycms.com/animales',
     associativeInscriptionNumber: '2724',
     animalFocus: 'cats&dogs',
     idZoologicalNucleus: 'L25/00102',
@@ -1115,7 +1121,7 @@ export const organizations: Organization[] = [
     municipality: 'Lleida',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2001-03-14T00:00:00.000Z',
     socials: [
       {
@@ -1134,7 +1140,7 @@ export const organizations: Organization[] = [
     slug: 'sa-gatonera-blanes',
     name: `Associació Sa Gatonera Blanes`,
     shortName: `SA Gatonera Blanes`,
-    contactEmail: 'info@sagatonerablanes.cat',
+    contactEmail: 'adopcions@sagatonerablanes.cat',
     logo: 'http://www.sagatonerablanes.cat/logo.png',
     website: 'http://www.sagatonerablanes.cat',
     region: 'selva',
@@ -1148,7 +1154,7 @@ export const organizations: Organization[] = [
     municipality: 'Blanes',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2016-11-28T00:00:00.000Z',
     socials: [
       {
@@ -1169,7 +1175,7 @@ export const organizations: Organization[] = [
     shortName: `Bigotitos de angel`,
     contactPhone: '635666005',
     whatsAppPhone: '635666005',
-    contactEmail: 'bigotitosadopta@gmail.com',
+    contactEmail: 'bigotitosdeangel@gmail.com',
     logo: 'https://fly.linkcdn.cc/upload/2023011019/167337844521946378.jpeg',
     website: 'https://bigotitosdeangel.wordpress.com/home',
     region: 'selva',
@@ -1183,7 +1189,7 @@ export const organizations: Organization[] = [
     municipality: 'Maçanet de la Selva',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-08-12T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2023-02-14T00:00:00.000Z',
     socials: [
       {
@@ -1224,7 +1230,7 @@ export const organizations: Organization[] = [
     municipality: 'Ripoll',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2012-06-13T00:00:00.000Z',
     socials: [
       {
@@ -1251,7 +1257,7 @@ export const organizations: Organization[] = [
     region: 'valles-oriental',
     province: 'barcelona',
     description: `L’Associació Protectora d’Animals de Granollers (APAG) és una associació, sense ànim de lucre, que té com a objectiu acollir gossos, gats i altres animals abandonats per tenir cura d’ells en el nostre refugi mentre els hi busquem una nova llar on puguin ser feliços. L’associació està reconeguda per la Generalitat de Catalunya i compta amb el suport de l’Ajuntament de Granollers.`,
-    adoptAnimalsURL: 'https://protectoragranollers.org/category/gossos/',
+    adoptAnimalsURL: 'https://protectoragranollers.org/animals-del-refugi/',
     shelter: [
       {
         adress:
@@ -1267,7 +1273,7 @@ export const organizations: Organization[] = [
     municipality: 'Granollers',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2005-02-01T00:00:00.000Z',
     socials: [
       {
@@ -1309,11 +1315,15 @@ export const organizations: Organization[] = [
     municipality: 'Vilafranca del Penedès',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
         url: 'https://www.instagram.com/caadpenedes/',
+      },
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/caadpenedes/',
       },
     ],
     enabledLogoUsage: undefined,
@@ -1337,7 +1347,7 @@ export const organizations: Organization[] = [
     municipality: 'Vilafranca del Penedès',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-09-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2012-07-10T00:00:00.000Z',
     socials: [
       {
@@ -1379,7 +1389,7 @@ export const organizations: Organization[] = [
     municipality: 'Teià',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -1398,6 +1408,7 @@ export const organizations: Organization[] = [
     name: `Associació Amics dels Gats Colomencs`,
     shortName: `Amics dels Gats Colomencs`,
     contactEmail: 'amicsdelsgatscolomencs@gmail.com',
+    whatsAppPhone: '636593370',
     logo: undefined,
     website: undefined,
     region: 'selva',
@@ -1411,7 +1422,7 @@ export const organizations: Organization[] = [
     municipality: 'Santa Coloma de Farners',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2015-05-21T00:00:00.000Z',
     socials: [
       {
@@ -1452,7 +1463,7 @@ export const organizations: Organization[] = [
     municipality: 'Palafolls',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2008-02-01T00:00:00.000Z',
     socials: [
       {
@@ -1485,7 +1496,7 @@ export const organizations: Organization[] = [
     municipality: 'Llagostera',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-08-17T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2023-05-25T00:00:00.000Z',
     socials: [
       {
@@ -1518,7 +1529,7 @@ export const organizations: Organization[] = [
     municipality: 'Palafrugell',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-08-13T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2022-01-07T00:00:00.000Z',
     socials: [
       {
@@ -1558,13 +1569,13 @@ export const organizations: Organization[] = [
     municipalityInscription: 'Sant Hilari Sacalm',
     municipality: 'Sant Hilari Sacalm',
     isMunicipal: false,
-    isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    isActive: false,
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2015-07-01T00:00:00.000Z',
     socials: [
       {
-        type: 'instagram',
-        url: 'https://www.instagram.com/bubbubs_santhilari/',
+        type: 'facebook',
+        url: 'https://www.facebook.com/protectorabubbubs/',
       },
     ],
     enabledLogoUsage: undefined,
@@ -1588,7 +1599,7 @@ export const organizations: Organization[] = [
     municipality: 'Sant Hilari Sacalm',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-30T00:00:00.000Z',
     dateOfInscription: '2018-11-27T00:00:00.000Z',
     socials: [
       {

@@ -9,7 +9,7 @@
   "region": "girones",
   "province": "girona",
   "description": "Les adopcions de gats es fan a través de la Xarxa Gatera de Girona. Cal demanar cita prèvia.El consistori ha firmat un conveni amb la Federació Xarxa Gatera de Girona i el Col·legi de Veterinaris de Girona pel control eficient dels felins de carrer. Els gats es porten a les brigades municipals de Mas Xirgu.",
-  "adoptAnimalsURL": "https://www.facebook.com/ServeiAcollidaAnimalsGirona/",
+  "adoptAnimalsURL": "https://www.instagram.com/lagateradegirona/",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "830",
   "dateOfInscription": "2021-02-01T00:00:00.000Z",
@@ -17,11 +17,11 @@
   "municipality": "Girona",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "socials": [
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/ServeiAcollidaAnimalsGirona/"
+      "url": "https://www.facebook.com/profile.php?id=61573503534696"
     },
     {
       "type": "instagram",
@@ -29,7 +29,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

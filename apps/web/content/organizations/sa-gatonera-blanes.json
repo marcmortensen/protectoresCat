@@ -3,7 +3,7 @@
   "slug": "sa-gatonera-blanes",
   "name": "Associació Sa Gatonera Blanes",
   "shortName": "SA Gatonera Blanes",
-  "contactEmail": "info@sagatonerablanes.cat",
+  "contactEmail": "adopcions@sagatonerablanes.cat",
   "logo": "http://www.sagatonerablanes.cat/logo.png",
   "website": "http://www.sagatonerablanes.cat",
   "region": "selva",
@@ -16,7 +16,7 @@
   "municipality": "Blanes",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "dateOfInscription": "2016-11-28T00:00:00.000Z",
   "socials": [
     {
@@ -30,7 +30,7 @@
   ],
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

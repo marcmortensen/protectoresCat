@@ -5,6 +5,7 @@
   "shortName": "Progat Alt Berguedà",
   "contactEmail": "progataltbergueda@gmail.com",
   "contactPhone": "646826622",
+  "whatsAppPhone": "646826622",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/5/5/6/0/ajyli1manf.png",
   "region": "bergueda",
   "province": "barcelona",
@@ -16,7 +17,7 @@
   "municipality": "Guardiola de Berguedà",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-30T00:00:00.000Z",
   "dateOfInscription": "2015-12-09T00:00:00.000Z",
   "socials": [
     {
@@ -29,7 +30,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
