@@ -22,7 +22,7 @@
   "isMunicipal": false,
   "associativeInscriptionNumber": "11514",
   "isActive": true,
-  "lastUpdate": "2025-08-20T00:00:00.000Z",
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "dateOfInscription": "1990-03-12T00:00:00.000Z",
   "socials": [
     {
@@ -40,7 +40,7 @@
   ],
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-08-20T00:00:00.000Z",
+    "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

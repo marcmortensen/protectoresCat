@@ -1633,7 +1633,7 @@ export const organizations: Organization[] = [
     municipality: `Castell d'Aro, Platja d'Aro i s'Agaró`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2019-04-16T00:00:00.000Z',
     socials: [
       {
@@ -1668,7 +1668,7 @@ export const organizations: Organization[] = [
     municipality: `Vallbona d'Anoia`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-03-11T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2017-01-10T00:00:00.000Z',
     socials: [
       {
@@ -1711,7 +1711,7 @@ export const organizations: Organization[] = [
     idZoologicalNucleus: 'B25/00624',
     associativeInscriptionNumber: '20353',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '1998-01-26T00:00:00.000Z',
     socials: [
       {
@@ -1754,7 +1754,7 @@ export const organizations: Organization[] = [
     isMunicipal: true,
     idZoologicalNucleus: 'B25/00565',
     isActive: true,
-    lastUpdate: '2025-10-12T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     enabledLogoUsage: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/gatera_castellbisbal/',
   },
@@ -1786,7 +1786,7 @@ export const organizations: Organization[] = [
     municipality: 'Moià',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -1827,7 +1827,7 @@ export const organizations: Organization[] = [
     municipality: 'Argentona',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -1868,7 +1868,7 @@ export const organizations: Organization[] = [
     municipality: 'Terrassa',
     isMunicipal: true,
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -1903,7 +1903,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '11514',
     isActive: true,
-    lastUpdate: '2025-08-20T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '1990-03-12T00:00:00.000Z',
     socials: [
       {
@@ -1956,7 +1956,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '54815',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2014-11-07T00:00:00.000Z',
     socials: [
       {
@@ -1991,7 +1991,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '53866',
     isActive: true,
-    lastUpdate: '2025-08-13T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2014-08-14T00:00:00.000Z',
     enabledLogoUsage: undefined,
   },
@@ -2071,7 +2071,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     idZoologicalNucleus: 'T25/00065',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
