@@ -320,10 +320,12 @@ useSchemaOrg([
         <div class="flex flex-col sm:flex-row xl:flex-col gap-4 w-full">
           <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-1">
             <label
-              class="text-sm font-semibold text-gray-900 dark:text-white block"
+              for="regions-select"
+              class="text-sm font-semibold text-gray-900 dark:text-white"
               >Comarques:</label
             >
             <USelectMenu
+              id="regions-select"
               v-model="regions"
               class="w-full"
               multiple
@@ -335,10 +337,13 @@ useSchemaOrg([
             />
           </div>
           <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-1">
-            <label class="text-sm font-semibold text-gray-900 dark:text-white"
+            <label
+              for="animals-select"
+              class="text-sm font-semibold text-gray-900 dark:text-white"
               >Animals:</label
             >
             <USelectMenu
+              id="animals-select"
               v-model="animalType"
               class="w-full"
               multiple
@@ -357,10 +362,13 @@ useSchemaOrg([
         <div class="w-full mb-2 flex flex-col sm:flex-row gap-4">
           <!-- Search -->
           <div class="w-full grow flex flex-col gap-y-1">
-            <label class="text-sm font-semibold text-gray-900 dark:text-white"
+            <label
+              for="search-input"
+              class="text-sm font-semibold text-gray-900 dark:text-white"
               >Cerca:</label
             >
             <UInput
+              id="search-input"
               v-model="search"
               placeholder="Cerca per nom o municipi"
               class="w-full"
@@ -368,11 +376,14 @@ useSchemaOrg([
             />
           </div>
           <!-- Sort Selector -->
-          <div class="w-full sm:w-52 gap-y-1 flex flex-col">
-            <label class="text-sm font-semibold text-gray-900 dark:text-white"
+          <div class="w-full sm:w-52 flex flex-col gap-y-1">
+            <label
+              for="sort-select"
+              class="text-sm font-semibold text-gray-900 dark:text-white"
               >Ordenar per:</label
             >
             <USelectMenu
+              id="sort-select"
               v-model="sort"
               class="w-full"
               :search-input="false"
