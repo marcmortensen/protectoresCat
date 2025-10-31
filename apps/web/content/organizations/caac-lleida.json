@@ -35,13 +35,13 @@
   "description": "El Refugi dels Peluts és un centre públic de l’Ajuntament de Lleida que treballa per oferir una segona oportunitat als animals de companyia perduts i abandonats al municipi facilitant el retrobament amb els seus propietaris o buscant-los una nova llar.",
   "isActive": true,
   "isMunicipal": true,
-  "lastUpdate": "2025-09-03T00:00:00.000Z",
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "logo": "https://refugipeluts.paeria.cat/++theme++paeria_site/img/logo-paeria.svg",
   "website": "https://refugipeluts.paeria.cat",
   "adoptAnimalsURL": "https://refugipeluts.paeria.cat/ca/animals-en-adopcio",
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-09-03T00:00:00.000Z",
+    "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

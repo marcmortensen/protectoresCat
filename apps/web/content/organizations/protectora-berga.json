@@ -31,7 +31,7 @@
   "description": "L’Associació Berguedana per a la Protecció dels Animals som una associació sense ànim de lucre que estem en funcionament des del setembre de 1990. El radi d’actuació és comarcal, el Berguedà, tot i que mantenim contacte amb altres protectores i diferents grups interessats en la mateixa tasca. El refugi es manté gràcies a les aportacions dels socis, teamers, i convenis signats amb alguns ajuntaments de la comarca.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-01-30T00:00:00.000Z",
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "logo": "https://protectoraberga.com/wp-content/uploads/2024/04/IMG-20240410-WA0011-1.jpg",
   "website": "https://protectoraberga.com",
   "adoptAnimalsURL": "https://www.facebook.com/ProtectoraBerga/",
@@ -39,7 +39,7 @@
   "dateOfInscription": "1990-04-03T00:00:00.000Z",
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-01-30T00:00:00.000Z",
+    "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

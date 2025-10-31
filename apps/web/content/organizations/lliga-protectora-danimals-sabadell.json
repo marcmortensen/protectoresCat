@@ -31,7 +31,7 @@
   "description": "Som una associació sense ànim de lucre, legalment constituïda al 1979 i declarada entitat d’utilitat pública. El nostre refugi d’animals abandonats i perduts (gats i gossos) està situat a la Ctra. de Caldes, km 24,2 de Sabadell i està inscrit en el registre de nuclis zoològics. Durant l’estada dels animals al refugi, mentre no els adopten, són tractats en les millors condicions possibles, tenint cura del seu estat de salut, la seva neteja i la seva alimentació i intentant aconseguir-los una nova llar.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-20T00:00:00.000Z",
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "logo": "http://protectorasabadell.s3.amazonaws.com/imagenes/logo_rodones.jpg",
   "website": "https://www.protectorasabadell.org",
   "adoptAnimalsURL": "https://www.protectorasabadell.org/adopta/adopta-un-gat-o-un-gos/",
@@ -40,7 +40,7 @@
   "idZoologicalNucleus": "B23/00012",
   "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-08-20T00:00:00.000Z",
+    "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

@@ -25,14 +25,14 @@
   "description": "Som una associació dedicada de manera gairebé exclusiva a cura del gat urbà. Comptem amb un refugi felí on hi ha els gats mentre es busquen adoptants, cases d'acollida i ens ocupem de controlar diverses colònies felines a Barcelona.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-08-15T00:00:00.000Z",
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "logo": "https://barcelonagatigos.org/wp-content/uploads/2021/05/BCN-GG-logo-GRANDE-600x357.png",
   "website": "https://barcelonagatigos.org",
   "adoptAnimalsURL": "https://barcelonagatigos.org/adoptar/?lang=ca",
   "associativeInscriptionNumber": "27783",
   "dateOfInscription": "2003-07-09T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-08-15T00:00:00.000Z",
+    "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

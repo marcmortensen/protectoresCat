@@ -28,12 +28,12 @@
   "description": "El Refugi d’Animals es va inagurar al Juny de 2007, mitjançant l’iniciativa del Consell Comarcal de l’Alt Urgell, l’Ajuntament de La Seu d’Urgell, el Consell Comarcal de La Cerdanya  i l’Ajuntament de Puigcerdà. La funció principal és la recollida, manteniment, i promoció de l’adopció dels animals abandonats als ajuntaments de les dues comarques adherits al conveni de delegació de competències, segons compliment de la Llei de Protecció dels Animals de 2003. Actualment estant adherits tots els municipis de la Cerdanya, i en el cas de l'Alt Urgell els municipis de: Alàs i Cerc, Arsèguel, Bassella, Cava, Coll de Nargó, Estamariu, Josa i Tuixén, Montferrer i Castellbò, Oliana, Peramola, Pont de Bar, La Seu d'Urgell, Les Valls d'Aguilar i La Vansa i Fórnols.",
   "isActive": true,
   "isMunicipal": true,
-  "lastUpdate": "2025-01-25T00:00:00.000Z",
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "logo": "http://www.alturgell.cat/sites/default/files/imagecache/third_under_content_banner/banners/logo_augema.JPG",
   "website": "https://www.alturgell.cat/refugi-supracomarcal-animals",
   "adoptAnimalsURL": "https://www.facebook.com/refugianimalsbenavarre",
   "sitemap": {
-    "lastmod": "2025-01-25T00:00:00.000Z",
+    "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

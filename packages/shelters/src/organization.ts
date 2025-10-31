@@ -2147,7 +2147,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '924',
     dateOfInscription: '2001-08-10T00:00:00.000Z',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     socials: [
       {
         type: 'facebook',
@@ -2179,7 +2179,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '69455',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2021-06-11T00:00:00.000Z',
     socials: [
       {
@@ -2212,7 +2212,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '35424',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2007-11-07T00:00:00.000Z',
     socials: [
       {
@@ -2254,7 +2254,7 @@ export const organizations: Organization[] = [
     associativeInscriptionNumber: '26649',
     idZoologicalNucleus: 'L25/00089',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2002-10-31T00:00:00.000Z',
     socials: [
       {
@@ -2297,7 +2297,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '50771',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2013-07-19T00:00:00.000Z',
     socials: [
       {
@@ -2330,7 +2330,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '57641',
     isActive: true,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2016-01-04T00:00:00.000Z',
     socials: [
       {
@@ -2351,7 +2351,7 @@ export const organizations: Organization[] = [
     shortName: 'Can Flix & Ampare',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/6/3/5/0/gbsgsosocq.png',
     contactEmail: 'associacioanimalsflix@hotmail.com',
-    contactPhone: '634495086',
+    whatsAppPhone: '634495086',
     region: 'ribera-debre',
     province: 'tarragona',
     description: `A.M.P.A.R.E. és una entitat sense ànim de lucre que neix de l'amor pels animals. El nostre principal objectiu és donar-li veu i vot a aquests éssers vius, que també mereixen el nostre respecte. També volem ajudar a que els animals abandonats al nostre poble aconsegueixin la llar que es mereixen i una adopció responsable.`,
@@ -2370,7 +2370,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '48292',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2012-07-23T00:00:00.000Z',
     socials: [
       {
@@ -2380,6 +2380,10 @@ export const organizations: Organization[] = [
       {
         type: 'instagram',
         url: 'https://www.instagram.com/canflixanimals/',
+      },
+      {
+        type: 'tiktok',
+        url: 'https://www.tiktok.com/@canflixanimals',
       },
     ],
     enabledLogoUsage: undefined,
@@ -2404,7 +2408,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '36528',
     isActive: true,
-    lastUpdate: '2025-08-18T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2008-03-31T00:00:00.000Z',
     socials: [
       {
@@ -2436,7 +2440,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '70121',
     isActive: false,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2021-10-20T00:00:00.000Z',
     socials: [
       {
@@ -2470,7 +2474,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '69990',
     isActive: true,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2021-10-01T00:00:00.000Z',
     socials: [
       {
@@ -2499,7 +2503,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '69038',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2021-03-17T00:00:00.000Z',
     socials: [
       {
@@ -2528,7 +2532,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '73741',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2023-09-18T00:00:00.000Z',
     socials: [
       {
@@ -2566,7 +2570,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '1493',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '1992-05-12T00:00:00.000Z',
     socials: [
       {
@@ -2608,7 +2612,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '1088',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '1988-10-04T00:00:00.000Z',
     socials: [
       {
@@ -2639,7 +2643,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '62793',
     isActive: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2018-03-01T00:00:00.000Z',
     socials: [
       {
@@ -2688,7 +2692,7 @@ export const organizations: Organization[] = [
         openingHoursURL: 'https://maps.app.goo.gl/R7R2B5rAq8i4Nseh6',
       },
     ],
-    lastUpdate: '2025-08-21T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     dateOfInscription: '2015-10-06T00:00:00.000Z',
     idZoologicalNucleus: 'L25/00205',
     description: `Som una protectora d'animals que portem treballant des de juliol de 2014 a la comarca de el Baix Cinca i del Baix Segrià. Rescatem animals en mal estat, maltractats i abandonats. Les acollim en els nostres refugi, els donem les cures necessàries, atenció veterinària, els reeduquem perquè puguin viure en una llar amb una família i els busquem adopció.`,
@@ -2728,7 +2732,7 @@ export const organizations: Organization[] = [
     description: `El Refugi d’Animals es va inagurar al Juny de 2007, mitjançant l’iniciativa del Consell Comarcal de l’Alt Urgell, l’Ajuntament de La Seu d’Urgell, el Consell Comarcal de La Cerdanya  i l’Ajuntament de Puigcerdà. La funció principal és la recollida, manteniment, i promoció de l’adopció dels animals abandonats als ajuntaments de les dues comarques adherits al conveni de delegació de competències, segons compliment de la Llei de Protecció dels Animals de 2003. Actualment estant adherits tots els municipis de la Cerdanya, i en el cas de l'Alt Urgell els municipis de: Alàs i Cerc, Arsèguel, Bassella, Cava, Coll de Nargó, Estamariu, Josa i Tuixén, Montferrer i Castellbò, Oliana, Peramola, Pont de Bar, La Seu d'Urgell, Les Valls d'Aguilar i La Vansa i Fórnols.`,
     isActive: true,
     isMunicipal: true,
-    lastUpdate: '2025-01-25T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'http://www.alturgell.cat/sites/default/files/imagecache/third_under_content_banner/banners/logo_augema.JPG',
     website: 'https://www.alturgell.cat/refugi-supracomarcal-animals',
     adoptAnimalsURL: 'https://www.facebook.com/refugianimalsbenavarre',
@@ -2745,6 +2749,7 @@ export const organizations: Organization[] = [
     municipalityInscription: `Lliçà de Vall`,
     municipality: `Lliçà de Vall`,
     contactPhone: '615621907',
+    whatsAppPhone: '615621907',
     socials: [
       {
         type: 'instagram',
@@ -2753,9 +2758,9 @@ export const organizations: Organization[] = [
     ],
     shelter: undefined,
     description: `VALLGATS neix amb la necessitat ajudar els gats dels carrers del municipi de Lliçà de Vall. Per millorar-ne la qualitat de vida, proporcionar-los aliment, recer i assistència veterinària. Som un grup de voluntaris que no disposem de cap ajut econòmic, actuem gràcies a vosaltres, els nostres seguidors. Amb un sol euro pots ajudar-nos a seguir amb la nostra feina. Millorar la vida dels gats abandonats, maltractats o els que han nascut al carrer.`,
-    isActive: true,
+    isActive: false,
     isMunicipal: false,
-    lastUpdate: '2025-01-27T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/3/5/5/2/2sna9s18wb.jpeg',
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/vallgats/',
@@ -2794,7 +2799,7 @@ export const organizations: Organization[] = [
     description: `El RMAC és un centre municipal on acollim els gossos, gats i fures que s’han trobat abandonats o perduts als carrers de Sant Boi. Hi atenem els animals fins que la persona propietària els recupera o alguna altra persona els adopta.`,
     isActive: true,
     isMunicipal: true,
-    lastUpdate: '2025-08-18T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://www.santboi.cat/sites/default/files/2022-09/SantBoi_Logo.png',
     website:
       'https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac',
@@ -2830,7 +2835,7 @@ export const organizations: Organization[] = [
     description: `Som una associació dedicada de manera gairebé exclusiva a cura del gat urbà. Comptem amb un refugi felí on hi ha els gats mentre es busquen adoptants, cases d'acollida i ens ocupem de controlar diverses colònies felines a Barcelona.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://barcelonagatigos.org/wp-content/uploads/2021/05/BCN-GG-logo-GRANDE-600x357.png',
     website: 'https://barcelonagatigos.org',
     adoptAnimalsURL: 'https://barcelonagatigos.org/adoptar/?lang=ca',
@@ -2872,7 +2877,7 @@ export const organizations: Organization[] = [
     description: `Som una associació sense ànim de lucre, legalment constituïda al 1979 i declarada entitat d’utilitat pública. El nostre refugi d’animals abandonats i perduts (gats i gossos) està situat a la Ctra. de Caldes, km 24,2 de Sabadell i està inscrit en el registre de nuclis zoològics. Durant l’estada dels animals al refugi, mentre no els adopten, són tractats en les millors condicions possibles, tenint cura del seu estat de salut, la seva neteja i la seva alimentació i intentant aconseguir-los una nova llar.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-20T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'http://protectorasabadell.s3.amazonaws.com/imagenes/logo_rodones.jpg',
     website: 'https://www.protectorasabadell.org',
     adoptAnimalsURL:
@@ -2896,10 +2901,6 @@ export const organizations: Organization[] = [
     contactPhone: '938727074',
     socials: [
       {
-        type: 'facebook',
-        url: 'https://www.facebook.com/aixoplucmanresa/',
-      },
-      {
         type: 'instagram',
         url: 'https://www.instagram.com/aixoplucmanresa/',
       },
@@ -2915,10 +2916,10 @@ export const organizations: Organization[] = [
     description: `La protectora d'Animals Aixopluc, és una associació que té cura d'un centenar de gossos i més de tres-cents gats. Molts arriben al centre en molt mal estat i la seva recuperació és vital per donar-los una bona qualitat de vida i una futura adopció. El centre està ubicat a Manresa (Barcelona). Per fer front a tots aquests costos sanitaris i alimentaris, ens unim a aquesta meravellosa iniciativa.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-27T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://aixoplucmanresa.org/wp-content/uploads/2022/08/logo.png',
     website: 'https://aixoplucmanresa.org',
-    adoptAnimalsURL: 'https://www.facebook.com/aixoplucmanresa/',
+    adoptAnimalsURL: 'https://www.instagram.com/aixoplucmanresa/',
     associativeInscriptionNumber: '993',
     dateOfInscription: '1967-09-19T00:00:00.000Z',
     idZoologicalNucleus: 'B23/00084',
@@ -2950,7 +2951,7 @@ export const organizations: Organization[] = [
     description: `A.R.D.A. Blancafort és una associació sense ànim de lucre oberta a totes les persones que desitgin col·laborar i lluitar pel benestar animal. El propòsit de l'entitat és vetllar pels drets i la protecció dels animals de la zona, així com d'implantar propostes que ajudin a millorar les condicions dels espais municipals i millorin la qualitat de vida de les mascotes. Els objectius principals són el rescat de gossos abandonats, el control de colònies felines i el foment d'una política pública que reguli la protecció i tinença d'animals.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-29T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/6/2/5/2/dcbg0hdy0g.png',
     website: 'https://sites.google.com/view/ardablancafort',
     adoptAnimalsURL:
@@ -2985,7 +2986,7 @@ export const organizations: Organization[] = [
     description: `Som una associació sense ànim de lucre creada l’any 2014 i formada per voluntaris que ens dediquem a la protecció dels gats de carrer d’El Masnou. Vam començar gestionant 35 colònies que, després d’aplicar el mètode CER (Captura – Esterilització – Retorn) per evitar la superpoblació, poc a poc s’han anat reduint fins les 22 que existeixen actualment, amb un total aproximat de 500 gats. A més de preocupar-nos per la salut i benestar dels gats que viuen en elles, acollim i intentem trobar una llar per tots aquells que són sociables. L’any 2023, més de 70 dels nostres rescatats han trobat famílies increïbles amb les que ser feliços i estimats com mai abans ho han estat.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-29T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://masnougats.cat/wp-content/uploads/2019/03/MasnouGatsRGBtransp.png',
     website: 'https://masnougats.cat',
     adoptAnimalsURL: 'https://masnougats.cat/adopta',
@@ -3019,7 +3020,7 @@ export const organizations: Organization[] = [
     description: `Asoc.Protectora d'Animals "Posa Una Patita A Tu Corazon" Som una associació protectora d'animals de Catalunya, sense ànim de lucre.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-20T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/7/7/8/2/0/ymnccskprw.jpg',
     website: undefined,
     adoptAnimalsURL: 'https://www.instagram.com/adopta_apa_pupetc/',
@@ -3053,7 +3054,7 @@ export const organizations: Organization[] = [
     description: `ADAM és una associació sense ànim de lucre; composta per una Junta Directiva formada per Socis i Voluntaris. La nostra tasca es basa en la recollida de tot gos perdut i/o abandonat; tractar de trobar el seu amo i/o trobar una família adequada per a l'adopció dels qui han estat abandonats. A la nostra associació no se sacrifica cap animal, excepte en els casos extrems per malaltia amb patiment i sempre sota la supervisió del veterinari.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-30T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://adamprotectora.org/_mibambu/_adam/imas/logo.jpg',
     website: 'https://adamprotectora.org',
     adoptAnimalsURL: 'https://adamprotectora.org/cat/listado',
@@ -3092,7 +3093,7 @@ export const organizations: Organization[] = [
     description: `Sircan és una empresa dedicada a l'acollida i adopció d'animals abandonats, principalment gossos i gats. Treballa en col·laboració amb diversos ajuntaments per promoure l'adopció responsable i oferir una segona oportunitat a aquests animals. A més, proporciona serveis d'adopció i informació per a aquells interessats a incorporar una mascota a la seva família.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-30T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://sircan.cat/wp-content/uploads/2023/02/cropped-logo_web.jpg',
     website: 'https://sircan.cat',
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/w0oBzTHO',
@@ -3133,7 +3134,7 @@ export const organizations: Organization[] = [
     description: `Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt. El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://adeavd.org/wp-content/uploads/2017/10/Logowebpng.png',
     website: 'https://adeavd.org',
     adoptAnimalsURL: 'https://petshelter.miwuki.com/p/5U3Tf0l4',
@@ -3174,7 +3175,7 @@ export const organizations: Organization[] = [
     description: `L’Associació Berguedana per a la Protecció dels Animals som una associació sense ànim de lucre que estem en funcionament des del setembre de 1990. El radi d’actuació és comarcal, el Berguedà, tot i que mantenim contacte amb altres protectores i diferents grups interessats en la mateixa tasca. El refugi es manté gràcies a les aportacions dels socis, teamers, i convenis signats amb alguns ajuntaments de la comarca.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-30T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://protectoraberga.com/wp-content/uploads/2024/04/IMG-20240410-WA0011-1.jpg',
     website: 'https://protectoraberga.com',
     adoptAnimalsURL: 'https://www.facebook.com/ProtectoraBerga/',
@@ -3219,7 +3220,7 @@ export const organizations: Organization[] = [
     description: `El Refugi dels Peluts és un centre públic de l’Ajuntament de Lleida que treballa per oferir una segona oportunitat als animals de companyia perduts i abandonats al municipi facilitant el retrobament amb els seus propietaris o buscant-los una nova llar.`,
     isActive: true,
     isMunicipal: true,
-    lastUpdate: '2025-09-03T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://refugipeluts.paeria.cat/++theme++paeria_site/img/logo-paeria.svg',
     website: 'https://refugipeluts.paeria.cat',
     adoptAnimalsURL: 'https://refugipeluts.paeria.cat/ca/animals-en-adopcio',
@@ -3258,7 +3259,7 @@ export const organizations: Organization[] = [
     description: `La nostra entitat, creada l’any 1944, porta prop de 80 anys lluitant pels animals amb l’objectiu principal de salvar les seves vides quan estan en perill i aconseguir-los aquesta segona oportunitat que, sens dubte, mereixen. Són molts anys d’esforç i també molts els animals que han aconseguit una nova llar però, lamentablement, queda encara molta feina per fer i la nostra Entitat continua col·laborant per millorar aquesta situació.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-18T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://protectorabcn.es/wp-content/themes/protectorabcn/assets/icons/logo.svg',
     website: 'https://protectorabcn.es',
     adoptAnimalsURL:
@@ -3292,7 +3293,7 @@ export const organizations: Organization[] = [
     description: `Encaixant Mons va sorgir amb l'objectiu d'assolir la participació activa dels voluntaris en aquelles decisions que repercuteixen els animals del Refugi Municipal d'Animals de Companyia de Sant Boi de Llobregat (RMAC). Un dels nostres desitjos és conscienciar la població sobre la tinença responsable dels animals de companyia. De la mateixa manera, vetllar pel benestar animal, el respecte i la conservació de l'entorn des de les nostres possibilitats com a associació.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-05-18T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://www.encaixantmons.org/wp-content/uploads/2024/01/cropped-EncaixantMons_COLOR-7-scaled-164x155.png',
     website: 'https://www.encaixantmons.org',
     adoptAnimalsURL: 'https://www.encaixantmons.org/perros/',
@@ -3326,7 +3327,7 @@ export const organizations: Organization[] = [
     description: `REUS GATS és una associació que va néixer d'un grup de persones que comparteixen les mateixes inquietuds pels gats. Constituïda des del 2011 a Reus, el nostre objectiu és proporcionar una vida millor a tots aquells gats que viuen als nostres carrers. Fomentem l'adopció via Facebook als qui han estat víctimes de l'abandonament, auxiliem els malalts o ferits, i els proporcionem l'atenció veterinària que necessitin.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-30T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/0/3/3/0/tbetro2ayd.jpg',
     website: 'https://www.reusgats.org',
     adoptAnimalsURL: 'https://www.facebook.com/reusgats',
@@ -3371,7 +3372,7 @@ export const organizations: Organization[] = [
     description: `Associació sense ànim de lucre, per a l'adopció d'animals.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-15T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/7/5/4/0/ntu82hxjgl.jpg',
     website: 'https://elrefugiaab.wordpress.com',
     adoptAnimalsURL: 'https://www.facebook.com/profile.php?id=100064785183838#',
@@ -3407,7 +3408,7 @@ export const organizations: Organization[] = [
     description: `Som l’Associació Amor als Animals Maria Adam, una entitat sense ànim de lucre dedicada a acollir i ajudar animals abandonats, desahuciats i maltractats. Tenim la missió de fer un món millor optimitzant el benestar i la protecció dels animals mitjançant la prevenció (educant la població, fomentant una tinença responsable i promoure la legislació compromesa), la curació (assistència veterinària, recuperació física i psicològica, fisioteràpia per als més majors), i la gestió (adopcions segures, suport a colònies felines, espais dignes per als animals en la última etapa de la vida)`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-10-03T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png',
     website: 'https://amoralsanimals.org/',
     adoptAnimalsURL: 'https://amoralsanimals.org/en_adopcion/',
@@ -3441,7 +3442,7 @@ export const organizations: Organization[] = [
     description: `Caniausa Center S.L. és una empresa dedicada a la recollida i custòdia d'animals de companyia, així com a la seva adopció. Ofereixen serveis a l'administració, incloent-hi atenció 24 hores els 365 dies de l'any, personal qualificat per al maneig de gossos de races considerades perilloses i instal·lacions amb nucli zoològic adaptades a cada necessitat. També col·laboren amb associacions mitjançant convenis de voluntariat per promoure el benestar animal.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-08-18T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://www.caniausa.cat/wp-content/uploads/2020/02/logo-caniausa.png',
     website: 'https://www.caniausa.cat',
     adoptAnimalsURL: 'https://www.caniausa.cat/categoria-animals/adopcio/',
@@ -3474,7 +3475,7 @@ export const organizations: Organization[] = [
     description: `Associació de Rescat de Gossos i Gats Associació sense ànim de lucre dedicada a la cura i benestar de gossos i gats maltractats o abandonats. G&G RESCAT, situada al Maresme (Barcelona), sorgeix amb l'esperança d'ajudar i protegir a gossos i gats desafortunats amb l'objectiu d'oferir-los una nova oportunitat amb una nova família.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-01-30T00:00:00.000Z',
+    lastUpdate: '2025-10-31T00:00:00.000Z',
     logo: 'https://ggrescat.org/wp-content/uploads/2015/08/gg_icon.jpg',
     website: 'https://www.ggrescat.org',
     adoptAnimalsURL: 'https://www.facebook.com/ggrescat/',
