@@ -278,7 +278,7 @@ useSeoMeta({
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2025-07-02T00:00:00.000Z",
+    lastmod: "2025-10-31T00:00:00.000Z",
     changefreq: "monthly",
     priority: 0.8,
   },
