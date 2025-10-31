@@ -13,6 +13,7 @@ const QueryParam = {
   ANIMAL_TYPES: "focus",
   PAGE: "page",
   SEARCH: "search",
+  SORT: "sort",
 };
 
 const queryTransform = {
@@ -39,13 +40,29 @@ const search = useRouteQuery(QueryParam.SEARCH, "", {
   transform: { get: String, set: String },
 });
 
+type SortType = "last-revised" | "title" | "-title";
+const sortOptions: { label: string; value: SortType }[] = [
+  { label: "Última actualització", value: "last-revised" },
+  { label: "Nom (A-Z)", value: "title" },
+  { label: "Nom (Z-A)", value: "-title" },
+];
+
+const DEFAULT_SORT: SortType = "last-revised";
+const sort = useRouteQuery<SortType>(QueryParam.SORT, DEFAULT_SORT, {
+  mode: "push",
+  transform: {
+    get: (value: string | undefined) => value as SortType,
+    set: (value: SortType) => value,
+  },
+});
+
 const resetFilters = () => {
   regions.value = [];
   animalType.value = [];
 };
 
 watch(
-  search,
+  [search, sort],
   () => {
     resetPage();
   },
@@ -95,11 +112,32 @@ const { data, refresh, clear } = await useAsyncData(
       });
     }
     const orgsCount = await query.count();
-    const orgs = await query
-      .limit(ITEMS_PER_PAGE)
-      .order("shortName", "ASC")
-      .skip((page.value - 1) * ITEMS_PER_PAGE)
-      .all();
+
+    let orgs;
+    switch (sort.value) {
+      case "-title":
+        orgs = await query
+          .limit(ITEMS_PER_PAGE)
+          .order("shortName", "DESC")
+          .skip((page.value - 1) * ITEMS_PER_PAGE)
+          .all();
+        break;
+      case "title":
+        orgs = await query
+          .limit(ITEMS_PER_PAGE)
+          .order("shortName", "ASC")
+          .skip((page.value - 1) * ITEMS_PER_PAGE)
+          .all();
+        break;
+      case "last-revised":
+      default:
+        orgs = await query
+          .limit(ITEMS_PER_PAGE)
+          .order("lastUpdate", "DESC")
+          .skip((page.value - 1) * ITEMS_PER_PAGE)
+          .all();
+        break;
+    }
 
     return {
       orgsCount,
@@ -107,7 +145,11 @@ const { data, refresh, clear } = await useAsyncData(
       regions: dataRegions,
     };
   },
-  { immediate: true, watch: [regions, animalType, page, search], deep: true }
+  {
+    immediate: true,
+    watch: [regions, animalType, page, search, sort],
+    deep: true,
+  }
 );
 
 const filters = computed(() => {
@@ -276,9 +318,9 @@ useSchemaOrg([
       <!-- Filters Sidebar (Comarques & Animals) -->
       <div class="w-full xl:w-80 flex flex-col lg:flex-row xl:flex-col gap-4">
         <div class="flex flex-col sm:flex-row xl:flex-col gap-4 w-full">
-          <div class="w-full sm:w-1/2 xl:w-full">
+          <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-1">
             <label
-              class="text-sm font-semibold text-gray-900 dark:text-white mb-1 block"
+              class="text-sm font-semibold text-gray-900 dark:text-white block"
               >Comarques:</label
             >
             <USelectMenu
@@ -292,9 +334,8 @@ useSchemaOrg([
               color="primary"
             />
           </div>
-          <div class="w-full sm:w-1/2 xl:w-full">
-            <label
-              class="text-sm font-semibold text-gray-900 dark:text-white mb-1 block"
+          <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-1">
+            <label class="text-sm font-semibold text-gray-900 dark:text-white"
               >Animals:</label
             >
             <USelectMenu
@@ -312,18 +353,36 @@ useSchemaOrg([
       </div>
       <!-- Results + Search -->
       <div class="flex-1 flex flex-col gap-4">
-        <!-- Search on top of results (right side on desktop) -->
-        <div class="w-full mb-2">
-          <label
-            class="text-sm font-semibold text-gray-900 dark:text-white mb-1 block xl:hidden"
-            >Cerca:</label
-          >
-          <UInput
-            v-model="search"
-            placeholder="Cerca per nom o municipi"
-            class="w-full xl:mt-6"
-            icon="i-lucide-search"
-          />
+        <!-- Search and Sort on top of results (right side on desktop) -->
+        <div class="w-full mb-2 flex flex-col sm:flex-row gap-4">
+          <!-- Search -->
+          <div class="w-full grow flex flex-col gap-y-1">
+            <label class="text-sm font-semibold text-gray-900 dark:text-white"
+              >Cerca:</label
+            >
+            <UInput
+              v-model="search"
+              placeholder="Cerca per nom o municipi"
+              class="w-full"
+              icon="i-lucide-search"
+            />
+          </div>
+          <!-- Sort Selector -->
+          <div class="w-full sm:w-52 gap-y-1 flex flex-col">
+            <label class="text-sm font-semibold text-gray-900 dark:text-white"
+              >Ordenar per:</label
+            >
+            <USelectMenu
+              v-model="sort"
+              class="w-full"
+              :search-input="false"
+              :items="sortOptions"
+              value-key="value"
+              label-key="label"
+              placeholder="Ordenar per"
+              color="primary"
+            />
+          </div>
         </div>
         <!-- Results summary and clear filters -->
         <div
@@ -349,6 +408,7 @@ useSchemaOrg([
               @click="
                 () => {
                   search = '';
+                  sort = DEFAULT_SORT;
                   resetFilters();
                 }
               "
@@ -357,6 +417,7 @@ useSchemaOrg([
         </div>
         <!-- Filter badges -->
         <div
+          v-if="filters.length > 0"
           class="flex justify-start items-center gap-4 md:gap-2 w-full flex-wrap"
         >
           <template v-for="(filter, index) in filters" :key="index">
