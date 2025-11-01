@@ -1,12 +1,12 @@
 {
   "name": "Adoptar",
+  "description": "Descobreix totes les entitats que permeten adopcions d'animals a Catalunya",
   "short_name": "Adoptar",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     },
     {
       "src": "/web-app-manifest-512x512.png",
@@ -15,7 +15,69 @@
       "purpose": "maskable"
     }
   ],
+  "screenshots": [
+    {
+      "src": "/screenshots/narrow/1.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Pantalla d'inici mostrant la plana principal, filtrant per tipus d'animals"
+    },
+    {
+      "src": "/screenshots/narrow/2.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Pantalla d'inici mostrant la plana principal, filtrant per comarca"
+    },
+    {
+      "src": "/screenshots/narrow/3.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Mostrant els resultats d'una cerca en el llistat d'entitats"
+    },
+    {
+      "src": "/screenshots/narrow/4.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Pàgina de detall d'una entitat"
+    },
+    {
+      "src": "/screenshots/narrow/5.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Pàgina de pregutes freqüents"
+    },
+    {
+      "src": "/screenshots/wide/1.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Pantalla d'inici mostrant la plana principal, filtrant per tipus d'animals o per comarca"
+    },
+    {
+      "src": "/screenshots/wide/2.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Mostrant els resultats d'una cerca en el llistat d'entitats"
+    },
+    {
+      "src": "/screenshots/wide/3.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Pàgina de detall d'una entitat"
+    }
+  ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "start_url": "/",
+  "id": "/",
+  "orientation": "portrait-primary"
+
 }
