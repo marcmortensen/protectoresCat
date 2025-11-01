@@ -1475,7 +1475,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/protepala',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '7dba8c2c',
