@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ca } from "@nuxt/ui/locale";
+
 useSeoMeta({
   title: "Troba i adopta | Adoptar.cat",
   description:
@@ -28,7 +30,7 @@ useSchemaOrg([
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="ca">
     <CookieControl locale="ca" />
     <NuxtLayout class="font-display">
       <NuxtPage />
