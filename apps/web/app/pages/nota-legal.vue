@@ -3,12 +3,12 @@ useSeoMeta({
   title: "Avís legal | Adoptar.cat",
   description:
     "Avís legal d'Adoptar.cat, informació sobre l'ús del lloc web i responsabilitats.",
-  articleModifiedTime: "2025-08-07T00:00:00.000Z",
+  articleModifiedTime: "2025-11-02T00:00:00.000Z",
 });
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2025-08-07T00:00:00.000Z",
+    lastmod: "2025-11-02T00:00:00.000Z",
     changefreq: "yearly",
     priority: 0.3,
   },
@@ -60,10 +60,29 @@ defineRouteRules({
     <section class="flex flex-col gap-2">
       <h2 class="text-2xl">Propietat intel·lectual</h2>
       <p>
-        Tots els continguts del lloc web (textos, imatges, documents, logotips,
-        etc.) són propietat del responsable del lloc o de tercers que n'han
-        autoritzat l’ús. Queda prohibida la seva reproducció, distribució o
-        modificació sense autorització expressa del titular.
+        El codi font i continguts d'aquest lloc web estan llicenciats sota la
+        <a
+          href="https://github.com/marcmortensen/protectoresCat/blob/master/apps/web/LICENSE"
+          target="_blank"
+          rel="noopener"
+          class="font-semibold hover:text-primary"
+          >Llicència Apache, versió 2.0</a
+        >. Això vol dir que podeu utilitzar, modificar i distribuir el codi i
+        continguts lliurement, sempre que respecteu els termes de la llicència
+        (incloent-hi la indicació de canvis realitzats i la inclusió de la
+        llicència).
+      </p>
+      <p>
+        <strong>Excepcions:</strong> El nom "Adoptar.cat", el logotip del lloc i
+        les icones/imatges d'animals no estan coberts per aquesta llicència
+        oberta. Aquests elements són propietat exclusiva del responsable del
+        lloc i no poden ser utilitzats en obres derivades, forks o altres
+        projectes sense autorització expressa per escrit.
+      </p>
+      <p>
+        Els logotips i altres materials proporcionats per terceres parts
+        (associacions, entitats, etc.) poden tenir les seves pròpies llicències
+        i restriccions d'ús.
       </p>
     </section>
 

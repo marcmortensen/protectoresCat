@@ -310,7 +310,6 @@ Contributions are welcome! When contributing:
 1. Ensure all tests pass
 2. Follow the existing code style
 3. Update/Add relevant documentation
-4. Make sure your changes passes all validation tests
 
 ## License
 

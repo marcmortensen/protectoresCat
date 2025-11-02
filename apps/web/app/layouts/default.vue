@@ -140,7 +140,7 @@ const isDark = computed({
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div
-          class="flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+          class="flex flex-col lg:flex-row sm:items-center justify-between gap-4"
         >
           <div
             class="text-xs text-gray-400 dark:text-white text-left sm:text-right mt-2 sm:mt-0 px-2.5 py-1.5"
@@ -151,6 +151,16 @@ const isDark = computed({
           <div
             class="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 text-sm"
           >
+            <UButton
+              class="text-gray-600 dark:text-white hover:text-primary"
+              variant="link"
+              icon="i-lucide-github"
+              to="https://github.com/marcmortensen/protectoresCat"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+              label="GitHub"
+            />
             <UButton
               class="text-gray-600 dark:text-white hover:text-primary"
               variant="link"
