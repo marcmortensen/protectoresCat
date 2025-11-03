@@ -117,7 +117,6 @@ export const organizations: Organization[] = [
     slug: 'girogats',
     name: 'GiroGats',
     shortName: 'GiroGats',
-    logo: 'http://girogats.org/wp-content/uploads/2015/03/LogoGiroGats.png',
     contactEmail: 'girogats@gmail.com',
     website: 'https://girogats.org',
     region: 'girones',
@@ -131,7 +130,7 @@ export const organizations: Organization[] = [
     municipality: 'Girona',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-10-30T00:00:00.000Z',
+    lastUpdate: '2025-11-03T00:00:00.000Z',
     socials: [
       {
         type: 'instagram',
@@ -143,7 +142,7 @@ export const organizations: Organization[] = [
       },
     ],
     dateOfInscription: '2011-11-28T00:00:00.000Z',
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '203c1720',
