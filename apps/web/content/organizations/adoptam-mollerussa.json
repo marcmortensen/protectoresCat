@@ -14,7 +14,7 @@
   "isMunicipal": false,
   "associativeInscriptionNumber": "73741",
   "isActive": true,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "lastUpdate": "2025-11-03T00:00:00.000Z",
   "dateOfInscription": "2023-09-18T00:00:00.000Z",
   "socials": [
     {
@@ -22,8 +22,9 @@
       "url": "https://www.instagram.com/adoptam_mollerussa/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-31T00:00:00.000Z",
+    "lastmod": "2025-11-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

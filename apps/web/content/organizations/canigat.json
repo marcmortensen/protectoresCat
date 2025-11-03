@@ -5,7 +5,7 @@
   "shortName": "Canigat",
   "logo": "https://totesvida.org/_mibambu/_canigat/imas/logo-canigat.png",
   "contactEmail": "miau@canigat.org",
-  "website": "https://totesvida.org",
+  "website": "https://canigat.org",
   "region": "anoia",
   "province": "barcelona",
   "description": "Canigat Vallbona d’Anoia és una associació sense ànim de lucre formada només per persones voluntàries que vetllem pel benestar animal. La nosta activitat principal és la creació i gestió de colònies de gats comunitaris en els municipis on actuem, busquem localitzacions i mirem com generar un espai d’alimentació i refugi de manera segura per ells i que no sigui molt visible. Esterilitzem els gats mitjançant el mètode CER (Captura, Esterilització i Retorn), els alimentem i fem seguiment de salut. Rescatem cadells, animals abandonats i/o ferits per donar-los una nova oportunitat a través d’adopcions responsables i oferir-los una nova vida ben lluny del carrer. Treballem amb voluntaris dels mateixos municipis i juntament amb els consistoris assessorem i ajudem a pacificar situacions que a vegades es generen entre veïns en relació amb els animals.",
@@ -16,7 +16,7 @@
   "municipality": "Vallbona d'Anoia",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "lastUpdate": "2025-11-03T00:00:00.000Z",
   "dateOfInscription": "2017-01-10T00:00:00.000Z",
   "socials": [
     {
@@ -28,8 +28,9 @@
       "url": "https://www.instagram.com/canigat_vallbona/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-31T00:00:00.000Z",
+    "lastmod": "2025-11-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

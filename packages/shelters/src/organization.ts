@@ -1654,7 +1654,7 @@ export const organizations: Organization[] = [
     logo: 'https://totesvida.org/_mibambu/_canigat/imas/logo-canigat.png',
     contactEmail: 'miau@canigat.org',
     contactPhone2: undefined,
-    website: 'https://totesvida.org',
+    website: 'https://canigat.org',
     region: 'anoia',
     province: 'barcelona',
     description:
@@ -1667,7 +1667,7 @@ export const organizations: Organization[] = [
     municipality: `Vallbona d'Anoia`,
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-10-31T00:00:00.000Z',
+    lastUpdate: '2025-11-03T00:00:00.000Z',
     dateOfInscription: '2017-01-10T00:00:00.000Z',
     socials: [
       {
@@ -1679,7 +1679,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/canigat_vallbona/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'b577de98',
@@ -2531,7 +2531,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '73741',
     isActive: true,
-    lastUpdate: '2025-10-31T00:00:00.000Z',
+    lastUpdate: '2025-11-03T00:00:00.000Z',
     dateOfInscription: '2023-09-18T00:00:00.000Z',
     socials: [
       {
@@ -2539,7 +2539,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/adoptam_mollerussa/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '423d03b7',
@@ -2632,6 +2632,7 @@ export const organizations: Organization[] = [
     shortName: `Gatera municipal Tàrrega`,
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/9/6/3/1/witvufbhh6.png',
     region: 'urgell',
+    contactEmail: 'tarregats@gmail.com',
     province: 'lleida',
     description: `Som una associació sense ànim de lucre dedicada al benestar dels gats de Tàrrega (Lleida). Gestionem la gatera municipal i treballem per millorar la vida dels gats de carrer mitjançant el mètode CER (captura, esterilització i retorn). Oferim refugi i atenció veterinària a gats amb possibilitat de ser adoptats. El manteniment de la gatera suposa un gran esforç i cost, i no rebem subvencions. Ens ajudes a continuar ajudant-los?`,
     adoptAnimalsURL: 'https://www.instagram.com/gateradetarrega/',
@@ -2642,7 +2643,7 @@ export const organizations: Organization[] = [
     isMunicipal: false,
     associativeInscriptionNumber: '62793',
     isActive: true,
-    lastUpdate: '2025-10-31T00:00:00.000Z',
+    lastUpdate: '2025-11-03T00:00:00.000Z',
     dateOfInscription: '2018-03-01T00:00:00.000Z',
     socials: [
       {
@@ -2650,7 +2651,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/gateradetarrega/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'c7267902',
