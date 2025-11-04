@@ -1,0 +1,31 @@
+{
+  "id": "d4f8a140",
+  "slug": "cor-de-la-muga",
+  "name": "Asociación Cor de la Muga",
+  "shortName": "Cor de la Muga",
+  "animalFocus": "cats",
+  "region": "alt-emporda",
+  "province": "girona",
+  "municipalityInscription": "Sant Llorenç de la Muga",
+  "municipality": "Sant Llorenç de la Muga",
+  "contactEmail": "cordelamuga@gmail.com",
+  "description": "L'Associació Cor de la Muga és una protectora d’animals de Sant Llorenç de la Muga formada per un grup de voluntàries compromeses amb la protecció i el benestar animal. L’entitat actua principalment al municipi i a les poblacions veïnes, vetllant pels animals que es troben en situació d’abandonament o de risc. Entre les seves activitats destaquen la cura i el control de les colònies felines locals, promovent-ne l’esterilització i assegurant-ne un seguiment adequat, així com el rescat i l’adopció responsable d’animals. A més, l’associació treballa per fomentar una convivència respectuosa entre la ciutadania i els gats del carrer.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2025-11-04T00:00:00.000Z",
+  "associativeInscriptionNumber": "76919",
+  "dateOfInscription": "2025-02-07T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/cor_de_la_muga/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/cor_de_la_muga/"
+    }
+  ],
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-11-04T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
