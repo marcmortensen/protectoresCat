@@ -131,9 +131,12 @@ describe('organizations', () => {
         );
       }
       expect(org.province).toBe(regionToProvince[org.region]);
-      expect(org.region).toBe(
-        municipalityToRegion[org.municipalityInscription],
-      );
+      expect(org.region).toBe(municipalityToRegion[org.municipality]);
+      if (org.municipalityInscription) {
+        expect(org.region).toBe(
+          municipalityToRegion[org.municipalityInscription],
+        );
+      }
     }
   });
   it('checks logos', async () => {

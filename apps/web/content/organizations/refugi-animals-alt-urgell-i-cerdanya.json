@@ -1,0 +1,42 @@
+{
+  "id": "f40fcdfa",
+  "slug": "refugi-animals-alt-urgell-i-cerdanya",
+  "name": "Centre d'Adopcions d'Animals Alt Urgell i Cerdanya",
+  "shortName": "Refugi d'Animals de Benavarre",
+  "animalFocus": "cats&dogs",
+  "contactEmail": "refugianimals@ccau.cat",
+  "region": "alt-urgell",
+  "additionalRegions": [
+    "cerdanya"
+  ],
+  "province": "lleida",
+  "municipality": "la Seu d'Urgell",
+  "contactPhone": "690691494",
+  "contactPhone2": "973353112",
+  "socials": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/refugianimalsbenavarre"
+    }
+  ],
+  "shelter": [
+    {
+      "googleMapsLink": "https://maps.app.goo.gl/YTYF84BLLDVSzcQi6",
+      "phone": "973353112",
+      "adress": "Partida de Benavarre, s/n 25700 La Seu d'Urgell",
+      "openingHoursURL": "https://www.alturgell.cat/refugi-supracomarcal-animals"
+    }
+  ],
+  "description": "Des de l’abril de 2025, el Refugi Supracomarcal d’Animals Abandonats de Benavarre és gestionat directament pel Consell Comarcal de l’Alt Urgell. Aquest servei dona cobertura a tots els municipis de les comarques de l’Alt Urgell i la Cerdanya, garantint la recollida, atenció i fomentant l’adopció dels animals abandonats del territori.",
+  "isActive": true,
+  "isMunicipal": true,
+  "lastUpdate": "2025-11-05T00:00:00.000Z",
+  "website": "https://www.alturgell.cat/refugi-supracomarcal-animals",
+  "adoptAnimalsURL": "https://www.facebook.com/refugianimalsbenavarre",
+  "enabledLogoUsage": true,
+  "sitemap": {
+    "lastmod": "2025-11-05T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
