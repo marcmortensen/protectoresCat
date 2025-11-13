@@ -993,7 +993,6 @@ export const organizations: Organization[] = [
     name: `Associació Els Peluts de Navarcles`,
     shortName: `Els Peluts de Navarcles`,
     contactEmail: 'ass.pelutsnavarcles@gmail.com',
-    whatsAppPhone: '665018987',
     logo: 'https://cdn.sukycms.com/shelters/60/images/logo.png',
     region: 'bages',
     province: 'barcelona',
@@ -1006,7 +1005,7 @@ export const organizations: Organization[] = [
     municipality: 'Navarcles',
     isMunicipal: false,
     website: 'https://pelutsnavarcles.sukycms.com',
-    lastUpdate: '2025-10-30T00:00:00.000Z',
+    lastUpdate: '2025-11-13T00:00:00.000Z',
     dateOfInscription: '2017-01-10T00:00:00.000Z',
     isActive: true,
     socials: [
@@ -1019,7 +1018,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/elspelutsnavarcles',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '432e15c5',

@@ -4,7 +4,6 @@
   "name": "Associació Els Peluts de Navarcles",
   "shortName": "Els Peluts de Navarcles",
   "contactEmail": "ass.pelutsnavarcles@gmail.com",
-  "whatsAppPhone": "665018987",
   "logo": "https://cdn.sukycms.com/shelters/60/images/logo.png",
   "region": "bages",
   "province": "barcelona",
@@ -16,7 +15,7 @@
   "municipality": "Navarcles",
   "isMunicipal": false,
   "website": "https://pelutsnavarcles.sukycms.com",
-  "lastUpdate": "2025-10-30T00:00:00.000Z",
+  "lastUpdate": "2025-11-13T00:00:00.000Z",
   "dateOfInscription": "2017-01-10T00:00:00.000Z",
   "isActive": true,
   "socials": [
@@ -29,8 +28,9 @@
       "url": "https://www.instagram.com/elspelutsnavarcles"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-30T00:00:00.000Z",
+    "lastmod": "2025-11-13T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
