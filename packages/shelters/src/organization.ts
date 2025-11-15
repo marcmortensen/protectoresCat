@@ -1119,7 +1119,7 @@ export const organizations: Organization[] = [
     municipality: 'Lleida',
     isMunicipal: false,
     isActive: true,
-    lastUpdate: '2025-10-30T00:00:00.000Z',
+    lastUpdate: '2025-11-15T00:00:00.000Z',
     dateOfInscription: '2001-03-14T00:00:00.000Z',
     socials: [
       {
@@ -1131,7 +1131,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/protectora_lydiaargiles/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'e16fc6bb',
@@ -7222,7 +7222,7 @@ export const organizations: Organization[] = [
   {
     id: '0ed0e4ed',
     slug: 'daima',
-    name: `Associació Defensa dels Animals i el Medi Ambient`,
+    name: `Associació de la Vall d'Àger per a la defensa dels Animals i el Medi Ambient`,
     shortName: `DAIMA`,
     animalFocus: 'cats&dogs',
     contactEmail: 'associaciodaima@gmail.com',
@@ -7235,7 +7235,7 @@ export const organizations: Organization[] = [
     description: `DAIMA és una associació de la Vall d'Àger dedicada a la defensa dels animals i el medi ambient. Els seus objectius principals són la protecció dels animals domèstics i salvatges, la conservació del patrimoni natural i la promoció de la justícia mediambiental. Per aconseguir-ho, l’associació acull i assisteix animals abandonats o maltractats, fomenta l’adopció, col·labora amb l’administració en la recollida d’animals, canalitza denúncies de maltractament, i promou la sensibilització ciutadana.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-03-21T00:00:00.000Z',
+    lastUpdate: '2025-11-15T00:00:00.000Z',
     logo: 'https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/1/8/3/1/s597hkxyus.jpg',
     website: undefined,
     adoptAnimalsURL: 'https://www.facebook.com/AssociacioDAIMA',
@@ -7251,7 +7251,7 @@ export const organizations: Organization[] = [
         url: 'https://www.instagram.com/daimasoc/',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: '196ba3e4',

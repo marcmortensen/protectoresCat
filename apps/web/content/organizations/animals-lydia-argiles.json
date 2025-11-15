@@ -26,7 +26,7 @@
   "municipality": "Lleida",
   "isMunicipal": false,
   "isActive": true,
-  "lastUpdate": "2025-10-30T00:00:00.000Z",
+  "lastUpdate": "2025-11-15T00:00:00.000Z",
   "dateOfInscription": "2001-03-14T00:00:00.000Z",
   "socials": [
     {
@@ -38,8 +38,9 @@
       "url": "https://www.instagram.com/protectora_lydiaargiles/"
     }
   ],
+  "enabledLogoUsage": true,
   "sitemap": {
-    "lastmod": "2025-10-30T00:00:00.000Z",
+    "lastmod": "2025-11-15T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
