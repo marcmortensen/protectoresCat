@@ -9141,7 +9141,7 @@ export const organizations: Organization[] = [
     description: `L'Entitat Animalista de Salt és una associació sense ànim de lucre formada per voluntàries que es dedica al benestar animal, rescatem animals perduts o abandonats, donem acollida i gestionem adopcions. També ens ocupem dels gats de carrer del municipi. La nostra feina suposa un elevat cost en veterinaris, alimentació, etc. Per això necessitem la vostra ajuda per seguir ajudant!`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-09-28T00:00:00.000Z',
+    lastUpdate: '2025-11-16T00:00:00.000Z',
     associativeInscriptionNumber: '62201',
     dateOfInscription: '2017-11-21T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/animalista.salt',
@@ -9155,7 +9155,7 @@ export const organizations: Organization[] = [
         url: 'https://www.facebook.com/profile.php?id=100082959117770',
       },
     ],
-    enabledLogoUsage: undefined,
+    enabledLogoUsage: true,
   },
   {
     id: 'f9dca8ab',
