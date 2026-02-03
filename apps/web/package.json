@@ -24,7 +24,6 @@
     "@nuxtjs/sitemap": "7.4.7",
     "@tailwindcss/vite": "4.1.16",
     "@unhead/schema-org": "2.0.19",
-    "better-sqlite3": "12.4.1",
     "date-fns": "4.1.0",
     "eslint": "9.38.0",
     "nuxt": "4.1.3",
