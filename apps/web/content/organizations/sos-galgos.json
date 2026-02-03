@@ -5,6 +5,7 @@
   "shortName": "SOS Galgos",
   "animalFocus": "dogs",
   "contactEmail": "info@sosgalgos.org",
+  "contactPhone": "933727750",
   "region": "baix-llobregat",
   "province": "barcelona",
   "municipalityInscription": "Esplugues de Llobregat",
@@ -22,14 +23,14 @@
   "description": "SOS Galgos és una associació sense ànim de lucre, que té com a objectiu rescatar llebrers espanyols desemparats brindant-los la possibilitat d'iniciar una nova vida, formant part d'una família que els vulgui i els protegeixi com a animal de companyia.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-13T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/8/5/4/0/0/pcmdcvv4by.jpg",
   "website": "https://www.sosgalgos.org",
   "adoptAnimalsURL": "https://www.sosgalgos.org/adopta-un-galgo-rescatado",
   "associativeInscriptionNumber": "23482",
   "dateOfInscription": "2000-06-02T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-02-13T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

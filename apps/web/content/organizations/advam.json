@@ -7,6 +7,7 @@
   "contactEmail": "asociacionadvam@gmail.com",
   "region": "valles-occidental",
   "contactPhone": "609165183",
+  "whatsAppPhone": "609165183",
   "province": "barcelona",
   "municipalityInscription": "Montcada i Reixac",
   "municipality": "Montcada i Reixac",
@@ -23,14 +24,14 @@
   "description": "AdVAM (Associació de Voluntaris Animalistes de Montcada i Reixac) és una entitat sense ànim de lucre que protegeix els animals abandonats i maltractats. Els seus objectius inclouen rescat, cures veterinàries, adopció, control de colònies de gats ferals, i sensibilització sobre el respecte pels animals. També rebutja l'experimentació animal i la seva utilització en espectacles. La col·laboració de socis, donacions i voluntaris és essencial per dur a terme aquestes tasques.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-11T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://advam.org/_mibambu/_advam/imas/logo.jpg",
   "website": "https://advam.org",
   "adoptAnimalsURL": "https://www.instagram.com/advammontcada",
   "associativeInscriptionNumber": "46637",
   "dateOfInscription": "2011-11-29T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-02-11T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

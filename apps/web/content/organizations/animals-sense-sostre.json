@@ -4,7 +4,8 @@
   "name": "Associació Animals sense Sostre",
   "shortName": "Animals sense Sostre",
   "animalFocus": "cats&dogs",
-  "contactEmail": "animalssensesostre@gmail.com",
+  "contactEmail": "adopciones.ass@gmail.com",
+  "whatsAppPhone": "633188131",
   "region": "barcelones",
   "province": "barcelona",
   "municipalityInscription": "Barcelona",
@@ -29,14 +30,14 @@
   "description": "Animals Sense Sostre és una associació protectora sense ànim de lucre, entitat col·laboradora del departament de Medi Ambient de la Generalitat de Catalunya, registre 27086, dedicada des de l'any 2002 a l'acollida d'animals abandonats amb la finalitat de cuidar-los i aconseguir-los una bona llar. Depenen de l'associació una mitjana anual de 200 gossos i 30 gats. Els animals es lliuren als seus adoptants amb contracte d'adopció, esterilitzats, vacunats, desparasitats, externament i internament, microxipats i amb cartilla sanitària.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-12T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://animalssensesostre.org/_mibambu/_ass/imas/logo.png",
   "website": "https://animalssensesostre.org",
   "adoptAnimalsURL": "https://animalssensesostre.org/la-47-perros-en-adopcion",
   "associativeInscriptionNumber": "27086",
   "dateOfInscription": "2002-12-18T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-02-12T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

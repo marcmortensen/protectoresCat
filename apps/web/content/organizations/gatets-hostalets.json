@@ -5,6 +5,7 @@
   "shortName": "Gatets dels Hostalets",
   "animalFocus": "cats",
   "contactPhone": "689383007",
+  "contactPhone2": "671701204",
   "whatsAppPhone": "660984612",
   "region": "anoia",
   "province": "barcelona",
@@ -23,13 +24,13 @@
   "description": "Gatets del Hostalets és un projecte de gestió i control de colònies de gats del carrer. Creiem que els gatets del carrer han de tenir una vida digna, per aixó vam decidir aportar el nostre petit granet de sorra pel seu benestar. Perquè les accions locals impacten al món, i a la vida. Ens ajudes? Amb un euro mensual, ens ajudaràs amb el menjar, les despeses veterinàries, gateres per les colònies.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-12T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/5/2/5/5/2/s233gg7sol.png",
   "adoptAnimalsURL": "https://www.instagram.com/gatetshostalets/",
   "associativeInscriptionNumber": "69157",
   "dateOfInscription": "2021-03-31T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-02-12T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

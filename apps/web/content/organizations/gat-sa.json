@@ -5,8 +5,6 @@
   "shortName": "Gat sà",
   "animalFocus": "cats&dogs",
   "contactEmail": "associaciogatsa@gmail.com",
-  "whatsAppPhone": "682275599",
-  "contactPhone": "682275599",
   "region": "alt-penedes",
   "province": "barcelona",
   "municipalityInscription": "Sant Sadurní d'Anoia",
@@ -24,14 +22,14 @@
   "description": "GAT SÀ, fundat el 2001 amb el suport de l'Ajuntament de Sant Sadurní d'Anoia, té com a objectiu integrar els gats de carrer al paisatge urbà. Gestionen colònies utilitzant el mètode CER (Captura, Esterilització i Retorn) i fan adopcions responsables.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-11T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://cdn.sukycms.com/shelters/320/images/logo.png",
-  "website": "https://gatsa.protecms.com",
+  "website": "https://gatsa.sukycms.com",
   "adoptAnimalsURL": "https://www.instagram.com/gatsasantsadurni/",
   "associativeInscriptionNumber": "25762",
   "dateOfInscription": "2002-02-08T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-02-11T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

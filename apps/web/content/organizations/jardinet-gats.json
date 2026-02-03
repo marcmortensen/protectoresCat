@@ -24,14 +24,14 @@
   "description": "Som una entitat sense ànim de lucre fundada el 2008, nascuda d'un projecte iniciat el 2004, amb l'objectiu de cuidar i protegir els gats de carrer i abandonats de Ciutat Vella. Un equip de voluntaris treballa de manera desinteressada per millorar la seva qualitat de vida i benestar.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-11T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://www.eljardinetdelsgats.org/wp-content/themes/generatepress/img/logo.png",
-  "website": "https://www.eljardinetdelsgats.org/ca",
-  "adoptAnimalsURL": "https://www.eljardinetdelsgats.org/ca/category/per-adoptar/",
+  "website": "https://www.eljardinetdelsgats.org/",
+  "adoptAnimalsURL": "https://www.eljardinetdelsgats.org/category/per-adoptar/",
   "associativeInscriptionNumber": "36082",
   "dateOfInscription": "2008-02-01T00:00:00.000Z",
   "sitemap": {
-    "lastmod": "2025-02-11T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
