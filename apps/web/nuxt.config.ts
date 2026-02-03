@@ -33,6 +33,13 @@ export default defineNuxtConfig({
 
   vite: {
     plugins: [tailwindcss(), content({ xml: { enabled: true } })],
+    server: {
+      hmr: {
+        protocol: "ws",
+        host: "localhost",
+        clientPort: 3000,
+      },
+    },
   },
   css: ["~/assets/css/main.css"],
   compatibilityDate: "2024-11-01",
