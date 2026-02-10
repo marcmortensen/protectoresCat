@@ -2,7 +2,7 @@
   "id": "f2ae90c4",
   "slug": "associacio-masnougats",
   "name": "Associació Masnougats",
-  "shortName": "Masnou Gats",
+  "shortName": "MasnouGats",
   "animalFocus": "cats",
   "whatsAppPhone": "666478350",
   "contactEmail": "masnougats@gmail.com",
@@ -29,6 +29,7 @@
   "adoptAnimalsURL": "https://masnougats.cat/adopta",
   "associativeInscriptionNumber": "52448",
   "dateOfInscription": "2014-03-07T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

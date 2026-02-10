@@ -12,7 +12,7 @@
   "description": "Adopta Un Amic és una entitat sense ànim de lucre fundada a Mollet del Vallès el 2013. El nostre principal objectiu és rescatar animals que han patit abandó i donar-los una segona oportunitat. No disposem de refugi, per això treballem amb cases d'acollida. Tenim alguns dels nostres gossos en residència, que això suposa un cost molt alt al mes. Ens encarreguem de la manutenció i els veterinaris d'uns 60 gats.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "lastUpdate": "2026-02-10T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/1/9/1/0/ynjhizzjyn.png",
   "website": "https://adoptaunamic.org",
   "adoptAnimalsURL": "https://adoptaunamic.org/listado",
@@ -29,7 +29,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-15T00:00:00.000Z",
+    "lastmod": "2026-02-10T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

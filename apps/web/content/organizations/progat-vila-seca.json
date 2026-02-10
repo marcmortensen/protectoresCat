@@ -13,7 +13,8 @@
   "description": "Progat Vila-seca és una entitat sense ànim de lucre que pretén controlar i gestionar les colònies de gats lliures a la nostra ciutat per millorar-ne la qualitat de vida i la de les persones que hi conviuen.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "website": "https://progatvilaseca.blogspot.com",
+  "lastUpdate": "2026-02-10T00:00:00.000Z",
   "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ077LtsAhyphenhyphenhEzX2HAY1bXCHAIBEVW-QusMUc1H2EIrpvJc-26t-AsqWoyFqxASqN0DAVQixS-K35HJEc-HtPDUuAqc2v2hmdyLrCx3UZXpsV2ieXLLT2pnSH-uoouCP5arDmFhNSic74-/s150/LOGO.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/progatvilaseca/",
   "associativeInscriptionNumber": "38110",
@@ -29,7 +30,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-15T00:00:00.000Z",
+    "lastmod": "2026-02-10T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

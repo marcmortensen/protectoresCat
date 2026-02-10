@@ -12,7 +12,7 @@
   "description": "AMANCU va ser creada el 2016 per voluntaris amb l'objectiu de millorar el benestar dels gossos i els gats de la gossera municipal de Cunit. Al març de 2024, després de 8 anys gestionant la gossera municipal de Cunit, vam començar el nostre camí com a associació sense cap mena d'ajuda pública. No hem abandonat cap dels peludxs que teníem, tots estan amb nosaltres al refugi o en cases d'acollida. A la nostra nova llar no hi havia més que una casa, així que ens vam posar a construir totes les gàbies, una a una, pensant en cadascun d'ells.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-15T00:00:00.000Z",
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "logo": "https://cdn.sukycms.com/shelters/59/images/spnYbXFEs0Lt7kg9BAi4wurfk1NrybnHvQe82Gcx.jpg",
   "website": "https://amancu.protecms.com",
   "adoptAnimalsURL": "https://amancu.protecms.com/animales",
@@ -29,7 +29,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-15T00:00:00.000Z",
+    "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
