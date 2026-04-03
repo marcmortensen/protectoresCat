@@ -1,5 +1,5 @@
 import { defineCollection, defineContentConfig, z } from "@nuxt/content";
-import { asSitemapCollection } from "@nuxtjs/sitemap/content";
+import { defineSitemapSchema } from "@nuxtjs/sitemap/content";
 
 const regionSchema = z.union([
   z.literal("alt-camp"),
@@ -82,66 +82,60 @@ export default defineContentConfig({
         province: provinceSchema,
       }),
     }),
-    organizations: defineCollection(
-      asSitemapCollection({
-        type: "page",
-        source: "organizations/*.json",
-        schema: z.object({
-          id: z.string(),
-          slug: z.string(),
-          name: z.string(),
-          shortName: z.string(),
-          contactEmail: z.string().optional(),
-          whatsAppPhone: z.string().optional(),
-          contactPhone: z.string().optional(),
-          contactPhone2: z.string().optional(),
-          website: z.string().optional(),
-          region: regionSchema,
-          additionalRegions: z.array(regionSchema).optional(),
-          province: provinceSchema,
-          description: z.string(),
-          adoptAnimalsURL: z.string().optional(),
-          animalFocus: animalsSchema,
-          shelter: z
-            .array(
-              z.object({
-                adress: z.string(),
-                googleMapsLink: z.string(),
-                phone: z.string().optional(),
-                openingHoursURL: z.string().optional(),
-              })
-            )
-            .optional(),
-          idZoologicalNucleus: z.string().optional(),
-          associativeInscriptionNumber: z.string().optional(),
-          dateOfInscription: z.string().optional(),
-          municipality: z.string(),
-          municipalityInscription: z.string(),
-          isMunicipal: z.boolean(),
-          isActive: z.boolean(),
-          lastUpdate: z.string(),
-          enabledLogoUsage: z.boolean(),
-          socials: z
-            .array(
-              z.object({
-                type: z.union([
-                  z.literal("facebook"),
-                  z.literal("instagram"),
-                  z.literal("tiktok"),
-                  z.literal("twitter"),
-                ]),
-                url: z.string(),
-              })
-            )
-            .optional(),
-          sitemap: z.object({
-            lastmod: z.string(),
-            changefreq: z.string(),
-            priority: z.number(),
-          }),
-        }),
-      })
-    ),
+    organizations: defineCollection({
+      type: "page",
+      source: "organizations/*.json",
+      schema: z.object({
+        id: z.string(),
+        slug: z.string(),
+        name: z.string(),
+        shortName: z.string(),
+        contactEmail: z.string().optional(),
+        whatsAppPhone: z.string().optional(),
+        contactPhone: z.string().optional(),
+        contactPhone2: z.string().optional(),
+        website: z.string().optional(),
+        region: regionSchema,
+        additionalRegions: z.array(regionSchema).optional(),
+        province: provinceSchema,
+        description: z.string(),
+        adoptAnimalsURL: z.string().optional(),
+        animalFocus: animalsSchema,
+        shelter: z
+          .array(
+            z.object({
+              adress: z.string(),
+              googleMapsLink: z.string(),
+              phone: z.string().optional(),
+              openingHoursURL: z.string().optional(),
+            })
+          )
+          .optional(),
+        idZoologicalNucleus: z.string().optional(),
+        associativeInscriptionNumber: z.string().optional(),
+        dateOfInscription: z.string().optional(),
+        municipality: z.string(),
+        municipalityInscription: z.string(),
+        isMunicipal: z.boolean(),
+        isActive: z.boolean(),
+        lastUpdate: z.string(),
+        enabledLogoUsage: z.boolean(),
+        socials: z
+          .array(
+            z.object({
+              type: z.union([
+                z.literal("facebook"),
+                z.literal("instagram"),
+                z.literal("tiktok"),
+                z.literal("twitter"),
+              ]),
+              url: z.string(),
+            })
+          )
+          .optional(),
+        sitemap: defineSitemapSchema({ name: "organizations" }),
+      }),
+    }),
     organizationByRegion: defineCollection({
       type: "data",
       source: "organizationsByRegion/*.json",

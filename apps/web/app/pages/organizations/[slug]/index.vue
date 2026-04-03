@@ -231,7 +231,7 @@ useSchemaOrg([
               {{ data.org.name }}
             </p>
             <div class="flex items-center gap-2">
-              <UIcon name="i-lucide-map-pin" class="size-5 shrink-0" />
+              <UIcon name="i-lucide-map-pin" class="size-4 shrink-0" />
               <span>{{
                 `${data.org.municipality}, ${currentRegion!.name}`
               }}</span>
@@ -272,6 +272,7 @@ useSchemaOrg([
                 color="primary"
                 icon="i-lucide-paw-print"
                 label="Vull adoptar"
+                :ui="{ leadingIcon: 'size-4' }"
                 @click="onClick"
               />
             </span>
@@ -321,16 +322,17 @@ useSchemaOrg([
                     <UIcon
                       v-if="social.icon"
                       :name="social.icon"
-                      class="size-5 shrink-0"
+                      class="size-4 shrink-0"
                       :aria-label="social.name"
                     />
                     <SvgoSocialsTikTok
                       v-if="social.type === 'tiktok'"
-                      class="size-5 shrink-0"
+                      :font-controlled="false"
+                      class="size-4 shrink-0"
                     />
                     <div
                       v-if="social.type === 'twitter'"
-                      class="size-3 flex items-center justify-center"
+                      class="size-4 flex items-center justify-center"
                     >
                       𝕏
                     </div>
@@ -362,12 +364,13 @@ useSchemaOrg([
                     <UIcon
                       v-if="phone.icon"
                       :name="phone.icon"
-                      class="size-5 shrink-0"
+                      class="size-4 shrink-0"
                       :aria-label="phone.name"
                     />
                     <SvgoSocialsWhatsApp
                       v-if="phone.type === 'whatsApp'"
-                      class="size-5 shrink-0"
+                      :font-controlled="false"
+                      class="size-4 shrink-0"
                       :aria-label="phone.name"
                     />
                   </template>
@@ -440,7 +443,7 @@ useSchemaOrg([
             class="flex flex-col justify-center gap-1 p-2"
           >
             <div class="flex items-center gap-1.5 px-2.5 py-1.5">
-              <UIcon name="i-lucide-building" class="size-5 shrink-0" />
+              <UIcon name="i-lucide-building" class="size-4 shrink-0" />
               <span class="flex text-gray-700 dark:text-gray-200">
                 {{ shelter.adress }}
               </span>

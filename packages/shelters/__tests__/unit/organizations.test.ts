@@ -1,3 +1,4 @@
+/* eslint-disable vitest/no-conditional-expect */
 import { describe, expect, it } from 'vitest';
 import { organizations } from '../../src/organization.js';
 import {
