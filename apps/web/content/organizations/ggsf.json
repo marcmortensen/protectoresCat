@@ -4,7 +4,7 @@
   "name": "Associació Gats i Gossos Sant Feliu",
   "shortName": "GGSF",
   "contactEmail": "gatsigossosfeliu@gmail.com",
-  "animalFocus": "cats&dogs",
+  "animalFocus": "cats",
   "region": "baix-llobregat",
   "province": "barcelona",
   "municipalityInscription": "Sant Feliu de Llobregat",
@@ -12,7 +12,7 @@
   "description": "Gats i Gossos Sant Feliu és una associació sense ànim de lucre de Sant Feliu de Llobregat dedicada a la lluita per la protecció i la defensa dels animals del municipi inscrita com a tal al registre d'entitats de la Generalitat de Catalunya. Es treballa amb cases d´acollida, ja que fins ara no disposa de refugi. GGSF s'ocupa de la gestió de colònies i es vol establir protocols davant dels avisos de casos de gats i/o gossos perduts, maltractaments i cessions al municipi.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/3/2/0/6/0/5sqestdzra.jpg",
   "website": "https://gatsigossos.protecms.com",
   "adoptAnimalsURL": "https://gatsigossos.protecms.com/animales?status-in=adoption%2Creserved",
@@ -29,7 +29,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-25T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

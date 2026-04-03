@@ -13,7 +13,7 @@
   "description": "MATICA és una associació d´animals que rescata animals abandonats i sense llar. Ajudem els animals a recuperar-se de la desnutrició, de les malalties i de les ferides psicològiques que pugui presentar. Un cop recuperat comença el procés d'adopció, on s'avaluen les famílies interessades i es busca la millor opció per als animals.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/6/9/1/6/7/tj4lasefxw.jpeg",
   "adoptAnimalsURL": "https://www.instagram.com/matica_animal_rescue/",
   "associativeInscriptionNumber": "70853",
@@ -29,7 +29,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

@@ -13,7 +13,7 @@
   "description": "Som una fundació privada, sense ànim de lucre i totalment independent. Ens vam constituir formalment el 2007 (tot i que vam començar rescatant animals que ho necessitaven molt abans) i la fundació està inscrita al Registre de la Generalitat de Catalunya amb el núm. 2374.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/9/2/7/0/cfelc9kbzo.png",
   "website": "https://fundaciosilvestre.org",
   "adoptAnimalsURL": "https://fundaciosilvestre.org/la-26-adopcion-de-gatos",
@@ -23,10 +23,18 @@
     {
       "type": "instagram",
       "url": "https://www.instagram.com/fundaciosilvestre/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/FundacioSilvestre"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@fundaciosilvestre"
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-24T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

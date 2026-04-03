@@ -6,6 +6,7 @@
   "animalFocus": "cats",
   "contactEmail": "gatsdebrafim@gmail.com",
   "contactPhone": "639265878",
+  "whatsAppPhone": "639265878",
   "region": "alt-camp",
   "province": "tarragona",
   "municipalityInscription": "Bràfim",
@@ -13,7 +14,7 @@
   "description": "Gats de Bràfim és una associació sense ànim de lucre que realitza la tasca cívica de dignificar i protegir la vida dels gats de carrer. Per aconseguir aquest fi, l’associació realitza les activitats següents: Esterilització de les colònies de gats del nostre poble per evitar el creixement descontrolat de la població de gats i l’abandonament de camades que moren al carrer. Emprant el mètode CER (Captura/Esterilització/Retorn).",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.instagram.com/gatsdebrafim/",
   "associativeInscriptionNumber": "60340",
   "dateOfInscription": "2017-02-07T00:00:00.000Z",
@@ -28,7 +29,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-25T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

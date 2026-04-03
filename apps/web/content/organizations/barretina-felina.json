@@ -3,7 +3,6 @@
   "slug": "barretina-felina",
   "name": "Associació La Barretina Felina",
   "shortName": "La Barretina Felina",
-  "contactEmail": "873.la.barretina.felina@gmail.com",
   "animalFocus": "cats",
   "region": "urgell",
   "province": "lleida",
@@ -12,7 +11,7 @@
   "description": "La Barretina Felina som una associació sense ànim de lucre creada el 2011 a Tàrrega ( Lleida) amb el propòsit de donar assistència als gats que viuen al carrer, procurant que tinguin més qualitat de vida (esterilitzant, desparasitant, vacunant, alimentant).",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/8/4/4/0/x4ozfasjue.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/labarretinafelina/",
   "associativeInscriptionNumber": "47099",
@@ -24,7 +23,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

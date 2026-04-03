@@ -13,7 +13,7 @@
   "description": "Badagats és una associació sense ànim de lucre, amb més de 300 gats, l'objectiu dels quals és ajudar, acollir i millorar la qualitat de vida dels gats abandonats i del carrer. Volem donar a conèixer els nostres gats i aconseguir adopcions responsables. A més de seguir amb la nostra tasca de rescatar, cuidar i esterilitzar.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "website": "https://badagats.org",
   "adoptAnimalsURL": "https://badagats.org/listado",
   "associativeInscriptionNumber": "30006",
@@ -25,7 +25,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-24T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

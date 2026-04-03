@@ -11,7 +11,8 @@
   "description": "Huellas Felices de Canyelles (Garraf). Cuidem, alimentem, esterilitzem, i ens encarreguem de les cures veterinàries, i que tinguin la millor vida possible els gats. Actualment tenim 300 gats.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "whatsAppPhone": "609718583",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.facebook.com/amicsdelsanimalsdecanyelleshuellasfelices",
   "associativeInscriptionNumber": "57985",
   "dateOfInscription": "2016-02-17T00:00:00.000Z",
@@ -26,7 +27,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-25T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

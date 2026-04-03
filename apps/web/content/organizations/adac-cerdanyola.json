@@ -12,7 +12,7 @@
   "description": "Som una petita associació de defensa d'animals de Cerdanyola del Vallès que intenta cuidar i protegir els gats de carrer de la nostra comunitat. El nostre objectiu és millorar la qualitat de vida dels gats assilvestrats, amb el mètode de capturar, esterilitzar i deixar anar i donar una segona oportunitat a gats abandonats o cadells que cuidem fins trobar-los adopció.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-25T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/0/5/7/0/0/h0gtfslahq.jpg",
   "website": "https://adacerdanyola.com",
   "adoptAnimalsURL": "https://www.instagram.com/adacerdanyola/",
@@ -33,7 +33,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-25T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

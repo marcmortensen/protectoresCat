@@ -13,7 +13,7 @@
   "description": "Som una associació de Montblanc que tenim l'objectiu de millorar les condicions dels animals que viuen al carrer, els que són abandonats i els que estan perduts. Ens dediquem a alimentar, esterilitzar i vetllar pel benestar dels gats i gossos de la nostra vila. També ens encarreguem de buscar-los una llar, vetllant perquè sigui una adopció responsable i definitiva. La nostra tasca és possible gràcies a la col·laboració de voluntaris i a les aportacions econòmiques de la gent que ens ajuda a tirar endavant el projecte.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-03-03T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://gatigosmontblanc.es/wp-content/uploads/2023/05/gatigos.png",
   "website": "https://gatigosmontblanc.es",
   "adoptAnimalsURL": "https://www.instagram.com/gatigosmontblanc/",
@@ -30,7 +30,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-03-03T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }

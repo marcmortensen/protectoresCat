@@ -14,7 +14,7 @@
   "description": "L'Associació Gats del Carrer som un grup de persones compromeses amb els animals que, en col·laboració amb diferents veterinaris, treballem per aconseguir una millor qualitat de vida dels animals que viuen al carrer.",
   "isActive": true,
   "isMunicipal": false,
-  "lastUpdate": "2025-02-24T00:00:00.000Z",
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/1/5/1/0/kpjqxgpqha.jpg",
   "website": "https://gatsdelcarrer.org",
   "adoptAnimalsURL": "https://www.instagram.com/gatsdelcarrer/",
@@ -31,7 +31,7 @@
     }
   ],
   "sitemap": {
-    "lastmod": "2025-02-24T00:00:00.000Z",
+    "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",
     "priority": 0.5
   }
