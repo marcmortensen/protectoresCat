@@ -4053,7 +4053,7 @@ export const organizations: Organization[] = [
     ],
     shelter: undefined,
     description: `Som una entitat sense finalitat de lucre, constituïda per voluntariat, amb l´objectiu de millorar les condicions de vida dels gats del carrer, una vida molt dura.. Procurem el benestar i la convivència amb les persones, controlant les zones amb alimentadors/voluntaris autoritzats, dels que rebem informació de gats ferits o malalts, naixements o algun tipus de maltractament. Controlem la natalitat amb el mètode CER (Captura, esterilització i retorn) Promovem l´adopció responsable.`,
-    isActive: true,
+    isActive: false, // They lack any website nor social media presence hiding them from the public for now.
     isMunicipal: false,
     lastUpdate: '2026-03-15T00:00:00.000Z',
     website: undefined,
@@ -11355,7 +11355,8 @@ export const organizations: Organization[] = [
     description: `Associació sense ànim de lucre que té per objectiu protegir i controlar les colònies de gats de Vila-Rodona (Alt Camp), millorar la convivència amb els veïns i veïnes del poble i vetllar pel benestar de tots els animals que es puguin trobar al carrer.`,
     isActive: true,
     isMunicipal: false,
-    lastUpdate: '2025-10-28T00:00:00.000Z',
+    lastUpdate: '2026-04-21T00:00:00.000Z',
+    website: 'https://sites.google.com/view/vilagats',
     associativeInscriptionNumber: '66875',
     dateOfInscription: '2020-01-09T00:00:00.000Z',
     adoptAnimalsURL: 'https://www.instagram.com/vilagats/',
