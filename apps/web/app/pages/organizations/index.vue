@@ -78,7 +78,7 @@ const page = useRouteQuery(QueryParam.PAGE, "1", {
 
 const ITEMS_PER_PAGE = 12;
 
-const { data, refresh, clear } = await useAsyncData(
+const { data, pending, refresh, clear } = useAsyncData(
   route.path,
   async () => {
     const dataRegions = await queryCollection("regions").all();
@@ -208,7 +208,10 @@ const scrollToTop = () => {
 };
 
 const cleanQueryParams = async () => {
-  const validRegions = data.value?.regions.map((region) => region.slug) || [];
+  if (!data.value?.regions) {
+    return;
+  }
+  const validRegions = data.value.regions.map((region) => region.slug);
   const validAnimalTypes = typeOfAnimal.map((animal) => animal.value);
 
   const cleanedRegions = regions.value.filter((region) =>
@@ -234,9 +237,13 @@ const cleanQueryParams = async () => {
   }
 };
 
-onMounted(() => {
-  cleanQueryParams();
-});
+watch(
+  () => data.value,
+  () => {
+    cleanQueryParams();
+  },
+  { flush: "post", immediate: true }
+);
 
 const getConnectedToRegions = computed(() =>
   regions.value && regions.value.length === 1
@@ -291,19 +298,21 @@ useSchemaOrg([
     description: "Llistat d'entitats d'adopció d'animals a Catalunya.",
   }),
   defineItemList({
-    itemListElement: data.value?.orgs.map((org, idx) => ({
-      "@type": "ListItem",
-      position: idx + 1,
-      url: `https://adoptar.cat/organizations/${org.slug}`,
-      name: org.shortName,
-      alternateName: org.name,
-      sameAs: (org.socials || []).map((social) => social.url),
-      description: org.description,
-      image: org.enabledLogoUsage
-        ? getOrganizationLogoPath(org.slug)
-        : undefined,
-    })),
-    numberOfItems: data.value?.orgsCount || 0,
+    itemListElement: computed(() =>
+      (data.value?.orgs || []).map((org, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `https://adoptar.cat/organizations/${org.slug}`,
+        name: org.shortName,
+        alternateName: org.name,
+        sameAs: (org.socials || []).map((social) => social.url),
+        description: org.description,
+        image: org.enabledLogoUsage
+          ? getOrganizationLogoPath(org.slug)
+          : undefined,
+      }))
+    ),
+    numberOfItems: computed(() => data.value?.orgsCount || 0),
     itemListOrder: "Ascending",
   }),
 ]);
@@ -401,30 +410,36 @@ useSchemaOrg([
           :style="{ scrollMarginTop: `${scrollOffset - 50}px` }"
           class="flex items-center justify-between w-full h-5"
         >
-          <div v-if="filters.length > 0 || search" class="h-5">
-            {{
-              data.orgsCount === 0
-                ? "Sense resultats"
-                : data.orgsCount === 1
-                  ? `1 resultat`
-                  : `${data.orgsCount} resultats`
-            }}
+          <div v-if="pending" class="h-5">
+            <USkeleton class="h-5 w-full rounded-md" />
           </div>
-          <div v-if="filters.length > 0 || search">
-            <UButton
-              class="h-5"
-              color="primary"
-              variant="ghost"
-              label="Netejar filtres"
-              @click="
-                () => {
-                  search = '';
-                  sort = DEFAULT_SORT;
-                  resetFilters();
-                }
-              "
-            />
-          </div>
+
+          <template v-else>
+            <div v-if="filters.length > 0 || search" class="h-5">
+              {{
+                data.orgsCount === 0
+                  ? "Sense resultats"
+                  : data.orgsCount === 1
+                    ? `1 resultat`
+                    : `${data.orgsCount} resultats`
+              }}
+            </div>
+            <div v-if="filters.length > 0 || search">
+              <UButton
+                class="h-5"
+                color="primary"
+                variant="ghost"
+                label="Netejar filtres"
+                @click="
+                  () => {
+                    search = '';
+                    sort = DEFAULT_SORT;
+                    resetFilters();
+                  }
+                "
+              />
+            </div>
+          </template>
         </div>
         <!-- Filter badges -->
         <div
@@ -476,85 +491,95 @@ useSchemaOrg([
           </UAlert>
         </div>
         <!-- Results grid -->
-        <div
-          v-if="data?.orgs"
-          class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 gap-4 w-full"
-        >
-          <NuxtLink
-            v-for="org in data.orgs"
-            :key="org.id"
-            :to="{ name: 'organizations-slug', params: { slug: org.slug } }"
-            class="group relative"
+        <template v-if="pending">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 gap-4 w-full"
           >
-            <div
-              class="overflow-hidden rounded-xl bg-white dark:bg-gray-700 shadow-md w-full transform transition-transform duration-500 group-hover:rotate-y-12 group-hover:scale-105"
+            <USkeleton v-for="n in 6" :key="n" class="h-56 w-full rounded-xl" />
+          </div>
+        </template>
+
+        <template v-else>
+          <div
+            v-if="data?.orgs"
+            class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 gap-4 w-full"
+          >
+            <NuxtLink
+              v-for="org in data.orgs"
+              :key="org.id"
+              :to="{ name: 'organizations-slug', params: { slug: org.slug } }"
+              class="group relative"
             >
-              <div class="md:flex w-full h-full items-center justify-center">
-                <div
-                  class="md:shrink-0 h-48 w-full md:w-48 sm:h-full flex items-center justify-center"
-                >
-                  <NuxtPicture
-                    v-if="org.enabledLogoUsage"
-                    format="avif,webp"
-                    :src="getOrganizationLogoPath(org.slug)"
-                    :alt="`Logotip de ${org.name}`"
-                    :img-attrs="{
-                      class: 'h-48 sm:w-full md:h-full md:w-48 max-h-48',
-                    }"
-                  />
-                  <template v-else>
-                    <SvgoAnimalsCat1
-                      v-if="
-                        org.animalFocus === 'cats&dogs' ||
-                        org.animalFocus === 'cats'
-                      "
-                      :font-controlled="false"
-                      class="h-48"
-                    />
-                    <SvgoAnimalsDog5
-                      v-if="
-                        org.animalFocus === 'cats&dogs' ||
-                        org.animalFocus === 'dogs'
-                      "
-                      :font-controlled="false"
-                      class="h-48"
-                    />
-                  </template>
-                </div>
-                <div class="pt-2 p-8 md:pt-8 text-black dark:text-white">
+              <div
+                class="overflow-hidden rounded-xl bg-white dark:bg-gray-700 shadow-md w-full transform transition-transform duration-500 group-hover:rotate-y-12 group-hover:scale-105"
+              >
+                <div class="md:flex w-full h-full items-center justify-center">
                   <div
-                    class="text-lg leading-tight line-clamp-1 font-medium group-hover:text-primary"
+                    class="md:shrink-0 h-48 w-full md:w-48 sm:h-full flex items-center justify-center"
                   >
-                    {{ org.shortName }}
+                    <NuxtPicture
+                      v-if="org.enabledLogoUsage"
+                      format="avif,webp"
+                      :src="getOrganizationLogoPath(org.slug)"
+                      :alt="`Logotip de ${org.name}`"
+                      :img-attrs="{
+                        class: 'h-48 sm:w-full md:h-full md:w-48 max-h-48',
+                      }"
+                    />
+                    <template v-else>
+                      <SvgoAnimalsCat1
+                        v-if="
+                          org.animalFocus === 'cats&dogs' ||
+                          org.animalFocus === 'cats'
+                        "
+                        :font-controlled="false"
+                        class="h-48"
+                      />
+                      <SvgoAnimalsDog5
+                        v-if="
+                          org.animalFocus === 'cats&dogs' ||
+                          org.animalFocus === 'dogs'
+                        "
+                        :font-controlled="false"
+                        class="h-48"
+                      />
+                    </template>
                   </div>
-                  <div
-                    class="mt-1 text-sm font-semibold tracking-wide line-clamp-1"
-                  >
-                    {{ org.municipality }}
+                  <div class="pt-2 p-8 md:pt-8 text-black dark:text-white">
+                    <div
+                      class="text-lg leading-tight line-clamp-1 font-medium group-hover:text-primary"
+                    >
+                      {{ org.shortName }}
+                    </div>
+                    <div
+                      class="mt-1 text-sm font-semibold tracking-wide line-clamp-1"
+                    >
+                      {{ org.municipality }}
+                    </div>
+                    <p
+                      class="mt-2 text-gray-500 dark:text-gray-100 line-clamp-4 min-h-24 text-pretty"
+                    >
+                      {{ org.description }}
+                    </p>
                   </div>
-                  <p
-                    class="mt-2 text-gray-500 dark:text-gray-100 line-clamp-4 min-h-24 text-pretty"
-                  >
-                    {{ org.description }}
-                  </p>
                 </div>
               </div>
-            </div>
-          </NuxtLink>
-        </div>
-        <div class="w-full flex justify-center">
-          <UPagination
-            v-if="
-              data && data.orgsCount !== 0 && data.orgsCount > ITEMS_PER_PAGE
-            "
-            v-model:page="page"
-            :items-per-page="ITEMS_PER_PAGE"
-            :total="data.orgsCount"
-            :default-page="1"
-            color="primary"
-            @update:page="scrollToTop"
-          />
-        </div>
+            </NuxtLink>
+          </div>
+          <div class="w-full flex justify-center">
+            <UPagination
+              v-if="
+                data && data.orgsCount !== 0 && data.orgsCount > ITEMS_PER_PAGE
+              "
+              v-model:page="page"
+              :items-per-page="ITEMS_PER_PAGE"
+              :total="data.orgsCount"
+              :default-page="1"
+              color="primary"
+              @update:page="scrollToTop"
+            />
+          </div>
+        </template>
       </div>
     </div>
   </div>

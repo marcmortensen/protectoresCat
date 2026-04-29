@@ -15,7 +15,7 @@ const route = useRoute();
 const { history } = useRouter().options;
 
 const slug = route.params.slug;
-const { data } = await useAsyncData(
+const { data, pending } = useAsyncData(
   route.path,
   async () => {
     const org = await queryCollection("organizations")
@@ -138,30 +138,79 @@ useSeoMeta({
 
 useSchemaOrg([
   defineOrganization({
-    "@id": `https://adoptar.cat/organizations/${data.value?.org?.slug}#org`,
-    name: data.value?.org?.shortName,
-    legalName: data.value?.org?.name,
-    url: `https://adoptar.cat/organizations/${data.value?.org?.slug}`,
-    logo: data.value?.org?.enabledLogoUsage
-      ? getOrganizationLogoPath(data.value?.org.slug)
-      : undefined,
-    description: data.value?.org?.description,
-    email: data.value?.org?.contactEmail,
-    telephone: data.value?.org?.contactPhone,
-    address: {
+    "@id": computed(
+      () =>
+        `https://adoptar.cat/organizations/${data.value?.org?.slug || ""}#org`
+    ),
+    name: computed(() => data.value?.org?.shortName),
+    legalName: computed(() => data.value?.org?.name),
+    url: computed(
+      () => `https://adoptar.cat/organizations/${data.value?.org?.slug || ""}`
+    ),
+    logo: computed(() =>
+      data.value?.org?.enabledLogoUsage && data.value?.org?.slug
+        ? getOrganizationLogoPath(data.value.org.slug)
+        : undefined
+    ),
+    description: computed(() => data.value?.org?.description),
+    email: computed(() => data.value?.org?.contactEmail),
+    telephone: computed(() => data.value?.org?.contactPhone),
+    address: computed(() => ({
       "@type": "PostalAddress",
       addressLocality: data.value?.org?.municipality,
-      addressRegion: currentRegion.value!.name,
+      addressRegion: currentRegion.value?.name || "",
       addressCountry: "ES",
-    },
-    sameAs: (data.value?.org?.socials || []).map((social) => social.url),
+    })),
+    sameAs: computed(() =>
+      (data.value?.org?.socials || []).map((social) => social.url)
+    ) as any,
   }),
 ]);
 </script>
 
 <template>
   <div
-    v-if="!hasError || !data || !data.org"
+    v-if="pending"
+    class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
+  >
+    <div class="h-7 w-10">
+      <USkeleton class="h-9 w-9 rounded-lg" />
+    </div>
+    <USkeleton class="h-20 w-full rounded-lg" />
+    <header
+      class="flex flex-col lg:flex-row justify-between gap-6 w-full items-start"
+    >
+      <div class="flex gap-4 w-full flex-col sm:flex-row">
+        <USkeleton class="h-48 w-full sm:w-48 lg:shrink-0 rounded-lg" />
+        <div class="flex flex-col justify-center gap-3 grow min-w-0">
+          <USkeleton class="h-8 w-3/4 max-w-sm rounded-md" />
+          <USkeleton class="h-4 w-full max-w-md rounded-md" />
+          <USkeleton class="h-4 w-48 rounded-md" />
+          <div class="flex flex-wrap gap-2 pt-1">
+            <USkeleton class="h-8 w-24 rounded-full" />
+            <USkeleton class="h-8 w-20 rounded-full" />
+            <USkeleton class="h-9 w-32 rounded-md" />
+          </div>
+        </div>
+      </div>
+      <USkeleton class="h-48 w-full sm:w-48 lg:shrink-0 rounded-lg" />
+    </header>
+    <div class="flex flex-col gap-3">
+      <USkeleton class="h-6 w-18 rounded-md" />
+      <USkeleton class="h-6 w-24 rounded-md" />
+      <USkeleton class="h-6 w-10 rounded-md" />
+      <USkeleton class="h-6 w-32 rounded-md" />
+      <USkeleton class="h-6 w-20 rounded-md" />
+      <USkeleton class="h-6 w-28 rounded-md" />
+      <USkeleton class="h-6 w-18 rounded-md" />
+      <USkeleton class="h-6 w-32 rounded-md" />
+      <USkeleton class="h-6 w-full rounded-md" />
+      <USkeleton class="h-6 w-5/6 rounded-md" />
+      <USkeleton class="h-6 w-3/4 rounded-md" />
+    </div>
+  </div>
+  <div
+    v-else-if="!hasError || !data || !data.org"
     class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
   >
     <div class="h-7">

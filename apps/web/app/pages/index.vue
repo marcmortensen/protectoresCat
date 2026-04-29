@@ -16,7 +16,7 @@ const allRegionItems = computed<AccordionItem[]>(() =>
 );
 const route = useRoute();
 
-const { data } = await useAsyncData(
+const { data, pending } = useAsyncData(
   route.path,
   async () => {
     const orgsCount = await queryCollection("organizations").count();
@@ -101,7 +101,6 @@ useSchemaOrg([
 <template>
   <div class="bg-white dark:bg-gray-900 w-full h-full overflow-hidden relative">
     <div
-      v-if="data"
       class="flex flex-col xl:flex-row w-full min-h-screen-height-header border-b"
     >
       <div
@@ -199,50 +198,58 @@ useSchemaOrg([
             </div>
           </div>
           <div class="grow h-full relative">
-            <RegionsMap
-              v-if="regions"
-              v-model="selectedRegionId"
-              :regions="regions"
-              class="hidden xl:block transition-all duration-500 ease-in-out w-full h-full"
-              :route-builder="regionRouteBuilder"
-              @hover="hoveredRegionId = $event"
-            />
-
-            <RegionsMap
-              v-if="regions"
-              :regions="regions"
-              class="block xl:hidden transition-all duration-500 ease-in-out w-full h-full"
-              read-only
-              @click="isSlideoverOpen = true"
-            />
-
-            <USlideover
-              v-if="isSlideoverOpen"
-              v-model:open="isSlideoverOpen"
-              title="Comarques"
-            >
-              <template #body>
-                <UAccordion :items="allRegionItems" :multiple="false">
-                  <template #body="{ item }">
-                    Veure totes les entitats
-                    <UButton
-                      class="pl-0"
-                      variant="link"
-                      :to="regionRouteBuilder(item.slug)"
-                      :label="`${item.article}${item.label}.`"
-                    /> </template
-                ></UAccordion>
-              </template>
-            </USlideover>
-
             <div
-              v-if="currentRegion"
-              class="text-right absolute right-0 bottom-0 p-4 w-full flex flex-col items-end pointer-events-none"
+              v-if="pending"
+              class="flex xl:flex-row-reverse h-full p-4 sm:p-6 gap-3"
             >
-              <div class="text-6xl uppercase tracking-150 text-gray-dark">
-                {{ currentRegion.name }}
-              </div>
+              <USkeleton class="grow min-h-48 rounded-xl max-w-full" />
             </div>
+            <template v-else>
+              <RegionsMap
+                v-if="regions"
+                v-model="selectedRegionId"
+                :regions="regions"
+                class="hidden xl:block transition-all duration-500 ease-in-out w-full h-full"
+                :route-builder="regionRouteBuilder"
+                @hover="hoveredRegionId = $event"
+              />
+
+              <RegionsMap
+                v-if="regions"
+                :regions="regions"
+                class="block xl:hidden transition-all duration-500 ease-in-out w-full h-full"
+                read-only
+                @click="isSlideoverOpen = true"
+              />
+
+              <USlideover
+                v-if="isSlideoverOpen"
+                v-model:open="isSlideoverOpen"
+                title="Comarques"
+              >
+                <template #body>
+                  <UAccordion :items="allRegionItems" :multiple="false">
+                    <template #body="{ item }">
+                      Veure totes les entitats
+                      <UButton
+                        class="pl-0"
+                        variant="link"
+                        :to="regionRouteBuilder(item.slug)"
+                        :label="`${item.article}${item.label}.`"
+                      /> </template
+                  ></UAccordion>
+                </template>
+              </USlideover>
+
+              <div
+                v-if="currentRegion"
+                class="text-right absolute right-0 bottom-0 p-4 w-full flex flex-col items-end pointer-events-none"
+              >
+                <div class="text-6xl uppercase tracking-150 text-gray-dark">
+                  {{ currentRegion.name }}
+                </div>
+              </div>
+            </template>
           </div>
         </div>
       </section>
@@ -267,7 +274,7 @@ useSchemaOrg([
       <p class="text-pretty lg:w-1/2 w-full">
         No som un refugi ni una associació de rescat, però volem ajudar-te a tu
         i a aquestes entitats a trobar-vos, perquè totes les parts implicades en
-        surtin beneficiades. Totes les {{ data?.orgsCount }} entitats que
+        surtin beneficiades. Totes les {{ data?.orgsCount || 300 }} entitats que
         apareixen al nostre web estan registrades al Registre d’entitats de
         Catalunya com a entitats jurídiques i han estat verificades. Estem
         compromesos a oferir-te la informació més precisa i actualitzada
