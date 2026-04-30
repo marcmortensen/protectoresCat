@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Política de privacitat | Adoptar.cat",
+  title: "Política de privacitat",
   description:
     "Consulta la nostra política de privacitat per entendre com gestionem les dades dels usuaris.",
   articleModifiedTime: "2025-05-25T00:00:00.000Z",

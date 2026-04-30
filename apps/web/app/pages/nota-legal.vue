@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Avís legal | Adoptar.cat",
+  title: "Avís legal",
   description:
     "Avís legal d'Adoptar.cat, informació sobre l'ús del lloc web i responsabilitats.",
   articleModifiedTime: "2025-11-02T00:00:00.000Z",

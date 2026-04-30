@@ -2,7 +2,7 @@
 import { ca } from "@nuxt/ui/locale";
 
 useSeoMeta({
-  title: "Troba i adopta | Adoptar.cat",
+  title: "Troba i adopta",
   description:
     "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
   robots: {

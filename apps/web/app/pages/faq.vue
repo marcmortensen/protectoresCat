@@ -51,7 +51,7 @@ const items = [
 ];
 
 useSeoMeta({
-  title: "Preguntes freqüents | Adoptar.cat",
+  title: "Preguntes freqüents",
   description:
     "Consulta les preguntes més freqüents sobre el nostre llistat d'entitats i adopcions.",
   articleModifiedTime: "2025-08-20T00:00:00.000Z",

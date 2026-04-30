@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "Política de cookies | Adoptar.cat",
+  title: "Política de cookies",
   description:
     "Consulta la nostra política de cookies per entendre com utilitzem les cookies al nostre lloc web.",
   articleModifiedTime: "2025-05-25T00:00:00.000Z",

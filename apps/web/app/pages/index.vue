@@ -63,14 +63,12 @@ const regionRouteBuilder = (regionSlug: string): RouteLocationRaw => {
 };
 
 useSeoMeta({
-  ogTitle: "Troba i adopta | Adoptar.cat",
-  title: "Troba i adopta | Adoptar.cat",
+  title: "Troba i adopta",
   description:
     "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
   ogDescription:
     "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
   twitterCard: "summary_large_image",
-  twitterTitle: "Troba i adopta | Adoptar.cat",
   twitterDescription:
     "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
   ogImage: "https://adoptar.cat/logo_w1200_h630.png",

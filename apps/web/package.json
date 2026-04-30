@@ -23,7 +23,6 @@
     "@nuxt/ui": "4.7.1",
     "@nuxtjs/sitemap": "8.0.14",
     "@tailwindcss/vite": "4.2.4",
-    "@unhead/schema-org": "2.1.12",
     "date-fns": "4.1.0",
     "eslint": "10.2.1",
     "nuxt": "4.4.4",

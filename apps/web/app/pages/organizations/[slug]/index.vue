@@ -114,26 +114,27 @@ const phones = computed(() => {
 
 const showidZoologicalNucleus = false;
 useSeoMeta({
-  ogTitle: () => `${data.value?.org?.shortName} | Adoptar.cat`,
-  title: () => `${data.value?.org?.shortName} | Adoptar.cat`,
-  description: () => data.value?.org?.description,
-  ogDescription: () => data.value?.org?.description,
-  twitterDescription: () => data.value?.org?.description,
+  title: computed(() => data.value?.org?.shortName),
+  description: computed(() => data.value?.org?.description),
+  ogDescription: computed(() => data.value?.org?.description),
+  twitterDescription: computed(() => data.value?.org?.description),
   twitterCard: "summary_large_image",
-  twitterTitle: () => `${data.value?.org?.shortName} | Adoptar.cat`,
-  ogImage: () =>
+  ogImage: computed(() =>
     data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
-      : undefined,
-  ogImageUrl: () =>
+      : undefined
+  ),
+  ogImageUrl: computed(() =>
     data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
-      : undefined,
-  twitterImage: () =>
+      : undefined
+  ),
+  twitterImage: computed(() =>
     data.value?.org?.enabledLogoUsage
       ? getOrganizationLogoPath(data.value.org.slug)
-      : undefined,
-  articleModifiedTime: () => data.value?.org?.lastUpdate,
+      : undefined
+  ),
+  articleModifiedTime: computed(() => data.value?.org?.lastUpdate),
 });
 
 useSchemaOrg([
