@@ -7,6 +7,7 @@ const onClick = () => {
     event_category: "engagement",
     event_label: "Adopt button clicked",
     href: data.value.org.adoptAnimalsURL,
+    slug: data.value.org.slug,
   });
 };
 
