@@ -64,11 +64,7 @@ export default defineNuxtConfig({
         { rel: "manifest", href: "/site.webmanifest" },
       ],
       meta: [{ name: "apple-mobile-web-app-title", content: "Adopta" }],
-      titleTemplate: "%s %separator %siteName",
-      templateParams: {
-        separator: "|",
-        siteName: "Adoptar.cat",
-      },
+      titleTemplate: "%s | Adoptar.cat",
       title: "Adopta a Catalunya",
       htmlAttrs: {
         lang: "ca",
