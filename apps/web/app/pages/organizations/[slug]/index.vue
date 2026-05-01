@@ -14,12 +14,13 @@ const route = useRoute();
 
 const { history } = useRouter().options;
 
-const slug = route.params.slug;
+const slug = computed(() => route.params.slug);
+
 const { data, pending } = useAsyncData(
-  route.path,
+  computed(() => `organizations-${slug.value}`),
   async () => {
     const org = await queryCollection("organizations")
-      .where("slug", "=", slug)
+      .where("slug", "=", slug.value)
       .first();
     const regions = await queryCollection("regions").all();
     return { org, regions };
