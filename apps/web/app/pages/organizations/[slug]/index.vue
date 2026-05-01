@@ -318,7 +318,7 @@ useSchemaOrg([
                 v-if="data.org.adoptAnimalsURL"
                 :href="data.org.adoptAnimalsURL"
                 target="_blank"
-                no-rel
+                rel="noopener"
                 color="primary"
                 icon="i-lucide-paw-print"
                 label="Vull adoptar"
@@ -362,7 +362,7 @@ useSchemaOrg([
                   :href="social.url"
                   class="text-gray-700 dark:text-gray-200"
                   target="_blank"
-                  no-rel
+                  rel="noopener"
                   size="sm"
                   color="neutral"
                   variant="outline"
@@ -445,7 +445,7 @@ useSchemaOrg([
               :href="data.org.website"
               color="primary"
               variant="link"
-              no-rel
+              rel="noopener"
               target="_blank"
               :label="data.org.website"
             />
@@ -529,7 +529,7 @@ useSchemaOrg([
                 icon="i-lucide-clock"
                 color="primary"
                 variant="link"
-                no-rel
+                rel="noopener"
                 target="_blank"
                 label="Horari"
               />

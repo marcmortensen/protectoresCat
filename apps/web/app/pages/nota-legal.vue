@@ -64,7 +64,7 @@ defineRouteRules({
         <a
           href="https://github.com/marcmortensen/protectoresCat/blob/master/apps/web/LICENSE"
           target="_blank"
-          rel="noopener"
+          no-rel
           class="font-semibold hover:text-primary"
           >Llicència Apache, versió 2.0</a
         >. Això vol dir que podeu utilitzar, modificar i distribuir el codi i

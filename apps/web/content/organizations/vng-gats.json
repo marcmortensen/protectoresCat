@@ -1,0 +1,30 @@
+{
+  "id": "2040a27f",
+  "slug": "vng-gats",
+  "name": "Associació VNG Gats",
+  "shortName": "VNG Gats",
+  "animalFocus": "cats",
+  "region": "garraf",
+  "province": "barcelona",
+  "municipalityInscription": "Vilanova i la Geltrú",
+  "municipality": "Vilanova i la Geltrú",
+  "contactEmail": "vnggats@gmail.com",
+  "description": "Som una associació sense ànim de lucre que procurem la cura i benestar dels gats, en especial del nostre poble Vilanova i la Geltrú.",
+  "isActive": true,
+  "isMunicipal": false,
+  "lastUpdate": "2026-04-30T00:00:00.000Z",
+  "associativeInscriptionNumber": "77838",
+  "dateOfInscription": "2025-06-17T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/vnggats/",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/vnggats/"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2026-04-30T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

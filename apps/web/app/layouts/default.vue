@@ -157,7 +157,7 @@ const isDark = computed({
               icon="i-lucide-github"
               to="https://github.com/marcmortensen/protectoresCat"
               target="_blank"
-              rel="noopener"
+              no-rel
               aria-label="GitHub"
               label="GitHub"
             />
