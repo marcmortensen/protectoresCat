@@ -19,13 +19,13 @@
       "phone": "680164015"
     }
   ],
-  "municipalityInscription": "Cervera",
-  "municipality": "Cervera",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "1493",
+  "dateOfInscription": "1992-05-12T00:00:00.000Z",
+  "municipality": "Cervera",
+  "municipalityInscription": "Cervera",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "1992-05-12T00:00:00.000Z",
   "socials": [
     {
       "type": "facebook",

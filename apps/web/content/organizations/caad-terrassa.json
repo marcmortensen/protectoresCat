@@ -8,10 +8,10 @@
   "contactPhone": "937275059",
   "contactPhone2": "937276841",
   "website": "https://adoptam.terrassa.cat",
-  "adoptAnimalsURL": "https://adoptam.terrassa.cat/adopcions/",
   "region": "valles-occidental",
   "province": "barcelona",
   "description": "L’Ajuntament de Terrassa, va crear, en data 26 de setembre de 2002, el Servei Municipal d’Atenció d’Animals Domèstics de Companyia (CAAD) a l’objecte de prestar els serveis d’atenció als animals domèstics de companyia al municipi de Terrassa i a aquells altres municipis que encarreguin a l’Ajuntament de Terrassa la prestació de serveis en aquest àmbit.El CAAD és un centre que acull gossos, gats i fures. L’objectiu principal és la recuperació dels animals perduts o abandonats i la seva reintroducció en llars mitjançant programes d’adopció.Actualment el CAAD ofereix els seus serveis a 2 municipis de la comarca, que són Matadepera i Terrassa.",
+  "adoptAnimalsURL": "https://adoptam.terrassa.cat/adopcions/",
   "animalFocus": "cats&dogs",
   "shelter": [
     {
@@ -21,8 +21,8 @@
       "openingHoursURL": "https://adoptam.terrassa.cat/horaris/"
     }
   ],
-  "municipalityInscription": "Terrassa",
   "municipality": "Terrassa",
+  "municipalityInscription": "Terrassa",
   "isMunicipal": true,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",

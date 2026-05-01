@@ -11,11 +11,13 @@
   "adoptAnimalsURL": "https://girogats.org/pet-category/en-adopcio/",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "46410",
-  "municipalityInscription": "Girona",
+  "dateOfInscription": "2011-11-28T00:00:00.000Z",
   "municipality": "Girona",
+  "municipalityInscription": "Girona",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-11-03T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -26,8 +28,6 @@
       "url": "https://www.facebook.com/associacio.girogats.7"
     }
   ],
-  "dateOfInscription": "2011-11-28T00:00:00.000Z",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-11-03T00:00:00.000Z",
     "changefreq": "monthly",

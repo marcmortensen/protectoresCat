@@ -9,8 +9,8 @@
   "website": "http://caadmoianes.moia.cat",
   "region": "moianes",
   "province": "barcelona",
-  "adoptAnimalsURL": "http://caadmoianes.moia.cat/animals/",
   "description": "Centre d’acollida d'animals domèstics per a la seva recuperació i adopció. Es compta amb l'ajuda de voluntaris per al benestar dels animals.",
+  "adoptAnimalsURL": "http://caadmoianes.moia.cat/animals/",
   "animalFocus": "cats&dogs",
   "shelter": [
     {
@@ -20,8 +20,9 @@
       "openingHoursURL": "http://caadmoianes.moia.cat/contactar/"
     }
   ],
-  "municipalityInscription": "Moià",
+  "idZoologicalNucleus": "B25/00710",
   "municipality": "Moià",
+  "municipalityInscription": "Moià",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
@@ -35,7 +36,6 @@
       "url": "https://www.instagram.com/caadmoianes/"
     }
   ],
-  "idZoologicalNucleus": "B25/00710",
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

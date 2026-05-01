@@ -4,8 +4,8 @@
   "name": "Associació d'Engrescats de les Terres de l'Ebre",
   "shortName": "Engrescats",
   "logo": "https://cdn.sukycms.com/shelters/175/images/logo.png",
-  "contactPhone": "620847048",
   "whatsAppPhone": "620847048",
+  "contactPhone": "620847048",
   "website": "https://engrescades.protecms.com",
   "region": "montsia",
   "province": "tarragona",
@@ -20,13 +20,13 @@
       "openingHoursURL": "https://engrescades.protecms.com/pagina/1553-on-som-i-quan-venir"
     }
   ],
-  "municipalityInscription": "Amposta",
-  "municipality": "Amposta",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "50771",
+  "dateOfInscription": "2013-07-19T00:00:00.000Z",
+  "municipality": "Amposta",
+  "municipalityInscription": "Amposta",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2013-07-19T00:00:00.000Z",
   "socials": [
     {
       "type": "facebook",

@@ -9,13 +9,13 @@
   "description": "L'Associació Protectora dels Animals de Bellvís i Els Arcs és una entitat sense ànim de lucre, que té per objectiu vetllar pel benestar de tots aquells animals abandonats o perduts dels nostres pobles. De recent creació, i actualment sense recursos i escassos voluntaris per tirar endavant amb el nostre projecte, agrairíem infinitament la vostra col.laboració.",
   "adoptAnimalsURL": "https://www.instagram.com/associacioanimalsbellvis/",
   "animalFocus": "cats&dogs",
-  "municipalityInscription": "Bellvís",
-  "municipality": "Bellvís",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "69038",
+  "dateOfInscription": "2021-03-17T00:00:00.000Z",
+  "municipality": "Bellvís",
+  "municipalityInscription": "Bellvís",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2021-03-17T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",

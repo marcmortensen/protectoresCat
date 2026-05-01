@@ -3,18 +3,14 @@
   "slug": "amor-als-animals",
   "name": "Associació Amor Als Animals Maria Adam",
   "shortName": "Amor Als Animals",
-  "animalFocus": "cats&dogs",
+  "logo": "https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png",
   "contactEmail": "amoralsanimals@gmail.com",
+  "website": "https://amoralsanimals.org/",
   "region": "baix-llobregat",
   "province": "barcelona",
-  "municipalityInscription": "Begues",
-  "municipality": "Begues",
-  "socials": [
-    {
-      "type": "instagram",
-      "url": "https://www.instagram.com/amoralsanimals/"
-    }
-  ],
+  "description": "Som l’Associació Amor als Animals Maria Adam, una entitat sense ànim de lucre dedicada a acollir i ajudar animals abandonats, desahuciats i maltractats. Tenim la missió de fer un món millor optimitzant el benestar i la protecció dels animals mitjançant la prevenció (educant la població, fomentant una tinença responsable i promoure la legislació compromesa), la curació (assistència veterinària, recuperació física i psicològica, fisioteràpia per als més majors), i la gestió (adopcions segures, suport a colònies felines, espais dignes per als animals en la última etapa de la vida)",
+  "adoptAnimalsURL": "https://amoralsanimals.org/en_adopcion/",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Masia Can Figueres, 1, 08859 Begues, Barcelona",
@@ -22,16 +18,20 @@
       "openingHoursURL": "https://amoralsanimals.org/visitanos/"
     }
   ],
-  "description": "Som l’Associació Amor als Animals Maria Adam, una entitat sense ànim de lucre dedicada a acollir i ajudar animals abandonats, desahuciats i maltractats. Tenim la missió de fer un món millor optimitzant el benestar i la protecció dels animals mitjançant la prevenció (educant la població, fomentant una tinença responsable i promoure la legislació compromesa), la curació (assistència veterinària, recuperació física i psicològica, fisioteràpia per als més majors), i la gestió (adopcions segures, suport a colònies felines, espais dignes per als animals en la última etapa de la vida)",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "https://amoralsanimals.org/wp-content/uploads/2019/03/mariaAdam.png",
-  "website": "https://amoralsanimals.org/",
-  "adoptAnimalsURL": "https://amoralsanimals.org/en_adopcion/",
   "associativeInscriptionNumber": "29579",
   "dateOfInscription": "2004-09-22T00:00:00.000Z",
+  "municipality": "Begues",
+  "municipalityInscription": "Begues",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "enabledLogoUsage": true,
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/amoralsanimals/"
+    }
+  ],
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

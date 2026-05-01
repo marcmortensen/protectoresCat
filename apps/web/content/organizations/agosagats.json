@@ -10,13 +10,14 @@
   "description": "Grup de persones que desinteressadament intentem ajudar el màxim nombre d'animals perduts i abandonats a Alcanar, les Cases, Alcanar Platja i rodalies.",
   "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100064673622445",
   "animalFocus": "cats&dogs",
-  "municipalityInscription": "Alcanar",
-  "municipality": "Alcanar",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "57641",
+  "dateOfInscription": "2016-01-04T00:00:00.000Z",
+  "municipality": "Alcanar",
+  "municipalityInscription": "Alcanar",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2016-01-04T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -27,7 +28,6 @@
       "url": "https://www.instagram.com/agosagats/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

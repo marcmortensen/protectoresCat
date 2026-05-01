@@ -17,14 +17,15 @@
       "googleMapsLink": "https://maps.app.goo.gl/KiQwT1EL8bhA3CyQ8"
     }
   ],
-  "municipalityInscription": "Foradada",
-  "municipality": "Foradada",
-  "isMunicipal": false,
-  "associativeInscriptionNumber": "26649",
   "idZoologicalNucleus": "L25/00089",
+  "associativeInscriptionNumber": "26649",
+  "dateOfInscription": "2002-10-31T00:00:00.000Z",
+  "municipality": "Foradada",
+  "municipalityInscription": "Foradada",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2002-10-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -35,7 +36,6 @@
       "url": "https://www.instagram.com/amicsdelsanimalsdelanoguera/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

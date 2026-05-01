@@ -3,11 +3,14 @@
   "slug": "amics-animals-segria",
   "name": "Associació Amics dels Animals del Segrià",
   "shortName": "Amics dels Animals del Segrià",
-  "contactEmail": "protectoralleida@hotmail.com",
   "logo": "https://amicsdelsanimals.org/_mibambu/_aasegria/imas/logo.jpg",
+  "contactEmail": "protectoralleida@hotmail.com",
   "website": "https://amicsdelsanimals.org",
   "region": "segria",
   "province": "lleida",
+  "description": "Som una Associació sense ànim de lucre, que es dedica a la cura de més de 150 gossos, que han estat abandonats a la seva sort i ara estan esperant ser adoptats per una família que no els torni a trair. N’hi ha de totes les mides, edats, caràcters, però tots són únics i us podem assegurar que són també els més agraïts. Ells no van tenir la culpa de venir a aquest món en el que la societat està construïda d’una manera en que estan totalment indefensos. Ens necessiten i per ells lluitem cada dia un grup de voluntaris, amb l’ajuda de socis, iniciatives i donacions particulars. La nostra major recompensa és veure’ls feliços i si els trobem una família, es la nostra major assoliment. Al nostre refugi s’entreguen tots els gossos en adopció amb el microxip instaurat, les vacunes al dia, desparasitats interna i externament i esterilitzats/castrats.",
+  "adoptAnimalsURL": "https://amicsdelsanimals.org/listado",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Partida La Caparrella, 121 CP.25192 LLeida",
@@ -16,16 +19,13 @@
       "openingHoursURL": "https://amicsdelsanimals.org/s25-donde-estamos"
     }
   ],
-  "description": "Som una Associació sense ànim de lucre, que es dedica a la cura de més de 150 gossos, que han estat abandonats a la seva sort i ara estan esperant ser adoptats per una família que no els torni a trair. N’hi ha de totes les mides, edats, caràcters, però tots són únics i us podem assegurar que són també els més agraïts. Ells no van tenir la culpa de venir a aquest món en el que la societat està construïda d’una manera en que estan totalment indefensos. Ens necessiten i per ells lluitem cada dia un grup de voluntaris, amb l’ajuda de socis, iniciatives i donacions particulars. La nostra major recompensa és veure’ls feliços i si els trobem una família, es la nostra major assoliment. Al nostre refugi s’entreguen tots els gossos en adopció amb el microxip instaurat, les vacunes al dia, desparasitats interna i externament i esterilitzats/castrats.",
-  "adoptAnimalsURL": "https://amicsdelsanimals.org/listado",
   "associativeInscriptionNumber": "2052",
-  "animalFocus": "cats&dogs",
-  "municipalityInscription": "Lleida",
+  "dateOfInscription": "1996-10-03T00:00:00.000Z",
   "municipality": "Lleida",
+  "municipalityInscription": "Lleida",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
-  "dateOfInscription": "1996-10-03T00:00:00.000Z",
   "socials": [
     {
       "type": "facebook",

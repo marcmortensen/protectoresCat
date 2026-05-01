@@ -3,20 +3,21 @@
   "slug": "gats-de-llanca",
   "name": "Associació Gats de Llançà",
   "shortName": "Gats de Llançà",
-  "contactEmail": "gatsdellansa@gmail.com",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/6/6/2/3/720_2alhnv26qk.png",
+  "contactEmail": "gatsdellansa@gmail.com",
   "region": "alt-emporda",
   "province": "girona",
   "description": "L'Associació Gats de Llançà ha estat recentment creada per un grup de voluntaris/es de Llançà que ja veniem treballant pels animals del nostre poble durant anys. El nostre principal objectiu és el benestar dels animals que viuen als carrers de Llançà.  Implementem el mètode CER (Captura, Esterilització, Retorn) per al control de les colònies felines del poble, tenim cura de la seva alimentació i la seva salut física. També rescatem gats petits o sociables, els busquem cases d'acollida i posterior casa adoptiva. El nostre àmbit d'actuació és el municipi de Llançà.",
   "adoptAnimalsURL": "https://www.instagram.com/gatsdellansa/",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "72150",
-  "municipalityInscription": "Llançà",
+  "dateOfInscription": "2022-11-25T00:00:00.000Z",
   "municipality": "Llançà",
+  "municipalityInscription": "Llançà",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
-  "dateOfInscription": "2022-11-25T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -27,7 +28,6 @@
       "url": "https://www.instagram.com/gatsdellansa/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",

@@ -3,21 +3,22 @@
   "slug": "aam",
   "name": "Associació Animalista de Manlleu",
   "shortName": "AAM",
-  "contactPhone": "607919334",
+  "logo": "https://www.entitatsmanlleu.cat/wp-content/uploads/2014/10/Logo_Associaci%C3%B3-Animalista-de-Manlleu-604x270.png",
   "contactEmail": "animalistesdemanlleu@gmail.com",
-  "animalFocus": "cats&dogs",
+  "contactPhone": "607919334",
   "region": "osona",
   "province": "barcelona",
-  "municipalityInscription": "Manlleu",
-  "municipality": "Manlleu",
   "description": "Manlleuencs! Som una associació registrada (núm. 25718) que ens dediquem al sistema CER (Captura, Esterilització i Retorn) per controlar la població de gats de carrer a Manlleu i millorar-ne la vida. Capturem els gats, els portem a una clínica veterinària per esterilitzar-los i, un cop recuperats, els retornem al seu territori. També ajudem les alimentadores, que tenen cura d’una o dues colònies cadascuna, a comprar pinso i garantir el benestar dels animals. A més, tenim un Refugi de Gates i Gats amb prop de 40 gats adults, alguns procedents d’un cas de Síndrome de Noé, que requereixen una atenció especial. La nostra via de comunicació preferida és per missatges de text per WhatsApp. Gràcies per ajudar-nos a ajudar-los!",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-21T00:00:00.000Z",
-  "logo": "https://www.entitatsmanlleu.cat/wp-content/uploads/2014/10/Logo_Associaci%C3%B3-Animalista-de-Manlleu-604x270.png",
   "adoptAnimalsURL": "https://www.facebook.com/animalistesdemanlleu/",
+  "animalFocus": "cats&dogs",
   "associativeInscriptionNumber": "25718",
   "dateOfInscription": "2002-01-28T00:00:00.000Z",
+  "municipality": "Manlleu",
+  "municipalityInscription": "Manlleu",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-21T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -28,7 +29,6 @@
       "url": "https://www.instagram.com/assanimalistamanlleu"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-21T00:00:00.000Z",
     "changefreq": "monthly",

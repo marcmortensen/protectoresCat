@@ -1,43 +1,4 @@
-import { Municipality, Province, Region } from './utils/locations.js';
-
-interface Shelter {
-  adress: string;
-  googleMapsLink: string;
-  phone: string | undefined;
-  openingHoursURL: string | undefined;
-}
-export interface Organization {
-  id: string;
-  slug: string;
-  name: string;
-  shortName: string;
-  logo?: string;
-  contactEmail?: string;
-  whatsAppPhone?: string;
-  contactPhone?: string;
-  contactPhone2?: string;
-  website?: string;
-  region: Region;
-  additionalRegions?: Region[];
-  province: Province;
-  description: string;
-  adoptAnimalsURL: string;
-  animalFocus: 'cats' | 'dogs' | 'cats&dogs';
-  shelter: Shelter[] | undefined;
-  idZoologicalNucleus?: string;
-  associativeInscriptionNumber?: string;
-  dateOfInscription?: string;
-  municipalityInscription?: Municipality;
-  municipality: Municipality;
-  isMunicipal: boolean;
-  isActive: boolean;
-  lastUpdate: string;
-  socials?: {
-    type: 'facebook' | 'instagram' | 'tiktok' | 'twitter';
-    url: string;
-  }[];
-  enabledLogoUsage?: boolean | undefined;
-}
+import type { Organization } from './organizationSchemas.js';
 
 export const organizations: Organization[] = [
   {

@@ -2,20 +2,21 @@
   "id": "2c00268e",
   "slug": "sos-cats",
   "name": "Associació SOS CAT'S",
-  "contactEmail": "asoc.soscats@gmail.com",
   "shortName": "SOS CAT'S",
-  "animalFocus": "cats",
+  "contactEmail": "asoc.soscats@gmail.com",
   "region": "selva",
   "province": "girona",
-  "municipalityInscription": "Caldes de Malavella",
-  "municipality": "Caldes de Malavella",
   "description": "Sos Cat's es crea a partir d'un grup de noies amants dels animals, però sobretot amb una debilitat immensa envers els gats. El 5 de novembre del 2021 neix aquesta associació per intentar donar una vida millor als gats del carrer de Caldes de Malavella.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-08T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/asoc.soscats/",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "70806",
   "dateOfInscription": "2022-03-17T00:00:00.000Z",
-  "adoptAnimalsURL": "https://www.instagram.com/asoc.soscats/",
+  "municipality": "Caldes de Malavella",
+  "municipalityInscription": "Caldes de Malavella",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-08T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -26,7 +27,6 @@
       "url": "https://www.instagram.com/asoc.soscats/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-08T00:00:00.000Z",
     "changefreq": "monthly",

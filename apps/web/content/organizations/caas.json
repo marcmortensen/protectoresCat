@@ -9,9 +9,9 @@
   "website": "https://caas.selva.cat",
   "region": "selva",
   "province": "girona",
-  "animalFocus": "cats&dogs",
-  "adoptAnimalsURL": "https://caas.selva.cat/registre.php",
   "description": "Servei de recollida d'animals abandonats assumit pel Consell Comarcal de la Selva va començar a ser operatiu l'any 1990. Aquest servei ha estat realitzat per la Societat Protectora d'Animals i Plantes de Tossa de Mar, en virtud del contracte signat entre aquesta entitat i el Consell Comarcal.",
+  "adoptAnimalsURL": "https://caas.selva.cat/registre.php",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Ctra. Llagostera, Km 1, 17320 Tossa de Mar, Girona",
@@ -21,8 +21,8 @@
     }
   ],
   "idZoologicalNucleus": "G25/00053",
-  "municipalityInscription": "Tossa de Mar",
   "municipality": "Tossa de Mar",
+  "municipalityInscription": "Tossa de Mar",
   "isMunicipal": true,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",

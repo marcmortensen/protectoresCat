@@ -20,14 +20,14 @@
       "openingHoursURL": "https://www.protectora-apan.org/contacte/"
     }
   ],
-  "municipalityInscription": "Igualada",
-  "municipality": "Igualada",
-  "isMunicipal": false,
   "idZoologicalNucleus": "B25/00624",
   "associativeInscriptionNumber": "20353",
+  "dateOfInscription": "1998-01-26T00:00:00.000Z",
+  "municipality": "Igualada",
+  "municipalityInscription": "Igualada",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "1998-01-26T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",

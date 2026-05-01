@@ -9,9 +9,9 @@
   "website": "https://www.aparodamon.com",
   "region": "baix-emporda",
   "province": "girona",
-  "animalFocus": "cats&dogs",
-  "adoptAnimalsURL": "https://www.aparodamon.com/adoptar/",
   "description": "L'Associació Protectora d'Animals del Baix Empordà, Rodamón, és una entitat sense ànim de lucre que es dedica a la protecció dels animals de la comarca del Baix Empordà. La nostra tasca principal és la recollida, acollida, cura i adopció d'animals abandonats o maltractats.",
+  "adoptAnimalsURL": "https://www.aparodamon.com/adoptar/",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Carrer Morena, s/n, 17253 Mont-Ras, Palafrugell, Girona",
@@ -21,11 +21,14 @@
     }
   ],
   "idZoologicalNucleus": "G23/00006",
-  "municipalityInscription": "Palafrugell",
+  "associativeInscriptionNumber": "499",
+  "dateOfInscription": "1978-08-25T00:00:00.000Z",
   "municipality": "Palafrugell",
+  "municipalityInscription": "Palafrugell",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -36,9 +39,6 @@
       "url": "https://www.facebook.com/profile.php?id=100064441191908&locale=ca_ES"
     }
   ],
-  "associativeInscriptionNumber": "499",
-  "dateOfInscription": "1978-08-25T00:00:00.000Z",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",

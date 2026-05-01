@@ -3,14 +3,15 @@
   "slug": "servei-acollida-animals-girona",
   "name": "Centre Municipal d'Acollida d'Animals de Girona",
   "shortName": "Servei d'acollida d'animals de Girona",
+  "logo": "https://web.girona.cat/documents/20147/10417637/logo_ajgirona_color.gif",
   "contactEmail": "animals@ajgirona.cat",
   "contactPhone": "972419037",
   "contactPhone2": "649951599",
-  "logo": "https://web.girona.cat/documents/20147/10417637/logo_ajgirona_color.gif",
   "region": "girones",
   "province": "girona",
   "description": "El Centre Municipal d'Acollida d'Animals acull els animals de companyia de Girona abandonats o perduts.",
   "adoptAnimalsURL": "https://www.facebook.com/ServeiAcollidaAnimalsGirona/",
+  "animalFocus": "dogs",
   "shelter": [
     {
       "adress": "CAN ROUREDA Disseminat Domeny s/n 17007 Girona",
@@ -19,9 +20,8 @@
       "openingHoursURL": "https://maps.app.goo.gl/CJowLx61L8L7tXMf6"
     }
   ],
-  "animalFocus": "dogs",
-  "municipalityInscription": "Girona",
   "municipality": "Girona",
+  "municipalityInscription": "Girona",
   "isMunicipal": true,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",

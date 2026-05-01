@@ -9,6 +9,7 @@
   "region": "osona",
   "province": "barcelona",
   "description": "La Protectora d'Animals d'Osona som una associació sense ànim de lucre que treballem des de fa més de 30 anys per acollir, cuidar i promoure l'adopció de gossos i gats abandonats. Estem inscrits al registre d'entitats de protecció i defensa dels animals de la Generalitat de Catalunya. Els nostres objectius són ajudar els gossos i gats abandonats perquè tinguin l'oportunitat d'una vida digne amb famílies responsables que els cuidin i estimin per a la resta de la seva vida, fomentar la tinença responsable d'animals de companyia i evitar l'abandonament i el maltractament, ajudar els propietaris de gossos i gats perduts a retrobar-los, i sensibilitzar la societat d'adoptar en comptes de comprar.",
+  "adoptAnimalsURL": "https://www.instagram.com/protectora_osona/",
   "animalFocus": "cats&dogs",
   "shelter": [
     {
@@ -16,14 +17,14 @@
       "googleMapsLink": "https://maps.app.goo.gl/XhvwCZrFHCRvjdeK6"
     }
   ],
-  "adoptAnimalsURL": "https://www.instagram.com/protectora_osona/",
-  "municipalityInscription": "Gurb",
-  "municipality": "Gurb",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "11514",
+  "dateOfInscription": "1990-03-12T00:00:00.000Z",
+  "municipality": "Gurb",
+  "municipalityInscription": "Gurb",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "1990-03-12T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -38,7 +39,6 @@
       "url": "https://x.com/OsonaProtectora"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

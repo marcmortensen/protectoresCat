@@ -3,13 +3,31 @@
   "slug": "refugiaab",
   "name": "El Refugi Animals en adopció del Berguedà",
   "shortName": "El refugi",
-  "animalFocus": "cats&dogs",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/7/5/4/0/ntu82hxjgl.jpg",
   "contactEmail": "elrefugiaab@gmail.com",
+  "contactPhone": "677890556",
+  "website": "https://elrefugiaab.wordpress.com",
   "region": "bergueda",
   "province": "barcelona",
-  "municipalityInscription": "Gironella",
+  "description": "Associació sense ànim de lucre, per a l'adopció d'animals.",
+  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100064785183838#",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "08610 Avià, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/WDrELBRoU6nJrgEt7",
+      "phone": "677890556",
+      "openingHoursURL": "https://elrefugiaab.wordpress.com/contactar/"
+    }
+  ],
+  "associativeInscriptionNumber": "56082",
+  "dateOfInscription": "2015-04-13T00:00:00.000Z",
   "municipality": "Gironella",
-  "contactPhone": "677890556",
+  "municipalityInscription": "Gironella",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -24,24 +42,6 @@
       "url": "https://www.tiktok.com/@elrefugiaab"
     }
   ],
-  "shelter": [
-    {
-      "adress": "08610 Avià, Barcelona",
-      "googleMapsLink": "https://maps.app.goo.gl/WDrELBRoU6nJrgEt7",
-      "openingHoursURL": "https://elrefugiaab.wordpress.com/contactar/",
-      "phone": "677890556"
-    }
-  ],
-  "description": "Associació sense ànim de lucre, per a l'adopció d'animals.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/2/7/5/4/0/ntu82hxjgl.jpg",
-  "website": "https://elrefugiaab.wordpress.com",
-  "adoptAnimalsURL": "https://www.facebook.com/profile.php?id=100064785183838#",
-  "associativeInscriptionNumber": "56082",
-  "dateOfInscription": "2015-04-13T00:00:00.000Z",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

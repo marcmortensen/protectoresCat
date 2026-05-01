@@ -11,20 +11,20 @@
   "description": "L'Associació Amics dels Peluts del Palau d'Anglesola és una entitat sense ànim de lucre dedicada a la protecció i benestar dels animals, especialment dels gats, gossos i ànecs del municipi. Treballem per fomentar l'esterilització per evitar camades no desitjades i duem a terme el mètode CER (captura, esterilització i retorn) amb els gats de carrer. També promovem la conscienciació ciutadana sobre el respecte i la cura dels animals, col·laborant amb voluntaris i veïns per garantir-los una vida digna i segura. A través d’aquesta plataforma volem donar a conèixer la nostra feina i trobar persones que comparteixin la nostra visió i vulguin aportar-hi el seu granet de sorra. Moltes gràcies!",
   "adoptAnimalsURL": "https://www.instagram.com/amics_peluts_elpalau/",
   "animalFocus": "cats&dogs",
-  "municipalityInscription": "el Palau d'Anglesola",
-  "municipality": "el Palau d'Anglesola",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "69990",
+  "dateOfInscription": "2021-10-01T00:00:00.000Z",
+  "municipality": "el Palau d'Anglesola",
+  "municipalityInscription": "el Palau d'Anglesola",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2021-10-01T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
       "url": "https://www.instagram.com/amics_peluts_elpalau/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

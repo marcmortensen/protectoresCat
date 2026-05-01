@@ -3,13 +3,14 @@
   "slug": "aaap",
   "name": "Associació Amics dels Animals de Palafolls",
   "shortName": "AAAP",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/6/5/0/9/0/fokvxvyggp.jpg",
   "contactEmail": "amicsanimalspalafolls@gmail.com",
   "contactPhone": "665728400",
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/6/5/0/9/0/fokvxvyggp.jpg",
   "region": "maresme",
   "province": "barcelona",
   "description": "L'associació Amics dels Animals de Palafolls és una entitat sense ànim de lucre constituida al 2007 amb el propòsit de donar atenció a aquells gossos i gats que han estat abandonats a Palafolls i proporcinar-los-hi una nova llar i siguin tractats de la manera que els corresponen: amb atenció i estima. Som voluntaries que realitzem aquesta tasca desinteressadament, invertint el nostre temps personal intentant sol·lucionar els problemes dels abandonaments, maltractaments i accidents dels animals de la nostra població.",
   "adoptAnimalsURL": "https://www.instagram.com/protepala",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Molí d'en Puigvert - c/ Gorg de'n Puigvert (Camí dels Plans Palafolls - Tordera), 08389 Palafolls, Barcelona",
@@ -17,14 +18,14 @@
       "phone": "665728400"
     }
   ],
-  "animalFocus": "cats&dogs",
   "associativeInscriptionNumber": "36114",
-  "municipalityInscription": "Palafolls",
+  "dateOfInscription": "2008-02-01T00:00:00.000Z",
   "municipality": "Palafolls",
+  "municipalityInscription": "Palafolls",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
-  "dateOfInscription": "2008-02-01T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -35,7 +36,6 @@
       "url": "https://www.instagram.com/protepala"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",

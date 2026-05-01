@@ -3,13 +3,32 @@
   "slug": "lliga-protectora-danimals-sabadell",
   "name": "Lliga Protectora d'Animals i Plantes de Sabadell",
   "shortName": "Lliga Protectora d'Animals de Sabadell",
-  "animalFocus": "cats&dogs",
+  "logo": "http://protectorasabadell.s3.amazonaws.com/imagenes/logo_rodones.jpg",
   "contactEmail": "protectora@protectorasabadell.org",
+  "contactPhone": "937267227",
+  "website": "https://www.protectorasabadell.org",
   "region": "valles-occidental",
   "province": "barcelona",
-  "municipalityInscription": "Sabadell",
+  "description": "Som una associació sense ànim de lucre, legalment constituïda al 1979 i declarada entitat d’utilitat pública. El nostre refugi d’animals abandonats i perduts (gats i gossos) està situat a la Ctra. de Caldes, km 24,2 de Sabadell i està inscrit en el registre de nuclis zoològics. Durant l’estada dels animals al refugi, mentre no els adopten, són tractats en les millors condicions possibles, tenint cura del seu estat de salut, la seva neteja i la seva alimentació i intentant aconseguir-los una nova llar.",
+  "adoptAnimalsURL": "https://www.protectorasabadell.org/adopta/adopta-un-gat-o-un-gos/",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Ctra. de Caldes, km 24,2 Sabadell (davant del Santuari de la Salut)",
+      "googleMapsLink": "https://maps.app.goo.gl/uY5ipQWRgUDqjcs59",
+      "phone": "937267227",
+      "openingHoursURL": "https://www.protectorasabadell.org/informacio-util/contacte/"
+    }
+  ],
+  "idZoologicalNucleus": "B23/00012",
+  "associativeInscriptionNumber": "4120",
+  "dateOfInscription": "1979-06-12T00:00:00.000Z",
   "municipality": "Sabadell",
-  "contactPhone": "937267227",
+  "municipalityInscription": "Sabadell",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -20,25 +39,6 @@
       "url": "https://www.instagram.com/protectorasabadell/"
     }
   ],
-  "shelter": [
-    {
-      "googleMapsLink": "https://maps.app.goo.gl/uY5ipQWRgUDqjcs59",
-      "phone": "937267227",
-      "adress": "Ctra. de Caldes, km 24,2 Sabadell (davant del Santuari de la Salut)",
-      "openingHoursURL": "https://www.protectorasabadell.org/informacio-util/contacte/"
-    }
-  ],
-  "description": "Som una associació sense ànim de lucre, legalment constituïda al 1979 i declarada entitat d’utilitat pública. El nostre refugi d’animals abandonats i perduts (gats i gossos) està situat a la Ctra. de Caldes, km 24,2 de Sabadell i està inscrit en el registre de nuclis zoològics. Durant l’estada dels animals al refugi, mentre no els adopten, són tractats en les millors condicions possibles, tenint cura del seu estat de salut, la seva neteja i la seva alimentació i intentant aconseguir-los una nova llar.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "http://protectorasabadell.s3.amazonaws.com/imagenes/logo_rodones.jpg",
-  "website": "https://www.protectorasabadell.org",
-  "adoptAnimalsURL": "https://www.protectorasabadell.org/adopta/adopta-un-gat-o-un-gos/",
-  "associativeInscriptionNumber": "4120",
-  "dateOfInscription": "1979-06-12T00:00:00.000Z",
-  "idZoologicalNucleus": "B23/00012",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

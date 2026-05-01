@@ -3,19 +3,20 @@
   "slug": "save-gats-catalunya",
   "name": "Associació Save the Gats Catalunya",
   "shortName": "Save the Gats Catalunya",
-  "animalFocus": "cats",
+  "contactEmail": "savethegats@gmail.com",
   "region": "baix-llobregat",
   "province": "barcelona",
-  "municipalityInscription": "Sant Andreu de la Barca",
-  "municipality": "Sant Andreu de la Barca",
-  "contactEmail": "savethegats@gmail.com",
   "description": "Save the Gats Catalunya és una associació sense ànim de lucre que treballa per la protecció i cura dels animals abandonats, especialment dels gats de carrer. La seva actuació es basa en el mètode CER (captura, esterilització i retorn) com a única forma de gestió ètica de colònies, impulsant campanyes d’esterilització, fomentant l’adopció i acollida de gats, i vetllant pel compliment de la normativa de protecció animal. També promou la sensibilització social envers el respecte als animals i col·labora amb altres entitats afins, tot finançant-se mitjançant donacions, mercadals i altres vies, sense cap finalitat lucrativa.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-22T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/save_the_gats_catalunya/",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "66540",
   "dateOfInscription": "2019-11-14T00:00:00.000Z",
-  "adoptAnimalsURL": "https://www.instagram.com/save_the_gats_catalunya/",
+  "municipality": "Sant Andreu de la Barca",
+  "municipalityInscription": "Sant Andreu de la Barca",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-22T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -26,7 +27,6 @@
       "url": "https://www.facebook.com/SaveTheGats/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-22T00:00:00.000Z",
     "changefreq": "monthly",

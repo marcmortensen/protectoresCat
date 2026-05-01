@@ -9,6 +9,7 @@
   "region": "valles-occidental",
   "province": "barcelona",
   "description": "El Centre d’Acollida d’Animals Domèstics (CAAD) de Castellbisbal és un equipament municipal que ofereix atenció integral als animals abandonats o perduts, comptant amb professionals com cuidadores i veterinària. Els seus serveis inclouen la recollida i recuperació d’animals identificats amb microxip, l’adopció responsable, el voluntariat, i el control de colònies felines en col·laboració amb l’Ajuntament",
+  "adoptAnimalsURL": "https://www.instagram.com/gatera_castellbisbal/",
   "animalFocus": "cats&dogs",
   "shelter": [
     {
@@ -18,13 +19,12 @@
       "openingHoursURL": "https://www.castellbisbal.cat/guia-del-municipi/guia-dequipaments/centre-dacollida-danimals-domestics-caad.html"
     }
   ],
-  "municipalityInscription": "Castellbisbal",
-  "municipality": "Castellbisbal",
-  "isMunicipal": true,
   "idZoologicalNucleus": "B25/00565",
+  "municipality": "Castellbisbal",
+  "municipalityInscription": "Castellbisbal",
+  "isMunicipal": true,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "adoptAnimalsURL": "https://www.instagram.com/gatera_castellbisbal/",
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

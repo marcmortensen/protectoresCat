@@ -4,26 +4,26 @@
   "name": "Associació TarreGATS",
   "shortName": "Gatera municipal Tàrrega",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/9/6/3/1/witvufbhh6.png",
-  "region": "urgell",
   "contactEmail": "tarregats@gmail.com",
+  "region": "urgell",
   "province": "lleida",
   "description": "Som una associació sense ànim de lucre dedicada al benestar dels gats de Tàrrega (Lleida). Gestionem la gatera municipal i treballem per millorar la vida dels gats de carrer mitjançant el mètode CER (captura, esterilització i retorn). Oferim refugi i atenció veterinària a gats amb possibilitat de ser adoptats. El manteniment de la gatera suposa un gran esforç i cost, i no rebem subvencions. Ens ajudes a continuar ajudant-los?",
   "adoptAnimalsURL": "https://www.instagram.com/gateradetarrega/",
   "animalFocus": "cats",
-  "municipalityInscription": "Tàrrega",
-  "municipality": "Tàrrega",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "62793",
+  "dateOfInscription": "2018-03-01T00:00:00.000Z",
+  "municipality": "Tàrrega",
+  "municipalityInscription": "Tàrrega",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-11-03T00:00:00.000Z",
-  "dateOfInscription": "2018-03-01T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
       "url": "https://www.instagram.com/gateradetarrega/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-11-03T00:00:00.000Z",
     "changefreq": "monthly",

@@ -9,20 +9,20 @@
   "description": "Hola a tots! Som uns voluntàris d’Adopta’m Mollerussa. Cada dia, dediquem el nostre temps i esforços a rescatar, cuidar i donar amor als animals sense llar, ferits o abandonats que trobem al nostre camí. En la nostra entitat, no només ens ocupem de proporcionar-los aliment, refugi i atenció mèdica adequada, sinó que també busquem incansablement llars permanents i amoroses per a A més, treballem en campanyes de sensibilització i educació per promoure el respecte i la responsabilita.",
   "adoptAnimalsURL": "https://www.instagram.com/adoptam_mollerussa/",
   "animalFocus": "cats&dogs",
-  "municipalityInscription": "Mollerussa",
-  "municipality": "Mollerussa",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "73741",
+  "dateOfInscription": "2023-09-18T00:00:00.000Z",
+  "municipality": "Mollerussa",
+  "municipalityInscription": "Mollerussa",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-11-03T00:00:00.000Z",
-  "dateOfInscription": "2023-09-18T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
       "url": "https://www.instagram.com/adoptam_mollerussa/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-11-03T00:00:00.000Z",
     "changefreq": "monthly",

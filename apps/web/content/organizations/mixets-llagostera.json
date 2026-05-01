@@ -3,20 +3,21 @@
   "slug": "mixets-llagostera",
   "name": "Associació Mixets De Llagostera",
   "shortName": "Mixets De Llagostera",
-  "contactEmail": "mixets.cat@gmail.com",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/5/8/0/3/ri6wcrfkz3.jpeg",
+  "contactEmail": "mixets.cat@gmail.com",
   "region": "girones",
   "province": "girona",
   "description": "Assosiació centrada en contribuir a través de tots els medis disponibles, al respecte i protecció del mediambient i els seus éssers vius. Contribuir a través de tots els medis disponibles, al respecte als animals, la seva protecció i tot allò que tingui a veure amb el seu bon viure. Control i cura de colònies de gats comunitaris. #CER ",
   "adoptAnimalsURL": "https://www.instagram.com/mixetsdellagostera/",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "73158",
-  "municipalityInscription": "Llagostera",
+  "dateOfInscription": "2023-05-25T00:00:00.000Z",
   "municipality": "Llagostera",
+  "municipalityInscription": "Llagostera",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
-  "dateOfInscription": "2023-05-25T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -27,7 +28,6 @@
       "url": "https://www.facebook.com/people/Associaci%C3%B3-Mixets-De-Llagostera/100090736322144/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",

@@ -21,12 +21,13 @@
     }
   ],
   "associativeInscriptionNumber": "96",
-  "municipalityInscription": "Tarragona",
+  "dateOfInscription": "1967-07-02T00:00:00.000Z",
   "municipality": "Tarragona",
+  "municipalityInscription": "Tarragona",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-08-14T00:00:00.000Z",
-  "dateOfInscription": "1967-07-02T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -41,7 +42,6 @@
       "url": "https://www.instagram.com/gateres.protetgn/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-08-14T00:00:00.000Z",
     "changefreq": "monthly",

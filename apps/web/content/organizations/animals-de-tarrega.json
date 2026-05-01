@@ -5,8 +5,8 @@
   "shortName": "Protectora d'Animals de Tàrrega",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/projects/8/1/4/6/0/720_k50lhygf3s.jpg",
   "contactEmail": "protectora.animals@hotmail.com",
-  "contactPhone": "603641414",
   "whatsAppPhone": "603641414",
+  "contactPhone": "603641414",
   "region": "urgell",
   "province": "lleida",
   "description": "Centre on acollim gossos que no tenen llar, Amb l'esforç i la passió de socis/es i voluntaris/es es lluita perquè trobin una nova llar i l'amor i la llibertat que tant es mereixen.",
@@ -19,13 +19,13 @@
       "phone": "603641414"
     }
   ],
-  "municipalityInscription": "Tàrrega",
-  "municipality": "Tàrrega",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "1088",
+  "dateOfInscription": "1988-10-04T00:00:00.000Z",
+  "municipality": "Tàrrega",
+  "municipalityInscription": "Tàrrega",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "1988-10-04T00:00:00.000Z",
   "socials": [
     {
       "type": "facebook",

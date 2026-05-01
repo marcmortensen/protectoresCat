@@ -3,11 +3,20 @@
   "slug": "bgig",
   "name": "Associació Barcelona Gat i Gos",
   "shortName": "BGiG",
-  "animalFocus": "cats",
+  "logo": "https://barcelonagatigos.org/wp-content/uploads/2021/05/BCN-GG-logo-GRANDE-600x357.png",
+  "website": "https://barcelonagatigos.org",
   "region": "barcelones",
   "province": "barcelona",
-  "municipalityInscription": "Barcelona",
+  "description": "Som una associació dedicada de manera gairebé exclusiva a cura del gat urbà. Comptem amb un refugi felí on hi ha els gats mentre es busquen adoptants, cases d'acollida i ens ocupem de controlar diverses colònies felines a Barcelona.",
+  "adoptAnimalsURL": "https://barcelonagatigos.org/adoptar/?lang=ca",
+  "animalFocus": "cats",
+  "associativeInscriptionNumber": "27783",
+  "dateOfInscription": "2003-07-09T00:00:00.000Z",
   "municipality": "Barcelona",
+  "municipalityInscription": "Barcelona",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",
@@ -22,15 +31,6 @@
       "url": "https://www.tiktok.com/@barcelonagatigos"
     }
   ],
-  "description": "Som una associació dedicada de manera gairebé exclusiva a cura del gat urbà. Comptem amb un refugi felí on hi ha els gats mentre es busquen adoptants, cases d'acollida i ens ocupem de controlar diverses colònies felines a Barcelona.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "https://barcelonagatigos.org/wp-content/uploads/2021/05/BCN-GG-logo-GRANDE-600x357.png",
-  "website": "https://barcelonagatigos.org",
-  "adoptAnimalsURL": "https://barcelonagatigos.org/adoptar/?lang=ca",
-  "associativeInscriptionNumber": "27783",
-  "dateOfInscription": "2003-07-09T00:00:00.000Z",
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

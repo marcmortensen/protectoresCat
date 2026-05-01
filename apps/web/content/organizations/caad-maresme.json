@@ -10,8 +10,8 @@
   "region": "maresme",
   "province": "barcelona",
   "description": "El CAAD del Maresme és un servei mancomunat de recollida, acollida i foment de l'adopció dels animals domèstics (gossos i gats) abandonats a la via pública. Gestionat pel Consell Comarcal del Maresme, presta servei als municipis que li deleguen la competència.",
-  "animalFocus": "cats&dogs",
   "adoptAnimalsURL": "https://www.caadmaresme.com/adopta",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Can Carmany s/n,(darrera el Nou Cementiri d'Argentona) 08310 Argentona",
@@ -20,8 +20,8 @@
       "openingHoursURL": "https://www.caadmaresme.com/com-arribar-horaris"
     }
   ],
-  "municipalityInscription": "Argentona",
   "municipality": "Argentona",
+  "municipalityInscription": "Argentona",
   "isMunicipal": true,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",

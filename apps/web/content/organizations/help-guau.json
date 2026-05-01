@@ -3,28 +3,29 @@
   "slug": "help-guau",
   "name": "Help Guau",
   "shortName": "Help Guau",
+  "logo": "https://www.helpguau.com/wp-content/uploads/2019/06/cropped-logo-hg@2x.png",
   "contactEmail": "adopciones@helpguau.com",
-  "animalFocus": "cats&dogs",
   "whatsAppPhone": "937561114",
+  "website": "https://www.helpguau.com",
   "region": "maresme",
   "province": "barcelona",
-  "municipalityInscription": "Argentona",
-  "municipality": "Argentona",
+  "description": "Centre d'acolliment d'animals abandonats i/o perduts a la via pública. La nostra funció principal és la recollida i/o captura d'animals, que es troben a vies públiques, per ordre de l'Ajuntament del municipi. El trasllat fins a les nostres instal·lacions, la revisió de cada animal, el seu manteniment i/o cura i oferir-li la millor estada possible el temps que estigui al nostre centre. Buscar-li una llar digna i definitiva, on el més important sigui el seu benestar.",
+  "adoptAnimalsURL": "https://www.helpguau.com/animales/",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Passatge Òrrius, km 0,1, 08310 Argentona, Barcelona",
       "googleMapsLink": "https://maps.app.goo.gl/4cAhicZnX2x1jZVWA",
-      "openingHoursURL": "https://www.helpguau.com/contacto/",
-      "phone": "937561114"
+      "phone": "937561114",
+      "openingHoursURL": "https://www.helpguau.com/contacto/"
     }
   ],
-  "description": "Centre d'acolliment d'animals abandonats i/o perduts a la via pública. La nostra funció principal és la recollida i/o captura d'animals, que es troben a vies públiques, per ordre de l'Ajuntament del municipi. El trasllat fins a les nostres instal·lacions, la revisió de cada animal, el seu manteniment i/o cura i oferir-li la millor estada possible el temps que estigui al nostre centre. Buscar-li una llar digna i definitiva, on el més important sigui el seu benestar.",
-  "isActive": true,
+  "municipality": "Argentona",
+  "municipalityInscription": "Argentona",
   "isMunicipal": false,
+  "isActive": true,
   "lastUpdate": "2025-10-02T00:00:00.000Z",
-  "logo": "https://www.helpguau.com/wp-content/uploads/2019/06/cropped-logo-hg@2x.png",
-  "website": "https://www.helpguau.com",
-  "adoptAnimalsURL": "https://www.helpguau.com/animales/",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -35,7 +36,6 @@
       "url": "https://www.facebook.com/helpguauadopta"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-02T00:00:00.000Z",
     "changefreq": "monthly",

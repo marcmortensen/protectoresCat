@@ -3,8 +3,8 @@
   "slug": "adap",
   "name": "Amics per la Defensa dels Animals del Penedès (ADAP)",
   "shortName": "ADAP",
-  "contactEmail": "contacto.adap@gmail.com",
   "logo": "https://adap-penedes.org/_mibambu/_adappenedes/imas/logo-adap-2.jpg",
+  "contactEmail": "contacto.adap@gmail.com",
   "website": "https://adap-penedes.org",
   "region": "alt-penedes",
   "province": "barcelona",
@@ -12,12 +12,13 @@
   "adoptAnimalsURL": "https://adap-penedes.org/listado.php",
   "animalFocus": "cats&dogs",
   "associativeInscriptionNumber": "48234",
-  "municipalityInscription": "Vilafranca del Penedès",
+  "dateOfInscription": "2012-07-10T00:00:00.000Z",
   "municipality": "Vilafranca del Penedès",
+  "municipalityInscription": "Vilafranca del Penedès",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
-  "dateOfInscription": "2012-07-10T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -28,7 +29,6 @@
       "url": "https://www.instagram.com/adappenedes/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-30T00:00:00.000Z",
     "changefreq": "monthly",

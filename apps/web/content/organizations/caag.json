@@ -4,24 +4,24 @@
   "name": "Centre d'Acollida d'Animals de la Garrotxa",
   "shortName": "CAAG",
   "contactPhone": "621294554",
-  "animalFocus": "cats&dogs",
   "region": "garrotxa",
   "province": "girona",
-  "municipalityInscription": "Olot",
-  "municipality": "Olot",
+  "description": "Recollida d'animals perduts o abandonats, adopció i control de colònies 📞 621 294 554 de 9h a 15h",
+  "adoptAnimalsURL": "https://www.instagram.com/centreacollidagarrotxa/",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Carrer Semalers, 17800 Olot, Girona",
       "googleMapsLink": "https://maps.app.goo.gl/SuzWkNwyaFgQHpMn8",
-      "openingHoursURL": "https://maps.app.goo.gl/SuzWkNwyaFgQHpMn8",
-      "phone": "621294554"
+      "phone": "621294554",
+      "openingHoursURL": "https://maps.app.goo.gl/SuzWkNwyaFgQHpMn8"
     }
   ],
-  "description": "Recollida d'animals perduts o abandonats, adopció i control de colònies 📞 621 294 554 de 9h a 15h",
-  "isActive": true,
+  "municipality": "Olot",
+  "municipalityInscription": "Olot",
   "isMunicipal": false,
+  "isActive": true,
   "lastUpdate": "2026-02-10T00:00:00.000Z",
-  "adoptAnimalsURL": "https://www.instagram.com/centreacollidagarrotxa/",
   "socials": [
     {
       "type": "facebook",

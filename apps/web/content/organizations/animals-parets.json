@@ -3,14 +3,31 @@
   "slug": "animals-parets",
   "name": "Associació Protectora d'Animals de Parets",
   "shortName": "Protectora d'Animals de Parets",
-  "animalFocus": "cats&dogs",
+  "logo": "https://bio.linkcdn.cc/upload/2022022415/164571632300065582.png",
   "contactEmail": "protectoraanimalsparets@gmail.com",
-  "contactPhone": "664127247",
   "whatsAppPhone": "664127247",
+  "contactPhone": "664127247",
+  "website": "https://protectoraparets.com",
   "region": "valles-oriental",
   "province": "barcelona",
-  "municipalityInscription": "Parets del Vallès",
+  "description": "Acollir i protegir els animals abandonats per donar-los una segona oportunitat mitjançant les adopcions i cases d'acollida. Alimentem i controlem les colònies de gats del carrer del municipi. Lluitem per la vida de gats i gossos per millorar la seva qualitat de vida.",
+  "adoptAnimalsURL": "https://www.instagram.com/protectoraanimalsparets/",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Carrer Sinia, 3 08150 - Parets del Vallès, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/PJ2Weu3mKnBtnWWt6",
+      "phone": "664127247",
+      "openingHoursURL": "https://maps.app.goo.gl/PJ2Weu3mKnBtnWWt6"
+    }
+  ],
+  "associativeInscriptionNumber": "55849",
+  "dateOfInscription": "2015-03-16T00:00:00.000Z",
   "municipality": "Parets del Vallès",
+  "municipalityInscription": "Parets del Vallès",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2026-02-03T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",
@@ -21,23 +38,6 @@
       "url": "https://www.facebook.com/ProtectoraParets/"
     }
   ],
-  "shelter": [
-    {
-      "adress": "Carrer Sinia, 3 08150 - Parets del Vallès, Barcelona",
-      "googleMapsLink": "https://maps.app.goo.gl/PJ2Weu3mKnBtnWWt6",
-      "openingHoursURL": "https://maps.app.goo.gl/PJ2Weu3mKnBtnWWt6",
-      "phone": "664127247"
-    }
-  ],
-  "description": "Acollir i protegir els animals abandonats per donar-los una segona oportunitat mitjançant les adopcions i cases d'acollida. Alimentem i controlem les colònies de gats del carrer del municipi. Lluitem per la vida de gats i gossos per millorar la seva qualitat de vida.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2026-02-03T00:00:00.000Z",
-  "logo": "https://bio.linkcdn.cc/upload/2022022415/164571632300065582.png",
-  "website": "https://protectoraparets.com",
-  "adoptAnimalsURL": "https://www.instagram.com/protectoraanimalsparets/",
-  "associativeInscriptionNumber": "55849",
-  "dateOfInscription": "2015-03-16T00:00:00.000Z",
   "sitemap": {
     "lastmod": "2026-02-03T00:00:00.000Z",
     "changefreq": "monthly",

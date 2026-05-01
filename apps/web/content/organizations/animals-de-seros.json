@@ -1,16 +1,31 @@
 {
   "id": "c7267902",
   "slug": "animals-de-seros",
-  "animalFocus": "dogs",
-  "contactEmail": "adoptapeludosbc@gmail.com",
   "name": "Associació Protectora d'Animals de Seròs",
   "shortName": "Amigos Peludos Bajo Cinca",
-  "associativeInscriptionNumber": "57033",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/8/3/2/3/4/s5oso0quwx.jpg",
+  "contactEmail": "adoptapeludosbc@gmail.com",
   "region": "segria",
   "province": "lleida",
-  "municipalityInscription": "Seròs",
+  "description": "Som una protectora d'animals que portem treballant des de juliol de 2014 a la comarca de el Baix Cinca i del Baix Segrià. Rescatem animals en mal estat, maltractats i abandonats. Les acollim en els nostres refugi, els donem les cures necessàries, atenció veterinària, els reeduquem perquè puguin viure en una llar amb una família i els busquem adopció.",
+  "adoptAnimalsURL": "https://www.instagram.com/amigospeludosbajocinca/",
+  "animalFocus": "dogs",
+  "shelter": [
+    {
+      "adress": "Crta, Seròs, Km 15, 9, 25183 La Granja d'Escarp, Lleida",
+      "googleMapsLink": "https://maps.app.goo.gl/R7R2B5rAq8i4Nseh6",
+      "openingHoursURL": "https://maps.app.goo.gl/R7R2B5rAq8i4Nseh6"
+    }
+  ],
+  "idZoologicalNucleus": "L25/00205",
+  "associativeInscriptionNumber": "57033",
+  "dateOfInscription": "2015-10-06T00:00:00.000Z",
   "municipality": "Seròs",
+  "municipalityInscription": "Seròs",
+  "isMunicipal": false,
   "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -29,21 +44,6 @@
       "url": "https://x.com/Amigospeludosbc"
     }
   ],
-  "shelter": [
-    {
-      "adress": "Crta, Seròs, Km 15, 9, 25183 La Granja d'Escarp, Lleida",
-      "googleMapsLink": "https://maps.app.goo.gl/R7R2B5rAq8i4Nseh6",
-      "openingHoursURL": "https://maps.app.goo.gl/R7R2B5rAq8i4Nseh6"
-    }
-  ],
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2015-10-06T00:00:00.000Z",
-  "idZoologicalNucleus": "L25/00205",
-  "description": "Som una protectora d'animals que portem treballant des de juliol de 2014 a la comarca de el Baix Cinca i del Baix Segrià. Rescatem animals en mal estat, maltractats i abandonats. Les acollim en els nostres refugi, els donem les cures necessàries, atenció veterinària, els reeduquem perquè puguin viure en una llar amb una família i els busquem adopció.",
-  "isMunicipal": false,
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/users/8/3/2/3/4/s5oso0quwx.jpg",
-  "adoptAnimalsURL": "https://www.instagram.com/amigospeludosbajocinca/",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

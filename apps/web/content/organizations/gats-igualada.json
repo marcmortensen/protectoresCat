@@ -3,21 +3,22 @@
   "slug": "gats-igualada",
   "name": "Associació Gats Igualada",
   "shortName": "Gats Igualada",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/9/3/0/b43y5sdp0j.jpg",
   "contactEmail": "gatsigualada@gmail.com",
-  "animalFocus": "cats",
+  "website": "https://sites.google.com/view/gats-igualada",
   "region": "anoia",
   "province": "barcelona",
-  "municipalityInscription": "Igualada",
-  "municipality": "Igualada",
   "description": "Som una associació sense ànim de lucre de la ciutat d'Igualada. La nostra tasca és gestionar el refugi de gats de la ciutat, que està en un espai que lAjuntament cedeix. A més a més ens encarreguem daplicar la metodologia CER (Captura, Esterilització i Retorn) dels gats ferals de la ciutat per tal de reduir el nombre de gats cadells i adults als carrers dIgualada. Quan recollim un gat/et, el desparasitem, latenem a nivell veterinari i emocional i li busquem una adopció responsable.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-11T00:00:00.000Z",
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/9/3/0/b43y5sdp0j.jpg",
-  "website": "https://sites.google.com/view/gats-igualada",
   "adoptAnimalsURL": "https://www.instagram.com/gats_igualada/",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "58452",
   "dateOfInscription": "2016-04-26T00:00:00.000Z",
+  "municipality": "Igualada",
+  "municipalityInscription": "Igualada",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-11T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -28,7 +29,6 @@
       "url": "https://www.facebook.com/GatsIgualada"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-11T00:00:00.000Z",
     "changefreq": "monthly",

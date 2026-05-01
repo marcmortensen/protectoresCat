@@ -3,35 +3,35 @@
   "slug": "rmac",
   "name": "Refugi Municipal d'Animales de Companyia",
   "shortName": "RMAC",
-  "animalFocus": "cats&dogs",
+  "logo": "https://www.santboi.cat/sites/default/files/2022-09/SantBoi_Logo.png",
   "contactEmail": "rmac@santboi.cat",
+  "contactPhone": "936405714",
+  "website": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac",
   "region": "baix-llobregat",
   "province": "barcelona",
-  "municipalityInscription": "Sant Boi de Llobregat",
+  "description": "El RMAC és un centre municipal on acollim els gossos, gats i fures que s’han trobat abandonats o perduts als carrers de Sant Boi. Hi atenem els animals fins que la persona propietària els recupera o alguna altra persona els adopta.",
+  "adoptAnimalsURL": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/rmac-refugi-municipal-danimals-de-companyia/adopcions",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Carrer de la Riera del Fonollar, 2, 08830 Sant Boi de Llobregat, Barcelona",
+      "googleMapsLink": "https://maps.app.goo.gl/jZiXoEBrcHDLTDWSA",
+      "phone": "936405714",
+      "openingHoursURL": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac"
+    }
+  ],
   "municipality": "Sant Boi de Llobregat",
-  "contactPhone": "936405714",
+  "municipalityInscription": "Sant Boi de Llobregat",
+  "isMunicipal": true,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
       "url": "https://www.facebook.com/adoptaanimalessantboillobregat/"
     }
   ],
-  "shelter": [
-    {
-      "googleMapsLink": "https://maps.app.goo.gl/jZiXoEBrcHDLTDWSA",
-      "phone": "936405714",
-      "adress": "Carrer de la Riera del Fonollar, 2, 08830 Sant Boi de Llobregat, Barcelona",
-      "openingHoursURL": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac"
-    }
-  ],
-  "description": "El RMAC és un centre municipal on acollim els gossos, gats i fures que s’han trobat abandonats o perduts als carrers de Sant Boi. Hi atenem els animals fins que la persona propietària els recupera o alguna altra persona els adopta.",
-  "isActive": true,
-  "isMunicipal": true,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "https://www.santboi.cat/sites/default/files/2022-09/SantBoi_Logo.png",
-  "website": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/refugi-municipal-danimals-de-companyia-rmac",
-  "adoptAnimalsURL": "https://www.santboi.cat/ciutadania/mascotes-i-animals-de-companyia/rmac-refugi-municipal-danimals-de-companyia/adopcions",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

@@ -19,11 +19,11 @@
       "openingHoursURL": "https://www.arcaprotectora.com"
     }
   ],
-  "municipalityInscription": "Aldover",
-  "municipality": "Aldover",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "924",
   "dateOfInscription": "2001-08-10T00:00:00.000Z",
+  "municipality": "Aldover",
+  "municipalityInscription": "Aldover",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
   "socials": [

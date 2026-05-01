@@ -5,20 +5,21 @@
   "shortName": "Un Més del Poble",
   "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/6/3/9/5/1/mjchzo1xft.jpg",
   "contactEmail": "unmesdelpoble@gmail.com",
-  "contactPhone": "610685600",
   "whatsAppPhone": "610685600",
+  "contactPhone": "610685600",
   "region": "pallars-jussa",
   "province": "lleida",
   "description": "Som una associació pel benestar i la protecció dels animals abandonats. Som un grup de persones de diferents disciplines professionals i laborals que unim la nostra formació i experiència per a treballar i per a resoldre els problemes que la gestió incorrecta o la no gestió dels animals lliures que conviuen als nostres pobles i ciutats implica al conjunt de la ciutadania.",
   "adoptAnimalsURL": "https://www.facebook.com/unmesdelpoble/",
   "animalFocus": "cats&dogs",
-  "municipalityInscription": "Tremp",
-  "municipality": "Tremp",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "36528",
+  "dateOfInscription": "2008-03-31T00:00:00.000Z",
+  "municipality": "Tremp",
+  "municipalityInscription": "Tremp",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2008-03-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -29,7 +30,6 @@
       "url": "https://www.instagram.com/unmesdelpoble/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

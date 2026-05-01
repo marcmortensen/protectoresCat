@@ -3,13 +3,31 @@
   "slug": "adea-vd",
   "name": "Associació Defensora dels Animals Abandonats Vilassar de Dalt",
   "shortName": "ADEA VD",
-  "animalFocus": "dogs",
+  "logo": "https://adeavd.org/wp-content/uploads/2017/10/Logowebpng.png",
   "contactEmail": "adeavd@gmail.com",
+  "contactPhone": "600433165",
+  "website": "https://adeavd.org",
   "region": "maresme",
   "province": "barcelona",
-  "municipalityInscription": "Vilassar de Dalt",
+  "description": "Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt. El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.",
+  "adoptAnimalsURL": "https://petshelter.miwuki.com/p/5U3Tf0l4",
+  "animalFocus": "dogs",
+  "shelter": [
+    {
+      "adress": "Camí dels Bassals s/n (Darrere del camb de futbol) 08339 Vilassar de Dalt",
+      "googleMapsLink": "https://maps.app.goo.gl/ASxzASdid2yxQP2w5",
+      "phone": "600433165",
+      "openingHoursURL": "https://adeavd.org/#contacto"
+    }
+  ],
+  "associativeInscriptionNumber": "24292",
+  "dateOfInscription": "2001-01-15T00:00:00.000Z",
   "municipality": "Vilassar de Dalt",
-  "contactPhone": "600433165",
+  "municipalityInscription": "Vilassar de Dalt",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -20,24 +38,6 @@
       "url": "https://www.instagram.com/protectoravilassar/"
     }
   ],
-  "shelter": [
-    {
-      "adress": "Camí dels Bassals s/n (Darrere del camb de futbol) 08339 Vilassar de Dalt",
-      "googleMapsLink": "https://maps.app.goo.gl/ASxzASdid2yxQP2w5",
-      "openingHoursURL": "https://adeavd.org/#contacto",
-      "phone": "600433165"
-    }
-  ],
-  "description": "Som la protectora que gestiona el refugi municipal d’animals de Vallmorena a Vilassar de Dalt. El nostre fi és buscar per als gossos del refugi una família que els adopti i, mentre aquesta no apareix, assegurar-los una salut i el major benestar possibles.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "https://adeavd.org/wp-content/uploads/2017/10/Logowebpng.png",
-  "website": "https://adeavd.org",
-  "adoptAnimalsURL": "https://petshelter.miwuki.com/p/5U3Tf0l4",
-  "associativeInscriptionNumber": "24292",
-  "dateOfInscription": "2001-01-15T00:00:00.000Z",
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

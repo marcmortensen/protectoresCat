@@ -3,20 +3,21 @@
   "slug": "apar",
   "name": "Associació Protectora d'Animals la Roca",
   "shortName": "APAR",
-  "animalFocus": "cats&dogs",
-  "region": "valles-oriental",
-  "province": "barcelona",
-  "municipalityInscription": "la Roca del Vallès",
-  "municipality": "la Roca del Vallès",
   "contactEmail": "aparlaroca@gmail.com",
   "contactPhone": "613044803",
+  "region": "valles-oriental",
+  "province": "barcelona",
   "description": "APAR La Roca som una associació, sense ànim de lucre, que va néixer per vetllar pels interessos i el benestar animal del nostre municipi. Està formada per un grup de voluntàries disposades a ajudar als peluts a tenir el seu espai on es sentin segurs, respectats i estimats, per sempre,  i la millor manera és fomentant l'adopció. No disposem de refugi,  les cases d'acollida què ens ajuden són les que recuperen emocionalment els nostres animalons i els preparen per ser adoptats.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-09-30T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/aparlaroca/",
+  "animalFocus": "cats&dogs",
   "associativeInscriptionNumber": "69077",
   "dateOfInscription": "2021-03-15T00:00:00.000Z",
-  "adoptAnimalsURL": "https://www.instagram.com/aparlaroca/",
+  "municipality": "la Roca del Vallès",
+  "municipalityInscription": "la Roca del Vallès",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-09-30T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -27,7 +28,6 @@
       "url": "https://www.facebook.com/profile.php?id=100066452601654"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-09-30T00:00:00.000Z",
     "changefreq": "monthly",

@@ -1,42 +1,89 @@
-//import { getAllAnimalsFromOrgs } from './animalsFromOrganizations.js';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { organizations } from './organization.js';
-import { Region } from './utils/locations.js';
+import { REGION_SLUGS, type Region } from './utils/locations.js';
+import {
+  apiOrganizationsSchema,
+  contentOrganizationsSchema,
+  organizationSchema,
+  PUBLIC_ORGANIZATIONS_DATA_JSON_SCHEMA_URI,
+} from './organizationSchemas.js';
+import { flattenError, toJSONSchema } from 'zod';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const organizationsPath = path.resolve(__dirname, '../../organizations');
-/*
-const animals = (await getAllAnimalsFromOrgs()).sort((a, b) =>
-  a.id.localeCompare(b.id),
-);
+const generatedPath = path.resolve(__dirname, '../../generated');
 
-console.log('Total animals fetched:', animals.length);
-
-try {
-  const filePath = path.join(projectRoot, 'animals.json');
-  await fs.writeFile(filePath, JSON.stringify(animals, null, 2));
-  console.log(`Animals data has been written to ${filePath}`);
-} catch (error) {
-  console.error('Error writing animals data:', error);
-}
-
-*/
 const activeOrganizations = organizations.filter((a) => a.isActive);
+await fs.mkdir(generatedPath, { recursive: true });
+
+const organizationsWrittenParsed: ReturnType<
+  typeof contentOrganizationsSchema.parse
+>[] = [];
+
 try {
   for (const org of activeOrganizations) {
-    const filePath = path.join(organizationsPath, `${org.slug}.json`);
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    org.sitemap = {
-      lastmod: org.lastUpdate,
-      changefreq: 'monthly',
-      priority: 0.5,
+    const payload = {
+      ...org,
+      sitemap: {
+        lastmod: org.lastUpdate,
+        changefreq: 'monthly' as const,
+        priority: 0.5,
+      },
     };
-    await fs.writeFile(filePath, JSON.stringify(org, null, 2));
+    const parsed = contentOrganizationsSchema.safeParse(payload);
+    if (!parsed.success) {
+      console.error(
+        `Invalid organization payload for ${org.slug}:`,
+        flattenError(parsed.error),
+      );
+      throw new Error(`Schema validation failed for ${org.slug}`);
+    }
+    organizationsWrittenParsed.push(parsed.data);
+    const filePath = path.join(organizationsPath, `${org.slug}.json`);
+    await fs.writeFile(filePath, JSON.stringify(parsed.data, null, 2));
   }
+
+  const organizationsPublic = organizationsWrittenParsed.map((row) => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { sitemap, logo, enabledLogoUsage, ...rest } = row;
+    const again = organizationSchema.safeParse(rest);
+    if (!again.success) {
+      console.error(
+        `Public strip/sitemap failed for ${row.slug}:`,
+        flattenError(again.error),
+      );
+      throw new Error(
+        'Public organizations payload invalid after removing sitemap',
+      );
+    }
+    return again.data;
+  });
+
+  const generatedAt = new Date().toISOString();
+  const apiOrganizationsResult = apiOrganizationsSchema.safeParse({
+    $schema: PUBLIC_ORGANIZATIONS_DATA_JSON_SCHEMA_URI,
+    organizations: organizationsPublic,
+    generatedAt,
+    total: organizationsPublic.length,
+  });
+  if (!apiOrganizationsResult.success) {
+    console.error(
+      'Invalid public bundle:',
+      flattenError(apiOrganizationsResult.error),
+    );
+    throw new Error('Public organizations bundle validation failed');
+  }
+  await fs.writeFile(
+    path.join(generatedPath, 'data.json'),
+    JSON.stringify(apiOrganizationsResult.data, null, 2),
+  );
+  await fs.writeFile(
+    path.join(generatedPath, 'schema.json'),
+    JSON.stringify(toJSONSchema(apiOrganizationsSchema), null, 2),
+  );
 } catch (error) {
   console.error('Error writing organization data:', error);
 }
@@ -47,51 +94,7 @@ const currentOrgs = activeOrganizations.map((org) => ({
   animalFocus: org.animalFocus,
   additionalRegions: org.additionalRegions,
 }));
-const regions: Region[] = [
-  'alt-camp',
-  'alt-emporda',
-  'alt-penedes',
-  'alt-urgell',
-  'alta-ribagorca',
-  'anoia',
-  'aran',
-  'bages',
-  'baix-camp',
-  'baix-ebre',
-  'baix-emporda',
-  'baix-llobregat',
-  'baix-penedes',
-  'barcelones',
-  'bergueda',
-  'cerdanya',
-  'conca-de-barbera',
-  'garraf',
-  'garrigues',
-  'garrotxa',
-  'girones',
-  'llucanes',
-  'maresme',
-  'moianes',
-  'montsia',
-  'noguera',
-  'osona',
-  'pallars-jussa',
-  'pallars-sobira',
-  'pla-de-lestany',
-  'pla-durgell',
-  'priorat',
-  'ribera-debre',
-  'ripolles',
-  'segarra',
-  'segria',
-  'selva',
-  'solsones',
-  'tarragones',
-  'terra-alta',
-  'urgell',
-  'valles-occidental',
-  'valles-oriental',
-];
+const regions: Region[] = [...REGION_SLUGS];
 
 const missingRegions = regions.filter(
   (region) =>

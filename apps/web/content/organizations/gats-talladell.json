@@ -3,25 +3,25 @@
   "slug": "gats-talladell",
   "name": "Associació Gats del Talladell",
   "shortName": "Gats del Talladell",
-  "animalFocus": "cats",
   "region": "urgell",
   "province": "lleida",
-  "municipalityInscription": "Tàrrega",
-  "municipality": "Tàrrega",
   "description": "L’associació de Gats del Talladell neix amb la intenció de controlar i protegir aquestes colònies, proporcionant atenció veterinària als gats malalts, alimentació, refugi i el més important, el control de població per mitjà de la captura, esterilització i retorn dels animals així com la sortida en adopció dels gats més joves.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-03T00:00:00.000Z",
   "adoptAnimalsURL": "https://www.facebook.com/profile.php/?id=61562158372483",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "75021",
   "dateOfInscription": "2024-04-04T00:00:00.000Z",
+  "municipality": "Tàrrega",
+  "municipalityInscription": "Tàrrega",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-03T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
       "url": "https://www.facebook.com/profile.php/?id=61562158372483"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-03T00:00:00.000Z",
     "changefreq": "monthly",

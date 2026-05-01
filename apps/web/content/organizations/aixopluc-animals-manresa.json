@@ -3,37 +3,37 @@
   "slug": "aixopluc-animals-manresa",
   "name": "Protectora d'Animals de Manresa Aixopluc",
   "shortName": "Refugi Aixopluc Animals de Manresa",
-  "animalFocus": "cats&dogs",
+  "logo": "https://aixoplucmanresa.org/wp-content/uploads/2022/08/logo.png",
   "contactEmail": "comunicacio@aixoplucmanresa.org",
+  "contactPhone": "938727074",
+  "website": "https://aixoplucmanresa.org",
   "region": "bages",
   "province": "barcelona",
-  "municipalityInscription": "Manresa",
+  "description": "La protectora d'Animals Aixopluc, és una associació que té cura d'un centenar de gossos i més de tres-cents gats. Molts arriben al centre en molt mal estat i la seva recuperació és vital per donar-los una bona qualitat de vida i una futura adopció. El centre està ubicat a Manresa (Barcelona). Per fer front a tots aquests costos sanitaris i alimentaris, ens unim a aquesta meravellosa iniciativa.",
+  "adoptAnimalsURL": "https://www.instagram.com/aixoplucmanresa/",
+  "animalFocus": "cats&dogs",
+  "shelter": [
+    {
+      "adress": "Can Poc Oli, s/n 08240 Manresa",
+      "googleMapsLink": "https://maps.app.goo.gl/HXUFLjiJema3DC1W8",
+      "phone": "938727074",
+      "openingHoursURL": "https://aixoplucmanresa.org/contacte/"
+    }
+  ],
+  "idZoologicalNucleus": "B23/00084",
+  "associativeInscriptionNumber": "993",
+  "dateOfInscription": "1967-09-19T00:00:00.000Z",
   "municipality": "Manresa",
-  "contactPhone": "938727074",
+  "municipalityInscription": "Manresa",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-31T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",
       "url": "https://www.instagram.com/aixoplucmanresa/"
     }
   ],
-  "shelter": [
-    {
-      "googleMapsLink": "https://maps.app.goo.gl/HXUFLjiJema3DC1W8",
-      "phone": "938727074",
-      "adress": "Can Poc Oli, s/n 08240 Manresa",
-      "openingHoursURL": "https://aixoplucmanresa.org/contacte/"
-    }
-  ],
-  "description": "La protectora d'Animals Aixopluc, és una associació que té cura d'un centenar de gossos i més de tres-cents gats. Molts arriben al centre en molt mal estat i la seva recuperació és vital per donar-los una bona qualitat de vida i una futura adopció. El centre està ubicat a Manresa (Barcelona). Per fer front a tots aquests costos sanitaris i alimentaris, ens unim a aquesta meravellosa iniciativa.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "logo": "https://aixoplucmanresa.org/wp-content/uploads/2022/08/logo.png",
-  "website": "https://aixoplucmanresa.org",
-  "adoptAnimalsURL": "https://www.instagram.com/aixoplucmanresa/",
-  "associativeInscriptionNumber": "993",
-  "dateOfInscription": "1967-09-19T00:00:00.000Z",
-  "idZoologicalNucleus": "B23/00084",
   "sitemap": {
     "lastmod": "2025-10-31T00:00:00.000Z",
     "changefreq": "monthly",

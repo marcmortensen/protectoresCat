@@ -3,12 +3,15 @@
   "slug": "animals-lydia-argiles",
   "name": "Protectora d'Animals Lydia Argilés",
   "shortName": "Animals Lydia Argilés",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/0/1/0/dxdh0jolli.jpg",
   "contactEmail": "protectoraanimalslydiaargiles@hotmail.com",
   "contactPhone": "686234542",
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/9/4/0/1/0/dxdh0jolli.jpg",
   "website": "https://protectoraanimalslydiaargiles.blogspot.com",
   "region": "segria",
   "province": "lleida",
+  "description": "Associació animalista amb més de 30 anys d'experiència dedicada al rescat d'animals (gossos i gats), a la defensa dels seus drets ia la recerca de noves llars per a ells. Situada a la ciutat de Lleida.",
+  "adoptAnimalsURL": "https://protectoralydiaargiles.sukycms.com/animales",
+  "animalFocus": "cats&dogs",
   "shelter": [
     {
       "adress": "Partida Sant Just, 55 A, 25192 Lleida, Espanya",
@@ -17,17 +20,15 @@
       "openingHoursURL": "https://maps.app.goo.gl/AToGGe8M1SUF231K7"
     }
   ],
-  "description": "Associació animalista amb més de 30 anys d'experiència dedicada al rescat d'animals (gossos i gats), a la defensa dels seus drets ia la recerca de noves llars per a ells. Situada a la ciutat de Lleida.",
-  "adoptAnimalsURL": "https://protectoralydiaargiles.sukycms.com/animales",
-  "associativeInscriptionNumber": "2724",
-  "animalFocus": "cats&dogs",
   "idZoologicalNucleus": "L25/00102",
-  "municipalityInscription": "Lleida",
+  "associativeInscriptionNumber": "2724",
+  "dateOfInscription": "2001-03-14T00:00:00.000Z",
   "municipality": "Lleida",
+  "municipalityInscription": "Lleida",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-11-15T00:00:00.000Z",
-  "dateOfInscription": "2001-03-14T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -38,7 +39,6 @@
       "url": "https://www.instagram.com/protectora_lydiaargiles/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-11-15T00:00:00.000Z",
     "changefreq": "monthly",

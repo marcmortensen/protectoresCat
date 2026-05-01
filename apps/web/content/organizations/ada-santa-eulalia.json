@@ -3,21 +3,22 @@
   "slug": "ada-santa-eulalia",
   "name": "Associació Amics dels Animals Santa Eulàlia de Ronçana",
   "shortName": "ADA Santa Eulàlia",
-  "animalFocus": "cats",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/4/5/2/3/jcy74ru3it.jpeg",
   "contactEmail": "ada.ser3343@gmail.com",
+  "website": "https://amicsdelsanimalsser.my.canva.site",
   "region": "valles-oriental",
   "province": "barcelona",
-  "municipalityInscription": "Santa Eulàlia de Ronçana",
-  "municipality": "Santa Eulàlia de Ronçana",
   "description": "Som l'associació Amics Dels Animals Santa Eulàlia (ADA Santa Eulàlia de Ronçana), un grup de voluntaris comprometits amb el benestar dels gats de carrer de la nostra comunitat. El nostre objectiu principal és gestionar colònies de gats de carrer i ajudar a mantenir aquests animals sans i feliços. Apliquem al mètode CER i trobem els animals perduts o abandonats de manera altruista.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-09-26T00:00:00.000Z",
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/4/4/5/2/3/jcy74ru3it.jpeg",
-  "website": "https://amicsdelsanimalsser.my.canva.site",
   "adoptAnimalsURL": "https://www.instagram.com/amics_dels_animals_ser/",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "73512",
   "dateOfInscription": "2023-07-18T00:00:00.000Z",
+  "municipality": "Santa Eulàlia de Ronçana",
+  "municipalityInscription": "Santa Eulàlia de Ronçana",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-09-26T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -28,7 +29,6 @@
       "url": "https://www.facebook.com/amicsdelsanimalsser/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-09-26T00:00:00.000Z",
     "changefreq": "monthly",

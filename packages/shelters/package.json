@@ -17,7 +17,8 @@
     "move:web-organizations": "find ./organizations -type f -name '*.json' -exec mv {} ../../apps/web/content/organizations/ \\;",
     "remove:web-organizationsByRegion": "rm -rf ../../apps/web/content/organizationsByRegion/*",
     "move:web-organizationsByRegion": "find ./organizationsByRegion -type f -name '*.json' -exec mv {} ../../apps/web/content/organizationsByRegion/ \\;",
-    "move:web": "npm run remove:web-organizations && npm run move:web-organizations && npm run remove:web-organizationsByRegion && npm run move:web-organizationsByRegion && npm run remove:web-organization-logos && npm run copy:web-organization-logos",
+    "copy:web-public-data": "mkdir -p ../../apps/web/public/data && cp ./generated/data.json ./generated/schema.json ../../apps/web/public/data/",
+    "move:web": "npm run remove:web-organizations && npm run move:web-organizations && npm run remove:web-organizationsByRegion && npm run move:web-organizationsByRegion && npm run remove:web-organization-logos && npm run copy:web-organization-logos && npm run copy:web-public-data",
     "remove:organizations": "rm -rf ./organizations/*.json",
     "remove:organizationsByRegion": "rm -rf ./organizationsByRegion/*.json",
     "clean": "rimraf coverage build tmp",
@@ -43,7 +44,8 @@
     "vitest": "4.1.5"
   },
   "dependencies": {
-    "tslib": "2.8.1"
+    "tslib": "2.8.1",
+    "zod": "4.4.1"
   },
   "main": "index.js",
   "keywords": []

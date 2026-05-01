@@ -3,14 +3,15 @@
   "slug": "altarriba",
   "name": "Fundació Altarriba",
   "shortName": "Altarriba",
+  "logo": "https://i0.wp.com/www.altarriba.org/wp-content/uploads/2018/11/cropped-logo-azul-sin-letras.png",
   "contactEmail": "altarriba@altarriba.org",
   "contactPhone": "603047621",
   "website": "https://www.altarriba.org",
-  "logo": "https://i0.wp.com/www.altarriba.org/wp-content/uploads/2018/11/cropped-logo-azul-sin-letras.png",
   "region": "baix-emporda",
   "province": "girona",
   "description": "La Fundació Altarriba Olivar de Baix-Castell d'Empordà és una protectora d'animals compromesa amb el benestar dels animals. Oferim una àmplia varietat de serveis per ajudar els animals en necessitat, des d'adopcions fins a tractaments mèdics. El nostre equip de professionals es dedica a proporcionar un entorn segur i saludable per als animals, així com a promoure la consciència sobre la cura dels animals. Estem compromesos a ajudar els animals a trobar una llar amorosa i segura.",
   "adoptAnimalsURL": "https://www.altarriba.org/category/en-adopcion/",
+  "animalFocus": "dogs",
   "shelter": [
     {
       "adress": "17115 La Bisbal d'Empordà, Girona",
@@ -19,15 +20,14 @@
       "openingHoursURL": "https://www.instagram.com/bubuppark"
     }
   ],
-  "animalFocus": "dogs",
-  "associativeInscriptionNumber": "1217",
   "idZoologicalNucleus": "G25/00159",
-  "municipalityInscription": "la Bisbal d'Empordà",
+  "associativeInscriptionNumber": "1217",
+  "dateOfInscription": "1998-10-02T00:00:00.000Z",
   "municipality": "la Bisbal d'Empordà",
+  "municipalityInscription": "la Bisbal d'Empordà",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-30T00:00:00.000Z",
-  "dateOfInscription": "1998-10-02T00:00:00.000Z",
   "socials": [
     {
       "type": "instagram",

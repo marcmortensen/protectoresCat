@@ -3,20 +3,21 @@
   "slug": "progat-sant-boi",
   "name": "Associació Progat Sant Boi",
   "shortName": "Progat Sant Boi",
+  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/5/9/2/2/a6recx9rmw.jpg",
   "contactEmail": "progatssantboi@gmail.com",
-  "animalFocus": "cats",
   "region": "baix-llobregat",
   "province": "barcelona",
-  "municipalityInscription": "Sant Boi de Llobregat",
-  "municipality": "Sant Boi de Llobregat",
   "description": "Som una associació sense ànim de lucre, un grup de volunt@ris que treballem pel benestar animal. Ens dediquem a la cura, rescat, socialització i adopció dels peluts. Necessitem la teva ajuda per poder garantir que no els falti els drets bàsics, aliments i medicació. Amb la teva col·laboració els podrem donar una vida digna.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2026-04-03T00:00:00.000Z",
-  "logo": "https://d1kvlp4er3agpe.cloudfront.net/resources/images/groups/1/5/9/2/2/a6recx9rmw.jpg",
   "adoptAnimalsURL": "https://www.instagram.com/progatsantboi",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "26080",
   "dateOfInscription": "2002-04-26T00:00:00.000Z",
+  "municipality": "Sant Boi de Llobregat",
+  "municipalityInscription": "Sant Boi de Llobregat",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2026-04-03T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -27,7 +28,6 @@
       "url": "https://www.facebook.com/progat.santboi"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2026-04-03T00:00:00.000Z",
     "changefreq": "monthly",

@@ -20,12 +20,12 @@
       "openingHoursURL": "https://www.fundacioanimals.org/contacte_fundacio_animals_companyia_tgn/"
     }
   ],
+  "idZoologicalNucleus": "T25/00065",
   "associativeInscriptionNumber": "2309",
   "dateOfInscription": "2007-03-23T00:00:00.000Z",
-  "municipalityInscription": "Reus",
   "municipality": "Reus",
+  "municipalityInscription": "Reus",
   "isMunicipal": false,
-  "idZoologicalNucleus": "T25/00065",
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
   "socials": [

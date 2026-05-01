@@ -3,20 +3,21 @@
   "slug": "bigotis-del-cami",
   "name": "Associació els Bigotis del Camí",
   "shortName": "Bigotis del Camí",
-  "animalFocus": "cats",
-  "region": "anoia",
-  "province": "barcelona",
-  "municipalityInscription": "Vilanova del Camí",
-  "municipality": "Vilanova del Camí",
   "contactEmail": "bigotisdelcami@gmail.com",
   "contactPhone": "695639878",
+  "region": "anoia",
+  "province": "barcelona",
   "description": "Bigotis del Camí som una associació de Vilanova del Camí que cuida i protegeix els gatets de carrer. Ens encarreguem d’alimentar-los, esterilitzar-los i buscar-los una vida millor amb famílies que els estimin. Creiem en el respecte als animals i en fer del món un lloc més just per a ells.",
-  "isActive": true,
-  "isMunicipal": false,
-  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "adoptAnimalsURL": "https://www.instagram.com/bigotisdelcami/",
+  "animalFocus": "cats",
   "associativeInscriptionNumber": "78067",
   "dateOfInscription": "2025-08-01T00:00:00.000Z",
-  "adoptAnimalsURL": "https://www.instagram.com/bigotisdelcami/",
+  "municipality": "Vilanova del Camí",
+  "municipalityInscription": "Vilanova del Camí",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2025-10-01T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "instagram",
@@ -27,7 +28,6 @@
       "url": "https://www.facebook.com/profile.php?id=61578588058635"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-10-01T00:00:00.000Z",
     "changefreq": "monthly",

@@ -18,13 +18,13 @@
       "phone": "634495086"
     }
   ],
-  "municipalityInscription": "Flix",
-  "municipality": "Flix",
-  "isMunicipal": false,
   "associativeInscriptionNumber": "48292",
+  "dateOfInscription": "2012-07-23T00:00:00.000Z",
+  "municipality": "Flix",
+  "municipalityInscription": "Flix",
+  "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-10-31T00:00:00.000Z",
-  "dateOfInscription": "2012-07-23T00:00:00.000Z",
   "socials": [
     {
       "type": "facebook",

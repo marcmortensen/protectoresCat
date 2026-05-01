@@ -3,13 +3,12 @@
   "slug": "can-moret",
   "name": "Centre Caní Can Moret",
   "shortName": "Can Moret",
-  "animalFocus": "dogs",
   "contactEmail": "canmoret@gmail.com",
   "contactPhone": "640579594",
   "region": "valles-oriental",
   "province": "barcelona",
-  "municipalityInscription": "l'Ametlla del Vallès",
-  "municipality": "l'Ametlla del Vallès",
+  "description": "El Centre Caní Can Moret és un lloc únic on els animals troben una llar temporal. Aquesta protectora d'animals ofereix una atenció i una cura excepcional per als animals que han estat abandonats, maltractats o que simplement necessiten un lloc segur.",
+  "animalFocus": "dogs",
   "shelter": [
     {
       "adress": "Can Moret, 08480 L'Ametlla del Vallès, Barcelona",
@@ -17,9 +16,10 @@
       "phone": "640579594"
     }
   ],
-  "description": "El Centre Caní Can Moret és un lloc únic on els animals troben una llar temporal. Aquesta protectora d'animals ofereix una atenció i una cura excepcional per als animals que han estat abandonats, maltractats o que simplement necessiten un lloc segur.",
-  "isActive": true,
+  "municipality": "l'Ametlla del Vallès",
+  "municipalityInscription": "l'Ametlla del Vallès",
   "isMunicipal": false,
+  "isActive": true,
   "lastUpdate": "2025-09-06T00:00:00.000Z",
   "enabledLogoUsage": true,
   "sitemap": {

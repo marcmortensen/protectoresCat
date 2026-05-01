@@ -12,12 +12,13 @@
   "adoptAnimalsURL": "https://totesvida.org/listado",
   "animalFocus": "cats",
   "associativeInscriptionNumber": "60162",
-  "municipalityInscription": "Vallbona d'Anoia",
+  "dateOfInscription": "2017-01-10T00:00:00.000Z",
   "municipality": "Vallbona d'Anoia",
+  "municipalityInscription": "Vallbona d'Anoia",
   "isMunicipal": false,
   "isActive": true,
   "lastUpdate": "2025-11-03T00:00:00.000Z",
-  "dateOfInscription": "2017-01-10T00:00:00.000Z",
+  "enabledLogoUsage": true,
   "socials": [
     {
       "type": "facebook",
@@ -28,7 +29,6 @@
       "url": "https://www.instagram.com/canigat_vallbona/"
     }
   ],
-  "enabledLogoUsage": true,
   "sitemap": {
     "lastmod": "2025-11-03T00:00:00.000Z",
     "changefreq": "monthly",
