@@ -94,12 +94,11 @@ defineRouteRules({
       <p>
         Per a més informació sobre l’ús de cookies i com configurar-les,
         consulteu la
-        <UButton
-          class="pl-0"
-          variant="link"
-          label="Política de cookies."
+        <NuxtLink
+          class="pl-0 hover:text-primary font-semibold"
           :to="{ name: 'politica-de-cookies' }"
-        />
+          >Política de cookies.</NuxtLink
+        >
       </p>
     </section>
     <time class="italic">Última actualització 25 de Maig del 2025. </time>

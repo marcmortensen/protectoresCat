@@ -151,6 +151,12 @@ const isDark = computed({
           <div
             class="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 text-sm"
           >
+            <NuxtLink
+              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
+              active-class="text-primary"
+              :to="{ name: 'dades-obertes' }"
+              >Dades obertes</NuxtLink
+            >
             <UButton
               class="text-gray-600 dark:text-white hover:text-primary"
               variant="link"
@@ -161,24 +167,24 @@ const isDark = computed({
               aria-label="GitHub"
               label="GitHub"
             />
-            <UButton
-              class="text-gray-600 dark:text-white hover:text-primary"
-              variant="link"
-              label="Nota legal"
+            <NuxtLink
+              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
+              active-class="text-primary"
               :to="{ name: 'nota-legal' }"
-            />
-            <UButton
-              class="text-gray-600 dark:text-white hover:text-primary"
-              variant="link"
-              label="Política de privacitat"
+              >Nota legal</NuxtLink
+            >
+            <NuxtLink
+              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
+              active-class="text-primary"
               :to="{ name: 'politica-de-privacitat' }"
-            />
-            <UButton
-              class="text-gray-600 dark:text-white hover:text-primary"
-              variant="link"
-              label="Política de cookies"
+              >Política de privacitat</NuxtLink
+            >
+            <NuxtLink
+              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
+              active-class="text-primary"
               :to="{ name: 'politica-de-cookies' }"
-            />
+              >Política de cookies</NuxtLink
+            >
             <UButton
               class="text-gray-600 dark:text-white hover:text-primary"
               variant="link"

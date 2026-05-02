@@ -4,7 +4,7 @@
   "properties": {
     "$schema": {
       "type": "string",
-      "const": "https://adoptar.cat/data/schema.json"
+      "const": "https://adoptar.cat/data/organizations/schema.json"
     },
     "organizations": {
       "type": "array",

@@ -7,7 +7,7 @@ import { z } from 'zod';
 
 /** Declared as root `$schema` in `data.json`; absolute URI for validators. */
 export const PUBLIC_ORGANIZATIONS_DATA_JSON_SCHEMA_URI =
-  'https://adoptar.cat/data/schema.json';
+  'https://adoptar.cat/data/organizations/schema.json';
 
 export const municipalitySchema = z.enum(MUNICIPALITY_NAMES);
 

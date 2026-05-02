@@ -160,12 +160,11 @@ defineRouteRules({
       <p>
         Per a més informació sobre el tractament de les teves dades, pots
         consultar la nostra
-        <UButton
-          class="pl-0"
-          variant="link"
-          label="Política de privacitat."
+        <NuxtLink
+          class="pl-0 hover:text-primary font-semibold"
           :to="{ name: 'politica-de-privacitat' }"
-        />
+          >Política de privacitat.</NuxtLink
+        >
       </p>
     </section>
     <time class="italic">Última actualització 25 de Maig del 2025. </time>
