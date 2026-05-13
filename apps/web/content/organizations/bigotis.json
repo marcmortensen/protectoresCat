@@ -1,0 +1,38 @@
+{
+  "id": "355ca9c1",
+  "slug": "bigotis",
+  "name": "Associació Gats108",
+  "shortName": "Bigotis",
+  "region": "girones",
+  "province": "girona",
+  "description": "Som una entitat sense finalitat de lucre, constituïda per voluntariat, amb l´objectiu de millorar les condicions de vida dels gats del carrer, una vida molt dura.. Procurem el benestar i la convivència amb les persones, controlant les zones amb alimentadors/voluntaris autoritzats, dels que rebem informació de gats ferits o malalts, naixements o algun tipus de maltractament. Controlem la natalitat amb el mètode CER (Captura, esterilització i retorn) Promovem l´adopció responsable.",
+  "adoptAnimalsURL": "https://www.instagram.com/bigotisllagostera/",
+  "animalFocus": "cats",
+  "associativeInscriptionNumber": "61784",
+  "dateOfInscription": "2017-09-15T00:00:00.000Z",
+  "municipality": "Llagostera",
+  "municipalityInscription": "Llagostera",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2026-05-13T00:00:00.000Z",
+  "enabledLogoUsage": true,
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/bigotisllagostera/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61582247139336"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@bigotisllagostera"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2026-05-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

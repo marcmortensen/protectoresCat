@@ -3400,6 +3400,37 @@
       ]
     },
     {
+      "id": "355ca9c1",
+      "slug": "bigotis",
+      "name": "Associació Gats108",
+      "shortName": "Bigotis",
+      "region": "girones",
+      "province": "girona",
+      "description": "Som una entitat sense finalitat de lucre, constituïda per voluntariat, amb l´objectiu de millorar les condicions de vida dels gats del carrer, una vida molt dura.. Procurem el benestar i la convivència amb les persones, controlant les zones amb alimentadors/voluntaris autoritzats, dels que rebem informació de gats ferits o malalts, naixements o algun tipus de maltractament. Controlem la natalitat amb el mètode CER (Captura, esterilització i retorn) Promovem l´adopció responsable.",
+      "adoptAnimalsURL": "https://www.instagram.com/bigotisllagostera/",
+      "animalFocus": "cats",
+      "associativeInscriptionNumber": "61784",
+      "dateOfInscription": "2017-09-15T00:00:00.000Z",
+      "municipality": "Llagostera",
+      "municipalityInscription": "Llagostera",
+      "isMunicipal": false,
+      "lastUpdate": "2026-05-13T00:00:00.000Z",
+      "socials": [
+        {
+          "type": "instagram",
+          "url": "https://www.instagram.com/bigotisllagostera/"
+        },
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/profile.php?id=61582247139336"
+        },
+        {
+          "type": "tiktok",
+          "url": "https://www.tiktok.com/@bigotisllagostera"
+        }
+      ]
+    },
+    {
       "id": "25a50b9f",
       "slug": "noaa",
       "name": "Asociación No al Abandonament d'Animals",
@@ -9875,8 +9906,43 @@
           "url": "https://www.instagram.com/vnggats/"
         }
       ]
+    },
+    {
+      "id": "796cbc37",
+      "slug": "sos-canicat",
+      "name": "Associació SOS CAN & CAT",
+      "shortName": "SOScanicat",
+      "contactEmail": "soscanicat@gmail.com",
+      "whatsAppPhone": "689543189",
+      "contactPhone": "689543189",
+      "website": "https://soscanicat.sukycms.com",
+      "region": "baix-camp",
+      "province": "tarragona",
+      "description": "Soscanicat és una associació sense ànim de lucre. Ens dediquem a ajudar animals abandonats mitjançant acollida, atenció mèdica, posar-los xip i esterilitzacions. L'objectiu principal és que tots trobin la seva família definitiva. Tenim un petit refugi i algunes cases d'acollida per a casos especials.",
+      "adoptAnimalsURL": "https://soscanicat.sukycms.com/animales?especie=perros&estado=en-adopcion",
+      "animalFocus": "dogs",
+      "associativeInscriptionNumber": "61330",
+      "dateOfInscription": "2017-06-23T00:00:00.000Z",
+      "municipality": "l'Albiol",
+      "municipalityInscription": "l'Albiol",
+      "isMunicipal": false,
+      "lastUpdate": "2026-05-13T00:00:00.000Z",
+      "socials": [
+        {
+          "type": "instagram",
+          "url": "https://www.instagram.com/soscanicat/"
+        },
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/soscanicat/"
+        },
+        {
+          "type": "tiktok",
+          "url": "https://www.tiktok.com/@soscanicat"
+        }
+      ]
     }
   ],
-  "total": 329,
-  "generatedAt": "2026-05-02T16:01:09.794Z"
+  "total": 331,
+  "generatedAt": "2026-05-13T18:16:23.775Z"
 }

@@ -1,0 +1,41 @@
+{
+  "id": "796cbc37",
+  "slug": "sos-canicat",
+  "name": "Associació SOS CAN & CAT",
+  "shortName": "SOScanicat",
+  "contactEmail": "soscanicat@gmail.com",
+  "whatsAppPhone": "689543189",
+  "contactPhone": "689543189",
+  "website": "https://soscanicat.sukycms.com",
+  "region": "baix-camp",
+  "province": "tarragona",
+  "description": "Soscanicat és una associació sense ànim de lucre. Ens dediquem a ajudar animals abandonats mitjançant acollida, atenció mèdica, posar-los xip i esterilitzacions. L'objectiu principal és que tots trobin la seva família definitiva. Tenim un petit refugi i algunes cases d'acollida per a casos especials.",
+  "adoptAnimalsURL": "https://soscanicat.sukycms.com/animales?especie=perros&estado=en-adopcion",
+  "animalFocus": "dogs",
+  "associativeInscriptionNumber": "61330",
+  "dateOfInscription": "2017-06-23T00:00:00.000Z",
+  "municipality": "l'Albiol",
+  "municipalityInscription": "l'Albiol",
+  "isMunicipal": false,
+  "isActive": true,
+  "lastUpdate": "2026-05-13T00:00:00.000Z",
+  "socials": [
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/soscanicat/"
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/soscanicat/"
+    },
+    {
+      "type": "tiktok",
+      "url": "https://www.tiktok.com/@soscanicat"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2026-05-13T00:00:00.000Z",
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}
