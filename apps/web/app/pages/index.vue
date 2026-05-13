@@ -6,26 +6,27 @@ const hoveredRegionId = ref<string | null>();
 const hoveredAnimalType = ref<string | null>();
 const isSlideoverOpen = ref(false);
 
+const route = useRoute();
+
+const { data: regionCatalog } = useRegions();
+
 const allRegionItems = computed<AccordionItem[]>(() =>
-  (data.value?.regions || []).map((region) => ({
+  (regionCatalog.value || []).map((region) => ({
     label: region.name,
     article: region.article,
-    disabled: !data.value?.orgsByRegions.find((r) => r.region === region.slug),
+    disabled: !data.value?.orgsByRegions.find((r) => r.region === region.id),
     slug: region.slug,
   }))
 );
-const route = useRoute();
 
 const { data, pending } = useAsyncData(
   route.path,
   async () => {
     const orgsCount = await queryCollection("organizations").count();
     const orgsByRegions = await queryCollection("organizationByRegion").all();
-    const regions = await queryCollection("regions").all();
 
     return {
       orgsByRegions,
-      regions,
       orgsCount,
     };
   },
@@ -34,9 +35,9 @@ const { data, pending } = useAsyncData(
 
 const regions = computed(() => {
   return data.value?.orgsByRegions.map((region) => ({
-    id: region.region as string,
-    slug: region.region as string,
-    name: data.value?.regions.find((r) => r.slug === region.region)?.name || "",
+    id: region.region,
+    slug: region.region,
+    name: regionCatalog.value?.find((r) => r.id === region.region)?.name || "",
   }));
 });
 

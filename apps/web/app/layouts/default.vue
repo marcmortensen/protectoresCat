@@ -186,7 +186,7 @@ const isDark = computed({
               >Política de cookies</NuxtLink
             >
             <UButton
-              class="text-gray-600 dark:text-white hover:text-primary"
+              class="text-gray-600 dark:text-white hover:text-primary cursor-pointer"
               variant="link"
               label="Configuració de cookies"
               @click="isModalActive = true"

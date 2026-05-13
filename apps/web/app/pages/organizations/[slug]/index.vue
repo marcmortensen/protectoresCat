@@ -2,11 +2,11 @@
 const { trackEvent } = useGtag();
 
 const onClick = () => {
-  if (!data.value || !data.value.org || !data.value.org.adoptAnimalsURL) return;
+  if (!org.value?.adoptAnimalsURL) return;
   trackEvent("click_button_adopt_url", {
     event_category: "engagement",
     event_label: "Adopt button clicked",
-    href: data.value.org.adoptAnimalsURL,
+    href: org.value.adoptAnimalsURL,
   });
 };
 
@@ -14,48 +14,17 @@ const route = useRoute();
 
 const { history } = useRouter().options;
 
-const slug = computed(() => route.params.slug);
+const slug = computed(() => route.params.slug as string);
 
-const { data, pending } = useAsyncData(
-  computed(() => `organizations-${slug.value}`),
-  async () => {
-    const org = await queryCollection("organizations")
-      .where("slug", "=", slug.value)
-      .first();
-    const regions = await queryCollection("regions").all();
-    return { org, regions };
-  },
-  { immediate: true }
-);
+const { data: org, pending: orgPending } = useOrganization(slug);
 
-const regions = computed(() => {
-  return data.value?.regions.map((region) => ({
-    id: region.slug,
-    slug: region.slug as string,
-    name: region.name,
-  }));
-});
+const { data: regions, pending: regionsPending } = useRegions();
 
 const currentRegion = computed(() =>
-  regions.value?.find((region) => region.id === data.value?.org?.region)
+  regions.value?.find((r) => r.id === org.value?.region)
 );
 
-const hasError = computed(() => data.value?.org === null);
-watch(
-  hasError,
-  (value) => {
-    if (value) {
-      throw createError({
-        statusCode: 500,
-        statusMessage: "Organization not found",
-        fatal: true,
-      });
-    }
-  },
-  { immediate: true }
-);
-
-type Org = NonNullable<typeof data.value>["org"];
+type Org = NonNullable<typeof org.value>;
 type Social = NonNullable<NonNullable<Org>["socials"]>[number]["type"];
 const socialIcons: Record<Social, { icon: string; name: string }> = {
   facebook: { icon: "i-lucide-facebook", name: "Facebook" },
@@ -65,10 +34,10 @@ const socialIcons: Record<Social, { icon: string; name: string }> = {
 };
 
 const socials = computed(() => {
-  if (!data.value?.org || !data.value?.org.socials) {
+  if (!org.value || !org.value.socials) {
     return [];
   }
-  return data.value.org.socials.map((social) => {
+  return org.value.socials.map((social) => {
     return {
       type: social.type,
       name: socialIcons[social.type].name,
@@ -90,14 +59,14 @@ type Phone = {
 };
 
 const phones = computed(() => {
-  if (!data.value?.org) {
+  if (!org.value) {
     return [];
   }
   return (
     [
-      { number: data.value.org.whatsAppPhone, type: "whatsApp" },
-      { number: data.value.org.contactPhone, type: "phone" },
-      { number: data.value.org.contactPhone2, type: "phone" },
+      { number: org.value.whatsAppPhone, type: "whatsApp" },
+      { number: org.value.contactPhone, type: "phone" },
+      { number: org.value.contactPhone2, type: "phone" },
     ] as Phone[]
   )
     .filter((phone) => !!phone.number)
@@ -115,56 +84,55 @@ const phones = computed(() => {
 
 const showidZoologicalNucleus = false;
 useSeoMeta({
-  title: computed(() => data.value?.org?.shortName),
-  description: computed(() => data.value?.org?.description),
-  ogDescription: computed(() => data.value?.org?.description),
-  twitterDescription: computed(() => data.value?.org?.description),
+  title: computed(() => org.value?.shortName),
+  description: computed(() => org.value?.description),
+  ogDescription: computed(() => org.value?.description),
+  twitterDescription: computed(() => org.value?.description),
   twitterCard: "summary_large_image",
   ogImage: computed(() =>
-    data.value?.org?.enabledLogoUsage
-      ? getOrganizationLogoPath(data.value.org.slug)
+    org.value?.enabledLogoUsage
+      ? getOrganizationLogoPath(org.value.slug)
       : undefined
   ),
   ogImageUrl: computed(() =>
-    data.value?.org?.enabledLogoUsage
-      ? getOrganizationLogoPath(data.value.org.slug)
+    org.value?.enabledLogoUsage
+      ? getOrganizationLogoPath(org.value.slug)
       : undefined
   ),
   twitterImage: computed(() =>
-    data.value?.org?.enabledLogoUsage
-      ? getOrganizationLogoPath(data.value.org.slug)
+    org.value?.enabledLogoUsage
+      ? getOrganizationLogoPath(org.value.slug)
       : undefined
   ),
-  articleModifiedTime: computed(() => data.value?.org?.lastUpdate),
+  articleModifiedTime: computed(() => org.value?.lastUpdate),
 });
 
 useSchemaOrg([
   defineOrganization({
     "@id": computed(
-      () =>
-        `https://adoptar.cat/organizations/${data.value?.org?.slug || ""}#org`
+      () => `https://adoptar.cat/organizations/${org.value?.slug || ""}#org`
     ),
-    name: computed(() => data.value?.org?.shortName),
-    legalName: computed(() => data.value?.org?.name),
+    name: computed(() => org.value?.shortName),
+    legalName: computed(() => org.value?.name),
     url: computed(
-      () => `https://adoptar.cat/organizations/${data.value?.org?.slug || ""}`
+      () => `https://adoptar.cat/organizations/${org.value?.slug || ""}`
     ),
     logo: computed(() =>
-      data.value?.org?.enabledLogoUsage && data.value?.org?.slug
-        ? getOrganizationLogoPath(data.value.org.slug)
+      org.value?.enabledLogoUsage && org.value?.slug
+        ? getOrganizationLogoPath(org.value.slug)
         : undefined
     ),
-    description: computed(() => data.value?.org?.description),
-    email: computed(() => data.value?.org?.contactEmail),
-    telephone: computed(() => data.value?.org?.contactPhone),
+    description: computed(() => org.value?.description),
+    email: computed(() => org.value?.contactEmail),
+    telephone: computed(() => org.value?.contactPhone),
     address: computed(() => ({
       "@type": "PostalAddress",
-      addressLocality: data.value?.org?.municipality,
+      addressLocality: org.value?.municipality,
       addressRegion: currentRegion.value?.name || "",
       addressCountry: "ES",
     })),
     sameAs: computed(() =>
-      (data.value?.org?.socials || []).map((social) => social.url)
+      (org.value?.socials || []).map((social) => social.url)
     ) as any,
   }),
 ]);
@@ -172,7 +140,7 @@ useSchemaOrg([
 
 <template>
   <div
-    v-if="pending"
+    v-if="orgPending"
     class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
   >
     <div class="h-7 w-10">
@@ -212,7 +180,7 @@ useSchemaOrg([
     </div>
   </div>
   <div
-    v-else-if="!hasError || !data || !data.org"
+    v-else-if="org"
     class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
   >
     <div class="h-7">
@@ -235,7 +203,7 @@ useSchemaOrg([
       color="neutral"
       variant="outline"
     />
-    <article v-if="data && data.org" class="flex flex-col gap-2">
+    <article v-if="org" class="flex flex-col gap-2">
       <header
         class="flex flex-col lg:flex-row justify-start lg:justify-between gap-6 w-full h-full items-start"
       >
@@ -244,10 +212,10 @@ useSchemaOrg([
             class="lg:shrink-0 h-48 lg:h-48 sm:h-full w-full sm:w-auto lg:w-48 flex items-center justify-center"
           >
             <NuxtPicture
-              v-if="data.org.enabledLogoUsage"
+              v-if="org.enabledLogoUsage"
               format="avif,webp"
-              :src="getOrganizationLogoPath(data.org.slug)"
-              :alt="`Logo of ${data.org.name}`"
+              :src="getOrganizationLogoPath(org.slug)"
+              :alt="`Logo of ${org.name}`"
               :img-attrs="{
                 class: 'h-48 sm:w-full lg:h-full lg:w-48 max-h-48',
               }"
@@ -255,16 +223,14 @@ useSchemaOrg([
             <template v-else>
               <SvgoAnimalsCat1
                 v-if="
-                  data.org.animalFocus === 'cats&dogs' ||
-                  data.org.animalFocus === 'cats'
+                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'cats'
                 "
                 :font-controlled="false"
                 class="h-24 md:h-48"
               />
               <SvgoAnimalsDog5
                 v-if="
-                  data.org.animalFocus === 'cats&dogs' ||
-                  data.org.animalFocus === 'dogs'
+                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'dogs'
                 "
                 :font-controlled="false"
                 class="h-24 md:h-48"
@@ -273,23 +239,30 @@ useSchemaOrg([
           </div>
           <div class="flex flex-col justify-center gap-1">
             <h1 class="text-2xl font-bold mb-1">
-              {{ data.org.shortName }}
+              {{ org.shortName }}
             </h1>
             <p
-              v-if="data.org.name !== data.org.shortName"
+              v-if="org.name !== org.shortName"
               class="text-gray-600 dark:text-gray-300 italic"
             >
-              {{ data.org.name }}
+              {{ org.name }}
             </p>
             <div class="flex items-center gap-2">
               <UIcon name="i-lucide-map-pin" class="size-4 shrink-0" />
-              <span>{{
-                `${data.org.municipality}, ${currentRegion!.name}`
-              }}</span>
+              <span>
+                {{ org.municipality
+                }}<template v-if="regionsPending"
+                  >,
+                  <USkeleton
+                    class="inline-block h-4 w-24 align-middle" /></template
+                ><template v-else-if="currentRegion"
+                  >, {{ currentRegion.name }}</template
+                >
+              </span>
             </div>
             <span class="flex gap-2">
               <UBadge
-                v-if="data.org.isMunicipal"
+                v-if="org.isMunicipal"
                 color="neutral"
                 variant="soft"
                 icon="i-lucide-building"
@@ -297,8 +270,7 @@ useSchemaOrg([
               >
               <UBadge
                 v-if="
-                  data.org.animalFocus === 'cats&dogs' ||
-                  data.org.animalFocus === 'dogs'
+                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'dogs'
                 "
                 color="neutral"
                 variant="soft"
@@ -307,8 +279,7 @@ useSchemaOrg([
               >
               <UBadge
                 v-if="
-                  data.org.animalFocus === 'cats&dogs' ||
-                  data.org.animalFocus === 'cats'
+                  org.animalFocus === 'cats&dogs' || org.animalFocus === 'cats'
                 "
                 color="neutral"
                 variant="soft"
@@ -316,8 +287,8 @@ useSchemaOrg([
                 >Gats</UBadge
               >
               <UButton
-                v-if="data.org.adoptAnimalsURL"
-                :href="data.org.adoptAnimalsURL"
+                v-if="org.adoptAnimalsURL"
+                :href="org.adoptAnimalsURL"
                 target="_blank"
                 rel="noopener"
                 color="primary"
@@ -332,13 +303,11 @@ useSchemaOrg([
         <div
           class="flex lg:w-1/4 w-full items-start lg:items-center justify-start flex-col-reverse lg:flex-col gap-x-2"
         >
-          <div class="flex h-24 lg:h-40">
+          <div class="flex h-24 lg:h-40 w-full">
+            <USkeleton v-if="regionsPending" class="h-full w-full rounded-lg" />
             <RegionsMap
-              v-if="regions"
-              :model-value="[
-                data.org.region,
-                ...(data.org.additionalRegions || []),
-              ]"
+              v-else-if="regions"
+              :model-value="[org.region, ...(org.additionalRegions || [])]"
               :regions="regions"
               read-only
               class="w-full h-full text-gray-300 opacity-70"
@@ -347,7 +316,10 @@ useSchemaOrg([
           <dl class="flex lg:justify-center flex-col lg:flex-row">
             <dt class="font-semibold lg:hidden">Comarca:</dt>
             <dd class="ml-2.5 lg:ml-0">
-              {{ currentRegion!.name }}
+              <USkeleton v-if="regionsPending" class="inline-block h-4 w-28" />
+              <template v-else-if="currentRegion">{{
+                currentRegion.name
+              }}</template>
             </dd>
           </dl>
         </div>
@@ -431,65 +403,65 @@ useSchemaOrg([
           </dd>
         </div>
 
-        <dl v-if="data.org.dateOfInscription" class="hidden">
+        <dl v-if="org.dateOfInscription" class="hidden">
           <dt class="font-semibold">Data d'inscripció:</dt>
           <dd class="ml-2.5 inline">
-            {{ formatFullDate(new Date(data.org.dateOfInscription)) }}
+            {{ formatFullDate(new Date(org.dateOfInscription)) }}
           </dd>
         </dl>
 
-        <dl v-if="data.org.website">
+        <dl v-if="org.website">
           <dt class="font-semibold">Pàgina web:</dt>
           <dd>
             <UButton
               class="text-gray-700 dark:text-gray-200 w-full"
-              :href="data.org.website"
+              :href="org.website"
               color="primary"
               variant="link"
               rel="noopener"
               target="_blank"
-              :label="data.org.website"
+              :label="org.website"
             />
           </dd>
         </dl>
 
-        <dl v-if="data.org.contactEmail">
+        <dl v-if="org.contactEmail">
           <dt class="font-semibold">Email:</dt>
           <dd>
             <a
               class="text-gray-700 dark:text-gray-200 hover:text-primary"
-              :href="`mailto:${data.org.contactEmail}`"
-              >{{ data.org.contactEmail }}</a
+              :href="`mailto:${org.contactEmail}`"
+              >{{ org.contactEmail }}</a
             >
           </dd>
         </dl>
 
         <dt class="font-semibold">Descripció:</dt>
         <dd class="ml-2 text-gray-700 dark:text-gray-200 flex flex-col gap-2">
-          <p v-if="data.org.associativeInscriptionNumber">
+          <p v-if="org.associativeInscriptionNumber">
             Entitat legal jurídica registrada al Registre d'entitats de
-            Catalunya amb número {{ data.org.associativeInscriptionNumber }} a
-            {{ data.org.municipalityInscription }} el
-            {{ formatFullDate(new Date(data.org.dateOfInscription!)) }}.
+            Catalunya amb número {{ org.associativeInscriptionNumber }} a
+            {{ org.municipalityInscription }} el
+            {{ formatFullDate(new Date(org.dateOfInscription!)) }}.
           </p>
           <p>
-            {{ data.org.description }}
+            {{ org.description }}
           </p>
         </dd>
-        <div v-if="data.org.idZoologicalNucleus && showidZoologicalNucleus">
+        <div v-if="org.idZoologicalNucleus && showidZoologicalNucleus">
           <dt class="font-semibold">Núm. zoològic:</dt>
           <dd class="ml-2.5">
-            {{ data.org.idZoologicalNucleus }}
+            {{ org.idZoologicalNucleus }}
           </dd>
         </div>
       </div>
-      <div v-if="data.org.shelter && data.org.shelter.length > 0">
+      <div v-if="org.shelter && org.shelter.length > 0">
         <div class="font-semibold">
-          {{ data.org.shelter.length === 1 ? "Refugi:" : "Refugis:" }}
+          {{ org.shelter.length === 1 ? "Refugi:" : "Refugis:" }}
         </div>
         <ul class="divide-y">
           <li
-            v-for="(shelter, index) in data.org.shelter"
+            v-for="(shelter, index) in org.shelter"
             :key="index"
             class="flex flex-col justify-center gap-1 p-2"
           >
@@ -540,9 +512,9 @@ useSchemaOrg([
       </div>
 
       <div class="pt-2">
-        <time :datetime="data.org.lastUpdate" class="italic"
+        <time :datetime="org.lastUpdate" class="italic"
           >Última actualització
-          {{ formatTextDate(new Date(data.org.lastUpdate)) }}</time
+          {{ formatTextDate(new Date(org.lastUpdate)) }}</time
         >
       </div>
     </article>

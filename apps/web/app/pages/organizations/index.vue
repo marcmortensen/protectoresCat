@@ -78,10 +78,11 @@ const page = useRouteQuery(QueryParam.PAGE, "1", {
 
 const ITEMS_PER_PAGE = 12;
 
+const { data: regionCatalog } = useRegions();
+
 const { data, pending, refresh, clear } = useAsyncData(
   route.path,
   async () => {
-    const dataRegions = await queryCollection("regions").all();
     const query = queryCollection("organizations");
 
     if (search.value) {
@@ -142,7 +143,6 @@ const { data, pending, refresh, clear } = useAsyncData(
     return {
       orgsCount,
       orgs,
-      regions: dataRegions,
     };
   },
   {
@@ -155,7 +155,7 @@ const { data, pending, refresh, clear } = useAsyncData(
 const filters = computed(() => {
   return [
     ...regions.value.map((regionSlug) => {
-      const region = data.value?.regions.find((r) => r.slug === regionSlug);
+      const region = regionCatalog.value?.find((r) => r.slug === regionSlug);
       return {
         label: region?.name || "",
         remove: () =>
@@ -208,10 +208,10 @@ const scrollToTop = () => {
 };
 
 const cleanQueryParams = async () => {
-  if (!data.value?.regions) {
+  if (!regionCatalog.value) {
     return;
   }
-  const validRegions = data.value.regions.map((region) => region.slug);
+  const validRegions = regionCatalog.value.map((region) => region.slug);
   const validAnimalTypes = typeOfAnimal.map((animal) => animal.value);
 
   const cleanedRegions = regions.value.filter((region) =>
@@ -247,7 +247,7 @@ watch(
 
 const getConnectedToRegions = computed(() =>
   regions.value && regions.value.length === 1
-    ? data.value?.regions.find((region) => region.slug === regions.value[0])
+    ? regionCatalog.value?.find((region) => region.slug === regions.value[0])
         ?.connectedTo
     : []
 );
@@ -338,7 +338,7 @@ useSchemaOrg([
               v-model="regions"
               class="w-full"
               multiple
-              :items="data.regions"
+              :items="regionCatalog"
               value-key="slug"
               label-key="name"
               placeholder="Escull una comarca"
