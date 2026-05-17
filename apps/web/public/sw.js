@@ -1,4 +1,4 @@
-const CACHE_NAME = "adoptar-cache-v1";
+const CACHE_NAME = "adoptar-cache-v2";
 
 // Static assets to cache on install
 const STATIC_ASSETS = [
@@ -10,6 +10,16 @@ const STATIC_ASSETS = [
   "/web-app-manifest-192x192.png",
   "/web-app-manifest-512x512.png",
 ];
+
+function isBundledAssetPath(pathname) {
+  return (
+    pathname.startsWith("/_nuxt/") ||
+    pathname.startsWith("/__nuxt/") ||
+    pathname.startsWith("/@vite/") ||
+    pathname.startsWith("/@id/") ||
+    pathname.startsWith("/@fs/")
+  );
+}
 
 // Install: cache static assets
 self.addEventListener("install", (event) => {
@@ -66,6 +76,11 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Never intercept Nuxt/Vite bundles — browser fetches them directly
+  if (isBundledAssetPath(url.pathname)) {
+    return;
+  }
+
   event.respondWith(
     (async () => {
       // Strategy 1: Cache-first for static assets (icons, images, manifest)
@@ -94,46 +109,13 @@ self.addEventListener("fetch", (event) => {
         }
       }
 
-      // Strategy 2: Cache-first for Nuxt assets (hashed, versioned files)
-      if (url.pathname.startsWith("/_nuxt/")) {
-        const cached = await caches.match(request);
-        if (cached) {
-          // Serve from cache, but update in background
-          fetch(request)
-            .then((response) => {
-              if (response.ok) {
-                caches.open(CACHE_NAME).then((cache) => {
-                  cache.put(request, response.clone());
-                });
-              }
-            })
-            .catch(() => {
-              // Ignore background update failures
-            });
-          return cached;
-        }
-        try {
-          const response = await fetch(request);
-          if (response.ok) {
-            const cache = await caches.open(CACHE_NAME);
-            cache.put(request, response.clone());
-          }
-          return response;
-        } catch (error) {
-          console.error("[SW] Fetch failed for Nuxt asset:", error);
-          return new Response("Offline", { status: 503 });
-        }
-      }
-
-      // Strategy 3: Network-first for HTML and API-like requests
-      // This ensures fresh content when online, but works offline too
+      // Strategy 2: Network-first for HTML and API-like requests
       try {
         const networkResponse = await fetch(request);
 
         // Cache successful responses (HTML pages, API responses)
         if (networkResponse.ok) {
           const cache = await caches.open(CACHE_NAME);
-          // Clone the response before caching (streams can only be read once)
           cache.put(request, networkResponse.clone());
         }
 
@@ -141,13 +123,11 @@ self.addEventListener("fetch", (event) => {
       } catch (error) {
         console.log("[SW] Network request failed, trying cache:", url.pathname);
 
-        // Fallback to cache if network fails
         const cached = await caches.match(request);
         if (cached) {
           return cached;
         }
 
-        // Fallback: for navigation requests, serve index.html
         if (request.mode === "navigate") {
           const indexCache = await caches.match("/");
           if (indexCache) {
@@ -155,7 +135,6 @@ self.addEventListener("fetch", (event) => {
           }
         }
 
-        // Last resort: return offline message
         return new Response("Offline - No cached version available", {
           status: 503,
           headers: { "Content-Type": "text/plain" },
