@@ -2,6 +2,7 @@
 import type { RegionsCollectionItem } from "@nuxt/content";
 
 const route = useRoute();
+const { trackEvent } = useGtag();
 
 const typeOfAnimal = [
   { label: "Gats", value: "cats" },
@@ -79,6 +80,20 @@ const page = useRouteQuery(QueryParam.PAGE, "1", {
 const ITEMS_PER_PAGE = 12;
 
 const { data: regionCatalog } = useRegions();
+
+const { locating: locatingComarca, getRegionSlug } = useGeolocation();
+
+async function onClickMyLocationRegion() {
+  trackEvent("click_button_my_location", {
+    event_category: "engagement",
+    event_label: "My location region button clicked",
+  });
+
+  const slug = await getRegionSlug();
+  if (slug) {
+    regions.value = [slug];
+  }
+}
 
 const { data, pending, refresh, clear } = useAsyncData(
   route.path,
@@ -327,25 +342,41 @@ useSchemaOrg([
       <!-- Filters Sidebar (Comarques & Animals) -->
       <div class="w-full xl:w-80 flex flex-col lg:flex-row xl:flex-col gap-4">
         <div class="flex flex-col sm:flex-row xl:flex-col gap-4 w-full">
-          <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-1">
-            <label
-              for="regions-select"
-              class="text-sm font-semibold text-gray-900 dark:text-white"
-              >Comarques:</label
-            >
+          <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-2">
+            <div class="flex justify-between items-center">
+              <label
+                for="regions-select"
+                class="text-sm font-semibold text-gray-900 dark:text-white"
+                >Comarques:</label
+              >
+              <UButton
+                class="h-5 cursor-pointer"
+                color="primary"
+                variant="ghost"
+                label="La meva ubicació"
+                :disabled="locatingComarca"
+                @click="onClickMyLocationRegion"
+              />
+            </div>
             <USelectMenu
               id="regions-select"
               v-model="regions"
               class="w-full"
               multiple
               :items="regionCatalog"
+              :loading="locatingComarca"
+              :disabled="locatingComarca"
               value-key="slug"
               label-key="name"
-              placeholder="Escull una comarca"
+              :placeholder="
+                locatingComarca
+                  ? 'Cercant la teva ubicació'
+                  : 'Escull una comarca'
+              "
               color="primary"
             />
           </div>
-          <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-1">
+          <div class="w-full sm:w-1/2 xl:w-full flex flex-col gap-y-2">
             <label
               for="animals-select"
               class="text-sm font-semibold text-gray-900 dark:text-white"
@@ -370,7 +401,7 @@ useSchemaOrg([
         <!-- Search and Sort on top of results (right side on desktop) -->
         <div class="w-full mb-2 flex flex-col sm:flex-row gap-4">
           <!-- Search -->
-          <div class="w-full grow flex flex-col gap-y-1">
+          <div class="w-full grow flex flex-col gap-y-2">
             <label
               for="search-input"
               class="text-sm font-semibold text-gray-900 dark:text-white"
@@ -385,7 +416,7 @@ useSchemaOrg([
             />
           </div>
           <!-- Sort Selector -->
-          <div class="w-full sm:w-52 flex flex-col gap-y-1">
+          <div class="w-full sm:w-52 flex flex-col gap-y-2">
             <label
               for="sort-select"
               class="text-sm font-semibold text-gray-900 dark:text-white"
