@@ -17,7 +17,13 @@ useSchemaOrg([
     url: "https://adoptar.cat",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://adoptar.cat/organizations?search={search_term_string}",
+      target: [
+        {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://adoptar.cat/organizations?search={search_term_string}",
+        },
+      ],
       "query-input": "required name=search_term_string",
     },
   }),
