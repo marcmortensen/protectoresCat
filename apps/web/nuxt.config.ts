@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     "nuxt-svgo",
     "@dargmuesli/nuxt-cookie-control",
     "nuxt-schema-org",
+    "nuxt-security",
   ],
 
   vite: {
@@ -68,6 +69,21 @@ export default defineNuxtConfig({
       title: "Adopta a Catalunya",
       htmlAttrs: {
         lang: "ca",
+      },
+    },
+  },
+  security: {
+    headers: {
+      //https://github.com/nuxt/content/issues/2992
+      contentSecurityPolicy: {
+        "script-src": [
+          "'self'",
+          "https:",
+          "'unsafe-inline'",
+          "'strict-dynamic'",
+          "'nonce-{{nonce}}'",
+          "'wasm-unsafe-eval'",
+        ],
       },
     },
   },
