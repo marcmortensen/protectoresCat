@@ -74,6 +74,9 @@ export default defineNuxtConfig({
   },
   security: {
     headers: {
+      permissionsPolicy: {
+        geolocation: ["self"],
+      },
       //https://github.com/nuxt/content/issues/2992
       contentSecurityPolicy: {
         "script-src": [
