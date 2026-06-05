@@ -149,7 +149,8 @@ useSchemaOrg([
                       v-if="animalType.value === 'cats'"
                       :font-controlled="false"
                       class="w-36 h-36 sm:w-64 sm:h-64 xl:w-40 xl:h-40 2xl:w-64 2xl:h-64"
-                      alt="logo"
+                      alt=""
+                      aria-hidden="true"
                       @mouseenter="hoveredAnimalType = animalType.value"
                       @mouseleave="hoveredAnimalType = null"
                     />
@@ -157,11 +158,12 @@ useSchemaOrg([
                       v-else
                       :font-controlled="false"
                       class="w-36 h-36 sm:w-64 sm:h-64 xl:w-40 xl:h-40 2xl:w-64 2xl:h-64"
-                      alt="logo"
+                      alt=""
+                      aria-hidden="true"
                       @mouseenter="hoveredAnimalType = animalType.value"
                       @mouseleave="hoveredAnimalType = null"
                     />
-                    <span class="text-30 uppercase tracking-500 xl:hidden">{{
+                    <span class="text-30 uppercase tracking-500">{{
                       animalType.label
                     }}</span>
                   </NuxtLink>
