@@ -50,6 +50,9 @@ export default defineNuxtConfig({
   experimental: {
     inlineRouteRules: true,
   },
+  sitemap: {
+    sources: ["/__sitemap__/organizations"],
+  },
   app: {
     head: {
       link: [

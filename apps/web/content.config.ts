@@ -1,5 +1,4 @@
 import { defineCollection, defineContentConfig, z } from "@nuxt/content";
-import { defineSitemapSchema } from "@nuxtjs/sitemap/content";
 
 const regionSchema = z.union([
   z.literal("alt-camp"),
@@ -133,7 +132,13 @@ export default defineContentConfig({
             })
           )
           .optional(),
-        sitemap: defineSitemapSchema({ name: "organizations" }),
+        sitemap: z
+          .object({
+            lastmod: z.string(),
+            changefreq: z.literal("monthly"),
+            priority: z.number(),
+          })
+          .optional(),
       }),
     }),
     organizationByRegion: defineCollection({
