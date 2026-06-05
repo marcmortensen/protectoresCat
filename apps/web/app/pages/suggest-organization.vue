@@ -1,0 +1,392 @@
+<script setup lang="ts">
+import type { FormSubmitEvent } from "@nuxt/ui";
+import { z } from "zod";
+
+const PROVINCE_OPTIONS = [
+  { label: "Barcelona", value: "barcelona" },
+  { label: "Girona", value: "girona" },
+  { label: "Lleida", value: "lleida" },
+  { label: "Tarragona", value: "tarragona" },
+];
+
+const ANIMAL_FOCUS_OPTIONS = [
+  { label: "Gats", value: "cats" },
+  { label: "Gossos", value: "dogs" },
+  { label: "Gats i gossos", value: "cats&dogs" },
+];
+
+const optionalUrlField = z
+  .string()
+  .trim()
+  .refine((value) => value === "" || z.url().safeParse(value).success, {
+    message: "URL no vàlida",
+  });
+
+const organizationSuggestFormSchema = z
+  .object({
+    name: z
+      .string()
+      .trim()
+      .min(1, "El nom és obligatori")
+      .max(200, "El nom és massa llarg"),
+    animalFocus: z.enum(["cats", "dogs", "cats&dogs"]),
+    province: z.enum(["barcelona", "girona", "lleida", "tarragona"]),
+    website: optionalUrlField.optional().default(""),
+    facebook: optionalUrlField.optional().default(""),
+    instagram: optionalUrlField.optional().default(""),
+    tiktok: optionalUrlField.optional().default(""),
+    twitter: optionalUrlField.optional().default(""),
+  })
+  .refine(
+    (data) =>
+      [
+        data.website,
+        data.facebook,
+        data.instagram,
+        data.tiktok,
+        data.twitter,
+      ].some((url) => url && url.trim() !== ""),
+    {
+      message: "Cal proporcionar almenys un enllaç (web o xarxes socials)",
+      path: ["website"],
+    }
+  );
+
+type OrganizationSuggestForm = z.infer<typeof organizationSuggestFormSchema>;
+
+const defaultState = (): OrganizationSuggestForm => ({
+  name: "",
+  animalFocus: "cats&dogs",
+  province: "barcelona",
+  website: "",
+  facebook: "",
+  instagram: "",
+  tiktok: "",
+  twitter: "",
+});
+
+const config = useRuntimeConfig();
+const state = reactive<OrganizationSuggestForm>(defaultState());
+const recaptchaToken = ref("");
+const fieldRecaptcha = ref<{ reset: () => void } | null>(null);
+const recaptchaLoadError = ref(!config.public.recaptchaSiteKey);
+
+watch(recaptchaToken, (token) => {
+  if (token) {
+    recaptchaLoadError.value = false;
+  }
+});
+
+const isSubmitting = ref(false);
+const submitError = ref<string | null>(null);
+const successModalOpen = ref(false);
+const lastSubmitResult = ref<{ issueUrl: string; issueNumber: number } | null>(
+  null
+);
+const duplicateMatches = ref<{ shortName: string; municipality: string }[]>([]);
+
+const { data: organizationsData } = useFetch("/api/data");
+
+const isDuplicateOrg = (
+  org: { name: string; shortName: string; province: string },
+  name: string,
+  province: string
+) => {
+  if (org.province !== province) {
+    return false;
+  }
+
+  const orgName = org.name.toLowerCase();
+  const shortName = org.shortName.toLowerCase();
+  return orgName === name || shortName === name || orgName.includes(name);
+};
+
+const checkDuplicateName = () => {
+  duplicateMatches.value = [];
+  const name = state.name.trim().toLowerCase();
+  if (!name || !organizationsData.value?.organizations) {
+    return;
+  }
+
+  duplicateMatches.value = organizationsData.value.organizations
+    .filter((org) => isDuplicateOrg(org, name, state.province))
+    .map((org) => ({
+      shortName: org.shortName,
+      municipality: org.municipality,
+    }));
+};
+
+watch(
+  () => state.province,
+  () => {
+    if (state.name.trim()) {
+      checkDuplicateName();
+    } else {
+      duplicateMatches.value = [];
+    }
+  }
+);
+
+async function onSubmit(_event: FormSubmitEvent<OrganizationSuggestForm>) {
+  submitError.value = null;
+
+  if (!recaptchaToken.value.trim()) {
+    submitError.value = "Cal completar el reCAPTCHA abans d'enviar.";
+    return;
+  }
+
+  isSubmitting.value = true;
+
+  try {
+    const result = await $fetch<{ issueUrl: string; issueNumber: number }>(
+      "/api/organizations/suggest",
+      {
+        method: "POST",
+        body: {
+          ...state,
+          recaptchaToken: recaptchaToken.value,
+        },
+      }
+    );
+
+    lastSubmitResult.value = result;
+    Object.assign(state, defaultState());
+    duplicateMatches.value = [];
+    fieldRecaptcha.value?.reset();
+    successModalOpen.value = true;
+  } catch (error: unknown) {
+    fieldRecaptcha.value?.reset();
+    if (
+      error &&
+      typeof error === "object" &&
+      "statusMessage" in error &&
+      typeof (error as { statusMessage: unknown }).statusMessage === "string"
+    ) {
+      submitError.value = (error as { statusMessage: string }).statusMessage;
+    } else {
+      submitError.value =
+        "No s'ha pogut enviar la proposta. Torna-ho a provar.";
+    }
+  } finally {
+    isSubmitting.value = false;
+  }
+}
+
+useSeoMeta({
+  title: "Afegeix una entitat",
+  description:
+    "Proposa una entitat d'adopció d'animals que no apareix al llistat d'Adoptar.cat.",
+});
+
+defineRouteRules({
+  sitemap: {
+    lastmod: "2026-06-01T00:00:00.000Z",
+    changefreq: "yearly",
+    priority: 0.4,
+  },
+});
+</script>
+
+<template>
+  <div
+    class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-6"
+  >
+    <div class="flex flex-col gap-2">
+      <h1 class="text-2xl font-title">Proposar una entitat</h1>
+      <p class="text-gray-600 dark:text-gray-300">
+        Si coneixes una entitat que permet adopcions i que no és al nostre
+        llistat, omple aquest formulari. Revisarem la proposta i, si procedeix,
+        l'afegirem al recull.
+      </p>
+    </div>
+
+    <UAlert
+      v-if="submitError"
+      color="error"
+      variant="subtle"
+      title="Error en enviar"
+      :description="submitError"
+    />
+
+    <UModal
+      v-model:open="successModalOpen"
+      :dismissible="false"
+      :close="false"
+      title="🎉 Proposta enviada"
+      :description="
+        lastSubmitResult
+          ? `Gràcies! Hem rebut la teva proposta (#${lastSubmitResult.issueNumber}). Revisarem la informació i, si procedeix, l'afegirem al recull.`
+          : undefined
+      "
+      :ui="{
+        title: 'text-xl font-semibold',
+        description: 'mt-2 text-base text-gray-600 dark:text-gray-300',
+      }"
+    >
+      <template #footer>
+        <UButton
+          label="Tancar"
+          variant="outline"
+          color="neutral"
+          @click="successModalOpen = false"
+        />
+        <UButton
+          v-if="lastSubmitResult"
+          :to="lastSubmitResult.issueUrl"
+          target="_blank"
+          rel="noopener"
+          label="Veure la proposta"
+        />
+      </template>
+    </UModal>
+
+    <UForm
+      :schema="organizationSuggestFormSchema"
+      :state="state"
+      class="flex flex-col gap-5"
+      @submit="onSubmit"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-4">
+        <UFormField label="Nom de l'entitat" name="name" required>
+          <UInput
+            v-model="state.name"
+            placeholder="Nom complet de l'entitat"
+            autofocus
+            class="w-full"
+            maxlength="200"
+            @blur="checkDuplicateName"
+          />
+        </UFormField>
+
+        <UFormField label="Centrada en" name="animalFocus" required>
+          <USelectMenu
+            v-model="state.animalFocus"
+            :items="ANIMAL_FOCUS_OPTIONS"
+            value-key="value"
+            label-key="label"
+            class="w-full"
+          />
+        </UFormField>
+
+        <UFormField label="Província" name="province" required>
+          <USelectMenu
+            v-model="state.province"
+            :items="PROVINCE_OPTIONS"
+            value-key="value"
+            label-key="label"
+            class="w-full"
+          />
+        </UFormField>
+      </div>
+
+      <UAlert v-if="duplicateMatches.length" color="neutral" variant="subtle">
+        <template #description>
+          <p>
+            {{
+              duplicateMatches.length === 1
+                ? "Ja existeix una entitat similar:"
+                : "Ja existeixen entitats similars:"
+            }}
+          </p>
+          <ul class="list-disc list-inside mt-1">
+            <li v-for="match in duplicateMatches" :key="match.shortName">
+              {{ `${match.shortName} (${match.municipality})` }}
+            </li>
+          </ul>
+          <p class="mt-1">
+            Pots enviar la proposta igualment si es tracta d'una entitat
+            diferent.
+          </p>
+        </template>
+      </UAlert>
+
+      <div class="flex flex-col gap-4">
+        <p class="font-medium">Enllaços</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400 -mt-2">
+          Cal proporcionar almenys un enllaç (lloc web o xarxes socials).
+        </p>
+
+        <UFormField label="Lloc web" name="website">
+          <UInput
+            v-model="state.website"
+            type="url"
+            placeholder="https://..."
+            class="w-full"
+          />
+        </UFormField>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <UFormField label="Facebook" name="facebook">
+            <UInput
+              v-model="state.facebook"
+              type="url"
+              placeholder="https://www.facebook.com/..."
+              class="w-full"
+            />
+          </UFormField>
+
+          <UFormField label="Instagram" name="instagram">
+            <UInput
+              v-model="state.instagram"
+              type="url"
+              placeholder="https://www.instagram.com/..."
+              class="w-full"
+            />
+          </UFormField>
+
+          <UFormField label="TikTok" name="tiktok">
+            <UInput
+              v-model="state.tiktok"
+              type="url"
+              placeholder="https://www.tiktok.com/..."
+              class="w-full"
+            />
+          </UFormField>
+
+          <UFormField label="Twitter / X" name="twitter">
+            <UInput
+              v-model="state.twitter"
+              type="url"
+              placeholder="https://x.com/..."
+              class="w-full"
+            />
+          </UFormField>
+        </div>
+      </div>
+
+      <FieldRecaptcha
+        ref="fieldRecaptcha"
+        v-model="recaptchaToken"
+        @error="recaptchaLoadError = true"
+      />
+
+      <p class="text-xs text-gray-500 dark:text-gray-400">
+        Aquest lloc està protegit per reCAPTCHA i s'apliquen la
+        <a
+          href="https://policies.google.com/privacy"
+          class="underline hover:text-primary"
+          target="_blank"
+          rel="noopener"
+          >Política de privadesa</a
+        >
+        i les
+        <a
+          href="https://policies.google.com/terms"
+          class="underline hover:text-primary"
+          target="_blank"
+          rel="noopener"
+          >Condicions del servei</a
+        >
+        de Google.
+      </p>
+
+      <UButton
+        type="submit"
+        label="Enviar proposta"
+        :loading="isSubmitting"
+        :disabled="isSubmitting || !recaptchaToken || recaptchaLoadError"
+        class="self-start"
+      />
+    </UForm>
+  </div>
+</template>

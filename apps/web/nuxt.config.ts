@@ -5,12 +5,17 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   ssr: true,
   runtimeConfig: {
+    githubToken: process.env.GITHUB_TOKEN,
+    githubRepoOwner: process.env.GITHUB_REPO_OWNER || "marcmortensen",
+    githubRepoName: process.env.GITHUB_REPO_NAME || "protectoresCat",
+    recaptchaSecretKey: process.env.RECAPTCHA_SECRET_KEY,
     public: {
       site: {
         url: "https://adoptar.cat",
         name: "Adopta a Catalunya",
       },
       googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
+      recaptchaSiteKey: process.env.NUXT_PUBLIC_RECAPTCHA_SITE_KEY || "",
     },
   },
   devtools: { enabled: true },
@@ -72,6 +77,16 @@ export default defineNuxtConfig({
       },
     },
   },
+  routeRules: {
+    "/api/organizations/suggest": {
+      security: {
+        rateLimiter: {
+          tokensPerInterval: 10,
+          interval: 3_600_000,
+        },
+      },
+    },
+  },
   security: {
     headers: {
       permissionsPolicy: {
@@ -86,6 +101,12 @@ export default defineNuxtConfig({
           "'strict-dynamic'",
           "'nonce-{{nonce}}'",
           "'wasm-unsafe-eval'",
+        ],
+        // needed for recaptcha
+        "frame-src": [
+          "'self'",
+          "https://www.google.com",
+          "https://www.gstatic.com",
         ],
       },
     },

@@ -31,7 +31,7 @@ const items = [
   {
     label: "Com afegir una nova entrada al llistat?",
     description:
-      "<p>Si coneixes una entitat que permet adopcions i que no és al nostre llistat, pots contactar amb nosaltres a info@adoptar.cat.</p>",
+      '<p>Si coneixes una entitat que permet adopcions i que no és al nostre llistat, pots <a class="font-semibold hover:text-primary" href="/suggest-organization">proposar-la des d\'aquest formulari</a>.</p>',
   },
   {
     label: "M'he trobat un error, què he de fer?",
