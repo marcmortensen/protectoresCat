@@ -1,19 +1,19 @@
 <script setup lang="ts">
 import type { FormSubmitEvent } from "@nuxt/ui";
 import { z } from "zod";
+import {
+  ANIMAL_FOCUS_OPTIONS,
+  animalFocusSchema,
+  DEFAULT_ANIMAL_FOCUS,
+  DEFAULT_PROVINCE,
+  PROVINCE_OPTIONS,
+  provinceSchema,
+  type ProvinceSlug,
+} from "~/utils/organizationConstants";
+import { parseSuggestOrganizationQuery } from "~/utils/suggestOrganizationQuery";
 
-const PROVINCE_OPTIONS = [
-  { label: "Barcelona", value: "barcelona" },
-  { label: "Girona", value: "girona" },
-  { label: "Lleida", value: "lleida" },
-  { label: "Tarragona", value: "tarragona" },
-];
-
-const ANIMAL_FOCUS_OPTIONS = [
-  { label: "Gats", value: "cats" },
-  { label: "Gossos", value: "dogs" },
-  { label: "Gats i gossos", value: "cats&dogs" },
-];
+const route = useRoute();
+const router = useRouter();
 
 const optionalUrlField = z
   .string()
@@ -29,8 +29,8 @@ const organizationSuggestFormSchema = z
       .trim()
       .min(1, "El nom és obligatori")
       .max(200, "El nom és massa llarg"),
-    animalFocus: z.enum(["cats", "dogs", "cats&dogs"]),
-    province: z.enum(["barcelona", "girona", "lleida", "tarragona"]),
+    animalFocus: animalFocusSchema,
+    province: provinceSchema,
     website: optionalUrlField.optional().default(""),
     facebook: optionalUrlField.optional().default(""),
     instagram: optionalUrlField.optional().default(""),
@@ -56,8 +56,8 @@ type OrganizationSuggestForm = z.infer<typeof organizationSuggestFormSchema>;
 
 const defaultState = (): OrganizationSuggestForm => ({
   name: "",
-  animalFocus: "cats&dogs",
-  province: "barcelona",
+  animalFocus: DEFAULT_ANIMAL_FOCUS,
+  province: DEFAULT_PROVINCE,
   website: "",
   facebook: "",
   instagram: "",
@@ -90,7 +90,7 @@ const { data: organizationsData } = useFetch("/api/data");
 const isDuplicateOrg = (
   org: { name: string; shortName: string; province: string },
   name: string,
-  province: string
+  province: ProvinceSlug
 ) => {
   if (org.province !== province) {
     return false;
@@ -126,6 +126,24 @@ watch(
     }
   }
 );
+
+onMounted(() => {
+  const { name, province } = parseSuggestOrganizationQuery(route.query);
+  if (province) {
+    state.province = province;
+  }
+  if (name) {
+    state.name = name;
+    checkDuplicateName();
+  }
+});
+
+function closeSuccessModal() {
+  successModalOpen.value = false;
+  if (Object.keys(route.query).length > 0) {
+    router.replace({ path: route.path, query: {} });
+  }
+}
 
 async function onSubmit(_event: FormSubmitEvent<OrganizationSuggestForm>) {
   submitError.value = null;
@@ -228,7 +246,7 @@ defineRouteRules({
           label="Tancar"
           variant="outline"
           color="neutral"
-          @click="successModalOpen = false"
+          @click="closeSuccessModal"
         />
         <UButton
           v-if="lastSubmitResult"
@@ -251,7 +269,6 @@ defineRouteRules({
           <UInput
             v-model="state.name"
             placeholder="Nom complet de l'entitat"
-            autofocus
             class="w-full"
             maxlength="200"
             @blur="checkDuplicateName"

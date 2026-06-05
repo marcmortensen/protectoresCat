@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { RegionsCollectionItem } from "@nuxt/content";
+import { buildSuggestOrganizationQuery } from "~/utils/suggestOrganizationQuery";
 
 const route = useRoute();
 const { trackEvent } = useGtag();
@@ -39,6 +40,22 @@ const animalType = useRouteQuery(QueryParam.ANIMAL_TYPES, undefined, {
 
 const search = useRouteQuery(QueryParam.SEARCH, "", {
   transform: { get: String, set: String },
+});
+
+const searchInput = ref(search.value);
+
+watchDebounced(
+  searchInput,
+  (value) => {
+    search.value = value;
+  },
+  { debounce: 300 }
+);
+
+watch(search, (value) => {
+  if (searchInput.value !== value) {
+    searchInput.value = value;
+  }
 });
 
 type SortType = "last-revised" | "title" | "-title";
@@ -267,6 +284,34 @@ const getConnectedToRegions = computed(() =>
     : []
 );
 
+const hasAdjacentRegions = computed(
+  () => (getConnectedToRegions.value?.length ?? 0) > 0
+);
+
+const expandRegionsTo = computed(() =>
+  regions.value.length === 1 && hasAdjacentRegions.value
+    ? {
+        name: "organizations",
+        query: {
+          ...route.query,
+          regions: [
+            route.query.regions as string,
+            ...(getConnectedToRegions.value as string[]),
+          ].join(","),
+        },
+      }
+    : undefined
+);
+
+const suggestOrganizationTo = computed(() => ({
+  path: "/suggest-organization",
+  query: buildSuggestOrganizationQuery({
+    search: search.value,
+    regions: regions.value,
+    regionCatalog: regionCatalog.value,
+  }),
+}));
+
 const pageLastUpdate = computed(() => {
   if (!data.value?.orgs || data.value.orgs.length === 0) {
     return undefined;
@@ -409,7 +454,7 @@ useSchemaOrg([
             >
             <UInput
               id="search-input"
-              v-model="search"
+              v-model="searchInput"
               placeholder="Cerca per nom o municipi"
               class="w-full"
               icon="i-lucide-search"
@@ -489,38 +534,6 @@ useSchemaOrg([
             />
           </template>
         </div>
-        <!-- Connected regions alert -->
-        <div
-          v-if="regions.length === 1 && getConnectedToRegions"
-          class="w-full"
-        >
-          <UAlert color="neutral" variant="outline">
-            <template #description>
-              <div>
-                <span>
-                  Pots trobar més resultats afegint les comarques adjacents fent
-                  clic
-                </span>
-                <UButton
-                  class="!p-0 !m-0 !text-sm"
-                  color="primary"
-                  variant="link"
-                  :to="{
-                    name: 'organizations',
-                    query: {
-                      ...route.query,
-                      regions: [
-                        route.query.regions as string,
-                        ...(getConnectedToRegions as string[]),
-                      ].join(','),
-                    },
-                  }"
-                  label="aquí."
-                />
-              </div>
-            </template>
-          </UAlert>
-        </div>
         <!-- Results grid -->
         <template v-if="pending">
           <div
@@ -531,71 +544,47 @@ useSchemaOrg([
         </template>
 
         <template v-else>
+          <AddOrganizationBanner
+            v-if="data.orgsCount === 0"
+            :to="suggestOrganizationTo"
+            :expand-regions-to="expandRegionsTo"
+          />
+          <div v-else-if="hasAdjacentRegions" class="w-full">
+            <UAlert
+              color="neutral"
+              variant="outline"
+              icon="i-lucide-search-x"
+              :ui="{
+                description: 'text-base text-gray-600 dark:text-gray-300',
+                icon: 'size-6',
+              }"
+            >
+              <template #description>
+                <div>
+                  <span>
+                    Pots trobar més resultats afegint les comarques adjacents
+                    fent clic
+                  </span>
+                  <UButton
+                    class="!p-0 !m-0"
+                    color="primary"
+                    variant="link"
+                    :to="expandRegionsTo"
+                    label="aquí."
+                  />
+                </div>
+              </template>
+            </UAlert>
+          </div>
           <div
-            v-if="data?.orgs"
+            v-if="data.orgsCount > 0"
             class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 gap-4 w-full"
           >
-            <NuxtLink
+            <OrganizationCard
               v-for="org in data.orgs"
               :key="org.id"
-              :to="{ name: 'organizations-slug', params: { slug: org.slug } }"
-              class="group relative"
-            >
-              <div
-                class="overflow-hidden rounded-xl bg-white dark:bg-gray-700 shadow-md w-full transform transition-transform duration-500 group-hover:rotate-y-12 group-hover:scale-105"
-              >
-                <div class="md:flex w-full h-full items-center justify-center">
-                  <div
-                    class="md:shrink-0 h-48 w-full md:w-48 sm:h-full flex items-center justify-center"
-                  >
-                    <NuxtPicture
-                      v-if="org.enabledLogoUsage"
-                      format="avif,webp"
-                      :src="getOrganizationLogoPath(org.slug)"
-                      :alt="`Logotip de ${org.name}`"
-                      :img-attrs="{
-                        class: 'h-48 sm:w-full md:h-full md:w-48 max-h-48',
-                      }"
-                    />
-                    <template v-else>
-                      <SvgoAnimalsCat1
-                        v-if="
-                          org.animalFocus === 'cats&dogs' ||
-                          org.animalFocus === 'cats'
-                        "
-                        :font-controlled="false"
-                        class="h-48"
-                      />
-                      <SvgoAnimalsDog5
-                        v-if="
-                          org.animalFocus === 'cats&dogs' ||
-                          org.animalFocus === 'dogs'
-                        "
-                        :font-controlled="false"
-                        class="h-48"
-                      />
-                    </template>
-                  </div>
-                  <div class="pt-2 p-8 md:pt-8 text-black dark:text-white">
-                    <div
-                      class="text-lg leading-tight line-clamp-1 font-medium group-hover:text-primary"
-                    >
-                      {{ org.shortName }}
-                    </div>
-                    <div
-                      class="mt-1 text-sm font-semibold tracking-wide line-clamp-1"
-                    >
-                      {{ org.municipality }}
-                    </div>
-                    <p
-                      class="mt-2 text-gray-500 dark:text-gray-100 line-clamp-4 min-h-24 text-pretty"
-                    >
-                      {{ org.description }}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </NuxtLink>
+              :org="org"
+            />
           </div>
           <div class="w-full flex justify-center">
             <UPagination

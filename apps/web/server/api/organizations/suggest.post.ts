@@ -1,29 +1,15 @@
 import { z } from "zod";
+import {
+  ANIMAL_FOCUS_LABELS,
+  animalFocusSchema,
+  PROVINCE_LABELS,
+  provinceSchema,
+} from "../../../app/utils/organizationConstants";
 import { verifyRecaptcha } from "../verifyRecaptcha";
-import type {
-  OrganizationsCollectionItem,
-  ProvincesCollectionItem,
-} from "@nuxt/content";
 
 type GitHubIssueResponse = {
   number: number;
   html_url: string;
-};
-
-const PROVINCE_LABELS: Record<ProvincesCollectionItem["slug"], string> = {
-  barcelona: "Barcelona",
-  girona: "Girona",
-  lleida: "Lleida",
-  tarragona: "Tarragona",
-};
-
-const ANIMAL_FOCUS_LABELS: Record<
-  OrganizationsCollectionItem["animalFocus"],
-  string
-> = {
-  cats: "Gats",
-  dogs: "Gossos",
-  "cats&dogs": "Gats i gossos",
 };
 
 const optionalUrlField = z
@@ -34,8 +20,8 @@ const optionalUrlField = z
 const organizationSuggestRequestSchema = z
   .object({
     name: z.string().trim().min(1).max(200),
-    animalFocus: z.enum(["cats", "dogs", "cats&dogs"]),
-    province: z.enum(["barcelona", "girona", "lleida", "tarragona"]),
+    animalFocus: animalFocusSchema,
+    province: provinceSchema,
     website: optionalUrlField.optional().default(""),
     facebook: optionalUrlField.optional().default(""),
     instagram: optionalUrlField.optional().default(""),
