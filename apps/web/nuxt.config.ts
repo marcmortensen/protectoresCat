@@ -25,6 +25,7 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxtjs/seo",
+    "nuxt-ai-ready",
     "@nuxt/eslint",
     "@nuxt/fonts",
     "@nuxt/icon",
