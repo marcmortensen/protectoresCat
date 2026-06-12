@@ -4,16 +4,17 @@ import tailwindcss from "@tailwindcss/vite";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || "https://adoptar.cat",
+    name: "Adopta a Catalunya",
+    defaultLocale: "ca",
+  },
   runtimeConfig: {
     githubToken: process.env.GITHUB_TOKEN,
     githubRepoOwner: process.env.GITHUB_REPO_OWNER || "marcmortensen",
     githubRepoName: process.env.GITHUB_REPO_NAME || "protectoresCat",
     recaptchaSecretKey: process.env.RECAPTCHA_SECRET_KEY,
     public: {
-      site: {
-        url: "https://adoptar.cat",
-        name: "Adopta a Catalunya",
-      },
       googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
       recaptchaSiteKey: process.env.NUXT_PUBLIC_RECAPTCHA_SITE_KEY || "",
     },
@@ -23,17 +24,16 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
   modules: [
+    "@nuxtjs/seo",
     "@nuxt/eslint",
     "@nuxt/fonts",
     "@nuxt/icon",
     "@nuxt/image",
-    "@nuxtjs/sitemap",
     "@nuxt/content",
     "@nuxt/ui",
     "@vueuse/nuxt",
     "nuxt-svgo",
     "@dargmuesli/nuxt-cookie-control",
-    "nuxt-schema-org",
     "nuxt-security",
   ],
 
@@ -49,6 +49,15 @@ export default defineNuxtConfig({
   },
   experimental: {
     inlineRouteRules: true,
+  },
+  seo: {
+    meta: {
+      twitterCard: "summary_large_image",
+      ogImage: "/logo_w1200_h630.png",
+    },
+  },
+  ogImage: {
+    enabled: false,
   },
   sitemap: {
     sources: ["/__sitemap__/organizations"],

@@ -53,7 +53,7 @@ const dataError = computed<{
   };
 });
 
-useSeoMeta({
+useAppSeo({
   title: () => dataError.value.title,
   description: () => `${dataError.value.lead} ${dataError.value.body}`,
   robots: { index: false, follow: false },

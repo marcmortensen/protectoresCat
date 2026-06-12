@@ -326,21 +326,27 @@ const pageLastUpdate = computed(() => {
   return mostRecent.toISOString();
 });
 
-useSeoMeta({
-  ogTitle: "Llistat d'entitats d'adopció d'animals a Catalunya",
+const site = useSiteConfig();
+
+const hasActiveFilters = computed(() =>
+  Boolean(
+    route.query.regions ||
+    route.query.focus ||
+    route.query.search ||
+    (route.query.page && route.query.page !== "1") ||
+    (route.query.sort && route.query.sort !== DEFAULT_SORT)
+  )
+);
+
+useAppSeo({
   title: "Llistat d'entitats d'adopció d'animals a Catalunya",
   description:
     "Descobreix totes les entitats que permeten adopcions filtra per tipus o per comarques.",
-  ogDescription:
-    "Descobreix totes les entitats que permeten adopcions filtra per tipus o per comarques.",
-  twitterCard: "summary_large_image",
-  twitterTitle: "Llistat d'entitats d'adopció d'animals a Catalunya",
-  twitterDescription:
-    "Descobreix totes les entitats que permeten adopcions filtra per tipus o per comarques.",
-  ogImage: "https://adoptar.cat/logo_w1200_h630.png",
-  ogImageUrl: "https://adoptar.cat/logo_w1200_h630.png",
-  twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
   articleModifiedTime: pageLastUpdate,
+  canonical: "/organizations",
+  robots: computed(() =>
+    hasActiveFilters.value ? "noindex, follow" : undefined
+  ),
 });
 
 defineRouteRules({
@@ -362,7 +368,7 @@ useSchemaOrg([
       (data.value?.orgs || []).map((org, idx) => ({
         "@type": "ListItem",
         position: idx + 1,
-        url: `https://adoptar.cat/organizations/${org.slug}`,
+        url: `${site.url}/organizations/${org.slug}`,
         name: org.shortName,
         alternateName: org.name,
         sameAs: (org.socials || []).map((social) => social.url),

@@ -50,7 +50,7 @@ const items = [
   },
 ];
 
-useSeoMeta({
+useAppSeo({
   title: "Preguntes freqüents",
   description:
     "Consulta les preguntes més freqüents sobre el nostre llistat d'entitats i adopcions.",

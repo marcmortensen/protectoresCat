@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { ca } from "@nuxt/ui/locale";
 
-useSeoMeta({
+const site = useSiteConfig();
+
+useAppSeo({
   title: "Troba i adopta",
   description:
     "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
@@ -14,14 +16,13 @@ useSeoMeta({
 useSchemaOrg([
   defineWebSite({
     name: "Adoptar.cat",
-    url: "https://adoptar.cat",
+    url: site.url,
     potentialAction: {
       "@type": "SearchAction",
       target: [
         {
           "@type": "EntryPoint",
-          urlTemplate:
-            "https://adoptar.cat/organizations?search={search_term_string}",
+          urlTemplate: `${site.url}/organizations?search={search_term_string}`,
         },
       ],
       "query-input": "required name=search_term_string",

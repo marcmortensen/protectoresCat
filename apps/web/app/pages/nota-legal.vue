@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useSeoMeta({
+useAppSeo({
   title: "Avís legal",
   description:
     "Avís legal d'Adoptar.cat, informació sobre l'ús del lloc web i responsabilitats.",

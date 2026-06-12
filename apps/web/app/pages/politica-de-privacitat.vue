@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useSeoMeta({
+useAppSeo({
   title: "Política de privacitat",
   description:
     "Consulta la nostra política de privacitat per entendre com gestionem les dades dels usuaris.",

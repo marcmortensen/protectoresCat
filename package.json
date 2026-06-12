@@ -42,7 +42,8 @@
   "pnpm": {
     "overrides": {
       "sharp": "0.33.4",
-      "typescript": "6.0.3"
+      "typescript": "6.0.3",
+      "h3": "1.15.11"
     }
   }
 }

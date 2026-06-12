@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useSeoMeta({
+useAppSeo({
   title: "Política de cookies",
   description:
     "Consulta la nostra política de cookies per entendre com utilitzem les cookies al nostre lloc web.",

@@ -83,23 +83,12 @@ const phones = computed(() => {
 });
 
 const showidZoologicalNucleus = false;
-useSeoMeta({
+const site = useSiteConfig();
+
+useAppSeo({
   title: computed(() => org.value?.shortName),
   description: computed(() => org.value?.description),
-  ogDescription: computed(() => org.value?.description),
-  twitterDescription: computed(() => org.value?.description),
-  twitterCard: "summary_large_image",
   ogImage: computed(() =>
-    org.value?.enabledLogoUsage
-      ? getOrganizationLogoPath(org.value.slug)
-      : undefined
-  ),
-  ogImageUrl: computed(() =>
-    org.value?.enabledLogoUsage
-      ? getOrganizationLogoPath(org.value.slug)
-      : undefined
-  ),
-  twitterImage: computed(() =>
     org.value?.enabledLogoUsage
       ? getOrganizationLogoPath(org.value.slug)
       : undefined
@@ -110,12 +99,12 @@ useSeoMeta({
 useSchemaOrg([
   defineOrganization({
     "@id": computed(
-      () => `https://adoptar.cat/organizations/${org.value?.slug || ""}#org`
+      () => `${site.url}/organizations/${org.value?.slug || ""}#org`
     ),
     name: computed(() => org.value?.shortName),
     legalName: computed(() => org.value?.name),
     url: computed(
-      () => `https://adoptar.cat/organizations/${org.value?.slug || ""}`
+      () => `${site.url}/organizations/${org.value?.slug || ""}`
     ),
     logo: computed(() =>
       org.value?.enabledLogoUsage && org.value?.slug

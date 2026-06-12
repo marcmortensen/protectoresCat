@@ -11,6 +11,10 @@ import {
   type ProvinceSlug,
 } from "~/utils/organizationConstants";
 import { parseSuggestOrganizationQuery } from "~/utils/suggestOrganizationQuery";
+import type {
+  PublicOrganization,
+  PublicOrganizationsBundle,
+} from "~/types/publicOrganizations";
 
 const route = useRoute();
 const router = useRouter();
@@ -85,10 +89,11 @@ const lastSubmitResult = ref<{ issueUrl: string; issueNumber: number } | null>(
 );
 const duplicateMatches = ref<{ shortName: string; municipality: string }[]>([]);
 
-const { data: organizationsData } = useFetch("/api/data");
+const { data: organizationsData } =
+  useFetch<PublicOrganizationsBundle>("/api/data");
 
 const isDuplicateOrg = (
-  org: { name: string; shortName: string; province: string },
+  org: PublicOrganization,
   name: string,
   province: ProvinceSlug
 ) => {
@@ -190,10 +195,11 @@ async function onSubmit(_event: FormSubmitEvent<OrganizationSuggestForm>) {
   }
 }
 
-useSeoMeta({
+useAppSeo({
   title: "Afegeix una entitat",
   description:
     "Proposa una entitat d'adopció d'animals que no apareix al llistat d'Adoptar.cat.",
+  canonical: "/suggest-organization",
 });
 
 defineRouteRules({

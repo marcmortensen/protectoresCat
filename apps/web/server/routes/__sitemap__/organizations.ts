@@ -10,6 +10,6 @@ export default defineSitemapEventHandler(async (event) => {
     loc: `/organizations/${org.slug}`,
     lastmod: org.sitemap?.lastmod ?? org.lastUpdate,
     changefreq: org.sitemap?.changefreq ?? "monthly",
-    priority: (org.sitemap?.priority ?? 0.5) as 0.5,
+    priority: (org.sitemap?.priority ?? 0.7) as 0.7,
   }));
 });

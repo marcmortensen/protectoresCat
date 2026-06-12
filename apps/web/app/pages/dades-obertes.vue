@@ -1,13 +1,8 @@
 <script setup lang="ts">
+import type { PublicOrganizationsBundle } from "~/types/publicOrganizations";
+
 const dataJsonUrl = "/data/organizations/data.json";
 const schemaJsonUrl = "/data/organizations/schema.json";
-
-type PublicOrganizationsBundle = {
-  $schema: string;
-  organizations: Record<string, unknown>[];
-  total: number;
-  generatedAt: string;
-};
 
 const { data, pending, error } =
   useFetch<PublicOrganizationsBundle>("/api/data");
@@ -18,7 +13,7 @@ const exampleOrgJson = computed(() => {
   return JSON.stringify({ ...data.value, organizations: [orgs[0]] }, null, 2);
 });
 
-useSeoMeta({
+useAppSeo({
   title: "Dades obertes",
   description:
     "Documentació JSON públics d'Adoptar.cat: llistat d'entitats que permeten adopacions a Catalunya, esquema i bones pràctiques per a desenvolupadors i reutilització.",

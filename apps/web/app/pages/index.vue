@@ -63,18 +63,12 @@ const regionRouteBuilder = (regionSlug: string): RouteLocationRaw => {
   };
 };
 
-useSeoMeta({
+const site = useSiteConfig();
+
+useAppSeo({
   title: "Troba i adopta",
   description:
     "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
-  ogDescription:
-    "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
-  twitterCard: "summary_large_image",
-  twitterDescription:
-    "Descobreix totes les entitats que permeten adopcions. Entra a la nostra plana web i escull per tipus o per comarques.",
-  ogImage: "https://adoptar.cat/logo_w1200_h630.png",
-  ogImageUrl: "https://adoptar.cat/logo_w1200_h630.png",
-  twitterImage: "https://adoptar.cat/logo_w1200_h630.png",
 });
 
 defineRouteRules({
@@ -87,9 +81,9 @@ defineRouteRules({
 
 useSchemaOrg([
   defineOrganization({
-    "@id": "https://adoptar.cat/#siteorg",
+    "@id": `${site.url}/#siteorg`,
     name: "Adoptar.cat",
-    url: "https://adoptar.cat",
+    url: site.url,
     logo: "/logo_w1200_h630.png",
     description:
       "Adoptar.cat és una plataforma informativa i sense ànim de lucre que connecta adoptants amb entitats i voluntaris per promoure l'adopció responsable d'animals a Catalunya.",
