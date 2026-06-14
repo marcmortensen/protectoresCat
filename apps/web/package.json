@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "build-netlify": "nuxt build && mkdir -p .output/public",
+    "build-netlify": "nuxt generate",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -33,6 +33,7 @@
     "vue": "3.5.35",
     "vue-gtag": "3.7.1",
     "vue-recaptcha": "2.0.3",
+    "better-sqlite3": "12.10.0",
     "zod": "4.4.3"
   },
   "devDependencies": {
@@ -40,7 +41,6 @@
     "@vueuse/core": "14.3.0",
     "@vueuse/nuxt": "14.3.0",
     "@vueuse/router": "14.3.0",
-    "better-sqlite3": "12.10.0",
     "typescript": "6.0.3",
     "vite": "7.1.12",
     "vue-tsc": "3.3.3"

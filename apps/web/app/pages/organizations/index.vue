@@ -1,8 +1,15 @@
 <script setup lang="ts">
 import type { RegionsCollectionItem } from "@nuxt/content";
+import {
+  buildOrganizationsListQuery,
+  filterOrganizations,
+  paginateOrganizations,
+  type OrganizationSortType,
+} from "~/utils/organizationListFilters";
 import { buildSuggestOrganizationQuery } from "~/utils/suggestOrganizationQuery";
 
 const route = useRoute();
+const router = useRouter();
 const { trackEvent } = useGtag();
 
 const typeOfAnimal = [
@@ -58,7 +65,7 @@ watch(search, (value) => {
   }
 });
 
-type SortType = "last-revised" | "title" | "-title";
+type SortType = OrganizationSortType;
 const sortOptions: { label: string; value: SortType }[] = [
   { label: "Última actualització", value: "last-revised" },
   { label: "Nom (A-Z)", value: "title" },
@@ -79,6 +86,46 @@ const resetFilters = () => {
   animalType.value = [];
 };
 
+const organizationsRoute = (
+  overrides: {
+    regions?: RegionsCollectionItem["slug"][];
+    animalTypes?: string[];
+    search?: string;
+    sort?: SortType;
+    page?: number;
+  } = {}
+) => ({
+  path: "/organizations" as const,
+  query: buildOrganizationsListQuery(
+    {
+      regions: overrides.regions ?? regions.value,
+      animalTypes: overrides.animalTypes ?? animalType.value,
+      search: overrides.search ?? search.value,
+      sort: overrides.sort ?? sort.value,
+      page: overrides.page ?? page.value,
+    },
+    { sort: DEFAULT_SORT }
+  ),
+});
+
+const page = computed({
+  get() {
+    const value = route.query[QueryParam.PAGE];
+    const raw = Array.isArray(value) ? value[0] : value;
+    const parsed = Number(raw);
+    return Number.isFinite(parsed) && parsed > 0 ? parsed : 1;
+  },
+  set(pageNumber: number) {
+    router.push(organizationsRoute({ page: pageNumber }));
+  },
+});
+
+const resetPage = () => {
+  if (page.value !== 1) {
+    router.push(organizationsRoute({ page: 1 }));
+  }
+};
+
 watch(
   [search, sort],
   () => {
@@ -89,12 +136,10 @@ watch(
   }
 );
 
-const page = useRouteQuery(QueryParam.PAGE, "1", {
-  mode: "push",
-  transform: { get: Number, set: String },
-});
-
 const ITEMS_PER_PAGE = 12;
+
+const paginationTo = (pageNumber: number) =>
+  organizationsRoute({ page: pageNumber });
 
 const { data: regionCatalog } = useRegions();
 
@@ -112,77 +157,22 @@ async function onClickMyLocationRegion() {
   }
 }
 
-const { data, pending, refresh, clear } = useAsyncData(
-  route.path,
-  async () => {
-    const query = queryCollection("organizations");
-
-    if (search.value) {
-      query.orWhere((query) => {
-        query
-          .where("name", "LIKE", `%${search.value}%`)
-          .where("municipality", "LIKE", `%${search.value}%`)
-          .where("shortName", "LIKE", `%${search.value}%`);
-        return query;
-      });
-    }
-    if (regions.value.length > 0) {
-      query.orWhere((query) => {
-        regions.value.forEach((slug) => {
-          query.where("region", "LIKE", `%${slug}%`);
-          query.where("additionalRegions", "LIKE", `%${slug}%`);
-        });
-        return query;
-      });
-    }
-
-    if (animalType.value.length > 0) {
-      query.orWhere((query) => {
-        animalType.value.forEach((slug) => {
-          query.where("animalFocus", "LIKE", `%${slug}%`);
-        });
-        return query.where("animalFocus", "LIKE", `%cats&dogs%`);
-      });
-    }
-    const orgsCount = await query.count();
-
-    let orgs;
-    switch (sort.value) {
-      case "-title":
-        orgs = await query
-          .limit(ITEMS_PER_PAGE)
-          .order("shortName", "DESC")
-          .skip((page.value - 1) * ITEMS_PER_PAGE)
-          .all();
-        break;
-      case "title":
-        orgs = await query
-          .limit(ITEMS_PER_PAGE)
-          .order("shortName", "ASC")
-          .skip((page.value - 1) * ITEMS_PER_PAGE)
-          .all();
-        break;
-      case "last-revised":
-      default:
-        orgs = await query
-          .limit(ITEMS_PER_PAGE)
-          .order("lastUpdate", "DESC")
-          .skip((page.value - 1) * ITEMS_PER_PAGE)
-          .all();
-        break;
-    }
-
-    return {
-      orgsCount,
-      orgs,
-    };
-  },
-  {
-    immediate: true,
-    watch: [regions, animalType, page, search, sort],
-    deep: true,
-  }
+const { data: allOrgs, pending } = useLazyAsyncData("organizations-all", () =>
+  queryCollection("organizations").all()
 );
+
+const data = computed(() => {
+  const filtered = filterOrganizations(allOrgs.value ?? [], {
+    search: search.value,
+    regions: regions.value,
+    animalTypes: animalType.value,
+    sort: sort.value,
+  });
+  return {
+    orgsCount: filtered.length,
+    orgs: paginateOrganizations(filtered, page.value, ITEMS_PER_PAGE),
+  };
+});
 
 const filters = computed(() => {
   return [
@@ -210,9 +200,6 @@ const filters = computed(() => {
     }),
   ];
 });
-const resetPage = () => {
-  page.value = 1;
-};
 
 watch(
   [regions, animalType, search],
@@ -221,6 +208,16 @@ watch(
   },
   {
     flush: "sync",
+  }
+);
+
+watch(
+  () => data.value.orgsCount,
+  (count) => {
+    const maxPage = Math.max(1, Math.ceil(count / ITEMS_PER_PAGE));
+    if (page.value > maxPage) {
+      page.value = maxPage;
+    }
   }
 );
 
@@ -239,7 +236,7 @@ const scrollToTop = () => {
   }
 };
 
-const cleanQueryParams = async () => {
+const cleanQueryParams = () => {
   if (!regionCatalog.value) {
     return;
   }
@@ -254,23 +251,16 @@ const cleanQueryParams = async () => {
     validAnimalTypes.includes(type)
   );
 
-  let refreshRequired = false;
   if (cleanedRegions.length !== regions.value.length) {
-    refreshRequired = true;
     regions.value = cleanedRegions.length > 0 ? cleanedRegions : [];
   }
   if (cleanedAnimalTypes.length !== animalType.value.length) {
-    refreshRequired = true;
     animalType.value = cleanedAnimalTypes;
-  }
-  if (refreshRequired) {
-    clear();
-    refresh();
   }
 };
 
 watch(
-  () => data.value,
+  allOrgs,
   () => {
     cleanQueryParams();
   },
@@ -288,20 +278,23 @@ const hasAdjacentRegions = computed(
   () => (getConnectedToRegions.value?.length ?? 0) > 0
 );
 
-const expandRegionsTo = computed(() =>
-  regions.value.length === 1 && hasAdjacentRegions.value
-    ? {
-        name: "organizations",
-        query: {
-          ...route.query,
-          regions: [
-            route.query.regions as string,
-            ...(getConnectedToRegions.value as string[]),
-          ].join(","),
-        },
-      }
-    : undefined
-);
+const expandRegionsTo = computed(() => {
+  const regionSlug = regions.value[0];
+  if (
+    regions.value.length !== 1 ||
+    !regionSlug ||
+    !hasAdjacentRegions.value
+  ) {
+    return undefined;
+  }
+
+  return organizationsRoute({
+    regions: [
+      regionSlug,
+      ...(getConnectedToRegions.value as RegionsCollectionItem["slug"][]),
+    ],
+  });
+});
 
 const suggestOrganizationTo = computed(() => ({
   path: "/suggest-organization",
@@ -386,7 +379,7 @@ useSchemaOrg([
 
 <template>
   <div
-    v-if="data"
+    v-if="allOrgs || pending"
     class="lg:px-32 py-4 3xl:w-3/4 flex flex-col w-full px-1 justify-center items-center mx-auto gap-4 last:pb-4"
   >
     <div class="w-full flex flex-col xl:flex-row gap-4 px-4">
@@ -597,10 +590,10 @@ useSchemaOrg([
               v-if="
                 data && data.orgsCount !== 0 && data.orgsCount > ITEMS_PER_PAGE
               "
-              v-model:page="page"
+              :page="page"
+              :to="paginationTo"
               :items-per-page="ITEMS_PER_PAGE"
               :total="data.orgsCount"
-              :default-page="1"
               color="primary"
               @update:page="scrollToTop"
             />

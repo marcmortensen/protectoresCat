@@ -31,7 +31,7 @@ const items = [
   {
     label: "Com afegir una nova entrada al llistat?",
     description:
-      '<p>Si coneixes una entitat que permet adopcions i que no és al nostre llistat, pots <a class="font-semibold hover:text-primary" href="/suggest-organization">proposar-la des d\'aquest formulari</a>.</p>',
+      '<p>Si coneixes una entitat que permet adopcions i que no és al nostre llistat, pots contactar amb nosaltres a info@adoptar.cat o bé <a class="font-semibold hover:text-primary" href="/suggest-organization">proposar-la des d\'aquest formulari</a>.</p>',
   },
   {
     label: "M'he trobat un error, què he de fer?",
@@ -75,7 +75,7 @@ useSchemaOrg([
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2025-08-20T00:00:00.000Z",
+    lastmod: "2026-06-14T00:00:00.000Z",
     changefreq: "monthly",
     priority: 0.3,
   },
@@ -86,9 +86,17 @@ defineRouteRules({
   <div
     class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
   >
-    <UAccordion :items="items" :multiple="false" class="lg:px-4 px-2">
+    <UAccordion
+      :items="items"
+      :multiple="false"
+      :unmount-on-hide="false"
+      class="lg:px-4 px-2"
+    >
+      <template #default="{ item }">
+        <h2 class="text-base font-semibold">{{ item.label }}</h2>
+      </template>
       <template #body="{ item }">
-        <div v-html="item.description"></div>
+        <div v-html="item.description" />
       </template>
     </UAccordion>
   </div>

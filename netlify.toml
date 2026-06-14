@@ -1,6 +1,15 @@
 [build]
 base = "apps/web"
-publish = "dist"
+publish = ".output/public"
 command = "pnpm run build-netlify"
+
 [build.environment]
   NODE_VERSION = "22"
+
+[[headers]]
+for = "/*"
+[headers.values]
+  X-Frame-Options = "DENY"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  Permissions-Policy = "geolocation=(self)"

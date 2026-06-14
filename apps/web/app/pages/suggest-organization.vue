@@ -71,15 +71,6 @@ const defaultState = (): OrganizationSuggestForm => ({
 
 const config = useRuntimeConfig();
 const state = reactive<OrganizationSuggestForm>(defaultState());
-const recaptchaToken = ref("");
-const fieldRecaptcha = ref<{ reset: () => void } | null>(null);
-const recaptchaLoadError = ref(!config.public.recaptchaSiteKey);
-
-watch(recaptchaToken, (token) => {
-  if (token) {
-    recaptchaLoadError.value = false;
-  }
-});
 
 const isSubmitting = ref(false);
 const submitError = ref<string | null>(null);
@@ -89,8 +80,9 @@ const lastSubmitResult = ref<{ issueUrl: string; issueNumber: number } | null>(
 );
 const duplicateMatches = ref<{ shortName: string; municipality: string }[]>([]);
 
-const { data: organizationsData } =
-  useFetch<PublicOrganizationsBundle>("/api/data");
+const { data: organizationsData } = useFetch<PublicOrganizationsBundle>(
+  "/data/organizations/data.json"
+);
 
 const isDuplicateOrg = (
   org: PublicOrganization,
@@ -153,21 +145,16 @@ function closeSuccessModal() {
 async function onSubmit(_event: FormSubmitEvent<OrganizationSuggestForm>) {
   submitError.value = null;
 
-  if (!recaptchaToken.value.trim()) {
-    submitError.value = "Cal completar el reCAPTCHA abans d'enviar.";
-    return;
-  }
-
   isSubmitting.value = true;
 
   try {
+    // TODO send email to info@adoptar.cat
     const result = await $fetch<{ issueUrl: string; issueNumber: number }>(
-      "/api/organizations/suggest",
+      "/organizations-suggest",
       {
         method: "POST",
         body: {
           ...state,
-          recaptchaToken: recaptchaToken.value,
         },
       }
     );
@@ -175,10 +162,8 @@ async function onSubmit(_event: FormSubmitEvent<OrganizationSuggestForm>) {
     lastSubmitResult.value = result;
     Object.assign(state, defaultState());
     duplicateMatches.value = [];
-    fieldRecaptcha.value?.reset();
     successModalOpen.value = true;
   } catch (error: unknown) {
-    fieldRecaptcha.value?.reset();
     if (
       error &&
       typeof error === "object" &&
@@ -223,193 +208,162 @@ defineRouteRules({
         l'afegirem al recull.
       </p>
     </div>
+    <div v-if="true">🙈 Plana en construcció...</div>
+    <div v-else>
+      <UAlert
+        v-if="submitError"
+        color="error"
+        variant="subtle"
+        title="Error en enviar"
+        :description="submitError ?? undefined"
+      />
 
-    <UAlert
-      v-if="submitError"
-      color="error"
-      variant="subtle"
-      title="Error en enviar"
-      :description="submitError"
-    />
-
-    <UModal
-      v-model:open="successModalOpen"
-      :dismissible="false"
-      :close="false"
-      title="🎉 Proposta enviada"
-      :description="
-        lastSubmitResult
-          ? `Gràcies! Hem rebut la teva proposta (#${lastSubmitResult.issueNumber}). Revisarem la informació i, si procedeix, l'afegirem al recull.`
-          : undefined
-      "
-      :ui="{
-        title: 'text-xl font-semibold',
-        description: 'mt-2 text-base text-gray-600 dark:text-gray-300',
-      }"
-    >
-      <template #footer>
-        <UButton
-          label="Tancar"
-          variant="outline"
-          color="neutral"
-          @click="closeSuccessModal"
-        />
-        <UButton
-          v-if="lastSubmitResult"
-          :to="lastSubmitResult.issueUrl"
-          target="_blank"
-          rel="noopener"
-          label="Veure la proposta"
-        />
-      </template>
-    </UModal>
-
-    <UForm
-      :schema="organizationSuggestFormSchema"
-      :state="state"
-      class="flex flex-col gap-5"
-      @submit="onSubmit"
-    >
-      <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-4">
-        <UFormField label="Nom de l'entitat" name="name" required>
-          <UInput
-            v-model="state.name"
-            placeholder="Nom complet de l'entitat"
-            class="w-full"
-            maxlength="200"
-            @blur="checkDuplicateName"
+      <UModal
+        v-model:open="successModalOpen"
+        :dismissible="false"
+        :close="false"
+        title="🎉 Proposta enviada"
+        :description="
+          lastSubmitResult
+            ? `Gràcies! Hem rebut la teva proposta. Revisarem la informació i, si procedeix, l'afegirem al recull.`
+            : undefined
+        "
+        :ui="{
+          title: 'text-xl font-semibold',
+          description: 'mt-2 text-base text-gray-600 dark:text-gray-300',
+        }"
+      >
+        <template #footer>
+          <UButton
+            label="Tancar"
+            variant="outline"
+            color="neutral"
+            @click="closeSuccessModal"
           />
-        </UFormField>
-
-        <UFormField label="Centrada en" name="animalFocus" required>
-          <USelectMenu
-            v-model="state.animalFocus"
-            :items="ANIMAL_FOCUS_OPTIONS"
-            value-key="value"
-            label-key="label"
-            class="w-full"
-          />
-        </UFormField>
-
-        <UFormField label="Província" name="province" required>
-          <USelectMenu
-            v-model="state.province"
-            :items="PROVINCE_OPTIONS"
-            value-key="value"
-            label-key="label"
-            class="w-full"
-          />
-        </UFormField>
-      </div>
-
-      <UAlert v-if="duplicateMatches.length" color="neutral" variant="subtle">
-        <template #description>
-          <p>
-            {{
-              duplicateMatches.length === 1
-                ? "Ja existeix una entitat similar:"
-                : "Ja existeixen entitats similars:"
-            }}
-          </p>
-          <ul class="list-disc list-inside mt-1">
-            <li v-for="match in duplicateMatches" :key="match.shortName">
-              {{ `${match.shortName} (${match.municipality})` }}
-            </li>
-          </ul>
-          <p class="mt-1">
-            Pots enviar la proposta igualment si es tracta d'una entitat
-            diferent.
-          </p>
         </template>
-      </UAlert>
+      </UModal>
 
-      <div class="flex flex-col gap-4">
-        <p class="font-medium">Enllaços</p>
-        <p class="text-sm text-gray-600 dark:text-gray-400 -mt-2">
-          Cal proporcionar almenys un enllaç (lloc web o xarxes socials).
-        </p>
-
-        <UFormField label="Lloc web" name="website">
-          <UInput
-            v-model="state.website"
-            type="url"
-            placeholder="https://..."
-            class="w-full"
-          />
-        </UFormField>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <UFormField label="Facebook" name="facebook">
+      <UForm
+        :schema="organizationSuggestFormSchema"
+        :state="state"
+        class="flex flex-col gap-5"
+        @submit="onSubmit"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-4">
+          <UFormField label="Nom de l'entitat" name="name" required>
             <UInput
-              v-model="state.facebook"
-              type="url"
-              placeholder="https://www.facebook.com/..."
+              v-model="state.name"
+              placeholder="Nom complet de l'entitat"
+              class="w-full"
+              maxlength="200"
+              @blur="checkDuplicateName"
+            />
+          </UFormField>
+
+          <UFormField label="Centrada en" name="animalFocus" required>
+            <USelectMenu
+              v-model="state.animalFocus"
+              :items="ANIMAL_FOCUS_OPTIONS"
+              value-key="value"
+              label-key="label"
               class="w-full"
             />
           </UFormField>
 
-          <UFormField label="Instagram" name="instagram">
-            <UInput
-              v-model="state.instagram"
-              type="url"
-              placeholder="https://www.instagram.com/..."
-              class="w-full"
-            />
-          </UFormField>
-
-          <UFormField label="TikTok" name="tiktok">
-            <UInput
-              v-model="state.tiktok"
-              type="url"
-              placeholder="https://www.tiktok.com/..."
-              class="w-full"
-            />
-          </UFormField>
-
-          <UFormField label="Twitter / X" name="twitter">
-            <UInput
-              v-model="state.twitter"
-              type="url"
-              placeholder="https://x.com/..."
+          <UFormField label="Província" name="province" required>
+            <USelectMenu
+              v-model="state.province"
+              :items="PROVINCE_OPTIONS"
+              value-key="value"
+              label-key="label"
               class="w-full"
             />
           </UFormField>
         </div>
-      </div>
 
-      <FieldRecaptcha
-        ref="fieldRecaptcha"
-        v-model="recaptchaToken"
-        @error="recaptchaLoadError = true"
-      />
+        <UAlert v-if="duplicateMatches.length" color="neutral" variant="subtle">
+          <template #description>
+            <p>
+              {{
+                duplicateMatches.length === 1
+                  ? "Ja existeix una entitat similar:"
+                  : "Ja existeixen entitats similars:"
+              }}
+            </p>
+            <ul class="list-disc list-inside mt-1">
+              <li v-for="match in duplicateMatches" :key="match.shortName">
+                {{ `${match.shortName} (${match.municipality})` }}
+              </li>
+            </ul>
+            <p class="mt-1">
+              Pots enviar la proposta igualment si es tracta d'una entitat
+              diferent.
+            </p>
+          </template>
+        </UAlert>
 
-      <p class="text-xs text-gray-500 dark:text-gray-400">
-        Aquest lloc està protegit per reCAPTCHA i s'apliquen la
-        <a
-          href="https://policies.google.com/privacy"
-          class="underline hover:text-primary"
-          target="_blank"
-          rel="noopener"
-          >Política de privadesa</a
-        >
-        i les
-        <a
-          href="https://policies.google.com/terms"
-          class="underline hover:text-primary"
-          target="_blank"
-          rel="noopener"
-          >Condicions del servei</a
-        >
-        de Google.
-      </p>
+        <div class="flex flex-col gap-4">
+          <p class="font-medium">Enllaços</p>
+          <p class="text-sm text-gray-600 dark:text-gray-400 -mt-2">
+            Cal proporcionar almenys un enllaç (lloc web o xarxes socials).
+          </p>
 
-      <UButton
-        type="submit"
-        label="Enviar proposta"
-        :loading="isSubmitting"
-        :disabled="isSubmitting || !recaptchaToken || recaptchaLoadError"
-        class="self-start"
-      />
-    </UForm>
+          <UFormField label="Lloc web" name="website">
+            <UInput
+              v-model="state.website"
+              type="url"
+              placeholder="https://..."
+              class="w-full"
+            />
+          </UFormField>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <UFormField label="Facebook" name="facebook">
+              <UInput
+                v-model="state.facebook"
+                type="url"
+                placeholder="https://www.facebook.com/..."
+                class="w-full"
+              />
+            </UFormField>
+
+            <UFormField label="Instagram" name="instagram">
+              <UInput
+                v-model="state.instagram"
+                type="url"
+                placeholder="https://www.instagram.com/..."
+                class="w-full"
+              />
+            </UFormField>
+
+            <UFormField label="TikTok" name="tiktok">
+              <UInput
+                v-model="state.tiktok"
+                type="url"
+                placeholder="https://www.tiktok.com/..."
+                class="w-full"
+              />
+            </UFormField>
+
+            <UFormField label="Twitter / X" name="twitter">
+              <UInput
+                v-model="state.twitter"
+                type="url"
+                placeholder="https://x.com/..."
+                class="w-full"
+              />
+            </UFormField>
+          </div>
+        </div>
+
+        <UButton
+          type="submit"
+          label="Enviar proposta"
+          :loading="isSubmitting"
+          :disabled="isSubmitting"
+          class="self-start"
+        />
+      </UForm>
+    </div>
   </div>
 </template>

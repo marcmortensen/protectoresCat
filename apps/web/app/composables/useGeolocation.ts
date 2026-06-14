@@ -53,6 +53,43 @@ function idToRegionSlug(idescatId: string | null | undefined) {
   return IDESCAT_ID_TO_REGION_SLUG[idescatId] || null;
 }
 
+const ICGC_BASE = "https://eines.icgc.cat/geocodificador/invers";
+
+type IcgcProperties = {
+  comarca?: string;
+  id_comarca?: string;
+};
+
+async function reverseGeocode(
+  lat: number,
+  lon: number
+): Promise<{ region: string; regionId: string | null }> {
+  const url = new URL(ICGC_BASE);
+  url.searchParams.set("lat", String(lat));
+  url.searchParams.set("lon", String(lon));
+  url.searchParams.set("layers", "address,topo1");
+  url.searchParams.set("size", "5");
+
+  const res = await fetch(url, { headers: { Accept: "application/json" } });
+  if (!res.ok) throw new Error("ICGC error");
+
+  const data = (await res.json()) as {
+    features?: { properties?: IcgcProperties }[];
+  };
+
+  for (const feature of data.features ?? []) {
+    const region = feature.properties?.comarca;
+    if (region && region !== "-") {
+      return {
+        region,
+        regionId: feature.properties?.id_comarca ?? null,
+      };
+    }
+  }
+
+  throw new Error("No region found");
+}
+
 export function useGeolocation() {
   const locating = ref(false);
 
@@ -88,10 +125,7 @@ export function useGeolocation() {
     locating.value = true;
     try {
       const { lat, lon } = await getCurrentPositionCoords();
-      const res = await $fetch<{ region: string; regionId: string | null }>(
-        "/api/icgc-reverse",
-        { query: { lat, lon } }
-      );
+      const res = await reverseGeocode(lat, lon);
       return idToRegionSlug(res.regionId);
     } catch {
       return null;

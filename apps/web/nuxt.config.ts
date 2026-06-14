@@ -1,22 +1,41 @@
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import content from "@originjs/vite-plugin-content";
 import tailwindcss from "@tailwindcss/vite";
 
+function getOrganizationPrerenderRoutes(rootDir: string): string[] {
+  const contentDir = join(rootDir, "content/organizations");
+  const routes: string[] = [];
+
+  for (const file of readdirSync(contentDir)) {
+    if (!file.endsWith(".json")) continue;
+
+    const raw = readFileSync(join(contentDir, file), "utf-8");
+    const org = JSON.parse(raw) as { slug?: string; isActive?: boolean };
+
+    if (org.isActive !== false && org.slug) {
+      routes.push(`/organizations/${org.slug}`);
+    }
+  }
+
+  return routes;
+}
+
+function isOrganizationsFilterPrerenderPath(path: string): boolean {
+  const [pathname] = path.split("?");
+  return pathname === "/organizations" && path.includes("?");
+}
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true,
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL || "https://adoptar.cat",
     name: "Adopta a Catalunya",
     defaultLocale: "ca",
   },
   runtimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN,
-    githubRepoOwner: process.env.GITHUB_REPO_OWNER || "marcmortensen",
-    githubRepoName: process.env.GITHUB_REPO_NAME || "protectoresCat",
-    recaptchaSecretKey: process.env.RECAPTCHA_SECRET_KEY,
     public: {
       googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
-      recaptchaSiteKey: process.env.NUXT_PUBLIC_RECAPTCHA_SITE_KEY || "",
     },
   },
   devtools: { enabled: true },
@@ -90,15 +109,30 @@ export default defineNuxtConfig({
       },
     },
   },
-  routeRules: {
-    "/api/organizations/suggest": {
-      security: {
-        rateLimiter: {
-          tokensPerInterval: 10,
-          interval: 3_600_000,
-        },
-      },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/sitemap.xml", "/robots.txt", "/organizations"],
+      ignore: [isOrganizationsFilterPrerenderPath],
     },
+  },
+  hooks: {
+    "nitro:config"(nitroConfig) {
+      const rootDir = nitroConfig.rootDir ?? process.cwd();
+      const orgRoutes = getOrganizationPrerenderRoutes(rootDir);
+
+      nitroConfig.prerender = nitroConfig.prerender ?? {};
+      nitroConfig.prerender.routes = [
+        ...(Array.isArray(nitroConfig.prerender.routes)
+          ? nitroConfig.prerender.routes
+          : []),
+        ...orgRoutes,
+      ];
+    },
+  },
+  routeRules: {
+    "/**": { prerender: true },
+    "/api/**": { prerender: false },
   },
   security: {
     headers: {

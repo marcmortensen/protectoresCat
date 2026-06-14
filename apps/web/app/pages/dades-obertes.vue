@@ -4,15 +4,6 @@ import type { PublicOrganizationsBundle } from "~/types/publicOrganizations";
 const dataJsonUrl = "/data/organizations/data.json";
 const schemaJsonUrl = "/data/organizations/schema.json";
 
-const { data, pending, error } =
-  useFetch<PublicOrganizationsBundle>("/api/data");
-
-const exampleOrgJson = computed(() => {
-  if (!data.value) return "";
-  const orgs = data.value?.organizations;
-  return JSON.stringify({ ...data.value, organizations: [orgs[0]] }, null, 2);
-});
-
 useAppSeo({
   title: "Dades obertes",
   description:
@@ -178,24 +169,6 @@ defineRouteRules({
           >Avís legal</NuxtLink
         >.
       </p>
-    </section>
-    <section class="flex flex-col gap-2">
-      <h2 class="text-2xl">Exemple de dades:</h2>
-      <p v-if="pending" class="text-gray-600 dark:text-gray-400">
-        S’està carregant l’exemple…
-      </p>
-      <p
-        v-else-if="error || !exampleOrgJson"
-        class="text-gray-600 dark:text-gray-400"
-      >
-        No s’ha pogut carregar l’exemple des de /data/data.json. Proveu més tard
-        o baixeu el fitxer enllaçat més amunt.
-      </p>
-      <pre
-        v-else
-        class="overflow-x-auto rounded border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-900 p-4 text-xs leading-relaxed font-mono"
-        >{{ exampleOrgJson }}</pre
-      >
     </section>
   </div>
 </template>
