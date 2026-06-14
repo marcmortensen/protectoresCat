@@ -1,7 +1,7 @@
 [build]
 base = "apps/web"
 publish = ".output/public"
-command = "pnpm run build-netlify"
+command = "pnpm rebuild better-sqlite3 && pnpm --filter @protectorescat/web build-netlify"
 
 [build.environment]
   NODE_VERSION = "22"
