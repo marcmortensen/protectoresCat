@@ -86,15 +86,7 @@ defineRouteRules({
   <div
     class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
   >
-    <UAccordion
-      :items="items"
-      :multiple="false"
-      :unmount-on-hide="false"
-      class="lg:px-4 px-2"
-    >
-      <template #default="{ item }">
-        <h2 class="text-base font-semibold">{{ item.label }}</h2>
-      </template>
+    <UAccordion :items="items" :multiple="false" class="lg:px-4 px-2">
       <template #body="{ item }">
         <div v-html="item.description" />
       </template>
