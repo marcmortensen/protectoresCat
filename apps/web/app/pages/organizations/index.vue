@@ -9,7 +9,6 @@ import {
 import { buildSuggestOrganizationQuery } from "~/utils/suggestOrganizationQuery";
 
 const route = useRoute();
-const router = useRouter();
 const { trackEvent } = useGtag();
 
 const typeOfAnimal = [
@@ -108,22 +107,24 @@ const organizationsRoute = (
   ),
 });
 
-const page = computed({
-  get() {
-    const value = route.query[QueryParam.PAGE];
-    const raw = Array.isArray(value) ? value[0] : value;
-    const parsed = Number(raw);
-    return Number.isFinite(parsed) && parsed > 0 ? parsed : 1;
-  },
-  set(pageNumber: number) {
-    router.push(organizationsRoute({ page: pageNumber }));
-  },
+const page = useRouteQuery(QueryParam.PAGE, "1", {
+  mode: "push",
+  transform: { get: Number, set: String },
 });
 
+const isRouteOrganizations = computed(() => route.name === "organizations");
+const isRouteLeaving = ref(false);
+
+onBeforeRouteLeave(() => {
+  isRouteLeaving.value = true;
+});
+
+const canModifyRoute = () =>
+  isRouteOrganizations.value && !isRouteLeaving.value;
+
 const resetPage = () => {
-  if (page.value !== 1) {
-    router.push(organizationsRoute({ page: 1 }));
-  }
+  if (!canModifyRoute()) return;
+  page.value = 1;
 };
 
 watch(
@@ -214,6 +215,7 @@ watch(
 watch(
   () => data.value.orgsCount,
   (count) => {
+    if (!canModifyRoute()) return;
     const maxPage = Math.max(1, Math.ceil(count / ITEMS_PER_PAGE));
     if (page.value > maxPage) {
       page.value = maxPage;
@@ -280,11 +282,7 @@ const hasAdjacentRegions = computed(
 
 const expandRegionsTo = computed(() => {
   const regionSlug = regions.value[0];
-  if (
-    regions.value.length !== 1 ||
-    !regionSlug ||
-    !hasAdjacentRegions.value
-  ) {
+  if (regions.value.length !== 1 || !regionSlug || !hasAdjacentRegions.value) {
     return undefined;
   }
 
@@ -552,7 +550,7 @@ useSchemaOrg([
             <UAlert
               color="neutral"
               variant="outline"
-              icon="i-lucide-search-x"
+              icon="i-lucide-search"
               :ui="{
                 description: 'text-base text-gray-600 dark:text-gray-300',
                 icon: 'size-6',

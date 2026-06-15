@@ -11,10 +11,17 @@ const onClick = () => {
 };
 
 const route = useRoute();
-
-const { history } = useRouter().options;
+const router = useRouter();
 
 const slug = computed(() => route.params.slug as string);
+
+function goBack() {
+  if (router.options.history.state.back) {
+    router.back();
+    return;
+  }
+  router.push({ name: "organizations" });
+}
 
 const { data: org, pending: orgPending } = useOrganization(slug);
 
@@ -179,7 +186,7 @@ useSchemaOrg([
           size="md"
           color="primary"
           variant="soft"
-          :to="(history.state.back as string) || { name: 'organizations' }"
+          @click="goBack"
         />
       </ClientOnly>
     </div>
