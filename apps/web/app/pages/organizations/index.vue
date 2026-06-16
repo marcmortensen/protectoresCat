@@ -358,7 +358,7 @@ useSchemaOrg([
     itemListElement: computed(() =>
       (data.value?.orgs || []).map((org, idx) => ({
         "@type": "ListItem",
-        position: idx + 1,
+        position: (page.value - 1) * ITEMS_PER_PAGE + idx + 1,
         url: `${site.url}/organizations/${org.slug}`,
         name: org.shortName,
         alternateName: org.name,
