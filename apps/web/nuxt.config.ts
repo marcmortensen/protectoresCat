@@ -35,7 +35,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
+      googleAnalyticsId: process.env.NUXT_PUBLIC_GOOGLE_ANALYTICS_ID,
+      web3formsAccessKey: process.env.NUXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
     },
   },
   devtools: { enabled: true },
@@ -148,12 +149,23 @@ export default defineNuxtConfig({
           "'strict-dynamic'",
           "'nonce-{{nonce}}'",
           "'wasm-unsafe-eval'",
+          "https://hcaptcha.com",
+          "https://*.hcaptcha.com",
         ],
-        // needed for recaptcha
+        "connect-src": [
+          "'self'",
+          "https://api.web3forms.com",
+          "https://hcaptcha.com",
+          "https://*.hcaptcha.com",
+          "https://api.iconify.design",
+          "https://www.google-analytics.com",
+          "https://*.google-analytics.com",
+          "https://analytics.google.com",
+        ],
         "frame-src": [
           "'self'",
-          "https://www.google.com",
-          "https://www.gstatic.com",
+          "https://hcaptcha.com",
+          "https://*.hcaptcha.com",
         ],
       },
     },

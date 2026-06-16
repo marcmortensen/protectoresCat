@@ -59,7 +59,6 @@ defineRouteRules({
               :href="schemaJsonUrl"
               class="font-semibold hover:text-primary break-all"
               target="_blank"
-              rel="noopener noreferrer"
               >https://adoptar.cat/data/organizations/schema.json</a
             >.
           </p>
@@ -67,10 +66,9 @@ defineRouteRules({
             class="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-stretch"
           >
             <UButton
-              :to="schemaJsonUrl"
+              :href="schemaJsonUrl"
               external
               target="_blank"
-              rel="noopener noreferrer"
               icon="i-lucide-external-link"
               label="Obrir"
               size="sm"
@@ -78,7 +76,7 @@ defineRouteRules({
               class="w-full justify-center sm:w-auto sm:min-w-48"
             />
             <UButton
-              :to="schemaJsonUrl"
+              :href="schemaJsonUrl"
               external
               download="schema.json"
               icon="i-lucide-download"
@@ -100,7 +98,6 @@ defineRouteRules({
               :href="dataJsonUrl"
               class="font-semibold hover:text-primary break-all"
               target="_blank"
-              rel="noopener noreferrer"
               >https://adoptar.cat/data/organizations/data.json</a
             >.
           </p>
@@ -108,10 +105,9 @@ defineRouteRules({
             class="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-stretch"
           >
             <UButton
-              :to="dataJsonUrl"
+              :href="dataJsonUrl"
               external
               target="_blank"
-              rel="noopener noreferrer"
               icon="i-lucide-external-link"
               label="Obrir"
               size="sm"
@@ -119,7 +115,7 @@ defineRouteRules({
               class="w-full justify-center sm:w-auto sm:min-w-48"
             />
             <UButton
-              :to="dataJsonUrl"
+              :href="dataJsonUrl"
               external
               download="data.json"
               icon="i-lucide-download"
