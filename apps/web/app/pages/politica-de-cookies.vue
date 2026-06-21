@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { isModalActive } = useCookieControl();
 useAppSeo({
   title: "Política de cookies",
   description:
@@ -8,7 +9,7 @@ useAppSeo({
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2025-05-25T00:00:00.000Z",
+    lastmod: "2026-06-21T00:00:00.000Z",
     changefreq: "yearly",
     priority: 0.3,
   },
@@ -64,8 +65,17 @@ defineRouteRules({
       </ul>
       <p>
         Pots accedir al panell de configuració de cookies en qualsevol moment
-        clicant al botó <strong>“Configuració de cookies”</strong> present al
-        lloc web.
+        clicant al botó
+        <UButton
+          @click="isModalActive = true"
+          icon="i-lucide-cookie"
+          icon-only
+          class="cursor-pointer"
+          color="neutral"
+          variant="ghost"
+          aria-label="Configuració de cookies"
+        />
+        present al lloc web.
       </p>
     </section>
 
