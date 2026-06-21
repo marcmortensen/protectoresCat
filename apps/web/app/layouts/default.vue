@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { FooterColumn } from "@nuxt/ui";
 const mobileMenuOpen = ref(false);
 
 const { isModalActive } = useCookieControl();
@@ -28,6 +29,73 @@ const isDark = computed({
     colorMode.preference = _isDark ? "dark" : "light";
   },
 });
+
+const columns: FooterColumn[] = [
+  {
+    label: "Informació",
+    children: [
+      {
+        label: "Dades obertes",
+        icon: "i-lucide-book-open-text",
+        to: { name: "dades-obertes" },
+      },
+      {
+        label: "IA friendly",
+        icon: "i-lucide-bot",
+        href: "/llms-full.txt",
+        target: "_blank",
+      },
+      {
+        label: "Codi font",
+        icon: "i-lucide-code",
+        href: "https://github.com/marcmortensen/protectoresCat",
+        target: "_blank",
+        external: true,
+      },
+    ],
+  },
+  {
+    label: "Legal",
+    children: [
+      {
+        label: "Nota legal",
+        to: { name: "nota-legal" },
+        icon: "i-lucide-file-text",
+      },
+      {
+        label: "Política de privacitat",
+        to: { name: "politica-de-privacitat" },
+        icon: "i-lucide-shield-check",
+      },
+      {
+        label: "Política de cookies",
+        to: { name: "politica-de-cookies" },
+        icon: "i-lucide-cookie",
+      },
+    ],
+  },
+  {
+    label: "Ajuda",
+    children: [
+      {
+        label: "Preguntes freqüents",
+        icon: "i-lucide-circle-question-mark",
+        to: { name: "faq" },
+      },
+      {
+        label: "Proposar una entitat",
+        icon: "i-lucide-plus",
+        to: { name: "suggest-organization" },
+      },
+      {
+        label: "Contacta amb nosaltres",
+        icon: "i-lucide-mail",
+        href: "mailto:info@adoptar.cat",
+        external: true,
+      },
+    ],
+  },
+];
 </script>
 <template>
   <div class="relative">
@@ -132,68 +200,53 @@ const isDark = computed({
         </template>
       </USlideover>
     </header>
-    <main class="min-h-screen-height-header bg-gray-50 dark:bg-gray-800">
+    <main class="min-h-screen-height-header bg-gray-50 dark:bg-gray-800 pb-12">
       <slot />
     </main>
-    <footer
+
+    <UFooter
       class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700"
     >
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <div
-          class="flex flex-col lg:flex-row sm:items-center justify-between gap-4"
-        >
-          <div
-            class="text-xs text-gray-400 dark:text-white text-left sm:text-right mt-2 sm:mt-0 px-2.5 py-1.5"
-          >
-            Adoptar.cat © {{ new Date().getFullYear() }} — Informativa i sense
-            ànim de lucre
-          </div>
-          <div
-            class="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 text-sm"
-          >
-            <NuxtLink
-              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
-              active-class="text-primary"
-              :to="{ name: 'dades-obertes' }"
-              >Dades obertes</NuxtLink
-            >
-            <UButton
-              class="text-gray-600 dark:text-white hover:text-primary"
-              variant="link"
-              icon="i-lucide-github"
-              to="https://github.com/marcmortensen/protectoresCat"
-              target="_blank"
-              no-rel
-              aria-label="GitHub"
-              label="GitHub"
-            />
-            <NuxtLink
-              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
-              active-class="text-primary"
-              :to="{ name: 'nota-legal' }"
-              >Nota legal</NuxtLink
-            >
-            <NuxtLink
-              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
-              active-class="text-primary"
-              :to="{ name: 'politica-de-privacitat' }"
-              >Política de privacitat</NuxtLink
-            >
-            <NuxtLink
-              class="text-gray-600 dark:text-white hover:text-primary flex items-center"
-              active-class="text-primary"
-              :to="{ name: 'politica-de-cookies' }"
-              >Política de cookies</NuxtLink
-            >
-            <UButton
-              class="text-gray-600 dark:text-white hover:text-primary cursor-pointer"
-              variant="link"
-              label="Configuració de cookies"
-              @click="isModalActive = true"
-            />
-          </div>
-        </div>
-      </div>
-    </footer>
+      <template #top>
+        <UContainer>
+          <UFooterColumns :columns="columns">
+            <template #left>
+              <div class="flex flex-col gap-2">
+                <p class="text-muted text-sm">
+                  Adoptar.cat © {{ new Date().getFullYear() }} — Informativa i
+                  sense ànim de lucre.
+                </p>
+                <div class="flex gap-2">
+                  <UButton
+                    icon="i-lucide-cookie"
+                    color="neutral"
+                    variant="ghost"
+                    @click="isModalActive = true"
+                    class="cursor-pointer"
+                    aria-label="Política de cookies"
+                  />
+                  <UButton
+                    icon="i-lucide-mail"
+                    color="neutral"
+                    variant="ghost"
+                    href="mailto:info@adoptar.cat"
+                    aria-label="Email"
+                    no-rel
+                  />
+                  <UButton
+                    icon="i-simple-icons-github"
+                    color="neutral"
+                    variant="ghost"
+                    href="https://github.com/marcmortensen/protectoresCat"
+                    aria-label="GitHub"
+                    no-rel
+                  />
+                </div>
+              </div>
+            </template>
+          </UFooterColumns>
+        </UContainer>
+      </template>
+    </UFooter>
   </div>
 </template>
