@@ -11,17 +11,16 @@ const items = [
   },
   {
     label: "Com puc contribuir?",
-    description: `<p>Si vols contribuir <a class="font-semibold hover:text-primary" href='https://github.com/marcmortensen/protectoresCat' rel='noopener' target='_blank'> al recull</a>, pots fer-ho de diverses maneres: afegint entrades noves, corregint dades errònies, fent difusió de la plana.</p>`,
+    description: `<p>Si vols contribuir <a class="font-semibold hover:text-primary" href='https://github.com/marcmortensen/protectoresCat' rel='noopener' target='_blank'> al recull</a>, pots fer-ho de diverses maneres: <a class="font-semibold hover:text-primary" href="/suggest-organization">afegint entrades noves</a>, notificant de dades errònies, fent difusió de la plana.</p>`,
   },
   {
-    label: "Com a entitat que surt al recull, què s'espera?",
+    label: "Com a entitat que surt al recull, què s'espera de mi?",
     description:
       "<p>Res. Fora de l'autorització de l'ús del vostre logotip, no us demanarem res més. Mantenir la vostra informació actualitzada és feina nostra. No hi ha cap compromís participatiu ni econòmic per part vostra.</p>",
   },
   {
     label: "No vull sortir al recull, què puc fer?",
-    description:
-      "<p>Si no vols sortir al recull, pots contactar amb nosaltres a info@adoptar.cat i eliminarem la teva entrada.</p>",
+    description: `<p>Si no vols sortir al recull, pots contactar amb nosaltres a <a class="hover:text-primary" href='mailto:info@adoptar.cat'>info@adoptar.cat</a> i eliminarem la teva entrada.</p>`,
   },
   {
     label: "Per què no hi ha més entrades?",
@@ -30,13 +29,11 @@ const items = [
   },
   {
     label: "Com afegir una nova entrada al llistat?",
-    description:
-      '<p>Si coneixes una entitat que permet adopcions i que no és al nostre llistat, pots contactar amb nosaltres a info@adoptar.cat o bé <a class="font-semibold hover:text-primary" href="/suggest-organization">proposar-la des d\'aquest formulari</a>.</p>',
+    description: `<p>Si coneixes una entitat que permet adopcions i que no és al nostre llistat, pots contactar amb nosaltres a <a class="hover:text-primary" href='mailto:info@adoptar.cat'>info@adoptar.cat</a> o bé <a class="font-semibold hover:text-primary" href="/suggest-organization">proposar-la des d\'aquest formulari</a>.</p>`,
   },
   {
-    label: "M'he trobat un error, què he de fer?",
-    description:
-      "<p>Si trobes un error, si us plau, contacta amb nosaltres a info@adoptar.cat, proporcionant tanta informació com sigui possible per ajudar-nos a reproduir el problema.</p>",
+    label: "M'he trobat un error, com ho puc notificar?",
+    description: `<p>Si trobes un error, si us plau, contacta amb nosaltres a <a class="hover:text-primary" href='mailto:info@adoptar.cat'>info@adoptar.cat</a>, proporcionant tanta informació com sigui possible per ajudar-nos a reproduir el problema.</p>`,
   },
   {
     label: "Podeu afegir més regions d'Espanya?",
@@ -75,7 +72,7 @@ useSchemaOrg([
 
 defineRouteRules({
   sitemap: {
-    lastmod: "2026-06-14T00:00:00.000Z",
+    lastmod: "2026-06-21T00:00:00.000Z",
     changefreq: "monthly",
     priority: 0.3,
   },
@@ -86,10 +83,26 @@ defineRouteRules({
   <div
     class="bg-white dark:bg-gray-800 p-6 max-w-4xl mx-auto rounded shadow flex flex-col gap-4"
   >
-    <UAccordion :items="items" :multiple="false" class="lg:px-4 px-2">
-      <template #body="{ item }">
-        <div v-html="item.description" />
-      </template>
-    </UAccordion>
+    <header class="flex flex-col gap-3">
+      <h1 class="text-3xl">Preguntes freqüents</h1>
+      <p>
+        Aquí trobaràs les preguntes més freqüents que rebem habitualment. Si no
+        hi trobes la resposta que busques, no dubtis a contactar amb nosaltres a
+        <a class="text-primary" href="mailto:info@adoptar.cat"
+          >info@adoptar.cat</a
+        >.
+      </p>
+    </header>
+    <section class="space-y-6 mt-2">
+      <article v-for="(item, index) in items" :key="item.label">
+        <h2 class="text-lg font-medium text-gray-900 dark:text-white">
+          {{ index + 1 }}. {{ item.label }}
+        </h2>
+
+        <div class="mt-1 prose max-w-none">
+          <div v-html="item.description" />
+        </div>
+      </article>
+    </section>
   </div>
 </template>
