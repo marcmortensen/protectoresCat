@@ -214,46 +214,46 @@ const columns: FooterColumn[] = [
     <UFooter
       class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700"
     >
-      <template #top>
-        <UContainer>
-          <UFooterColumns :columns="columns">
-            <template #left>
-              <div class="flex flex-col gap-2">
-                <p class="text-muted text-sm">
-                  Adoptar.cat © {{ new Date().getFullYear() }} — Informativa i
-                  sense ànim de lucre.
-                </p>
-                <div class="flex gap-2">
-                  <UButton
-                    icon="i-lucide-cookie"
-                    color="neutral"
-                    variant="ghost"
-                    @click="isModalActive = true"
-                    class="cursor-pointer"
-                    aria-label="Política de cookies"
-                  />
-                  <UButton
-                    icon="i-lucide-mail"
-                    color="neutral"
-                    variant="ghost"
-                    href="mailto:info@adoptar.cat"
-                    aria-label="Email"
-                    no-rel
-                  />
-                  <UButton
-                    icon="i-simple-icons-github"
-                    color="neutral"
-                    variant="ghost"
-                    href="https://github.com/marcmortensen/protectoresCat"
-                    aria-label="GitHub"
-                    no-rel
-                  />
-                </div>
+      <UContainer>
+        <UFooterColumns :columns="columns" class="lg:py-4">
+          <template #left>
+            <div class="flex flex-col gap-2">
+              <p
+                class="flex gap-2 justify-center lg:justify-start text-muted text-sm"
+              >
+                Adoptar.cat © {{ new Date().getFullYear() }} — Informativa i
+                sense ànim de lucre.
+              </p>
+              <div class="flex gap-2 justify-center lg:justify-start">
+                <UButton
+                  icon="i-lucide-cookie"
+                  color="neutral"
+                  variant="ghost"
+                  @click="isModalActive = true"
+                  class="cursor-pointer"
+                  aria-label="Política de cookies"
+                />
+                <UButton
+                  icon="i-lucide-mail"
+                  color="neutral"
+                  variant="ghost"
+                  href="mailto:info@adoptar.cat"
+                  aria-label="Email"
+                  no-rel
+                />
+                <UButton
+                  icon="i-simple-icons-github"
+                  color="neutral"
+                  variant="ghost"
+                  href="https://github.com/marcmortensen/protectoresCat"
+                  aria-label="GitHub"
+                  no-rel
+                />
               </div>
-            </template>
-          </UFooterColumns>
-        </UContainer>
-      </template>
+            </div>
+          </template>
+        </UFooterColumns>
+      </UContainer>
     </UFooter>
   </div>
 </template>
