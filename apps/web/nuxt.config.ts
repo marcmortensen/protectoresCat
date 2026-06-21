@@ -161,6 +161,7 @@ export default defineNuxtConfig({
           "https://www.google-analytics.com",
           "https://*.google-analytics.com",
           "https://analytics.google.com",
+          "https://eines.icgc.cat/geocodificador/invers",
         ],
         "frame-src": [
           "'self'",
