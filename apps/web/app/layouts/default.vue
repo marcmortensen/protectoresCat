@@ -105,7 +105,8 @@ const columns: FooterColumn[] = [
     >
       <nav
         class="flex items-center justify-between py-1 h-header gap-7"
-        aria-label="Global"
+        aria-label="Navegació principal"
+        id="main-navigation"
       >
         <div
           class="xl:absolute xl:top-0 xl:left-2 block ml-3 xl:ml-0 bg-white dark:bg-gray-900 transition-normal duration-200"
@@ -128,7 +129,11 @@ const columns: FooterColumn[] = [
             icon="i-lucide-menu"
             size="lg"
             @click="mobileMenuOpen = true"
-          />
+            aria-label="Obrir menú"
+            :aria-expanded="mobileMenuOpen"
+            aria-controls="mobile-navigation"
+          >
+          </UButton>
         </div>
         <div class="hidden">
           <NuxtLink
@@ -173,6 +178,8 @@ const columns: FooterColumn[] = [
         v-model:open="mobileMenuOpen"
         class="lg:hidden"
         title="Menú"
+        aria-label="Menú de navegació mòbil"
+        id="mobile-navigation"
       >
         <template #body>
           <div class="flex flex-col text-gray-900 dark:text-white">
